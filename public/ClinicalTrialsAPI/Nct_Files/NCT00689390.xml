@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="11">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00689390</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05063</org_study_id>
+    <secondary_id>2006-006529-25</secondary_id>
+    <nct_id>NCT00689390</nct_id>
+  </id_info>
+  <brief_title>Three-year Follow-up of Participants After Administration of Boceprevir or Narlaprevir for the Treatment of Chronic Hepatitis C (P05063)</brief_title>
+  <official_title>Long-Term Follow-Up of Subjects in a Phase 1, 2, or 3 Clinical Trial in Which Boceprevir or Narlaprevir Was Administered for the Treatment of Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Study P05063 is a 3-year long-term follow-up (LTFU) study in participants previously treated
+      with boceprevir (BOC) or narlaprevir (NAR) in a Phase 1, 2, or 3 clinical study.
+      Participants will be followed for up to 3.5 years after the end of their participation in
+      the treatment protocol to document maintenance of the antiviral response (for sustained
+      responders) and to characterize the long-term safety after use of this therapeutic regimen.
+      LTFU procedures include collection of plasma samples for measuring Hepatitis C Virus
+      ribonucleic acid (HCV-RNA) by polymerase chain reaction (PCR) and HCV sequence analysis. No
+      drug therapy will be administered as part of this study.
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    The study was terminated due to satisfaction of post-marketing commitments
+  </why_stopped>
+  <start_date>February 2007</start_date>
+  <completion_date type="Actual">October 2014</completion_date>
+  <primary_completion_date type="Actual">October 2014</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label</study_design>
+  <primary_outcome>
+    <measure>Number of Participants With Relapse During the LTFU Among Sustained Responders From Previous Treatment Studies With Boceprevir or Narlaprevir (Durability of Virologic Response)</measure>
+    <time_frame>From End Of Treatment (EOT) date in the previous treatment study to the first date of a positive HCV RNA result for relapsers or the last contact date for non-relapsers in the LTFU (up to 3.5 years)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Durability of response was assessed by the number of participants who relapsed during the LTFU among those that had achieved sustained virologic response (SVR) by 24 weeks after treatment with boceprevir or narlaprevir in a previous Phase 1, 2, or 3 treatment study. In the current LTFU, participants were classified based on the last Hepatitis C Virus ribonucleic acid (HCV-RNA) result available at the time of the data cut-off date as follows: A participant was classified as a sustained virologic responder at a given time point if serum HCV-RNA was undetectable at that time point and there had not been a positive HCV-RNA since the participant was determined to have achieved SVR in the previous study. A participant was classified as a relapser if they were a sustained virologic responder in the previous treatment study and became serum HCV-RNA positive with no subsequent negative results during LTFU.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Kaplan-Meier Exposure-adjusted Relapse Rate</measure>
+    <time_frame>From EOT date in the previous treatment study to the first date of a positive HCV RNA result for relapsers or the last contact date for non-relapsers in the LTFU (up to 3.5 years)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The distribution of time to relapse was summarized using Kaplan-Meier estimates for all participants who were sustained responders at 24 weeks post-treatment in the previous study. Exposure Adjusted Relapse Rate = 1000 × (number of relapses) / (Total exposure time in years). Total exposure time in years = [(total number of days from last day of treatment to the last follow-up day for all subjects who did not relapse) + (total number of days from last day of treatment to the day of relapse for those who relapsed)] / 365.25 days [for 1 year].</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants With HCV Treatment-Emergent Resistance Associated Variants (TE-RAVs) of NS3/4A Protease Loci</measure>
+    <time_frame>From EOT in the previous treatment study to the last available date in the LTFU (up to 3.5 years)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Plasma samples of all participants receiving at least one dose of study medication in a previous treatment protocol were evaluated by population sequencing and analyzed to detect amino acid variants in the NS3/4A protease known to be associated with reduced susceptibility to boceprevir and narlaprevir. RAVs in the NS3/4A protease gene were evaluated at 12 loci (V36, Q41, F43, T54, V55, V107, R155, A156, V158, D168, I/V170 and M175) on the basis of in vitro studies. A TE-RAV was defined as a RAV not present at baseline and that had not returned to wild type (WT) while the participant was still on treatment. The number of participants with TE-RAVS detected at the EOT in the previous treatment study are reported below, followed by those participants with TE-RAVS that returned to WT during the LTFU (among those with detected TE-RAVS).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants With Serious Adverse Events (SAEs) Reported During the LTFU</measure>
+    <time_frame>From enrollment in the LTFU study to the last available date in the LTFU study (up to 3 years)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Long-term safety was assessed based on the SAEs reported during the LTFU period. An SAE was any adverse drug or biologic or device experience occurring at any dose that resulted in any of the following outcomes: death, life-threatening AE, persistent or significant disability/incapacity, required in-patient hospitalization or prolongs hospitalization, congenital anomaly or birth defect. Important medical events that did not result in any of these outcomes could still be considered SAEs if they jeopardized the participant and/or required medical/surgical intervention, based on appropriate medical judgment. Grade 4 laboratory abnormalities and out of normal range liver function tests that were not accompanied by clinical manifestations were NOT considered SAEs.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants That Discontinued the LTFU Due to SAEs</measure>
+    <time_frame>From enrollment in the LTFU study to the last available date in the LTFU study (up to 3 years)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An SAE was any adverse drug or biologic or device experience occurring at any dose that resulted in any of the following outcomes: death, life-threatening AE, persistent or significant disability/incapacity, required in-patient hospitalization or prolongs hospitalization, congenital anomaly or birth defect. Important medical events that did not result in any of these outcomes could still be considered SAEs if they jeopardized the participant and/or required medical/surgical intervention, based on appropriate medical judgment. Grade 4 laboratory abnormalities and out of normal range liver function tests that were not accompanied by clinical manifestations were NOT considered SAEs.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">1954</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Hepacivirus</condition>
+  <arm_group>
+    <arm_group_label>Participants from Boceprevir Studies</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Participants who previously participated in treatment studies in which boceprevir was administered were subsequently enrolled in Part 1 of the current follow-up study P05063 (NCT00689390). Participants may have received boceprevir or control peginterferon plus ribavirin (PR) in the previous treatment study. No treatment was administered in the current follow-up study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Participants from Narlaprevir Studies</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Participants who previously participated in treatment studies in which narlaprevir was administered were subsequently enrolled in Part 2 of the current follow-up study P05063 (NCT00689390). Participants may have received narlaprevir or control PR in the previous treatment study. No treatment was administered in the current follow-up study.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <description>In previous treatment studies, boceprevir was administered as specified by the protocol. No treatment was administered on the current follow-up study (P05063, NCT00689390).</description>
+    <arm_group_label>Participants from Boceprevir Studies</arm_group_label>
+    <other_name>SCH 503034</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Narlaprevir</intervention_name>
+    <description>In previous treatment studies, narlaprevir was administered as specified by the protocol. No treatment was administered on the current follow-up study (P05063, NCT00689390).</description>
+    <arm_group_label>Participants from Narlaprevir Studies</arm_group_label>
+    <other_name>SCH 900518</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b</intervention_name>
+    <description>In previous treatment studies, peginterferon alfa-2b was administered as specified by the protocol. No treatment was administered on the current follow-up study (P05063, NCT00689390).</description>
+    <arm_group_label>Participants from Boceprevir Studies</arm_group_label>
+    <arm_group_label>Participants from Narlaprevir Studies</arm_group_label>
+    <other_name>PEG-Intron®</other_name>
+    <other_name>SCH 054031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>In previous treatment studies, ribavirin was administered as specified by the protocol. No treatment was administered on the current follow-up study (P05063, NCT00689390).</description>
+    <arm_group_label>Participants from Boceprevir Studies</arm_group_label>
+    <arm_group_label>Participants from Narlaprevir Studies</arm_group_label>
+    <other_name>Rebetol®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Blood/Plasma Collection</intervention_name>
+    <description>Blood samples were collected at all visits during the LTFU for blood chemistry and hematology. Plasma samples were collected at all visits as appropriate from participants who were sustained responders at the end of FU in the previous treatment protocol for HCV-RNA PCR and HCV sequence analysis.</description>
+    <arm_group_label>Participants from Boceprevir Studies</arm_group_label>
+    <arm_group_label>Participants from Narlaprevir Studies</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participant must be willing to give written informed consent and be able to adhere to
+             the visit schedule.
+
+          -  Participant must have received at least one dose of boceprevir or narlaprevir in a
+             previous Phase 1, 2, or 3 clinical study.
+
+        Exclusion Criteria:
+
+          -  Concurrent participation in any other clinical study for the treatment of chronic
+             hepatitis C.
+
+          -  Retreatment with any antiviral or immunomodulatory drug for chronic hepatitis C after
+             completion of, or discontinuation from, the SPRI Phase 1, 2, or 3 clinical study in
+             which the participant previously participated.
+
+          -  Any condition which in the opinion of the Investigator would make the participant
+             unsuitable for enrollment.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Argentina</country>
+    <country>Brazil</country>
+    <country>Canada</country>
+    <country>Italy</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </removed_countries>
+  <reference>
+    <citation>Howe AY, Long J, Nickle D, Barnard R, Thompson S, Howe J, Alves K, Wahl J. Long-term follow-up of patients receiving boceprevir for treatment of chronic hepatitis C. Antiviral Res. 2015 Jan;113:71-8. doi: 10.1016/j.antiviral.2014.10.010. Epub 2014 Oct 24.</citation>
+    <PMID>25446895</PMID>
+  </reference>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 1, 2015</lastchanged_date>
+  <firstreceived_date>May 27, 2008</firstreceived_date>
+  <firstreceived_results_date>September 1, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="55">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01945294</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3034-107</org_study_id>
+    <nct_id>NCT01945294</nct_id>
+  </id_info>
+  <brief_title>Short Duration Versus Standard Response-Guided Therapy With Boceprevir Combined With PegIntron and Ribavirin in Previously Untreated Non-Cirrhotic Asian Participants With Chronic HCV Genotype 1 (MK-3034-107)</brief_title>
+  <official_title>A Phase 3 Clinical Trial to Study Short Duration Versus Standard Response-Guided Therapy With MK-3034 (SCH 503034)/Boceprevir Combined With PegIntron and Ribavirin in Previously Untreated Non-Cirrhotic Subjects With Chronic HCV Genotype 1 in Asia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>South Korea: Ministry of Food and Drug Safety (MFDS)</authority>
+    <authority>Taiwan: Taiwan Food and Drug Administration (TFDA)</authority>
+    <authority>Philippines: Food and Drug Administration-Philippines</authority>
+    <authority>Thailand: Food and Drug Administration-Thailand</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to estimate the difference in the efficacy between a 16-week
+      treatment regimen of boceprevir (BOC) in combination with peg-intron alpha 2b (PEG2b) plus
+      ribavirin (RBV) (BOC/PR) and a 28-week treatment regimen of BOC/PR in previously untreated
+      participants with chronic hepatitis C (CHC) genotype 1 in Asia who achieve undetectable
+      hepatitis C virus ribonucleic acid (HCV RNA) at treatment week (TW) 8.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2013</start_date>
+  <completion_date type="Actual">November 2015</completion_date>
+  <primary_completion_date type="Actual">August 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Undetectable HCV RNA at TW 8 Who Achieve Sustained Viral Response at Follow-up Week 12 (SVR12) [16-Week Arm vs. 28-Week Arm]</measure>
+    <time_frame>Follow-up Week (FW) 12 (up to 40 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants with SVR12 By Virologic Response At End of Treatment</measure>
+    <time_frame>FW 12 (up to 60 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Relapse</measure>
+    <time_frame>From end of treatment to FW 12 (up to 12 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Neutrophil Count &lt;0.75 x10^9/L</measure>
+    <time_frame>From TW 1 through FW 12 (up to 60 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Hemoglobin (Hgb) &lt;10 g/dL</measure>
+    <time_frame>From TW 1 through FW 12 (up to 60 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Dose Discontinuation/Modification Due to Adverse Events (AEs)</measure>
+    <time_frame>From TW 1 through FW 12 (up to 60 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Treatment-Related Serious AEs (SAEs)</measure>
+    <time_frame>From TW 1 through FW 12 (up to 60 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">236</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>16-week Treatment Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will begin treatment with a 4-week lead-in of PR followed by 8 weeks of BOC + PR. Participants with undetectable HCV RNA at TW 8 will complete a total of 16 weeks of treatment (4-week PR lead-in followed by 12 weeks of BOC/PR). After TW16, participants will complete 12 weeks of follow-up.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>28-week Treatment Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will begin treatment with a 4-week lead-in of PR followed by 8 weeks of BOC + PR. Participants with undetectable HCV RNA at TW8 will complete a total of 28 weeks of treatment (4-week PR lead-in followed by 24 weeks of BOC/PR). After TW28, participants will complete 12 weeks of follow-up.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>48-week Treatment Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will begin treatment with a 4-week lead-in of PR followed by 8 weeks of BOC + PR. Participants with detectable or missing HCV RNA at TW8 will complete a total of 48 weeks of treatment (4-week PR lead-in followed by 32 weeks of BOC/PR plus additional 12 weeks of PR). After TW48, participants will complete 12 weeks of follow-up.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <description>800 mg three times daily orally</description>
+    <arm_group_label>16-week Treatment Arm</arm_group_label>
+    <arm_group_label>28-week Treatment Arm</arm_group_label>
+    <arm_group_label>48-week Treatment Arm</arm_group_label>
+    <other_name>MK-3034</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peg-interferon alfa-2b</intervention_name>
+    <description>1.5 mcg/kg weekly subcutaneously</description>
+    <arm_group_label>16-week Treatment Arm</arm_group_label>
+    <arm_group_label>28-week Treatment Arm</arm_group_label>
+    <arm_group_label>48-week Treatment Arm</arm_group_label>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>800-1400 mg twice-daily divided orally based on body weight</description>
+    <arm_group_label>16-week Treatment Arm</arm_group_label>
+    <arm_group_label>28-week Treatment Arm</arm_group_label>
+    <arm_group_label>48-week Treatment Arm</arm_group_label>
+    <other_name>Rebetol</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  weigh ≥ 40 kg and ≤ 125 kg
+
+          -  have CHC genotype 1 infection
+
+          -  has had a liver biopsy or non-invasive liver fibrosis test that shows no evidence of
+             cirrhosis and hepatocellular carcinoma
+
+          -  must agree that the participant and the participant's partner will each use
+             acceptable methods of contraception for at least 2 weeks prior to Day 1 and continue
+             until at least 6 months after last dose of study medication, or longer if dictated by
+             local regulations (for a female participant who is of childbearing potential or male
+             participant with female sexual partner who is of childbearing potential)
+
+        Exclusion Criteria:
+
+          -  participates in any other interventional clinical trial within 30 days of the
+             screening visit in this trial or intends to participate in another interventional
+             clinical trial during participation in this trial
+
+          -  is co-infected with human immunodeficiency virus or hepatitis B virus
+
+          -  has evidence or history of chronic hepatitis not caused by HCV, including but not
+             limited to nonalcoholic steatohepatitis (NASH), drug-induced hepatitis, and
+             autoimmune hepatitis
+
+          -  has evidence of decompensated liver disease including, but not limited to, a history
+             or presence of clinical ascites, bleeding varices, or hepatic encephalopathy
+
+          -  has evidence of hepatocellular carcinoma (HCC) or is under evaluation for HCC
+
+          -  has evidence of active or suspected malignancy, or a history of malignancy, within
+             the last 5 years
+
+          -  has been previously treated with an interferon or ribavirin regimen or HCV direct
+             acting anti-viral regimen, or treated for hepatitis C with any investigational
+             medication
+
+          -  taking/plans to take significant inducers of inhibitors of Cytochrome P450 3A4
+             (CYP3A4) substrates 2 weeks prior to start of study medications, or herbal
+             supplements, including but not limited to St. John's Wort 2 weeks prior to start of
+             study medications (Day 1)
+
+          -  has pre-existing psychiatric condition(s)
+
+          -  clinical diagnosis of substance abuse
+
+          -  has any known medical condition that could interfere with the participation in and
+             completion of the trial including immunologically-mediated disease, chronic pulmonary
+             disease, or current or history of any clinically significant cardiac
+             abnormalities/dysfunction
+
+          -  is pregnant or nursing (for female participant) or female partner intends to become
+             pregnant (for male participant)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Korea, Republic of</country>
+    <country>Malaysia</country>
+    <country>Thailand</country>
+  </removed_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 24, 2015</lastchanged_date>
+  <firstreceived_date>September 13, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

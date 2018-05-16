@@ -1,0 +1,100 @@
+<template name="DrugFilterSlider">
+    <div class="e-slidemenu">
+        <div class="filterSliderDiv" trigger="1">
+            <span class='drug-toggle-title'>Open Filter</span>
+        </div>
+
+          <div class="weightSliderDiv" trigger="2"><span class='drug-toggle-title-weight'>Settings</span>
+        </div>
+        <!-- End filters for Drugs -->
+
+    </div>
+</template>
+
+<template name='DrugFilterContent'>
+    <div class="filterSliderContent">
+        <div class="payerDrugFiltersTitle eff-sidebox">Filter Form</div>
+        <div class="payerApplyFilter">Apply</div>
+        <div class="payerFilterForm">
+            <div class="borderbox col-md-6"> 
+                <div class="textfldboxs">
+                    <div class="textflddiv fullwidth borderbot">
+                        <div class="box-title">
+                            <span style="display: inline-block;">Genotype</span>
+                        </div>
+                        <div class="" >
+                            <select id='analyticsGenotypeCombo' class="hltrec_txtfld">
+                                {{#each genotypeComboItems}}
+                                    <option value="{{value}}">{{genotype}}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Treatment section-->
+            <div class="borderbox col-md-10">
+                    <div class="textfldboxs">
+                        <div class="textflddiv fullwidth borderbot">
+                            <div class="box-title">
+                                <span style="display: inline-block;"> Treatment &nbsp;&nbsp;</span>
+                            </div>
+                            <div class="box-radio TreatmentRadio" >
+                                <input type="radio" id="treatmentNaive" name="rdTreatmentExperienced" class="hltrec_radio" value="Yes"/>Naive
+                                <input type="radio" id="treatmentExperienced" name="rdTreatmentExperienced" class="hltrec_radio" value="No" />Experienced
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- end treatment section-->
+                <!-- Cirrohsis section -->
+                <div class="borderbox col-md-8">
+                <div class="textfldboxs">
+                    <div class="textflddiv dvCirrh">
+                        <div class="box-title">
+                            <span style="display: inline-block;"> Cirrhosis &nbsp;&nbsp;</span>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" id="rdCirrhosisYes" name="rdCirrhosis" value="Yes" />Yes
+                            <input type="radio" class="hltrec_radio" id="rdCirrhosisNo" name="rdCirrhosis" value="No" />No
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End cirrohsis section -->
+        </div>     
+    </div>
+</template>
+
+
+<template name='DrugWeightContent'>
+    <div class="weightSliderContent">
+         <div class="payerDrugFiltersTitle eff-sidebox">Weight Form</div>
+        <section class="content drugcontent ">
+                 <div class="row" style="margin-left:20px;">
+                 <div class="col-md-12">
+                     <label>Efficacy</label>
+                      <div style="margin-left: 0px; width:60%;    margin-left: 2px; margin-top: 16px; margin-bottom: 18px; position: relative;">  <input id="txtEffWeight" type='range' min='0' max='4' step='0.1' value='1'/></div>
+                      
+                 </div>   
+                <div class="col-md-12">
+                     <label>Adherence</label>
+                      <div style="margin-left: 0px;   width:60%;  margin-left: 2px; margin-top: 16px; margin-bottom: 18px; position: relative;">  <input id="txtAdhWeight" type='range' min='0' max='4' step='0.1' value='1'/></div> 
+                 </div>
+                
+                  <div class="col-md-12">
+                     <label>Utilization</label>
+                      <div style="margin-left: 0px; width:60%;    margin-left: 2px; margin-top: 16px; margin-bottom: 18px; position: relative;">  <input id="txtUtiWeight" type='range' min='0' max='4' step='0.1' value='1'/></div>
+                   </div>
+                  <div class="col-md-12">
+                     <label>Cost</label>
+                      <div style="margin-left: 0px; width:60%;    margin-left: 2px; margin-top: 16px; margin-bottom: 18px; position: relative;">  <input id="txtCostWeight" type='range' min='0' max='4' step='0.1' value='1'/></div>
+                       
+                 </div> 
+                 
+                </div>
+                <div class="payerApplyWeight" style="margin-left:150px">Apply</div> 
+             </section>
+        </div>
+</template>

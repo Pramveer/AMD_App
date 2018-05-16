@@ -1,0 +1,78 @@
+<template name="Geo">
+    <div class="content-wrapper">
+        <div class="container pagecontent">
+            <div class="row">
+                <div class="warningdiv">
+                    <!-- {{> DrugPopup}} --> {{>DrugSelectionLimitWarning}} {{>DrugSelectionEmptyWarning}}
+                </div>
+            </div>
+        </div>
+        <div class="ps-section">
+            <div class="efficacy-div">
+                    {{#with getPateintInfo}}
+                    <div class="efd-table-data costBurdenSection">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-2">
+                            <div class="efd-cell1">Genotype: </div>
+                            <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="efd-cell1">Treatment: </div>
+                            <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="efd-cell1">Cirrhosis: </div>
+                            <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                            <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"></div>
+                        </div>
+                    </div>
+                    {{/with}}
+            </div>
+    </div>
+        <div class="container pagecontent posrelovfhid">
+            <div class="row">
+                <div class="slidesec">
+                    <section class="content drugcontent efficacy-container ">
+                        <!--Drug selection sliding menu -->
+                        {{>DrugSelectionSlideMenu}}
+                        <!-- End Slide meu-->
+                        <div class="row  martb30">
+                            <div class="col-sm-2">
+                                <div class="gcheckb">
+                                    <div class="gch_label">
+                                        Filter By
+                                    </div>
+                                    <select class="gch_selectbox" id='ddlScoreFilter'>
+                                        <option value="Efficacy">Efficacy</option>
+                                        <option value="Adherence"> Adherence</option>
+                                        <option value="Utilization"> Utilization</option>
+                                    </select>
+                                </div>
+                                <div class="gcheckb">
+                                    <div class="gch_label">
+                                        Sort by
+                                    </div>
+                                    <select class="gch_selectbox" id='ddlFilter'>
+                                        <option value="ZipCode" selected="selected"> ZipCode</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <div id='map' style="height: 450px; ">
+                                </div>
+                            </div>
+                            <br/>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Bind all drugs in slide option-->
+            {{> DrugSelectionOption}}
+        </div>
+    </div>
+    {{>MainFooter}}
+</template>

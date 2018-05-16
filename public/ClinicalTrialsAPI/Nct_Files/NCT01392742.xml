@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="242">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01392742</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML25670</org_study_id>
+    <nct_id>NCT01392742</nct_id>
+  </id_info>
+  <brief_title>An Observational Study on Predictive Factors of Response in Patients With Chronic Hepatitis C Treated With Pegasys (Peginterferon Alfa-2a) and Ribavirin</brief_title>
+  <official_title>Prospective Observational Study on Predictors of Early On-treatment Response and Sustained Virological Response in HCV-infected Patients Receiving Peginterferon Alfa-2a Plus Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Bulgaria: Bulgarian Drug Agency</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This observational study will evaluate predictors of early on-treatment response and
+      sustained virological response in patients with chronic hepatitis C receiving Pegasys
+      (peginterferon alfa-2a) and ribavirin. Data will be collected from patients on treatment (24
+      or 48 weeks) and 24 weeks after the end of treatment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2011</start_date>
+  <completion_date type="Actual">July 2014</completion_date>
+  <primary_completion_date type="Actual">July 2014</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virological Response (SVR)</measure>
+    <time_frame>24 weeks after End of treatment (EOT) (up to Week 96)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as undetectable Hepatitis C Virus Ribonucleic Acid (HCV RNA) 24 weeks after completion of the actual treatment period (a single last undetectable HCV RNA Polymerase Chain Reaction [PCR] measured greater than or equal to &gt;=140 days post-treatment).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants With Relapse</measure>
+    <time_frame>Up to 24 weeks after EOT (up to Week 96)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse was define as аn undetectable HCV RNA during the treatment period, but without such during the follow-up.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants Who Were Non-Responders</measure>
+    <time_frame>Up to 24 weeks after EOT (up to Week 96)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Non-responders were those participants who had not reached аn undetectable HCV RNA during the treatment period.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Positive Predictive Value on SVR at Week 4</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Predictive value determined the relationship of the virological response at specified time to the total response. Positive predicted value= number of true positives/(number of true positives+ number of false positives). SVR was defined as undetectable HCV RNA 24 weeks after end of treatment. Percentage of participants who showed positive predictive value in treatment naive and those who failed previous treatment with interferon were reported.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Positive Predictive Value on SVR at Week 12</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Predictive value determined the relationship of the virological response at specified time to the total response. Positive predicted value= number of true positives/( number of true positives+ number of false positives). SVR was defined as undetectable HCV RNA 24 weeks after end of treatment. Percentage of participants who showed positive predictive value in treatment naive and those who failed previous treatment with interferon were reported.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of SVR With Rapid Virological Response (RVR)</measure>
+    <time_frame>Up to 24 weeks after EOT (up to Week 96)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Correlation of SVR with RVR was based on 3 symmetric measures; Kendall's tau-b, Kendall's tau-c and Gamma. SVR was defined as undetectable HCV RNA 24 weeks after end of treatment. RVR was defined as having undetectable HCV RNA 4 weeks after start of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of SVR With Early Virological Response (EVR)</measure>
+    <time_frame>Up to 24 weeks after EOT (up to Week 96)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Correlation of SVR with EVR was based on 3 symmetric measures; Kendall's tau-b, Kendall's tau-c and Gamma. SVR was defined as undetectable HCV RNA 24 weeks after end of treatment. EVR was defined as having undetectable HCV RNA 12 weeks after start of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive Power Values of Host-, Virus- and Treatment-related Factors and Virological Response</measure>
+    <time_frame>Week 4 and 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Predictive value determined the relationship of host factors to virological response. Host factors included; RVR (EVR for Week 12), gender, liver fibrosis, HCV genotype, height and treatment duration for Week 4 after EOT excluding HCV genotype at Week 12 EOT. RVR was defined as having undetectable HCV RNA 4 weeks after start of treatment and EVR was defined as having undetectable HCV RNA 12 weeks after start of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of Treatment in Participants With SVR by HCV Genotype</measure>
+    <time_frame>Up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as undetectable HCV RNA 24 weeks after end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cumulative PEG-IFN Alfa-2a Dose in Participants With SVR by HCV Genotype</measure>
+    <time_frame>Up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as undetectable HCV RNA 24 weeks after end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cumulative Ribavirin Dose in Participants With SVR by HCV Genotype</measure>
+    <time_frame>Up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as undetectable HCV RNA 24 weeks after end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Virological Response</measure>
+    <time_frame>4 weeks after EOT (up to Week 76)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The Virological response at the end of treatment was defined as the percentage of participants with undetectable HCV RNA, HCV test (based on a single last undetectable HCV RNA PCR falling in the 4 weeks' time window at end of treatment), is basically the sum of participants with SVR and with relapse.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">443</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with chronic hepatitis C treated with Pegasys and ribavirin
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients, &gt;/= 18 years of age
+
+          -  Serologically confirmed chronic hepatitis C (all genotypes)
+
+          -  Treatment with Pegasys and ribavirin according to the current standard of care and in
+             line with current summaries of product characteristics (SPCs)/local labelling
+
+        Exclusion Criteria:
+
+          -  Coinfection with HIV and/or hepatitis B
+
+          -  Contraindications according to the SPC for Pegasys/ribavirin
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Pleven</city>
+        <zip>5800</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Plovdiv</city>
+        <zip>4002</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sofia</city>
+        <zip>1407</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sofia</city>
+        <zip>1431</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sofia</city>
+        <zip>1527</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sofia</city>
+        <zip>1606</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sofia</city>
+        <zip>1612</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Stara Zagora</city>
+        <zip>6000</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Varna</city>
+        <zip>9010</zip>
+        <country>Bulgaria</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Bulgaria</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 9, 2015</lastchanged_date>
+  <firstreceived_date>July 11, 2011</firstreceived_date>
+  <firstreceived_results_date>November 9, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

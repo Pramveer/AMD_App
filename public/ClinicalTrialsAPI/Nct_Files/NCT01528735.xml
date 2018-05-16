@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="624">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01528735</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1241.25</org_study_id>
+    <nct_id>NCT01528735</nct_id>
+  </id_info>
+  <brief_title>This Trial Evaluates Safety, Pharmacokinetic Profile and Anti-viral Response of BI 207127 and BI 201335 for Patients With Chronic Hepatitis C</brief_title>
+  <official_title>An Open-label, Ascending Dose, Phase II Study to Evaluate Tolerability, Safety, Antiviral Activity, and Pharmacokinetics of BI 207127 NA in Combination With BI 201335 NA and Ribavirin for 8 Weeks in Treatment-naïve Japanese Patients With Genotype 1chronic Hepatitis C Virus Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <authority>Japan: Ministry of Health, Labor and Welfare</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this trial is to investigate tolerability, safety, pharmacokinetics and
+      antiviral activity of BI 207127 NA in combination with BI 201335 NA and ribavirin for 8
+      weeks in Japanese treatment-naive patients with chronic GT-1 HCV infection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2012</start_date>
+  <completion_date type="Actual">August 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <secondary_outcome>
+    <measure>Virological response at Week 4</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virological response at Week 8</measure>
+    <time_frame>8 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">25</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>BI 207127 NA, BI 201335 NA(high dose), R</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients receive BI 207127 NA,BI 201335 NA(high dose) and RBV for 8 wks followed by BI 201335 NA,PegIFN/RBV for 24 wks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BI 207127 NA,BI 201335 NA(low dose),RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Patients receive BI 207127 NA,BI 201335 NA(low dose) and RBV for 8 wks followed by BI 201335 NA,PegIFN/RBV for 24 wks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127 NA</intervention_name>
+    <description>one fix dose</description>
+    <arm_group_label>BI 207127 NA,BI 201335 NA(low dose),RBV</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon</intervention_name>
+    <description>per package insert</description>
+    <arm_group_label>BI 207127 NA, BI 201335 NA(high dose), R</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>per weight BID</description>
+    <arm_group_label>BI 207127 NA,BI 201335 NA(low dose),RBV</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>per weight BID</description>
+    <arm_group_label>BI 207127 NA, BI 201335 NA(high dose), R</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127 NA</intervention_name>
+    <description>one fix dose</description>
+    <arm_group_label>BI 207127 NA, BI 201335 NA(high dose), R</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA</intervention_name>
+    <description>high dose</description>
+    <arm_group_label>BI 207127 NA, BI 201335 NA(high dose), R</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA</intervention_name>
+    <description>low dose</description>
+    <arm_group_label>BI 207127 NA,BI 201335 NA(low dose),RBV</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon</intervention_name>
+    <description>per package insert</description>
+    <arm_group_label>BI 207127 NA,BI 201335 NA(low dose),RBV</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Chronic hepatitis C, diagnosed by positive anti-hepatitis C virus(HCV) antibodies and
+             detected HCV ribonucleic acid(RNA) at screening in addition to:
+
+               1. positive anti-HCV antibodies or detected HCV RNA at least 6 months prior to
+                  screening; or,
+
+               2. liver biopsy consistent with chronic HCV infection.
+
+          -  HCV infection of genotype 1 confirmed by genotypic testing at screening
+
+          -  Therapy-naïve to interferon, pegylated interferon, ribavirin or any antiviral /
+             immunomodulatory drug for acute or chronic HCV infection.
+
+          -  Plasma HCV RNA = 100,000 IU/mL at screening
+
+        Exclusion criteria:
+
+          -  Hepatitis C infection of mixed genotype (1/2, 1/3, and 1/4) diagnosed by genotypic
+             testing at screening
+
+          -  Human immunodeficiency virus (HIV) co-infection
+
+          -  Decompensated liver disease, or history of decompensated liver disease
+
+          -  Body weight &lt; 40 or &gt; 125 kg at screening
+
+          -  Hemoglobin &lt;12.0g/dL for women and &lt;13.0g/dL for men at screening
+
+          -  White blood cell count &lt;3000 cells/mm3 at screening
+
+          -  Absolute neutrophil count &lt; 1,500 cells/mm3 at screening
+
+          -  Platelet count &lt; 90,000 /mm3 at screening
+
+          -  Serum creatinine &gt; 1.5xUpper Limit of Normal range(ULN) or creatinine clearance =50
+             mL/min at screening
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>1241.25.002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kofu, Yamanashi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.25.005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kurashiki, Okayama</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.25.003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nagoya, Aichi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.25.004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nishinomiya, Hyogo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.25.001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Omura, Nagasaki</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <verification_date>April 2014</verification_date>
+  <lastchanged_date>April 30, 2014</lastchanged_date>
+  <firstreceived_date>February 6, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

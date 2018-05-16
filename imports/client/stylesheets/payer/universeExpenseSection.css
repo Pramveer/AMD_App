@@ -1,0 +1,374 @@
+.expensesContainer {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    position: relative;
+}
+
+.expenseSectionHeader {
+    height: 50px;
+    padding: 14px 0px;
+}
+
+.sectionHeading {
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.expenseSectionHeading {
+    float: left;
+}
+
+.universeTotalPatients {
+    float: right;
+}
+
+.universeTotalPatientsIcon {
+    background-position-y: 135px;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 30px;
+    width: 40px;
+    background-position-x: 1248px;
+    float: left;
+}
+
+.universeTotalSubPatientsIcon {
+    background-position-y: 135px;
+    background: url('user-icon.png') no-repeat scroll 1px 5px;
+    height: 30px;
+    width: 40px;
+    float: left;
+}
+
+.totalPatientsText {
+    float: right;
+    padding-top: 5px;
+}
+
+.universeTotalPatientsCount {}
+
+.estimatedValuesDisplay {
+    background: #fff;
+    margin: 0px 0px 0px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.expensesCardsParent {
+    height: 425px;
+}
+
+.expensesCards {
+    height: 100%;
+}
+
+.avgValueDefaultCardicon {
+    padding-left: 0px !important;
+}
+
+
+/*Expenses Section*/
+
+.valueScoreCardContainer {
+    padding: 0px;
+    height: 110px;
+    text-align: center;
+}
+
+.observedCardContainer {
+    padding: 0px;
+    height: 110px;
+    text-align: center;
+    /* background: #3cbca9;*/
+    background: #e95a52;
+    /* background: #69bae7;*/
+}
+
+.bestvalueCardContainer {}
+
+.savingCardContainer {
+    padding: 0px;
+    height: 110px;
+    text-align: center;
+    background: #69bae7;
+    /* background: #e05454;*/
+}
+
+.expensesCardParent {
+    text-align: center;
+}
+
+.valueScoreCards {
+    font-size: 34px;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: #fff;
+}
+
+.valueScoreCardsLabels {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 65px;
+    color: #fff;
+}
+
+.valueScoreCardsIcon {
+    height: 30px;
+    margin: 0px;
+    position: absolute;
+    left: 70px;
+    top: 12px;
+}
+
+.expensesCardLabels {
+    width: 80%;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.expensesCardValues {
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+}
+
+.savingCard {
+    /* background: #d65151;*/
+    background: #69bae7;
+}
+
+.projectedExpensesCard {
+    /* background: #38b19d;*/
+    background: #e95a52;
+}
+
+.bestValueCard {
+    /* background: #815493;*/
+    background: #2e7e97;
+}
+
+.savingCardLabels {
+    width: 80%;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.savingCardValues {
+    color: white;
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+}
+
+.expensesContainer hr {
+    border: 0;
+    width: 80%;
+    height: 1px;
+    margin: 0px 25px;
+    padding: 0px;
+    position: absolute;
+}
+
+.cardValueBest {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.universeQualityIndicators-Wrapper {
+    padding-top: 12px;
+}
+
+.universeSafetyIndicators {}
+
+.universeIndicatorLabel {
+    color: #fff;
+}
+
+.universeIndicatorValue {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+.universeEfficacyIndicators {
+    /* border-right: 1px solid #0a6388;*/
+    border-right: 1px solid #1baad7;
+}
+
+.uniSafetyIndicatorIcon {
+    /*background-image: url('universe-safety-Icon.png');*/
+    background-image: url('/4.png');
+    height: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.indicateUnchangeValue {
+    background-color: transparent;
+    height: 30px;
+    width: 20px;
+    margin: 0 auto;
+}
+
+.indicatePositiveValue {
+    /*  background-position-y: 82px;
+    background-image: url('pinscriptive_v5-ICONS.png');*/
+    background-image: url('/6.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 54px;
+    background-position: 20px;
+    /*   background-position-x: 1199px;*/
+    margin: 0 auto;
+}
+
+.indicateNegativeValue {
+    /*  background-position-y: 82px;
+   background-image: url('pinscriptive_v5-ICONS.png');*/
+    background-image: url('/5.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 54px;
+    background-position: 20px;
+    /* background-position-x: 1142px;*/
+    margin: 0 auto;
+}
+
+.uniSafetyQILabel {
+    font-weight: bold;
+    border-bottom: 1px dotted #e1e1e1;
+    padding-bottom: 5px;
+}
+
+
+/*.treatedUtilization .ui-slider-horizontal .ui-slider-range-max ,
+.treatingUtilization .ui-slider-horizontal .ui-slider-range-max ,
+.untreatedUtilization .ui-slider-horizontal .ui-slider-range-max {
+ left: 0;
+}*/
+
+.smallCardValueTreat {
+    font-size: 24px;
+    color: #363535;
+    font-weight: bold;
+}
+
+.applyUniFilters {
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.uniQualityPopup {
+    min-width: 250px;
+    font-size: 13px;
+}
+
+.uniQualityPopupBody {}
+
+.uniQualityPopupContent {
+    border-bottom: 1px solid #d7d7d7;
+    border-radius: 3px;
+    margin: 8px 0px;
+    padding: 3px 4px;
+}
+
+.uniQualityPopupTitle {
+    color: #292929;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.uniQualityVal-Increased {
+    background-image: url('/ua.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    bottom: 12px;
+}
+
+.uniQualityVal-Decreased {
+    background-image: url('/da.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    bottom: 12px;
+}
+
+.uniQualityPopupProgicon {
+    background-image: url('/ua.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    bottom: 12px;
+}
+
+.uniPopupOptiSPList {
+    color: #064763;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.uniPopupOptiSPList ul {
+    list-style-type: disc;
+}
+
+.uniPopupOptiSPValue {
+    color: #515151;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.universeQualityIndicator {
+    /* border: 1px solid #9f66b5;*/
+    border: 1px solid #1baad7;
+    margin-left: 15px;
+    width: 40% !important;
+    padding: 2px;
+    margin-top: 5px;
+    height: 80px;
+}
+
+.universeObservedValueIcon {
+    background-position-y: 143px;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 45px;
+    width: 45px;
+    background-position-x: 1589px;
+}
+
+.universeBestValueIcon {
+    background-position-y: 143px;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 45px;
+    width: 45px;
+    background-position-x: 1536px;
+}
+
+.universeValueGapIcon {
+    background-position-y: 146px;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 54px;
+    width: 54px;
+    background-position-x: 1480px;
+}

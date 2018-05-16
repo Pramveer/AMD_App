@@ -1,0 +1,1 @@
+import './pinscriptiveApp.js';

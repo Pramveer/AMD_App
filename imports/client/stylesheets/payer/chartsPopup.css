@@ -1,0 +1,131 @@
+#subpopulationChartsPopup-container {
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+#subpopulationChartsPopup .popup-inner {
+    border-radius: 0px !important;
+}
+
+.subpopulationChartsPopup-close {
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #f04923;
+    margin: 10px auto 0px;
+    text-transform: uppercase;
+}
+
+.subpopulationChartsPopup-header {
+    padding: 4px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.subpopulationChartsPopup-title {
+    margin-left: 10%;
+    color: #333;
+    float: left;
+    margin-top: 9px;
+}
+
+.subpopulationChartsPopup-back {
+  width: 150px;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  cursor:pointer;
+  float:right;
+  margin-top:9px;
+  margin-right: 5px;
+}
+
+.subpopulationChartsPopup-message {
+    padding-right: 10%;
+    float: right;
+    margin-top: 9px;
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    text-align: right;
+}
+
+.subpopulationChartsPopup-footer {
+    text-align: center;
+    color: #333;
+}
+
+#subpopulationChartsPopup g.c3-axis.c3-axis-y .tick {
+    font-size: 12px;
+    font-weight: normal;
+    fill: #333;
+}
+
+#subpopulationChartsPopup g.c3-axis.c3-axis-y .tick {
+    visibility: visible;
+}
+
+#subpopulationChartsPopup g.c3-axis.c3-axis-x path.domain {
+    visibility: visible;
+}
+
+#subpopulationChartsPopup .c3 path,
+.c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+#subpopulationChartsPopup .c3 path,
+.c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+#subpopulationChartsPopup .c3-axis-y-label {
+    font-size: 14px;
+    fill: #333;
+    text-anchor: middle;
+}
+
+#subpopulationChartsPopup g.c3-axis.c3-axis-x .tick {
+    font-size: 14px;
+    font-weight: normal;
+    fill: #333;
+}
+
+#subpopulationChartsPopup .comparativeDrugValueChart_legends {
+    margin-right: 20px;
+}
+
+#subpopulationChartsPopup .comparativeDrugValueChart_legends table {
+    font-size: 12px;
+}
+
+#subpopulationChartsPopup .noHospitalizationData,
+#subpopulationChartsPopup .noCostData {
+    left: 0px;
+    font-size: 18px;
+}
+
+#subpopulationChartsPopup .c3-grid-lines {
+    display: block;
+}
+
+#subpopulationChartsPopup .safetyChart-x-axis path,
+#subpopulationChartsPopup .safetyChart-y-axis path {
+    visibility: visible;
+}

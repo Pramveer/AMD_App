@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="66">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01808248</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-334-0151</org_study_id>
+    <nct_id>NCT01808248</nct_id>
+  </id_info>
+  <brief_title>Sofosbuvir (GS-7977) in Combination With PEG and Ribavirin for 12 Weeks in Treatment Experienced Subjects With Chronic HCV Infection Genotype 2 or 3</brief_title>
+  <official_title>A Phase 2, Open-Label Study of Sofosbuvir in Combination With PEG and Ribavirin for 12 Weeks in Treatment Experienced Subjects With Chronic HCV Infection Genotype 2 or 3</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to evaluate the safety, tolerability, and antiviral efficacy of sofosbuvir
+      (SOF) in combination with peginterferon alfa 2a (PEG) and ribavirin (RBV) administered for
+      12 weeks in participants with chronic genotype 2 or 3 hepatitis C virus (HCV) infection who
+      have previously failed prior treatment with an interferon-based regimen.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2013</start_date>
+  <completion_date type="Actual">December 2013</completion_date>
+  <primary_completion_date type="Actual">September 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response (SVR) at 12 Weeks After Discontinuation of Therapy (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as HCV RNA &lt; the lower limit of quantitation (LLOQ; ie, &lt; 15 IU/mL) at 12 weeks after stopping study treatment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Adverse Events Leading to Permanent Discontinuation of Study Drug(s)</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants discontinuing any study drug due to an adverse event was summarized.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at 4 and 24 Weeks After Discontinuation of Therapy (SVR4 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR24 were defined as HCV RNA &lt; LLOQ at 4 and 24 weeks following the last dose of study drug, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Experiencing On-treatment Virologic Failure</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>On-treatment virologic failure was defined as:
+Viral breakthrough: HCV RNA ≥ LLOQ after having previously had HCV RNA &lt; LLOQ while on treatment, confirmed with 2 consecutive values (second confirmation value may have been posttreatment) or with a last available on-treatment measurement and no subsequent follow-up values, or
+Viral rebound: &gt; 1 log10 IU/mL increase in HCV RNA from nadir while on treatment, confirmed with 2 consecutive values (second confirmation value may have been posttreatment) or with a last available on-treatment measurement and no subsequent follow-up values, or
+Nonresponse: HCV RNA persistently ≥ LLOQ through 8 weeks of treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Experiencing Viral Relapse</measure>
+    <time_frame>Up to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral relapse was defined as having HCV RNA ≥ LLOQ during the posttreatment period having achieved HCV RNA &lt; LLOQ at the end of treatment, confirmed with 2 consecutive values or last available posttreatment measurement.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">47</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>SOF+PEG+RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive SOF+PEG+RBV for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SOF</intervention_name>
+    <description>Sofosbuvir (SOF) 400 mg tablet administered orally once daily</description>
+    <arm_group_label>SOF+PEG+RBV</arm_group_label>
+    <other_name>Sovaldi®</other_name>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG</intervention_name>
+    <description>Peginterferon alfa 2a (PEG) 180 μg administered once weekly by subcutaneous injection</description>
+    <arm_group_label>SOF+PEG+RBV</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) tablets administered orally in a divided daily dose according to package insert weight-based dosing recommendations (&lt; 75kg = 1000 mg and ≥ 75 kg = 1200 mg)</description>
+    <arm_group_label>SOF+PEG+RBV</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Infection with genotype 2 or 3 HCV infection
+
+          -  Cirrhosis determination
+
+          -  Individual is treatment-experienced
+
+          -  Screening laboratory values within defined thresholds
+
+          -  Individual has not been treated with any investigational drug or device within 30
+             days of the Screening visit
+
+          -  Use of highly effective contraception methods if female of childbearing potential or
+             sexually active male
+
+        Exclusion Criteria:
+
+          -  Prior exposure to a direct-acting antiviral drug targeting the HCV NS5B polymerase
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  Current or prior history of clinical hepatic decompensation
+
+          -  History of clinically-significant illness or any other major medical disorder that
+             may interfere with treatment, assessment, or compliance with the study protocol
+
+          -  Excessive alcohol ingestion or significant drug abuse
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rob Hyland</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Alamo Medical Research</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.nlm.nih.gov/medlineplus/</url>
+    <description>Medicine Plus</description>
+  </link>
+  <link>
+    <url>http://www.nlm.nih.gov/medlineplus/hepatitis.html</url>
+    <description>Hepatitis</description>
+  </link>
+  <link>
+    <url>http://www.nlm.nih.gov/medlineplus/hepatitisa.html</url>
+    <description>Hepatitis A</description>
+  </link>
+  <link>
+    <url>http://www.nlm.nih.gov/medlineplus/hepatitisc.html</url>
+    <description>Hepatitis C</description>
+  </link>
+  <link>
+    <url>http://druginfo.nlm.nih.gov/drugportal/drugportal.jsp</url>
+    <description>Drug Information available for:</description>
+  </link>
+  <link>
+    <url>http://druginfo.nlm.nih.gov/drugportal/ProxyServlet?mergeData=true&amp;objectHandle=DBMaint&amp;APPLICATION_NAME=drugportal&amp;actionHandle=default&amp;nextPage=jsp/drugportal/ResultScreen.jsp&amp;TXTSUPERLISTID=0036791045&amp;QV1=RIBAVIRIN</url>
+    <description>Ribavirin</description>
+  </link>
+  <link>
+    <url>http://druginfo.nlm.nih.gov/drugportal/ProxyServlet?mergeData=true&amp;objectHandle=DBMaint&amp;APPLICATION_NAME=drugportal&amp;actionHandle=default&amp;nextPage=jsp/drugportal/ResultScreen.jsp&amp;TXTSUPERLISTID=0198153514&amp;QV1=PEGINTERFERON+ALFA-2A</url>
+    <description>PEGINTERFERON ALFA-2A</description>
+  </link>
+  <link>
+    <url>http://clinicaltrials.gov/ct2/info/fdalinks</url>
+    <description>U.S. FDA Resources</description>
+  </link>
+  <verification_date>September 2014</verification_date>
+  <lastchanged_date>September 5, 2014</lastchanged_date>
+  <firstreceived_date>March 1, 2013</firstreceived_date>
+  <firstreceived_results_date>September 5, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>HCV genotype 2 (GT-2)</keyword>
+  <keyword>HCV genotype 3 (GT-3)</keyword>
+  <keyword>HCV</keyword>
+  <keyword>Sustained Virologic Response</keyword>
+  <keyword>Direct Acting Antiviral</keyword>
+  <keyword>Combination Therapy</keyword>
+  <keyword>Treatment-Naïve</keyword>
+  <keyword>GS-7977</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>RBV</keyword>
+  <keyword>Peginterferon Alfa 2a</keyword>
+  <keyword>PEG</keyword>
+  <keyword>Additional relevant MeSH terms:</keyword>
+  <keyword>Hepatitis</keyword>
+  <keyword>Hepatitis A</keyword>
+  <keyword>Hepatitis, Chronic</keyword>
+  <keyword>Hepatitis C</keyword>
+  <keyword>Hepatitis C, Chronic</keyword>
+  <keyword>Liver Diseases</keyword>
+  <keyword>Digestive System Diseases</keyword>
+  <keyword>Hepatitis, Viral, Human</keyword>
+  <keyword>Virus Diseases</keyword>
+  <keyword>Enterovirus Infections</keyword>
+  <keyword>Picornaviridae Infections</keyword>
+  <keyword>RNA Virus Infections</keyword>
+  <keyword>Flaviviridae Infections</keyword>
+  <keyword>Peginterferon alfa-2a</keyword>
+  <keyword>Interferon-alpha</keyword>
+  <keyword>Antiviral Agents</keyword>
+  <keyword>Anti-Infective Agents</keyword>
+  <keyword>Therapeutic Uses</keyword>
+  <keyword>Pharmacologic Actions</keyword>
+  <keyword>Antimetabolites</keyword>
+  <keyword>Molecular Mechanisms of Pharmacological Action</keyword>
+  <keyword>Immunologic Factors</keyword>
+  <keyword>Physiological Effects of Drugs</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>Yes</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Molecular Mechanisms of Pharmacological Action</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

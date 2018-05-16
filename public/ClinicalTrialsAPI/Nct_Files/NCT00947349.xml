@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="498">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00947349</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1220.14</org_study_id>
+    <nct_id>NCT00947349</nct_id>
+  </id_info>
+  <brief_title>Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Rising Oral Doses of BI 201335 as Softgel Capsule in Naive Hepatitis C Virus (HCV) Patients</brief_title>
+  <official_title>Safety, Pharmacokinetics and Antiviral Effect of BI 201335 NA in HCV-1 Infected Patients Treated for 28 Days for Treatment naïve and Experienced Patients Treated in Combination With Peg Interferon Alfa-2a and Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The current Standard of Care (SOC) for chronic HCV infection, which is pegylated
+      interferon-alfa as combination therapy with ribavirin for 24-48 weeks of treatment, is
+      effective in only part of the patients and is often associated with severe adverse effects
+      leading to discontinuation of treatment and dose modifications.
+
+      A number of compounds with direct activity are currently under clinical development, incl.
+      BI 201335. BI 201335 works by preventing the Hepatitis C virus from replicating by binding
+      to the HCV protease (enzyme). The main purpose of this clinical trial with BI 201335 is to
+      see how well BI 201335 works and how safe BI 201335 is to use daily in combination with
+      PegIFN and RBV in HCV infected patients
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2009</start_date>
+  <completion_date type="Actual">August 2011</completion_date>
+  <primary_completion_date type="Actual">August 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double-Blind, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants With Investigator Defined Drug-related Adverse Events in Triple Combination Therapy</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Drug-related AEs were defined as those whose causal relationship with any one of the investigational products was considered by the investigator.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients With Possible Clinically Significant Laboratory Abnormalities in Triple Combination Therapy</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Frequency of patients with possible clinically significant abnormalities or clinically significant laboratory test value changes over time in triple combination therapy for treatment naive patients and treatment experienced patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Assessment of Tolerability in Triple Combination Therapy</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>An assessment of tolerability for the safety of the triple combination therapy with BI 201335 NA, PegIFN α -2a and RBV.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Week 2 Virological Response (W2VR)</measure>
+    <time_frame>2 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients satisfying W2VR (plasma HCV RNA (Hepatitis C Virus Ribonucleic acid) level below the limit of quantification (BLQ))</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Week 4 Virological Response (W4VR)</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients satisfying W4VR (plasma HCV RNA level below the limit of quantification (BLQ))</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response (RVR)</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients satisfying RVR (plasma HCV RNA level below the limit of detection (BLD) at Week 4)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV Viral Load</measure>
+    <time_frame>baseline and week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Change form baseline in HCV viral load (log10) after 4 weeks</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Day 28 Virologic Response</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with HCV viral load reduction &gt;= 2 log10 at Week 4</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early Virological Response (EVR)</measure>
+    <time_frame>12 Weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with reduction &gt;= 2 log10 in plasma HCV RNA level at Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Complete Early Virological Response (cEVR)</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with plasma HCV RNA level BLD at Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>End of Treatment Response (ETR)</measure>
+    <time_frame>48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with plasma HCV RNA level BLD at week 48</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response (SVR)</measure>
+    <time_frame>72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with plasma HCV RNA level BLD 24 weeks after treatment completion</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Investigator Defined Drug-related Adverse Events in Standard of Care (SOC) With PegIFN α-2a and RBV</measure>
+    <time_frame>44 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Drug-related AEs in SOC treatment period were defined as those whose causal relationship with any one of the investigational products was considered by the investigator.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients With Possible Clinically Significant Laboratory Abnormalities in Standard of Care (SOC) With PegIFN α-2a and RBV</measure>
+    <time_frame>44 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Frequency of patients with possible clinically significant abnormalities or clinically significant laboratory test value changes over time in SOC period for treatment naive patients and treatment experienced patients.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assessment of Tolerability in Standard of Care (SOC) With PegIFN α -2a and RBV</measure>
+    <time_frame>44 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>An assessment of tolerability for the safety of the SOC with PegIFN alfa-2a and RBV.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUCτ,1 for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Area under the curve (AUC) concentration after the first dose of BI 201335 ZW</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmax of BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Maximum concentration of BI 201335 ZW after multiple oral admin. of BI 201335 NA with RBV and PegIFN alfa-2a</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUCτ,ss of BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>AUC at steady state after 4 weeks combination of the last dose</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmax,ss of BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Maximum concentration of BI 201335 ZW at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUCτ,1 for Ribavirin (RBV)</measure>
+    <time_frame>-0:10, 1,2,3,4,5,6,8,10,11:50, 23:50 hours on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Area under the plasma concentration curve of RBV after the first dose of placebo or BI 201335 NA with with RBV and PegIFN alfa-2a</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmax of RBV</measure>
+    <time_frame>-0:10, 1,2,3,4,5,6,8,10,11:50, 23:50 hours on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Maximum Plasma concentration of RBV after multiple oral admin. of placebo with RBV and PegIFN alfa-2a</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUCτ,ss of RBV</measure>
+    <time_frame>-0:10, 1,2,3,4,5,6,8,10,11:50, 23:50 hours on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Area under the plasma concentration curve of RBV after the multiple oral administration of BI 201335 NA (or placebo) with RBV and PegIFN alfa-2a at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmax,ss of RBV</measure>
+    <time_frame>-0:10, 1,2,3,4,5,6,8,10,11:50, 23:50 hours on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Maximum Plasma concentration of RBV after multiple oral admin. of BI 201335 NA (or placebo) with RBV and PegIFN alfa-2a at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tmax for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to maximum plasma concentration (tmax) of BI 201335 ZW after the first dose of BI 201335 NA with RBV and PegIFN alfa-2a</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tmax for RBV</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the first dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to maximum plasma concentration (tmax) of RBV after the first dose of BI 201335 NA with RBV and PegIFN alfa-2a</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tmax, ss for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time from last dosing to the maximum plasma concentration (tmax) of BI 201335 ZW after the last dose of BI 201335 NA with RBV and PegIFN alfa-2a at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Tmax, ss for RBV</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to the maximum plasma concentration (tmax) of RBV after the last dose of BI 201335 NA with RBV and PegIFN alfa-2a at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>t1/2,ss for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>terminal half-life of the analyte in plasma at steady state (t1/2,ss)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmin,ss for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Minimum concentration of the analyte (BI 201335 ZW) in plasma over the dosing interval at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cmin,ss for RBV</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Minimum concentration of the analyte (RBV) in plasma over the dosing interval at steady state</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cavg for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>average plasma concentration (Cavg) of BI 201335 ZW</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cavg for RBV</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>average plasma concentration (Cavg) of RBV</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CL/F,ss for BI 201335 ZW</measure>
+    <time_frame>10 minutes before drug administration and 1 hour (h),2h,3h,4h,5h,6h,8h,10h,11:50h, 23:50h on the last dose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>apparent clearance of the analyte (BI 201335 ZW) in plasma at steady state (CL/F,ss) following multiple oral administration</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">22</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>Pharmacokinetics</condition>
+  <arm_group>
+    <arm_group_label>BI 201335 NA low TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patient to receive a capsule containing low dose of BI 201335 NA/Drug for treatment-naive (TN) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BI 201335 NA high TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patient to receive a capsule containing high dose of BI 201335 NA/Drug for treatment-naive (TN )patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BI 201335 NA high TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patient to receive a capsule containing high dose of BI 201335 NA/Drug for treatment-experienced (TE) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo in Treatment Naive (TN) Patients</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (RBV)</intervention_name>
+    <description>ribavirin (RBV)</description>
+    <arm_group_label>BI 201335 NA high TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon (PegIFN) alfa-2a</intervention_name>
+    <description>pegylated interferon (PegIFN) alfa-2a</description>
+    <arm_group_label>BI 201335 NA low TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon (PegIFN) alfa-2a</intervention_name>
+    <description>pegylated interferon (PegIFN) alfa-2a</description>
+    <arm_group_label>BI 201335 NA high TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (RBV)</intervention_name>
+    <description>ribavirin (RBV)</description>
+    <arm_group_label>BI 201335 NA high TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA low placebo</intervention_name>
+    <description>Placebo</description>
+    <arm_group_label>BI 201335 NA low TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon (PegIFN) alfa-2a</intervention_name>
+    <description>pegylated interferon (PegIFN) alfa-2a</description>
+    <arm_group_label>BI 201335 NA high TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (RBV)</intervention_name>
+    <description>ribavirin (RBV)</description>
+    <arm_group_label>BI 201335 NA low TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA high</intervention_name>
+    <description>BI 201335 NA high</description>
+    <arm_group_label>BI 201335 NA high TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA low</intervention_name>
+    <description>BI 201335 NA</description>
+    <arm_group_label>BI 201335 NA low TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA high placebo</intervention_name>
+    <description>placebo</description>
+    <arm_group_label>BI 201335 NA high TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA high</intervention_name>
+    <description>BI 201335 NA high</description>
+    <arm_group_label>BI 201335 NA high TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <arm_group_label>Placebo in Treatment Naive (TN) Patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  chronic HCV genotype-1;
+
+          -  high viral load
+
+        Exclusion criteria:
+
+          -  Mixed genotype (1/2, 1/3, or 1/4), diagnosed by genotypic testing at screening
+
+          -  Previous treatment with protease inhibitor
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>1220.14.003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kurashiki, Okayama</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.14.001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Minato-ku, Tokyo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.14.002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nishinomiya, Hyogo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com/</url>
+  </link>
+  <verification_date>July 2015</verification_date>
+  <lastchanged_date>July 3, 2015</lastchanged_date>
+  <firstreceived_date>July 21, 2009</firstreceived_date>
+  <firstreceived_results_date>January 22, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

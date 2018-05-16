@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="774">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01995071</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M13-595</org_study_id>
+    <nct_id>NCT01995071</nct_id>
+  </id_info>
+  <brief_title>A Study to Evaluate the Safety and Antiviral Effect of Multiple Doses of ABT-493 and ABT-530 in Adults With Genotype 1 Hepatitis C Virus (HCV)</brief_title>
+  <official_title>A Randomized, Open-Label, Dose Ranging Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Antiviral Activity of Multiple Doses of ABT-493 and ABT-530 in Adult Subjects With Genotype 1 Chronic Hepatitis C Virus (HCV) Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AbbVie</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>AbbVie</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the safety and antiviral effect of multiple doses
+      of ABT-493 and ABT-530 in adults with genotype 1 HCV.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2013</start_date>
+  <completion_date type="Actual">June 2015</completion_date>
+  <primary_completion_date type="Actual">June 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Maximal decrease in log10 hepatitis C virus ribonucleic acid levels from baseline</measure>
+    <time_frame>3 days after first dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The percentage of subjects with sustained virologic response 12 weeks post-treatment</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Hepatitis C virus ribonucleic acid less than the lower limit of quantification</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The percentage of subjects with on-treatment virologic failure during the treatment period</measure>
+    <time_frame>Up to 171 days</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of subjects with quantifiable hepatitis C virus ribonucleic acid throughout the entire treatment period, confirmed quantifiable hepatitis C virus ribonucleic acid after previously having unquantifiable hepatitis C virus ribonucleic acid, or a confirmed increase of at least one log10 in hepatitis C virus ribonucleic acid during treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The percentage of subjects with post-treatment relapse</measure>
+    <time_frame>Within 12 weeks after the last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of subjects with confirmed quantifiable hepatitis C virus ribonucleic acid among subjects with unquantifiable hepatitis C virus ribonucleic acid at the end of treatment</description>
+  </secondary_outcome>
+  <number_of_arms>12</number_of_arms>
+  <enrollment type="Actual">89</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <condition>Hepatitis C Virus</condition>
+  <condition>Compensated Cirrhosis</condition>
+  <arm_group>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose A for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose B for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose C for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose D for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 5</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose E for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 6</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose A for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 7</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose B for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 8</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose C for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 9</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose D for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 10</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose E for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 11</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-493 Dose F for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 12</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-530 Dose F for 3 days, followed by ABT-450/r/ABT-267 and ABT-333 coadministered with ribavirin (RBV) for 12 or 24 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-493</intervention_name>
+    <description>tablet</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_label>Arm 5</arm_group_label>
+    <arm_group_label>Arm 11</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-530</intervention_name>
+    <description>tablet</description>
+    <arm_group_label>Arm 6</arm_group_label>
+    <arm_group_label>Arm 7</arm_group_label>
+    <arm_group_label>Arm 8</arm_group_label>
+    <arm_group_label>Arm 9</arm_group_label>
+    <arm_group_label>Arm 10</arm_group_label>
+    <arm_group_label>Arm 12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-450/r/ABT-267</intervention_name>
+    <description>tablet</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_label>Arm 5</arm_group_label>
+    <arm_group_label>Arm 6</arm_group_label>
+    <arm_group_label>Arm 7</arm_group_label>
+    <arm_group_label>Arm 8</arm_group_label>
+    <arm_group_label>Arm 9</arm_group_label>
+    <arm_group_label>Arm 10</arm_group_label>
+    <arm_group_label>Arm 11</arm_group_label>
+    <arm_group_label>Arm 12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-333</intervention_name>
+    <description>tablet</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_label>Arm 5</arm_group_label>
+    <arm_group_label>Arm 6</arm_group_label>
+    <arm_group_label>Arm 7</arm_group_label>
+    <arm_group_label>Arm 8</arm_group_label>
+    <arm_group_label>Arm 9</arm_group_label>
+    <arm_group_label>Arm 10</arm_group_label>
+    <arm_group_label>Arm 11</arm_group_label>
+    <arm_group_label>Arm 12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (RBV)</intervention_name>
+    <description>tablet</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_label>Arm 5</arm_group_label>
+    <arm_group_label>Arm 6</arm_group_label>
+    <arm_group_label>Arm 7</arm_group_label>
+    <arm_group_label>Arm 8</arm_group_label>
+    <arm_group_label>Arm 9</arm_group_label>
+    <arm_group_label>Arm 10</arm_group_label>
+    <arm_group_label>Arm 11</arm_group_label>
+    <arm_group_label>Arm 12</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chronic HCV infection prior to study enrollment.
+
+          -  Screening laboratory result indicating HCV genotype 1-infection.
+
+          -  Subject has plasma HCV RNA level greater than 10,000 IU/mL at Screening.
+
+          -  Per local standard, subject is considered to be non-cirrhotic or to have compensated
+             cirrhosis.
+
+        Exclusion Criteria:
+
+          -  History of severe, life-threatening or other significant sensitivity to any drug.
+
+          -  Positive test result for Hepatitis B surface antigen (HBsAg) or anti-Human
+             Immunodeficiency Virus antibody (HIV Ab).
+
+          -  Prior therapy for the treatment of HCV.
+
+          -  Any current or past clinical evidence of Child Pugh B or C classification of clinical
+             history of liver decompensation including ascites (noted on physical exam), variceal
+             bleeding or hepatic encephalopathy.
+
+          -  Any cause of liver disease other than chronic HCV infection.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Armen Asatryan, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>AbbVie</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119692</name>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <zip>85054</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 123766</name>
+      <address>
+        <city>Rialto</city>
+        <state>California</state>
+        <zip>92377</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119719</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92161</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 120955</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 120956</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 120958</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 123058</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92120</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119680</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119678</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119687</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32809</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119695</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119685</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202-5121</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119691</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 123765</name>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <zip>64131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119690</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119686</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119677</name>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <zip>84123</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 119683</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 25, 2015</lastchanged_date>
+  <firstreceived_date>November 21, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Hepatitis C</keyword>
+  <keyword>Cirrhosis</keyword>
+  <keyword>Child Pugh A</keyword>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>Compensated Cirrhosis</keyword>
+  <keyword>Hepatitis C Genotype 1</keyword>
+  <keyword>Hepatitis C</keyword>
+  <keyword>Interferon-Free</keyword>
+  <keyword>Cirrhotic</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Liver Cirrhosis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="141">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00962871</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PP22512</org_study_id>
+    <nct_id>NCT00962871</nct_id>
+  </id_info>
+  <brief_title>A Study of Early Immunologic Response in Asian Patients With Chronic Hepatitis B, Treated With Pegasys (Peginterferon Alfa-2a (40KD)), Nucleoside Analogues, or Both</brief_title>
+  <official_title>An Open-label, Randomized Study to Evaluate the Acute Immunologic Responses in Asian Subjects With E Antigen Positive Chronic Hepatitis B Following Initiation of Therapy for Hepatitis B With Pegasys, Nucleoside Analogues, or Both.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>New Zealand: Health Research Council</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This open-label, randomized, parallel-arm study will assess the early immunologic response
+      in treatment-naïve Asian male patients with chronic hepatitis B after initiation of
+      treatment with Pegasys or tenofovir or Pegasys plus tenofovir. Patients will be randomized
+      to one of 4 cohorts to receive either Pegasys (360mcg subcutaneously weekly) or tenofovir
+      (300mg orally daily) or both or no treatment for 2 weeks. After 2 weeks on study treatment,
+      patients may opt to receive standard of care treatment with Pegasys. Target sample size is
+      &lt;50.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2009</start_date>
+  <completion_date type="Actual">February 2012</completion_date>
+  <primary_completion_date type="Actual">February 2012</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Acute immunologic response</measure>
+    <time_frame>assessed days 1-14 and weekly during follow-up</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Early kinetics of viral suppression</measure>
+    <time_frame>assessed days 1-14 and weekly during follow-up</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early changes in viral sequence associated with viral suppression</measure>
+    <time_frame>assessed days 1, 14, 28 and 42</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon alfa-2a [Pegasys]</intervention_name>
+    <description>360 micrograms sc/week for 2 weeks</description>
+    <arm_group_label>2</arm_group_label>
+    <arm_group_label>3</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>tenofovir</intervention_name>
+    <description>300mg po daily for 2 weeks</description>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_label>2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  male adults of Southeast and/or East Asian origin, 18-55 years of age
+
+          -  HBeAg-positive chronic hepatitis B
+
+          -  detectable HBV DNA
+
+        Exclusion Criteria:
+
+          -  prior antiviral therapy for chronic hepatitis B
+
+          -  evidence of bridging fibrosis, cirrhosis or decompensated liver disease
+
+          -  positive test at screening for HAV (IgM), HCV, HDV or HIV
+
+          -  history or evidence of medical condition associated with chronic liver disease
+
+          -  antineoplastic or immunomodulatory treatment &lt;/=6 months prior to first dose of study
+             drug
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90036</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143-0538</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Grafton</city>
+        <zip>1010</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Singapore</city>
+        <zip>119228</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Singapore</city>
+        <zip>169608</zip>
+        <country>Singapore</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>New Zealand</country>
+    <country>Singapore</country>
+    <country>Taiwan</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 1, 2015</lastchanged_date>
+  <firstreceived_date>August 19, 2009</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="280">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00114712</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RPR-1</org_study_id>
+    <nct_id>NCT00114712</nct_id>
+  </id_info>
+  <brief_title>Ribavirin Pregnancy Registry</brief_title>
+  <official_title>Ribavirin Pregnancy Registry</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>INC Research</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Aurobindo Pharma</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Genentech, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sandoz Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Teva Pharmaceuticals USA</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Kadmon Pharmaceuticals, LLC</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Zydus Pharmaceuticals USA, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>INC Research</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Ribavirin should be avoided during pregnancy and during the 6 months before pregnancy in
+      both the female and the male sexual partner. If a pregnancy occurs and is reported to the
+      Ribavirin Pregnancy Registry, the Registry will follow the pregnant woman throughout
+      pregnancy. The Registry will also follow the infant until 1 year of age. The goal of the
+      Registry is to learn more about the effects of ribavirin on pregnancy and the risk for birth
+      defects. Pregnant women exposed to ribavirin, either by taking ribavirin (during pregnancy
+      or 6 months before pregnancy) or through a male sexual partner (who took ribavirin during
+      the female partner's pregnancy or during the 6 months before pregnancy), are encouraged to
+      contact the Registry.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Ribavirin, a nucleoside analog with antiviral activity, is used in combination with
+      interferons or pegylated interferons for the treatment of chronic hepatitis C (HCV).
+      Extensive clinical studies have demonstrated that combination therapy with ribavirin and
+      interferons or pegylated interferons are efficacious treatments for HCV. However, ribavirin
+      has been assigned a FDA Pregnancy Category X classification, indicating that it should not
+      be used in women who are pregnant or in men whose partners may become pregnant. Because the
+      incidence of HCV is highest in the group with the highest reproductive potential, the 25 -
+      45 year age group, (CDC, 2001) it is likely that inadvertent pregnancy exposures will occur
+      and should be monitored. The primary objectives of this Registry are:
+
+        -  To evaluate the association between ribavirin and birth defects occurring in offspring
+           of female patients exposed to ribavirin during pregnancy or within six months after
+           therapy has stopped.
+
+        -  To evaluate the association between ribavirin and birth defects occurring in offspring
+           of females exposed to ribavirin during pregnancy or within six months after therapy has
+           stopped, through their male sexual partners taking ribavirin.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>January 2004</start_date>
+  <completion_date type="Anticipated">December 2027</completion_date>
+  <primary_completion_date type="Anticipated">November 2027</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Observational [Patient Registry]</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <target_duration>12 Months</target_duration>
+  <primary_outcome>
+    <measure>To evaluate association between ribavirin and birth defects</measure>
+    <time_frame>At birth outcome, infant follow-up at 6 and 12 months</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>To evaluate the association between ribavirin and birth defects occurring in offspring of female patients exposed to ribavirin during pregnancy or within six months after therapy has stopped.
+To evaluate the association between ribavirin and birth defects occurring in offspring of females exposed to ribavirin during pregnancy or within six months after therapy has stopped, through their male sexual partners taking ribavirin.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Estimate risk of birth defects in exposed pregnancies</measure>
+    <time_frame>At birth outcome, infant follow-up at 6 and 12 months</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Attempt to estimate the risk of birth defects occurring in offspring of female patients exposed to ribavirin during pregnancy or within six months after therapy has stopped, and detect any increase in the prevalence or pattern of birth defects among these pregnancies.
+Attempt to estimate the risk of birth defects occurring in offspring of females exposed to ribavirin during pregnancy or within six months after therapy has stopped, through their male sexual partners taking ribavirin, to detect any increase in the prevalence or pattern of birth defects among these pregnancies.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Birth Defects</condition>
+  <condition>Pregnancy Complications</condition>
+  <condition>Hepatitis C</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Primary Analysis - US
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Pregnancy occurring to one of the following groups while the patient or sexual
+             partner was on ribavirin and/or within six months after therapy stopped:
+
+               -  Female patients who become pregnant on ribavirin therapy, or
+
+               -  Female patients who start ribavirin therapy while pregnant, or
+
+               -  Female patients who become pregnant post-ribavirin therapy (defined as the six
+                  month time period after therapy has stopped) or
+
+               -  Females who become pregnant while their male sexual partner is on ribavirin
+                  therapy or
+
+               -  Females who are pregnant when their male sexual partner starts ribavirin
+                  therapy, or
+
+               -  Females who become pregnant while their male sexual partner is in the
+                  post-ribavirin therapy period (defined as the six month time period after
+                  therapy has stopped).
+
+          -  Timing of the prenatal exposure to ribavirin, no broader than within six months prior
+             to pregnancy or trimester during which the exposure took place.
+
+          -  Sufficient information to determine whether the pregnancy is prospectively registered
+             (i.e., whether the outcome of pregnancy was known at the time of the report).
+
+          -  Date the pregnancy exposure report is registered.
+
+          -  Source of the report (health care professional, pregnant patient, or male sexual
+             partner).
+
+          -  Report contact information to allow for follow-up.
+
+        Exclusion Criteria:
+
+          -  Females who were not exposed to Ribavirin during the designated time (described
+             above)
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Susan Sinclair, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>INC Research</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Earle Griffith, PMP</last_name>
+    <phone>800 593 2214</phone>
+    <email>pregnancyregistries@incresearch.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Stacey Stone</last_name>
+    <phone>800 593 2214</phone>
+    <email>pregnancyregistries@incresearch.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>INC Research, LLC</name>
+      <address>
+        <city>Wilmington</city>
+        <state>North Carolina</state>
+        <zip>28405</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Earle Griffith, PMP</last_name>
+      <phone>800-593-2214</phone>
+      <email>pregnancyregistries@incresearch.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2013</verification_date>
+  <lastchanged_date>March 30, 2015</lastchanged_date>
+  <firstreceived_date>June 16, 2005</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Birth Defects</keyword>
+  <keyword>Pregnancy</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>Hepatitis C</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Congenital Abnormalities</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Pregnancy Complications</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

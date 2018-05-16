@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="138">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02607735</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-367-1171</org_study_id>
+    <secondary_id>2015-003455-21</secondary_id>
+    <nct_id>NCT02607735</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Sofosbuvir/Velpatasvir/GS-9857 in Adults With Chronic HCV Infection Who Have Previously Received Treatment With Direct-Acting Antiviral Therapy</brief_title>
+  <acronym>POLARIS-1</acronym>
+  <official_title>A Phase 3, Global, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Safety and Efficacy of Sofosbuvir/Velpatasvir/GS-9857 Fixed-Dose Combination for 12 Weeks in Direct-Acting Antiviral-Experienced Subjects With Chronic HCV Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>France: Agence Nationale de Sécurité du Médicament et des produits de santé</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the safety and efficacy of treatment with
+      sofosbuvir/velpatasvir/GS-9857 (SOF/VEL/GS-9857) in adults with chronic HCV infection who
+      have previously received treatment with direct-acting antiviral therapy.
+
+      Subjects randomized to placebo may be eligible for deferred treatment with active
+      SOF/VEL/GS-9857.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>November 2015</start_date>
+  <completion_date type="Anticipated">September 2017</completion_date>
+  <primary_completion_date type="Anticipated">January 2017</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Proportion of Participants With Sustained Virologic Response (SVR) 12 Weeks After Discontinuation of Therapy (SVR12) (Primary Study)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as HCV RNA &lt; the lower limit of quantitation (LLOQ) at 12 weeks after stopping study treatment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of Participants Who Permanently Discontinue Study Drug Due to an Adverse Event</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With SVR at 4 and 24 Weeks After Discontinuation of Therapy (SVR4 and SVR24) (Primary Study)</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR 24 are defined as HCV RNA &lt; LLOQ at 4 and 24 weeks after stopping study treatment, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With HCV RNA &lt; LLOQ On Treatment (Primary Study)</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA (Primary Study)</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With Virologic Failure (Primary Study)</measure>
+    <time_frame>Up to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic failure is defined as:
+On-treatment virologic failure:
+Confirmed HCV RNA ≥ LLOQ after having previously had HCV RNA &lt; LLOQ while on treatment, or
+Confirmed &gt; 1 log10 IU/mL increase in HCV RNA from nadir while on treatment, or
+HCV RNA persistently ≥ LLOQ through 8 weeks of treatment
+Viral relapse</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With SVR at 4, 12, and 24 Weeks After Discontinuation of Therapy (Deferred Treatment Substudy)</measure>
+    <time_frame>Posttreatment Weeks 4, 12, and 24 on active treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This outcome will be assessed in participants randomized to placebo who later enroll in deferred treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With HCV RNA &lt; LLOQ On Treatment (Deferred Treatment Substudy)</measure>
+    <time_frame>Up to 12 weeks on active treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This outcome will be assessed in participants randomized to placebo who later enroll in deferred treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA (Deferred Treatment Substudy)</measure>
+    <time_frame>Up to 12 weeks on active treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This outcome will be assessed in participants randomized to placebo who later enroll in deferred treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants With Virologic Failure (Deferred Treatment Substudy)</measure>
+    <time_frame>Up to Posttreatment Week 24 on active treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This outcome will be assessed in participants randomized to placebo who later enroll in deferred treatment.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">380</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>SOF/VEL/GS-9857 (Primary Study)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SOF/VEL/GS-9857 tablet for 12 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo (Primary Study)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Placebo to match SOF/VEL/GS-9857 tablet for 12 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF/VEL/GS-9857 (Deferred Treatment Substudy)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>SOF/VEL/GS-9857 tablet for 12 weeks for eligible participants initially randomized to receive placebo</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SOF/VEL/GS-9857</intervention_name>
+    <description>SOF/VEL/GS-9857 tablet administered orally once daily</description>
+    <arm_group_label>SOF/VEL/GS-9857 (Primary Study)</arm_group_label>
+    <arm_group_label>SOF/VEL/GS-9857 (Deferred Treatment Substudy)</arm_group_label>
+    <other_name>GS-7977/GS-5816/GS-9857</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>SOF/VEL/GS-9857 placebo tablet administered orally once daily</description>
+    <arm_group_label>Placebo (Primary Study)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Willing and able to provide written informed consent
+
+          -  HCV RNA ≥ 10^4 IU/mL at screening
+
+          -  Chronic HCV infection (≥ 6 months)
+
+          -  Treatment experienced with a direct acting antiviral medication for HCV
+
+          -  Use of protocol specified methods of contraception
+
+        Exclusion Criteria:
+
+          -  Current or prior history of clinically significant illness that may interfere with
+             participation in the study
+
+          -  Screening ECG with clinically significant abnormalities
+
+          -  Laboratory results outside of acceptable ranges at screening
+
+          -  Pregnant or nursing female
+
+          -  Chronic liver disease not caused by HCV
+
+          -  Infection with hepatitis B virus (HBV) or human immunodeficiency virus (HIV)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Robert H. Hyland, DPhil</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gilead Study Team</last_name>
+    <email>POLARISalerts@gilead.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pasadena</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Rialto</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Englewood</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bastrop</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Catonsville</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hillsborough</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lake Success</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fayetteville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Knoxville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Live Oak</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Falls Church</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Camperdown</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Darlinghurst</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Herston</city>
+        <state>Queensland</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clayton</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fitzroy</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Perth</city>
+        <state>Western Australia</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brampton</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bobigny</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clermont-Ferrand</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clichy</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Creteil</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Grenoble</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Limoges</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marseille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nice</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orléans</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pessac</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Rennes</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Rouen</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Strasbourg</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toulouse</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vandoeuvre-les-Nancy</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Villejuif</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bonn</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Frankfurt am Main</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hamburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hannover</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Köln</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Christchurch</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Grafton</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Juan</city>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Manchester</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nottingham</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Oxford</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Portsmouth</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>New Zealand</country>
+    <country>Puerto Rico</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 8, 2015</lastchanged_date>
+  <firstreceived_date>November 16, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Hepatitis C Infection</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

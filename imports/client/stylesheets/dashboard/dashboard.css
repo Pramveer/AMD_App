@@ -1,0 +1,745 @@
+/*body {
+    margin-top: 100px;
+    background-color: #222;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.eot');
+    src: url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?') format('embedded-opentype'), url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('packages/bootswatch_readable/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+/**/
+
+.containertitle {
+    font-size: 13px !important;
+    font-weight: 600;
+}
+
+.boxContainerDashboard {
+    border: .5px solid #fdfdfd;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 1px 1px #efefef;
+}
+
+.chartContainer {
+    padding: 5px;
+}
+
+.chartContainer .panel-body {
+    padding: 5px;
+}
+
+.totalPatientsContainer {
+    /*    float: left;*/
+    width: 50%;
+    border-right: 1px solid #e4e4e4;
+}
+
+.totalPatinetsLabel {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.totalPatientsCountDashboard {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+    color: #008a78;
+}
+
+.maleAndFmalePatientsContainer {
+    width: 40%;
+    float: right;
+    margin-left: 280px;
+    top: 25px;
+    position: absolute;
+}
+
+.malePatientsCount {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+.femalePatientsCount {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+.stackedChartDashboard .x.axis path.domain {
+    visibility: hidden;
+}
+
+.stackedChartDashboard .x.axis .tick text {
+    text-anchor: end;
+    font-size: 12px;
+    font-family: sans-serif;
+    fill: rgb(102, 102, 102);
+    opacity: 0.8;
+}
+
+.genotypeDistSelectHeading .selectize-control {
+    float: right;
+    margin-top: -8px;
+    width: 100px !important;
+}
+
+.genotypeDistSelect .selectize-dropdown-content .option {
+    font-size: 13px;
+}
+
+.stackedChartDashboard .legend text {
+    font-size: 10px;
+    fill: rgb(102, 102, 102);
+}
+
+.genotypeDistSelect .items {
+    border-bottom: 1px solid red !important;
+}
+
+.timeFilterDistSelect {
+    width: 68px !important;
+}
+
+.timeFilterDistSelect .selectize-dropdown-content .option {
+    font-size: 12px;
+}
+
+
+/*Risk Distribution Chart*/
+
+.riskChartLegends {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 5px;
+}
+
+.legendContainer {
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+.legendsColor {
+    height: 15px;
+    width: 15px;
+    float: left;
+}
+
+.legendName {
+    float: left;
+    color: #444;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.riskDistributionChartHeaderRow {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #8a8a8a;
+}
+
+.riskDistributionChartHeaderRowInteraction {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #8a8a8a;
+}
+
+.genotypesHead {
+    float: left;
+    width: 8%;
+}
+
+.drugInteractionHeadName {
+    float: left;
+    width: 12%;
+}
+
+.drugInteractionHeadNameInfo {
+    float: left;
+    width: 55%;
+}
+
+.riskDistributionHead {
+    float: left;
+    width: 25%;
+}
+
+.riskDistributionBygenderHead {
+    float: left;
+    width: 26%;
+}
+
+.riskDistributionByEthnicityHead {
+    float: left;
+    width: 37%;
+}
+
+.riskDistributionByAge {
+    float: left;
+    width: 24%;
+}
+
+.genotypes {
+    float: left;
+    width: 8%;
+    line-height: 250px;
+    font-size: 14px;
+    color: #999;
+}
+
+.genotypesrisk {
+    float: left;
+    width: 8%;
+    line-height: 250px;
+    font-size: 13px;
+    color: #716a6a;
+    font-weight: 600;
+}
+
+.drugNamesInteraction {
+    float: left;
+    width: 12%;
+    line-height: 116px;
+    font-size: 14px;
+    color: #999;
+}
+
+iframe.drugInteraction {
+    width: 100%;
+    border: none;
+    height: 140px;
+    overflow: hidden !important;
+}
+
+.riskDistributionChartRow {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 12px;
+    text-align: center;
+    /*line-height: 150px;*/
+}
+
+.genotypes {
+    float: left;
+    width: 8%;
+}
+
+.riskDistribution {
+    float: left;
+    width: 25%;
+}
+
+.riskDistributionBygender {
+    float: left;
+    width: 26%;
+}
+
+.riskDistributionMale {
+    float: left;
+    width: 50%;
+}
+
+.riskDistributionFemale {
+    float: left;
+    width: 50%;
+}
+
+.riskDistributionByEthnicity {
+    float: left;
+    width: 37%;
+}
+
+.riskDistributionByAge {
+    float: left;
+    width: 24%;
+}
+
+.riskDistributionBygender .c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+.riskDistributionBygender .c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+.riskDistributionByEthnicity .c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+.riskDistributionByEthnicity .c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+.riskDistributionByAge .c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+.riskDistributionByAge .c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+
+/*
+.dashboardtooltip {
+     color: #333;
+     display: none;
+     font-size: 12px;
+     left: 110px;
+     padding: 10px;
+     position: absolute;
+     text-align: center;
+     z-index: 10;
+ }*/
+
+.dashboardtooltip {
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    /* border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;*/
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.boxContainerDashboard .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
+}
+
+.boxContainerDashboard .panel-heading a.collapsed:after {
+    content: "\e080";
+}
+
+.boxContainerDashboard g.c3-axis.c3-axis-y .tick {
+    visibility: visible;
+    fill: #333;
+}
+
+#tPCirrhosisDistribution g.c3-axis.c3-axis-y .tick {
+    visibility: hidden;
+}
+
+#tPCirrhosisDistribution1 g.c3-axis.c3-axis-y .tick {
+    visibility: hidden;
+}
+
+.boxContainerDashboard g.c3-axis.c3-axis-x .tick {
+    font-size: 11.5px;
+    font-weight: normal;
+    fill: #333;
+}
+
+.boxContainerDashboard .c3 path,
+.c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+.boxContainerDashboard .c3-axis-y-label,
+.boxContainerDashboard .c3-axis-x-label {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    fill: #333;
+}
+
+.boxContainerDashboard .c3 path,
+.boxContainerDashboard .c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+#tPAgeDistribution g.c3-axis.c3-axis-x path.domain,
+#tPGenotypeDistribution g.c3-axis.c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+#tPAgeDistribution g.c3-axis.c3-axis-x .tick line,
+#tPGenotypeDistribution g.c3-axis.c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+#tPAgeDistribution .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text,
+#tPGenotypeDistribution .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: start;
+    font-size: 12px;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#tPGenotypeDistribution .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: middle;
+    font-size: 12px;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#tPAgeDistribution .c3 text,
+#tPGenotypeDistribution .c3 text {
+    fill: #333 !important;
+}
+
+#tPAgeDistribution .c3-axis,
+#tPGenotypeDistribution .c3-axis {
+    text-anchor: end;
+    font-size: 12px;
+    font-family: sans-serif;
+    fill: rgb(102, 102, 102);
+    opacity: 0.8;
+}
+
+#tPEthnicityDistribution g.c3-axis.c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+#tPEthnicityDistribution g.c3-axis.c3-axis-y {
+    display: none;
+    visibility: hidden;
+}
+
+#tPEthnicityDistribution g.c3-axis.c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+#tPEthnicityDistribution .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: start;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#tPEthnicityDistribution .c3 text {
+    fill: #333 !important;
+}
+
+#tPEthnicityDistribution .c3-axis {
+    text-anchor: end;
+    font-size: 12px;
+    font-family: sans-serif;
+    fill: rgb(102, 102, 102);
+    opacity: 0.8;
+}
+
+.dashBoard-breadCrumSections {
+    width: 63%;
+    display: none;
+    float: left;
+    padding: 5px;
+    border: 1px solid #efefef;
+}
+
+.dashBoard-breadCrum {
+    display: inline-block;
+    margin: 2px 2px;
+    border: 1px solid #e1e5e6;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.dashBoard-filterkey {
+    display: inline-block;
+    color: #ef4823;
+    text-transform: capitalize;
+}
+
+.dashBoard-filterValue {
+    display: inline-block;
+    color: #858686;
+}
+
+.dashboard-clearFilter {
+    display: inline-block;
+    padding: 0px 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dashboard-clearAll {
+    color: red;
+    font-size: 13px;
+}
+
+.dashBoard-dateFiltersSection {
+    width: 36%;
+    display: inline-block;
+    padding: 2px 6px;
+    border: 2px solid #fdfdfd;
+    margin-left: 5px;
+}
+
+.dashBoard-dateFiltersSection input {
+    margin: 0px 0px 0px 5px;
+    border: 1px solid #f78651;
+    padding: 1px 1px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.dashBoard-dateFiltersSection input[type=month]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.dashboard-applyDateFilters {
+    width: 44px;
+    height: 24px;
+    background-color: #f78651;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    color: #fff;
+}
+
+.dashboard-date {
+    width: 149px;
+}
+
+#tPRiskDistributionDonut.c3 path,
+#tPRiskDistributionDonut.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPSurvivalRateLegends.c3 path,
+#tPSurvivalRateLegends.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPTreatmenteDistribution.c3 path,
+#tPTreatmenteDistribution.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPCirrhosisDistribution.c3 path,
+#tPCirrhosisDistribution.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPCirrhosisDistribution1.c3 path,
+#tPCirrhosisDistribution1.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+
+/*.no-c3-axis-tick.c3 path,.no-c3-axis-tick .c3 line{
+ stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}*/
+
+.pin-c3-custom-label-color .c3-text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+#tPCirrhosisDistribution .c3-text,
+#tPCirrhosisDistribution1 .c3-text,
+#tPCostBurden .c3-text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+#tPDiseasePrediction.c3 path,
+#tPDiseasePrediction.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPAgeDistribution.c3 path,
+#tPAgeDistribution.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPEthnicityDistribution.c3 path,
+#tPEthnicityDistribution.c3 line {
+    stroke: #fff !important;
+    stroke-width: 0.5 !important;
+}
+
+#tPCostBurden .c3-shape {
+    stroke: #fff !important;
+    stroke-width: 1.5 !important;
+}
+
+.riskDistributionChartRow .c3-target text {
+    fill: black !important;
+}
+
+.dashboardsourcelink {
+    display: inline-block
+}
+
+.dashboardsourcelink:after {
+    display: none;
+}
+
+.analytics-tooltip {
+    width: 370px;
+    right: -160px;
+}
+
+.dashboard_tooltip.analytics-tooltip:after {
+    left: 84%;
+}
+
+#tPTreatmentPriority .c3-text,
+#tPDrugGenotyeDistribution .c3-text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+.mlSubTabsChartSectionWrap .c3-text,
+#tPGenotypeDistribution .c3-text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+#tPGenotypeDistribution g.tick {
+    display: none;
+}
+
+#tPGenotypeDistribution .c3-axis-x g.tick {
+    display: block;
+}
+
+#tPSurvivalRate .c3-texts text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+#tPSurvivalRate g.tick {
+    fill: #333 !important;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#tPGenotypeDistribution .c3-axis .c3-axis-x-label {
+    display: none;
+}
+
+.transgenderPatientsCount {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#tPTreatmentPriority g.tick {
+    font-size: 11.5px
+}
+
+#tPSVR .c3-target text {
+    fill: black !important;
+}
+
+
+.dashboardWrap .switch ,.head-emr-details .switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+    float: right;
+}
+
+.dashboardWrap .switch input,.head-emr-details .switch input {
+    display: none;
+}
+
+.dashboardWrap .slider ,.head-emr-details .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.dashboardWrap .slider:before ,.head-emr-details .slider:before{
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 25px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.dashboardWrap input:checked+.slider ,.head-emr-details input:checked+.slider{
+    background-color: #2196F3;
+}
+
+.dashboardWrap input:focus+.slider,.head-emr-details input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.dashboardWrap input:checked+.slider:before,.head-emr-details input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.dashboardWrap .slider.round,.head-emr-details .slider.round {
+    border-radius: 34px;
+}
+
+.dashboardWrap .slider.round:before,.head-emr-details .slider.round:before {
+    border-radius: 50%;
+}

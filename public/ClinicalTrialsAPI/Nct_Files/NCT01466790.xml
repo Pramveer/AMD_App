@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="57">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01466790</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR018724</org_study_id>
+    <secondary_id>TMC435HPC2002</secondary_id>
+    <nct_id>NCT01466790</nct_id>
+  </id_info>
+  <brief_title>A Study of TMC435 in Combination With PSI-7977 (GS7977) in Chronic Hepatitis C Genotype 1-Infected Prior Null Responders To Peginterferon/Ribavirin Therapy or HCV Treatment-Naive Patients</brief_title>
+  <acronym>COSMOS</acronym>
+  <official_title>An Exploratory Phase IIa, Randomized, Open-Label Trial to Investigate the Efficacy and Safety of 12 Weeks or 24 Weeks of TMC435 in Combination With PSI-7977 (GS7977) With Or Without Ribavirin in Chronic Hepatitis C Genotype 1-Infected Prior Null Responders To Peginterferon/Ribavirin Therapy or HCV Treatment-Naive Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen R&amp;D Ireland</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Janssen R&amp;D Ireland</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to investigate the efficacy and safety of TMC435 plus PSI-7977
+      (GS7977) with or without ribavirin in patients who are chronically infected with genotype 1
+      hepatitis C virus (HCV) and who did not respond to prior peginterferon/ribavirin therapy or
+      are HCV treatment-naive (patients who never received treatment for HCV infection).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a Phase IIa, randomized (the study medications are assigned by chance), open label
+      (all people know the identity of the intervention) study of TMC435 plus PSI-7977 (GS7977)
+      with or without ribavirin. The study consists of a screening phase (6 weeks); a treatment
+      phase (12 or 24 week period); and a posttreatment phase (follow-up period up to Week 48).
+      Approximately 180 patients will be enrolled in this study. Patients will be sequentially
+      enrolled into two cohorts in this study. Cohort 1 (90 patients) will include patients
+      without advanced hepatic fibrosis who did not respond to previous PegIFN/ribavirin therapy
+      and Cohort 2 (90 patients) will include only patients with advanced hepatic fibrosis who did
+      not respond to previous PegIFN/ribavirin therapy or are HCV treatment-naive. Safety will be
+      evaluated throughout the study and will include evaluations of adverse events, clinical
+      laboratory tests, electrocardiogram, vital signs, and physical examination. The entire study
+      duration for each participant will be approximately 48 weeks.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2012</start_date>
+  <completion_date type="Actual">January 2014</completion_date>
+  <primary_completion_date type="Actual">November 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants With a Sustained Virologic Response (SVR) 12 Weeks After the Planned End of Treatment (EOT)</measure>
+    <time_frame>Week 12 and 24 (for the arms treated for 12 weeks) or Week 24 and 36 (for the arms treated for 24 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants with hepatitis C virus (HCV) ribonucleic acid (RNA) undetectable at end of treatment and HCV RNA less than (&lt;) 25 international unit per milliliter (IU/mL) (detectable or undetectable) at 12 weeks after the planned end of treatment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With a Sustained Virologic Response (SVR) 4 Weeks After the Planned End of Treatment (EOT)</measure>
+    <time_frame>Week 12 and 16 (for the arms treated for 12 weeks) or Week 24 and 28 (for the arms treated for 24 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants with hepatitis C virus (HCV) ribonucleic acid (RNA) undetectable at end of treatment and HCV RNA less than (&lt;) 25 international unit per milliliter (IU/mL) (detectable or undetectable) at 4 weeks after the planned end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With a Sustained Virologic Response (SVR) 24 Weeks After the Planned End of Treatment (EOT)</measure>
+    <time_frame>Week 12 and 36 (for the arms treated for 12 weeks) or Week 24 and 48 (for the arms treated for 24 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants with HCV RNA undetectable at end of treatment and HCV RNA less than (&lt;) 25 IU/mL (detectable or undetectable) at 24 weeks after the planned end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With a Sustained Virologic Response (SVR) at Week 48</measure>
+    <time_frame>Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants with HCV RNA undetectable at end of treatment and HCV RNA less than (&lt;) 25 IU/mL (detectable or undetectable) at week 48.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Viral Breakthrough</measure>
+    <time_frame>Up to End of Treatment [Week 12 (for the arms treated for 12 weeks) or Week 24 (for the arms treated for 24 weeks)]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral breakthrough was defined as confirmed quantifiable HCV RNA after becoming less than (&lt;) lower limit of quantification (LLOQ) or confirmed greater than (&gt;) 1 log10 HCV RNA increase from the lowest level reached on 2 consecutive occasions.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Inadequate Virologic Response</measure>
+    <time_frame>Week 8 and End of Treatment [Week 12 (for the arms treated for 12 weeks) or Week 24 (for the arms treated for 24 weeks)]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Inadequate Virologic Response was defined as confirmed detectable HCV RNA at or after Week 8 and not meeting the viral breakthrough definition.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Viral Relapse</measure>
+    <time_frame>During the Follow-up [Week 36 (for the arms treated for 12 weeks) or Week 24 (for the arms treated for 24 weeks)]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral relapse was defined as undetectable HCV RNA at the actual EOT and confirmed quantifiable HCV RNA (&gt;= 25 IU/mL) during follow-up period.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">168</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>30 patients will receive TMC435 (150 mg once a day) plus PSI-7977(GS7977) (400 mg once a day) with ribavirin (1000-1200 mg/day) for 24 weeks and followed by a 24-week follow-up phase.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>15 patients wiil receive TMC435 (150 mg once a day) plus PSI-7977 (GS7977) (400 mg once a day) for 24 weeks of and followed by a 24-week follow-up phase.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>30 patients will receive TMC435 (150 mg once a day) plus PSI-7977 (GS7977) (400 mg once a day) with ribavirin (1000-1200 mg/day) for 12 weeks and followed by a 36-week follow-up phase.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>15 patients will receive TMC435 (150 mg once a day) plus PSI-7977 (GS7977) (400 mg once a day) for 12 weeks and followed by a 36-week follow-up phase.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>TMC435</intervention_name>
+    <description>TMC435 will be administered as one oral capsule of 150 mg once a day.</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PSI-7977 (GS7977)</intervention_name>
+    <description>PSI-7977 (GS7977) will be administered as oral tablets (2 tablets of 200 mg for Cohort 1 and 1 tablet of 400 mg for Cohort 2) once a day.</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 2</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+    <arm_group_label>Arm 4</arm_group_label>
+    <other_name>GS7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Ribavirin will be administered according to body weight. For patients with body weight less than 75 kg daily dose (1000 mg) will be administered as 400 mg (2 oral tablets of 200 mg) in the morning and 600 mg (3 oral tablets of 200 mg) in the evening. Body weight more than or equal to 75 kg daily dose (1200 mg) will be administered as 600 mg twice a day (3 tablets of 200 mg per intake, morning and evening).</description>
+    <arm_group_label>Arm 1</arm_group_label>
+    <arm_group_label>Arm 3</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chronic genotype 1 hepatitis C virus (HCV) infection
+
+          -  Plasma HCV RNA of more than 10,000 IU/mL at screening
+
+          -  Patients in Cohort 1 must be null responders to PegIFN/ribavirin with at least 1
+             documented previous course of PegIFN/ribavirin therapy for at least 12 consecutive
+             weeks
+
+          -  Patients in Cohort 2 must be null responders to PegIFN/ribavirin with at least 1
+             documented previous course of PegIFN/ribavirin therapy for at least 12 consecutive
+             weeks and could also be HCV treatment-naive, meaning never received treatment with
+             any approved or investigational drug for the treatment of HCV
+
+          -  Null responders patients in Cohort 1 and Cohort 2 must meet the defined criterion for
+             a null responder, defined as on-treatment less than 2 log10 IU/mL reduction in HCV
+             RNA from baseline at Week 12 of the most recent PegIFN/ribavirin therapy
+
+          -  Patient must have had a liver biopsy within 3 years before screening (or between
+             screening and baseline visit) or patient must have had a liver biopsy at any time in
+             the past which showed Metavir F3 or F4 fibrosis
+
+          -  Must agree to use 2 forms of effective contraception throughout the study (male and
+             female)
+
+        Exclusion Criteria:
+
+          -  Has evidence of hepatic decompensation
+
+          -  Has any liver disease of non-HCV etiology
+
+          -  Has an infection/co-infection with non-genotype 1 HCV
+
+          -  Has a co-infection with Human immunodeficiency virus (HIV) type 1 or type 2 (HIV-1 or
+             HIV-2) (positive HIV-1 or HIV-2 antibody test at screening)
+
+          -  Has a co-infection with hepatitis B virus (hepatitis B surface antigen [HBsAg]
+             positive)
+
+          -  Has a history of malignancy within 5 years of the screening visit
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen R&amp;D Ireland Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen R&amp;D Ireland</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Hoover</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bakersfield</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brandenton</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wellington</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lebanon</city>
+        <state>New Hampshire</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Falls Church</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seatle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Santurce</city>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>January 2015</verification_date>
+  <lastchanged_date>January 26, 2015</lastchanged_date>
+  <firstreceived_date>November 3, 2011</firstreceived_date>
+  <firstreceived_results_date>October 17, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <keyword>TMC435</keyword>
+  <keyword>PSI-7977</keyword>
+  <keyword>GS7977</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>HCV</keyword>
+  <keyword>Hep C</keyword>
+  <keyword>Genotype 1</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

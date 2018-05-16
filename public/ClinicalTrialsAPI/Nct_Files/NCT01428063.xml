@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="32">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01428063</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI444-026</org_study_id>
+    <secondary_id>2011-000836-27</secondary_id>
+    <nct_id>NCT01428063</nct_id>
+  </id_info>
+  <brief_title>Study With PegInterferon Alfa-2a, Ribavirin and BMS-790052 With or Without BMS-650032 for Participants in Some Hepatitis C Virus (HCV) Trials</brief_title>
+  <official_title>An Open-Label Re-Treatment Study With PegInterferon Alfa-2a, Ribavirin and BMS-790052 With or Without BMS-650032 for Subjects With Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bristol-Myers Squibb</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Argentina: Administracion Nacional de Medicamentos, Alimentos y Tecnologia Medica</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>Australia: National Health and Medical Research Council</authority>
+    <authority>Austria: Federal Office for Safety in Health Care</authority>
+    <authority>Brazil: National Health Surveillance Agency</authority>
+    <authority>Brazil: Ministry of Health</authority>
+    <authority>Brazil: National Committee of Ethics in Research</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Denmark: Danish Dataprotection Agency</authority>
+    <authority>Denmark: The Danish National Committee on Biomedical Research Ethics</authority>
+    <authority>Egypt: Institutional Review Board</authority>
+    <authority>Egypt: Ministry of Health and Population</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: Ministry of Health</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Greece: Ethics Committee</authority>
+    <authority>Greece: National Organization of Medicines</authority>
+    <authority>Ireland: Irish Medicines Board</authority>
+    <authority>Israel: Israeli Health Ministry Pharmaceutical Administration</authority>
+    <authority>Italy: Ministry of Health</authority>
+    <authority>Italy: National Bioethics Committee</authority>
+    <authority>Italy: National Monitoring Centre for Clinical Trials - Ministry of Health</authority>
+    <authority>Italy: The Italian Medicines Agency</authority>
+    <authority>Korea: Food and Drug Administration</authority>
+    <authority>Mexico: Federal Commission for Sanitary Risks Protection</authority>
+    <authority>Netherlands: The Central Committee on Research Involving Human Subjects (CCMO)</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>Poland: National Institute of Medicines</authority>
+    <authority>Poland: Ministry of Health</authority>
+    <authority>Poland: Ministry of Science and Higher Education</authority>
+    <authority>Poland: Office for Registration of Medicinal Products, Medical Devices and Biocidal Products</authority>
+    <authority>Russia: Ethics Committee</authority>
+    <authority>Russia: FSI Scientific Center of Expertise of Medical Application</authority>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <authority>Singapore: Clinical Trials &amp; Epidemiology Research Unit (CTERU)</authority>
+    <authority>Singapore: Domain Specific Review Boards</authority>
+    <authority>Singapore: Health Sciences Authority</authority>
+    <authority>Spain: Spanish Agency of Medicines</authority>
+    <authority>Sweden: Medical Products Agency</authority>
+    <authority>Sweden: The National Board of Health and Welfare</authority>
+    <authority>Sweden: Swedish Data Inspection Board</authority>
+    <authority>Sweden: Regional Ethical Review Board</authority>
+    <authority>Taiwan: Department of Health</authority>
+    <authority>Taiwan: National Bureau of Controlled Drugs</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to provide anti-HCV drugs to +/- 200 subjects treated in prior
+      BMS studies with placebo + Peginterferon Alfa-2a and Ribavirin and determine if the addition
+      of these drugs can result in higher cure rates in patients who previously failed therapy.
+      Approximately 100 genotype 1b subjects rolling over from BMS study AI447-028 who received
+      placebo will be treated with active drugs in this study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      -  Intervention Model:
+
+             -  Parallel: for all subjects entering the trial
+
+             -  Cross-over: for genotype 1b subjects rolling over from AI447-028 who require
+                rescue therapy after initial treatment in this study
+
+        -  Peginterferon Alfa-2a (pegIFNα-2a)
+
+        -  Ribavirin (RBV)
+
+        -  Daclatasvir (DCV)
+
+        -  Asunaprevir (ASV)
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2011</start_date>
+  <completion_date type="Actual">December 2014</completion_date>
+  <primary_completion_date type="Actual">September 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Efficacy based on the proportion of subjects with Sustained virologic response (SVR)12 [HCV Ribonucleic acid (RNA) &lt; LOQ at Follow-up week 12] for all subjects infected with genotype 1 who are prior non-responders to Peginterferon Alfa-2a/Ribavirin</measure>
+    <time_frame>Follow-up Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy as determined by the proportion of subjects with SVR12 in genotype 2, 3 &amp; 4 prior non-responders to pegIFNα-2a/RBV and treatment naive genotype 1b</measure>
+    <time_frame>Follow-up Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety measured by frequency of Serious Adverse Event(s) (SAE)s and discontinuations due to Adverse Events (AEs)</measure>
+    <time_frame>At End of Treatment (Week 24) &amp; Follow-up Week 4</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of subjects who achieve HCV RNA &lt; Limit of quantitation (LOQ) (detectable or undetectable) for each HCV genotype and treatment regimen</measure>
+    <time_frame>Weeks 1, 2 , 4, 6, 8 &amp; 12, Weeks 4 and 12 [Virologic Response (VR) (4 &amp; 12)], End of Treatment (Week 24) or Follow-up Week 24 (SVR24)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of subjects who achieve HCV RNA undetectable for each HCV genotype and treatment regimen</measure>
+    <time_frame>Week 1, 2, 4, 6, 8 &amp; 12, Weeks 4 and 12 [Extended rapid virologic response (eRVR)], End of Treatment (Week 24), Follow-up week 12 or Follow-up week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Drug-resistant variants associated with virologic failure for each HCV genotype and treatment regimen</measure>
+    <time_frame>End of Trial (Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">228</enrollment>
+  <condition>Hepatitis C Virus</condition>
+  <arm_group>
+    <arm_group_label>Arm 1: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>HCV Genotypes 1 &amp; 4 (prior non-responders to pegIFNα-2a+RBV)
+Daclatasvir 60 mg tablet by mouth once daily for 24 weeks
+Asunaprevir 100 mg capsule or 200 mg tablet by mouth twice daily for 24 weeks
+Peginterferon alfa-2a 180 μg solution subcutaneously weekly for 24 weeks
+Ribavirin 1000 or 1200 mg tablet based on weight by mouth daily in two divided doses for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2: Daclatasvir + Peginterferon alfa-2a + Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>HCV Genotypes 2 &amp; 3 (prior non-responders to pegIFNα-2a+RBV)
+Daclatasvir 60 mg tablet by mouth once daily for 24 weeks
+Peginterferon alfa-2a 180 μg solution subcutaneously, weekly for 24 weeks
+Ribavirin 800 mg tablet by mouth daily in two divided doses for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 3: Daclatasvir + Asunaprevir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment naive genotype 1b
+Daclatasvir 60 mg tablet by mouth once daily for 24 weeks
+Asunaprevir 100 mg capsule by mouth twice daily for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 4: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects in the treatment naive cohort meeting pre-specified rescue criteria may have therapeutic rescue instituted with QUAD regimen (QUAD = Daclatasvir + Asunaprevir + Peginterferon alfa-2a + Ribavirin)
+Daclatasvir 60 mg tablet by mouth once daily for 24 or 48 weeks
+Asunaprevir 100 mg capsule by mouth twice daily for 24 or 48 weeks
+Peginterferon alfa-2a 180 μg solution subcutaneously, weekly for 24 or 48 weeks
+Ribavirin 1000 or 1200 mg tablets based on weight daily in two divided doses for 24 or 48 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir</intervention_name>
+    <arm_group_label>Arm 1: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_label>Arm 2: Daclatasvir + Peginterferon alfa-2a + Ribavirin</arm_group_label>
+    <arm_group_label>Arm 3: Daclatasvir + Asunaprevir</arm_group_label>
+    <arm_group_label>Arm 4: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <other_name>BMS-790052</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Asunaprevir</intervention_name>
+    <arm_group_label>Arm 1: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_label>Arm 3: Daclatasvir + Asunaprevir</arm_group_label>
+    <arm_group_label>Arm 4: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <other_name>BMS-650032</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2a</intervention_name>
+    <arm_group_label>Arm 1: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_label>Arm 2: Daclatasvir + Peginterferon alfa-2a + Ribavirin</arm_group_label>
+    <arm_group_label>Arm 4: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <other_name>Pegasys®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <arm_group_label>Arm 1: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <arm_group_label>Arm 2: Daclatasvir + Peginterferon alfa-2a + Ribavirin</arm_group_label>
+    <arm_group_label>Arm 4: Daclatasvir+Asunaprevir+Peginterferon alfa-2a+Ribavirin</arm_group_label>
+    <other_name>Copegus®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Prior participation in any BMS-790052, BMS-650032, BMS-791325 trial and assigned to
+             control arm (Peginterferon α/Ribavirin + Placebo) during the trial
+
+          -  HCV genotype 1, 2, 3, or 4 (mixed genotypes are not permitted)
+
+          -  HCV RNA viral load detectable
+
+        Exclusion Criteria:
+
+          -  Discontinuation from prior BMS HCV clinical trial due to a
+             Peginterferon/Ribavirin-related event
+
+          -  Any anti-HCV therapy following initial treatment with BMS-650032, BMS-790052 or
+             BMS-791325
+
+          -  Positive for Hepatitis B infection (Hepatitis B surface antigen (HBsAg)) or Human
+             immunodeficiency virus 1 (HIV-1)/HIV-2 antibody at screening
+
+          -  Evidence of medical condition associated with chronic liver disease other than HCV
+
+          -  Evidence of decompensated cirrhosis based on radiologic criteria or biopsy
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bristol-Myers Squibb</last_name>
+    <role>Study Director</role>
+    <affiliation>Bristol-Myers Squibb</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Baptist Medical Center South</name>
+      <address>
+        <city>Montgomery</city>
+        <state>Alabama</state>
+        <zip>36116</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Scripps Clinic</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Scpmg/ Kaiser Permanente Los Angeles Medical Center</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90027</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Of Colorado Denver And Hospital</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Yale University School Of Medicine</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <zip>06520</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Uf Hepatology Research At Ctrb</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Schiff Center For Liver Diseases</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Medical Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Digestive Disease Associates, P.A.</name>
+      <address>
+        <city>Catonsville</city>
+        <state>Maryland</state>
+        <zip>21228</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Henry Ford Health System</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Washington University School Of Medicine</name>
+      <address>
+        <city>St. Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Shore Long Island Jewish Health System</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Duke University Medical Center</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Options Health Research, Llc</name>
+      <address>
+        <city>Tulsa</city>
+        <state>Oklahoma</state>
+        <zip>74104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Of Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Nashville Medical Research Institute</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baylor College Of Medicine</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Alamo Medical Research</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Metropolitan Research</name>
+      <address>
+        <city>Fairfax</city>
+        <state>Virginia</state>
+        <zip>22031</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Dean Clinic</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53715</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Ciudad De Buenos Aires</city>
+        <state>Buenos Aires</state>
+        <zip>C1121ABE</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Ciudad De Buenos Aires</city>
+        <state>Buenos Aires</state>
+        <zip>C1181ACH</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Prov. Buenos Aires</city>
+        <state>Buenos Aires</state>
+        <zip>1629</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Prov De Santa Fe</city>
+        <state>Santa Fe</state>
+        <zip>2000</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>1119</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Darlinghurst</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Kogarah</city>
+        <state>New South Wales</state>
+        <zip>2218</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Westmead Nsw</city>
+        <state>New South Wales</state>
+        <zip>2145</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Adelaide</city>
+        <state>South Australia</state>
+        <zip>5000</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Clayton Vic</city>
+        <state>Victoria</state>
+        <zip>3168</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Fitzroy</city>
+        <state>Victoria</state>
+        <zip>3065 VIC</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Heidelberg</city>
+        <state>Victoria</state>
+        <zip>3084</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Melbourne</city>
+        <state>Victoria</state>
+        <zip>3004</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Fremantle</city>
+        <state>Western Australia</state>
+        <zip>6160</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Perth</city>
+        <state>Western Australia</state>
+        <zip>6001</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Graz</city>
+        <zip>8036</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Wien</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V6Z 2K5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Victoria</city>
+        <state>British Columbia</state>
+        <zip>V8V 3P9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2N2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5T 2S8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M6H 3M1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Vaughan</city>
+        <state>Ontario</state>
+        <zip>L4L 4Y7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H2L 4P9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3T 1E2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Quebec</city>
+        <zip>G3K 2P8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Hvidovre</city>
+        <zip>2650</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Bondy Cedex</city>
+        <zip>93143</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Clichy Cedex</city>
+        <zip>92118</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Creteil</city>
+        <zip>94000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Creteil</city>
+        <zip>94010</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Lille</city>
+        <zip>59037</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Lyon Cedex 02</city>
+        <zip>69288</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Marseille Cedex 08</city>
+        <zip>13285</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Montpellier Cedex 5</city>
+        <zip>34295</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Nice Cedex 03</city>
+        <zip>06202</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Paris Cedex 12</city>
+        <zip>75571</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Paris Cedex 13</city>
+        <zip>75651</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Paris Cedex 14</city>
+        <zip>75679</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Toulouse Cedex 09</city>
+        <zip>31059</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Toulouse</city>
+        <zip>31059</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Vandoeuvre Cedex</city>
+        <zip>54511</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Villejuif Cedex</city>
+        <zip>94804</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Berlin</city>
+        <zip>12157</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Berlin</city>
+        <zip>13353</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Bonn</city>
+        <zip>53105</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Hannover</city>
+        <zip>30625</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Heidelberg</city>
+        <zip>69120</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Thesaloniki</city>
+        <zip>54639</zip>
+        <country>Greece</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Dublin 8</city>
+        <state>Dublin</state>
+        <country>Ireland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Dublin</city>
+        <zip>DUBLIN 7</zip>
+        <country>Ireland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Brescia</city>
+        <zip>25123</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Cisanello (pisa)</city>
+        <zip>56124</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Messina</city>
+        <zip>98124</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Milano</city>
+        <zip>20121</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Pavia</city>
+        <zip>27100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Roma</city>
+        <zip>00149</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Roma</city>
+        <zip>00161</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Torino</city>
+        <zip>10126</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Viale Del Policlinico, 155</city>
+        <zip>00161</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Busan</city>
+        <zip>602-715</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Busan</city>
+        <zip>602-739</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Busan</city>
+        <zip>614-735</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Daegu</city>
+        <zip>700-721</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Daegu</city>
+        <zip>705-703</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Gyeonggi-do</city>
+        <zip>420-767</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Seoul</city>
+        <zip>120-752</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Seoul</city>
+        <zip>138-736</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Guadalajara</city>
+        <state>Jalisco</state>
+        <zip>44160</zip>
+        <country>Mexico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Auckland</city>
+        <zip>92024</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Bialystok</city>
+        <zip>15-540</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Wroclaw</city>
+        <zip>50-349</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Gothenburg</city>
+        <zip>SE-416 85</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>141 86</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Taichung</city>
+        <zip>402</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Taichung</city>
+        <zip>40447</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Taipei</city>
+        <zip>100</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Taipei</city>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>London</city>
+        <state>Greater London</state>
+        <zip>NW3 2QG,</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>London</city>
+        <state>Greater London</state>
+        <zip>SE5 9RS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>London</city>
+        <state>Greater London</state>
+        <zip>SW17 0QT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>London</city>
+        <state>Greater London</state>
+        <zip>W2 1NY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Manchester</city>
+        <state>Greater Manchester</state>
+        <zip>M8 5RB</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Glasgow</city>
+        <state>Lanarkshire</state>
+        <zip>G12 0YN</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Canada</country>
+    <country>Denmark</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Greece</country>
+    <country>Ireland</country>
+    <country>Italy</country>
+    <country>Korea, Republic of</country>
+    <country>Mexico</country>
+    <country>New Zealand</country>
+    <country>Poland</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>Taiwan</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <removed_countries>
+    <country>Brazil</country>
+    <country>Netherlands</country>
+    <country>Puerto Rico</country>
+    <country>Singapore</country>
+  </removed_countries>
+  <link>
+    <url>http://ctr.bms.com/ctd/start.do</url>
+    <description>BMS Clinical Trial Information</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/studyconnect/Pages/home.aspx</url>
+    <description>BMS clinical trial educational resource</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/clinical_trials/Pages/Investigator_Inquiry_form.aspx</url>
+    <description>Investigator Inquiry form</description>
+  </link>
+  <link>
+    <url>http://www.fda.gov/MEDWATCH/safety.htm</url>
+    <description>FDA Safety Alerts and Recalls</description>
+  </link>
+  <verification_date>April 2014</verification_date>
+  <lastchanged_date>February 6, 2015</lastchanged_date>
+  <firstreceived_date>September 1, 2011</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

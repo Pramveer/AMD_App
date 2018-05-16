@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="23">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 22, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02581163</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P15-650</org_study_id>
+    <nct_id>NCT02581163</nct_id>
+  </id_info>
+  <brief_title>Effectiveness of Paritaprevir/Ritonavir - Ombitasvir, +/- Dasabuvir, +/- Ribavirin in Patients With Chronic Hepatitis C - An Observational Study in Belgium</brief_title>
+  <official_title>Real World Evidence of the Effectiveness of Paritaprevir/Ritonavir - Ombitasvir, +/- Dasabuvir, +/- Ribavirin in Patients With Chronic Hepatitis C - An Observational Study in Belgium</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AbbVie</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>AbbVie</source>
+  <oversight_info>
+    <authority>Belgium: Ethics Committee</authority>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to provide evidence of the effectiveness as well as the influence of adherence
+      on treatment outcome of Paritaprevir/ritonavir, Ombitasvir, +/- Dasabuvir, (the ABBVIE
+      REGIMEN) ± Ribavirin (RBV) in a real world setting of hepatitis C virus infected clinical
+      practice populations across Belgium. The study may also help identify predictive factors of
+      response that are important in real world treatment settings. In addition, it will provide
+      data on the impact of adherence on treatment outcomes in everyday settings, which may help
+      treating physicians to improve the management of participants under their care.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Anticipated">September 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants achieving sustained virological response at week 12 (SVR12)</measure>
+    <time_frame>12 weeks after the last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as hepatitis c virus ribonucleic acid levels &lt;50 IU/mL 12 weeks after the last dose of study drug.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with virological response.</measure>
+    <time_frame>End of treatment (EoT), 12 or 24 weeks after first dose according to treatment schedule chosen by investigator.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic response is defined as HCV RNA &lt;50 IU/ml.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants who relapse</measure>
+    <time_frame>At 12 and 24 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse is defined as HCV RNA &lt; 50 IU/ml at end of treatment followed by HCV RNA ≥ 50 IU/ml</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants who achieved breakthrough</measure>
+    <time_frame>From baseline till End of treatment: 12 or 24 weeks after first dose according to treatment schedule chosen by investigator</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Breakthrough is defined as at least one documented HCV RNA &lt;50 IU/ml followed by HCV RNA ≥ 50 IU/ml during treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients meeting On-treatment virologic failure</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>On-treatment virologic failure : breakthrough or failure to suppress [each measured on-treatment HCV RNA value ≥50 IU/mL]</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients meeting relapse</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse : defined as HCV RNA &lt;50 IU/mL at EoT or at the last on-treatment HCV RNA measurement followed by HCV RNA ≥50 IU/mL post-treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients meeting Premature study drug discontinuation with no on-treatment virologic failure</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients missing SVR12 data and/or none of the above criteria</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Percentage of the DAA dose taken in relation to the target dose of DAA</measure>
+    <time_frame>From Baseline till EoT (12 or 24 weeks after first dose according to treatment schedule chosen by investigator)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Adherence : cumulative dose taken divided by target dose in percent</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Percentage of the RBV dose taken in relation to the target dose of RBV</measure>
+    <time_frame>From Baseline till EoT (12 or 24 weeks after first dose according to treatment schedule chosen by investigator)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Adherence : cumulative dose taken divided by target dose in percent</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Percentage of missed RBV treatment days in relation to the target number of RBV treatment days</measure>
+    <time_frame>From Baseline till EoT (12 or 24 weeks after first dose according to treatment schedule chosen by investigator)</time_frame>
+    <safety_issue>No</safety_issue>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">440</enrollment>
+  <condition>Chronic Hepatitis C, Genotype 1 or 4</condition>
+  <arm_group>
+    <arm_group_label>GT 1 or 4 treatment-naïve or -experienced CHC participants</arm_group_label>
+    <description>Treatment-naïve or -experienced participants with confirmed CHC, genotype (GT) 1 or 4, receiving combination therapy with the interferon-free ABBVIE REGIMEN ± RBV according to standard of care and in line with the current local label</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Treatment-naïve or -experienced participants with confirmed CHC, genotype 1 or 4
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Treatment-naïve or -experienced participants with confirmed CHC, genotype 1 or 4,
+             receiving combination therapy with the interferon-free ABBVIE REGIMEN ± RBV according
+             to standard of care and in line with the current local label
+
+          -  If RBV is co-administered with the ABBVIE REGIMEN, it has been prescribed in line
+             with the current local label (with special attention to contraception requirements
+             and contraindication during pregnancy)
+
+          -  Participants must sign and date an informed consent
+
+        Exclusion Criteria:
+
+        • Participant participating or intending to participate in a concurrent interventional
+        therapeutic trial
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Simonne Lens, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Be.medicalinformation@abbvie.com</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Simonne Lens, MD</last_name>
+    <phone>0032 (0)10 477 811</phone>
+    <email>Be.medicalinformation@abbvie.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Maria Van den Enden, MD</last_name>
+    <phone>0032 (0)10 477 811</phone>
+    <email>Be.medicalinformation@abbvie.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141787</name>
+      <address>
+        <city>Aalst</city>
+        <zip>9300</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141787, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141777</name>
+      <address>
+        <city>Antwerp</city>
+        <zip>2060</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141777, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141766</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1200</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141766, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141769</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1020</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141769, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141770</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1070</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141770, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141771</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141771, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141782</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1070</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141782, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141784</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1180</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141784, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 143078</name>
+      <address>
+        <city>Bruxelles</city>
+        <zip>1190</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 143078, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141788</name>
+      <address>
+        <city>Charleroi</city>
+        <zip>6000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141788, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141768</name>
+      <address>
+        <city>Edegem</city>
+        <zip>2650</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141768, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141785</name>
+      <address>
+        <city>Genk</city>
+        <zip>3600</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141785, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141775</name>
+      <address>
+        <city>Ghent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141775, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141786</name>
+      <address>
+        <city>Ghent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141786, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141783</name>
+      <address>
+        <city>Kortrijk</city>
+        <zip>8500</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141783, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141773</name>
+      <address>
+        <city>La Louviere</city>
+        <zip>7100</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141773, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141772</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141772, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141767</name>
+      <address>
+        <city>Liege</city>
+        <zip>4000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141767, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141776</name>
+      <address>
+        <city>Liege</city>
+        <zip>4000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141776, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 141779</name>
+      <address>
+        <city>Liege</city>
+        <zip>4000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 141779, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+  </location_countries>
+  <link>
+    <url>http://rxabbvie.com</url>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 19, 2015</lastchanged_date>
+  <firstreceived_date>October 19, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Effectiveness</keyword>
+  <keyword>Influence of adherence</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

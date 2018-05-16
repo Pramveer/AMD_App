@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="757">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00938860</url>
+  </required_header>
+  <id_info>
+    <org_study_id>COLO400A2430</org_study_id>
+    <secondary_id>2009-010806-12</secondary_id>
+    <nct_id>NCT00938860</nct_id>
+  </id_info>
+  <brief_title>Sustained Virological Response (SVR) to Antiviral Treatment of Liver Transplant Recipients With Recurrent Hepatitis C</brief_title>
+  <acronym>SUSTAIN</acronym>
+  <official_title>A Multi-center, Randomized, Open Label, Controlled Study to Compare the Sustained Virological Response During Treatment With Neoral or Tacrolimus in Maintenance Liver Transplant Recipients Treated With Pegylated Interferon and Ribavirin for Recurrent Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Novartis Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Novartis</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Argentina: Ministry of Health</authority>
+    <authority>Austria: Federal Office for Safety in Health Care</authority>
+    <authority>Belgium: Federal Agency for Medicinal Products and Health Products</authority>
+    <authority>Brazil: Ministry of Health</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Colombia: INVIMA Instituto Nacional de Vigilancia de Medicamentos y Alimentos</authority>
+    <authority>France: Ministry of Health</authority>
+    <authority>Germany: Ministry of Health</authority>
+    <authority>Hungary: National Institute of Pharmacy</authority>
+    <authority>Italy: Ministry of Health</authority>
+    <authority>Korea: Food and Drug Administration</authority>
+    <authority>Romania: Ministry of Public Health</authority>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <authority>Spain: Ministry of Health</authority>
+    <authority>Switzerland: Swissmedic</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will assess the rates of Sustained Virological Response following anti-viral
+      therapy with Peg-Interferon plus Ribavirin in patients that have been liver transplanted
+      with recurrent Hepatitis C and treated with Neoral or tacrolimus.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2009</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Sustained Virological Response (SVR) Following Treatment of Hepatitis C Virus (HCV) Infection With Peg-IFN and Ribavirin in Liver Transplanted Recipients on Maintenance Therapy With Neoral or Tacrolimus</measure>
+    <time_frame>Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The achievement of SVR, defined as HCV RNA below limit of detection at the end of AV treatment, 24 weeks after end of AV treatment (W24 post). A dichotomous variable (SVR achieved: Yes/No) was computed. A patient was classified as non-responder (SVR not achieved) if HCV RNA was detectable at the completion of antiviral treatment, at W24post, or at any time between W24 and completion of antiviral treatment. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Events of the Composite Endpoint of Biopsy Proven Acute Rejections (BPAR), Death or Graft Loss and of the Individual Components</measure>
+    <time_frame>Week 80</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Efficacy failure (biopsy proven acute rejection (BPAR), graft loss, or death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Fibrosis Progression (Increase in Ishak-Knodell (IK) Score by at Least One Point From the Baseline)</measure>
+    <time_frame>Week 80</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Ishak-Knodell Score: 0=No fibrosis; 01=Fibrous expansion of some portal areas, with or without short fibrous septa; 02=Fibrous expansion of most portal areas, with or without short fibrous septa; 03=Fibrous expansion of most portal areas, with occasional portal to portal (P-P) bridging; 04=Fibrous expansion of portal areas, with marked bridging (portal to portal (P-P) as well as portal to central (P-C)); 05=Marked bridging (P-P and/or P-C) with occasional nodules (incomplete cirrhosis); 06=Cirrhosis, probable or definite, Participants showing an increase of Ishak Knodell fibrosis score by at least one level (increase of ≥1)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants of Rapid Viral Response (RVR)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR defined as non-detectable HCV RNA 4 weeks after initiation of antiviral treatment. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants of Early Viral Response (EVR)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR defined as non-detectable HCV RNA or a ≥2 logs reduction of HCV RNA at 12 weeks after initiation of antiviral treatment. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants for the End of Treatment Response (ETR)</measure>
+    <time_frame>Week 80</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>ETR defined as non-detectable HCV RNA at the completion of AV treatment. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants of True Non-responder Rate</measure>
+    <time_frame>Week 80</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Defined as failure to achieve at least a 2 log reduction of Hepatitis C virus (HCV) RNA. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants for Relapse Rate</measure>
+    <time_frame>Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Defined as reappearance of detectable Hepatitis C Virus (HCV) RNA at 24 weeks after completion of antiviral treatment when HCV RNA was undetectable at the end of treatment. The HCV RNA detection limit was &lt;15 IU/ml (&lt;1.18 log IU/ml)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Dose Reduction or Discontinuation of Antiviral (AV) Therapy Due to Poor Tolerability at Any Time During the Study for Any Reason</measure>
+    <time_frame>Week 80</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Defined as number of patients with dose reduction or discontinuation of AV therapy due to poor tolerability</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">92</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>Liver Transplantation</condition>
+  <arm_group>
+    <arm_group_label>Neoral</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Neoral capsules bid, Doses were to be adjusted as necessary to achieve and maintain recommended C0 (monitoring of trough levels) or C2 concentration 2 hours post dosing) target ranges</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>tacrolimus</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Tacrolimus capsules bid, doses were adjusted as necessary to achieve and maintain recommended C0 target ranges.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>cyclosporin (Neoral)</intervention_name>
+    <description>Neoral capsules bid, Doses were to be adjusted as necessary to achieve and maintain recommended C0 (monitoring of trough levels) or C2 concentration 2 hours post dosing) target ranges</description>
+    <arm_group_label>Neoral</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>tacrolimus (Prograf)</intervention_name>
+    <description>Tacrolimus capsules bid, doses were adjusted as necessary to achieve and maintain recommended C0 target ranges.</description>
+    <arm_group_label>tacrolimus</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Liver transplantation performed at least 6 months and up to 5 years prior
+             randomization and due to HCV cirrhosis, with or without pre-transplant hepatocellular
+             carcinoma (HCC) within Milan or UCSF criteria
+
+          -  Immunosuppresive regimen based on tacrolimus b.i.d.- (twice or once daily) for at
+             least 6 months prior randomization
+
+          -  Diagnosis of HCV genotypes 1 or 4 infection prior to transplantationconfirmed at
+             screening
+
+          -  Indication of treatment with Peg-IFN and ribavirin due to histological evidence of
+             chronic HCV infection defined as a fibrosis stage equal or greater than 1 using the
+             Ishak-Knodell scoring system (IK ≥1) in a liver biopsy performed at screening or up
+             to 4 months prior to randomization.
+
+        Exclusion criteria:
+
+          -  Serum creatinine &gt;150 μmol/L (1.6 7 mg/dL) or eGFR &lt; 50 ml/min (4-variable
+             Modification of Diet in Renal Disease [MDRD Cockcroft-Gault formula])
+
+          -  Multi-organ transplant recipients
+
+          -  Recent episode of steroid-treated acute rejection (AR) within 3 months prior to
+             randomization, or &gt;1 episode of steroid-treated AR in the last 6 months, or any
+             number of steroid-resistant AR episodes in the last 6 months including evidence of
+             chronic rejection or ductopenia
+
+          -  Evidence of conditions that could cause graft dysfunction other than HCV infection
+
+          -  Patients with signs of decompensated liver disease, defined as presence of ascites,
+             variceal bleeding, encephalopathy or deteriorated hepatic synthetic function (albumin
+             &lt;3.5g/dL or, total direct bilirubin &gt;1.5mg/dL or, INR &gt;1.5)
+
+          -  Co-infection with HIV or Hepatitis B (defined as HBsAg-positive) at screening
+
+          -  Use of mTOR inhibitors (everolimus or sirolimus) in the 6 months prior to screening
+
+          -  Antiviral treatment for HCV administered at any time after liver transplantation
+
+          -  Patients on daily doses of corticosteroids higher than 5 mg/day
+
+          -  Patients with fibrosing cholestatic hepatitis
+
+          -  Patients with current diagnosis of malignancies, including lymphoproliferative
+             disorders
+
+          -  Patients with platelet count &lt;70,000/mm3 or neutrophiles &lt;1,500/mm3
+
+          -  History of HCC outside Milan criteria based on radiology or UCSF criteria based on
+             analysis of the explant
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Novartis Pharmaceuticals</last_name>
+    <role>Study Director</role>
+    <affiliation>Novartis Pharmaceuticals</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <zip>85054</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Palo Alto</city>
+        <state>California</state>
+        <zip>95128</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143-2205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599-7211</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Oklahoma City</city>
+        <state>Oklahoma</state>
+        <zip>73112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030-2400</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53792</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bruxelles</city>
+        <zip>1070</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Fortaleza</city>
+        <state>CE</state>
+        <zip>60430-270</zip>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>São Paulo</city>
+        <state>SP</state>
+        <zip>04023-900</zip>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 2B7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 1M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Winnipeg</city>
+        <state>Manitoba</state>
+        <zip>R3E 0W3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <state>Ontario</state>
+        <zip>N6A 4G5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2C4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bogotá</city>
+        <state>Cundinamarca</state>
+        <zip>110111</zip>
+        <country>Colombia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bogotá</city>
+        <country>Colombia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Creteil</city>
+        <zip>94000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Lyon Cedex 04</city>
+        <zip>69317</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34295</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Paris</city>
+        <zip>75012</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Toulouse Cedex 4</city>
+        <zip>31054</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Villejuif</city>
+        <zip>94800</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Mainz</city>
+        <zip>55131</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Muenchen</city>
+        <zip>81377</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bologna</city>
+        <state>BO</state>
+        <zip>40138</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Padova</city>
+        <state>PD</state>
+        <zip>35128</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Udine</city>
+        <state>UD</state>
+        <zip>33100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Seoul</city>
+        <state>Korea</state>
+        <zip>110 744</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Seoul</city>
+        <state>Korea</state>
+        <zip>120-752</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Seoul</city>
+        <state>Korea</state>
+        <zip>135-710</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Seoul</city>
+        <state>Korea</state>
+        <zip>137-701</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Moscow</city>
+        <zip>123182</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Moscow</city>
+        <zip>129010</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Oviedo</city>
+        <state>Asturias</state>
+        <zip>33006</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Valladolid</city>
+        <state>Castilla y Leon</state>
+        <zip>47012</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalunya</state>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalunya</state>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Santiago de Compostela</city>
+        <state>Galicia</state>
+        <zip>15706</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Zurich</city>
+        <zip>8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Birmingham</city>
+        <zip>B15 2TT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Brazil</country>
+    <country>Canada</country>
+    <country>Colombia</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Korea, Republic of</country>
+    <country>Russian Federation</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2015</verification_date>
+  <lastchanged_date>May 5, 2015</lastchanged_date>
+  <firstreceived_date>July 13, 2009</firstreceived_date>
+  <firstreceived_results_date>April 25, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <keyword>liver transplantation</keyword>
+  <keyword>anti-viral therapy</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Cyclosporine</mesh_term>
+    <mesh_term>Cyclosporins</mesh_term>
+    <mesh_term>Tacrolimus</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

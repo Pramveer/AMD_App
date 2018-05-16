@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="15">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00708500</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05101</org_study_id>
+    <secondary_id>2007-005151-42</secondary_id>
+    <nct_id>NCT00708500</nct_id>
+  </id_info>
+  <brief_title>Boceprevir in Subjects With Chronic Hepatitis C Genotype 1 Who Failed Prior Treatment With Peginterferon/Ribavirin (Study P05101AM3)(COMPLETED)</brief_title>
+  <official_title>A Phase 3 Safety and Efficacy Study of Boceprevir in Subjects With Chronic Hepatitis C Genotype 1 Who Failed Prior Treatment With Peginterferon/Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study involves treatment with boceprevir or placebo in combination with pegylated
+      interferon alfa-2b (PegIntron, PEG2b) + Ribavirin (RBV) (weight-based dosing [WBD]) in adult
+      subjects with chronic hepatitis C (CHC) genotype 1 who demonstrated interferon
+      responsiveness (a decrease in hepatitis C virus RNA [HCV-RNA] viral load &gt;=2 log10 by Week
+      12 or undetectable HCV-RNA at end of treatment) but who failed to achieve sustained
+      virologic response (SVR) on prior treatment with any combination therapy of peginterferon
+      alpha and RBV. This trial includes three arms, one control arm (PEG2b + RBV for 48 weeks)
+      and two experimental arms (PEG2b + RBV + boceprevir). One of the experimental arms, Arm 3,
+      consists of treatment with all three drugs for 44 weeks after the lead-in. The other
+      experimental arm, Arm 2, consists of all three drugs for 32 weeks after the lead-in.
+      Participants in Arm 2 who were undetectable for HCV-RNA at Treatment Week 8 will complete
+      treatment at that point. Those who were not undetectable for HCV-RNA at Treatment Week 8
+      will receive an additional 12 weeks of PEG2b + RBV + boceprevir placebo. It is hypothesized
+      that the addition of a third active anti-HCV drug may lead to more rapid viral response than
+      therapy with two drugs, and therefore, the addition of boceprevir to PEG2b plus RBV therapy
+      after a 4-week lead-in period may allow for both increased rates of SVR and shorter
+      treatment durations (in some populations) than treatment with peginterferon plus RBV alone.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2008</start_date>
+  <completion_date type="Actual">April 2010</completion_date>
+  <primary_completion_date type="Actual">April 2010</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response (SVR) Rate in the Full Analysis Set (FAS) Population.</measure>
+    <time_frame>At Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR is defined as undetectable plasma hepatitis C virus RNA (HCV-RNA) at Follow-up Week 24. This outcome measure evaluates SVR after treatment with boceprevir and PEG2b plus RBV versus PEG2b plus RBV alone in participants with chronic hepatitis C (CHC) genotype 1 who failed prior treatment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response (SVR) Rate in the Modified Intent to Treat (mITT) Population.</measure>
+    <time_frame>At Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR is defined as undetectable plasma HCV-RNA at Follow-up Week 24. This outcome measure evaluates SVR after treatment with boceprevir and PEG2b plus RBV versus PEG2b plus RBV alone in participants with CHC genotype 1 who failed prior treatment.
+This key secondary efficacy endpoint was added as per the second protocol amendment on 02 DEC 2009.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Early Virologic Response.</measure>
+    <time_frame>At Week 2, 4, 8, or 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Having undetectable HCV-RNA at Week 2, 4, 8, or 12 was considered Early Virologic Response.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Undetectable HCV-RNA at Follow-up Week 12 and at 72 Weeks After Randomization.</measure>
+    <time_frame>At Follow-up Week 12 and at 72 weeks after randomization</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">404</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Placebo+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participants in Arm 1 (control) received pegylated interferon alfa 2b (PegIntron, PEG2b) + Ribavirin (RBV) (weight-based dosing [WBD]) for 4 weeks followed by boceprevir placebo + PEG2b + RBV (WBD) for 44 weeks with 24 weeks post-treatment follow-up.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Boceprevir+PEG2b+RBV, Response Guided Therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Arm 2 (experimental) were assigned either a 36-week or 48-week course of therapy based on their HCV-RNA status at Treatment Week 8.
+PEG2b + RBV (WBD) for 4 weeks followed by boceprevir + PEG2b + RBV (WBD) for 32 weeks, then:
+36-week regimen: Participants who have undetectable HCV-RNA at Treatment Week 8 discontinue treatment and enter 36 weeks of post treatment follow-up.
+48-week regimen: Participants who have detectable HCV-RNA at Treatment Week 8 are assigned an additional 12 weeks of therapy, followed by 24 weeks of post treatment follow-up. Placebo replaces boceprevir for the remaining 12 weeks of therapy, and this switch will occur in a blinded fashion.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Boceprevir+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Arm 3 (experimental) received PEG2b + RBV (WBD) for 4 weeks followed by boceprevir + PEG2b + RBV (WBD) for 44 weeks with 24 weeks post-treatment follow-up.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir (SCH 503034)</intervention_name>
+    <description>Boceprevir, 200 mg capsules, 800 mg TID PO</description>
+    <arm_group_label>Boceprevir+PEG2b+RBV, Response Guided Therapy</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, x 44 weeks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Pegylated interferon alfa-2b (SCH 54031)</intervention_name>
+    <description>PEG2b 1.5 μg/kg/week subcutaneously (SC)</description>
+    <arm_group_label>Placebo+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, Response Guided Therapy</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <other_name>PegIntron</other_name>
+    <other_name>PEG2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (SCH 18908)</intervention_name>
+    <description>Ribavirin WBD 600 mg/day to 1400 mg/day by mouth (PO) divided twice daily (BID).</description>
+    <arm_group_label>Placebo+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, Response Guided Therapy</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <other_name>Rebetol</other_name>
+    <other_name>RBV</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir placebo</intervention_name>
+    <description>Boceprevir placebo, 200 mg capsules, 800 mg three times daily (TID) PO.</description>
+    <arm_group_label>Placebo+PEG2b+RBV, x 44 weeks</arm_group_label>
+    <arm_group_label>Boceprevir+PEG2b+RBV, Response Guided Therapy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Qualifying regimen defined as pegylated interferon alfa-2a plus ribavirin or
+             pegylated interferon alfa-2b plus ribavirin for a minimum of 12 weeks.
+
+          -  During qualifying regimen, participants must have either a documented undetectable
+             HCV-RNA within 30 days of end of treatment (EOT) and a subsequent detectable HCV-RNA
+             during follow-up or a documented decline in HCV-RNA by &gt;=2 log10 by Treatment Week 12
+
+          -  Previously documented CHC genotype 1 infection.
+
+          -  Liver biopsy with histology consistent with CHC and no other etiology.
+
+          -  Participants with bridging fibrosis or cirrhosis must have an ultrasound within 6
+             months of the Screening Visit (or between Screening and Day 1) with no findings
+             suspicious for hepatocellular carcinoma (HCC).
+
+          -  Participants participating in Schering-Plough Research Institute (SPRI) maintenance
+             protocols P02570 (NCT00049842) or P02569 (NCT00048724) must have completed the study
+             to be eligible for this protocol.
+
+          -  Participants must be &gt;=18 years of age.
+
+          -  Participants must weigh between 40 kg and 125 kg.
+
+          -  Participants and participant's partner(s) must each agree to use acceptable methods
+             of contraception for at least 2 weeks prior to Day 1 and continue until at least 6
+             months after last dose of study drug, or longer if dictated by local regulations.
+
+          -  Participants must be willing to give written informed consent.
+
+        Exclusion Criteria:
+
+          -  Coinfection with the human immunodeficiency virus (HIV) or hepatitis B virus
+             (Hepatitis B Surface Antigen [HBsAg] positive).
+
+          -  Discontinuation of previous interferon or ribavirin regimen for an adverse event (AE)
+             considered by the investigator to be possibly or probably related to ribavirin and/or
+             interferon.
+
+          -  Treatment with ribavirin within 90 days and any interferon-alpha within 1 month of
+             Screening.
+
+          -  Treatment for hepatitis C with any investigational medication. Prior treatment with
+             herbal remedies with known hepatotoxicity.
+
+          -  Treatment with any investigational drug within 30 days of the randomization visit.
+
+          -  Participation in any other clinical trial within 30 days of randomization or
+             intention to participate in another clinical trial.
+
+          -  Evidence of decompensated liver disease including, but not limited to, a history or
+             presence of clinical ascites, bleeding varices, or hepatic encephalopathy.
+
+          -  Diabetic and/or hypertensive participants with clinically significant ocular
+             examination findings.
+
+          -  Pre-existing psychiatric conditions.
+
+          -  Clinical diagnosis of substance abuse of the specified drugs within the specified
+             timeframes
+
+          -  Any known pre-existing medical condition that could interfere with the participant's
+             participation in and completion of the study.
+
+          -  Evidence of active or suspected malignancy, or a history of malignancy, within the
+             last 5 years (except adequately treated carcinoma in situ and basal cell carcinoma of
+             the skin). Participants under evaluation for malignancy are not eligible.
+
+          -  Participants who are pregnant or nursing. Participants who intend to become pregnant
+             during the study period. Male participants with partners who are, or intend to
+             become, pregnant during the study period.
+
+          -  Any other condition which, in the opinion of a physician, would make the participant
+             unsuitable for enrollment or could interfere with the participant participating in
+             and completing the study.
+
+          -  Participants who are part of the site personnel directly involved with this study.
+
+          -  Participants who are family members of the investigational study staff.
+
+          -  Participants who had life-threatening serious adverse event (SAE) during screening
+             period.
+
+          -  Protocol-specified hematologic, biochemical, and serologic criteria: Hemoglobin &lt;12
+             g/dL for females and &lt;13 g/dL for males; Neutrophils &lt;1500/mm^3 (Blacks: &lt;1200/mm^3);
+             Platelets &lt;100,000/mm^3; Direct bilirubin &gt;1.5 x upper limit of normal (ULN).
+
+          -  Serum albumin &lt;lower limit of normal (LLN)
+
+          -  Thyroid-stimulating hormone (TSH) &gt;1.2 x ULN or &lt;0.8 x LLN of laboratory reference
+             range, with certain exceptions.
+
+          -  Serum creatinine &gt;ULN of the laboratory reference.
+
+          -  Protocol-specified serum glucose concentrations.
+
+          -  Protocol-specified alpha fetoprotein range.
+
+          -  Prothrombin Time/Partial Thromboplastin Time (PT/PTT) values &gt;10% above laboratory
+             reference range.
+
+          -  Anti-nuclear antibodies (ANA) &gt;1:320.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Belgium</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 24, 2015</lastchanged_date>
+  <firstreceived_date>June 27, 2008</firstreceived_date>
+  <firstreceived_results_date>May 13, 2011</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Treatment failure</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

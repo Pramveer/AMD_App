@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="56">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01628692</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI444-062</org_study_id>
+    <secondary_id>2012-000070-28</secondary_id>
+    <nct_id>NCT01628692</nct_id>
+  </id_info>
+  <brief_title>Study of Daclatasvir (BMS-790052) and Simeprevir (TMC435) in Patients With Genotype 1 Chronic Hepatitis C Virus</brief_title>
+  <official_title>A Phase 2, Open-Label Study of Daclatasvir (BMS-790052) and TMC435 in Combination With or Without Ribavirin (RBV) For Treatment-Naive Subjects or Null Responders to Prior Peginterferon Alfa (PegIFN)/RBV Therapy With Genotype 1 Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Janssen Research &amp; Development, LLC</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Bristol-Myers Squibb</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>United States: Institutional Review Board</authority>
+    <authority>Russia: Ethics Committee</authority>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <authority>Russia: FSI Scientific Center of Expertise of Medical Application</authority>
+    <authority>Hungary: National Institute of Pharmacy</authority>
+    <authority>Chile: Instituto de Salud Pública de Chile</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Germany: Ministry of Health</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Spain: Spanish Agency of Medicines</authority>
+    <authority>Argentina: Administracion Nacional de Medicamentos, Alimentos y Tecnologia Medica</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess the safety and efficacy of daclatasvir and simeprevir
+      with and without ribavirin for genotype 1 chronic hepatitis C virus infection in patients
+      who are treatment-naive or null responders to previous pegylated interferon/ribavirin
+      therapy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2012</start_date>
+  <completion_date type="Actual">November 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response Rate at Post-treatment Week 12 (SVR12)</measure>
+    <time_frame>Post Treatment Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 rate was defined as hepatitis C virus (HCV) RNA levels to be &lt;lower limit of quantitation, target detected or target not detected, at post-treatment Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Rapid Virologic Response (RVR) at Week 4</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as hepatitis C virus (HCV) RNA levels to be &lt;lower limit of quantitation, target not detected at Week 4. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Complete Early Virologic Response (cEVR)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>cEVR was defined as hepatitis C virus (HCV) RNA levels to be &lt;lower limit of quantitation, target not detected at Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Extended Rapid Virologic Response (eRVR)</measure>
+    <time_frame>Week 4 and Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>eRVR were defined as hepatitis C virus (HCV) RNA levels to be &lt;lower limit of quantitation, target not detected at both Week 4 and Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With End of Treatment Response (EOTR)</measure>
+    <time_frame>End of treatment (Week 24)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EOTR were defined as hepatitis C virus (HCV) RNA levels &lt;lower limit of quantitation, target not detected at end of treatment. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at Week 12 (SVR12) by rs12979860 Single Nucleotide Polymorphisms in the IL-28B Gene Categories</measure>
+    <time_frame>Baseline, post-treatment Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants were categorized into 3 genotypes based on single nucleotide polymorphisms in the IL28B gene. SVR12 was defined as hepatitis C virus (HCV) RNA levels below lower limit of quantitation, target detected or target not detected at follow-up Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Serious Adverse Events (SAEs) and Discontinuations Due to Adverse Events (AEs) and Who Died</measure>
+    <time_frame>From start of treatment (Day 1) up to 7 days post last dose of study treatment (Week 24)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE was defined as any new unfavorable symptom, sign, or disease or worsening of a preexisting condition that does not necessarily have a causal relationship with treatment. SAE was defined as a medical event that at any dose resulted in death, persistent or significant disability/incapacity, or drug dependency/abuse; was life-threatening, an important medical event, or a congenital anomaly/birth defect; or required or prolonged hospitalization. Based on the severity, AEs were categorized as Grade (Gr) 1=Mild, Gr 2=Moderate, Gr 3=Severe, Gr 4=Life-threatening or disabling, Gr 5=Death.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">230</enrollment>
+  <condition>Hepatitis C Virus</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1: (Genotype 1b) Daclatasvir + Simeprevir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with hepatitis C virus genotype 1b received daclatasvir, 30 mg, once daily with or without food + simeprevir, 150 mg, once daily with a meal for 12 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2: (Genotype 1b) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with hepatitis C virus genotype 1b received daclatasvir, 30 mg, once daily with or without food + simeprivir, 150 mg, once daily with a meal + ribavirin, twice daily with food (patients weighing &lt;75 kg received a total ribavirin dose of 1000 mg per day; those weighing &gt;=75 kg received 1200 mg per day) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 3: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with hepatitis C virus genotype 1a received daclatasvir, 30 mg, once daily with or without food + simeprevir, 150 mg, once daily with a meal + ribavirin, twice daily with food (patients weighing &lt;75 kg received a total ribavirin dose of 1000 mg per day; those weighing &gt;=75 kg received 1200 mg per day) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 4: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with hepatitis C virus genotype 1a received daclatasvir, 30 mg, once daily with or without food + simeprivir, 150 mg, once daily with a meal + ribavirin, twice daily with food (patients weighing &lt;75 kg received a total ribavirin dose of 1000 mg per day; those weighing &gt;=75 kg received 1200 mg per day.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir</intervention_name>
+    <description>Tablets, oral, 30 mg, once daily</description>
+    <arm_group_label>Cohort 1: (Genotype 1b) Daclatasvir + Simeprevir</arm_group_label>
+    <arm_group_label>Cohort 2: (Genotype 1b) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_label>Cohort 3: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_label>Cohort 4: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <other_name>BMS-790052</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir</intervention_name>
+    <description>Capsule, oral, 150 mg, once daily</description>
+    <arm_group_label>Cohort 1: (Genotype 1b) Daclatasvir + Simeprevir</arm_group_label>
+    <arm_group_label>Cohort 2: (Genotype 1b) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_label>Cohort 3: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_label>Cohort 4: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <other_name>TMC435</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Tablets, oral, 500-600 mg, twice daily</description>
+    <arm_group_label>Cohort 3: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+    <arm_group_label>Cohort 4: (Genotype 1a) Daclatasvir + Simeprevir + Ribavirin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Key Inclusion Criteria:
+
+          -  Hepatitis C virus (HCV) genotype 1a or 1b
+
+          -  Males and females, ≥18 years of age
+
+          -  HCV RNA ≥10,000 IU/mL
+
+          -  Participants with compensated cirrhosis are permitted
+
+               -  Advanced fibrosis (F3/F4) is capped at approximately 35% of the total treated
+                  population with a minimum of 20% F4 patients
+
+               -  If no cirrhosis, a liver biopsy within 3 years prior to enrollment
+
+               -  If cirrhosis is present, any prior liver biopsy
+
+        Key Exclusion Criteria:
+
+          -  Liver or any other transplant (other than cornea and hair)
+
+          -  Evidence of a medical condition contributing to chronic liver disease other than HCV
+             infection
+
+          -  Current or known history of cancer, (except in situ carcinoma of the cervix or
+             adequately treated basal or squamous cell carcinoma of the skin) within 5 years prior
+             to enrollment
+
+          -  Evidence of decompensated liver disease including, but not limited to, radiologic
+             criteria, a history or presence of ascites, bleeding varices, or hepatic
+             encephalopathy
+
+          -  Patients infected with HIV or hepatitis B virus
+
+          -  Gastrointestinal disease impacting absorption of study drug
+
+          -  Uncontrolled diabetes or hypertension
+
+          -  Prior exposure to an HCV direct-acting agent
+
+          -  Any criteria that would exclude the patient from receiving ribavirin
+
+          -  Absolute neutrophil count &lt;1.5*1,000,000,000 cells/L (&lt;1.2*1,000,000,000 cells/L for
+             Black/African Americans)
+
+          -  Platelets &lt;90*1,000,000,000 cells/L
+
+          -  Hemoglobin &lt;12 g/dL for females, &lt;13 g/dL for males
+
+          -  Alanine aminotransferase ≥5*upper limit of normal
+
+          -  In patients without cirrhosis, total bilirubin ≥2 mg/dL unless patient has a
+             documented history of Gilbert's disease
+
+          -  In patients with cirrhosis, total bilirubin o ≥1.5 mg/dL
+
+          -  International normalized ratio ≥1.7
+
+          -  QTcF or QTcB &gt;500 mSec
+
+          -  Creatinine clearance ≤50 mL/min
+
+          -  Alpha fetoprotein (AFP) &gt;100 ng/mL OR
+
+          -  AFP ≥50 ng/mL and ≤100 ng/mL requiring liver ultrasound
+
+          -  Albumin &lt;3.5 g/dL
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bristol-Myers Squibb</last_name>
+    <role>Study Director</role>
+    <affiliation>Bristol-Myers Squibb</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Med Ctr</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94118</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>San Francisco General Hospital</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Indiana University</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Johns Hopkins University</name>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <zip>21093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Nashville Medical Research Institute</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas Clinical Research Institute, Llc</name>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <zip>76012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Metropolitan Research</name>
+      <address>
+        <city>Fairfax</city>
+        <state>Virginia</state>
+        <zip>22031</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>1119</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>C1181ACH</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Creteil Cedex</city>
+        <zip>94010</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Limoges</city>
+        <zip>87042</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Marseille Cedex 08</city>
+        <zip>13285</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Paris Cedex 13</city>
+        <zip>75651</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Paris Cedex 14</city>
+        <zip>75679</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Pessac</city>
+        <zip>33600</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Vandoeuvre Les Nancy</city>
+        <zip>54511</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Berlin</city>
+        <zip>10969</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20099</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Koeln</city>
+        <zip>50937</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1097</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1126</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Gyula</city>
+        <zip>5700</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28046</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>Valencia</city>
+        <zip>46010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Hungary</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://ctr.bms.com/ctd/start.do</url>
+    <description>BMS Clinical Trial Information</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/studyconnect/Pages/home.aspx</url>
+    <description>BMS clinical trial educational resource</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/clinical_trials/Pages/Investigator_Inquiry_form.aspx</url>
+    <description>Investigator Inquiry form</description>
+  </link>
+  <link>
+    <url>http://www.fda.gov/MEDWATCH/safety.htm</url>
+    <description>For FDA Safety Alerts and Recalls refer to the following link: http://www.fda.gov/MEDWATCH/safety.htm</description>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 29, 2015</lastchanged_date>
+  <firstreceived_date>June 25, 2012</firstreceived_date>
+  <firstreceived_results_date>August 13, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

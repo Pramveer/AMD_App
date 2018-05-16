@@ -1,0 +1,281 @@
+.advancePayerSubTabs {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 0px
+}
+
+.advancePayerSubTabs-links-wrapper {
+    border-bottom: 1px solid #e1e1e1;
+    display: inline-block;
+    width: 100%;
+}
+
+.advancePayerSubTabs-links {
+    padding: 0px;
+    width: 80%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.advancePayerSubTabs-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.advancePayerSubTabs-links li.active:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #F04823;
+    position: relative;
+    top: 68px;
+    left: 46.5%;
+    z-index: 1;
+}
+
+.advPayerheaderCount {
+    color: #c3c3c3;
+    font-weight: normal !important;
+}
+
+.advancePayerSubTabs-links li.active {
+    opacity: 1.0;
+    background-color: #F04823;
+}
+
+.advancePayerSubTabs-links li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.advancePayerSubTabs-links li.active .advPayerheaderCount {
+    color: #e1e1e1;
+    font-weight: normal;
+}
+
+.advancePayerSubTabs-links a:hover {
+    background: transparent;
+    text-decoration: none;
+}
+
+.advancePayerSubTabs-content {
+    margin-left: -3%;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.advancePayerSubTabs {
+    display: none;
+}
+
+.advancePayerSubTabs.active {
+    display: block;
+}
+
+.advancePayerSubTabs-links a {
+    float: right;
+    font-size: 15px;
+    font-family: Arial;
+    color: #666666;
+    transition: all linear 0.15s;
+    width: 200px;
+    text-align: center;
+    line-height: 1;
+    padding: 16px 0px;
+    font-weight: bold;
+}
+
+.advancePayerSubTabs-links a:hover {
+    color: #666666;
+}
+
+.advancePayerSubTabs-links li span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.advancePayerSubTabs-links li {
+    /* margin: 0px 1px; */
+    float: left;
+    list-style: none;
+    height: 60px;
+    cursor: pointer;
+    font-family: -webkit-body;
+    font-family: Arial;
+    background-color: #fff;
+}
+
+.AddNewDrugButtonWrapper {
+    float: right;
+    background: #fff;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+    padding: 7px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.OurRecommendationButtonWrapper {
+    background: #fff;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+    padding: 7px 55px;
+    cursor: pointer;
+    margin: 0px 2px;
+    margin-right: 14px;
+    margin-top: 25px;
+}
+
+.AddNewDrugButton {
+    background: #fff;
+    color: #555;
+    float: left;
+}
+
+.AddNewDrugIcon {
+    background-position: 17.6%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 22px;
+    width: 24px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.ModelDrugIcon {
+    background-position: 17.6%;
+    background-image: url(/database.png);
+    height: 20px;
+    width: 24px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.advancePharmaSubTabs {
+    display: inline-block;
+    /*padding-top: 10px;
+    padding-left: 10px*/
+}
+
+
+/*
+.advancePharmaSubTabs-links-wrapper {
+    border-bottom: 1px dotted #ececec;
+    display: inline-block;
+    float: left;
+}*/
+
+.advancePharmaSubTabs-links-wrapper {
+    border-bottom: 1px dotted #ececec;
+    display: inline-block;
+    float: left;
+    z-index: 10;
+    position: relative;
+}
+
+.advancePharmaSubTabs-links {
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.advancePharmaSubTabs-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.advancePharmaSubTabs-links li.active:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #F04823;
+    position: absolute;
+    top: 39px;
+    z-index: 1;
+}
+
+.advancePharmaSubTabs-links li.active {
+    opacity: 1.0;
+    background-color: #F04823;
+}
+
+.advancePharmaSubTabs-links li.active a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.advancePharmaSubTabs-links li.active .advPayerheaderCount {
+    color: #e1e1e1;
+    font-weight: normal;
+}
+
+.advancePharmaSubTabs-links a:hover {
+    background: transparent;
+    text-decoration: none;
+}
+
+.advancePharmaSubTabs-content {
+    margin-left: -3%;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.advancePharmaSubTabs {
+    display: none;
+}
+
+.advancePharmaSubTabs.active {
+    display: block;
+}
+
+.advancePharmaSubTabs-links a {
+    font-size: 13px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #112431;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    width: 100%;
+    float: left;
+}
+
+.advancePharmaSubTabs-links a:hover {
+    color: #666666;
+}
+
+.advancePharmaSubTabs-links li span {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.advancePharmaSubTabs-links li {
+    width: auto;
+    display: block;
+    float: left;
+    line-height: 0;
+    padding: 20px 12px;
+    text-align: center;
+    position: relative;
+}

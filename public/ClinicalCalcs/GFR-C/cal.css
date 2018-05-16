@@ -1,0 +1,192 @@
+.tool {
+		position: relative;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.tool-input {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+		width: 70px;
+		position: relative;
+		background: #efefef;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 2px #eee;
+		border-radius: 20px;
+		
+		display: inline;
+		float: right;
+		
+		margin-top: -10px;
+	
+	}
+	
+	.tool-input:hover {
+		box-shadow: 1px 1px 2px #666;
+		background: #fff;
+	}
+	
+	.tool-input:disabled {
+		background: #fff;
+	}
+	
+	.tool-container {
+		position: relative;
+		padding: 15px 0px;
+		clear: both;
+		border-bottom: 2px dashed #ccc;
+	}
+	
+	.tool-container.container-system {
+		border-bottom: 2px solid #ccc;
+		margin-bottom: 20px;
+		padding-bottom: 5px;
+	}
+	
+	.tool-container.container-result {
+		border-bottom: none;
+	}
+	
+	.tool-container.container-system h3 {
+		font-size: 12px;
+	}
+	
+	.tool h3 {
+		display: inline;
+		margin-right: 5px;
+		font-size: 16px !important;
+	}
+	
+	.container-constant {
+		display: none;
+	}
+	
+	.tool-container .caption {
+		text-align: left;
+		font-size: 12px;
+		display: block;
+		position: relative;
+		padding-left: 20px;
+	}
+	
+	.tool-elem,
+	.tool-result {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	.tool-elem-gfr {
+		padding-right: 225px;
+		text-align: right;
+		margin-top: 10px;
+	}
+	
+	.tool-elem-log {
+		position: absolute;
+		left: 0px;
+		top: 26px;
+		width: 195px;
+		text-align: right;
+		display: none;
+	}
+	.tool-elem-plus {
+		position: absolute;
+		right: 0px;
+		top: 26px;
+		width: 210px;
+		text-align: left;
+		display: none;
+	}
+	
+	sub {
+		font-size: 80%;
+		position: relative;
+		top: 3px;
+	}
+	
+	.tool-elem-times {
+		left: 405px;
+	}
+	
+	.tool-result{
+		position: absolute;
+		right: 0px;
+		width: 265px;
+		text-align: center;
+		font-size: 15px;
+	}
+	
+	.tool-result .prefix {
+		
+	}
+	
+	.tool-result .figure{
+		background: rgb(255,222,70);
+		border-radius: 20px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		margin: 0 5px;
+	}
+	
+	.tool-result .units {
+		font-weight:normal;
+	}
+	
+	.tool-option {
+		display: inline;
+		float: right;
+		margin-left: 10px;
+	}
+	.tool-option label {
+		font-weight:400;
+	}
+	
+	.tool-option label,
+	.tool-option input{
+		display: inline;
+	}
+	
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover LOL */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}
+	
+	
+	.tool-result-interpretation {
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		background: rgb(204,224,245);	
+		padding-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.tool-result-interpretation h3 {
+		margin-top: 0px;
+	}
+	
+	.tool-input-system {
+		margin-top: -7px;
+		margin-left: 5px;
+	}
+	.content-included h3 {
+    font-size: 13px;
+    font-family: Arial,Verdana,sans-serif;
+}
+.content .title {
+    font-family: Arial,Verdana,sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #00556d;
+    font-size: 17px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+}

@@ -1,0 +1,2899 @@
+<!DOCTYPE html>
+<html class="turbolinks-progress-bar">
+<head>
+<title></title>
+<style>
+* {
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+body {
+	margin: 0;
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, th {
+	padding: 0;
+}
+a {
+	background-color: transparent;
+}
+b, strong {
+	font-weight: bold;
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+input {
+	line-height: normal;
+}
+button {
+	overflow: visible;
+}
+button, select {
+	text-transform: none;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+img {
+	border: 0;
+}
+sub {
+	bottom: -0.25em;
+}
+.btn-xs, .btn-group-xs > .btn, #jumper .btn-group-xs > .btn-jump, .drugs-c #drug-actions .btn-group-xs > .btn-jump, .drug-table .products .full-image {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+button, html input[type='button'], input[type='reset'], input[type='submit'] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+*::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #333333;
+	background-color: #fff;
+}
+.container-fluid, main, body, .home-intro {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+main {
+	width: 100%;
+	margin-top: 61px;
+}
+/* @media all and (min-width:768px) */
+main {
+	margin-top: 106px;
+}
+/* @media all and (min-width:992px) */
+main {
+	margin-top: 61px;
+}
+/* @media all and (min-width:1200px) */
+main {
+	margin-top: 61px;
+}
+.container-fluid::before, main::before, body::before, .home-intro::before, .container-fluid::after, main::after, body::after, .home-intro::after {
+	content: " ";
+	display: table;
+}
+.container-fluid::after, main::after, body::after, .home-intro::after {
+	clear: both;
+}
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: transparent;
+}
+html.turbolinks-progress-bar::before {
+	content: "";
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	background-color: #0076ff;
+	height: 3px;
+	opacity: 0.99;
+	width: 0%;
+	transition: width 0ms ease-out, opacity 0ms ease-in;
+	transform: translate3d(0px, 0px, 0px);
+}
+.well, .specdb-search-form, .drugs-c #drug-actions, .home-intro {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05);
+}
+.well-sm, .drugs-c #drug-actions {
+	padding: 9px;
+	border-radius: 3px;
+}
+#app-signup-form {
+	background: #337AB7;
+	color: #fff;
+	padding: 10px 20px;
+	overflow: hidden;
+	border-bottom: 5px solid #1F4B71;
+	margin-bottom: 10px;
+	display:none;
+}
+/* @media all and (min-width:768px) */
+#app-signup-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display:none;
+}
+table {
+	background-color: transparent;
+}
+.table, .content-table, .table-container table.table-inner, .data-table-container table.table-inner, table.table-standard {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+table.dataTable {
+	clear: both;
+	margin-top: 6px !important;
+	margin-bottom: 6px !important;
+	max-width: none !important;
+}
+.table-bordered, .content-table {
+	border: 1px solid #ddd;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h3, .h3 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 16px;
+}
+.target {
+	background: #DB9EA6 !important;
+}
+.enzyme {
+	background: #B2D0B4 !important;
+}
+.transporter {
+	background: #FFFFAA !important;
+	color: #3e3e3e;
+}
+#disqus_thread {
+	text-align: left;
+}
+.drugs-c div#drug-meta {
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	font-color: grey;
+}
+th {
+	text-align: left;
+}
+.panel {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+}
+.panel-default {
+	border-color: #ddd;
+}
+.bonds .panel {
+	margin-bottom: 9px;
+}
+.bonds :last-child.panel {
+	margin-bottom: 0px;
+}
+.panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.panel-default > .panel-heading {
+	color: #333333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+.panel-body {
+	padding: 15px;
+}
+.panel-body::before, .panel-body::after {
+	content: " ";
+	display: table;
+}
+.panel-body::after {
+	clear: both;
+}
+dl {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+dt, dd {
+	line-height: 1.4285;
+}
+dt {
+	font-weight: bold;
+}
+/* @media all and (min-width:768px) */
+.dl-horizontal dt {
+	float: left;
+	width: 160px;
+	clear: left;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+dd {
+	margin-left: 0px;
+}
+/* @media all and (min-width:768px) */
+.dl-horizontal dd {
+	margin-left: 180px;
+}
+.dl-horizontal dd::before, .dl-horizontal dd::after {
+	content: " ";
+	display: table;
+}
+.dl-horizontal dd::after {
+	clear: both;
+}
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+.wishart-link-out {
+	white-space: nowrap;
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: "Glyphicons Halflings";
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-new-window::before {
+	content: "\e164";
+}
+.wishart-link-out .glyphicon {
+	color: silver;
+}
+.badge {
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 1;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-align: center;
+	background-color: #777777;
+	border-radius: 10px;
+}
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+.label-danger {
+	background-color: #d9534f;
+}
+.pull-right, div#search-box .btn-advanced, .unearth-drug-search-results.unearth-search-results .unearth-search-hit .result-info .groups, .unearth-drug-search-results.unearth-search-results .unearth-search-hit .result-info .structure, .unearth-target-search-results.unearth-search-results .groups, .drug-table .products .full-image, .home-intro .more-about {
+	float: right !important;
+	margin-top:-7px !important;
+}
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+.btn, #jumper .btn-jump, .drugs-c #drug-actions .btn-jump, .drug-table .products .full-image {
+	display: inline-block;
+	margin-bottom: 0px;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4285;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.btn-default, #jumper .btn-jump, .drugs-c #drug-actions .btn-jump {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.glyphicon-list::before {
+	content: "\e056";
+}
+.wishart-not-available.wishart {
+	color: #949494;
+}
+.label-success {
+	background-color: #5cb85c;
+}
+th.head-sm {
+	width: 20%;
+}
+table.dataTable td, table.dataTable th {
+	box-sizing: content-box;
+}
+.table > thead > tr > th, .content-table > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, table.table-standard > thead > tr > th, .table > thead > tr > td, .content-table > thead > tr > td, .table-container table.table-inner > thead > tr > td, .data-table-container table.table-inner > thead > tr > td, table.table-standard > thead > tr > td, .table > tbody > tr > th, .content-table > tbody > tr > th, .table-container table.table-inner > tbody > tr > th, .data-table-container table.table-inner > tbody > tr > th, table.table-standard > tbody > tr > th, .table > tbody > tr > td, .content-table > tbody > tr > td, .table-container table.table-inner > tbody > tr > td, .data-table-container table.table-inner > tbody > tr > td, table.table-standard > tbody > tr > td, .table > tfoot > tr > th, .content-table > tfoot > tr > th, .table-container table.table-inner > tfoot > tr > th, .data-table-container table.table-inner > tfoot > tr > th, table.table-standard > tfoot > tr > th, .table > tfoot > tr > td, .content-table > tfoot > tr > td, .table-container table.table-inner > tfoot > tr > td, .data-table-container table.table-inner > tfoot > tr > td, table.table-standard > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.4285;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+.table > thead > tr > th, .content-table > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, table.table-standard > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+}
+.table-condensed > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, .table-condensed > thead > tr > td, .table-container table.table-inner > thead > tr > td, .data-table-container table.table-inner > thead > tr > td, .table-condensed > tbody > tr > th, .table-container table.table-inner > tbody > tr > th, .data-table-container table.table-inner > tbody > tr > th, .table-condensed > tbody > tr > td, .table-container table.table-inner > tbody > tr > td, .data-table-container table.table-inner > tbody > tr > td, .table-condensed > tfoot > tr > th, .table-container table.table-inner > tfoot > tr > th, .data-table-container table.table-inner > tfoot > tr > th, .table-condensed > tfoot > tr > td, .table-container table.table-inner > tfoot > tr > td, .data-table-container table.table-inner > tfoot > tr > td {
+	padding: 5px;
+}
+table.dataTable thead > tr > th {
+	padding-left: 5px !important;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+	cursor: pointer;
+	position: relative;
+}
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting_asc_disabled::after, table.dataTable thead .sorting_desc_disabled::after {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	display: block;
+	font-family: "Glyphicons Halflings";
+	opacity: 0.5;
+}
+table.dataTable thead .sorting_asc::after {
+	content: "\e155";
+}
+table.dataTable thead .sorting::after {
+	opacity: 0.2;
+	content: "\e150";
+}
+.table-bordered > thead > tr > th, .content-table > thead > tr > th, .table-bordered > thead > tr > td, .content-table > thead > tr > td, .table-bordered > tbody > tr > th, .content-table > tbody > tr > th, .table-bordered > tbody > tr > td, .content-table > tbody > tr > td, .table-bordered > tfoot > tr > th, .content-table > tfoot > tr > th, .table-bordered > tfoot > tr > td, .content-table > tfoot > tr > td {
+	border: 1px solid #ddd;
+}
+.drug-table > tbody > tr > th {
+	background: #D9F5FE;
+	color: #555555;
+}
+ul, ol {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+table.data-table .dataTables_wrapper {
+	margin-top: 0.4em;
+}
+.row, .unearth-advanced-c .search-condition, .unearth-search-results .unearth-search-hit .unearth-search-details, #biodbi-search-results .biodbi-hit .biodbi-sequence {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row::before, .unearth-advanced-c .search-condition::before, .unearth-search-results .unearth-search-hit .unearth-search-details::before, #biodbi-search-results .biodbi-hit .biodbi-sequence::before, .row::after, .unearth-advanced-c .search-condition::after, .unearth-search-results .unearth-search-hit .unearth-search-details::after, #biodbi-search-results .biodbi-hit .biodbi-sequence::after {
+	content: " ";
+	display: table;
+}
+.row::after, .unearth-advanced-c .search-condition::after, .unearth-search-results .unearth-search-hit .unearth-search-details::after, #biodbi-search-results .biodbi-hit .biodbi-sequence::after {
+	clear: both;
+}
+.col-xs-1, .unearth-advanced-c .search-condition .remove-button, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-sm-1, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-md-1, .unearth-advanced-c .search-condition .remove-button, .unearth-search-results .unearth-search-hit .unearth-search-details .result-link, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-lg-1, .col-xs-2, .unearth-advanced-c .search-condition .predicate-select, .col-sm-2, .col-md-2, .unearth-advanced-c .search-condition .predicate-select, .home-intro .dod-structure, .col-lg-2, .col-xs-3, .unearth-advanced-c .search-condition .field-select, .unearth-advanced-c .search-condition .value, .unearth-advanced-c .search-condition .helptext, .col-sm-3, .col-md-3, .unearth-advanced-c .search-condition .field-select, .unearth-advanced-c .search-condition .value, .unearth-advanced-c .search-condition .helptext, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-sm-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-md-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .home-intro .dod-drug, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .unearth-search-results .unearth-search-hit .unearth-search-details .result-info, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* @media all and (min-width:768px) */
+.col-sm-1, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-sm-11, .col-sm-12 {
+	float: left;
+}
+/* @media all and (min-width:768px) */
+.col-sm-5 {
+	width: 41.66%;
+}
+/* @media all and (min-width:768px) */
+.col-sm-7 {
+	width: 58.33%;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+	margin: 0;
+	white-space: nowrap;
+	text-align: right;
+}
+.pagination {
+	display: inline-block;
+	padding-left: 0px;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+	margin: 2px 0;
+	white-space: nowrap;
+}
+.pagination > li {
+	display: inline;
+}
+.pagination > li > a, .pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.4285;
+	text-decoration: none;
+	color: #337ab7;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+	color: #777777;
+	background-color: #fff;
+	border-color: #ddd;
+	cursor: not-allowed;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+	z-index: 3;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	cursor: default;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	margin-left: 0px;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.pagination-sm > li > a, table.data-table .dataTables_wrapper .pagination > li > a, .pagination-sm > li > span, table.data-table .dataTables_wrapper .pagination > li > span {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.pagination-sm > li:last-child > a, table.data-table .dataTables_wrapper .pagination > li:last-child > a, .pagination-sm > li:last-child > span, table.data-table .dataTables_wrapper .pagination > li:last-child > span {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.pagination-sm > li:first-child > a, table.data-table .dataTables_wrapper .pagination > li:first-child > a, .pagination-sm > li:first-child > span, table.data-table .dataTables_wrapper .pagination > li:first-child > span {
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+div.dataTables_wrapper div.dataTables_info {
+	padding-top: 8px;
+	white-space: nowrap;
+}
+.text-muted, table.data-table .dataTables_wrapper .dataTables_length, table.data-table .dataTables_wrapper .dataTables_info {
+	color: #777777;
+}
+/* @media all and (min-width:768px) */
+.col-sm-12 {
+	width: 100%;
+}
+.table-container table.table-inner {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: none;
+	text-align: left;
+	border: none;
+	font-size: 13px;
+}
+.table .table, .content-table .table, .table-container table.table-inner .table, .data-table-container table.table-inner .table, table.table-standard .table, .table .content-table, .content-table .content-table, .table-container table.table-inner .content-table, .data-table-container table.table-inner .content-table, table.table-standard .content-table, .table .table-container table.table-inner, .table-container .table table.table-inner, .content-table .table-container table.table-inner, .table-container .content-table table.table-inner, .table-container table.table-inner table.table-inner, table.table-standard .table-container table.table-inner, .table-container table.table-standard table.table-inner, .table .data-table-container table.table-inner, .data-table-container .table table.table-inner, .content-table .data-table-container table.table-inner, .data-table-container .content-table table.table-inner, .data-table-container table.table-inner table.table-inner, table.table-standard .data-table-container table.table-inner, .data-table-container table.table-standard table.table-inner, .table table.table-standard, .content-table table.table-standard, .table-container table.table-inner table.table-standard, .data-table-container table.table-inner table.table-standard, table.table-standard table.table-standard {
+	background-color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1), .table-container table.table-inner > tbody > tr:nth-of-type(2n+1), .data-table-container table.table-inner > tbody > tr:nth-of-type(2n+1), table.table-standard > tbody > tr:nth-of-type(2n+1) {
+	background-color: #f9f9f9;
+}
+table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+	padding-right: 30px;
+}
+table.table-condensed.dataTable > thead > tr > th, .table-container table.table-inner.dataTable > thead > tr > th, .data-table-container table.table-inner.dataTable > thead > tr > th {
+	padding-right: 20px;
+}
+table.table-condensed.dataTable .sorting::after, .table-container table.table-inner.dataTable .sorting::after, .data-table-container table.table-inner.dataTable .sorting::after, table.table-condensed.dataTable .sorting_asc::after, .table-container table.table-inner.dataTable .sorting_asc::after, .data-table-container table.table-inner.dataTable .sorting_asc::after, table.table-condensed.dataTable .sorting_desc::after, .table-container table.table-inner.dataTable .sorting_desc::after, .data-table-container table.table-inner.dataTable .sorting_desc::after {
+	top: 6px;
+	right: 6px;
+}
+.table > caption + thead > tr:first-child > th, .content-table > caption + thead > tr:first-child > th, .table-container table.table-inner > caption + thead > tr:first-child > th, .data-table-container table.table-inner > caption + thead > tr:first-child > th, table.table-standard > caption + thead > tr:first-child > th, .table > caption + thead > tr:first-child > td, .content-table > caption + thead > tr:first-child > td, .table-container table.table-inner > caption + thead > tr:first-child > td, .data-table-container table.table-inner > caption + thead > tr:first-child > td, table.table-standard > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .content-table > colgroup + thead > tr:first-child > th, .table-container table.table-inner > colgroup + thead > tr:first-child > th, .data-table-container table.table-inner > colgroup + thead > tr:first-child > th, table.table-standard > colgroup + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .content-table > colgroup + thead > tr:first-child > td, .table-container table.table-inner > colgroup + thead > tr:first-child > td, .data-table-container table.table-inner > colgroup + thead > tr:first-child > td, table.table-standard > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > th, .content-table > thead:first-child > tr:first-child > th, .table-container table.table-inner > thead:first-child > tr:first-child > th, .data-table-container table.table-inner > thead:first-child > tr:first-child > th, table.table-standard > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .content-table > thead:first-child > tr:first-child > td, .table-container table.table-inner > thead:first-child > tr:first-child > td, .data-table-container table.table-inner > thead:first-child > tr:first-child > td, table.table-standard > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+/* @media all and (min-width:768px) */
+.col-sm-6 {
+	width: 50%;
+}
+.dataTables_filter {
+	margin-right: 1em;
+}
+div.dataTables_wrapper div.dataTables_filter {
+	text-align: right;
+}
+.form-group, table.data-table .dataTables_wrapper .dataTables_filter {
+	margin-bottom: 15px;
+}
+table.data-table .dataTables_wrapper .dataTables_filter {
+	float: right;
+	width: 300px;
+	margin-bottom: 0px;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+	font-weight: normal;
+	white-space: nowrap;
+	text-align: left;
+}
+table.data-table .dataTables_wrapper .dataTables_filter label {
+	display: inline;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+	margin-left: 0.5em;
+	display: inline-block;
+	width: auto;
+}
+.form-control, .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition select, table.data-table .dataTables_wrapper .dataTables_filter input {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #555555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.input-sm, .input-group-sm > .form-control, table.data-table .dataTables_wrapper .dataTables_filter .input-group-sm > input, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn, #jumper .input-group-sm > .input-group-btn > .btn-jump, .drugs-c #drug-actions .input-group-sm > .input-group-btn > .btn-jump, .drug-table .products .input-group-sm > .input-group-btn > .full-image, .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition select {
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+select.input-sm, .input-group-sm > select.form-control, .input-group-sm > select.input-group-addon, .input-group-sm > .input-group-btn > select.btn, #jumper .input-group-sm > .input-group-btn > select.btn-jump, .drugs-c #drug-actions .input-group-sm > .input-group-btn > select.btn-jump, .drug-table .products .input-group-sm > .input-group-btn > select.full-image, .unearth-advanced-c .search-condition select {
+	height: 30px;
+	line-height: 30px;
+}
+div.dataTables_wrapper div.dataTables_length select {
+	width: 75px;
+	display: inline-block;
+}
+.input-xs, table.data-table .dataTables_wrapper .dataTables_length select, table.data-table .dataTables_wrapper .dataTables_filter input {
+	height: 28px;
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+table.data-table .dataTables_wrapper .dataTables_filter input {
+	display: inline;
+}
+input[type='search'] {
+	-webkit-appearance: none;
+}
+:-ms-input-placeholder.form-control, .unearth-advanced-c .search-condition input:-ms-input-placeholder, .unearth-advanced-c .search-condition select:-ms-input-placeholder, table.data-table .dataTables_wrapper .dataTables_filter input:-ms-input-placeholder {
+	color: #999;
+}
+/* @media all and (min-width:768px) */
+.form-inline .form-control, .form-inline .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition .form-inline input, .form-inline .unearth-advanced-c .search-condition select, .unearth-advanced-c .search-condition .form-inline select, .form-inline table.data-table .dataTables_wrapper .dataTables_filter input, table.data-table .dataTables_wrapper .dataTables_filter .form-inline input {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
+input[type='search'] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+}
+input[type='search'] {
+	box-sizing: border-box;
+}
+table.data-table .dataTables_wrapper .dataTables_length {
+	display: inline;
+}
+div.dataTables_wrapper div.dataTables_length label {
+	font-weight: normal;
+	text-align: left;
+	white-space: nowrap;
+}
+table.data-table .dataTables_wrapper .dataTables_length label {
+	float: none;
+	text-align: left;
+	vertical-align: middle;
+}
+.drug-table > tbody > tr > th.divider {
+	background: #555555;
+	color: #f0f0f0;
+	font-weight: normal;
+	text-shadow: 0px -1px 0px black;
+}
+ol.cite-this-references {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+p {
+	margin: 0 0 10px;
+}
+.data-table-container .datatable {
+	font-size: 13px;
+}
+.hidden {
+	display: none !important;
+}
+img {
+	vertical-align: middle;
+}
+.drug-table #patents .country img {
+	width: 20px;
+}
+.alert, #unearth-search-info .approximate-warning {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.alert-warning, #unearth-search-info .approximate-warning {
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+	color: #8a6d3b;
+}
+.clearfix::before, .clearfix::after {
+	content: " ";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+.drugs-c .price-alert, .drugs-c .admetsar-alert {
+	margin-bottom: 0px;
+	padding: 7px;
+}
+.glyphicon-info-sign::before {
+	content: "\e086";
+}
+.trendmd-widget {
+	border: 0 !important;
+	outline: 0 !important;
+	font: 13px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+}
+.trendmd-widget, .trendmd-widget-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-container, .trendmd-widget-header {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget {
+	border: 0 !important;
+	outline: 0 !important;
+	font: 13px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+}
+.trendmd-widget, .trendmd-widget-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-header {
+	font-size: 14px !important;
+	margin: 0 0 20px !important;
+	padding: 8px 0 0 4px !important;
+}
+.trendmd-widget-container, .trendmd-widget-header {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget {
+	border: 0 !important;
+	outline: 0 !important;
+	font: 13px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+}
+.trendmd-widget, .trendmd-widget-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-header {
+	font-size: 14px !important;
+	margin: 0 0 20px !important;
+	padding: 8px 0 0 4px !important;
+}
+.trendmd-widget-container, .trendmd-widget-header {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-container::after, .trendmd-widget-container::before {
+	content: "" !important;
+	clear: both !important;
+	display: table !important;
+}
+.trendmd-widget-container::after, .trendmd-widget-container::before {
+	content: "" !important;
+	clear: both !important;
+	display: table !important;
+}
+.trendmd-widget-container::after, .trendmd-widget-container::before {
+	content: "" !important;
+	clear: both !important;
+	display: table !important;
+}
+.trendmd-widget {
+	color: #000 !important;
+}
+.trendmd-widget_horizontal {
+	position: relative !important;
+	padding-top: 42px !important;
+}
+.trendmd-widget {
+	color: #000 !important;
+}
+.trendmd-widget_horizontal {
+	position: relative !important;
+	padding-top: 42px !important;
+}
+.trendmd-widget {
+	color: #000 !important;
+}
+.trendmd-widget_horizontal {
+	position: relative !important;
+	padding-top: 42px !important;
+}
+#trendmd-suggestions .trendmd-widget_horizontal {
+	padding-top: 0px !important;
+}
+.trendmd-widget-inner::after, .trendmd-widget-inner::before {
+	display: table !important;
+	content: "" !important;
+}
+.trendmd-widget-inner::after {
+	clear: both !important;
+}
+.trendmd-widget-inner::after, .trendmd-widget-inner::before {
+	display: table !important;
+	content: "" !important;
+}
+.trendmd-widget-inner::after {
+	clear: both !important;
+}
+.trendmd-widget-inner::after, .trendmd-widget-inner::before {
+	display: table !important;
+	content: "" !important;
+}
+.trendmd-widget-inner::after {
+	clear: both !important;
+}
+.trendmd-widget_body-smaller .trendmd-widget-inner {
+	font-size: 0.9em;
+}
+.trendmd-widget_body-smaller .trendmd-widget-inner {
+	font-size: 0.9em;
+}
+.trendmd-widget_body-smaller .trendmd-widget-inner {
+	font-size: 0.9em;
+}
+.trendmd-widget-footer, .trendmd-widget-list-item__mendeley, .trendmd-widget-list-item__mendeley-img {
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-footer {
+	vertical-align: baseline !important;
+}
+.trendmd-widget-footer {
+	margin: 13px 0 0 !important;
+	padding: 15px 0 0 !important;
+	color: #cad5d9 !important;
+	border-top: 2px solid #e9eeef !important;
+	font-size: 14px !important;
+}
+.trendmd-widget-footer, .trendmd-widget-list-item__mendeley, .trendmd-widget-list-item__mendeley-img {
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-footer {
+	vertical-align: baseline !important;
+}
+.trendmd-widget-footer {
+	margin: 13px 0 0 !important;
+	padding: 15px 0 0 !important;
+	color: #cad5d9 !important;
+	border-top: 2px solid #e9eeef !important;
+	font-size: 14px !important;
+}
+.trendmd-widget-footer, .trendmd-widget-list-item__mendeley, .trendmd-widget-list-item__mendeley-img {
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-footer {
+	vertical-align: baseline !important;
+}
+.trendmd-widget-footer {
+	margin: 13px 0 0 !important;
+	padding: 15px 0 0 !important;
+	color: #cad5d9 !important;
+	border-top: 2px solid #e9eeef !important;
+	font-size: 14px !important;
+}
+.trendmd-widget-brand {
+	font-size: inherit !important;
+	color: #cad5d9 !important;
+	text-decoration: none !important;
+	font-weight: 400 !important;
+}
+.trendmd-widget-brand__logo__faded {
+	background-position: 0 -38px !important;
+}
+.trendmd-widget-header {
+	font-size: 14px !important;
+	margin: 0 0 20px !important;
+	padding: 8px 0 0 4px !important;
+}
+.trendmd-widget-list {
+	margin: 0 !important;
+}
+.trendmd-widget-list {
+	list-style: none !important;
+	padding: 4px 0 0 4px !important;
+}
+.trendmd-widget-header__heading {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-header__heading, .trendmd-widget-list, .trendmd-widget-list-item {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item {
+	padding: 0 !important;
+}
+.trendmd-widget-list-item {
+	list-style-type: none !important;
+	position: relative !important;
+	margin: 0 0 12px !important;
+}
+.trendmd-widget-header__heading {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-header__heading, .trendmd-widget-list, .trendmd-widget-list-item {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item {
+	padding: 0 !important;
+}
+.trendmd-widget-list-item {
+	list-style-type: none !important;
+	position: relative !important;
+	margin: 0 0 12px !important;
+}
+.trendmd-widget-header__heading {
+	line-height: 18px !important;
+	font-weight: 700 !important;
+	font-size: 1em !important;
+	text-align: left !important;
+}
+.trendmd-widget-header__heading {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.trendmd-widget-list {
+	list-style: none !important;
+	padding: 4px 0 0 4px !important;
+}
+.trendmd-widget-header__heading, .trendmd-widget-list, .trendmd-widget-list-item {
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item {
+	padding: 0 !important;
+}
+.trendmd-widget-list-item {
+	list-style-type: none !important;
+	position: relative !important;
+	margin: 0 0 12px !important;
+}
+.trendmd-widget-list-item__link {
+	margin: 0 !important;
+}
+.trendmd-widget-list-item__link, .trendmd-widget-list-item__meta {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item__link {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.trendmd-widget-list-item__link {
+	margin: 0 !important;
+}
+.trendmd-widget-list-item__meta {
+	color: #a2b1b6 !important;
+	margin: 2px 0 0 !important;
+}
+.trendmd-widget-list-item__link, .trendmd-widget-list-item__meta {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item__meta {
+	color: #a2b1b6 !important;
+	margin: 2px 0 0 !important;
+}
+.trendmd-widget-list-item__link {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.trendmd-widget-list-item__link {
+	margin: 0 !important;
+}
+.trendmd-widget-list-item__link, .trendmd-widget-list-item__meta {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	vertical-align: baseline !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-list-item__link {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.trendmd-widget-list-item__meta {
+	color: #a2b1b6 !important;
+	margin: 2px 0 0 !important;
+}
+.trendmd-widget-header__heading {
+	line-height: 18px !important;
+	font-weight: 700 !important;
+	font-size: 1em !important;
+	text-align: left !important;
+}
+.trendmd-widget-brand::after, .trendmd-widget-brand::before, .trendmd-widget-brand__logo::after, .trendmd-widget-brand__logo::before, .trendmd-widget-footer::after, .trendmd-widget-footer::before, .trendmd-widget-header::after, .trendmd-widget-header::before, .trendmd-widget-header__heading::after, .trendmd-widget-header__heading::before, .trendmd-widget-list-item::after, .trendmd-widget-list-item::before, .trendmd-widget-list-item__link::after, .trendmd-widget-list-item__link::before, .trendmd-widget-list-item__mendeley-img::after, .trendmd-widget-list-item__mendeley-img::before, .trendmd-widget-list-item__mendeley::after, .trendmd-widget-list-item__mendeley::before, .trendmd-widget-list-item__meta::after, .trendmd-widget-list-item__meta::before, .trendmd-widget-list::after, .trendmd-widget-list::before {
+	display: none !important;
+}
+.trendmd-widget-header h3 {
+	padding: 0 !important;
+}
+.trendmd-widget-brand::after, .trendmd-widget-brand::before, .trendmd-widget-brand__logo::after, .trendmd-widget-brand__logo::before, .trendmd-widget-footer::after, .trendmd-widget-footer::before, .trendmd-widget-header::after, .trendmd-widget-header::before, .trendmd-widget-header__heading::after, .trendmd-widget-header__heading::before, .trendmd-widget-list-item::after, .trendmd-widget-list-item::before, .trendmd-widget-list-item__link::after, .trendmd-widget-list-item__link::before, .trendmd-widget-list-item__mendeley-img::after, .trendmd-widget-list-item__mendeley-img::before, .trendmd-widget-list-item__mendeley::after, .trendmd-widget-list-item__mendeley::before, .trendmd-widget-list-item__meta::after, .trendmd-widget-list-item__meta::before, .trendmd-widget-list::after, .trendmd-widget-list::before {
+	display: none !important;
+}
+.trendmd-widget-header h3 {
+	padding: 0 !important;
+}
+.trendmd-widget-brand::after, .trendmd-widget-brand::before, .trendmd-widget-brand__logo::after, .trendmd-widget-brand__logo::before, .trendmd-widget-footer::after, .trendmd-widget-footer::before, .trendmd-widget-header::after, .trendmd-widget-header::before, .trendmd-widget-header__heading::after, .trendmd-widget-header__heading::before, .trendmd-widget-list-item::after, .trendmd-widget-list-item::before, .trendmd-widget-list-item__link::after, .trendmd-widget-list-item__link::before, .trendmd-widget-list-item__mendeley-img::after, .trendmd-widget-list-item__mendeley-img::before, .trendmd-widget-list-item__mendeley::after, .trendmd-widget-list-item__mendeley::before, .trendmd-widget-list-item__meta::after, .trendmd-widget-list-item__meta::before, .trendmd-widget-list::after, .trendmd-widget-list::before {
+	display: none !important;
+}
+.trendmd-widget-footer-inner {
+	font-size: 1em !important;
+}
+.trendmd-widget-footer-inner {
+	font-size: 1em !important;
+}
+.trendmd-widget-footer-inner {
+	font-size: 1em !important;
+}
+.trendmd-widget-footer-inner-left {
+	float: left !important;
+	width: 50% !important;
+	text-align: left !important;
+	padding: 3px 0 0 !important;
+}
+.trendmd-widget-footer-inner-left {
+	float: left !important;
+	width: 50% !important;
+	text-align: left !important;
+	padding: 3px 0 0 !important;
+}
+.trendmd-widget-footer-inner-left {
+	float: left !important;
+	width: 50% !important;
+	text-align: left !important;
+	padding: 3px 0 0 !important;
+}
+.trendmd-widget-footer-inner-right {
+	float: right !important;
+	width: 50% !important;
+	text-align: right !important;
+}
+.trendmd-widget-footer-inner-right {
+	float: right !important;
+	width: 50% !important;
+	text-align: right !important;
+}
+.trendmd-widget-footer-inner-right {
+	float: right !important;
+	width: 50% !important;
+	text-align: right !important;
+}
+.trendmd-widget-brand {
+	margin: 0 !important;
+	vertical-align: baseline !important;
+}
+.trendmd-widget-brand, .trendmd-widget-brand__logo {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-brand {
+	font-size: inherit !important;
+	color: #cad5d9 !important;
+	text-decoration: none !important;
+	font-weight: 400 !important;
+}
+.trendmd-widget-brand {
+	margin: 0 !important;
+	vertical-align: baseline !important;
+}
+.trendmd-widget-brand__logo__faded {
+	background-position: 0 -38px !important;
+}
+.trendmd-widget-brand, .trendmd-widget-brand__logo {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-brand {
+	font-size: inherit !important;
+	color: #cad5d9 !important;
+	text-decoration: none !important;
+	font-weight: 400 !important;
+}
+.trendmd-widget-brand {
+	margin: 0 !important;
+	vertical-align: baseline !important;
+}
+.trendmd-widget-brand__logo__faded {
+	background-position: 0 -38px !important;
+}
+.trendmd-widget-brand, .trendmd-widget-brand__logo {
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	background: 0 0 !important;
+	font: inherit !important;
+}
+.trendmd-widget-brand__logo {
+	display: inline-block !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAACHCAYAAADtLIw/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDkwN0M4NjgwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDkwN0M4NjkwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEOTA3Qzg2NjA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEOTA3Qzg2NzA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjsRSUcAAA3FSURBVHja7F1pbBvH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) 0 -61px no-repeat !important;
+	width: 87px !important;
+	height: 22px !important;
+	font-size: 0px !important;
+	text-indent: -9999999px !important;
+	vertical-align: 8px !important;
+	margin: 0 0 0 5px !important;
+}
+.trendmd-widget-brand__logo {
+	display: inline-block !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAACHCAYAAADtLIw/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDkwN0M4NjgwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDkwN0M4NjkwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEOTA3Qzg2NjA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEOTA3Qzg2NzA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjsRSUcAAA3FSURBVHja7F1pbBvHFX6kSNE6KImyHde14kOKY8ROjaDyEdmN69Zy0saNXSBVkwYFArSojQRtfhQppDZAgQQFavVHCiRADjVInT8FYgGtHbv+EQlpkcBSbEttYTu+dVg+JVukLJHUxaP76FlyONwl9yI5S+4HDLQ7Ky6H8817b2be27e2k19dBI5RLpQPhPKsUEqz/F1zQvm7UH6+ce3DwVz/UAfwjXeF8pMcfRcS/Twh5MVc/1Ab5xIxn4fBEhIkwpnrH2rnXCIcRfKdsS9tTnO9Xyi+HLRDbIOPfKckhJGadH52YBimZ+dix2WuUni0YWXS9VPnLqV8RkQ4EgHvvSm4ensMotEoFyOuK831nULpzkE7xDZ0k+9UBE+VG6bvjMeP1aDEbofFnmqByFkY9U7knQjeVVNa1FKdX6uSiPjnqt1c/BYkwiYxCrFug1BayWjdK5QBco5oFMpBoURJwWMPda2LlFbq/wbINUQLOcf6/Vobj+qILpmAqqrv/CUYvjUar1tQWsoFEekMk4fS3awdwc6tp85byPmGNJ+rJ4S2CeV9irhWLQ1H24Cdj5IQZerSAc3BuGAbVi5dEldRvEiEEqARbRfKINXpQDq1jZKEZglj386Q0UKR0EnIUw3f5FTcNohqSazLCMo4RwFMRUQH6fBORhL2M6qlkflcJ0UULWk0Uf1aGu4lnU6rJa9CIhYJRjo+ewqHTTVPl5vCtpFrHtKhgwxRmVDPEKNKNdGqSDxPB6mpbGBm1lQSwY5yEXuJjt9P9L6Wz3u1Np6WAMVqicHouM+0ROCo30ckoZ4U2oYo+Xw7cz6opfF05ytVS7h4CwnqaCoQhEsjN2AyEOSCCL17Tc3UQkwtGolaSvfZvNhSQYXZzLavomfVrcRIh/Kw9xOyVtap+FuRfCf3RLwslI9xlpmD7wqTherLebERPOw8Wri/p8QV+r62nD7Ni6u08dZVy1XKoHhcpTz2PiUVeXGVChJhuUo5kFjLVQoZXKXCSE06/2rbkzBz+f6CdMHqNbDu80+TG790Rcpn4lMkYSXu++QYjPzuNYjOz3Mx4kzrKq195mm4+ebF+LEalFS5YdFPn4Pp8xdg7MMP806EqV2lNXt+kDjevUvTPWp/+AwXv8XcrtKHH4qpJCxla1Zn3lMRVFV/XT1c/fVv43WuhlXcG0O+XaWXrsSIqEVJIItSsS79+jkM3kOHYcWbfyQqqoobiVAC7lylE5/8M66SRBUl1mVCNBySPDYDEfy5SkmnowSIUuA9ooyIxS8k1ojhiXummqdz5yrFaSutivB45lJ634rUVDZ4+qypJIId5SLy6iqdOHw0RVWpQiQCo+9+YFoiuHGVeo8cS1FVGe1DKAwhrw/8x7+Eyy/8DKZ6j3NBhN69pqy4Sqm9przs0QsqzGY2IrICa9OPLxIQlquUE1iuUgs5JoLzZ+jUAHfv3hbKijy3AxcrvxLKEbmnlcyomtSQcJgDEoC04TBpU9ER8RZnM0AbaVPREbHS7G0qFCJyN9RtNnCUlMT+GglcLIl7RZmgyo2ZBbDtTOvGlTOUpy8PwSzxUbucTli/WtoxlO7RYBFz8yG4PnYn9ihYoa8jDIe7oix+XFVRrutepU4H1C9bCp6qSosItaiuqDCMCBHLlywGvZoKiWgnVh5Lm4Q6slEzEtEXvZeoiSgkXJ24C4tb4V5I+KjxGu1v6KLKfnJd9F1jXSOjisR7HQSNfosUItwVMf2OBY/VANXVfy5cgVGvj5EMJ1SWlem2EUpBu0EbmY4RAwbounrS2S1En/uYezRL3B87/8cS9qBFLwFoF9Am4OO87vKy2NASH+0VrynaB4lE4NronVjHV5QtiNeXL3DBVHA656qJHZ37qTofJDx3Ikl7Fd63hZIGVjJ1YSqQ6KTqygqodScyDvhVdiDuCk34A8kjWphJ5ctGtFEzF3p09zN/5Ua0j3yedQqx0tZB/q9dFxHBRIC3x10ZI0NEYFr9k6V2xihEdO7Zad3rp6MzpFRMs0TnSt2jG1L93Ky0DUoQq0siXKVOWZKUrSUAahj7Mjs3nxcifDLHohrpJp07CPpRz/zVbCOkbAHWBVU8a412ZdkDC6HM5aJUVVQ1mUYRwY5sHyRH+nVDIn4JjztV3I+1B3sJoa16G4pS4apxykpKJsgt8PDR4vmQPpeJUeuIdka10Ma7WYNkdKSZDBhiJ7SqJRYzc3MwIsyieFnQtTMzJVq/a4kob2Nsgk+CHF12QotExA2zMIXFhFu37nrh3NAIhEL6HYjZcAyJsx6fXgMLyh6KB+AnyQyryhSvt7MRIdHP6b24RqHsNQ1z2KaRYiTiFc7UE7bll8VIxBGh7FE7CrMoCXtIm5Qbayuchg/YzNpwJiIQwV04jdwTrYWsmkwfTmMzc+9TUjEE/EVyDAsSsarYJGKl2dtkaiI23M7DJMnhgJKqGrA5jI3cL9hwGjlDeWbjEzB3/T6BpXXL4RunvpBe0qdJHyFi7sZNuPGHP4H30D+slbVauLc8Hj+u+tZWXfcqXfZ1WPXOn8Hz9C6LCLWo3r4tQcS2rfpvaLNB3euvARjgsy6qcJqqHdtj+h0LHqsBqqv/PrQOxjr+miwZdcug8psbdLWreMJprl0H14N1saw0lRs3CUQ4Ysf0NSWIBPxw7fU3oHJTI5Q/tj5eX/7oWvCfOpFz1WS6cBr/8UQn1Ty5AzxUWqFA7yl1N4tE4F7XZ8kjutajWzVphbnCaXq/TNiJ7+2Equ9+O0HE6TPqTYMzOddjZGYmZ6oJmM42VzhNT4II18rlsiQpG752qH5qR7LqG7meFyJMF06DawcpW4B10+fPKeegohKWtf4Gyh5ZE6/DbAZTPT15IYId2aYIp0E74Xq+LtV2KHQFyC3wfIeOQGj8LhfrCHOE0/T0KqpTg5mBIbj2+ze4WdCZI5ym94SiuoyTpmAQpi9cgttvvQcXvr8bQr5x/evCLCxecxpOQ7bCuXQzqkmuUij+CNMTYYXTZA/FEU7D+KytcBpOYIXTWDAGhZSdJh0eE8o7QtnMkRaICAXnzpgf6n/FQMRaoeCqrYrT9k0KpakYPHQHOCYBSNsOFINEhE0wKYkWg0SY4TfaMr1RhYYRWxZGQyopvM+MowVVk9L5a77jmuQWTjSkNhglf58RaYTk7oNLAkwVgQ/B4/N1mBpizDsRe/Cx0Bd0hoFOI0QfqxrdJLlWqcMRy9GxpLYG1tUvT5sNxyKCJaK8XPJYt6Gy22O5nUpK7LJE7CSlTeJ6B3UdQccliSE0UUiNRxLrvZCIg6LRxRTc6qZjotgYJwR6/PogETO1l0eJQJXVf+EKnLkylPKObaejBBZWS8+kHZDeaTNIXe+S6EzRa+Yhhe1A8TU3zZCIb5Iysuzn8DoGlTUw5yLEYDbDgXZBTBOhNHVQypJZsA8zcxEYvjkaU0d05hpM3IX2wkjVJBXb1JhmliUGkElBKspDfCWCeO+sYpZ6Fx1KAi0NsxrfU4cG2zfpT6pb4HJmxUaIr7zxSaiKfeQa7a+WUyfsu4hoMjwSRGE04AYjiaAzEKBtoO2DX0dCLJZEu80uq5q0Yh8k/MhSa5GDMh0rhTaiAlsVSksnRWCjIUQEg7CopkrSNkwGgrK6XYmqS1Jb0YjhRGiNWWo2cCD7siERbOdpydeBwJRCbAbMmdn5rE5fpVbcaGhtRGpQemrJebcBhDdD8vvuDLERUrZArj7TVBXXDw11S1NSzE0GAoZLBDsy2RjYPtKJoup4nyJFLRFsWObBbGxl6M3nlG7FjsCcTncnJrO+oGPjmjwSsyitsUkdEjO2esOJyEI+J3rbY+jm7dhMKttE9IN8MJm4T6V107BdgowOMPjNwkblc2IJQGN/Yfga3PMH5LdFsuiPaKYIMkqNiGsLNa9My4tTHveb0FiHwsqSahWDY8gU0RHFsOkXMcNgKQYizJAFra8YiHgJdyk4bh9a8JeKRSLw4epeztRUhLTpCWyjFenHCWyF9oMkEmoh+I/0KwIiTBHpZytEMWfIOCmUjZw3+VQxEGGKSL+CJIIhwxSzESvSj6NZU0FG+mWSCCMynMndBzMRRPx+CE/PQPjOXZg60QdjBz6C2cEB2R9iBZgxoDOcuR/frG10O0qgpKYaSpcugbL16+CBX7wIa7uOgrtpq0WEYiKaKCK2Nhl2X3t5OazqeBvslW5ZIqxIPwqVWzdLHiveT8EsZ6segbNN28F36GjSNeeihbDoR8/KGmsr0o8CZq9B2yAea1oyzwRhdngIhl9tBfe2rUlJtaq+s02wFwcMVU2FFel37XqSnXA3bZa8poqQgB8mjn2aTHRDfVZsRMFE+tGp5txbmmJFhOpUczTBI8mPftsXuAwnYh8p7SCdwucgUTn1TMdKoU3GRslJSychz7B1DZ3FrHLLpiT7MHm8R4eqe5BRW7OyNkIrCivSj041x9gG+pqqmVJFJdTseipZQgYGszp9NX2kn5hqTsp2iAs8xQSUVUDZ2nXQ8Jf3UrJfTv77C8Mlgh2Zpo/0k0w113NS1T3S5ROfvzsOdz/uzPqCzvyRfllINRff9pifh6uvvAqRoD/rRJg/0k8q1ZxG+5AgIARTnx+Hi7ufg3v/+kx+WySLU/O8Rvrlexvc5nTGbEV4ckLZ/xfifhHjGLIi/TiBKSL9iiF4wBQ+ayvSL/+wIv04UJnxSL//CzAA672gdU8St+UAAAAASUVORK5CYII=) 0 -61px no-repeat !important;
+	width: 87px !important;
+	height: 22px !important;
+	font-size: 0px !important;
+	text-indent: -9999999px !important;
+	vertical-align: 8px !important;
+	margin: 0 0 0 5px !important;
+}
+.trendmd-widget-brand__logo {
+	display: inline-block !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAACHCAYAAADtLIw/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDkwN0M4NjgwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDkwN0M4NjkwNjBCMTFFNEJGNUNDQTZBQzhFNTAwQUUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEOTA3Qzg2NjA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEOTA3Qzg2NzA2MEIxMUU0QkY1Q0NBNkFDOEU1MDBBRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjsRSUcAAA3FSURBVHja7F1pbBvH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) 0 -61px no-repeat !important;
+	width: 87px !important;
+	height: 22px !important;
+	font-size: 0px !important;
+	text-indent: -9999999px !important;
+	vertical-align: 8px !important;
+	margin: 0 0 0 5px !important;
+}
+:first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+	border: none !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-section {
+	float: left !important;
+	width: 45% !important;
+	margin: 0 0 0 2% !important;
+	border: none !important;
+	padding: 7px 0 0 2% !important;
+}
+:first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+	border: none !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-section {
+	float: left !important;
+	width: 45% !important;
+	margin: 0 0 0 2% !important;
+	border: none !important;
+	padding: 7px 0 0 2% !important;
+}
+:first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+	border: none !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-section {
+	float: left !important;
+	width: 45% !important;
+	margin: 0 0 0 2% !important;
+	border: none !important;
+	padding: 7px 0 0 2% !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section {
+	margin: 0 !important;
+	padding-left: 0px !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section::before {
+	display: none !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section::before {
+	display: none !important;
+}
+.trendmd-widget_horizontal :first-child.trendmd-widget-section::before {
+	display: none !important;
+}
+#trendmd-suggestions .trendmd-widget-section {
+	width: 100% !important;
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+}
+#trendmd-suggestions :first-child.trendmd-widget-section {
+	display: none;
+}
+.trendmd-widget_horizontal .trendmd-widget-header {
+	margin-top: -42px !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-header {
+	margin-top: -42px !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-header {
+	margin-top: -42px !important;
+}
+:nth-child(2).trendmd-widget-section .trendmd-widget-header {
+	display: none;
+}
+:nth-child(2).trendmd-widget-section .trendmd-widget-header {
+	display: none;
+}
+:nth-child(2).trendmd-widget-section .trendmd-widget-header {
+	display: none;
+}
+.trendmd-widget-list {
+	margin: 0 !important;
+}
+.trendmd-widget-list {
+	list-style: none !important;
+	padding: 4px 0 0 4px !important;
+}
+.trendmd-widget-header__heading {
+	line-height: 18px !important;
+	font-weight: 700 !important;
+	font-size: 1em !important;
+	text-align: left !important;
+}
+.trendmd-widget-list {
+	margin: 0 !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-header + .trendmd-widget-list {
+	padding-top: 0px !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-header + .trendmd-widget-list {
+	padding-top: 0px !important;
+}
+.trendmd-widget_horizontal .trendmd-widget-header + .trendmd-widget-list {
+	padding-top: 0px !important;
+}
+#trendmd-suggestions .trendmd-widget-list-item {
+	width: 45% !important;
+	display: table-cell;
+	float: left;
+	clear: left;
+}
+#trendmd-suggestions :nth-child(2n).trendmd-widget-list-item {
+	float: right;
+	clear: none;
+}
+.trendmd-widget-list-item__link__external {
+	display: inline-block !important;
+	width: 11px !important;
+	height: 11px !important;
+	vertical-align: baseline !important;
+	margin: 0 0 0 5px !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsSAAALEgHS3X78AAADIHRFWHRYTUw6Y29tLmFkb2JlLnhtcAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTY4OENEODMxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTY4OENEODQxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNjg4Q0Q4MTE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNjg4Q0Q4MjE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtZRpeoAAAB5SURBVBiVhdDhCcJADIbhJ0V0BkeyMzmUe3QNa51BhPjnKud51RcCIXnJfZzMlJka9jjjghmJJ5xwK4NE1tRzq9ijEecBx04MEfHuy34avqy+CFOUCP9EEXHoXu6I8Nj9klo2L2/JS52zpezu64sjFp9/WtcVY2Z6AfXiX73AiZO5AAAAAElFTkSuQmCC) no-repeat 0 0 !important;
+	opacity: 0.25 !important;
+}
+.trendmd-widget-list-item__link__external {
+	display: inline-block !important;
+	width: 11px !important;
+	height: 11px !important;
+	vertical-align: baseline !important;
+	margin: 0 0 0 5px !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsSAAALEgHS3X78AAADIHRFWHRYTUw6Y29tLmFkb2JlLnhtcAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTY4OENEODMxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTY4OENEODQxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNjg4Q0Q4MTE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNjg4Q0Q4MjE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtZRpeoAAAB5SURBVBiVhdDhCcJADIbhJ0V0BkeyMzmUe3QNa51BhPjnKud51RcCIXnJfZzMlJka9jjjghmJJ5xwK4NE1tRzq9ijEecBx04MEfHuy34avqy+CFOUCP9EEXHoXu6I8Nj9klo2L2/JS52zpezu64sjFp9/WtcVY2Z6AfXiX73AiZO5AAAAAElFTkSuQmCC) no-repeat 0 0 !important;
+	opacity: 0.25 !important;
+}
+.trendmd-widget-list-item__link__external {
+	display: inline-block !important;
+	width: 11px !important;
+	height: 11px !important;
+	vertical-align: baseline !important;
+	margin: 0 0 0 5px !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsSAAALEgHS3X78AAADIHRFWHRYTUw6Y29tLmFkb2JlLnhtcAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTY4OENEODMxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTY4OENEODQxOEVDMTFFNUE2MEZBRUUzQURDMDUxMDciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNjg4Q0Q4MTE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNjg4Q0Q4MjE4RUMxMUU1QTYwRkFFRTNBREMwNTEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtZRpeoAAAB5SURBVBiVhdDhCcJADIbhJ0V0BkeyMzmUe3QNa51BhPjnKud51RcCIXnJfZzMlJka9jjjghmJJ5xwK4NE1tRzq9ijEecBx04MEfHuy34avqy+CFOUCP9EEXHoXu6I8Nj9klo2L2/JS52zpezu64sjFp9/WtcVY2Z6AfXiX73AiZO5AAAAAElFTkSuQmCC) no-repeat 0 0 !important;
+	opacity: 0.25 !important;
+}
+.trendmd-widget-header h3 {
+	padding: 0 !important;
+}
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+.drug-table .mixtures .breadcrumb {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.breadcrumb > li {
+	display: inline-block;
+}
+.breadcrumb > li + li::before {
+	content: "/ ";
+	padding: 0 5px;
+	color: #ccc;
+}
+.btn-group, .btn-group-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+.modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+/* @media all and (min-width:768px) */
+.modal-dialog {
+	width: 600px;
+	margin: 30px auto;
+}
+.fade.modal .modal-dialog {
+	-webkit-transform: translate(0, -25%);
+	transform: translate(0px, -25%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	transition: -webkit-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+.modal-content {
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	box-shadow: 0px 3px 9px rgba(0,0,0,0.5);
+	background-clip: padding-box;
+	outline: 0;
+}
+/* @media all and (min-width:768px) */
+.modal-content {
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+.modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.modal-header::before, .modal-header::after {
+	content: " ";
+	display: table;
+}
+.modal-header::after {
+	clear: both;
+}
+.modal-body {
+	position: relative;
+	padding: 15px;
+}
+.modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+.modal-footer::before, .modal-footer::after {
+	content: " ";
+	display: table;
+}
+.modal-footer::after {
+	clear: both;
+}
+.close {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0px 1px 0px #fff;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+.modal-header .close {
+	margin-top: -2px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h4, .h4 {
+	font-size: 18px;
+}
+.modal-title {
+	margin: 0;
+	line-height: 1.4285;
+}
+.drugs-c #drug-actions .btn-targets {
+	background: #DB9EA6;
+}
+.drugs-c #drug-actions .btn-enzymes {
+	background: #B2D0B4;
+}
+.drugs-c #drug-actions .btn-transporters {
+	background: #FFFFAA;
+}
+.btn-sm, .btn-group-sm > .btn, #jumper .btn-group-sm > .btn-jump, .drugs-c #drug-actions .btn-group-sm > .btn-jump, .drug-table .products .btn-group-sm > .full-image {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn-group > .btn, #jumper .btn-group > .btn-jump, .drugs-c #drug-actions .btn-group > .btn-jump, .drug-table .products .btn-group > .full-image, .btn-group-vertical > .btn, #jumper .btn-group-vertical > .btn-jump, .drugs-c #drug-actions .btn-group-vertical > .btn-jump, .drug-table .products .btn-group-vertical > .full-image {
+	position: relative;
+	float: left;
+}
+.btn-group > :first-child.btn, #jumper .btn-group > :first-child.btn-jump, .drugs-c #drug-actions .btn-group > :first-child.btn-jump, .drug-table .products .btn-group > :first-child.full-image {
+	margin-left: 0px;
+}
+.btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn, #jumper .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn-jump, .drugs-c #drug-actions .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn-jump, .drug-table .products .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).full-image {
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.btn-group > :last-child:not(:first-child).btn, #jumper .btn-group > :last-child:not(:first-child).btn-jump, .drugs-c #drug-actions .btn-group > :last-child:not(:first-child).btn-jump, .drug-table .products .btn-group > :last-child:not(:first-child).full-image, .btn-group > :not(:first-child).dropdown-toggle {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.btn-group .btn + .btn, .btn-group #jumper .btn-jump + .btn, #jumper .btn-group .btn-jump + .btn, .btn-group .drugs-c #drug-actions .btn-jump + .btn, .drugs-c #drug-actions .btn-group .btn-jump + .btn, .btn-group .drug-table .products .full-image + .btn, .drug-table .products .btn-group .full-image + .btn, .btn-group #jumper .btn + .btn-jump, #jumper .btn-group .btn + .btn-jump, .btn-group #jumper .btn-jump + .btn-jump, #jumper .btn-group .btn-jump + .btn-jump, .btn-group .drug-table .products #jumper .full-image + .btn-jump, #jumper .btn-group .drug-table .products .full-image + .btn-jump, .drug-table .products .btn-group #jumper .full-image + .btn-jump, #jumper .drug-table .products .btn-group .full-image + .btn-jump, .btn-group .drugs-c #drug-actions .btn + .btn-jump, .drugs-c #drug-actions .btn-group .btn + .btn-jump, .btn-group .drugs-c #drug-actions .btn-jump + .btn-jump, .drugs-c #drug-actions .btn-group .btn-jump + .btn-jump, .btn-group .drug-table .products .drugs-c #drug-actions .full-image + .btn-jump, .drugs-c #drug-actions .btn-group .drug-table .products .full-image + .btn-jump, .drug-table .products .btn-group .drugs-c #drug-actions .full-image + .btn-jump, .drugs-c #drug-actions .drug-table .products .btn-group .full-image + .btn-jump, .btn-group .drug-table .products .btn + .full-image, .drug-table .products .btn-group .btn + .full-image, .btn-group #jumper .drug-table .products .btn-jump + .full-image, .drug-table .products .btn-group #jumper .btn-jump + .full-image, #jumper .btn-group .drug-table .products .btn-jump + .full-image, .drug-table .products #jumper .btn-group .btn-jump + .full-image, .btn-group .drugs-c #drug-actions .drug-table .products .btn-jump + .full-image, .drug-table .products .btn-group .drugs-c #drug-actions .btn-jump + .full-image, .drugs-c #drug-actions .btn-group .drug-table .products .btn-jump + .full-image, .drug-table .products .drugs-c #drug-actions .btn-group .btn-jump + .full-image, .btn-group .drug-table .products .full-image + .full-image, .drug-table .products .btn-group .full-image + .full-image, .btn-group .btn + .btn-group, .btn-group #jumper .btn-jump + .btn-group, #jumper .btn-group .btn-jump + .btn-group, .btn-group .drugs-c #drug-actions .btn-jump + .btn-group, .drugs-c #drug-actions .btn-group .btn-jump + .btn-group, .btn-group .drug-table .products .full-image + .btn-group, .drug-table .products .btn-group .full-image + .btn-group, .btn-group .btn-group + .btn, .btn-group #jumper .btn-group + .btn-jump, #jumper .btn-group .btn-group + .btn-jump, .btn-group .drugs-c #drug-actions .btn-group + .btn-jump, .drugs-c #drug-actions .btn-group .btn-group + .btn-jump, .btn-group .drug-table .products .btn-group + .full-image, .drug-table .products .btn-group .btn-group + .full-image, .btn-group .btn-group + .btn-group {
+	margin-left: -1px;
+}
+.btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn, #jumper .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn-jump, .drugs-c #drug-actions .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn-jump, .drug-table .products .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).full-image {
+	border-radius: 0;
+}
+.glyphicon-zoom-in::before {
+	content: "\e015";
+}
+#app-signup-form .wrapper {
+	padding: 6px 0;
+}
+#app-signup-form .btn-wrapper {
+	padding: 0;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+}
+#app-signup-form .btn-default.btn, #app-signup-form #jumper .btn-jump, #jumper #app-signup-form .btn-jump, #app-signup-form .drugs-c #drug-actions .btn-jump, .drugs-c #drug-actions #app-signup-form .btn-jump, #app-signup-form .drug-table .products .full-image.btn-default, .drug-table .products #app-signup-form .full-image.btn-default {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #fff;
+	background-color: #74B4EA;
+	border: none;
+	border-bottom: 1px solid #577D9E;
+	border-top: 1px solid #BDE1FF;
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h2, .h2 {
+	font-size: 30px;
+}
+h2 {
+	color: #4c545a;
+	font-size: 18px;
+	text-align: left;
+	text-shadow: 0px 0px 0.05px white;
+	letter-spacing: 1px;
+}
+#app-signup-form h2, #app-signup-form p {
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+}
+.drugs-c #drug-actions .section-jumps {
+	text-align: center;
+	clear: both;
+	margin-bottom: 1em;
+}
+.drugs-c #drug-actions .btn-affixed-target-jump {
+	display: none;
+}
+.moldbi-similarity-search {
+	float: right;
+	margin-top: -1px;
+}
+</style>
+</head>
+<body class="drugs-c  show-a" data-c="drugs" data-a="show">
+	<main role="main">
+		<div class="affix-top" id="drug-actions">
+			<div class="section-jumps">
+				<div class="btn-group btn-group-sm">
+					<a class="btn-jump" href="#identification">Identification</a>
+					<a class="btn-jump" href="#taxonomy">Taxonomy</a>
+					<a class="btn-jump" href="#pharmacology">Pharmacology</a>
+					<a class="btn-jump" href="#admet">ADMET</a>
+					<a class="btn-jump" href="#pharmacoeconomics">Pharmacoeconomics</a>
+					<a class="btn-jump" href="#properties">Properties</a>
+					<a class="btn-jump" href="#spectra">Spectra</a>
+					<a class="btn-jump" href="#references">References</a>
+					<a class="btn-jump" href="#interactions">Interactions</a>
+					<a class="btn-jump btn-targets btn-affixed-target-jump" href="#targets">Targets (1)</a>
+					<a class="btn-jump btn-enzymes btn-affixed-target-jump" href="#enzymes">Enzymes (1)</a>
+					<a class="btn-jump btn-transporters btn-affixed-target-jump" href="#transporters">Transporters (3)</a>
+					
+				</div>
+			</div>
+			
+				<div class="target-jumps">
+					<div class="btn-group">
+						<a class="btn btn-xs btn-default btn-targets" href="#targets">Targets (1)</a>
+						<a class="btn btn-xs btn-default btn-enzymes" href="#enzymes">Enzymes (1)</a>
+						<a class="btn btn-xs btn-default btn-transporters" href="#transporters">Transporters (3)</a>
+						<a class="btn btn-xs btn-primary btn-biointeractions" href="http://www.drugbank.ca/drugs/DB11575/biointeractions" target="_blank">Biointeractions (5)</a>
+					</div>
+				</div>
+			</div>
+			<div id="app-signup-form">
+				<div class="wrapper col-sm-7">
+					<a href="http://eepurl.com/bZh6g9" target="_blank">
+						<h2>Get DrugBank to go!</h2>
+						<p>The DrugBank app for iOS and Android is coming soon.</p>
+					</a>
+				</div>
+				<div class="btn-wrapper col-sm-5">
+					<a class="btn btn-default btn-block" href="http://eepurl.com/bZh6g9">Sign up to get early access</a>
+				</div>
+			</div>
+			<table class="drug-table data-table table table-condensed table-bordered">
+				<tbody>
+					<tr id="identification">
+						<th class="divider" colspan="2">Identification</th>
+					</tr>
+					<tr>
+						<th>Name</th>
+						<td>
+							<strong>Grazoprevir</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>Accession Number</th>
+						<td>
+							<strong>DB11575</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>Type</th>
+						<td>Small Molecule</td>
+					</tr>
+					<tr>
+						<th>Groups</th>
+						<td>Approved</td>
+					</tr>
+					<tr>
+						<th>Description</th>
+						<td>
+							<p>Grazoprevir is a second generation NS3/4a protease inhibitor approved for the treatment of hepatitis C virus (
+								<span class="caps">HCV</span>) in combination with elbasvir as the fixed-dose combination product Zepatier (
+								<span class="caps">FDA</span>). Use of this medication is indicated, with our without ribavirin, for the treatment of adults with 
+								<span class="caps">HCV</span> genotypes 1a, 1b, or 4.
+							</p>
+							<p>NS3/4a protease is an integral part of viral replication as it is responsible for cleaving  the long polypeptide produced following translation of the viral genome.  By inhibiting protease activity, grazoprevir prevents the formation of structural and nonstructural proteins required for replication and assembly (E1, E2, NS2, NS3, NS4A, NS4B, NS5A and NS5B).</p>
+						</td>
+					</tr>
+					<tr>
+						<th>Structure</th>
+						<td>
+							<div class="structure">
+								<a class="moldbi-vector-thumbnail" href="http://moldb.wishartlab.com/molecules/DB11575/image.svg">
+									<img alt="Thumb" src="http://moldb.wishartlab.com/molecules/DB11575/thumb.svg">
+									</a>
+								</div>
+								<div class="structure-links">
+									<div class="btn-group btn-group-sm">
+										<a class="btn btn-default" href="#" rel="nofollow" data-toggle="modal" data-target="#structure-zoom">
+											<span class="glyphicon glyphicon-zoom-in"></span>
+										</a>
+										<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11575.mol" rel="nofollow" target="_blank">MOL</a>
+										<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11575.sdf" rel="nofollow" target="_blank">SDF</a>
+										<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11575.pdb" rel="nofollow" target="_blank">PDB</a>
+										<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11575.smiles" rel="nofollow" target="_blank">SMILES</a>
+										<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11575.inchi" rel="nofollow" target="_blank">InChI</a>
+									</div>
+									<div class="modal fade" id="structure-zoom">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" aria-hidden="true" type="button" data-dismiss="modal"> ×</button>
+													<h4 class="modal-title">Structure for DB11575 (Grazoprevir)</h4>
+												</div>
+												<div class="modal-body">
+													<p>
+														<img alt="Image" src="http://moldb.wishartlab.com/molecules/DB11575/image.png">
+														</p>
+													</div>
+													<div class="modal-footer">
+														<button class="btn btn-default" type="button" data-dismiss="modal"> Close</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th>Synonyms</th>
+								<td class="table-container">
+									<table class="table-inner" id="synonyms">
+										<tbody>
+											<tr>
+												<td>(1aR,5S,8S,10R,22aR)-5-tert-butyl-N-{(1R,2S)-1-[(cyclopropanesulfonyl)carbamoyl]-2-ethenylcyclopropyl}-14-methoxy-3,6-dioxo-1,1a,3,4,5,6,9,10,18,19,20,21,22,22a-tetradecahydro-8H-7,10-methanocyclopropa[18,19][1,10,3,6]dioxadiazacyclononadecino[11,12-b]quinoxaline-8-carboxamide</td>
+											</tr>
+											<tr>
+												<td>Grazoprevir</td>
+											</tr>
+											<tr>
+												<td>Grazoprevir anhydrous</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<th>External Identifiers 
+									<span title="" class="wishart wishart-tip" data-original-title="Codes and identifiers used by other resources and companies, often used before choosing a marketing name.">
+										<span class="glyphicon glyphicon-info-sign"></span>
+									</span>
+								</th>
+								<td>
+									<ul>
+										<li>MK 5172</li>
+										<li>MK-5172</li>
+										<li>MK5172</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<th>Approved Prescription Products</th>
+								<td>
+									<span class="wishart wishart-not-available">Not Available</span>
+								</td>
+							</tr>
+							<tr>
+								<th>Approved Generic Prescription Products</th>
+								<td>
+									<span class="wishart wishart-not-available">Not Available</span>
+								</td>
+							</tr>
+							<tr>
+								<th>Approved Over the Counter Products</th>
+								<td>
+									<span class="wishart wishart-not-available">Not Available</span>
+								</td>
+							</tr>
+							<tr>
+								<th>Unapproved/Other Products 
+									<span title="" class="wishart wishart-tip" data-original-title="Products that have not been approved by a regulatory body (such as the FDA), but are still available on the market due to historical reasons.">
+										<span class="glyphicon glyphicon-info-sign"></span>
+									</span>
+								</th>
+								<td>
+									<span class="wishart wishart-not-available">Not Available</span>
+								</td>
+							</tr>
+							<tr>
+								<th>International Brands</th>
+								<td>
+									<span class="wishart wishart-not-available">Not Available</span>
+								</td>
+							</tr>
+							<tr>
+								<th>Brand mixtures</th>
+								<td class="data-table-container">
+									<div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="DataTables_Table_0_wrapper">
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="dataTables_length" id="DataTables_Table_0_length">
+													<label>Show 
+														<select name="DataTables_Table_0_length" class="form-control input-sm" aria-controls="DataTables_Table_0">
+															<option value="10">10</option>
+															<option value="25">25</option>
+															<option value="50">50</option>
+															<option value="100">100</option>
+														</select> entries
+													</label>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="dataTables_filter" id="DataTables_Table_0_filter">
+													<label>
+														<input class="form-control input-sm" aria-controls="DataTables_Table_0" type="search" placeholder="Search" value="">
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-12">
+													<table class="mixtures table table-condensed table-striped datatable dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+														<thead>
+															<tr role="row">
+																<th tabindex="0" class="sorting_asc" aria-controls="DataTables_Table_0" aria-label="Name: activate to sort column descending" aria-sort="ascending" rowspan="1" colspan="1">Name</th>
+																<th tabindex="0" class="sorting" aria-controls="DataTables_Table_0" style="width: 492px;" aria-label="Labeller: activate to sort column ascending" rowspan="1" colspan="1">Labeller</th>
+																<th tabindex="0" class="sorting" aria-controls="DataTables_Table_0" style="width: 403px;" aria-label="Ingredients: activate to sort column ascending" rowspan="1" colspan="1">Ingredients</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr class="odd" role="row">
+																<td class="sorting_1">
+																	<strong>Zepatier</strong>
+																</td>
+																<td>Merck Sharp &amp; Dohme Corp.</td>
+																<td>
+																	<ol class="breadcrumb">
+																		<li>
+																			<a href="/PharmacologicalAPI/Zepatier/Elbasvir.html">Elbasvir</a>
+																		</li>
+																		<li>
+																			<strong>Grazoprevir</strong>
+																		</li>
+																	</ol>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-5">
+													<div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div>
+												</div>
+												<div class="col-sm-7">
+													<div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+														<ul class="pagination">
+															<li class="paginate_button previous disabled" id="DataTables_Table_0_previous">
+																<a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="0">Previous</a>
+															</li>
+															<li class="paginate_button active">
+																<a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="1">1</a>
+															</li>
+															<li class="paginate_button next disabled" id="DataTables_Table_0_next">
+																<a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="2">Next</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>Salts</th>
+									<td class="table-container">
+										<table class="table table-condensed table-striped">
+											<thead>
+												<tr>
+													<th>Name/CAS</th>
+													<th>Structure</th>
+													<th>Properties</th>
+													<th></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<strong>
+															<a href="http://www.drugbank.ca/salts/DBSALT001751" target="_blank">Grazoprevir monohydrate</a>
+														</strong>
+														<div class="cas">1350462-55-3</div>
+													</td>
+													<td>
+														<a class="moldbi-thumbnail" href="http://moldb.wishartlab.com/molecules/DBSALT001751/image.png" target="_blank">
+															<img alt="Thumb" src="http://moldb.wishartlab.com/molecules/DBSALT001751/thumb.png">
+															</a>
+														</td>
+														<td>
+															<span class="wishart wishart-not-available">Not applicable</span>
+														</td>
+														<td>
+															<a class="btn btn-default btn-xs" href="http://www.drugbank.ca/salts/DBSALT001751" target="_blank">DBSALT001751</a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<th>Categories</th>
+										<td>
+											<ul>
+												<li>
+													<a href="http://www.drugbank.ca/categories/DBCAT002658" target="_blank">OATP1B1/SLCO1B1 Substrates</a>
+												</li>
+												<li>
+													<a href="http://www.drugbank.ca/categories/DBCAT002668" target="_blank">P-glycoprotein/ABCB1 Substrates</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>UNII</th>
+										<td>
+											<a class="wishart-link-out" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=8YE81R1X1J" target="_blank">8YE81R1X1J 
+												<span class="glyphicon glyphicon-new-window"></span>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<th>CAS number</th>
+										<td>1350514-68-9</td>
+									</tr>
+									<tr>
+										<th>Weight</th>
+										<td>Average: 766.903 
+											<br>Monoisotopic: 766.335997918 
+											</td>
+										</tr>
+										<tr>
+											<th>Chemical Formula</th>
+											<td>C
+												<sub>38</sub>H
+												<sub>50</sub>N
+												<sub>6</sub>O
+												<sub>9</sub>S
+											</td>
+										</tr>
+										<tr>
+											<th>InChI Key</th>
+											<td>OBMNJSNZOWALQB-NCQNOWPTSA-N</td>
+										</tr>
+										<tr>
+											<th>InChI</th>
+											<td>
+												<div class="wrap">InChI=1S/C38H50N6O9S/c1-6-22-19-38(22,35(47)43-54(49,50)25-13-14-25)42-32(45)29-18-24-20-44(29)34(46)31(37(2,3)4)41-36(48)53-30-16-21(30)10-8-7-9-11-27-33(52-24)40-28-17-23(51-5)12-15-26(28)39-27/h6,12,15,17,21-22,24-25,29-31H,1,7-11,13-14,16,18-20H2,2-5H3,(H,41,48)(H,42,45)(H,43,47)/t21-,22-,24-,29+,30-,31-,38-/m1/s1</div>
+											</td>
+										</tr>
+										<tr>
+											<th>IUPAC Name</th>
+											<td>
+												<div class="wrap">(1R,18R,20R,24S,27S)-24-tert-butyl-N-[(1R,2S)-1-[(cyclopropanesulfonyl)-C-hydroxycarbonimidoyl]-2-ethenylcyclopropyl]-22-hydroxy-7-methoxy-25-oxo-2,21-dioxa-4,11,23,26-tetraazapentacyclo[24.2.1.0³,¹².0⁵,¹⁰.0¹⁸,²⁰]nonacosa-3(12),4,6,8,10,22-hexaene-27-carboximidic acid</div>
+											</td>
+										</tr>
+										<tr>
+											<th>SMILES</th>
+											<td>
+												<div class="wrap">[H][C@@]12C[C@@]1([H])OC(O)=N[C@]([H])(C(=O)N1C[C@@]([H])(C[C@@]1([H])C(O)=N[C@@]1(C[C@@]1([H])C=C)C(O)=NS(=O)(=O)C1CC1)OC1=C(CCCCC2)N=C2C=CC(OC)=CC2=N1)C(C)(C)C</div>
+											</td>
+										</tr>
+										<tr id="taxonomy">
+											<th class="divider" colspan="2">Taxonomy</th>
+										</tr>
+										<tr>
+											<th>Classification</th>
+											<td>
+												<span class="wishart wishart-not-available">Not classified</span>
+											</td>
+										</tr>
+										<tr id="pharmacology">
+											<th class="divider" colspan="2">Pharmacology</th>
+										</tr>
+										<tr>
+											<th>Indication</th>
+											<td>Grazoprevir is indicated in combination with elbasvir (as the fixed dose combination product Zepatier) with or without ribavirin for treatment of chronic HCV genotypes 1a, 1b, or 4 infection in adults. </td>
+										</tr>
+										<tr>
+											<th>Pharmacodynamics</th>
+											<td>At a concentration 40 times the therapeutic concentration, grazoprevir does not prolong QTc to any clinically relevant extent.</td>
+										</tr>
+										<tr>
+											<th>Mechanism of action</th>
+											<td>Grazaprevir is a second generation NS3/4a protease inhibitor use to inhibit viral HCV replication. NS3/4a protease is an integral part of viral replication as it is responsible for cleaving  the long polypeptide produced following translation of the viral genome.  By inhibiting protease activity, grazoprevir prevents the formation of structural and nonstructural proteins required for replication and assembly (E1, E2, NS2, NS3, NS4A, NS4B, NS5A and NS5B). </td>
+										</tr>
+										<tr>
+											<th>Related Articles</th>
+											<td>
+<div id="trendmd-suggestions">
+<div class="trendmd-widget-container trendmd-widget_title-normal trendmd-widget_body-smaller">
+  <div class="trendmd-widget trendmd-widget_horizontal">
+    <div class="trendmd-widget-inner">
+        <div class="trendmd-widget-section">
+          <div class="trendmd-widget-header"><h3 class="trendmd-widget-header__heading">&nbsp;</h3></div>
+          <ol class="trendmd-widget-list">
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.drugbank.ca/drugs/DB06290?trendmd-shared=0" target="_blank" data-trendmd-sponsored="false" data-trendmd-journal-id="54853" data-trendmd-id="1115e06d-89f1-476d-ac87-a430b356c09c">Simeprevir</a>
+                <div class="trendmd-widget-list-item__meta">
+                  DrugBank
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.drugbank.ca/drugs/DB09297?trendmd-shared=0" target="_blank" data-trendmd-sponsored="false" data-trendmd-journal-id="54853" data-trendmd-id="a976b7e8-0cf5-473b-9c7a-b9d6ac99f478">Paritaprevir</a>
+                <div class="trendmd-widget-list-item__meta">
+                  DrugBank
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.drugbank.ca/drugs/DB08873?trendmd-shared=0" target="_blank" data-trendmd-sponsored="false" data-trendmd-journal-id="54853" data-trendmd-id="27b6eae6-66ba-4bff-8768-98e1dea6eea2">Boceprevir</a>
+                <div class="trendmd-widget-list-item__meta">
+                  DrugBank
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.drugbank.ca/drugs/DB11574?trendmd-shared=0" target="_blank" data-trendmd-sponsored="false" data-trendmd-journal-id="54853" data-trendmd-id="91dfe299-cc0f-4f2f-bf6b-2627c864d1fe">Elbasvir</a>
+                <div class="trendmd-widget-list-item__meta">
+                  DrugBank
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.drugbank.ca/drugs/DB09027?trendmd-shared=0" target="_blank" data-trendmd-sponsored="false" data-trendmd-journal-id="54853" data-trendmd-id="a6270400-73e1-4cc8-b4ac-42840074cc21">Ledipasvir</a>
+                <div class="trendmd-widget-list-item__meta">
+                  DrugBank
+                </div>
+              </li>
+          </ol>
+        </div>
+        <div class="trendmd-widget-section">
+          <div class="trendmd-widget-header"><h3 class="trendmd-widget-header__heading">&nbsp;</h3></div>
+          <ol class="trendmd-widget-list">
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.medscape.com/viewarticle/849473?src=trendmd_pilot&amp;trendmd-shared=1" target="_blank" data-trendmd-sponsored="true" data-trendmd-journal-id="54157" data-trendmd-id="d032d257-1270-49ea-b85d-dbb083b98a76">HCV Treatment: What Can I Do Now? What's Coming Next?<span class="trendmd-widget-list-item__link__external"></span></a>
+                <div class="trendmd-widget-list-item__meta">
+                    <span class="js_authors">Rowen K. Zetterman, MD,</span>
+                  Medscape<span class="js_publication_date">, 2015</span>
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.medscape.com/viewarticle/814701?src=trendmd_pilot&amp;trendmd-shared=1" target="_blank" data-trendmd-sponsored="true" data-trendmd-journal-id="54157" data-trendmd-id="e3507c62-4ed9-4206-a952-fde68dcba938">The Next Wave of Agents for Treatment of Hepatitis C<span class="trendmd-widget-list-item__link__external"></span></a>
+                <div class="trendmd-widget-list-item__meta">
+                    <span class="js_authors">William F. Balistreri, MD,</span>
+                  Medscape<span class="js_publication_date">, 2013</span>
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.medscape.com/viewarticle/805259?src=trendmd_pilot&amp;trendmd-shared=1" target="_blank" data-trendmd-sponsored="true" data-trendmd-journal-id="54157" data-trendmd-id="fe4acf6e-cce5-478f-9dee-fdf9de760a2b">Hepatitis C: The Pace of Progress<span class="trendmd-widget-list-item__link__external"></span></a>
+                <div class="trendmd-widget-list-item__meta">
+                    <span class="js_authors">William F. Balistreri, MD,</span>
+                  Medscape<span class="js_publication_date">, 2013</span>
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.medscape.com/viewarticle/857848?src=trendmd_pilot&amp;trendmd-shared=1" target="_blank" data-trendmd-sponsored="true" data-trendmd-journal-id="54157" data-trendmd-id="d6703c09-a707-4fe0-8ffe-6f676afb7b68">Reader Poll: Will You Prescribe Elbasvir/Grazoprevir for HCV?<span class="trendmd-widget-list-item__link__external"></span></a>
+                <div class="trendmd-widget-list-item__meta">
+                  Medscape<span class="js_publication_date">, 2016</span>
+                </div>
+              </li>
+
+              <li class="trendmd-widget-list-item">
+                <a class="trendmd-widget-list-item__link" href="http://www.univadis.com/viewarticle/hcv-baseline-ns5a-ras-have-minimal-effect-on-ldv-sof-efficacy-417544?profile=eyJwcm9tb3Rpb25Db2RlIjoiVFJFTkRNRF9QUk9NTyJ9&amp;trendmd-shared=1&amp;utm_campaign=acquisition&amp;utm_medium=display&amp;utm_source=trendmd&amp;utm_term=promoted%2Barticle" target="_blank" data-trendmd-sponsored="true" data-trendmd-journal-id="55778" data-trendmd-id="78a476ba-95e0-4649-a0ed-5cbbd89f9ba0">HCV: baseline NS5A RAS have minimal effect on LDV/SOF efficacy<span class="trendmd-widget-list-item__link__external"></span></a>
+                <div class="trendmd-widget-list-item__meta">
+                    <span class="js_authors">Sarrazin C, Dvory-Sobol H, Svarovskaia ES, Doehle B, Pang PS, Chuang SM, Ma J, Ding X, Afdhal NH, Kowdley KV, Gane EJ, Lawitz E, Brainard DM, McHutchison JG, Miller MD, Mo H.,</span>
+                  Univadis
+                </div>
+              </li>
+          </ol>
+        </div>
+    </div>
+    <div class="trendmd-widget-footer">
+      <div class="trendmd-widget-footer-inner">
+        <div class="trendmd-widget-footer-inner-left">
+        </div>
+        <div class="trendmd-widget-footer-inner-right">
+          <a title="TrendMD" class="trendmd-widget-brand" href="http://www.trendmd.com" target="_blank">
+            Powered by <span class="trendmd-widget-brand__logo trendmd-widget-brand__logo__faded">TrendMD</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe width="0" height="0" src="//www.trendmd.com/widget.html" style="display: none;"></iframe>
+</div>
+</div></td></tr>
+<tr>
+   <th>Absorption</th>
+   <td>Grazoprevir was found to have an AUC of 1420 ng•hr/mL, a maximum concentration (Cmax) of 165 ng/mL, and reached peak concentrations at a median Tmax of 2 hours.</td>
+</tr>
+<tr>
+   <th>Volume of distribution</th>
+   <td>
+      <p>1250 L</p>
+   </td>
+</tr>
+<tr>
+   <th>Protein binding</th>
+   <td>Grazoprevir is extensively bound (98.8%) to human plasma proteins; it binds to both human serum albumin and α1-acid glycoprotein.</td>
+</tr>
+<tr>
+   <th>Metabolism</th>
+   <td class="table-container">
+      <p>Grazoprevir is partially eliminated by oxidative metabolism, primarily by CYP3A. No circulating metabolites of either were detected in human plasma.</p>
+   </td>
+</tr>
+<tr>
+   <th>Route of elimination</th>
+   <td>The primary route of elimination for grazoprevir is through feces with almost all (greater than 90%) of radiolabelled dose recovered in feces compared to less than 1% in urine.</td>
+</tr>
+<tr>
+   <th>Half life</th>
+   <td>The geometric mean apparent terminal half-life for grazoprevir (100 mg) is approximately  31 hours in HCV-infected subjects.</td>
+</tr>
+<tr>
+   <th>Clearance</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Toxicity</th>
+   <td>The most commonly reported adverse reactions of all intensity (greater than or equal to 5% in placebo-controlled trials) were fatigue, headache, anemia, and nausea.</td>
+</tr>
+<tr>
+   <th>Affected organisms</th>
+   <td>
+      <ul>
+         <li>Hepatitis C virus, RSV and other RNA/DNA viruses</li>
+      </ul>
+   </td>
+</tr>
+<tr>
+   <th>Pathways</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>SNP Mediated Effects</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>SNP Mediated Adverse Drug Reactions</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr id="admet">
+   <th class="divider" colspan="2">ADMET</th>
+</tr>
+<tr>
+   <th>Predicted ADMET features</th>
+   <td class="table-container">
+      <table class="table-inner" id="predicted-admet">
+         <thead>
+            <tr>
+               <th>Property</th>
+               <th>Value</th>
+               <th>Probability</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Human Intestinal Absorption</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Blood Brain Barrier</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Caco-2 permeable</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>P-glycoprotein substrate</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>P-glycoprotein inhibitor I</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>P-glycoprotein inhibitor II</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Renal organic cation transporter</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 2C9 substrate</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 2D6 substrate</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 3A4 substrate</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 1A2 substrate</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 2C9 inhibitor</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 2D6 inhibitor</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 2C19 inhibitor</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 3A4 inhibitor</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>CYP450 inhibitory promiscuity</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Ames test</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Carcinogenicity</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Biodegradation</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>Rat acute toxicity</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not applicable</span></td>
+            </tr>
+            <tr>
+               <td>hERG inhibition (predictor I)</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+            <tr>
+               <td>hERG inhibition (predictor II)</td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+               <td><span class="wishart wishart-not-available">Not Available</span></td>
+            </tr>
+         </tbody>
+      </table>
+      <div class="alert alert-warning clearfix admetsar-alert"><span class="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000" target="_blank">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a class="wishart-link-out" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397" target="_blank">23092397 <span class="glyphicon glyphicon-new-window"> </span></a>) </div>
+   </td>
+</tr>
+<tr id="pharmacoeconomics">
+   <th class="divider" colspan="2">Pharmacoeconomics</th>
+</tr>
+<tr>
+   <th>Manufacturers</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Packagers</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Dosage forms</th>
+   <td class="data-table-container">
+      <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="dosages_wrapper">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="dataTables_length" id="dosages_length">
+                  <label>
+                     Show 
+                     <select name="dosages_length" class="form-control input-sm" aria-controls="dosages">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                     </select>
+                     entries
+                  </label>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="dataTables_filter" id="dosages_filter"><label><input class="form-control input-sm" aria-controls="dosages" type="search" placeholder="Search" value=""></label></div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12">
+               <table class="table table-condensed table-striped datatable dataTable no-footer" id="dosages" role="grid" aria-describedby="dosages_info">
+                  <thead>
+                     <tr role="row">
+                        <th tabindex="0" class="sorting_asc" aria-controls="dosages" aria-label="Form: activate to sort column descending" aria-sort="ascending" rowspan="1" colspan="1">Form</th>
+                        <th tabindex="0" class="sorting" aria-controls="dosages" style="width: 245px;" aria-label="Route: activate to sort column ascending" rowspan="1" colspan="1">Route</th>
+                        <th tabindex="0" class="sorting" aria-controls="dosages" style="width: 318px;" aria-label="Strength: activate to sort column ascending" rowspan="1" colspan="1">Strength</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1">Tablet</td>
+                        <td>oral</td>
+                        <td></td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1">Tablet, film coated</td>
+                        <td>oral</td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-5">
+               <div class="dataTables_info" id="dosages_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries</div>
+            </div>
+            <div class="col-sm-7">
+               <div class="dataTables_paginate paging_simple_numbers" id="dosages_paginate">
+                  <ul class="pagination">
+                     <li class="paginate_button previous disabled" id="dosages_previous"><a tabindex="0" aria-controls="dosages" href="#" data-dt-idx="0">Previous</a></li>
+                     <li class="paginate_button active"><a tabindex="0" aria-controls="dosages" href="#" data-dt-idx="1">1</a></li>
+                     <li class="paginate_button next disabled" id="dosages_next"><a tabindex="0" aria-controls="dosages" href="#" data-dt-idx="2">Next</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </td>
+</tr>
+<tr>
+   <th>Prices</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Patents</th>
+   <td class="data-table-container">
+      <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="patents_wrapper">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="dataTables_length" id="patents_length">
+                  <label>
+                     Show 
+                     <select name="patents_length" class="form-control input-sm" aria-controls="patents">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                     </select>
+                     entries
+                  </label>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="dataTables_filter" id="patents_filter"><label><input class="form-control input-sm" aria-controls="patents" type="search" placeholder="Search" value=""></label></div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12">
+               <table class="table table-condensed table-striped datatable dataTable no-footer" id="patents" role="grid" aria-describedby="patents_info">
+                  <thead>
+                     <tr role="row">
+                        <th tabindex="0" class="sorting_asc" aria-controls="patents" aria-label="Patent Number: activate to sort column descending" aria-sort="ascending" rowspan="1" colspan="1">Patent Number</th>
+                        <th tabindex="0" class="sorting" aria-controls="patents" style="width: 287px;" aria-label="Pediatric Extension: activate to sort column ascending" rowspan="1" colspan="1">Pediatric Extension</th>
+                        <th tabindex="0" class="sorting" aria-controls="patents" style="width: 158px;" aria-label="Approved: activate to sort column ascending" rowspan="1" colspan="1">Approved</th>
+                        <th tabindex="0" class="sorting" aria-controls="patents" style="width: 285px;" aria-label="Expires (estimated): activate to sort column ascending" rowspan="1" colspan="1">Expires (estimated)</th>
+                        <th tabindex="0" class="sorting" aria-controls="patents" style="width: 39px;" aria-label=": activate to sort column ascending" rowspan="1" colspan="1"></th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a class="wishart-link-out" href="https://patents.google.com/patent/US7973040" target="_blank">US7973040 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+                        <td><span class="label label-danger">No</span></td>
+                        <td>2009-07-24</td>
+                        <td>2029-07-24</td>
+                        <td class="country"><span class="hidden">US</span><img alt="Us" src="//www.drugbank.ca/assets/countries/us-0a2ef1ad1c84951dc1392a8bbe1f3cb241c91ed59e44ad8268635315440d978c.svg"></td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a class="wishart-link-out" href="https://patents.google.com/patent/US8871759" target="_blank">US8871759 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+                        <td><span class="label label-danger">No</span></td>
+                        <td>2011-05-04</td>
+                        <td>2031-05-04</td>
+                        <td class="country"><span class="hidden">US</span><img alt="Us" src="//www.drugbank.ca/assets/countries/us-0a2ef1ad1c84951dc1392a8bbe1f3cb241c91ed59e44ad8268635315440d978c.svg"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-5">
+               <div class="dataTables_info" id="patents_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries</div>
+            </div>
+            <div class="col-sm-7">
+               <div class="dataTables_paginate paging_simple_numbers" id="patents_paginate">
+                  <ul class="pagination">
+                     <li class="paginate_button previous disabled" id="patents_previous"><a tabindex="0" aria-controls="patents" href="#" data-dt-idx="0">Previous</a></li>
+                     <li class="paginate_button active"><a tabindex="0" aria-controls="patents" href="#" data-dt-idx="1">1</a></li>
+                     <li class="paginate_button next disabled" id="patents_next"><a tabindex="0" aria-controls="patents" href="#" data-dt-idx="2">Next</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </td>
+</tr>
+<tr id="properties">
+   <th class="divider" colspan="2">Properties</th>
+</tr>
+<tr>
+   <th>State</th>
+   <td>Solid</td>
+</tr>
+<tr>
+   <th>Experimental Properties</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Predicted Properties</th>
+   <td class="table-container">
+      <table class="table-inner">
+         <thead>
+            <tr>
+               <th class="head-medium">Property</th>
+               <th class="head-large">Value</th>
+               <th>Source</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Water Solubility</td>
+               <td>0.0097 mg/mL</td>
+               <td><a href="http://www.vcclab.org/lab/alogps/" target="_blank">ALOGPS</a></td>
+            </tr>
+            <tr>
+               <td>logP</td>
+               <td>3.14</td>
+               <td><a href="http://www.vcclab.org/lab/alogps/" target="_blank">ALOGPS</a></td>
+            </tr>
+            <tr>
+               <td>logP</td>
+               <td>5.41</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-predictors/#logp_logd" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>logS</td>
+               <td>-4.9</td>
+               <td><a href="http://www.vcclab.org/lab/alogps/" target="_blank">ALOGPS</a></td>
+            </tr>
+            <tr>
+               <td>pKa (Strongest Acidic)</td>
+               <td>5.31</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-predictors/#pka" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>pKa (Strongest Basic)</td>
+               <td>1.81</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-predictors/#pka" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Physiological Charge</td>
+               <td>0</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-predictors/#pka" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Hydrogen Acceptor Count</td>
+               <td>14</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#h_bond" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Hydrogen Donor Count</td>
+               <td>3</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#h_bond" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Polar Surface Area</td>
+               <td>205.69 Å<sup>2</sup></td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#topolgical_surface" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Rotatable Bond Count</td>
+               <td>7</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#topology_analysis" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Refractivity</td>
+               <td>195.25 m<sup>3</sup>·mol<sup>-1</sup></td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#refractivity" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Polarizability</td>
+               <td>81.09 Å<sup>3</sup></td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Number of Rings</td>
+               <td>7</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/property-calculations/#topology_analysis" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Bioavailability</td>
+               <td>0</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Rule of Five</td>
+               <td>Yes</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Ghose Filter</td>
+               <td>Yes</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>Veber's Rule</td>
+               <td>Yes</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization" target="_blank">ChemAxon</a></td>
+            </tr>
+            <tr>
+               <td>MDDR-like Rule</td>
+               <td>Yes</td>
+               <td><a href="http://www.chemaxon.com/products/calculator-plugins/molecular-modelling/#polarization" target="_blank">ChemAxon</a></td>
+            </tr>
+         </tbody>
+      </table>
+   </td>
+</tr>
+<tr id="spectra">
+   <th class="divider" colspan="2">Spectra</th>
+</tr>
+<tr>
+   <th>Mass Spec (NIST)</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>Spectra</th>
+   <td class="table-container"><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr id="references">
+   <th class="divider" colspan="2">References</th>
+</tr>
+<tr>
+   <th>Synthesis Reference</th>
+   <td>
+      <span class="citations">
+         <p>Harper S, McCauley JA, Rudd MT, Ferrara M, DiFilippo M, Crescenzi B, Koch U, Petrocchi A, Holloway MK, Butcher JW, Romano JJ, Bush KJ, Gilbert KF, McIntyre CJ, Nguyen KT, Nizi E, Carroll SS, Ludmerer SW, Burlein C, DiMuzio JM, Graham DJ, McHale CM, Stahlhut MW, Olsen DB, Monteagudo E, Cianetti S, Giuliano C, Pucci V, Trainor N, Fandozzi CM, Rowley M, Coleman PJ, Vacca JP, Summa V, Liverton NJ: Discovery of MK-5172, a Macrocyclic Hepatitis C Virus NS3/4a Protease Inhibitor. <span class="caps">ACS</span> Med Chem Lett. 2012 Mar 2;3(4):332-6. doi: 10.1021/ml300017p. eCollection 2012 Apr 12.</p>
+      </span>
+   </td>
+</tr>
+<tr>
+   <th>General References</th>
+   <td>
+      <ol class="cite-this-references">
+         <li id="reference-A18489">Gentile I, Buonomo AR, Borgia F, Zappulo E, Castaldo G, Borgia G: MK-5172 : a second-generation protease inhibitor for the treatment of hepatitis C virus infection. Expert Opin Investig Drugs. 2014 May;23(5):719-28. doi: 10.1517/13543784.2014.902049. Epub 2014 Mar 26. [<a class="wishart-link-out" href="http://www.ncbi.nlm.nih.gov/pubmed/24666106" target="_blank">PubMed:24666106 <span class="glyphicon glyphicon-new-window"> </span></a>] </li>
+         <li id="reference-A18490">Harper S, McCauley JA, Rudd MT, Ferrara M, DiFilippo M, Crescenzi B, Koch U, Petrocchi A, Holloway MK, Butcher JW, Romano JJ, Bush KJ, Gilbert KF, McIntyre CJ, Nguyen KT, Nizi E, Carroll SS, Ludmerer SW, Burlein C, DiMuzio JM, Graham DJ, McHale CM, Stahlhut MW, Olsen DB, Monteagudo E, Cianetti S, Giuliano C, Pucci V, Trainor N, Fandozzi CM, Rowley M, Coleman PJ, Vacca JP, Summa V, Liverton NJ: Discovery of MK-5172, a Macrocyclic Hepatitis C Virus NS3/4a Protease Inhibitor. ACS Med Chem Lett. 2012 Mar 2;3(4):332-6. doi: 10.1021/ml300017p. eCollection 2012 Apr 12. [<a class="wishart-link-out" href="http://www.ncbi.nlm.nih.gov/pubmed/24900473" target="_blank">PubMed:24900473 <span class="glyphicon glyphicon-new-window"> </span></a>] </li>
+         <li id="reference-A18491">Summa V, Ludmerer SW, McCauley JA, Fandozzi C, Burlein C, Claudio G, Coleman PJ, Dimuzio JM, Ferrara M, Di Filippo M, Gates AT, Graham DJ, Harper S, Hazuda DJ, Huang Q, McHale C, Monteagudo E, Pucci V, Rowley M, Rudd MT, Soriano A, Stahlhut MW, Vacca JP, Olsen DB, Liverton NJ, Carroll SS: MK-5172, a selective inhibitor of hepatitis C virus NS3/4a protease with broad activity across genotypes and resistant variants. Antimicrob Agents Chemother. 2012 Aug;56(8):4161-7. doi: 10.1128/AAC.00324-12. Epub 2012 May 21. [<a class="wishart-link-out" href="http://www.ncbi.nlm.nih.gov/pubmed/22615282" target="_blank">PubMed:22615282 <span class="glyphicon glyphicon-new-window"> </span></a>] </li>
+      </ol>
+   </td>
+</tr>
+<tr>
+   <th>External Links</th>
+   <td class="table-container">
+      <table class="table-inner" id="external-links">
+         <thead>
+            <tr>
+               <th>Resource</th>
+               <th>Link</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>KEGG Drug</td>
+               <td><a class="wishart-link-out" href="http://www.genome.jp/dbget-bin/www_bget?drug:D10639" target="_blank">D10639 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>ChEBI</td>
+               <td><a class="wishart-link-out" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=132975" target="_blank">132975 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>ChEMBL</td>
+               <td><a class="wishart-link-out" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL2063090" target="_blank">CHEMBL2063090 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>Drug Product Database</td>
+               <td><a class="wishart-link-out" href="http://webprod5.hc-sc.gc.ca/dpd-bdpp/info.do?code=22679&amp;lang=eng" target="_blank">22679 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>RxList</td>
+               <td><a class="wishart-link-out" href="http://www.rxlist.com/zepatier-drug.htm" target="_blank">http://www.rxlist.com/zepatier-drug.htm <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>Drugs.com</td>
+               <td><a class="wishart-link-out" href="https://www.drugs.com/mtm/elbasvir-and-grazoprevir.html" target="_blank">https://www.drugs.com/mtm/elbasvir-and-grazoprevir.html <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+            <tr>
+               <td>Wikipedia</td>
+               <td><a class="wishart-link-out" href="http://en.wikipedia.org/wiki/Grazoprevir" target="_blank">Grazoprevir <span class="glyphicon glyphicon-new-window"> </span></a></td>
+            </tr>
+         </tbody>
+      </table>
+   </td>
+</tr>
+<tr>
+   <th>ATC Codes</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>AHFS Codes</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>PDB Entries</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr>
+   <th>FDA label</th>
+   <td><a href="https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB11575.pdf?1471551357" target="_blank">Download</a> <span class="text-muted">(8.14 MB) </span></td>
+</tr>
+<tr>
+   <th>MSDS</th>
+   <td><span class="wishart wishart-not-available">Not Available</span></td>
+</tr>
+<tr id="interactions">
+   <th class="divider" colspan="2">Interactions</th>
+</tr>
+<tr>
+   <th>Drug Interactions</th>
+   <td class="table-container">
+      <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="drug-interactions_wrapper">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="dataTables_length" id="drug-interactions_length">
+                  <label>
+                     Show 
+                     <select name="drug-interactions_length" class="form-control input-sm" aria-controls="drug-interactions">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                     </select>
+                     entries
+                  </label>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="dataTables_filter" id="drug-interactions_filter"><label><input class="form-control input-sm" aria-controls="drug-interactions" type="search" placeholder="Search" value=""></label></div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12">
+               <table class="datatable table-inner dataTable no-footer" id="drug-interactions" role="grid" aria-describedby="drug-interactions_info">
+                  <thead>
+                     <tr role="row">
+                        <th tabindex="0" class="head-sm sorting_asc" aria-controls="drug-interactions" aria-label="Drug: activate to sort column descending" aria-sort="ascending" rowspan="1" colspan="1">Drug</th>
+                        <th tabindex="0" class="sorting" aria-controls="drug-interactions" style="width: 872px;" aria-label=": activate to sort column ascending" rowspan="1" colspan="1"></th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00316" target="_blank">Acetaminophen</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Acetaminophen.</td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB08916" target="_blank">Afatinib</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Afatinib.</td>
+                     </tr>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00518" target="_blank">Albendazole</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Albendazole.</td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB04630" target="_blank">Aldosterone</a></td>
+                        <td>The serum concentration of Grazoprevir can be decreased when it is combined with Aldosterone.</td>
+                     </tr>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB11363" target="_blank">Alectinib</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Alectinib.</td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00802" target="_blank">Alfentanil</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Alfentanil.</td>
+                     </tr>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00915" target="_blank">Amantadine</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Amantadine.</td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00345" target="_blank">Aminohippuric acid</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Aminohippuric acid.</td>
+                     </tr>
+                     <tr class="odd" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB01118" target="_blank">Amiodarone</a></td>
+                        <td>The serum concentration of Grazoprevir can be decreased when it is combined with Amiodarone.</td>
+                     </tr>
+                     <tr class="even" role="row">
+                        <td class="sorting_1"><a href="http://www.drugbank.ca/drugs/DB00321" target="_blank">Amitriptyline</a></td>
+                        <td>The serum concentration of Grazoprevir can be increased when it is combined with Amitriptyline.</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-5">
+               <div class="dataTables_info" id="drug-interactions_info" role="status" aria-live="polite">Showing 1 to 10 of 228 entries</div>
+            </div>
+            <div class="col-sm-7">
+               <div class="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
+                  <ul class="pagination">
+                     <li class="paginate_button previous disabled" id="drug-interactions_previous"><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="0">Previous</a></li>
+                     <li class="paginate_button active"><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="1">1</a></li>
+                     <li class="paginate_button "><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="2">2</a></li>
+                     <li class="paginate_button "><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="3">3</a></li>
+                     <li class="paginate_button "><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="4">4</a></li>
+                     <li class="paginate_button "><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="5">5</a></li>
+                     <li class="paginate_button disabled" id="drug-interactions_ellipsis"><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="6">…</a></li>
+                     <li class="paginate_button "><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="7">23</a></li>
+                     <li class="paginate_button next" id="drug-interactions_next"><a tabindex="0" aria-controls="drug-interactions" href="#" data-dt-idx="8">Next</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </td>
+</tr>
+<tr>
+   <th>Food Interactions</th>
+   <td>
+      <ul>
+         <li>Relative to fasting conditions, the administration of a single dose of grazoprevir + elbasvir (Zapatier) with a high-fat (900 kcal, 500 kcal from fat) meal to healthy subjects resulted in decreases in elbasvir AUC0-inf and Cmax of approximately 11% and 15%, respectively, and increases in grazoprevir AUC0-inf and Cmax of approximately 1.5-fold and 2.8-fold, respectively.</li>
+      </ul>
+   </td>
+</tr>
+</tbody></table>
+<h3 id="targets">Targets</h3>
+<div class="target well well-sm bonds">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <div class="pull-right"><a class="btn btn-primary btn-xs" href="http://www.drugbank.ca/biodb/polypeptides/Q5L478" target="_blank"><span class="glyphicon glyphicon-list"> </span> Details</a></div>
+         <strong>1. <a href="http://www.drugbank.ca/biodb/polypeptides/Q5L478" target="_blank">Nonstructural protein 5A</a></strong>
+      </div>
+      <div class="panel-body">
+         <dl class="dl-horizontal">
+            <dt>Kind</dt>
+            <dd>Protein</dd>
+            <dt>Organism</dt>
+            <dd>Hepatitis C virus</dd>
+            <dt>Pharmacological action</dt>
+            <dd><strong class="label label-success">yes</strong></dd>
+            <dt>Actions</dt>
+            <dd><strong class="badge">inducer</strong></dd>
+         </dl>
+         <dl class="dl-horizontal">
+            <dt>General Function:</dt>
+            <dd>Zinc ion binding</dd>
+            <dt>Specific Function:</dt>
+            <dd><span class="wishart wishart-not-available">Not Available</span></dd>
+            <dt>Gene Name:</dt>
+            <dd>NS5A</dd>
+            <dt>Uniprot ID:</dt>
+            <dd><a class="wishart-link-out" href="http://www.uniprot.org/uniprot/Q5L478" target="_blank">Q5L478 <span class="glyphicon glyphicon-new-window"> </span></a></dd>
+            <dt>Molecular Weight:</dt>
+            <dd>48598.34 Da</dd>
+         </dl>
+      </div>
+   </div>
+</div>
+<h3 id="enzymes">Enzymes</h3>
+<div class="enzyme well well-sm bonds">
+   <div class="panel panel-default">
+      <div class="panel-heading"><strong>1. Cytochrome p450 3A subfamily</strong></div>
+      <div class="panel-body">
+         <dl class="dl-horizontal">
+            <dt>Kind</dt>
+            <dd>Protein group</dd>
+            <dt>Organism</dt>
+            <dd>Human</dd>
+            <dt>Pharmacological action</dt>
+            <dd><strong class="label label-danger">no</strong></dd>
+            <dt>Actions</dt>
+            <dd><strong class="badge">substrate</strong></dd>
+         </dl>
+      </div>
+   </div>
+</div>
+<h3 id="transporters">Transporters</h3>
+<div class="transporter well well-sm bonds">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <div class="pull-right"><a class="btn btn-primary btn-xs" href="http://www.drugbank.ca/biodb/polypeptides/P08183" target="_blank"><span class="glyphicon glyphicon-list"> </span> Details</a></div>
+         <strong>1. <a href="http://www.drugbank.ca/biodb/polypeptides/P08183" target="_blank">Multidrug resistance protein 1</a></strong>
+      </div>
+      <div class="panel-body">
+         <dl class="dl-horizontal">
+            <dt>Kind</dt>
+            <dd>Protein</dd>
+            <dt>Organism</dt>
+            <dd>Human</dd>
+            <dt>Pharmacological action</dt>
+            <dd><strong class="label label-danger">no</strong></dd>
+            <dt>Actions</dt>
+            <dd><strong class="badge">substrate</strong></dd>
+         </dl>
+         <dl class="dl-horizontal">
+            <dt>General Function:</dt>
+            <dd>Xenobiotic-transporting atpase activity</dd>
+            <dt>Specific Function:</dt>
+            <dd>Energy-dependent efflux pump responsible for decreased drug accumulation in multidrug-resistant cells.</dd>
+            <dt>Gene Name:</dt>
+            <dd>ABCB1</dd>
+            <dt>Uniprot ID:</dt>
+            <dd><a class="wishart-link-out" href="http://www.uniprot.org/uniprot/P08183" target="_blank">P08183 <span class="glyphicon glyphicon-new-window"> </span></a></dd>
+            <dt>Molecular Weight:</dt>
+            <dd>141477.255 Da</dd>
+         </dl>
+      </div>
+   </div>
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <div class="pull-right"><a class="btn btn-primary btn-xs" href="http://www.drugbank.ca/biodb/polypeptides/Q9Y6L6" target="_blank"><span class="glyphicon glyphicon-list"> </span> Details</a></div>
+         <strong>2. <a href="http://www.drugbank.ca/biodb/polypeptides/Q9Y6L6" target="_blank">Solute carrier organic anion transporter family member 1B1</a></strong>
+      </div>
+      <div class="panel-body">
+         <dl class="dl-horizontal">
+            <dt>Kind</dt>
+            <dd>Protein</dd>
+            <dt>Organism</dt>
+            <dd>Human</dd>
+            <dt>Pharmacological action</dt>
+            <dd><strong class="label label-danger">no</strong></dd>
+            <dt>Actions</dt>
+            <dd><strong class="badge">substrate</strong></dd>
+         </dl>
+         <dl class="dl-horizontal">
+            <dt>General Function:</dt>
+            <dd>Sodium-independent organic anion transmembrane transporter activity</dd>
+            <dt>Specific Function:</dt>
+            <dd>Mediates the Na(+)-independent uptake of organic anions such as pravastatin, taurocholate, methotrexate, dehydroepiandrosterone sulfate, 17-beta-glucuronosyl estradiol, estrone sulfate, prostaglandin E2, thromboxane B2, leukotriene C3, leukotriene E4, thyroxine and triiodothyronine. Involved in the clearance of bile acids and organic anions from the liver.</dd>
+            <dt>Gene Name:</dt>
+            <dd>SLCO1B1</dd>
+            <dt>Uniprot ID:</dt>
+            <dd><a class="wishart-link-out" href="http://www.uniprot.org/uniprot/Q9Y6L6" target="_blank">Q9Y6L6 <span class="glyphicon glyphicon-new-window"> </span></a></dd>
+            <dt>Molecular Weight:</dt>
+            <dd>76447.99 Da</dd>
+         </dl>
+      </div>
+   </div>
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <div class="pull-right"><a class="btn btn-primary btn-xs" href="http://www.drugbank.ca/biodb/polypeptides/Q9NPD5" target="_blank"><span class="glyphicon glyphicon-list"> </span> Details</a></div>
+         <strong>3. <a href="http://www.drugbank.ca/biodb/polypeptides/Q9NPD5" target="_blank">Solute carrier organic anion transporter family member 1B3</a></strong>
+      </div>
+      <div class="panel-body">
+         <dl class="dl-horizontal">
+            <dt>Kind</dt>
+            <dd>Protein</dd>
+            <dt>Organism</dt>
+            <dd>Human</dd>
+            <dt>Pharmacological action</dt>
+            <dd><strong class="label label-danger">no</strong></dd>
+            <dt>Actions</dt>
+            <dd><strong class="badge">substrate</strong></dd>
+         </dl>
+         <dl class="dl-horizontal">
+            <dt>General Function:</dt>
+            <dd>Sodium-independent organic anion transmembrane transporter activity</dd>
+            <dt>Specific Function:</dt>
+            <dd>Mediates the Na(+)-independent uptake of organic anions such as 17-beta-glucuronosyl estradiol, taurocholate, triiodothyronine (T3), leukotriene C4, dehydroepiandrosterone sulfate (DHEAS), methotrexate and sulfobromophthalein (BSP). Involved in the clearance of bile acids and organic anions from the liver.</dd>
+            <dt>Gene Name:</dt>
+            <dd>SLCO1B3</dd>
+            <dt>Uniprot ID:</dt>
+            <dd><a class="wishart-link-out" href="http://www.uniprot.org/uniprot/Q9NPD5" target="_blank">Q9NPD5 <span class="glyphicon glyphicon-new-window"> </span></a></dd>
+            <dt>Molecular Weight:</dt>
+            <dd>77402.175 Da</dd>
+         </dl>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'drugbank'; // required: replace example with your forum shortname
+    var disqus_identifier = 'DB11575';
+    var disqus_url = 'http://www.drugbank.ca/drugs/DB11575';
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'drugbank'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<div id="drug-meta" style="margin-top: 2em;">Drug created on April 07, 2016 10:40 / Updated on September 06, 2016 02:23 </div></main></body>
+</html>

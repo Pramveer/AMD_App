@@ -1,0 +1,38 @@
+<template name="customUploadForScreening">
+    <div class="customUploadControlId {{parentId}}" style="display: none">
+        {{generateDynamicId}}
+    </div>
+    <div id='custom-upload-{{generateDynamicId}}' style="float:right;margin-right:14px;">
+        <label class="fileContainer" controlId = "{{generateDynamicId}}">
+                <i class="fa fa-paperclip labsfiles" id="ifiles-{{generateDynamicId}}" aria-hidden="true" style="font-size: 15px"></i>
+                <input id="files-{{generateDynamicId}}" type="file" multiple="true"/>
+                </label>
+                <div class="infodiv pdl-safety" id="display-{{generateDynamicId}}" style="display:none">
+                    <span class="blink_me"><i class="fa fa-files-o red labsfiles" id="ifiles-{{generateDynamicId}}" aria-hidden="true" style="font-size: 15px;margin-top:6px;"></i></span>
+                    <div class='info-div-tooltip-box'>
+                        <div class="beforearrow"></div>
+                        <div class='info-div-tooltip-content'>
+                            <ul id="file-listing-{{generateDynamicId}}" class="downloadFileLink" style="list-style:none;font-size:12px;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            
+            <!--<button class="upload_btn uploadButton" id="uploadButton-{{generateDynamicId}}" data-control-id="{{generateDynamicId}}">Upload</button>-->
+        
+
+        <!--<ul id="file-listing-{{generateDynamicId}}" class="downloadFileLink" style="list-style:none;">
+          
+        </ul>-->
+        <!-- Popup for file view -->
+        <div class="popup analyticsPatientsPopup" data-popup="analyticsPatientsPopup">
+            <div class="popup-inner" style='width: 1284px;'>
+                <button type="button" class="close analytics_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+                <div class="analyticsPatientsPopup-header"></div>
+                <div class="analyticsPatientsPopup-container"></div>
+                <iframe id="frame-{{generateDynamicId}}"  style="width:100%;height:500px;"></iframe>
+            </div>
+        </div>
+    </div>
+</template>

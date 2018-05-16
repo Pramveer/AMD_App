@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="79">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00724373</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05269</org_study_id>
+    <nct_id>NCT00724373</nct_id>
+  </id_info>
+  <brief_title>Study of HCV Genotype 1 Patients in the UK Treated With ViraferonPeg and Rebetol (Study P05269)(COMPLETED)</brief_title>
+  <official_title>Retrospective Data Study of HCV Genotype 1 Patients in the UK Treated With ViraferonPeg and Rebetol</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is designed as a retrospective data review of medical records from participants
+      selected from specialist secondary and tertiary care centers across the United Kingdom (UK),
+      specializing in Hepatitis C treatment. The study is non-interventional and is designed to
+      identify subgroups of Hepatitis C Virus (HCV) genotype 1 participants in the 'real world',
+      including the relation between subgroup characteristics and treatment responsiveness.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Physicians will record information (from the time of first exposure to pegylated interferon
+      alfa-2b and ribavirin) from the medical notes of participants who fit the inclusion
+      criteria. To prevent selection bias, data are to be taken from the latest consecutive,
+      unique participants seen by the physician over the previous 48 months. This provides a
+      method of random sampling from a physician practice.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2007</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Retrospective</study_design>
+  <primary_outcome>
+    <measure>Participants With Treatment Success</measure>
+    <time_frame>Data will be collected from the start of first exposure to pegylated interferon alfa-2b and ribavirin combination therapy. Participants who have successfully completed treatment will have data collected for a follow-up period of at least 24 weeks.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Identify subgroups of genotype 1 participants to better understand factors affecting response rates &amp; treatment outcomes &amp; to provide predictive models of refractory or responsive phenotypes to aid in HCV treatment, management, &amp; drug development. Treatment success is defined as those who had achieved sustained virological response (i.e. undetectable viraemia 24 weeks post therapy completion).</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">442</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Participants with genotype 1 Hepatitis C Virus infection.</arm_group_label>
+    <description>Participants with genotype 1 Hepatitis C Virus (HCV) infection who have been treated with pegylated interferon alfa-2b and ribavirin in the preceding 48 months</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>Peginterferon alfa-2b plus ribavirin will be administered according to the products' labeling.</description>
+    <arm_group_label>Participants with genotype 1 Hepatitis C Virus infection.</arm_group_label>
+    <other_name>PegIntron</other_name>
+    <other_name>ViraferonPeg</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (SCH 18908)</intervention_name>
+    <description>Peginterferon alfa-2b plus ribavirin will be administered according to the products' labeling.</description>
+    <arm_group_label>Participants with genotype 1 Hepatitis C Virus infection.</arm_group_label>
+    <other_name>Rebetol</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants with genotype 1 HCV infection who have been treated with pegylated interferon
+        alfa-2b and ribavirin in the preceding 48 months at sites in the UK.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants with genotype 1 HCV infection who have been treated with pegylated
+             interferon alfa-2b and ribavirin in the preceding 48 months will be included. They
+             will be divided into:
+
+          -  Completer participants: Patients with a diagnosis of HCV genotype 1 who have
+             completed a course of interferon alfa-2b and ribavirin, with no prior treatment for
+             HCV (ie, previously treatment naïve). Completer participants must have at least 24
+             weeks of follow up data available post completion of treatment to ensure ability to
+             assess SVR rates.
+
+          -  Early terminators: Participants who have terminated treatment early due to adverse
+             events or other reasons (ie, exposure is incomplete).
+
+        Exclusion Criteria:
+
+          -  Participants currently undergoing therapy and therefore have not terminated
+             treatment, ie, exposure is still ongoing.
+
+          -  Co-infected HCV participants (eg, human immunodeficiency virus [HIV] or hepatitis B
+             virus [HBV]).
+
+          -  Participants who received their first HCV treatment in relation to a clinical trial.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>United Kingdom</country>
+  </removed_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 24, 2015</lastchanged_date>
+  <firstreceived_date>July 25, 2008</firstreceived_date>
+  <firstreceived_results_date>May 6, 2010</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

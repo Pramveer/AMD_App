@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="175">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01790100</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ALS-135-101</org_study_id>
+    <secondary_id>2012-005633-37</secondary_id>
+    <nct_id>NCT01790100</nct_id>
+  </id_info>
+  <brief_title>A Phase 2a, Dose-Ranging Study to Evaluate the Safety, Pharmacokinetics and Efficacy of VX-135 With Ribavirin in Treatment-Naïve Subjects With Chronic Hepatitis C</brief_title>
+  <official_title>A Randomized, Phase 2a, Partially-Blind, Dose-Ranging Study to Evaluate the Safety, Pharmacokinetics and Efficacy of VX-135 With Ribavirin in Treatment-Naïve Subjects With Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Alios Biopharma Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Vertex Pharmaceuticals Incorporated</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Alios Biopharma Inc.</source>
+  <oversight_info>
+    <authority>Moldova: Agency of Medicines and Medical Devices</authority>
+    <authority>Moldova: Ministry of Health in the Republic of Moldova</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to determine the safety, pharmacokinetics and efficacy of orally
+      administered VX-135 with ribavirin in treatment naive subjects with chronic hepatitis C
+      infection.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Up to twenty (20) subjects with CHC GT1 infection will be randomized in a 1:1 ratio (with
+      stratification by IL-28B genotype (CC versus non-CC)) to evaluate VX-135 low dose or high
+      dose both given in combination with RBV for 12 weeks.
+
+      Safety and tolerability will be evaluated on an ongoing basis through assessment of adverse
+      events (AEs), lab evaluations and physical examinations. Subjects will be monitored from Day
+      1 through end of follow-up for virologic breakthrough or relapse.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2013</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">June 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Safety</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The safety and tolerability as assessed by evaluating adverse events and laboratory testing.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>evidence of HCV RNA viral load reduction</measure>
+    <time_frame>16 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion of subjects who have an SVR at 4 weeks after the last planned dose of treatment (SVR4)</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">20</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>VX-135 low dose in combination with ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>12 weeks of VX-135 in combination with ribavirin</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>VX-135 high dose in combination with ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>VX-135</intervention_name>
+    <description>12 weeks of VX-135</description>
+    <arm_group_label>VX-135 low dose in combination with ribavirin</arm_group_label>
+    <arm_group_label>VX-135 high dose in combination with ribavirin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>12 weeks of ribavirin</description>
+    <arm_group_label>VX-135 low dose in combination with ribavirin</arm_group_label>
+    <arm_group_label>VX-135 high dose in combination with ribavirin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Key Inclusion Criteria:
+
+          -  Subjects (male and female) must be between 18-60 years of age
+
+          -  Subjects must have Chronic Hepatitis C
+
+          -  Subjects must be treatment naive
+
+          -  Subjects must have laboratory values at screening within limits as specified by the
+             protocol
+
+        Key Exclusion Criteria:
+
+          -  Evidence of cirrhosis
+
+          -  Female subjects who are pregnant or nursing or male subjects with a female partner of
+             childbearing potential who is unwilling to adhere to the contraception requirements,
+             is pregnant or nursing, or planning to become pregnant during the study
+
+          -  any other cause of significant liver disease in addition to hepatitis C
+
+          -  Diagnosis of or suspected hepatocellular carcinoma
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Arensia, Republican Clinical Hospital</name>
+      <address>
+        <city>Chisinau</city>
+        <country>Moldova, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Moldova, Republic of</country>
+  </location_countries>
+  <verification_date>November 2013</verification_date>
+  <lastchanged_date>June 23, 2014</lastchanged_date>
+  <firstreceived_date>February 11, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

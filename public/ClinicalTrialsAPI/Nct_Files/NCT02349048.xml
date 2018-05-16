@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="48">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02349048</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR105963</org_study_id>
+    <secondary_id>TMC435HPC2013</secondary_id>
+    <nct_id>NCT02349048</nct_id>
+  </id_info>
+  <brief_title>Study to Assess Efficacy, Safety, Tolerability and Pharmacokinetics of Simeprevir, Daclatasvir and Sofosbuvir in Treatment-naive Participants With Chronic Hepatitis C Virus Genotype 1 Infection</brief_title>
+  <acronym>ACCORDION-1</acronym>
+  <official_title>A Phase 2, Randomized, Open-label Study to Investigate the Efficacy, Safety, Tolerability and Pharmacokinetics of 6 or 8 Weeks of Treatment With Simeprevir, Daclatasvir and Sofosbuvir in Treatment-naive Subjects With Chronic Hepatitis C Virus Genotype 1 Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen Research &amp; Development, LLC</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Janssen Research &amp; Development, LLC</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Canada: Health Canada</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the efficacy of 6 or 8 weeks of treatment regimen
+      containing simeprevir (SMV), daclatasvir (DCV) and sofosbuvir (SOF) in treatment-naive (not
+      having received treatment with any approved or investigational drug) participants with
+      chronic hepatitis (inflammation of the liver) C virus (HCV) genotype 1 infection with early
+      stages of liver fibrosis or with cirrhosis.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an open-label (participants and researchers are aware about the treatment
+      participants are receiving), and multicenter (when more than 1 hospital or medical school
+      team work on a medical research) study. The study will consist of a Screening Phase (6
+      weeks); an Open-label Treatment Phase (6 weeks for Arm A and 8 weeks for Arm B); and a
+      Post-treatment Follow-up Phase (until 24 weeks after end of study treatment). Using a
+      staggered approach, all eligible participants will be assigned to 1 of the 2 arms, according
+      to their level of fibrosis. Arm A (consists of chronic HCV genotype 1 infected participants
+      with early stages of liver fibrosis): participants will receive a combination therapy of SMV
+      150 milligram (mg), DCV 60 mg and SOF 400 mg once daily for 6 weeks. Arm B (consists of
+      chronic HCV genotype 1 infected participants with cirrhosis): participants will receive a
+      combination therapy of SMV 150 mg, DCV 60 mg and SOF 400 mg once daily for 8 weeks. A
+      sub-study will be performed at a selected study site, where only participants who will be
+      eligible to participate in both the main study and the sub-study will be enrolled.
+      Intra-hepatic and plasma HCV ribonucleic acid (RNA) levels; intra-hepatic, peripheral innate
+      and adaptive immune responses during the treatment, will be assessed in the sub-study.
+      Participants' safety will be monitored throughout the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>January 2015</start_date>
+  <completion_date type="Anticipated">May 2016</completion_date>
+  <primary_completion_date type="Anticipated">December 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at 12 Weeks After end of Study Drug Treatment (SVR12)</measure>
+    <time_frame>12 weeks after end of study drug treatment (up to Week 20)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who will have hepatitis C virus (HCV) ribonucleic acid (RNA) less than (&lt;) lower limit of quantification (LLOQ) detectable or undetectable, 12 weeks after the actual end of study drug treatment.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With On-treatment Virologic Response</measure>
+    <time_frame>Baseline up to Week 6 (Arm A) or Week 8 (Arm B)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who will have HCV RNA &lt;LLOQ detectable or undetectable, during treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at 4 Weeks (SVR4) and 24 Weeks (SVR24) After end of Study Drug Treatment</measure>
+    <time_frame>SVR4: 4 weeks after end of study drug treatment; SVR24: 24 weeks after end of study drug treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who will have HCV RNA &lt;LLOQ detectable or undetectable, 4 and 24 weeks after the actual end of study drug treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With On-treatment Failure</measure>
+    <time_frame>Baseline up to Week 6 (Arm A) or Week 8 (Arm B)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who have confirmed detectable HCV RNA at the actual end of study drug treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Viral Relapse</measure>
+    <time_frame>During follow-up (Up to Follow-up Week 24)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who will not achieve SVR12, with undetectable HCV RNA at the actual end of study drug treatment and confirmed HCV RNA greater than or equal to (&gt;=) LLOQ during follow-up.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from Baseline in HCV Nonstructural Protein 3/4A (NS3/4A), NS5A and NS5B Sequence in Participants not Achieving SVR</measure>
+    <time_frame>Screening up to Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Pre-treatment polymorphisms in the HCV nonstructural protein 3/4A (NS3/4A), NS5A and NS5B regions in all participants and relevant changes in the HCV NS3/4A, NS5A and NS5B regions in participants not achieving SVR will be described.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With or Without an NS3 Q80K Polymorphism at Baseline Achieving SVR</measure>
+    <time_frame>Screening up to Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who achieve SVR with or without an NS3 Q80K polymorphism at Baseline.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Hepatitis C Virus</condition>
+  <arm_group>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Chronic hepatitis C virus (HCV) genotype 1 infected participants with early stages of liver fibrosis, will receive Simeprevir (SMV) 150 milligram (mg), Daclatasvir (DCV) 60 mg and Sofosbuvir (SOF) 400 mg once daily for 6 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Chronic HCV genotype 1 infected participants with cirrhosis, will receive SMV 150 mg, DCV 60 mg and SOF 400 mg once daily for 8 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir 150 mg</intervention_name>
+    <description>Simeprevir 150 mg capsule orally once daily.</description>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_label>Arm B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir 60 mg</intervention_name>
+    <description>Daclatasvir 60 mg tablet orally once daily.</description>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_label>Arm B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir 400 mg</intervention_name>
+    <description>Sofosbuvir 400 mg tablet orally once daily.</description>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_label>Arm B</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  HCV genotype 1 infection and HCV RNA plasma level greater than (&gt;) 10,000
+             international units per milliliter (IU/mL), both determined at Screening
+
+          -  Participants of Arm A should have evidence of early stages of liver fibrosis, defined
+             by a FibroSURE score less than or equal to (&lt;=) 0.48 and aspartate aminotransferase
+             to platelet ratio index (APRI) score &lt;=1
+
+          -  Participants of Arm B should have evidence of cirrhosis, defined by a FibroSURE score
+             &gt;0.75 and APRI score &gt;2, OR a previous (historical) biopsy documenting a METAVIR
+             score F4. In addition, participants should have absence of esophageal varices or
+             presence of small (grade 1) esophageal varices determined by upper gastrointestinal
+             endoscopy, and absence of findings indicative of hepatocellular carcinoma in an
+             ultrasonography
+
+          -  HCV treatment-naive, defined as not having received treatment with any approved or
+             investigational drug for chronic HCV infection
+
+          -  Pegylated interferon (PegIFN) and ribavirin (RBV) eligible, defined as not having any
+             contraindication to the use of PegIFN and RBV, in line with the prescribing
+             information for each compound
+
+        Exclusion Criteria:
+
+        A. Main Study:
+
+          -  Co-infection with HCV of another genotype than genotype 1 and/or human
+             immunodeficiency virus (HIV) type 1 or 2 (positive HIV-1 or HIV 2 antibody test at
+             Screening)
+
+          -  Any evidence of liver disease of non-HCV etiology. This includes, but is not limited
+             to, acute hepatitis A infection, hepatitis B infection (hepatitis B surface antigen
+             positive), drug- or alcohol-related liver disease, autoimmune hepatitis,
+             hemochromatosis, Wilson's disease, alpha-1 antitrypsin deficiency, non-alcoholic
+             steatohepatitis, primary biliary cirrhosis, or any other non-HCV liver disease
+             considered clinically significant by the Investigator
+
+          -  Evidence of clinical hepatic decompensation or presence of grade 2/3 esophageal
+             varices
+
+          -  Any of the protocol defined laboratory abnormalities
+
+        B. Sub-study:
+
+          -  Presence of coagulopathy (hemophilia) or hemoglobinopathy (including sickle cell
+             disease, thalassemia)
+
+          -  Use of any anti-coagulant (for example, warfarin, heparin) or anti-platelet
+             medications within 1 week of the Screening visit
+
+          -  Any of the protocol defined laboratory abnormalities
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen Research &amp; Development, LLC Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen Research &amp; Development, LLC</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Use link at the bottom of the page to see if you qualify for an enrolling site (see list). If you still have questions:</last_name>
+    <email>JNJ.CT@sylogent.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>Bakersfield</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Withdrawn</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Winston Salem</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Knoxville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://pam.sylogent.com/cr/CR105963</url>
+    <description>To learn how to participate in this trial please click here.</description>
+  </link>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 11, 2015</lastchanged_date>
+  <firstreceived_date>January 22, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>Hepatitis C virus genotype 1</keyword>
+  <keyword>Chronic Hepatitis C Virus Genotype 1 Infection</keyword>
+  <keyword>Liver fibrosis</keyword>
+  <keyword>Cirrhosis</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Daclatasvir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="861">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01470651</url>
+  </required_header>
+  <id_info>
+    <org_study_id>C10953/6285</org_study_id>
+    <nct_id>NCT01470651</nct_id>
+  </id_info>
+  <brief_title>Armodafinil for Patients Starting Hepatitis C Virus Treatment</brief_title>
+  <official_title>Armodafinil for Patients Starting Hepatitis C Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Research Foundation for Mental Hygiene, Inc.</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Icahn School of Medicine at Mount Sinai</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Weill Medical College of Cornell University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Research Foundation for Mental Hygiene, Inc.</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Fatigue is one of the most common side effects of the treatment of hepatitis C infection
+      with pegylated interferon and ribavirin, and is a major cause of treatment discontinuation.
+      Armodafinil is an FDA approved stimulant medication for the treatment of narcolepsy and
+      shift-work sleep disorder. This is a randomized placebo controlled study to determine
+      whether patients assigned to armodafinil have fewer missed doses, dose reductions or
+      treatment discontinuation due to side effects in the first 12 weeks of treatment for
+      hepatitis C infection than do placebo patients. Placebo patients are offered 14 weeks of
+      open label armodafinil after Week 12.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Four million Americans have chronic hepatitis C (HCV), and 30% of HIV+ patients are
+      co-infected with HCV. Until May 2011, the standard treatment for HCV was the combination of
+      alpha interferon (injected weekly) and ribavirin (daily pills) (IFN/RBV) for 48 weeks in
+      order to achieve sustained virologic remission (cure). HCV treatment initiation was low,
+      often because of concern about severe treatment side effects as well as high rates of
+      virologic failure. Among the minority of medically eligible HCV+ patients (with or without
+      co-morbid HIV/AIDS) who actually began treatment with IFN/RBV, side effects cause
+      substantial attrition (about 20% by Week 12, 40% by Week 24). The most common adverse events
+      are flu-like symptoms, of which fatigue is most prominent. Depressed mood is also common
+      (mostly somatic symptoms).
+
+      Two new medications, telaprevir and boceprevir (protease inhibitors) have been successful in
+      treatment of HCV in clinical trials, and both were approved by the FDA for those patients
+      with genotype 1 HCV, and are marketed as of May 2011. One of the new drugs will be added to
+      the current regimen for genotype 1 infection. Because both drugs are protease inhibitors,
+      which develop rapid resistance when administered alone, they must be added to the current
+      standard of care rather than replace it. This is expected to vastly increase willingness of
+      doctors to recommend treatment, and for patients to agree to treatment. The investigators
+      expect that most hepatologists will recommend, and patients agree to the addition of one of
+      these medications from now on. However, it should be noted that both commonly cause fatigue
+      if it isn't already present because of HCV itself, or peginterferon or ribavirin. The major
+      adverse event associated with telaprevir is rash, and with boceprevir, anemia.
+
+      This is a 14-week placebo controlled double blind trial of armodafinil for patients about to
+      begin HCV treatment, starting armodafinil or placebo 2 weeks prior to initiation of HCV
+      treatment. Patients are recruited from the hepatology clinics at the respective sites.
+      Randomization is 1:1. Placebo patients who continue HCV treatment are offered 14 weeks of
+      armodafinil starting at Week 12 of HCV treatment when the armodafinil/placebo blind is
+      broken.
+
+      Patients will be seen weekly for the first 4 weeks to titrate armodafinil dose and manage
+      side effects, if any, and then biweekly, with telephone contact on the intervening weeks
+      through Week 12. After that, monthly telephone calls through Week 24 will be conducted with
+      patients randomized to armodafinil, and biweekly visits with placebo patients beginning
+      armodafinil at Week 12.
+
+      The primary outcome measures concern non-adherence to INF/RBV treatment: 1) missed doses; 2)
+      dose reductions, and 3) attrition due to side effects. Secondary outcomes include ratings of
+      fatigue on the Fatigue Severity Scale, depression on the Patient Health Questionnaire
+      (PHQ-9), and quality of life on the Endicott Quality of Life Enjoyment and Satisfaction
+      Questionnaire.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    European Medicines Agency issued a drug/drug interaction: sofosbuvir/modafinil
+  </why_stopped>
+  <start_date>October 2011</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">June 2014</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Adherence to Medications Form</measure>
+    <time_frame>HCV medication adherence reported at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The Medication Adherence Form was designed to assess any HCV medication dosing changes, including discontinuation, and the reasons for the changes. The form asks specifically about the HCV medications: pegylated interferon, ribavirin and Incivek (or Victrelis), as well as the study medication, armodafinil.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Fatigue Severity Scale (FSS)</measure>
+    <time_frame>Biweekly for the first month, monthly thereafter</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Fatigue Severity Scale is a 9-item scale measures the impact of fatigue on everyday functioning (e.g. &quot;fatigue interferes with my work, family or social life&quot;). Response format is a 7-point Likert scale of agreement, with a 1-week time frame. Total score is the sum of item scores. It correlates highly with other measures of fatigue, is sensitive to change, and is routinely used in studies of modafinil/armodafinil.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">26</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Armodafinil</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Active medication</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Sugar pill</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Inactive pill, matched to look like active medication</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Armodafinil</intervention_name>
+    <description>50mg - 250mg pills, taken each morning, for 14 weeks</description>
+    <arm_group_label>Armodafinil</arm_group_label>
+    <other_name>Nuvigil</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo Comparator</intervention_name>
+    <description>Inactive pill, matched to look like active medication</description>
+    <arm_group_label>Sugar pill</arm_group_label>
+    <other_name>Sugar Pill</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  HCV+ patients medically cleared for IFN/RBV treatment -HIV+ or HIV-
+
+          -  Speaks English
+
+          -  Able and willing to give informed consent
+
+          -  Fecund women: use barrier method of contraception
+
+        Exclusion Criteria:
+
+          -  Untreated and uncontrolled hypertension
+
+          -  Left ventricular hypertrophy
+
+          -  Currently taking stimulant medication
+
+          -  Uncontrolled mental health problems including: MDD, suicidal or homicidal ideation,
+             bipolar disorder, or schizophrenia
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jeffrey Weiss, Ph.D., MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Icahn School of Medicine at Mount Sinai</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Stephen J. Ferrando, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Weill Medical College of Cornell University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mount Sinai Medical Center</name>
+      <address>
+        <city>New York City</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York-Presbyterian/Weill Cornell Medical Center</name>
+      <address>
+        <city>New York City</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2015</verification_date>
+  <lastchanged_date>May 4, 2015</lastchanged_date>
+  <firstreceived_date>October 13, 2011</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Research Foundation for Mental Hygiene, Inc.</investigator_affiliation>
+    <investigator_full_name>Judith G. Rabkin, PhD</investigator_full_name>
+    <investigator_title>Research Scientist VI</investigator_title>
+  </responsible_party>
+  <keyword>HCV+</keyword>
+  <keyword>HCV treatment</keyword>
+  <keyword>Fatigue</keyword>
+  <keyword>patients starting alpha interferon/ribavirin treatment</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Armodafinil</mesh_term>
+    <mesh_term>Modafinil</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

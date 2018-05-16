@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="238">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01306617</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M12-746</org_study_id>
+    <nct_id>NCT01306617</nct_id>
+  </id_info>
+  <brief_title>A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of ABT-450 With Ritonavir (ABT-450/r) When Given Together With ABT-333 and Ribavirin (RBV) in Treatment-Naïve and Non-responder Subjects With Genotype 1 Chronic Hepatitis C Virus (HCV) Infection</brief_title>
+  <official_title>An Open-Label Pilot Study to Evaluate the Antiviral Activity, Safety and Pharmacokinetics of ABT-450 With Ritonavir (ABT-450/r) Dosed in Combination With ABT-333 and Ribavirin (RBV) in Treatment-Naive and Non-responder Subjects With Genotype 1 Chronic Hepatitis C Virus (HCV) Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AbbVie (prior sponsor, Abbott)</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>AbbVie</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the antiviral activity, safety, and
+      pharmacokinetics of ABT-450 with ritonavir (ABT-450/r) dosed in combination with ABT-333
+      (also known as dasabuvir) and ribavirin (RBV) in treatment-naïve and non responder
+      participants with genotype 1 chronic hepatitis C virus (HCV) infection.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This was a phase 2a multicenter, open-label, sequential, 3-arm, combination treatment study
+      of a regimen of ABT-450/r/ABT-333, and ribavirin (RBV) in hepatitis C virus (HCV) genotype
+      1-infected treatment-naïve participants and previous non-responders to pegylated interferon
+      (pegIFN)/RBV treatment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2011</start_date>
+  <completion_date type="Actual">October 2012</completion_date>
+  <primary_completion_date type="Actual">November 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Suppressed Below the Lower Limit of Detection (LLOD) From Week 4 Through Week 12</measure>
+    <time_frame>Week 4 through Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Analysis of the percentage of participants with hepatitis C virus ribonucleic acid less than the lower limit of detection (&lt; 15 IU/mL).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With HCV RNA &lt; 1000 International Units Per Milliliter (IU/mL)</measure>
+    <time_frame>Week 2</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Analysis of participants with HCV RNA levels below 1000 IU/mL at Week 2.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With HCV RNA Below the Lower Limit of Quantitation (LLOQ; &lt;25 IU/mL) at Week 4</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Analysis of percentage of participants with hepatitis C virus ribonucleic acid less than the lower limit of quantitation (&lt; 25 IU/mL).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response 12 Weeks (SVR12) Post-treatment</measure>
+    <time_frame>Post-treatment Day 1 to Post-treatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sustained virologic response 12 (SVR12) is defined as plasma hepatitis C virus ribonucleic acid (HCV RNA) less than the lower limit of quantification (LLOQ; &lt; 25 IU/mL) 12 weeks after the last dose of study drug.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response 24 Weeks (SVR24) Post-Treatment</measure>
+    <time_frame>Post-treatment Day 1 to Post-treatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sustained virologic response 24 (SVR24) is defined as plasma hepatitis C virus ribonucleic acid (HCV RNA) less than the lower limit of quantification (LLOQ; &lt; 25 IU/mL) 24 weeks after the last dose of study drug.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Failure to Suppress or Rebound During Treatment</measure>
+    <time_frame>Day 1 through Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to failure to achieve a 2 log10 IU/mL HCV RNA decrease at Week 1, failure to achieve HCV RNA &lt; Lower Limit of Detection (LLOD) at Week 6, or a confirmed increase of at least 0.5 log10 IU/mL above nadir (local minimum value) or confirmed HCV RNA &gt; lower limit of quantitation (LLOQ) for participants who previously achieved HCV RNA &lt; LLOQ.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Virologic Relapse Post-treatment</measure>
+    <time_frame>Post-treatment Day 1 to post-treatment week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to the first of 2 consecutive measurements of confirmed HCV RNA ≥ lower limit of quantitation (LLOQ) at any point in the post-treatment period among participants with HCV RNA &lt; LLOQ at the end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Resistance-Associated Variants and Phenotypic Resistance</measure>
+    <time_frame>Day 1 to post-treatment week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline samples were analyzed for resistance-associated amino acid variants using population sequencing. Phenotypic resistance to ABT-450 or ABT-333 at baseline was assessed by calculating the fold difference in the half maximal effective concentration (EC50) compared with the EC50 for the appropriate reference replicon (1a-H77 or 1b-Con1). Participants not achieving SVR12 were analyzed for resistance-associated variants at the time of failure using population sequencing and were compared with the baseline and appropriate reference sequences to assess amino acid changes. Phenotypic resistance to ABT-450 or ABT-333 at the time of failure was assessed by calculating the fold difference in the EC50 compared with the EC50 for the corresponding baseline sample. The number of participants with variants at resistance-associated amino acid positions and phenotypic resistance at baseline and at the time of failure are presented.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetics (C Trough) of ABT 450 in HCV Infected Participants</measure>
+    <time_frame>Day 1 to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Trough concentration (C trough) is the concentration 24 hours after once daily (QD) dose and 12 hours after twice daily (BID) dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetics (C Trough) of ABT-333 in HCV Infected Participants</measure>
+    <time_frame>Day 1 to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Trough concentration (C trough) is the concentration 24 hours after once daily (QD) dose and 12 hours after twice daily (BID) dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetics (C Trough) of Ritonavir in HCV Infected Participants</measure>
+    <time_frame>Day 1 to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Trough concentration (C trough) is the concentration 24 hours after once daily (QD) dose and 12 hours after twice daily (BID) dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetics (C Trough) of Ribavirin in HCV Infected Participants</measure>
+    <time_frame>Day 1 to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Trough concentration (C trough) is the concentration 24 hours after once daily (QD) dose and 12 hours after twice daily (BID) dose.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">50</enrollment>
+  <condition>Chronic Hepatitis C Infection</condition>
+  <condition>Hepatitis C</condition>
+  <condition>Hepatitis C Virus</condition>
+  <arm_group>
+    <arm_group_label>ABT-450/r (250/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-450/r (250/100 mg) once daily (QD) and ABT-333 (400 mg) twice daily (BID) plus weight-based ribavirin (RBV) divided BID for 12 weeks in treatment-naïve participants.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-450/r (150/100 mg) once daily (QD) and ABT-333 (400 mg) twice daily (BID) plus weight-based ribavirin (RBV) divided BID for 12 weeks in treatment-naïve participants.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in non-responders</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ABT-450/r (150/100 mg) once daily (QD) and ABT-333 (400 mg) twice daily (BID) plus weight-based ribavirin (RBV) divided BID in previous non-responders to pegylated interferon (pegIFN) and RBV.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-450</intervention_name>
+    <description>tablets</description>
+    <arm_group_label>ABT-450/r (250/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in non-responders</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-333</intervention_name>
+    <description>tablets</description>
+    <arm_group_label>ABT-450/r (250/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in non-responders</arm_group_label>
+    <other_name>dasabuvir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin</intervention_name>
+    <description>tablets</description>
+    <arm_group_label>ABT-450/r (250/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in non-responders</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ritonavir</intervention_name>
+    <description>capsules</description>
+    <arm_group_label>ABT-450/r (250/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in treatment-naïve</arm_group_label>
+    <arm_group_label>ABT-450/r (150/100 mg) and ABT-333 plus RBV in non-responders</arm_group_label>
+    <other_name>Norvir</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chronic hepatitis C virus (HCV)
+
+          -  Treatment naive, null or partial responders to previous treatment with peginterferon
+             and ribavirin
+
+          -  Males and females 18-65 years old
+
+          -  Body mass index 18 to &lt; 35 kg/m^2
+
+          -  Females must be postmenopausal for at least 2 years or surgically sterile
+
+        Exclusion Criteria:
+
+          -  Cirrhosis or extensive bridging fibrosis
+
+          -  History of cardiac disease
+
+          -  Positive screen for certain drugs or alcohol
+
+          -  Abnormal laboratory results
+
+          -  Significant sensitivity to any drug
+
+          -  Positive hepatitis B surface antigen or anti-human immunodeficiency virus antibody
+
+          -  Use of strong cytochrome P450 3A (CYP3A), cytochrome P450 2C8 (CYP2C8), and organic
+             anion transporting polypeptide 1B1 (OATP1B1) enzyme inducers or inhibitors within 1
+             month of dosing
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Daniel Cohen, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>AbbVie</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 48263</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90048</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 48264</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 51282</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 50425</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 50423</name>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <zip>64131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 48268</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 50428</name>
+      <address>
+        <city>Statesville</city>
+        <state>North Carolina</state>
+        <zip>28677</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 48266</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 50427</name>
+      <address>
+        <city>Newport News</city>
+        <state>Virginia</state>
+        <zip>23602</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 48265</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 50424</name>
+      <address>
+        <city>Madison</city>
+        <state>Wisconsin</state>
+        <zip>53792</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://rxabbvie.com</url>
+  </link>
+  <verification_date>December 2014</verification_date>
+  <lastchanged_date>December 29, 2014</lastchanged_date>
+  <firstreceived_date>February 28, 2011</firstreceived_date>
+  <firstreceived_results_date>December 29, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Infection</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+    <mesh_term>Ritonavir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

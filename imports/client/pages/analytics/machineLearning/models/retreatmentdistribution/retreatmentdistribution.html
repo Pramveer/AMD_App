@@ -1,0 +1,67 @@
+<template name="RetreatmentDistribution">
+    <div class="breadcrumb-fulldiv">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="../Efficacy">Analytics</a>
+
+            <span class="breadcrumb-item active">Retreatment</span>
+        </nav>
+    </div>
+    {{> AnalyticsSubtabs data="RetreatmentDistribution"}}
+    <!--{{> MachineLearningSubtabs data="SvrTrend"}}-->
+
+    {{#if isLoading}}
+    <div class="content-wrapper">
+        {{> NewLoading}}
+    </div>
+    {{else}}
+    <div class="utilization-div" style="float:left;padding:0">
+        <div class="ml-subTabsTitle">
+              <i class="fa fa-line-chart togglechart" data='retreatbyGenotype' aria-hidden="true" title="compare" style="cursor:pointer;margin-right:10px;color: black;
+    font-size: 15px;"></i>
+               
+               Retreatment Distribution
+            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                <div class="analytics-tooltip mlInfoTip_tooltip">
+                    <!--<div class="analytics-tooltipHead">Retreatment Distribution</div>-->
+                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                      <span class="boldfnt">N : </span> <span id='retreatment-distribution-N'></span> (<span id='retreatment-distribution-PerN'></span>) Over 
+                      <span id='retreatment-distribution-TotalN'></span> Patients with Medications (FDA Compliance)
+					  <br>
+                      <br>
+                        <span class='boldfnt'>Definition</span> - This chart represents the number of patients
+            who were being retreated with medications (FDA Compliance) for each Genotype.
+            <br> <br> Further on click of any bar, it will drill down to show the same information broken by number of total
+            treatments taken, medication and treatment period.<br/><br/>
+
+        </div>
+    </div>
+    </span>
+    </div>
+
+    <div class="row">
+         <div class="retreatmentdistribution" style="display:none;" > 
+                    <li class="active">test</li>
+                </div>
+        <div class="col-md-12 mlSubTabsChartSectionMask">
+            <div class="chart_loader payer_loader">Loading...</div>
+        </div>
+        <div class="col-md-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;">
+            <div class="panel boxshadow_borderline" style="width:98%;">
+                <div id="analyticsRetreatmentByGenotype" style="height: 500px"></div>
+                <!--removed default set height of 500px-->
+                <div id="analyticsRetreatmentByGenotypeSubCharts"></div>
+
+            </div>
+        </div>
+    </div>
+
+     <!--<div class="popup analyticsPatientsPopup" data-popup="analyticsPatientsPopup">
+      	<div class="popup-inner"  style='width: 1280px!important; height: 648px; padding: 10px 20px;overflow: auto;'>
+      	<button type="button" class="close analytics_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+      			<div class="analyticsPatientsPopup-container"> <div id="analyticsRetreatmentByGenotypeSubCharts" style="height: 500px"></div></div>
+      	</div>
+      </div>-->
+    </div>
+    {{/if}} {{>MainFooter}}
+
+</template>

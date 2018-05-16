@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="800">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01297270</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1220.47</org_study_id>
+    <secondary_id>2010-021716-42</secondary_id>
+    <nct_id>NCT01297270</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of BI 201335 (Faldaprevir) in Combination With Pegylated Interferon-alpha and Ribavirin in Treatment-naïve Genotype 1 Hepatitis C Infected Patients (STARTverso 2)</brief_title>
+  <official_title>A Phase III, Randomized, Double Blind and Placebo Controlled Study of Once Daily BI 201335 120 mg for 24 Weeks and BI 201335 240 mg for 12 Weeks in Combination With Pegylated Interferon Alpha and Ribavirin in Treatment Naive Patients With Genotype 1 Chronic Hepatitis C Infection.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <authority>Canada: Health Canada</authority>
+    <authority>South Korea: Ministry of Food and Drug Safety (MFDS)</authority>
+    <authority>Taiwan : Food and Drug Administration</authority>
+    <authority>United States: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this trial is to evaluate the efficacy and safety of two different
+      treatment regimens with BI 201335, both in combination with PegIFN/RBV) as compared to
+      standard of care (SOC) with PegIFN/RBV alone.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2011</start_date>
+  <completion_date type="Actual">April 2014</completion_date>
+  <primary_completion_date type="Actual">April 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double-Blind, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response 12 Weeks Post Treatment (SVR12)</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants with sustained virologic response 12 weeks post treatment (SVR12) defined as plasma Hepatitis C virus Ribonucleic acid (HCV RNA) level&lt;25 IU/mL (undetected) 12 weeks after the originally planned treatment duration.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response 24 Weeks Post-treatment (SVR24)</measure>
+    <time_frame>24 weeks post treatment, up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants with sustained virologic response 24 weeks post-treatment (SVR24), defined as plasma HCV RNA level &lt; 25 IU/mL (undetected) 24 weeks after the originally planned treatment duration.
+Hepatitis C virus Ribonucleic acid (HCV RNA)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early Treatment Success (ETS)</measure>
+    <time_frame>Week 4 and week 8</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants with early treatment success (ETS), defined as a plasma HCV RNA level &lt;25 IU/mL (detected or undetected) at week 4 and HCV RNA &lt;25 IU/mL (undetected) at week 8.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALT Normalisation: ALT in Normal Range at End of Treatment (EOT) When SVR12=YES</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with alanine aminotransferase (ALT) in normal range at end of treatment (EOT) when patients have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALT Normalisation: ALT in Normal Range at End of Treatment (EOT) When SVR12= NO</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with alanine aminotransferase (ALT) in normal range at end of treatment (EOT) when patients do not have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALT Normalisation: ALT in Normal Range 12 Weeks Post-treatment, When SVR12=YES</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with alanine aminotransferase (ALT) in normal range 12 weeks post-treatment when patients have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALT Normalisation: ALT in Normal Range 12 Weeks Post-treatment, When SVR12=NO</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with alanine aminotransferase (ALT) in normal range 12 weeks post-treatment when patients do not have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AST Normalisation: AST in Normal Range at End of Treatment (EOT) When SVR12=YES</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with aspartate aminotransferase (AST) in normal range at the end of treatment when patients have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AST Normalisation: AST in Normal Range at End of Treatment (EOT) When SVR12=NO</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with aspartate aminotransferase (AST) in normal range at the end of treatment when patients do not have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AST Normalisation: AST in Normal Range 12 Weeks Post-treatment, When SVR12=YES</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with aspartate aminotransferase (AST) in normal range 12 weeks post-treatment when patients have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AST Normalisation: AST in Normal Range 12 Weeks Post-treatment, When SVR12=NO</measure>
+    <time_frame>12 weeks post treatment, up to 60 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with aspartate aminotransferase (AST) in normal range 12 weeks post-treatment when patients do not have sustained virological response 12 weeks post-treatment. BL = Baseline</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">658</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>PegIFN/RBV</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>48 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BI 201335 for 24 weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>BI 201 335 QD dosing in combination with IFN/RBV</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BI201335 for 12 weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>BI 201335 QD doing in combination with PEFG IFN/RBV</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI201335</intervention_name>
+    <description>QD BI 201335</description>
+    <arm_group_label>BI201335 for 12 weeks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <arm_group_label>PegIFN/RBV</arm_group_label>
+    <arm_group_label>BI 201335 for 24 weeks</arm_group_label>
+    <arm_group_label>BI201335 for 12 weeks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI201335</intervention_name>
+    <description>QD (once daily) BI 201335</description>
+    <arm_group_label>BI 201335 for 24 weeks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          1. Chronic hepatitis C infection, diagnosed by positive anti-HCV antibodies and detected
+             HCV RNA at screening in addition to:
+
+               1. positive anti-HCV antibodies or detected HCV RNA at least 6 months prior to
+                  screening; or,
+
+               2. liver biopsy consistent with chronic HCV infection.
+
+          2. HCV genotype 1 infection confirmed by genotypic testing at screening.
+
+          3. Therapy-naïve to interferon, pegylated interferon, ribavirin or any antiviral /
+             immunomodulatory drug for acute or chronic HCV infection.
+
+          4. HCV RNA = 1,000 IU/mL at screening
+
+          5. Documentation of a liver biopsy within 3 years or fibroscan within 6 months of the
+             screening visit.
+
+             Note: If cirrhosis has been previously demonstrated on a biopsy, then biopsies
+             obtained more than 3 years before enrolment need not be repeated. Biopsies can be
+             waived for patients who would be placed at risk from the procedure. Inability to do a
+             liver biopsy should not exclude patients from a trial.
+
+          6. Age 18 to 70 years
+
+          7. Female patients:
+
+             (c) with documented hysterectomy, (d) who have had both ovaries removed, (e) with
+             documented tubal ligation, (f) who are post-menopausal with last menstrual period at
+             least 12 months prior to screening, or (g) of childbearing potential with a negative
+             serum pregnancy test at screening and Day 1, that, if sexually active, agree to use
+             one of the appropriate medically accepted methods of birth control from the date of
+             screening until 7 months after the last dose of ribavirin in addition to the
+             consistent and correct use of a condom. Patients must agree not to breast-feed at any
+             time from the date of screening until 7 months after the last dose of ribavirin.
+
+             Medically accepted methods of contraception for females in this trial are ethinyl
+             estradiol-containing contraceptives, diaphragm with spermicide substance and
+             intra-uterine device.
+
+             Male patients:
+
+               1. who are documented to be sterile, or
+
+               2. who are without pregnant female partner(s) and consistently and correctly use a
+                  condom while their female partner(s) (if of child-bearing potential) use one of
+                  the appropriate medically accepted methods of birth control from the date of
+                  screening until 7 months after the last dose of ribavirin. It is in the
+                  responsibility of the male patient to ensure that his partner(s) is not pregnant
+                  prior to screening into the study or becomes pregnant during the treatment and
+                  the observation phase.
+
+          8. Signed informed consent form prior to trial participation
+
+        Exclusion criteria:
+
+          1. HCV infection of mixed genotype (1/2, 1/3, and 1/4) diagnosed by genotypic testing at
+             screening.
+
+          2. Evidence of acute or chronic liver disease due to causes other than chronic HCV
+             infection.
+
+          3. HIV co-infection.
+
+          4. Hepatitis B virus (HBV) infection based on presence of HBs-Ag.
+
+          5. Active malignancy, or history of malignancy within the last 5 years prior to
+             screening (with an exception of appropriately treated basal cell carcinoma of the
+             skin or in situ carcinoma of the uterine cervix)
+
+          6. Active or, history of alcohol or illicit drug abuse other than cannabis within the
+             past 12 months
+
+          7. A condition that is defined as one which in the opinion of investigator may put the
+             patient at risk because of participation in this study, may influence the results of
+             this study, or limit the patient¿s ability to participate in this study.
+
+          8. Usage of any investigational drugs within 28 days prior to screening, or planned
+             usage of an investigational drug during the course of this study.
+
+          9. Received concomitant systemic antiviral, hematopoietic growth factor, or
+             immunomodulatory treatment within 28 days prior to screening. Patients being treated
+             with oral antivirals such as acyclovir, famciclovir or valacyclovir for recurrent
+             herpes simplex infection; or with oseltamivir or zanamivir for influenza A infection,
+             may be screened.
+
+         10. Received silymarin (milk thistle), glycyrrhizin, or Sho-saiko-to (SST) within 28 days
+             prior to screening and throughout the treatment phase.
+
+         11. Known hypersensitivity to any ingredient of the study drugs.
+
+         12. Alpha fetoprotein value &gt;100 ng/mL at screening; if &gt;20 ng/mL and =100 ng/mL,
+             patients may be included if there is no evidence of liver cancer in an appropriate
+             imaging study (e.g., ultrasound, CT scan, or MRI) within last 6 months prior to
+             randomization (Visit 2).
+
+         13. Decompensated liver disease, or history of decompensated liver disease, as defined by
+             the presence of: hepatic encephalopathy, ascites, or esophageal variceal bleeding
+             and/or laboratory results of any of the following:
+
+               1. International normalized ratio (INR) of =1.7
+
+               2. Serum Albumin =3.5 g/dL
+
+               3. Serum total bilirubin =2.0 mg/dL (except when the increase is predominately due
+                  to unconjugated bilirubin and related to Gilberts syndrome).
+
+         14. Pre-existing psychiatric condition that could interfere with the subject¿s
+             participation in and completion of the study including but not limited to prior
+             suicidal attempt, schizophrenia, major depression syndrome, severe anxiety, severe
+             personality disorder, a period of disability or impairment due to a psychiatric
+             disease within the past 5 years.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>1220.47.0004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0045 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0050 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dothan</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0061 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0091 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>North Little Rock</city>
+        <state>Arkansas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0008 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bakersfield</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0019 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Chula Vista</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0010 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Coronado</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0033 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0035 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>La Mesa</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0011 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0014 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0100 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0018 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Oceanside</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0059 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Poway</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0024 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0037 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0031 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0082 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Englewood</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0049 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0057 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bradenton</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0078 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Fort Lauderdale</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0086 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Fort Lauderdale</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0054 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hialeah</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0088 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0044 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0099 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0095 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Palm Harbor</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0074 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0022 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0039 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Columbus</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0052 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Decatur</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0013 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0055 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0062 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vaiparaiso</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0085 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Baton Rouge</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0087 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Baton Rouge</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0101 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0064 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0069 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0067 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Chevy Chase</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0079 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0027 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Framingham</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0065 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0023 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Tulepo</city>
+        <state>Mississippi</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0046 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Las Vegas</city>
+        <state>Nevada</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0066 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Neptune</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0097 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0083 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Brooklyn</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0038 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0090 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0053 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Charlotte</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0021 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Winston-Salem</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0098 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Tulsa</city>
+        <state>Oklahoma</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0028 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0058 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0030 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0072 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Jackson</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0032 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0041 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0063 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0029 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0017 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0056 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0071 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0060 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Fort Worth</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0081 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Forth Worth</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0009 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0068 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0016 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0015 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Burlington</city>
+        <state>Vermont</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0042 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Annandale</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0043 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Falls Church</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0026 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0092 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0073 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Milwaukee</city>
+        <state>Wisconsin</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1011 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1012 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1016 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Victoria</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1009 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Winnipeg</city>
+        <state>Manitoba</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1013 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hamilton</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1015 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1010 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.1014 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8204 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Pusan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8205 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Pusan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8203 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seongnam</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8202 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8206 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8207 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8201 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Yangsan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.0034 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Juan</city>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8803 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kaohsiung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8804 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kaohsiung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8802 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Taichung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8801 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.47.8805 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>Korea, Republic of</country>
+    <country>Puerto Rico</country>
+    <country>Taiwan</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com/</url>
+  </link>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 18, 2015</lastchanged_date>
+  <firstreceived_date>February 15, 2011</firstreceived_date>
+  <firstreceived_results_date>July 3, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

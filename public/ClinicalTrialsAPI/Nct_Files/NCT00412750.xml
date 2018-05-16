@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="75">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00412750</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CLDT600A2406</org_study_id>
+    <nct_id>NCT00412750</nct_id>
+    <nct_alias>NCT00376389</nct_alias>
+  </id_info>
+  <brief_title>Efficacy and Safety of Telbivudine in Treatment naïve Patients With Hepatitis B e Antigen (HBeAg)-Positive Chronic Hepatitis B (CHB)</brief_title>
+  <official_title>A Randomized, Open-label, Controlled, Multi-center Two-year Study Comparing Efficacy and Safety of Telbivudine, 600 mg PO in Combination With Peginterferon Alpha-2a sq 180 µg With Peginterferon Alpha-2a Monotherapy, and With Telbivudine Monotherapy in Treatment naïve Patients With HBeAg-positive CHB.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Novartis</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Novartis</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>Belgium: The Federal Public Service (FPS) Health, Food Chain Safety and Environment</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Italy: Ministry of Health</authority>
+    <authority>Netherlands: Medicines Evaluation Board (MEB)</authority>
+    <authority>Spain: Ministry of Health and Consumption</authority>
+    <authority>Switzerland: Federal Office of Public Health</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>Israel: Ministry of Health</authority>
+    <authority>Argentina: Administracion Nacional de Medicamentos, Alimentos y Tecnologia Medica</authority>
+    <authority>Taiwan: National Bureau of Controlled Drugs</authority>
+    <authority>Singapore: Health Sciences Authority</authority>
+    <authority>New Zealand: Health and Disability Ethics Committees</authority>
+    <authority>Hong Kong: Department of Health</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To evaluate the combination of telbivudine 600 mg orally (PO) once daily and peginterferon
+      alpha-2a 180 ug subcutaneous (sq) injection weekly for antiviral efficacy in comparison to
+      peginterferon alpha-2a monotherapy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Enrollment stopped for safety issues
+  </why_stopped>
+  <start_date>December 2006</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Who Achieved HBV DNA Non-detectability With Peginterferon Alpha-2a Plus Telbivudine Combination Therapy Versus Peginterferon Alpha-2a Monotherapy</measure>
+    <time_frame>At week 52</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The original primary efficacy variable was the percentage of patients achieving HBV DNA non-detectability utilizing polymerase chain reaction (PCR) (threshold for detection 300 copies/mL); however, this analysis was not performed due to premature study termination.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants With HBV DNA Non-detectability and Alanine Aminotransferase (ALT) Normalization at Week 12 and Week 24 in Participants With HBeAg-positive Chronic Hepatitis B (CHB)</measure>
+    <time_frame>Weeks 12 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants who achieved HBV DNA non-detectability using the COBAS Amplicor HBV Monitor assay utilizing polymerase chain reaction (PCR) (threshold for detection 300 copies/mL) and Alanine aminotransferase (ALT) normalization defined as ALT within normal limits on two successive visits for a patient with an elevated ALT (&gt;1.0 x upper limit normal) at baseline summarized at Weeks 12 and 24.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HBV DNA Concentration</measure>
+    <time_frame>Weeks 12 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The change from baseline in HBV DNA concentration at Weeks 12 and 24 was analyzed using an analysis of covariance (ANCOVA) model with baseline HBV DNA concentration (log10 copies/ml) as a covariate, treatment and country as factors.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Experienced Virologic Breakthrough at Weeks 48 and 52</measure>
+    <time_frame>Weeks 48 and 52</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants with Virologic breakthrough at Week 48 and 52 by treatment. For the subgroup of patients on treatment who achieve HBV DNA &gt;= 1 log10 copies/mL reduction from baseline on 2 consecutive visits, Virologic Breakthrough is defined as HBV DNA &gt;= 1 log10 copies/mL from nadir on two consecutive visits.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Hepatitis B 'e' Antigen (HBeAg) Loss and HBeAg Seroconversion</measure>
+    <time_frame>Weeks 18, 24, 48, 52 and Treatment completion (TC)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBeAg loss is defined as the loss of detectable serum HBeAg in a patient who was HBeAg positive at baseline. HBeAg seroconversion is defined as HBeAg loss with detectable Hepatitis B 'e' antibody (HBeAb). The efficacy was assessed for 18 weeks, 24 weeks, 48 weeks, 52 weeks and on treatment completion (TC).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieved HBV DNA Non-detectability With Telbivudine Monotherapy Versus Peginterferon Alpha-2a Monotherapy</measure>
+    <time_frame>Week 52</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Antiviral efficacy was assessed by percentage of patients achieving HBV DNA non-detectability assay utilizing polymerase chain reaction (PCR) (threshold for detection 300 copies/mL); however, this analysis was not performed due to premature study termination.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieved HBV DNA Non-detectability With Peginterferon Alpha-2a Plus Telbivudine Combination Therapy Versus Telbivudine Monotherapy</measure>
+    <time_frame>Week 52</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Antiviral efficacy was assessed by percentage of patients achieving HBV DNA non-detectability assay utilizing polymerase chain reaction (PCR) (threshold for detection 300 copies/mL); however, this analysis was not performed due to premature study termination.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">159</enrollment>
+  <condition>Hepatitis B</condition>
+  <arm_group>
+    <arm_group_label>LdT+ PEG-INF</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Telbivudine (LdT) 600 mg orally once a day for 104 weeks in combination with peginterferon alpha-2a (PEG-INF)180 μg subcutaneous injection once a week for 52 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LdT Monotherapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Telbivudine (LdT) monotherapy: 600 mg orally once daily for 104 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG-INF Monotherapy</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Peginterferon alpha-2a (PEG- INF) monotherapy: 180 μg subcutaneous injection once a week for 52 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Telbivudine (LdT)</intervention_name>
+    <description>600 mg orally once daily for 104 weeks.</description>
+    <arm_group_label>LdT+ PEG-INF</arm_group_label>
+    <arm_group_label>LdT Monotherapy</arm_group_label>
+    <other_name>Sebivo</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon alpha-2a</intervention_name>
+    <description>180 μg subcutaneous injection once a week for 52 weeks.</description>
+    <arm_group_label>LdT+ PEG-INF</arm_group_label>
+    <arm_group_label>PEG-INF Monotherapy</arm_group_label>
+    <other_name>Pegasys</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Documented Chronic hepatitis B (CHB) defined by all of the following:
+
+          -  Clinical history compatible with CHB
+
+          -  Detectable serum Hepatitis B Surface Antigen (HBsAg) at the Screening visit and at
+             least 6 months prior
+
+          -  HBeAg-positive at the Screening visit
+
+          -  Hepatitis B 'e' Antibody (HBeAb)-negative at the Screening visit
+
+          -  History of evidence of chronic liver inflammation,
+
+          -  Elevated serum Alanine aminotransferase (ALT) level (1.3 - 10 x upper limit of normal
+             (ULN)) at the Screening visit
+
+          -  Serum HBV DNA level ≥ 6 log10 copies/mL,
+
+          -  Chronic liver inflammation on previous liver biopsy within the previous 24 months.
+
+        Exclusion Criteria:
+
+          -  Co-infection with Hepatitis C Virus (HCV), Hepatitis D Virus (HDV), or Human
+             Immunodeficiency Virus (HIV).
+
+          -  Has any of the following drug therapy:
+
+               -  Previously been treated in a trial with telbivudine
+
+               -  Received nucleoside or nucleotide therapy whether approved or investigational
+
+               -  Received any immunomodulatory treatment in the 12 months before Screening for
+                  this study.
+
+               -  Has a medical condition that required prolonged or frequent use of systemic
+                  acyclovir or famciclovir.
+
+               -  Has a medical condition that requires frequent or prolonged use of systemic
+                  corticosteroids although inhaled or intra-articular corticosteroids are allowed.
+
+               -  Has a medical condition requiring the chronic or prolonged use of potentially
+                  hepatotoxic drugs or nephrotoxic drugs.
+
+               -  Is currently abusing alcohol or illicit drugs or has a history of alcohol abuse
+                  illicit substance abuse within the preceding two years.
+
+               -  Uses other investigational drugs at the time of enrollment, or within 30 days or
+                  5 half-lives of enrollment, whichever is longer.
+
+               -  Is currently receiving methadone.
+
+          -  Patient has any of the following:
+
+               -  History of or clinical signs/symptoms of hepatic decompensation such as ascites,
+                  esophageal variceal bleeding, hepatic encephalopathy, or spontaneous bacterial
+                  peritonitis.
+
+               -  History of malignancy of any organ system, treated or untreated, within the past
+                  5 years whether or not there is evidence of local recurrence or metastases, with
+                  the exception of localized basal cell carcinoma of the skin. Patients with
+                  previous findings suggestive of possible HCC should have the disease ruled out
+                  prior to entrance into the study.
+
+               -  One or more additional known primary or secondary causes of liver disease other
+                  than hepatitis B, including steatohepatitis.
+
+               -  History of clinical and laboratory evidence of chronic pancreatitis, or
+                  demonstrates a clinical and laboratory course consistent with current
+                  pancreatitis.
+
+          -  Has laboratory values during screening visit not within normal limits.
+
+          -  Is pregnant or breastfeeding.
+
+          -  Is a women of child-bearing potential that is unwilling to practice birth control.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Novartis</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2011</verification_date>
+  <lastchanged_date>June 14, 2011</lastchanged_date>
+  <firstreceived_date>December 15, 2006</firstreceived_date>
+  <firstreceived_results_date>December 2, 2010</firstreceived_results_date>
+  <responsible_party>
+    <name_title>novartis</name_title>
+    <organization>novatis</organization>
+  </responsible_party>
+  <keyword>hepatitis B</keyword>
+  <keyword>hepatitis B Virus (HBV)</keyword>
+  <keyword>chronic hepatitis B</keyword>
+  <keyword>telbivudine</keyword>
+  <keyword>peginterferon</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Telbivudine</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

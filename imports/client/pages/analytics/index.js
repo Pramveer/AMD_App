@@ -1,0 +1,13 @@
+import './analytics.js';
+import './adherence/adherence.js';
+import './efficacy/efficacy.js';
+import './newCharts/AnlyticsNewCharts.js';
+import './machineLearning/machineLearning.js';
+import './utilization/utilization.js';
+import './qualityindicator/qualityindicator.js';
+import './analyticsLib.js';
+import './machineLearning/models';
+import './analyticsSubtabs/analyticsSubtabs.js';
+import './patientDetailsView/analyticsPatientDetails.js';
+import './machineLearning/machineLearningSubtabs/machineLearningSubtabs.js';
+import './analyticsWaste/analyticsWaste.js';

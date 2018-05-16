@@ -1,0 +1,1216 @@
+<template name="UnTreatedPatients">
+	<div class="populationHealth">
+		<div class="unTreatedContainer" id="unTreatedPayerContainer">
+			<div class="row setrowmargin payerToolSection">
+				<div class="col-md-12 conditionSelection untreatedConditionSelection">
+
+					<div class="">
+					
+						<div class="col-md-9" style="width: 77%; padding: 0px;margin: 0px;">
+
+							<div class="col-md-3 AdvPayerDropDownContainer setpadding" id="insurancePlan" style="width: 19%;">
+							<div class="AdvPayerDropDown" id="insurancePlan">
+								<div class="dropdownLabel">
+									<span>Type of plan</span>
+								</div>
+
+				                
+									<select class="untreatedInsurancePlanSelect" name="insuranceplan">
+										<option value="all">ALL</option>
+										{{#each getPlanList}}
+										<option value="{{ claims_insurancePlan }}">{{ claims_insurancePlan }}</option>
+										{{/each}} 
+		                        	</select>	
+								</div>
+							</div>
+
+							<div class="col-md-3 AdvPayerDropDownContainer setpadding" id="untreatedselectGenotype" style="width: 19%;">
+								<div class="dropdownLabel">
+									<span>Genotype</span><br>
+								</div>
+
+								<div class="dropdownCombogen dropdownCombo" style="width: 100%;">
+									<dl class="dropdown genotypeSelect">
+										<dt>
+											<a href="#">
+												<!-- <span class="hida">ALL</span> -->
+												
+												<p class="multiSel">
+													<span title="All">ALL</span>
+												</p>
+											</a>
+										</dt>
+										<dd>
+											<div class="mutliSelect">
+												<ul>
+													<li class="checkbox">
+														<label>
+															<input type="checkbox" value="all" checked class="isCheckedalluntreated"/>
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															ALL
+														 </label>
+													</li>
+													{{#each getGenotypeList}}
+													<li class="checkbox">
+														<label>
+															<input type="checkbox" value="{{hcv_genotype}}" class="isCheckeduntreated" disabled />
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															{{hcv_genotype}}
+														</label>
+													</li>
+													{{/each}}
+												</ul>
+											</div>
+										</dd>
+									</dl>
+								</div>
+							</div>
+
+							<div class="col-md-2 setpadding AdvPayerDropDownContainer" id="selectTreatment">
+
+							<div class="AdvPayerDropDown" id="selectTreatment">
+
+								<div class="dropdownLabel">
+									<span>Treatment</span><br>
+								</div>
+								
+									<select class="untreatedTreatment">
+										  <option value="all">ALL</option>
+			                              <option value="Naive">Naive</option>
+			                              <option value="Experienced">Experienced</option>
+			                              
+			                        </select>
+			                    </div>
+							</div>
+							
+							<div class="col-md-2 setpadding AdvPayerDropDownContainer" id="selectCirrhosis">
+							<div class="AdvPayerDropDown">
+								<div class="dropdownLabel">
+									<span>Cirrhosis</span><br>
+								</div>
+								
+									<select class="untreatedCirrhosis">
+										  <option value="all">ALL</option>
+			                              <option value="Yes">Cirrhosis</option>
+			                              <option value="No">Non Cirrhosis</option>
+			                        </select>
+		                        </div>
+							</div>
+							
+							<div class="col-md-2 setpadding AdvPayerDropDownContainer" style="width: 17%;">
+								<div class="AdvPayerDropDown" >
+								<div class="dropdownLabel">
+									<span>Last Years</span><br>
+								</div>
+									<select class="untreatedtenure" id="unTreatedSelectTenureValue">
+										{{ #each getListYear}}
+											<option value="{{year}}">{{year}}</option>
+										{{/each}}
+				                    </select>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-md-3 MainFiltersRightSection" style="width: 23%;">
+						 	
+						 	<div class="goButtonWrapper">
+						 		<span class="applyUniFilters untreatedApplyUniFilters applyBtn btn btn-success btn-cons">
+									GO
+								</span>
+						 	</div>
+
+						 	<div class="complicationRateButtonWrapper untreatedDrugCheck">
+							 	<div class="complicationRateIcon"></div>
+							 	<div class="complicationRate" data-toggle="modal" data-target="#untreatedcomplicationrate">
+				             		HOSPITALIZATION RATE
+				             	</div>
+				             </div>
+				             	<!-- Config new Complicaton Rate -->
+								<div class="configNewDrugPopup complicationratemodal">
+									<div class="modal fade" id="untreatedcomplicationrate" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabelComplication">
+									<div class="modal-dialog" role="document">
+									<div class="modal-content">
+									{{#if iscomplicationDataEmpty}}
+										<div class="errorcompli">No Data Found</div>
+										<div class="modal-footer">
+									 	<div class="complicationViewApplyContaier" id="untreatedcomplicationViewApplyContaier" style="width:97%">
+										 	<div style="margin: 0 auto;padding-left:84px" class="crButtonContainer">
+									
+										 		<div class="complicationsClosebutton" data-dismiss="modal" href="#" style="cursor:pointer;">Close</div>
+										 	</div>
+										</div>
+									  </div>
+										{{else}}
+										<div class="row">
+										 <div class="col-md-12">
+										 	<div class="col-md-4 searchWrapper">
+										 		<!-- <form role="search" id="searchform" class="payersearchform">
+													<div class="payersearchboxwrapper">  
+													<input class="payersearchbox untreatedpayersearchbox" type="text" value="" name="s" placeholder="Search" id="s">			  
+													<span><i class="fa fa-search payersearchsubmit" aria-hidden="true"></i></span>		  
+													</div>
+												</form> -->
+										 	</div>
+										 	<div class="col-md-4 titlec" >
+										 		<h5 style="padding:22px;margin:0px;padding-bottom:0px;color: #333;font-weight:600;">Hospitalization Rate</h5>
+										 	</div>
+										 	<div class="col-md-4 paginat">
+										 		<span class="cardIcon relativeWeightsInfoIcon untreatedUniAdhInfo comparitivetooltip"  style="position: absolute;margin-top:18px">
+												<div class="advPayer-tooltip untreatedUniAdhTooltip" style="right:-163px;">
+													<div class="advPayer-tooltipHead">
+													Hospitalization Rate
+												</div>
+												<div class="treatedtooltiptooltipBody">
+													<span class='boldfnt'>Definition</span> - Allows us to compute the rate of hospitalization for each drug in the context of patient days and the number of patients who have prescribed with a given drug. Presented as a single rate of hospitalizations.<br/><br/>
+
+													<span class='boldfnt'>How to Calculate</span><br/>
+													<span>Rate/1000 days = </span><br/>
+													<span class='formulaSection'>
+														
+														<span style="border-bottom: 1px dotted;margin-left:100px;">#hospitalization</span>
+														<span style="margin-top: 8px;padding-left:2%;margin-left: 46px;position: absolute;"> * 1000 </span><br/>
+														<span style="padding-left:15%">(#patients * #days of treatment)</span>
+													</span><br/><br/>1000 days are 1000 Treatment Days.<br/> <b> i.e. </b> Lets assume that we have 20 patients who have been prescribed Harvoni(12W).<br/><br/>So, days of treatment will be : &nbsp;&nbsp; 12 * 7  = 84 days.<br/> days of treatment for 20 Patients : &nbsp;&nbsp; 20 * 84 = 1680 days.<br/><br/><span style="color: #555; background: #fefefe;">Now lets assume there are 10 hospitalizations for these <b> 20 patients</b><br/>For 1680 patient days, hospitalizations  = 10<br/>For 1 patients day, hospitalizations =  10/1680<br/>For 1000 patient days,hospitalizations = (10/1680)*1000</span><br/><br/>So,<br/><b>Rate/1000 days = (10/1680)*1000  = 5.952</b><br/><br/>
+													
+												</div>
+												</div>
+												</span>
+										 	</div>
+										 </div>
+										</div>
+									  <div class="modal-body cnfgDrug-body">
+										  <div class="row complicationRateHeading">
+											  <div class="col-md-12">
+											  	  <div class="col-md-1 checkbox" style="padding-left:0px;">
+											  	  	
+											  	  	<label>
+														<input type="checkbox" class=" medcomplistcheckeduntreated" value="0" checked/>
+														<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+													</label>
+
+											  	  </div>
+												  <div class="col-md-3">
+												  	<div style="width:99%;">
+												  	  Drugs
+												  	</div>
+												  </div>
+												  <div class="col-md-4">
+												  	<div class="sortg untreatedsortComplicationRate complicationRate" sort="complicationRate" type="desc" style="width:99%;">
+												  		Hospitalization rate per 1000 days
+												  	</div>
+												  </div>
+												  <div class="col-md-4">
+												  	<div class="sortg untreatedsortComplicationRate complicationCost" sort="complicationCost" type="desc" style="width:106%;">
+												  		Cost of hospitalizations per 1000 days
+												  	</div>
+												  </div>
+										      </div>
+										  </div>
+										  <div class="row complicationData untreatedcomplicationData">
+										  <!-- {{#each complicationRateView }}
+										    <div class="col-md-12 complicationRateViewP complicationRateViewuntreated" id = "complicationRateView_untreated">
+														<div class="col-md-1 checkbox">
+															<label>
+																<input type="checkbox" class=" medcomplistuntreated" value="{{drugIds}}" checked="{{ isDrugChecked drugIds }}"/>
+																<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															</label>
+														</div>
+														<div class="col-md-3 crDrugName" style="padding-left:26px;">
+															<div style="width:50%;">{{drugGroupName}}</div>
+														</div>
+														<div class="col-md-3 crCost">
+															<div style="width:15%;">{{complicationRateLabel}}</div>
+														</div>
+														<div class="col-md-3 crCost">
+															<div style="width:96%;">${{complicationCostLabel}}</div>
+														</div>
+											</div>
+										  {{/each}} -->
+										  </div>
+									  </div>
+									  <div class="modal-footer">
+									 	<div class="complicationViewApplyContaier" id="untreatedcomplicationViewApplyContaier" style="width:97%">
+										 	<div style="margin: 0 auto;" class="crButtonContainer">
+										 		<div class="complicationsApplybutton untreatedcomplicationsApplybutton">Apply</div>
+										 		<div class="complicationsClosebutton" data-dismiss="modal" href="#" style="cursor:pointer;">Close</div>
+										 	</div>
+										</div>
+									  </div>
+									  {{/if}}
+									</div><!-- /.modal-content -->
+								  </div><!-- /.modal-dialog -->
+								</div><!-- /.modal -->	
+						 	</div>
+						</div>
+					</div>
+					<!-- New Mockup for filters end -->
+				</div>
+			</div>
+
+
+<!-- Relative Weights Section  Start-->
+
+			<!-- New Mockup Start -->
+			<div class="row setrowmargin payerToolSection">
+
+				<div class="chart_loader_overlay payer_loader_overlay"></div>
+				<div class="chart_loader payer_loader">Loading...</div>
+				
+				<div class="col-md-3 setrowmargin">
+					<div class="treatingWeight relativeWeightsContainer">
+						<div class="treatingweightAdjustform weightAdjustform">
+							<div class="relativeWeightSectionHeader">
+								<span style="sectionHeading">Relative Weights</span>
+								<span class="cardIcon treatedRelativeIcon relativeWeightTooltip" style="position: absolute;margin-top:0px;">
+									<div class="advPayer-tooltip treatingRelativeTooltip" style="right: -105px;">
+														<div class="advPayer-tooltipHead">
+															Relative weights
+														</div>
+														<div class="advPayer-tooltipBody">
+															<span class='boldfnt'>Definition</span> - Enables adjusting of the Efficacy, Adherence and Cost sliders based on how important each parameter in a given context which is ultimately factored into the value score computation of the drug therapies.<br/><br/>
+														</div>
+									</div>
+								</span>
+							</div>
+							<div class="row weightAdjustformInner" style="padding: 14px;margin-left: 1px;margin-right: 1px; width: 100%" id="weightfilter2">
+								<div class="col-md-12 relativeWeight" style="border-bottom: 1px solid #e1e1e1;">
+									<div class="weightSlidersLabelSection">
+										<label>Efficacy</label>
+										<span class="cardIcon relativeWeightsInfoIcon untreatedUniEffInfo" style="position: absolute;margin-top:-1px">
+											<div class="advPayer-tooltip untreatedUniEffTooltip">
+												<div class="advPayer-tooltipHead">
+													Efficacy
+												</div>
+												<div class="advPayer-tooltipBody">
+													<span class='boldfnt'>Definition</span> - The efficacy of a drug is the measure of effectiveness of therapy based on real world evidence. It is defined as the percentage of similar patients ((i.e with same HCV genotype, cirrhosis and naive/experienced conditions) who had SVR 12 value of 2M or less after taking the given prescription for a given treatment period.
+													<br/><br/>
+													<span class='boldfnt'>Efficacy (%) =  </span><br/>
+													<span class='formulaSection'>
+														<span style='border-bottom: 1px dotted;'> Count of Drug Population Patients (Nx) where svr_12 &gt; 2M </span> <span style='margin-top: 8px;position: absolute;padding-left:2%;'>* 100 </span><br/>
+														<span style='padding-left:15%'>Drug Population (Nx)</span>
+													</span><br/>
+													<span>Where :</span><br/>
+													<span>
+														<span class='boldfnt'>SVR 12</span> is Sustained Virological Response on a gap of 12 weeks after completion of a given treatment period.<br/>
+														<span class='boldfnt'>Drug population</span> is the number of patients who underwent the therapy
+													</span>
+												</div>
+											</div>
+										</span>
+										<span class="weightSliderReset"></span>
+									</div>
+									<div class="weightSliderContainer">
+										<div class="weightslidspan0">0%</div>
+										<div class="untreatedWeightSliderDiv WeightSliderDiv">
+											<div class=" rangeslider weightSliderDivision" style="height: 10px;">
+												
+											</div>
+											<input id="txtEffWeightuntreated" type="range" value="100" step="1" min="0" max="100">
+											<div class="sliderOutput">100<span>%</span></div>
+										</div>
+										<div class="weightslidspan100">100%</div>
+									</div>
+								</div>
+								<div class="col-md-12 relativeWeight" style="border-bottom: 1px solid #e1e1e1;">
+									<div class="weightSlidersLabelSection">
+										<label>Adherence</label>
+										<span class="cardIcon relativeWeightsInfoIcon untreatedUniAdhInfo" style="position: absolute;margin-top:-1px">
+											<div class="advPayer-tooltip untreatedUniAdhTooltip">
+												<div class="advPayer-tooltipHead">
+													Adherence
+												</div>
+												<div class="advPayer-tooltipBody">
+													<span class='boldfnt'>Definition</span> - MPR is used to determine compliance and measured from the first to the last prescription.  The denominator is the duration from the start period to the completion of the last prescription, and the numerator is the number of days supplied over that period from first to last prescription.<br/><br/>
+													<span class='boldfnt'>Adherence (MPR) for Patient x = </span><br/>
+													<span class='formulaSection'>
+														<span style='border-bottom: 1px dotted;'> (days_medication/7) </span> 
+														<span style='padding-top: 8px;position: absolute;padding-left:3%'>* 100 </span><br/>
+														<span>treatment_Period</span>
+													</span>
+												</div>
+											</div>
+										</span>
+										<span class="weightSliderReset"></span>
+									</div>
+									<div class="weightSliderContainer">
+										<div class="weightslidspan0">0%</div>
+										<div class="untreatedWeightSliderDiv WeightSliderDiv">
+											<div class=" rangeslider weightSliderDivision" style="height: 10px;">
+												
+											</div>
+											<input id="txtAdhWeightuntreated" type="range" value="100" step="1" min="0" max="100">
+											<div class="sliderOutput">100<span>%</span></div>
+										</div>
+										<div class="weightslidspan100">100%</div>
+									</div>
+								</div>
+
+								<div class="col-md-12 relativeWeight" style="border-bottom: 1px solid #e1e1e1;">
+									<div class="weightSlidersLabelSection">
+										<label>Cost</label>
+										<span class="cardIcon relativeWeightsInfoIcon untreatedUniCostInfo" style="position: absolute;margin-top:-1px">
+											<div class="advPayer-tooltip untreatedUniCostTooltip">
+												<div class="advPayer-tooltipHead">
+													Cost
+												</div>
+												<div class="advPayer-tooltipBody">
+													<span>Cost is the actual total cost of the therapy for a given treatment period.</span>
+												</div>
+											</div>
+										</span>
+										<span class="weightSliderReset"></span>
+									</div>
+
+									<div class="weightSliderContainer">
+										<div class="weightslidspan0">0%</div>
+										<div class="untreatedWeightSliderDiv WeightSliderDiv">
+											<div class=" rangeslider weightSliderDivision" style="height: 10px;">
+												
+											</div>
+											<input id="txtCostWeightuntreated" type="range" value="100" step="1" min="0" max="100">
+											<div class="sliderOutput">100<span>%</span></div>
+										</div>
+										<div class="weightslidspan100">100%</div>
+									</div>
+								</div>
+
+								<div class="col-md-12 valueAnalysisSection"  style="border-bottom: 1px solid #e1e1e1;">
+									<div class="weightSlidersLabelSection">
+										<label>Patient Count</label>
+										<span class="cardIcon relativeWeightsInfoIcon untreatedUniCostInfo" style="position: absolute;margin-top:-1px">
+											<div class="advPayer-tooltip untreatedUniCostTooltip">
+												<div class="advPayer-tooltipHead">
+													Patient Count
+												</div>
+												<div class="advPayer-tooltipBody">
+													<span>Please select # patients to analyse.</span>
+												</div>
+											</div>
+										</span>
+									</div>
+									<div class="patientSliderContainer">
+										<div><i class="unTreatedpatientCountIcon fa fa-user" aria-hidden="true"></i></div>
+										<div class="unTreatedProbabilityDiv">
+											<input id="unTreatedPatSlider" type='range' value='0' min='0' max='100' step='1'  disabled/>
+											<div class="unTreatedPatSliderCount">0</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="col-md-12 exportPatientsSection" >
+									<div class="exportPatientsWrapper exportPatientsData">
+							 			<div class="exportPatientsIcon"></div>
+										<div class="exportPatientsButton">Export Patient list</div>
+									</div>
+										
+								</div>
+							</div>
+						</div>
+						<!--<div class="ourRecommendationsLink js-ourRecommendationsLinkUnTreated">Our Recommendations</div>-->
+							<div class="OurRecommendationButtonWrapper js-ourRecommendationsLinkUnTreated">
+							 <div class="ModelDrugIcon"></div>
+		             		<div class="AddNewDrugButton">
+			             		Our Recommendations
+			             	</div>
+		             	</div>
+					</div>
+				</div>
+				<!-- New Mockup End -->
+
+				<!-- Relative Weights Section  End-->
+
+
+				
+				<!-- Expenses Section  -->
+
+				<!-- New Mockup Start -->
+				<div class="col-sm-9 expensesContainer">
+					<div class="expenseSectionHeader">						
+						<div class="universeTotalPatients">
+							<div class="universeTotalPatientsIcon"></div>
+							<div class="totalPatientsText">Total UnTreated Patients: <span class="universeTotalPatientsCount" id="untreatedCount">0</span></div>
+						</div>
+						<div class="universeTotalPatients" style="float:left;">
+							<div class="universeTotalSubPatientsIcon"></div>
+							<div class="totalPatientsText">Total SubPopulation Patients: <span class="universeTotalPatientsCount" id="untreatedCurrentCount">0</span></div>
+						</div>
+					</div>
+
+					<div class="estimatedValuesDisplay expensesInnerContainer">
+						<div class=" expensesCardsParent avgValueDefaultCardicon col-sm-4">
+							<div class="projectedExpensesCard expensesCards">
+								<div class="valueScoreCardContainer observedCardContainer">
+									<span class="valueScoreCardsIcon"><div class="universeObservedValueIcon"  style="background:url(/3.png) no-repeat scroll 0 0 !important;"></div></span>
+									<span class="valueScoreCards  untreatedcurrent_best alls">0.0</span>
+									<span class=" valueScoreCardsLabels">Observed Value</span>
+						        </div>
+						       <hr style="background-color: #ff7f78;">
+								<div class="expensesCardParent">
+									<div class="observedCardContainer">
+										<div id="" style="color:white" class="expensesCardValues untreatedcardValueObserved">$0</div>
+										<div id="" class="expensesCardLabels">Using Current Drug Utilization Policy</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" expensesCardsParent bestValueDefaultCardicon col-sm-4">
+							<div class="bestValueCard expensesCards">
+								<div class="valueScoreCardContainer bestvalueCardContainer">
+									<span class="valueScoreCardsIcon"><div class="universeBestValueIcon"  style="background:url(/1.png) no-repeat scroll 0 0 !important;"></div></span>
+									<span class="valueScoreCards  untreatedavgbest alls">0.0</span>
+									<span class=" valueScoreCardsLabels">Best Value</span>
+						        </div>
+						        <hr style="background-color: #1baad7;">
+								<div class="expensesCardParent">
+									<div id="patientSavingsDisplayData" class="expensesCardValues untreatedcardValueBest" style="color:white">$0</div><br/>
+									<div id="" class=" expensesCardLabels">With 100% Utilization of Best Value Drug</div>
+									<!-- <hr> -->
+									<!-- universeQualityIndicators Begin -->
+									{{#with uniUnTreatedQualityIndicators}}
+									<div class="universeQualityIndicators-Wrapper">
+										<div class="universeEfficacyIndicators universeQualityIndicator col-sm-3">
+
+											<div class="uniEffIndicatorIcon {{efficacy_class}}" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+												<div class='uniQualityPopup'>
+													<div class='uniQualityPopupBody'>
+														<div class='uniQualityPopupContent'>
+															<div class='uniQualityPopupTitle'>Efficacy at Best Value</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{affected_efficacy}} col-md-2'></div>
+																<div class='col-md-10'>{{affected_efficacy}} by <span class='uniPopupOptiSPValue'>{{efficacy}}%</span></div>
+															</div>
+														</div>
+														{{#if isoptimizeDataIndicators optimizeDataIndicators.Efficacy.avg}}
+															<div class='uniQualityPopupContent' style='display:block;'>
+														{{else}}
+															<div class='uniQualityPopupContent' style='display:none;'>
+														{{/if}}
+															<div class='uniQualityPopupTitle'>Efficacy After Optimization</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{optimizeDataIndicators.Efficacy.arrowIndicator}} col-md-2'></div>
+																<div class='col-md-10'>{{optimizeDataIndicators.Efficacy.arrowIndicator}} by <span class='uniPopupOptiSPValue'>{{optimizeDataIndicators.Efficacy.avg}}%</span></div>
+															</div>
+															<div class='uniPopupOptiSPList'>
+																Optimized Subpopulation
+																<ul>
+																	{{#each optimizeDataIndicators.Efficacy.data}}
+																		<li style='text-decoration: underline;cursor: pointer;' tabname='untreated{{cetagoryId}}' data='{{cetagoryId}}' dataValue='{{value}}' onclick='reRenderOptimizeData(this);' >{{cetagoryName}}</li>
+																	{{/each}}
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											" title="Change in Efficacy <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.uniEffIndicatorIcon&quot;).popover(&quot;hide&quot;);'></i>">
+											</div>
+											<div class="universeIndicatorValue">{{efficacy}}<span>%</span></div>
+											<div class="universeIndicatorLabel">Efficacy</div>
+										</div>
+										<div class="universeAdherenceIndicators universeQualityIndicator col-sm-3">
+											
+											<div class="uniAdheIndicatorIcon {{adherence_class}}" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+												<div class='uniQualityPopup'>
+													<div class='uniQualityPopupBody'>
+														<div class='uniQualityPopupContent'>
+															<div class='uniQualityPopupTitle'>Adherence at Best Value</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{affected_adherence}} col-md-2'></div>
+																<div class='col-md-10'>{{affected_adherence}} by <span class='uniPopupOptiSPValue'>{{adherence}}%</span></div>
+															</div>
+														</div>
+														{{#if isoptimizeDataIndicators optimizeDataIndicators.Adherence.avg}}
+															<div class='uniQualityPopupContent' style='display:block;'>
+														{{else}}
+															<div class='uniQualityPopupContent' style='display:none;'>
+														{{/if}}
+															<div class='uniQualityPopupTitle'>Adherence After Optimization</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{optimizeDataIndicators.Adherence.arrowIndicator}} col-md-2'></div>
+																<div class='col-md-10'>{{optimizeDataIndicators.Adherence.arrowIndicator}} by <span class='uniPopupOptiSPValue'>{{optimizeDataIndicators.Adherence.avg}}%</span></div>
+															</div>
+															<div class='uniPopupOptiSPList'>
+																Optimized Subpopulation
+																<ul>
+																	{{#each optimizeDataIndicators.Adherence.data}}
+																		<li style='text-decoration: underline;cursor: pointer;' tabname='untreated{{cetagoryId}}' data='{{cetagoryId}}' dataValue='{{value}}' onclick='reRenderOptimizeData(this);' >{{cetagoryName}}</li>
+																	{{/each}}
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											" title="Change in Adherence <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.uniAdheIndicatorIcon&quot;).popover(&quot;hide&quot;);'></i>">
+											</div>
+											<div class="universeIndicatorValue">{{adherence}}<span>%</span></div>
+											<div class="universeIndicatorLabel">Adherence</div>
+										</div>
+										<div class="universeSafetyIndicators universeQualityIndicator col-sm-3">
+											
+											<div class="uniSafetyIndicatorIcon" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+												<div class='uniQualityPopup'>
+													<div class='uniQualityPopupBody'>
+														<div class='treatedSafetyQualityCharts' style='display: inline-block; height: 100%; width: 100%;'>
+															<div class='col-md-6'>
+																<div class='uniSafetyQILabel'>Rx Cost</div>
+																<div class='uniSafetyChartContainer' id='untreatedUniSafetyRxCostChart'></div>
+															</div>
+															<div class='col-md-6'>
+																<div class='uniSafetyQILabel' style='text-align:right;'>#Hospitalization</div>
+																<div class='uniSafetyChartContainer' id='untreatedUniSafetyHosptChart'></div>
+															</div>
+															<div class='uniSafetyChartLegends col-md-12'>
+																Using Best Value Drug<div class='safetyLegendsBest'></div>
+																After Modification <div class='safetyLegendsOptimized'></div>
+															</div>
+															{{renderTreatedSafetyQualityChart}}
+														</div>
+														{{#if isoptimizeDataIndicators optimizeDataIndicators.Adherence.avg}}
+															<div class='uniQualityPopupContent' style='display:block;'>
+														{{else}}
+															<div class='uniQualityPopupContent' style='display:none;'>
+														{{/if}}
+															<div class='uniPopupOptiSPList'>
+																Optimized Subpopulation
+																<ul>
+																	{{#each optimizeDataIndicators.Adherence.data}}
+																		<li style='text-decoration: underline;cursor: pointer;' tabname='untreated{{cetagoryId}}' data='{{cetagoryId}}' dataValue='{{value}}' onclick='reRenderOptimizeData(this);' >{{cetagoryName}}</li>
+																	{{/each}}
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											" title="Change in Safety <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.uniSafetyIndicatorIcon&quot;).popover(&quot;hide&quot;);'></i>" onclick="renderUniverseSafetyIndicators('untreated')">
+											</div>
+											<div class="universeIndicatorValue"></div>
+											<div class="universeIndicatorLabel">Safety</div>
+										</div>
+										<div class="universeCostIndicators universeQualityIndicator col-sm-3">
+											
+											<div class="uniCostIndicatorIcon {{cost_class}}" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+												<div class='uniQualityPopup'>
+													<div class='uniQualityPopupBody'>
+														<div class='uniQualityPopupContent'>
+															<div class='uniQualityPopupTitle'>Cost at Best Value</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{affected_cost}} col-md-2'></div>
+																<div class='col-md-10'>{{affected_cost}} by <span class='uniPopupOptiSPValue'>{{cost}}%</span></div>
+															</div>
+														</div>
+														{{#if isoptimizeDataIndicators optimizeDataIndicators.Cost.avg}}
+															<div class='uniQualityPopupContent' style='display:block;'>
+														{{else}}
+															<div class='uniQualityPopupContent' style='display:none;'>
+														{{/if}}
+															<div class='uniQualityPopupTitle'>Cost After Optimization</div>
+															<div style='height:30px;padding-top:10px;'>
+																<div class='uniQualityVal-{{optimizeDataIndicators.Cost.arrowIndicator}} col-md-2'></div>
+																<div class='col-md-10'>{{optimizeDataIndicators.Cost.arrowIndicator}} by <span class='uniPopupOptiSPValue'>{{optimizeDataIndicators.Cost.avg}}%</span></div>
+															</div>
+															<div class='uniPopupOptiSPList'>
+																Optimized Subpopulation
+																<ul>
+																	{{#each optimizeDataIndicators.Cost.data}}
+																		<li style='text-decoration: underline;cursor: pointer;' tabname='untreated{{cetagoryId}}' data='{{cetagoryId}}' dataValue='{{value}}' onclick='reRenderOptimizeData(this);' >{{cetagoryName}}</li>
+																	{{/each}}
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											" title="Change in Cost <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.uniCostIndicatorIcon&quot;).popover(&quot;hide&quot;);'></i>">
+											</div>
+											<div class="universeIndicatorValue">{{cost}}<span>%</span></div>
+											<div class="universeIndicatorLabel">Cost</div>
+										</div>
+									</div> 
+									{{/with}}
+									<!-- universeQualityIndicators End -->
+								</div>
+							</div>
+						</div>
+						<div class="expensesCardsParent valueGapDefaultCardicon col-sm-4">
+							<div class="savingCard expensesCards" style="background-color: #69bae7;">
+								<div class="valueScoreCardContainer savingCardContainer">
+									<span class="valueScoreCardsIcon "><div class="universeValueGapIcon" style="background:url(/2.png) no-repeat scroll 0 0 !important;"></div></span>
+									<span class="valueScoreCards   untreatedvaluegap alls">0.0</span>
+									<span class=" valueScoreCardsLabels">Value Gap</span>
+						        </div>
+						       <hr style="background-color: #0099cc;">
+								<div class=" expensesCardParent ">
+									<div class="savingCardContainer"  style="background-color: #69bae7;">
+										<div id="" class="savingCardValues untreatedcardValueGap">$0</div>
+										<div id="" class="savingCardLabels">Saving Opportunity Lost</div>
+									</div>
+									<div class="savingCardContainer"  style="background-color: #69bae7;">
+										 <hr style="background-color: #0099cc;">
+										<div id="" class=" savingCardValues untreatedcardValueGapSaving">$0</div>
+										<div id="" class=" savingCardLabels">Saving Per Patient Lost</div><br/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- New Mockup End Expense Section-->
+			 
+			 </div><!-- End of Row for Expense and Relative weights Secction -->
+
+
+		</div>
+	</div>
+
+
+
+
+	<div class="subpopulationWrapper untreatedSubpopulationWrapper row setrowmargin">
+		<div class="untreatedPatient chartSubPopulationHeader">
+			<ul class="tabNavigation">
+				<li class="charts active">
+					<a class="link" href="#">Charts</a>
+				</li>
+				<li class="subPopulation supolulationTab" id="untreatedSubpopulationTab">
+					<a class="link" href="#">Sub Population</a>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="untreatedSP404Section">
+			<div>No Data Found</div>
+		</div> -->
+		<div class="chartSubPopulation untreatedchartSubPopulation">
+			<div class="chartSection untreatedPatientchartSection untreatedPatienttemplateSubSection">
+
+				<div class="chart_loader_overlay payer_loader_overlay"></div>
+				<div class="chart_loader payer_loader">Loading...</div>
+
+
+				<div class="untreatedChartscontainer">
+					<div class="col-md-4 ChartContainer" style="z-index:1 !important;">
+						<div class="untreated_cureRateChart untreatedCharts cureRateChart">
+							<div class="chartHeader">
+								<div class="chartTitle">Potential For Cure</div>
+							</div>
+							<div class="chartBody" id="untreated_cureRateChart" onclick="zoomSubpopulationChart(this,'untreated','cureRateChart')"></div>
+							<!-- <div class="totalCuredPatients">
+								<div class="currentUMPatients"><img src="/analytics-VioletPeople.png"><span></span></div>
+								<div class="recomendedUMPatients"><img src="/analytics-VioletPeople.png"><span></span></div>
+							</div> -->
+							<div class="cureRateChart-Label">Cure Rate</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 ChartContainer" style="z-index:2 !important;">
+						<div class="untreated_conparativeDrugValueChart untreatedCharts comparativeDrugValueChart">
+							<div class="chartHeader">
+								<div class="chartTitle">Comparative Drug Value <br/><span>Top 10 Drugs</span></div>
+							</div>
+							<div class="comparativeChart_Combo col-md-12" data = "untreated">
+								<select>
+									<option value="1" selected>Efficacy Vs. Cost</option>
+									<option value="2">Expenses Vs. Patient Count</option>
+								</select>
+							</div>
+							<img src="/optimalPointForValueZoneDot.png" class="optimalPointForPayerTabBChart" style="position: absolute; top: 60px; right: 115px; display: block;">
+						    <!-- <div style="padding-top: 4px;position: absolute;bottom: 16px;z-index: 1;left:25px;"><img src="/relativeTabChart.png" class="LegendsPayerTabBChart" style="height:25px;"></div> -->
+						    <div style="padding-top: 20px;position: absolute;bottom: 15px;z-index: 1;right: 11px;"><img src="/comparitveValue.png" class="LegendsPayerTabBChart" style="margin-left: 50px;height:25px;"></div>
+							<div style="width:100%;height:200px;z-index:9;padding-top: 15px; cursor:pointer;position: absolute;" class="chartBody" id="untreated_conparativeDrugValueChart"></div> 
+						</div>
+					</div>
+
+					<div class="col-md-4 ChartContainer" style="z-index:3 !important; border-right: 0px;">
+						<div class="untreated_FutureSavingChart untreatedCharts futureSavingChart">
+							<div class="chartHeader">
+								<div class="chartTitle">Future Saving Opportunity <br/><span>With Best Value Drug (In Dollars)</span></div>
+							</div>
+							<div>
+								<div class="chartBody" id="untreatedFutureSavingChart" onclick="zoomSubpopulationChart(this,'untreated','genotypeandsavings')"></div>
+								<div class="futureSavingChart-Label">Genotypes</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 ChartContainer" style="z-index:4 !important;display:none;">
+						<div class="untreated_savingOpportintiyLostChart untreatedCharts">
+							<div class="chartHeader">
+								<div class="chartTitle">Lost Value<br/><span>By Patient Category</span></div>
+							</div>
+							<div class="chartBody" id="untreatedSavingOppotunityLostChart" onclick="zoomSubpopulationChart(this,'untreated','genotypeandvaluegap')"></div>
+						</div>
+					</div>
+ 
+					<div class="col-md-12 ChartContainer" style="z-index:5 !important; border-right: 0px;">
+						<div class="untreated_actuaExpansesChart untreatedCharts actualSavingChart">
+							<div class="chartHeader">
+								<div class="chartTitle"><span class="actualExpenseTitle" id="untreatedActualExpenseChartTitle">Projected Savings</span><span>&nbsp;- By Clinical Criticality</span></div>
+							</div>
+							<div class="untreatedActuaExpensesChartSwitch ActuaExpensesChartSwitch" style="width: 50%;position: absolute;right: 0px;top: 0px;">
+								<button class="untreatedActuaExpensesChartSavings ActuaExpensesChartSavings active">Savings</button>
+								<button class="untreatedActuaExpensesChartExpenses ActuaExpensesChartExpenses">Expenses</button>
+							</div>
+							<div>
+								<div class="chartBody GenotypeVsCirrhosisChart" id="untreatedGenotypeVsCirrhosisChart" style="width: 48%; float:left;" onclick="zoomSubpopulationChart(this,'untreated','genotypeandcirrhosis')"></div>
+								<div class="GenotypeVsCirrhosisChart-Label">Genotypes</div>
+							</div>
+							<div class="chartBody CirrhosisVsNonCirrhosisChart" id="untreatedCirrhosisVsNonCirrhosisChart" style="width: 50%; float: left; padding-left:13px;" onclick="zoomSubpopulationChart(this,'untreated','cirrhosisandnoncirrhosis')"></div>
+						</div>
+					</div>
+				</div></div>
+				<div class="subPopulationSection untreatedPatientsubPopulationSection untreatedPatienttemplateSubSection">
+					<div class="subPopulationView-Wrapper">
+						<!-- <div class="subPopulationView-Switch">
+							<div title="Switch To List View" class="subPopListViewSwitch untreatedSubPopulationListView-Switch active" onclick="changeSupopulationView('untreatedSubPopulationDetailView-Switch', 'untreatedSubPopulationListView-Switch')"></div>
+							<div title="Switch To Details View" class="subPopLDetailViewSwitch untreatedSubPopulationDetailView-Switch" onclick="changeSupopulationView('untreatedSubPopulationListView-Switch', 'untreatedSubPopulationDetailView-Switch')"></div>
+						</div> -->
+						<!-- Sub Population List View -->
+						<div class="subPopulationListViewDetailView subPopulationListView-Container untreatedSubPopulationListView-Container row">
+							<!-- <div class="untreatedSubPopulationView-ListHeader subPopulationView-ListHeader col-sm-12">
+								<div class="untreatedSubPopulationList-SortCombWrapper subPopulationList-SortCombWrapper col-sm-3">
+									<span class="sortBy">Sort By</span>
+									<select class="subPopulationList-SortCombo untreatedSubPopulationList-SortCombo">
+									<option value="patientCount">Patient Count</option>
+									<option value="projectedCost">Projected Cost</option>
+								</select>
+								</div>
+								<div class="subPopulationListTitle col-sm-2" style="color:#e15d3a;">Current Drug Utilization Policy</div>
+								<div class="subPopulationListTitle col-sm-3" style="color:#4bae4e;">100% Utilization of Best Value Drug</div>
+								<div class="subPopulationListTitle col-sm-2" style="color:#265d76;">Adjusted Drug Cost and Utlization</div>
+							</div> -->
+							<div class="subPopulationListTable untreatedSubPopulationListTable col-sm-12">
+								<div class="subPopulationList-heading untreatedSubPopulationList-heading row setrowmargin">
+									<div class="col-sm-1" sort="#">#</div>
+									<div class="col-sm-1" style="padding:0px;">
+										<div class="untreatedsubpopsort  untreatedcountpatient" sort="countpatient" type="asc" style="width:99%;">Patients</div>
+									</div>
+									<div class="col-sm-2">
+										<div class="untreatedsubpopsort  untreatedcategory_name" sort="category_name" type="asc" style="width:99%;">Sub Population</div>
+									</div>
+									<div class="col-sm-2">
+										<div class="untreatedsubpopsort  costsubpop untreatedprojectedcost" sort="projectedcost" type="no" style="width:99%;">Projected Expenses</div>
+									</div>
+									<div class="col-sm-2">
+										<div class="untreatedsubpopsort untreatedsortbestcost" sort="sortbestcost" style="width:99%;">Best Value Cost</div>
+									</div>
+									<div class="col-sm-2" style="padding:0px;">
+										<div class="untreatedsubpopsort untreatedsortsaving" sort="sortsaving" style="width:99%;">Saving Opportunity</div>
+									</div>
+									<div class="col-sm-2">
+										<div class="untreatedsubpopsort untreatedsortoptimize" sort="sortoptimize" style="width:98%;">Projected New Expenses</div>
+										
+									</div>
+								</div>
+								<div class="subPopulationView-ListBody untreatedSubPopulationView-ListBody row setrowmargin">
+									{{#each getListData}}
+									<div class="subPopulationListBody-row untreatedSubPopulationListBody-row row untreateddetailViewLink untreated{{category_id}}detailViewLink" data="{{category_name}}"  viewName="untreated" identifier = "{{category_id}}">
+										
+										<div class="col-sm-1">{{sequence}}</div>
+										<div class="col-sm-1">{{count}}</div>
+										<div class="col-sm-2">{{category_name}}</div>
+										<div class="col-sm-2">${{total_cost_display}}</div>
+										<div class="col-sm-2">${{best_value_cost_display}}</div>
+										<div class="col-sm-2">${{savings_display}}</div>
+										<div class="col-sm-2">
+											{{#if isOptimizedValueGreaterThanZero optimizedValue}}
+												<div class="{{category_name}} col-sm-6"><span dataContant="{{category_id}}" class="inner {{category_name}} isOptimizedSection" tabname='untreated{{category_id}}' style="text-decoration: underline;cursor: pointer;" onclick="reRenderOptimizeData(this,'list',{{best_value_cost}},{{total_cost}},{{optimizedValue}});" data="{{stringifyOptimizedData category_id}}">${{optimizedValue_display}}</span></div>
+											{{else }} 
+												<div class="{{category_name}} col-sm-6">${{optimizedValue_display}}</div>
+											{{/if}}	 
+										</div>
+										<div data="{{category_name}} col-sm-6" viewName="untreated{{category_id}}" class="optimizeLink"></div>
+									</div>
+									<!--
+									view
+									-->
+									<!-- Sub Population Detail View -->
+									<div class="subPopulationDetailView-Container subPopulationListViewDetailView untreatedSubPopulationDetailView-Container untreatedlistDetailView_{{category_id}}" style="display:none">
+											<div class="subpopulationDetailView">
+
+												<!-- Subpopulation Left Section -->
+												<!--
+												<div class="col-sm-3 subpopulationDetailViewLeft">
+
+													<div class="subPopulationCategoriesWrapper">
+														<div class="subPopulationList-SortCombWrapper">
+															<span class="sortBy">Sort By</span>
+															<select class="subPopulationList-SortCombo untreated{{category_id}}SubPopulationList-SortCombo">
+																<option value="patientCount">Patient Count</option>
+																<option value="projectedCost">Projected Cost</option>
+															</select>
+														</div>
+
+														<div class="subPopulationCategoriesContainer untreated{{category_id}}subPopulationCategoriesContainer">
+														<div class="untreated{{category_id}}SubPopulationCategoriesItem subPopulationCategoriesItem" data = "{{category_id}}">{{category_name}}</div>
+														</div>
+
+													</div>
+													<div class="subpopulationRelativeValueChart">
+														<div class="subpopulationRelativeValueChart-title">Relative Value Positioning</div>
+														<div style="width:250px;height:200px;z-index:9;padding-top: 15px; cursor:pointer;" class="row dimpleMapsContainerForPayer-untreated-{{category_id}}">
+														</div>
+														  <img src="/optimalPointForValueZone.png" class="optimalPointForPayerTabBChart" style="position: absolute; top: 60px; right: 10px; display: block;">
+														  <div style="padding-top: 20px;"><img src="PayerTabBChartLegend.png" class="LegendsPayerTabBChart" style="margin-left: 50px;"></div> 
+													</div>
+													
+												</div>-->
+												<!-- Subpopulation Left Section  End -->
+
+
+												<!-- Subpopulation Right Section -->
+												<div class="col-sm-12 subpopulationDetailViewRight">
+													<!-- Subpopulation Group -->
+													<!-- <div class="SubPopulationGroupContainer subpopulationSectionContainer">	
+														<div class="SubPopulationGroupTitle SubPopulationSectionTitle">Sub-Population Group</div>
+														<div class="SubPopulationGroupInfo SubPopulationSectionInfo">
+															<div class=" subcategoryInfo-PatientCategory untreated{{category_id}}SubCategoryInfo-PatientCategory">1a Naive Cirrhosis</div>	
+															<div class="subcategoryInfo-PatientCount">
+																<span class="untreated{{category_id}}ThisCategoryPatients">732</span>/
+																<span class="untreatedTotalFilteredPatients totalFilteredPatients">2000</span>
+																<span style="padding-left: 20px;"><img src="/patient_icon_orange.png"></span>
+															</div>
+														</div>
+													</div> -->	<!-- Subpopulation Group End-->
+
+
+													<!-- Subpopulation Group -->
+													<div class="SubPopulationGroupContainer subpopulationSectionContainer">
+														<div class="SubPopulationGroupInfo SubPopulationSectionInfo">
+															<span class="SubPopulationGroupTitle SubPopulationSectionTitle">Sub-Population Group</span>
+															<span class=" subcategoryInfo-PatientCategory untreated{{category_id}}SubCategoryInfo-PatientCategory">{{category_name}}</span>
+														</div>
+														<div class="subcategoryInfo-PatientCount">
+															<span class="SubPopulationGroupPatientIcon" style="padding-left: 20px;"></span>
+															<span>Total Patients</span>
+															<span class="untreated{{category_id}}ThisCategoryPatients">732</span>/
+															<span class="untreatedTotalFilteredPatients totalFilteredPatients">2000</span>
+															
+														</div>
+													</div>
+													<!-- Subpopulation Group End-->
+
+
+													
+													
+
+													<div class="subpopulationSectionContainer col-md-12" style="    border-bottom: 1px solid #e1e1e1;">
+
+														<!-- Subpopulation Expanses -->
+														<div class="subpopulationExpansesContainer col-md-4">
+															<div class="subpopulationExpansesTitle SubPopulationSectionTitle">Expenses and Outcomes</div>
+															<div class="subpopulationExpansesInfo SubPopulationSectionInfo">
+
+																<div class="SubpopulationExpansesChart untreated{{category_id}}ExpansesAndOutcomeChart"></div>
+																
+															</div>
+
+														</div>	<!-- Subpopulation Expanses End -->
+
+
+														<!-- Subpopulation Quality Indicators -->
+														<div class="subpopulationQualityIndicatorsContainer col-md-4">
+															<div class="subpopulationQualityIndicatorsTitle SubPopulationSectionTitle">Quality Indicators</div>
+															<div class="subpopulationQualityIndicatorsInfo SubPopulationSectionInfo">
+
+																<div class="indicatorsContainer untreated{{category_id}}SubPopulationSectionQualityIndicatorsContainer">
+																	
+																</div>
+																
+															</div>
+
+														</div>	<!-- Subpopulation Quality Indicators End -->
+
+
+														<!-- Relative Value Positioning Chart -->
+														<div class="subpopulationValueChartContainer col-md-4">
+															<div class="SubPopulationSectionTitle subpopulationRelativeValueChart-title">Relative Value Positioning</div>
+															<div class="subpopulationRelativeValueChart">
+																<div style="width:100%;height:200px;z-index:9;padding-top: 0px; cursor:pointer;" class="row dimpleMapsContainerForPayer-untreated{{category_id}}">
+																</div>
+																<img src="/optimalPointForValueZoneDot.png" class="optimalPointForPayerTabBChart" style="position: absolute; top: 60px; right: 10px; display: block;">
+																<!-- <div style="padding-top: 20px;"><img src="relativeTabChart.png" class="LegendsPayerTabBChart spRelativeValuePositionImg" style=""></div> --> 
+																<div style=""><img src="/comparitveValue.png" class="LegendsPayerTabBChart spRelativeValueUtilizationImg" style="height:24px;"></div>
+															</div>
+
+														</div>
+
+													</div>
+
+
+													<!-- Subpopulation DrugInfo Section -->
+													<div class="subpopulationDrugInfoContainer subpopulationSectionContainer">
+														<div class="subpopulationDrugInfoInfo subpopulationDrugInfoInfoDetailLinkView">
+															<div class="subpopulationDrugInfoTitle">Optimize Projected Expenses -<span>&nbsp; Customize Drug Cost and Utilization</span></div>
+
+															<div id="untreated{{category_id}}drugComparisionChart" class="dccContainer">
+																<div class="drugComparisonIcon"></div>
+																<div class="drugComparisonSection">Drug Comparison
+							                                        <div class="comparisonChartBody"></div>
+							                                    </div>
+															</div>
+
+															<!-- Subpopulation DrugInfo Section Table-->
+															<div class="subpopulationDrugInfoTable">
+																
+																<div class="payerComparisonTable">
+																	<!-- <div class="comparisonTableheader drugInfoTableHeader row">
+																		<div class="col-md-7">
+																			<div class="row">
+																				<div class="col-md-4">Drug Name</div>
+																				<div class="col-md-8">
+																					<div class="row">
+																						<div class="col-md-3">Value Score</div>
+																						<div class="col-md-3" style="margin-left: -10px;">Efficacy</div>
+																						<div class="col-md-3" style="margin-left: 0px;">Adherence</div>
+																						<div class="col-md-3" style="margin-left: 10px;">Safety</div>
+																					</div>	
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-5">
+																			<div class="row">
+																				<div class="col-md-4">Utilization
+																					<div>
+																						<div id="untreated{{category_id}}utilizationReset" class="utilizationReset" onclick="resetUtilizationSlider('untreated{{category_id}}',this);" style="visibility: hidden;"></div>
+																					</div>
+																				</div>
+																				<div class="col-md-4">Drug Cost</div>
+																				<div class="col-md-4">Projected Expenses</div>
+																			</div>
+																		</div>
+																		
+																	</div> -->
+																	<div class="drugInfoTableBody row untreated{{category_id}}DrugInfoTableBody">
+																		{{#each DrugsData}}
+																		{{/each}} 
+																	</div>
+																	<!-- <div class="drugInfoTableFooter untreated{{category_id}}DrugInfoTableFooter row">
+																		<div class="col-md-6">
+																		</div>
+																		<div class="col-md-6">
+																			<div class="col-md-6" style="padding:0px;">
+																				<div class="col-md-6 drugInfoFooter-totalPat untreated{{category_id}}drugInfoFooter-totalPat">0</div>
+																				
+																				<div class='col-md-5 drugInfoFooter-totalUti untreated{{category_id}}drugInfoFooter-totalUti'>0</div>
+																				<div class="drugInfoFooter-Label drugInfoFooter-totalPatLabel">Total Patients</div>
+																			</div>
+																			<div class="col-md-6" style="padding:0px;">
+																				<div class="drugInfoFooter-totalProjExpenses untreated{{category_id}}drugInfoFooter-totalProjExpenses">$0</div>
+																				<div class="drugInfoFooter-Label drugInfoFooter-totalExpenses">Total</div>
+																			</div>
+																		</div>
+																	</div> -->
+																</div>
+
+															</div>	<!-- Subpopulation DrugInfo Section End-->
+														</div>
+
+													</div>	<!-- Subpopulation DrugInfo Section End -->
+
+												</div>	<!-- Subpopulation Right Section End -->
+											</div>
+										</div>
+										<!-- Sub Population Detail View End -->
+
+									{{/each}}
+								</div>
+							</div>
+							<div class="subPopulationList-Footer untreatedSubPopulationList-Footer col-sm-12">
+								<div class="col-sm-2" style="margin-left: 60px;">
+									<div class="SPList-totalPatients">0</div>
+									<div class="SPList-footerLabels">Total Patients</div>
+								</div>
+								<div class="col-sm-1"></div>
+								<div class="col-sm-2" style="margin-left: 30px;">
+									<div class="totalProjectedCost">$0</div>
+									<div class="SPList-footerLabels">Total Projected Cost</div>
+								</div>
+								<div class="col-sm-2" style="padding-left: 27px;">
+									<div class="totalBestCost">$0</div>
+									<div class="SPList-footerLabels">Total Best Value Cost</div>
+								</div>
+								<div class="col-sm-3" style="padding-left: 27px;">
+									<div class="totalSavingsOppurtunity">$0</div>
+									<div class="SPList-footerLabels">Total Saving Opportunity</div>
+								</div>
+							</div>
+						</div>
+						<!-- Sub Population List View End -->
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="saveModelContainer untreated_saveModelContainer">
+
+        	<div class="modelInfoContainer untreated_modelInfoContainer">
+        		<div class="js-hideModelDetails hideModelDetails" style="cursor:pointer;">x</div>
+        		<div class="modelNameLabel">Model Name : </div>
+	        	<div><input type="text" class="modelNameInput" name="modelName" id="saveModelName"></div>
+	        	<div class="modelNotesLabel">Notes :</div>
+	        	<textarea class="modelNotesInput" cols="8" rows="3"></textarea>
+	        	<div class="saveModelButton" id="js-saveModel" data = '' >Save</div>
+        	</div>
+        	
+    		<div class="js-showModelDetails showModelDetails flash"><span class="tooltiptext">Save Model</span></div>
+    	</div>
+    	<!-- Required Helpers -->
+    	{{isModelChanged}}
+
+    	<!-- Recomendations Popup -->
+		<div class="popup recommendationsPopup" data-popup="untreatedRecommendationsPopup" id="untreatedRecommendationsPopup">
+			<div class="popup-inner">
+				<div class="recommendationsTitle">Our Recommendations</div>
+				<div class="recommendationsContainer">
+				<div class="recommendationsTitle-Filters">
+					<div class="col-md-4">
+						<span style="font-weight:bold;">Genotype: </span>
+						<span class="rec-Genotype"></span>
+					</div>
+					<div class="col-md-4">
+						<span style="font-weight:bold;">Treatment: </span>
+						<span class="rec-Treatment"></span>
+					</div>
+					<div class="col-md-4">
+						<span style="font-weight:bold;">Cirrhosis: </span>
+						<span class="rec-Cirrhosis"></span>
+					</div>
+				</div>
+				<div class="recommendationsTitle-Filters">
+					<!-- <div class="col-md-4">
+						<span style="font-weight:bold;">Genotype: </span>
+						<span class="rec-Genotype"></span>
+					</div>
+					<div class="col-md-4">
+						<span style="font-weight:bold;">Treatment: </span>
+						<span class="rec-Treatment"></span>
+					</div>
+					<div class="col-md-4">
+						<span style="font-weight:bold;">Cirrhosis: </span>
+						<span class="rec-Cirrhosis"></span>
+					</div> -->
+					<div class="col-md-12 conditionSelection treatedConditionSelection">
+
+
+					<div class="">
+
+						<div class="col-md-10" style="width: 100%; padding: 0px;margin: 0px;">
+
+							<div class="col-md-3 setpadding AdvPayerDropDownContainer" style="width: 16%;">
+
+								<div class="AdvPayerDropDown" id="insurancePlanProfile">
+										<div class="dropdownLabel">Type of plan</div>
+										<select class="untreatedInsurancePlanSelectProfile" name="insuranceplan">
+											<option value="all" selected>ALL</option>
+											{{#each getPlanList}}
+											<option value="{{ claims_insurancePlan }}">{{ claims_insurancePlan }} </option>
+											{{/each}}
+										</select>
+								</div>
+
+							</div>
+
+							<div class="col-md-3 setpadding AdvPayerDropDownContainer" id="untreatedselectGenotypeProfile" style="width: 16%;">
+								<div class="dropdownLabel">
+									<span>Genotype</span><br>
+								</div>
+								<div class="dropdownCombogen dropdownCombo" style="width: 100%;">
+									<dl class="dropdown genotypeSelect">
+										<dt>
+											<a href="#">
+												<!-- <span class="hida">Select</span> -->
+												<p class="multiSel">
+													<span title="All">ALL</span>
+												</p>
+											</a>
+										</dt>
+										<dd>
+											<div class="mutliSelect">
+												<ul>
+													<li class="checkbox">
+														<label>
+															<input type="checkbox" value="all" checked class="isCheckedall"/>
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															ALL
+														 </label>
+													</li>
+													{{#each getGenotypeList}}
+													<li class="checkbox">
+														<label>
+															<input type="checkbox" value="{{hcv_genotype}}" class="isCheckeduntreatedProfile" disabled />
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															{{hcv_genotype}}
+														</label>
+													</li>
+													{{/each}}
+												</ul>
+											</div>
+										</dd>
+									</dl>
+								</div>
+							</div>
+
+							<div class="col-md-2 setpadding AdvPayerDropDownContainer" style="width: 16%;">
+
+								<div class="AdvPayerDropDown " id="selectTreatmentProfile">
+										<div class="dropdownLabel">Treatment</div>
+										<select class="untreatedTreatmentProfile" name="treatment">
+										  <option value="all">ALL</option>
+			                              <option value="Naive">Naive</option>
+			                              <option value="Experienced">Experienced</option>
+										</select>
+								</div>
+							</div>
+
+							<div class="col-md-2 setpadding AdvPayerDropDownContainer" id="selectCirrhosisProfile" style="width: 16%;">
+
+		                        <div class="AdvPayerDropDown" id="selectCirrhosisProfile">
+										<div class="dropdownLabel">Cirrhosis</div>
+										<select class="untreatedCirrhosisProfile" name="cirrhosis">
+										  <option value="all">ALL</option>
+			                              <option value="Yes">Cirrhosis</option>
+			                              <option value="No">Non Cirrhosis</option>
+										</select>
+								</div>
+							</div>
+
+							<div class="col-md-1 setpadding AdvPayerDropDownContainer" style="width: 16%;">
+
+								<div class="AdvPayerDropDown" >
+										<div class="dropdownLabel">Last Years</div>
+										<select class="untreatedtenureProfile" id = "unTreatedSelectTenureValueProfile" name="year">
+										  {{ #each getListYear}}
+												<option value="{{year}}">{{year}}</option>
+											{{/each}}
+										</select>
+								</div>
+							</div>
+							<div class="col-md-1 setpadding" style="width: 5%;">
+								<div class="goButtonWrapper" style="margin-top: 25px;">
+							 		<span class="applyUniFilters untreatedApplyUniFiltersProfile applyBtn btn btn-success btn-cons">
+										GO
+									</span>
+							 	</div>
+						 	</div>
+
+						</div>
+						</div>
+						</div>
+				</div>
+				<!--<div class="recommendationsHeader">
+					<div class="col-md-2">Profile Name</div>
+					<div class="col-md-4">Profile Description</div>
+					<div class="col-md-4" style="text-align: center">
+						<div>Quality Impacts</div>
+						<div class="col-md-3" style="text-align:left;">Efficacy</div> 
+						<div class="col-md-3" style="text-align:left;">Safety<br/><span style="margin-left:-30px;">#rx,#hospitalization</span></div>
+						<div class="col-md-3" style="text-align:left;">Adherence</div>
+						<div class="col-md-3" style="text-align:left;">Cost</div>
+					</div>
+					<div class="col-md-2">Saving Opportunities</div>
+				</div>-->
+				<div class="untreatedRecommendations-Lists"></div>
+				<!--<div class="recommendations-ApplyBtn js-untreatedRecc-ApplyBtn">Apply</div>-->
+				</div>
+				<div class="popup-close" data-popup-close="untreatedRecommendationsPopup" href="#" style="cursor:pointer;">x</div>
+			</div>
+		</div>
+</template>

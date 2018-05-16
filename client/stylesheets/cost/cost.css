@@ -1,0 +1,98 @@
+.cls4ctrdata{ margin: 0 auto; width: 50%}
+.cls4ctrdata h3{ color: #f8512c; font-size: 18px; font-weight: normal; margin: 0 0 6px 0}
+.cls4ctrdata h4{ font-size: 14px; font-weight: bold; margin: 0}
+.cls4ctrdata ul { padding-left: 15px; margin-top: 5px }
+.cls4ctrdata ul li{ list-style: none; }
+.sptdata{ margin-top: 5px; margin-bottom: 10px}
+
+.costContent .e-slidemenu{
+	position: absolute;
+    right: 32px;
+    top: 15px;
+}
+.costContent .menulines{
+	padding: 8px
+}
+.costontent{
+	min-height: 360px;
+	height: 100%;
+    float: left;
+    width: 100%;
+}   
+.costLeftPanel{
+    width: 20%;
+    background: white;
+    margin-top: 3%;
+    margin-right: 2%;
+    float: left;
+    padding-left: 30px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    min-height: 270px;
+    border-radius: 4px;
+    border-left: 7px solid #133248;
+}
+
+.costRightPanel{
+	position: relative;
+    width: 78%;
+    background: #fff;
+    margin-top: 3%;
+    float: left;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    min-height: 270px;
+    border-radius: 4px;
+}
+.bindingImage{
+    position: absolute;
+    left: 20px;
+    top: 58px;
+}
+.clpInnerdiv{
+    margin: 30px 0px;
+}
+.clpLables{
+	color: #0671b6;
+}
+.clpInputs{
+	border: none;
+    background: none;
+    color: #555;
+}
+
+.costContentTable{
+	background: #344653;
+    width: 99.2%;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.dCost_Cell{
+	display: table-cell;
+	width: 332px;;
+}
+.txtShadow{
+	text-shadow: 1px 1px 1px gainsboro;
+    color: #444;
+}
+.dCost_Fxwid{
+	width: 140px
+}
+.dCost_Fxwid_Dlr{
+	width: 90px; 
+    text-align: center;
+}
+.dCost_Tbl_Head{
+	font-weight: bold; 
+	font-size: 14px; 
+	margin-bottom: 15px; 
+	display: table-row;
+}
+.dCost_Tbl_Row{
+	padding: 10px 20px;
+    width: 100%;
+}
+.dCost_Tbl_Row:nth-of-type(odd) {
+    background-color: #e4f5ff;
+}

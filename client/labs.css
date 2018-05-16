@@ -1,0 +1,16 @@
+.pin-labs-div .table tbody,
+.pin-labs-div .table tbody tr {
+    text-align: center;
+}
+
+.pin-labs-div #page-rows-form {
+    margin-left: 10px;
+}
+
+.sub-sidemenu>li.active a {
+    color: white;
+}
+
+.sub-sidemenu>li.active {
+    background: #ef4823;
+}

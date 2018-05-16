@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="54">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02032901</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI444-218</org_study_id>
+    <nct_id>NCT02032901</nct_id>
+  </id_info>
+  <brief_title>Phase III Daclatasvir and Sofosbuvir for Genotype 3 Chronic HCV</brief_title>
+  <acronym>ALLY 3</acronym>
+  <official_title>A Phase 3 Evaluation of Daclatasvir and Sofosbuvir in Treatment Naive and Treatment Experienced Subjects With Genotype 3 Chronic Hepatitis C Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bristol-Myers Squibb</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To study the combination of Daclatasvir and Sofosbuvir for the treatment of hepatitis C
+      virus (HCV) Genotype 3 infection
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2014</start_date>
+  <completion_date type="Actual">December 2014</completion_date>
+  <primary_completion_date type="Actual">September 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Treatment-Naive Participants With Sustained Virologic Response at Follow-up Week 12 (SVR12) Target Detected (TD) or Target Not Detected (TND)</measure>
+    <time_frame>Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C virus (HCV) RNA less than the lower limit of quantitation ie., 25 IU/mL, TD or TND at follow-up Week 12. HCV RNA levels were measured by the Roche Cobas® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Treatment-Experienced Participants With Sustained Virologic Response at Follow-up Week 12 (SVR12) Target Detected (TD) or Target Not Detected (TND)</measure>
+    <time_frame>Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C virus (HCV) RNA less than the lower limit of quantitation ie., 25 IU/mL, target detected or target not detected at follow-up Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Rapid Virologic Response at Week 4 (RVR) Target Not Detected (TND)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as hepatitis C virus RNA levels to be &lt; lower limit of quantitation ie, 25 IU/mL TND at Week 4. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Complete Early Virologic Response (cEVR) Target Not Detected (TND)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>cEVR was defined as hepatitis C virus RNA levels to be &lt; lower limit of quantitation ie, 25 IU/mL TND at Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With End of Treatment Response (EOTR) Target Not Detected (TND)</measure>
+    <time_frame>Up to the end of treatment (up to 24 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EOTR were defined as hepatitis C virus RNA levels to be &lt; lower limit of quantitation ie, 25 IU/mL TND at end of treatment. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieved Hepatitis C Virus (HCV) RNA Levels Less Than the Lower Limit of Quantitation (LLOQ) - Target Not Detected (TND)</measure>
+    <time_frame>Week 1, 2, 6, 8 (treatment period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants who achieved HCV RNA &lt;LLOQ, TND was determined (LLOQ: 25 IU/mL). HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieved Hepatitis C Virus (HCV) RNA Levels Less Than the Lower Limit of Quantitation (LLOQ)- Target Detected (TD) or Target Not Detected (TND)</measure>
+    <time_frame>Week 1, 2, 4, 6, 8, 12, End of treatment (treatment period), Week 4 (follow-up period), Week 24 (follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants who achieved HCV RNA &lt;LLOQ,TD or TND was determined (LLOQ: 25 IU/mL). HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Or Without Cirrhosis at Baseline Who Achieved Sustained Virologic Response at Follow-up Week 12 (SVR12)</measure>
+    <time_frame>Baseline, Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C virus (HCV) RNA less than the lower limit of quantitation ie. 25 IU/mL, target detected or target not detected at follow-up Week 12. Cirrhosis was considered a negative predictor of SVR in participants treated with an interferon formulation or ribavirin. Presence or absence of cirrhosis was determined at baseline and follow-up Week 12 in the participants to evaluate the post-treatment relapse.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With CC or Non-CC Genotype at the IL28B rs12979860 Single Nucleotide Polymorphisms (SNPs) Who Achieved Sustained Virologic Response After 12 Weeks of Follow-up (SVR12)</measure>
+    <time_frame>Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants categorized into 2 genotypes (CC and non-CC) based on SNPs in the IL28B gene were assessed for SVR12, defined as response in which hepatitis C virus (HCV) RNA levels below lower limit of quantitation (LLOQ) below target detected or target not detected at follow-up Week 12 (LLOQ: 25 IU/mL). HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Serious Adverse Events (SAEs) and Discontinuations Due to Adverse Events (AEs)</measure>
+    <time_frame>From Day 1 first dose to last dose plus 7 days</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE was defined as any new unfavorable symptom, sign, or disease or worsening of a preexisting condition that does not necessarily have a causal relationship with treatment. SAE was defined as a medical event that at any dose resulted in death, persistent or significant disability/incapacity, or drug dependency/abuse; was life-threatening, an important medical event, or a congenital anomaly/birth defect; or required or prolonged hospitalization.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">173</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>A1:Daclatasvir + Sofosbuvir in treatment-naive subjects</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Daclatasvir 60 mg tablet and Sofosbuvir 400 mg tablet orally once daily for 12 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>A2:Daclatasvir + Sofosbuvir in treatment-experienced subjects</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Daclatasvir 60 mg tablet and Sofosbuvir 400 mg tablet orally once daily for 12 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir</intervention_name>
+    <arm_group_label>A1:Daclatasvir + Sofosbuvir in treatment-naive subjects</arm_group_label>
+    <arm_group_label>A2:Daclatasvir + Sofosbuvir in treatment-experienced subjects</arm_group_label>
+    <other_name>BMS-790052</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <arm_group_label>A1:Daclatasvir + Sofosbuvir in treatment-naive subjects</arm_group_label>
+    <arm_group_label>A2:Daclatasvir + Sofosbuvir in treatment-experienced subjects</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        For more information regarding BMS clinical trial participation, please visit
+        www.BMSStudyConnect.com
+
+        Key Inclusion Criteria:
+
+          -  Subjects must be able to understand and agree to comply with the prescribed dosing
+             regimens and procedures, report for regularly scheduled study visits, and reliably
+             communicate with study personnel about adverse events and concomitant medications
+
+          -  Subjects chronically infected with hepatitis C virus (HCV) genotype 3
+
+          -  Subjects who are HCV treatment-naive
+
+          -  Subjects who are HCV treatment-experienced (previous exposure to non-structural 5A
+             inhibitors is prohibited)
+
+          -  HCV RNA ≥10,000 IU/mL at screening
+
+        Key Exclusion Criteria:
+
+          -  HCV Genotypes other than genotype-3 infection; mixed genotype infections are not
+             permitted
+
+          -  Liver or any other organ transplant (including hematopoietic stem cell transplants)
+             other than cornea and hair
+
+          -  Current or known history of cancer (except in situ carcinoma of the cervix or
+             adequately treated basal or squamous cell carcinoma of the skin) within 5 years prior
+             to screening
+
+          -  Documented or suspected hepatocellular carcinoma, as evidenced by previously obtained
+             imaging studies or liver biopsy (or on a screening imaging study/liver biopsy if this
+             was performed)
+
+          -  Evidence of decompensated liver disease including, but not limited to, radiologic
+             criteria, a history or presence of ascites, bleeding varices, or hepatic
+             encephalopathy
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bristol-Myers Squibb</last_name>
+    <role>Study Director</role>
+    <affiliation>Bristol-Myers Squibb</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Scripps Clinic</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Anthony M. Mills MD Inc</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90069</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>National Research Institute</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90057</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Peter J Ruane MD Inc</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90036</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Huntington Medical Research Institutes</name>
+      <address>
+        <city>Pasadena</city>
+        <state>California</state>
+        <zip>91105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Associates Research Group</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92123</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Precision Research Institute, LLC</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Quest Clinical Research</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Midland Florida Clinical Research Center, LLC</name>
+      <address>
+        <city>Deland</city>
+        <state>Florida</state>
+        <zip>32720</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Florida Hepatology Research</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Atlanta Gastroenterology Associates</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Gastrointestinal Specialists Of Georgia</name>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <zip>30060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Dupage Medical Group</name>
+      <address>
+        <city>Downers Grove</city>
+        <state>Illinois</state>
+        <zip>60515</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Digestive Disease Associates, P.A.</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Medical Center, Inc.</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Kansas City Research Institute</name>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <zip>64131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Southwest Care Center</name>
+      <address>
+        <city>Santa Fe</city>
+        <state>New Mexico</state>
+        <zip>87505</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Shore University Hospital</name>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Premier Medical Group Of The Hudson Valley, Pc</name>
+      <address>
+        <city>Poughkeepsie</city>
+        <state>New York</state>
+        <zip>12601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Asheville Gastroenterology Associates, PA</name>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <zip>28801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Digestive Health Specialists, PA</name>
+      <address>
+        <city>Winston-salem</city>
+        <state>North Carolina</state>
+        <zip>27103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Main Line Gastroenterology Associates Pc</name>
+      <address>
+        <city>Perkasie</city>
+        <state>Pennsylvania</state>
+        <zip>18944</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Center For Liver Diseases</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Gastro One</name>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <zip>38138</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas Clinical Research Institute, LLC</name>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <zip>76012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>American Research Corporation</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Centers Of America</name>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <zip>84123</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Lifetree Clinical Research</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Inova Fairfax Hospital</name>
+      <address>
+        <city>Falls Church</city>
+        <state>Virginia</state>
+        <zip>22042</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Mason Medical Center</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Fundacion De Investigacion De Diego</name>
+      <address>
+        <city>San Juan</city>
+        <zip>00927</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://ctr.bms.com/ctd/start.do</url>
+    <description>BMS Clinical Trial Information</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/studyconnect/Pages/home.aspx</url>
+    <description>BMS clinical trial educational resource</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/clinical_trials/Pages/Investigator_Inquiry_form.aspx</url>
+    <description>Investigator Inquiry form</description>
+  </link>
+  <link>
+    <url>http://www.fda.gov/MEDWATCH/safety.htm</url>
+    <description>FDA Safety Alerts and Recalls</description>
+  </link>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 29, 2015</lastchanged_date>
+  <firstreceived_date>January 9, 2014</firstreceived_date>
+  <firstreceived_results_date>August 12, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

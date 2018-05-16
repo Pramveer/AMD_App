@@ -1,0 +1,206 @@
+<template name="DataObservation">
+    <!-- DATA QUALITY SECTION -->
+    <div class="col-lg-12 chartContainer">
+        <div class="boxContainerDashboard">
+                <div class="col-md-12 wasteOpportunity-Card">
+                    <div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 49px;">
+                        <div class="wb-header">
+                            <div class="wb-header-title">
+                                <h5 class="wasteQuestion">
+                                Data Observations
+                                    <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                            <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_retreated">
+                                                <div class="wasteOpportunity-tooltipHead">Data Observations</div>
+                                                <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                                    <span class='boldfnt'>Definition</span> - This chart represents the following
+                                                    data quality issues:
+                                                    <br/> 1) Missing Genotypes: Patients who doesn't have genotype data. <br/> 2) Non Standard
+                                                    CPT Codes: CPT codes that does not match to the industry standards.
+                                                    <br/>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </h5>
+                            </div>
+                            <div class="wb-header-value-container">
+                                <span class="wb-patient-lable">Total Patients - </span>
+                                <span id="dataQualityMissingGenotypes-allPatient" class="wb-header-value">0</span>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-12 ">
+                            <div class="ui styled accordion" id="divuiDataObservations">
+                                    <div id="divaccPatientAnalysis" class="title">
+                                            Patient Analysis
+                                            <i class="dropdown icon"></i>
+                                                    <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                                        <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+                                                            <div class="wasteOpportunity-tooltipHead">Patient Analysis
+                                                        </div>
+                                                        <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                                            <span class='boldfnt'>Definition</span> - In this section we are showing the summary of analysis done on
+                                                                                                    the total number of patients.
+                                                        </div>
+                                                        </div>
+                                                    </span>
+                                    </div>
+                                    <div id="divaccPatientAnalysiscontent" class="content">
+                                        <table class="tableDataLog">
+                                        {{#each patientAnalysisData}}
+                                            <tr>
+                                            <td>{{{Observations}}}</td>
+                                            </tr>
+                                        {{/each}}
+                                        </table>
+                                    </div>
+                    <!--End  Null Report-->
+                            <div id="divaccNonStandardCPTCodes" class="title">
+                                Non Standard CPT Codes
+                                <i class="dropdown icon"></i> <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                    <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+                                        <div class="wasteOpportunity-tooltipHead">Non Standard CPT Codes</div>
+                                            <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                            <span class='boldfnt'>Definition</span> - 
+                                            In this section we are showing the variations of CPT codes for the various procedures.
+                                            <br/><br/>
+                                            <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;word-wrap:break-word;'>Sourced from <br />
+                                            <a target="_blank" href="http://www.mysupportpath.com/~/media/Files/mysupportpath_com/CPT_Codes.pdf"> http://www.mysupportpath.com/~/media/Files/mysupportpath_com/CPT_Codes.pdf </a></span>
+                                            </div>
+                                        </div>
+                                </span>
+                            </div>
+                            <div  id="divaccNonStandardCPTCodescontent"  class="content"> 
+                                <table class="tableDataLog"> 
+                                    <thead><tr> <th style="width: 57%">Test Names</th> <th style="width: 18%">Standard CPT Code</th> <th style="width: 25%">Customer CPT Code Variations</th> </tr>
+                                    </thead>
+                                    {{#each cptCodeWaste}}	<tr> <td>{{PROCEDURE_DESC}}</td>  <td>{{STANDARD_CPT_CODE}}</td><td>{{PHS_CPT_CODE}}</td> </tr> 
+
+                                    {{/each}}
+                                </table> 
+                            </div>
+                    <!--End  CPT Code Report-->
+                            <div id="divaccDataLog" class="title">
+                            Data Log
+                            <i class="dropdown icon"></i> 
+                            <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_retreated">
+                                    <div class="wasteOpportunity-tooltipHead">Data Log
+                                    </div>
+                                    <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                    <span class='boldfnt'>Definition</span> - In this section we are showing the summary of observations done
+                                    on the data.
+                                    </div>
+                                </div>
+                            </span>
+                            </div>
+                            <div id="divaccDataLogcontent" class="content">
+                                <table class="tableDataLog">
+                                    <!--<thead>
+                                        <tr>
+                                            <th>Observation</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>-->
+                                    {{#each dataLog}}
+                                    <tr>
+                                        <td>{{{Observations}}}</td>
+                                        <!--<td>{{{Status}}}</td>-->
+                                    </tr>
+
+                                    {{/each}}
+                                </table>
+                            </div>
+                    <!--End Data Log-->
+                            <div id="divaccRiskLog" class="title">
+                                Risk Log
+                                <i class="dropdown icon"></i> <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                    <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_retreated">
+                                        <div class="wasteOpportunity-tooltipHead">Risk Log</div>
+                                        <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                        <span class='boldfnt'>Definition</span> - In this section we are showing the risks summary generated after
+                                        observing the data.
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div id="divaccRiskLogcontent" class="content">
+                                <table class="tableDataLog">
+                                    <!--<thead>
+                                        <tr>
+                                            <th>Observation</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>-->
+                                    {{#each riskLog}}
+                                    <tr>
+                                        <td>{{{Observations}}}</td>
+                                        <!--<td>{{{Status}}}</td>-->
+                                    </tr>
+
+                                    {{/each}}
+                                </table>
+                            </div>
+                            <!--End  Risk Log-->
+                            <div id="divaccNullReport" class="title">
+                                Null Report
+                                <i class="dropdown icon"></i> <span class="wasteOpportunity-infoIcon wasteInfoTip">
+                                    <div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_retreated">
+                                        <div class="wasteOpportunity-tooltipHead">Null Report</div>
+                                        <div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+                                        <span class='boldfnt'>Definition</span> - In this section we are showing the summary of Null Report after
+                                        observing the data.
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                            <div id="divaccNullReportcontent" class="content">
+                                <table class="tableDataLog">
+                                    <thead>
+                                        <tr>
+                                            <th>Table Names</th>
+                                            <th>NULL (Average %)</th>
+                                        </tr>
+                                    </thead>
+                                    {{#each nullReportData}}
+                                    <tr>
+                                        <td>{{Table}}</td>
+                                        <td>{{NullPercent}}</td>
+                                    </tr>
+
+                                    {{/each}}
+                                </table>
+                            </div>
+                    <!--End  Null Report-->
+                    <br><br>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- end panel body -->
+             <div class="panel-body">
+                <div class="col-md-12 ">
+                     <div class="" id="">
+                                    <div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 49px;border-bottom: 1px dotted #e4e4e4" >
+                                      <div style="padding: 5px 5px 0px 5px; float:left; width:100%">
+                                         <div class="wb-header-title">
+                                            <h5 class="wasteQuestion"> Treatment Completion and Cure Rates </h5>
+                                         </div>
+                                       </div>
+                                    </div>
+                    <div class="boxContainerDashboard">
+					 <div class="panel-body">
+						<div class="commonInfoTable">
+								<div class="dataObservtionTable" style="max-height:350px;" ></div>
+						</div>
+					 </div>
+					</div>
+                    </div>   
+                </div>
+             </div>
+             <!-- end of Table -->
+        </div>
+    </div>
+</template>

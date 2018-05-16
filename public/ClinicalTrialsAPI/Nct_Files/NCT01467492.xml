@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="88">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01467492</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VX11-950-116</org_study_id>
+    <nct_id>NCT01467492</nct_id>
+  </id_info>
+  <brief_title>Telaprevir, Peg-IFN-alfa-2a, and RBV in Treatment-Experienced Black/African American and Non-Black/African American Subjects With Genotype 1 Chronic Hepatitis C</brief_title>
+  <official_title>An Open-Label, Phase 4 Study of Telaprevir, Peginterferon Alfa-2a (Pegasys®), and Ribavirin (Copegus®) in Treatment-Experienced Black/African American and Non-Black/African American Subjects With Genotype 1 Chronic Hepatitis C Who Have Not Achieved a Sustained Viral Response With a Prior Course of Interferon-Based Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vertex Pharmaceuticals Incorporated</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Vertex Pharmaceuticals Incorporated</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the efficacy and safety of telaprevir in
+      combination with pegylated interferon alfa 2a (Peg-IFN-alfa-2a) and ribavirin (RBV) in
+      treatment-experienced Black/African American and non-Black/African American participants
+      with Genotype 1 Chronic Hepatitis C (CHC), who have not achieved a sustained viral response
+      with a prior course of interferon-based therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a single-arm, open-label, multicenter study of treatment-experienced participants
+      with Genotype 1 CHC, who self-identified as Black/African American (Group A) or who did not
+      self-identify as Black/African American (Group B). Participants did not achieve a sustained
+      virologic response 24 weeks after at least 1 prior course of Peg-IFN-alfa-2a/RBV therapy of
+      standard duration, and have 1 of the following viral responses:
+
+        -  Prior relapse: Participant had a documented undetectable hepatitis C virus ribonucleic
+           acid (HCV RNA) level at the planned end of treatment of at least 42 weeks duration (HCV
+           RNA evaluated anytime between 3 weeks before and 6 weeks after the last dose of Peg
+           IFN-alfa-2a or RBV).
+
+        -  Prior null response: Participant had a &lt;2-log10 decrease in HCV RNA at 12 weeks, during
+           prior Peg IFN-alfa-2a/RBV treatment, but never achieved undetectable HCV RNA while on
+           treatment.
+
+        -  Prior partial response: Participant had a &gt;=2-log10 decrease in HCV RNA at 12 weeks,
+           during prior Peg IFN-alfa-2a/RBV treatment, but never achieved undetectable HCV RNA
+           while on treatment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    It was decided by Sponsor on 13 January 2014 to terminate study early at primary efficacy
+    endpoint as part of a decision to modify drug development plan.
+  </why_stopped>
+  <start_date>January 2012</start_date>
+  <completion_date type="Actual">May 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Viral Response 12 Weeks After Last Actual Dose of Study Drug (SVR12)</measure>
+    <time_frame>12 weeks after last actual dose of study drug (up to Week 60)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as an undetectable Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Levels (&lt;lower limit of quantification) at 12 weeks after last actual dose of study drug. The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 international units per milliliter (IU/mL).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Viral Response 24 Weeks After Last Actual Dose of Study Drug (SVR24)</measure>
+    <time_frame>24 weeks after last actual dose of study drug (up to Week 72)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR24 was defined as an undetectable HCV RNA Levels (&lt;lower limit of quantification) at 24 weeks after last actual dose of study drug. The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Extended Rapid Viral Response (eRVR)</measure>
+    <time_frame>Week 4 and Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 IU/mL. eRVR was defined as undetectable HCV RNA (&lt;lower limit of quantification) at both 4 weeks and 12 weeks after the start of study treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Relapse</measure>
+    <time_frame>4 weeks (Wk) (up to Week 52), 12 weeks (up to Week 60) and 24 weeks (up to Week 72) after actual EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 IU/mL. Relapse was defined as having undetectable HCV RNA (&lt;lower limit of quantification) at actual end of treatment (EOT) and followed by detectable HCV RNA (&gt;=lower limit of quantification) during follow-up.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Virologic Breakthrough</measure>
+    <time_frame>Week 2, 4, 8, and 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 IU/mL. Virologic breakthrough on treatment was defined as an increase of at least 1 log10 from nadir or confirmed detectable HCV RNA (&gt;=lower limit of quantification) after undetectable HCV RNA (&lt;lower limit of quantification). Percentages are calculated by using total number in FA set as denominator, in each category.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With On Treatment Virologic Failure</measure>
+    <time_frame>Week 2, 4, 8, 12, 16, 24, 28, 36, 40, and 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>On treatment virologic failure was defined as meeting any futility rule or completing assigned treatment duration and having detectable HCV RNA at EOT. The plasma HCV RNA level was measured using Roche TaqMan HCV RNA assay. The lower limit of quantification was 25 IU/mL. Futility rules: 1) Virologic breakthrough (at least 1 log10 increase from nadir or confirmed detectable HCV RNA after undetectable HCV RNA) from Day 1 through Week 24 or 48 (depending on treatment duration); 2) HCV RNA &gt;1000 IU/mL during Weeks 4 to 12, inclusive; 3) Detectable HCV RNA after Week 12. Percentages are calculated by using total number in FA set as denominator, in each category.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)</measure>
+    <time_frame>Up to Week 52</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE: any untoward medical occurrence in a participant during the study; the event does not necessarily have a causal relationship with the treatment. This includes any newly occurring event or previous condition that has increased in severity or frequency after the informed consent form is signed. AE includes SAE as well as Non-SAEs. SAE (subset of AE): medical event or condition, which falls into any of the following categories, regardless of its relationship to the study drug: death, life threatening adverse experience, in-patient hospitalization/prolongation of hospitalization, persistent/significant disability or incapacity, congenital anomaly/birth defect, important medical event.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Telaprevir Resistant HCV Variant at Non-Structural Viral Protein 3-4A (NS3-4A) Region</measure>
+    <time_frame>up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sequence analysis of the HCV NS3-4A region was performed to monitor telaprevir-resistant variants. HCV RNA was isolated from the plasma, amplified by reverse transcription-polymerase chain reaction (RT-PCR), and sequenced (sequencing assay limit of detection HCV RNA &gt;=1000 IU/mL). Results of this outcome measure were to be reported for overall participants instead of by race and by prior response.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Plasma Concentration of Telaprevir, Peginterferon Alfa-2a (Peg-IFN) and Ribavirin (RBV)</measure>
+    <time_frame>48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </other_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">121</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Black</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Telaprevir 750 milligram (mg) tablet 3 times per day for 12 weeks in combination with Peg-IFN-alfa-2a 180 microgram per week (mcg/week) subcutaneous injection and RBV tablet orally twice daily at a dose of 1000 milligram per day (mg/day) (for participants weighing &lt;75 kilograms [kg]) or 1200 mg/day (for participants weighing &gt;=75 kg) for 24 or 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-Black</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Telaprevir 750 mg tablet 3 times per day for 12 weeks in combination with Peg-IFN-alfa-2a 180 mcg/week subcutaneous injection and RBV tablet orally twice daily at a dose of 1000 mg/day (for participants weighing &lt;75 kg) or 1200 mg/day (for participants weighing &gt;=75 kg) for 24 or 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Telaprevir</intervention_name>
+    <description>Tablet</description>
+    <arm_group_label>Black</arm_group_label>
+    <arm_group_label>Non-Black</arm_group_label>
+    <other_name>Incivek, VX-950</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Tablet</description>
+    <arm_group_label>Black</arm_group_label>
+    <arm_group_label>Non-Black</arm_group_label>
+    <other_name>Copegus®, RBV</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Pegylated Interferon Alfa-2a</intervention_name>
+    <description>Subcutaneous Injection</description>
+    <arm_group_label>Black</arm_group_label>
+    <arm_group_label>Non-Black</arm_group_label>
+    <other_name>Pegasys®, Peg-IFN-Alfa-2a</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants self-identify as Black/African American (Group A) or did not
+             self-identify as Black/African American (Group B)
+
+          -  Participants have Genotype 1 CHC and laboratory evidence of hepatitis C virus (HCV)
+             infection for at least 6 months
+
+          -  Participants did not achieve sustained viral response 24 weeks after last dose of
+             study drug (SVR24), after at least 1 prior course of Peg-IFN-alfa-2a/RBV therapy of
+             standard duration
+
+        Exclusion Criteria:
+
+          -  Participants have received previous treatment with telaprevir or any other protease
+             inhibitor(s) for CHC
+
+          -  Participants who have evidence of hepatic decompensation
+
+          -  Participants have diagnosed or suspected hepatocellular carcinoma
+
+          -  Participants have any other cause of significant liver disease in addition to HCV
+
+          -  Participants are currently abusing illicit drugs or alcohol, or have history of
+             illicit substance or alcohol abuse within 2 years before the screening visit
+
+          -  Participants who participated in any investigational drug study within 90 days before
+             dosing
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Monitor</last_name>
+    <role>Study Director</role>
+    <affiliation>Vertex Pharmaceuticals Incorporated</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Alabama</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>California</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Connecticut</name>
+      <address>
+        <city>New Haven</city>
+        <state>Connecticut</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Washington, DC</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Florida</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Florida</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Florida</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Florida</name>
+      <address>
+        <city>West Palm Beach</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Georgia</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Illinois</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Louisiana</name>
+      <address>
+        <city>Baton Rouge</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Louisiana</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Louisiana</name>
+      <address>
+        <city>Shreveport</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Maryland</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Michigan</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New Jersey</name>
+      <address>
+        <city>Vineland</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New York</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Carolina</name>
+      <address>
+        <city>Charlotte</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>North Carolina</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Texas</name>
+      <address>
+        <city>San Antoinio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia</name>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Washington</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>July 13, 2015</lastchanged_date>
+  <firstreceived_date>November 3, 2011</firstreceived_date>
+  <firstreceived_results_date>June 1, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>VX-950, Incivek</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

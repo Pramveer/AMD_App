@@ -1,0 +1,201 @@
+/*
+g.c3-axis.c3-axis-y .tick{
+
+    visibility :hidden;
+}
+g.c3-axis.c3-axis-x path.domain{
+     visibility :hidden;
+
+}
+
+g.c3-axis.c3-axis-x .tick{
+
+    font-size: 16px;
+        font-weight: bold;
+}
+
+g.c3-axis.c3-axis-x line{
+    stroke: none;
+}
+
+.c3-chart-texts{
+    font-size: 15px;
+    fill: #0B4C96;
+}
+*/
+#chart{
+    background: url('efficacybg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover; 
+}
+
+g.barChartGroup rect :hover{
+    opacity: 1;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.efficacy-tbl {
+    text-align: center;
+    }
+
+.efficacy-tbl table, .efficacy-tbl th, .efficacy-tbl td {
+    border: 1px solid #ED7D31 !important;
+}
+
+.efficacy-tbl th {
+    background-color: #E7E6E6;
+    color: #000;
+    text-align: center !important;
+}
+
+.efficacy-tbl td {
+    background-color: #FFF;
+    color: #000;
+}
+
+.cbContainer {
+    margin-bottom: 17px;
+    text-align: right;
+}
+
+.warning-message {
+    padding: 10px;
+    background: #FFEFEF;
+    color: grey;
+    border: 1px solid #EAC4C4;
+    box-shadow: 1px 1px 1px 1px #E8E8E8;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+
+.small-note {
+    font-size: 10px;
+}
+
+.dis_tbl {
+    display: table;
+    width: 100%;
+}
+
+.dis_row {
+    display: table-row;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dis_cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dis_cell.col-01 {
+    width: 40%;
+}
+
+.dis_cell.col-02 {
+    margin-right: 10px;
+    width: 30%;
+}
+
+.dis_cell.col-03 {
+    width: 28%;
+}
+
+/* Set pointer cursor for title attribute*/
+*[title],.c3-event-rect,.tick{
+ cursor: pointer;   
+}
+th{
+    text-align: center !important;
+}
+
+
+
+
+
+
+#canvas{
+    background: url('efficacybg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover; 
+}
+
+.efficacyChartHeading {
+    font-size: 24px;
+    color: #515151;
+    text-align: center;
+    padding: 2px;
+}
+
+.efficacyLegendBox {
+    background: #F9FDFE;
+    width: 175px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #B3B3B3;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    right: 26px;
+}
+
+.efficacyLegendLabel {
+    float: left;
+    color: #7D7D7D;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+
+.efficacyLegendValue {
+    float: right;
+    color: #0099D2;
+    width: 50%;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+
+.efficacyChartSwitch {
+    position: absolute;
+    right: 2.5%;
+    top: 36%;
+    z-index: 10;
+}
+.efficacyChartSwitchImg{
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.backToSvrTrend  {
+    display: none;
+}
+
+.backToSvrTrend .backButtonCss {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.followPatientsDiv {
+    background-image: url('/user-icon.png');
+    height: 20px;
+    width: 30px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    cursor: pointer;
+}

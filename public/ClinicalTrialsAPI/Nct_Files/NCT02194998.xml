@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="870">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02194998</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A5329</org_study_id>
+    <secondary_id>11935</secondary_id>
+    <nct_id>NCT02194998</nct_id>
+  </id_info>
+  <brief_title>Evaluating the Safety and Effectiveness of Interferon-Free Treatment of Hepatitis C Virus Infection in HIV-Coinfected Adults on Antiretroviral Therapy</brief_title>
+  <official_title>Interferon-Free Therapy for Chronic Hepatitis C Virus Genotype 1 Infection in Subjects With HIV-1 Coinfection Receiving Concurrent Antiretroviral Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institute of Allergy and Infectious Diseases (NIAID)</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      HIV and hepatitis C virus (HCV) infection are diseases that share the same risk factors and
+      routes of transmission. For this reason, many people infected with HIV are also infected
+      with HCV. Interferon is a drug used to treat HCV; however, in people coinfected with HIV and
+      HVC, interferon treatment does not work well and can cause unwanted side effects. The
+      purpose of this study is to evaluate the safety, tolerability, and effectiveness of
+      interferon-free HCV treatment in HIV/HCV coinfected adults who are taking antiretroviral
+      (ARV) therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study will evaluate the safety, tolerability, and effectiveness of a combination of
+      three different drugs to treat HCV in adults who are coinfected with HIV and HCV. The three
+      drugs are ABT-450/r/ABT-267, ABT-333, and ribavirin (RBV).
+
+      The study will enroll 100 HIV/HCV-coinfected participants aged 18 to 70 years. The
+      participants will never have received treatment for HCV, but will be on an antiretroviral
+      therapy (ART) regimen containing either raltegravir (RAL) or darunavir (DRV). (The ART
+      regimens will not be provided by the study.) The participants will be assigned to one of
+      four groups (Groups A, B, C, and D). Participants in Groups A and B will be on RAL-based
+      ART; participants in Groups C and D, on DRV-based ART. For each group, the study will
+      proceed in two steps: Step 1: on-HCV treatment and Step 2: post-HCV treatment. During Step 1
+      of the study, all participants will take the same study-provided HCV drugs. Participants in
+      Groups A and C will receive the HCV drugs for 24 weeks; participants in Groups B and D, for
+      12 weeks.
+
+      Total study duration will be up to 48 weeks. During Step 1 (on-HCV treatment), all
+      participants will have study visits at Weeks 1, 2, 3, 4, 6, 8, and 10. Participants in
+      Groups A and C will have additional Step 1 study visits at Weeks 12, 16, and 20, with a
+      treatment completion visit at Week 24. Participants in Groups B and D will have a treatment
+      completion visit at Week 12.
+
+      All participants will have Step 2 (post-treatment) study visits 4, 12, and 24 weeks after
+      registration to Step 2. Participants in Groups B and D will have an additional Step 2 visit
+      36 weeks after registration to Step 2.
+
+      All study visits will include a brief physical exam and blood collection. Select study
+      visits will include pregnancy testing for participants able to become pregnant, an
+      electrocardiogram (EKG), an interferon-gamma-inducible protein 10 (IP 10) test, and
+      collection of plasma samples.
+
+      Some participants may take part in an optional substudy. Participants in the substudy will
+      attend two study visits at entry/Day 0 and Week 4 for 12-hour intensive pharmacokinetic (PK)
+      sampling.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>August 2015</start_date>
+  <primary_completion_date type="Anticipated">December 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Evaluation of sustained virologic response (SVR)12</measure>
+    <time_frame>At least 12 weeks post HCV treatment discontinuation (possibly through Week 36)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Responders will be those whose HCV RNA is less than the assay lower limit of quantification (LLOQ). For those whose HCV early responses prior to SVR12 evaluation meet the guidelines for HCV virologic failure (VF), their SVR12 outcome will be defined as non-response.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Evaluation of serious adverse events (SAEs) as defined by International Conference on Harmonisation (ICH) criteria</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of premature HCV study treatment discontinuations due to any reason other than HCV VF</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence of signs/symptoms Grade 3 or higher during HCV study treatment and up to 30 days following HCV study treatment discontinuation</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of diagnoses leading to HCV study treatment or HIV-1 antiretroviral (ARV) discontinuation</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence of laboratory abnormalities Grade 3 or higher during HCV study treatment and up to 30 days following HCV study treatment discontinuation</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of HIV-1 VF as defined in the protocol</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Presence of genotypic mutations conferring major resistance to any HIV-1 protease inhibitor (PI) at time of HIV-1 RNA VF (or confirmation of HIV-1 RNA VF)</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of soluble CD14 (sCD14) levels</measure>
+    <time_frame>Measured through Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of interferon gamma-induced protein 10 (IP10) levels as biomarkers of immune activation</measure>
+    <time_frame>Measured through Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Frequency of HCV mutations conferring resistance to any component of the HCV treatment regimen in the first sample with a HCV viral load (VL) greater than 1000 IU/mL among the subset of participants who are non-responders for SVR12</measure>
+    <time_frame>Measured through Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Measurement of SVR24 in 12- and 24-week cohorts</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of ARV pharmacokinetic (PK) parameter area under the curve (AUC), estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of ARV PK parameter clearance, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of ARV PK parameter Cmax, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of ARV PK parameter Cmin, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of direct acting antivirals (DAA) PK parameter AUC, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of DAA PK parameter clearance, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of DAA PK parameter Cmax, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Participant-specific estimates of DAA PK parameter Cmin, estimated from nonlinear mixed-effect population PK models</measure>
+    <time_frame>Measured through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>HIV Infections</condition>
+  <arm_group>
+    <arm_group_label>Group A: RAL plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Group A will be taking a RAL-based ART regimen that is not study-provided. Participants will also take the following study-provided drugs for 24 weeks: ABT-450/r/ABT-267, ABT-333, and RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B: RAL plus 12 weeks HCV treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Group B will be taking a RAL-based ART regimen that is not study-provided. Participants will also take the following study-provided drugs for 12 weeks: ABT-450/r/ABT-267, ABT-333, and RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group C: DRV plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Group C will be taking a DRV-based ART regimen that is not study provided. Participants will also take the following study-provided drugs for 24 weeks: ABT-450/r/ABT-267, ABT-333, and RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group D: DRV plus 12 weeks HCV treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants in Group D will be taking a DRV-based ART regiment that is not study provided. Participants will also take the following study-provided drugs for 12 weeks: ABT-450/r/ABT-267, ABT-333, and RBV.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-450/r/ABT-267</intervention_name>
+    <description>ABT-450/r/ABT-267 will be given by mouth once a day (total daily dose 150/100/25 mg, consisting of two 75/50/12.5 mg fixed-dose combination tablets) with food.</description>
+    <arm_group_label>Group A: RAL plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group B: RAL plus 12 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group C: DRV plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group D: DRV plus 12 weeks HCV treatment</arm_group_label>
+    <other_name>ABT-450/ritonavir/ABT-267</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ABT-333</intervention_name>
+    <description>ABT-333 (250mg) will be given by mouth twice a day with food.</description>
+    <arm_group_label>Group A: RAL plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group B: RAL plus 12 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group C: DRV plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group D: DRV plus 12 weeks HCV treatment</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>RBV, supplied as 200-mg tablets, will be given in two divided doses (one dose in the morning and one dose in the evening) by mouth each day with food, for a total daily dose of 1000 mg or 1200 mg based on participant's body weight.</description>
+    <arm_group_label>Group A: RAL plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group B: RAL plus 12 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group C: DRV plus 24 weeks HCV treatment</arm_group_label>
+    <arm_group_label>Group D: DRV plus 12 weeks HCV treatment</arm_group_label>
+    <other_name>RBV</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Step 1 Inclusion Criteria
+
+          -  Body mass index (BMI) from18 to less than 38 kg/m^2 within 42 days of study entry.
+             BMI is calculated as weight measured in kilograms (kg) divided by the square of
+             height measured in meters (m).
+
+          -  HIV-1 infection, documented by any licensed rapid HIV-1 test or HIV-1 enzyme or
+             chemiluminescence immunoassay (E/CIA) test kit at any time prior to study entry and
+             confirmed by a licensed Western blot or a second antibody test by a method other than
+             the initial rapid HIV-1 and/or E/CIA, or by HIV-1 antigen, or plasma HIV-1 RNA viral
+             load. More information on this criterion can be found in the protocol.
+
+          -  CD4 cell count greater than or equal to 200 cells/uL and CD4 cell percentage greater
+             than or equal to 14% within 42 days of study entry at any U.S. laboratory that has a
+             Clinical Laboratory Improvement Amendments (CLIA) certification
+
+          -  On a stable, qualifying ART regimen for at least 8 weeks prior to entry. More
+             information on this criterion can be found in the protocol.
+
+          -  HIV-1 RNA less than 50 copies/mL for at least 6 months prior to study entry by any
+             U.S. laboratory that has a CLIA certification or its equivalent. HIV-1 RNA testing
+             must have been performed at least once during the 6 months prior to study entry. More
+             information on this criterion can be found in the protocol.
+
+          -  Presence of chronic HCV infection defined as positive for anti-HCV antibody or HCV
+             RNA at least 6 months before screening, and positive for HCV RNA at the time of
+             screening; OR positive for HCV RNA at the time of screening with a liver biopsy
+             consistent with chronic HCV infection any time prior to study entry
+
+          -  HCV treatment-naive. More information on this criterion can be found in the protocol.
+
+          -  HCV genotype 1a or 1b infection with source documentation from a College of American
+             Pathologists (CAP) or CLIA-approved laboratory (or its equivalent) within one year
+             prior to study entry. More information on this criterion can be found in the
+             protocol.
+
+          -  Serum or plasma HCV RNA greater than 10,000 IU/mL obtained within 42 days prior to
+             study entry by any assay performed at any laboratory that has a CLIA certification or
+             its equivalent
+
+          -  The following laboratory values obtained within 42 days prior to study entry.
+
+               -  Absolute neutrophil count (ANC) greater than or equal to 1200/mm^3
+
+               -  Hemoglobin greater than or equal to 12 g/dL for men and greater than or equal to
+                  11 g/dL for women
+
+               -  Platelet count greater than or equal to 90,000/mm^3
+
+               -  International normalized ratio (INR) less than or equal to 1.5.
+
+               -  Participants with known inherited bleeding disorder and INR greater than or
+                  equal to 1.5 may be enrolled.
+
+               -  Calculated creatinine clearance (CrCl) using Cockcroft-Gault method greater than
+                  or equal to 60 mL/min
+
+               -  Alanine aminotransferase (ALT) less than or equal to 7 times the upper limit of
+                  the normal range (ULN)
+
+               -  Aspartate aminotransferase (AST) less than or equal to 7 times the ULN range
+
+               -  Total bilirubin less than or equal to 1.5 mg/dL
+
+               -  Indirect bilirubin less than or equal to 1.5 times the ULN
+
+               -  Direct bilirubin less than or equal to 1.5 times the ULN
+
+               -  Albumin greater than or equal to 3.5 g/dL
+
+               -  Serum alfa-fetoprotein (AFP) less than or equal to 100 ng/dL
+
+          -  Classification of liver disease as cirrhotic or non-cirrhotic prior to study entry
+             according to specified criteria. See the protocol for more information.
+
+          -  Participants classified as cirrhotic must have no evidence of hepatocellular
+             carcinoma (HCC) as indicated by a negative ultrasound (U/S), computed tomography (CT)
+             scan or magnetic resonance imaging (MRI) within 6 months prior to study entry. NOTE:
+             Participants who have a U/S with results suspicious of HCC followed by a subsequent
+             negative CT or MRI of the liver will be eligible for the study.
+
+          -  Females of reproductive potential (defined as women who have not been post-menopausal
+             for at least 24 consecutive months [i.e., who have had menses within 24 months prior
+             to study entry, or women who have not undergone surgical sterilization, specifically
+             hysterectomy, tubal ligation, and/or bilateral oophorectomy]) must have a negative
+             serum or urine pregnancy test with a sensitivity of no more than 25 mIU/mL within 42
+             days prior to study entry by any U.S. laboratory that has a CLIA certification or its
+             equivalent.
+
+          -  All participants must agree not to participate in a conception process (e.g., active
+             attempt to become pregnant or to impregnate, sperm donation, in vitro fertilization).
+
+          -  If participating in sexual activity that could lead to pregnancy, the participant
+             (men and women) must agree to use two reliable methods of contraception
+             simultaneously while receiving study treatment and for 6 months after stopping study
+             treatment. A combination of TWO of the following contraceptives MUST be used
+             appropriately:
+
+               -  Condoms (male or female) with or without a spermicidal agent
+
+               -  Diaphragm or cervical cap with spermicide
+
+               -  Intrauterine device (IUD) NOTE: Hormone-based contraceptives are NOT considered
+                  an acceptable form of contraception.
+
+          -  Participants who are not of reproductive potential (women who have been
+             post-menopausal for at least 24 consecutive months or have undergone hysterectomy,
+             bilateral tubal ligation, and/or bilateral oophorectomy or men who have documented
+             azoospermia) are eligible without requiring the use of contraceptives. More
+             information on the criterion can be found in the protocol.
+
+          -  Ability and willingness of the participant to provide written informed consent
+
+        Step 2 Inclusion Criteria
+
+          -  Completion or premature discontinuation (including HCV VF) of Step 1 study treatment
+             (i.e., HCV) regimen. See the protocol for more information.
+
+        Exclusion Criteria:
+
+        Step 1 Exclusion Criteria
+
+          -  Breastfeeding
+
+          -  Pregnant sexual partner
+
+          -  Known allergy/sensitivity or any hypersensitivity to components of study drugs or
+             their formulation
+
+          -  Acute or serious illness requiring systemic treatment and/or hospitalization within
+             42 days prior to study entry
+
+          -  Active hepatitis B infection (positive hepatitis B surface antigen [HBsAg]) within 42
+             days prior to study entry
+
+          -  History of decompensated liver disease (including but not limited to encephalopathy,
+             variceal bleeding, or ascites) prior to study entry
+
+          -  History of prior HIV-1 VF during treatment with ARVs at any time prior to study entry
+
+          -  Prior documentation of HIV-1 genotypic resistance to any ARV agent at any time prior
+             to study entry
+
+          -  Any cause of liver disease other than chronic HCV infection, including but not
+             limited to the following: hemochromatosis, alpha-1 antitrypsin deficiency, Wilson's
+             disease, autoimmune hepatitis, alcoholic liver disease, or drug-related liver
+             disease. More information on this criterion can be found in the protocol.
+
+          -  Uncontrolled or active depression or other psychiatric disorder within 24 weeks prior
+             to study entry that in the opinion of the site investigator might preclude adherence
+             to study requirements
+
+          -  Active drug or alcohol use or dependence that, in the opinion of the site
+             investigator, would interfere with adherence to study requirements
+
+          -  Serious illness including uncontrolled seizure disorders, active coronary artery
+             disease within 24 weeks prior to study entry, or other chronic medical conditions
+             that in the opinion of the site investigator might preclude completion of the
+             protocol
+
+          -  Presence of active or acute AIDS-defining opportunistic infections within 12 weeks
+             prior to study entry. See the protocol for more information.
+
+          -  Active or history of malignancy within 5 years prior to study entry other than basal
+             cell carcinoma of the skin and/or cutaneous Kaposi's sarcoma (KS) and/or cervical or
+             anal dysplasia or carcinoma in situ
+
+          -  Clinically significant abnormal EKG, or EKG with QT interval corrected for heart rate
+             (QTc) using Fridericia's correction formula (QTcF) greater than 450 msec within 42
+             days of study entry. For Fridericia's correction refer to the calculator located on
+             the Frontier Science &amp; Technology Research Foundation, Inc. (FSTRF) web site.
+
+          -  Use of colony stimulating factors, such as granulocyte colony stimulating factor
+             (GCSF) or erythropoietin within 42 days of study entry
+
+          -  Infection with any HCV genotype other than genotype 1, or mixed genotype infection
+             any time prior to study entry
+
+          -  History of major organ transplantation with an existing functional graft any time
+             prior to study entry
+
+          -  History of hemoglobinopathy (e.g., thalassemia) or any other cause of or tendency to
+             hemolysis any time prior to study entry
+
+          -  Child-Pugh (CP) score greater than 6 at screening (cirrhotic participants only).
+             NOTE: To calculate the Child-Pugh score, refer to the following website:
+             http://www.mdcalc.com/child-pugh-score-for-cirrhosis-mortality
+
+        Step 2 Exclusion Criteria
+
+          -  Premature study discontinuation. See the protocol for more information.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mark S. Sulkowski, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Johns Hopkins University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Alabama CRS</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35294</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Karen Savage, R.N., B.S.N.</last_name>
+      <phone>205-975-7925</phone>
+      <email>kgsavage@uab.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UCLA CARE Center CRS</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90035</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Arezou S. Akha, M.D., M.S.</last_name>
+      <phone>310-557-3798</phone>
+      <email>asadighi@mednet.ucla.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UCSD Antiviral Research Center CRS</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jill Kunkel</last_name>
+      <phone>619-543-8080</phone>
+      <email>jkunkel@ucsd.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ucsf Hiv/Aids Crs</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jay Dwyer</last_name>
+      <phone>415-476-4082</phone>
+      <phone_ext>353</phone_ext>
+      <email>jdwyer@php.ucsf.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Harbor-UCLA CRS</name>
+      <address>
+        <city>Torrance</city>
+        <state>California</state>
+        <zip>90502</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mario Guerrero</last_name>
+      <phone>424-201-3000</phone>
+      <phone_ext>7318</phone_ext>
+      <email>mguerrero@labiomed.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Colorado Hospital CRS</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mary Graham Ray, R.N., M.S.N.</last_name>
+      <phone>303-724-0712</phone>
+      <email>graham.ray@ucdenver.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Whitman-Walker Health CRS</name>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kristi Kiger, R.N.</last_name>
+      <phone>202-939-7699</phone>
+      <email>kkiger@whitman-walker.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>The University of Miami AIDS Clinical Research Unit (ACRU) CRS</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Tom Tanner, R.N.</last_name>
+      <phone>305-243-5621</phone>
+      <email>ttanner@med.miami.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>The Ponce de Leon Center CRS</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30308-2012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ericka Patrick, M.S.N.</last_name>
+      <phone>404-616-6313</phone>
+      <email>erpatri@emory.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern University CRS</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Baiba Berzins, M.P.H.</last_name>
+      <phone>312-695-5012</phone>
+      <email>Baiba@northwestern.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Rush University CRS</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Janice Fritsche, M.S., A.P.R.N, B.C.</last_name>
+      <phone>312-942-4810</phone>
+      <email>Janice_Fritsche@rush.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Johns Hopkins University CRS</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ilene Wiggins, R.N.</last_name>
+      <phone>410-614-2766</phone>
+      <email>iwiggin1@jhmi.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital Therapeutics Clinical Research Site (BWH TCRS) CRS</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Cheryl E. Keenan, R.N.</last_name>
+      <phone>617-732-5635</phone>
+      <email>ckeenan2@partners.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital CRS (MGH CRS)</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Theresa Flynn, R.N., M.S.N., A.N.P., B.S.N.</last_name>
+      <phone>617-724-0072</phone>
+      <email>tflynn@partners.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Washington University Therapeutics (WT) CRS</name>
+      <address>
+        <city>St. Louis</city>
+        <state>Missouri</state>
+        <zip>63110-1010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Michael K. Klebert, R.N.,C., Ph.D., A.N.P., BCP</last_name>
+      <phone>314-747-1098</phone>
+      <email>mklebert@dom.wustl.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>New Jersey Medical School Clinical Research Center CRS</name>
+      <address>
+        <city>Newark</city>
+        <state>New Jersey</state>
+        <zip>07103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Baljinder Singh</last_name>
+      <phone>973-972-3811</phone>
+      <email>singhba@njms.rutgers.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Columbia P&amp;S CRS</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10032-3732</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Steven Palmer, P.A. -C</last_name>
+      <phone>212-342-2958</phone>
+      <email>sp500@cumc.columbia.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Weill Cornell Chelsea CRS</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Todd Stroberg, R.N., B.S.N.</last_name>
+      <phone>212-746-7198</phone>
+      <email>tstrober@med.cornell.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Weill Cornell Uptown CRS</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Valery Hughes</last_name>
+      <phone>212-746-4393</phone>
+      <email>Vah9001@med.cornell.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Rochester Adult HIV Therapeutic Strategies Network CRS</name>
+      <address>
+        <city>Rochester</city>
+        <state>New York</state>
+        <zip>14642</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Emily L. Cosimano, B.S.N.</last_name>
+      <phone>585-276-5903</phone>
+      <email>Emily_Cosimano@urmc.rochester.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Chapel Hill CRS</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Withdrawn</status>
+  </location>
+  <location>
+    <facility>
+      <name>Greensboro CRS</name>
+      <address>
+        <city>Greensboro</city>
+        <state>North Carolina</state>
+        <zip>27401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kim Epperson, R.N., B.S.N., CRC</last_name>
+      <phone>336-832-3262</phone>
+      <email>kim.epperson@conehealth.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Cincinnati Clinical Research Site</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45219</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sharon Kohrs, R.N., B.S.N.</last_name>
+      <phone>513-584-6383</phone>
+      <email>kohrssd@ucmail.uc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Case Clinical Research Site</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Jane Baum, R.N.</last_name>
+      <phone>216-844-2546</phone>
+      <email>jb@clevelandactu.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ohio State University CRS</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>43210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Kathy Watson, B.S.N.</last_name>
+      <phone>614-293-5856</phone>
+      <email>kathy.watson@osumc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Penn Therapeutics, CRS</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Joseph Quinn, R.N., B.S.N.</last_name>
+      <phone>215-349-8092</phone>
+      <email>joseph.quinn@uphs.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pittsburgh CRS</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patricia Peters, R.Ph.</last_name>
+      <phone>412-383-1434</phone>
+      <email>pep1@pitt.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>The Miriam Hospital Clinical Research Site (TMH CRS) CRS</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02906</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pamela Poethke, R.N.</last_name>
+      <phone>401-793-4971</phone>
+      <email>ppoethke@lifespan.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Vanderbilt Therapeutics (VT) CRS</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37204</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Beverly O. Woodward, M.S.N., R.N.</last_name>
+      <phone>615-936-8516</phone>
+      <email>beverly.o.woodward@vanderbilt.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Trinity Health and Wellness Center CRS</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75208</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Holly Wise, BAAS, CCRP</last_name>
+      <phone>972-807-7370</phone>
+      <email>Holly.Wise@aidsarms.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Houston AIDS Research Team CRS</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maria L. Martinez</last_name>
+      <phone>713-500-6718</phone>
+      <email>Maria.L.Martinez@uth.tmc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Washington AIDS CRS</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98104-9929</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christine Jonsson</last_name>
+      <phone>206-744-8886</phone>
+      <email>cjonsson@u.washington.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Puerto Rico AIDS Clinical Trials Unit CRS</name>
+      <address>
+        <city>San Juan</city>
+        <zip>00935</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sylvia I. Davila Nieves, M.Sc.</last_name>
+      <phone>787-767-9192</phone>
+      <email>sylvia.davila1@upr.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 27, 2015</lastchanged_date>
+  <firstreceived_date>July 17, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Infection</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

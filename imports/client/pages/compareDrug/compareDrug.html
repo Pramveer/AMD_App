@@ -1,0 +1,156 @@
+<template name="CompareDrug">
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <!-- Body Template -->
+    <div class="content-wrapper">
+        <div class="container pagecontent">
+            <!-- Content Header (Page header) -->
+            <div class="draug_header">
+            </div>
+            <div class="row">
+                <div class="warningdiv">
+                    <!-- {{> DrugPopup}} -->{{>DrugSelectionLimitWarning}}
+                    <!-- {{>DrugSelectionEmptyWarning}} -->
+                </div>
+            </div>
+        </div>
+
+          <!--<div class="efficacy-div">
+            <div class="efd-maintitle"></div>
+                {{#with getPateintInfo}}
+                <div class="efd-table-data costBurdenSection">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1">Genotype: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="efd-cell1">Treatment: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1">Cirrhosis: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                        <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"></div>
+                    </div>
+                </div>
+                {{/with}}
+            </div>-->
+      
+      
+      
+      
+        <div class="container pagecontent posrelovfhid">
+            <div class="row">
+                <div class="slidesec">
+                    <!-- Main content -->
+                    <section class="content CommparePageContent adherence-container">
+                        <!--Drug selection sliding menu -->
+                        {{>DrugSelectionSlideMenu}}
+                        <!-- End Slide meu-->
+                        <div class="cpbackbtn">
+                        <a href="{{pathFor 'Provider'}}" class="compareDrugbackbtn"><span class="compareDrugbackbtnIcon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>back</a>               
+                        </div>
+
+                        <div class="ComparePageSectionsContainer">
+                            <div class="ComparePageLeftSection">
+                                <div class="cpHeader" style='font-weight:"bold"'>Measures</div>
+
+                                <div class="cplsInnerdivContainer">
+
+                                    <div class="cplsInnerdiv">
+                                        <label class="cplsLables">Efficacy</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor">Response Rate</div>
+                                    </div>
+                                    <!-- Updated By Jayesh 22th May 2017 For removing safety from provider tab -->
+                                    <!--<div class="cplsInnerdiv">
+                                        <label class="cplsLables">Safety</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor">Adverse Reactions</div>
+                                    </div>-->
+
+                                    <div class="cplsInnerdiv">
+                                        <label class="cplsLables">Adherance</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor">MPR</div>
+                                    </div>
+
+                                    <div class="cplsInnerdiv">
+                                        <label class="cplsLables">Utilization</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor"># of Rx</div>
+                                    </div>
+
+                                    <div class="cplsInnerdiv">
+                                        <label class="cplsLables">Cost</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor">Cost Estimate</div>
+                                        <!-- <br/>
+                                        <div class="cplsMeasures blackColor">Cost to Payer</div>
+                                        <div class="cplsMeasures blackColor">Cost to Patient</div> -->
+                                    </div>
+
+                                    <div class="cplsInnerdiv">
+                                        <label class="cplsLables">Value Score</label>
+                                        <br/>
+                                        <div class="cplsMeasures blackColor"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div id='compare-content' class="ComparePageRightSection grid-fix">
+
+                            </div>
+
+                        </div>
+                        <div class="grid-fix" id='compare-content-back'>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Bind all drugs in slide option-->
+            {{> DrugSelectionOption}}
+        </div>
+
+
+
+
+
+        <div class="pro-evidance-div">
+            <div class="ped-title">Evidence Based Publications & Resources</div>
+            <ul class="ped-linklist apiLinksWrapper">
+                <li>
+                    <div class="apiLinksSpan distalbe" id="evidenceBased_Api"><span>Evidence Based Clinical Practice Guidelines</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </li>
+                <li>
+                    <div class="apiLinksSpan distalbe" id="clinicalTrials_Api"><span>Clinical Trials</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </li>
+                <li>
+                    <div class="apiLinksSpan distalbe" id="Pharmacological_Api"><span>Pharmacological & Pharmaceutical</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </li>
+            </ul>
+        </div>
+       <!--  <footer class="main-footer">
+            <div class="container">
+
+                <div class="copyrighttext">Evidence Based Publications & Resources</div>
+                <div class="row apiLinksWrapper">
+                    <span class="apiLinksSpan" id="evidenceBased_Api"> Evidence Based Clinical Practice Guidelines </span>
+                    <span class="apiLinksSpan" id="clinicalTrials_Api"> Clinical Trials </span>
+                    <span class="apiLinksSpan" id="Pharmacological_Api"> Pharmacological & Pharmaceutical </span>
+                </div>
+                <div class="copyrightfoot">Copyright &copy; 2016 Pinscriptive</div>
+            </div>
+        </footer> -->
+
+         {{>MainFooter}}
+    </div>
+</template>

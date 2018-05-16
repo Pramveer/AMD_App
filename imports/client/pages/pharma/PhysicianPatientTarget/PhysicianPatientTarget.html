@@ -1,0 +1,222 @@
+<template name="PhysicianPatientTarget">
+		<!--Nisha 02/28/2017 modified the page commented out "analytics-tooltipHead" to remove the heading-->
+	{{> PharmaSubTabs data="physicianpatientarget"}}
+	<div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+  
+  <span class="breadcrumb-item active">Physician Patient Targeting</span> 
+</nav>
+        </div>
+	<!--<div class="macLearningsubTabs" style="
+    position: relative;
+    width: 100%;
+    display: inline-block;
+">
+		<ul class="au-header utilizationSubtabs-links">
+			<li class="active">
+				<a href="#" data="withFDACompliant">FDA Compliant
+
+                    </a>
+			</li>
+			<li>
+				<a href="#" data="withoutFDACompliant">Non FDA Compliant
+                </a>
+
+			</li>
+			<li>
+				<a href="#" data="allMedsData">ALL Medications
+                </a>
+
+			</li>
+		</ul>
+		<span class="providerSubtabInfo" style="
+    position: absolute;
+    right: 0;">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'> 
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>
+		<b>FDA Compliants</b><br>
+		<b>Note: </b> These are the medications which are following to FDA Compliants
+		<hr>
+		<b>Non FDA Compliants</b><br>
+		<b>Note: </b> Here you will see all other Medications which are not following FDA Compliants
+		<hr>
+		<b>All Medications</b><br>
+		<b>Note: </b>Here you can see all medications for the selected subpopulation
+		<br>
+	</div>
+
+	</div>"><img src="/info-icon.png">
+	</div>
+	</span>
+	</div>-->
+   
+ <div class="btngroup">
+    <!--Jayesh 03/06/2017 Updated FDA Labels-->
+ <div class="macLearningsubTabs" style="position: relative;display: inline-block;">
+		<ul class="rweb-list">
+			<li class="active">
+				<a href="#" data="withFDACompliant">FDA Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="withoutFDACompliant">FDA Not Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="allMedsData">All Therapy</a>
+			</li>
+		</ul>
+		
+	</div>
+<!--Nisha 02/10/2017 added Question answered-->
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'> 
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>
+		<b>FDA Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has been approved by FDA.
+		<hr>
+		<b>FDA Not Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has not been approved by FDA.
+		<hr>
+		<b>All Therapy</b><br>
+		<b>Note: </b> These are all therapies for the selected subpopulation.
+		 
+		
+	</div>
+
+	</div>"><img src="/info-icon.png">
+	</div>
+	</span>
+
+	 <!--Nisha 02/13/2017 added Question answered-->
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'> 
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>		 
+      <b>Question Answered</b><br>
+		 Identify physicians/institutions/geographies that have largest potential target patient populations for pipeline products
+		<br>
+	</div>
+
+	</div>"><img src="/quest-icon.png">
+	</div>
+	</span>
+</div>
+
+	<div class="ps-section">
+		<div class="efficacy-div">
+			<div class="ml-subTabsTitle">Physician & Patient Targeting
+				<span class="macLearningsubTabs-infoIcon mlInfoTip">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <!--<div class="analytics-tooltipHead">
+                                Utilization
+                            </div>-->
+                            <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span><span class='boldfnt'>Definition</span> - Utilization is the percentage of
+				patients who took this drug against the total number of patients similar to this patient (i.e with same HCV genotype,
+				cirrhosis and naive/experienced conditions).
+				<br/><br/><span class='boldfnt'>Utilization (%) =  </span><br/>
+				<span class='formulaSection'><span style='padding-left: 25%;padding-right: 25%;'> Nx </span> <span style='padding-top: 12px;position: absolute;'>* 100 </span><br/>
+				<span style='border-top: 1px dotted;'>N1 + N2 + ... + Nx + ...  Nn </span></span>
+				</span>
+
+
+				<br/>
+				<br/>
+				<span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from                        <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+			</div>
+		</div>
+		</span>
+	</div>
+
+	<div>
+		<div class="efd-cell2_subpopulaiton ecf-showPatient">
+			<a href="#" class="globalshowPatientutilization js-showPateintsListUti"></a>
+		</div>
+		<div class="efd-cell2_subpopulaiton ecf-exportPatient utlizationexportPatient globalexportPatientutilization">
+			<a href="#"></a>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 mlSubTabsChartSectionMask">
+			<div class="chart_loader payer_loader">Loading...</div>
+		</div>
+
+		<div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;margin-top:30px;padding-left:50px;">
+
+			<div class="pharma-utilization-div">
+                    <ul class="ulf-list">
+						<li class="legend-item">
+							<div class="utilization-legend-icon"></div>
+							<span class="utilization-legend-text">Provider Population</span>
+						</li>
+						<!--<li class="legend-item">
+                                <div class="utilization-legend-icon"></div>
+                                <span class="utilization-legend-text">My Network</span>
+                            </li>-->
+						<li class="legend-item">
+							<div class="utilization-legend-icon"></div>
+							<span class="utilization-legend-text">Population health</span>
+						</li>
+					</ul>
+				<div class="utilization-header">
+					<div class="width0f875 ud-border3side">
+						Utilization Rate
+					</div>
+					<div class="width0f270 ud-border3side">
+						RX %
+					</div>
+				</div>
+				<div class="utilization-content">
+					<div class="ud-fulldiv">
+						<div class="width0f775">
+							<div id="utilization-pie-chart-part1" style="margin:0 auto;text-align: center"></div>
+						</div>
+						<div class="width0f370">
+							<div id="utilization-pie-chart-part2" style="margin:0 auto;text-align: center"></div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="utilization-footer" style="text-align:left;">
+					<h3>Subtitle</h3>
+					<ul class="ulf-list">
+						<li class="legend-item">
+							<div class="utilization-legend-icon"></div>
+							<span class="utilization-legend-text">Provider Population</span>
+						</li>
+					 
+						<li class="legend-item">
+							<div class="utilization-legend-icon"></div>
+							<span class="utilization-legend-text">Population health</span>
+						</li>
+					</ul>
+				</div>-->
+			</div>
+			<div class="pharma-utilization-div">
+				<div id="chart-legend"></div>
+			</div>
+			<!-- Wrapper for charts  -->
+			<div class="popup pharmaPatientsPopup" data-popup="pharmaPatientsPopup">
+				<div class="popup-inner" style="overflow:auto !important;">
+					<button type="button" class="close pharma_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+					<div class="pharmaPatientsPopup-header"></div>
+					<div class="pharmaPatientsPopup-container"></div>
+				</div>
+			</div>
+			<!-- Wrapper for charts  -->
+		</div>
+	</div> {{ >MainFooter}}
+</template>

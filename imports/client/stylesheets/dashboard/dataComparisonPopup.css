@@ -1,0 +1,83 @@
+.showDataComparisionIcon {
+    position: fixed;
+    float: left;
+    cursor: pointer;
+    display: none;
+    top: 60%;
+}
+
+.compareDataMenuButton {
+    float: left;
+    font-size: 23px;
+    position: absolute;
+    left: 13px;
+    color: #f78651;
+    cursor: pointer;
+}
+
+.compareDataMenuItems {
+    float: left;
+    position: absolute;
+    top: 36px;
+    z-index: 99;
+    background-color: #f7f7f7;
+    left: 12px;
+    padding-left: 10px;
+    padding-top: 4px;
+    display: none;
+    min-height: 250px;
+}
+
+.compareSummaryLabelIcon {
+    padding: 10px;
+    font-size: 19px;
+}
+
+.compareSummaryContainer {
+    text-align: justify;
+}
+
+.compareSummaryValue {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1cb6a;
+}
+
+#datasetComparsionPopup {
+    text-align: center;
+}
+
+#datasetComparsionPopup .popup-body{
+    overflow-y: visible;
+}
+
+#datasetComparsionPopup .popup-inner {
+    width: 90%;
+    height: 620px;
+    top: 50%;
+    overflow-y: auto;
+}
+
+.datasetComparsionPopup-header {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#datasetComparsionPopup .chartTypeLabel {
+    color: #fb7536;
+}
+
+/*#datasetComparsionPopup .c3 path,rect,g {
+    cursor: default ;
+}*/
+
+#imsDataViewSection .c3-texts text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}
+
+#phsDataViewSection .c3-texts text {
+    fill: #333 !important;
+    font-size: 11px !important;
+}

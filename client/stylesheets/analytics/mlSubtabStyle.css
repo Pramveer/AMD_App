@@ -1,0 +1,850 @@
+/* sub tabs css */
+
+.ml-subTabsTitle {
+    font-size: 18px;
+    color: #e05454;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.mlSubTabsSpInfo {
+    float: right;
+    width: 230px;
+}
+
+.mlSubTabsChartSection {
+    margin: 8px 2px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.mlSubTabsChartSection g.c3-axis.c3-axis-y .tick {
+    visibility: visible;
+    fill: #333;
+}
+
+.mlSubTabsChartSection g.c3-axis.c3-axis-x .tick {
+    font-size: 12px;
+    font-weight: normal;
+    fill: #333;
+}
+
+.mlSubTabsChartSection .c3 path,
+.c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+.mlSubTabsChartSection .c3-axis-y-label,
+.mlSubTabsChartSection .c3-axis-x-label {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    fill: #333;
+}
+
+.mlSubTabsChartSection .c3 path,
+.mlSubTabsChartSection .c3 line {
+    fill: none;
+    stroke: #999;
+}
+
+#survivalRate-meldScoreChart {
+    text-align: center;
+}
+
+.macLearningsubTabs-links li a {
+    padding: 10px 10px !important;
+    font-size: 12px !important;
+}
+
+.macLearningsubTabsRiskTabs-links li a {
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+}
+
+.macLearningsubTabsRiskTabs-links li {
+    float: none !important;
+}
+
+.macLearningsubTabs-links li {
+    float: none !important;
+}
+
+.mlCustomc3-xLabel {
+    padding: 10px;
+    font-size: 12px;
+    color: #111;
+    font-weight: bold;
+    text-align: center;
+}
+
+.treatPriority-infoTable {
+    border: 1px solid #f7f7f7;
+    float: right;
+    width: 260px;
+    padding: 5px;
+    margin-top: 13px;
+}
+
+.treatPriority-infoTable .efd-row {
+    width: 100%;
+    float: left;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.treatPriority-infoTable .efd-cell1 {
+    color: #000;
+    font-size: 14px;
+    width: 100px;
+    padding-right: 15px;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.firboTableHeader .efd-cell1,
+.firboTableHeader .efd-cell2 {
+    font-weight: 600 !important;
+}
+
+.treatPriority-infoTable .efd-cell2 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width: 118px;
+}
+
+.treatPriority-infoTable .treatPriority-redBg {
+    /* background-color: #ff2600;*/
+    background-color: #e95a52;
+    margin: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.treatPriority-infoTable .treatPriority-yellowBg {
+    /*background-color: #f3f434;*/
+    /*background-color: #2e7e97;*/
+    background-color: #abd6ba;
+    margin: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.treatPriority-infoTable .treatPriority-greenBg {
+    /* background-color: #00f900;*/
+    background-color: #abd6ba;
+    margin: 0px;
+    border-bottom: 1px solid #fff;
+}
+.treatPriority-legendTable{
+    width: 65%;
+    margin: 0 auto;
+}
+.treatPriorityLegends{
+    float: left;
+    padding: 5px 20px;
+}
+.treatPriorityLegends .colorBlock{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+
+
+.costBurdenSection .efd-cell1 {
+    width: auto;
+}
+
+.costBurden-infoTip {
+    background-position: 38%;
+    background-image: url(pinscriptive_v5-ICONS.png);
+    height: 25px;
+    width: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+}
+
+.survivaInfoSection {
+    font-size: 12px;
+    border: 1px solid #f7f7f7;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.survivaInfoSection .efd-row {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0px;
+}
+
+.survivaInfoSection .efd-cell2 {
+    font-weight: normal;
+    font-size: 13px;
+    min-width: 90px;
+    color: #5d676b;
+}
+
+.survivaInfoSection .efd-cell1 {
+    width: 72px;
+    font-size: 13px;
+}
+
+.patientsList-rowSeparator {
+    border-bottom: 1px solid #eaeaea;
+    margin: 15px 0px;
+}
+
+.mlsubtabsChartMask,
+.mlSubTabsChartSectionMask {
+    min-height: 150px;
+}
+
+.mlsubtabsChartMask .chart_loader,
+.mlSubTabsChartSectionMask .chart_loader {
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+}
+
+.mlsubtabsChartMask .payer_loader,
+.mlSubTabsChartSectionMask .payer_loader {
+    margin: 30px auto;
+}
+
+
+/*Tooltip CSS*/
+
+.analytics-tooltip {
+    position: absolute;
+    background: #fff;
+    line-height: 18px;
+    visibility: hidden;
+    z-index: 9;
+    top: 28px;
+    /*border-radius: 3px;*/
+    right: -117px;
+    text-align: left;
+    color: #525252;
+    font-size: 14px;
+    box-shadow: 0px 1px 2px 0px rgba(19, 19, 19, 0.52);
+    width: 280px;
+}
+
+.dashboard_tooltip {
+    right: -34px;
+}
+
+.dashboard_tooltip.analytics-tooltip:after {
+    left: 79%;
+}
+
+.analytics-tooltip:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #f1f1f1;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.analytics-tooltipHead {
+    /*background: #ececec;*/
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.analytics-tooltipBody {
+    padding: 10px;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.custmpopupbox {
+    width: 200px;
+    right: -76px;
+}
+
+.custmpopupbox1 {
+    width: 200px;
+    right: -76px;
+}
+
+.mlInfoTip {
+    position: relative;
+}
+
+.mlInfoTip:hover .mlInfoTip_tooltip {
+    visibility: visible;
+}
+
+.mlCoInfoTip {
+    position: absolute;
+    right: 20px;
+}
+
+.mlCoInfoTip:hover .mlCoInfoTip_tooltip {
+    visibility: visible;
+}
+
+.progressionModel-mainWrapper {
+    background-color: #fff;
+    margin: auto;
+    padding: 8px 5px;
+    box-shadow: 0 0px 4px 1px #ccc;
+}
+
+.progressionModel-mainWrapper .leftSectionlabels {
+    padding: 0px;
+    opacity: 0.9;
+}
+
+.progressionModel-mainWrapper .progressionModel-Headers {
+    padding: 12px 0px;
+}
+
+.progressionModel-mainWrapper .blankSection {
+    /*  background-color: #6c6c6c;*/
+    min-height: 65px;
+}
+
+.progressionModel-mainWrapper .cirrhosisSections {
+    padding: 0px;
+}
+
+.progressionModel-mainWrapper .cirrhosisSectionHeader {
+    background-color: #ECF0F1;
+    /* #705d33;*/
+}
+
+.progressionModel-mainWrapper .cirrhosisSectionWrap {
+    padding: 0px 0px 0px 8px;
+}
+
+.progressionModel-mainWrapper .stageSections {
+    /* background-color: #004d8b;*/
+    background-color: #D4E6F1;
+    padding: 10px 3px;
+    margin: 6px 0px;
+    border-left: 1px solid #ECF0F1;
+    border-right: 1px solid #ECF0F1;
+    /*border-left: 1px solid #000;
+    border-right: 1px solid #000;*/
+}
+
+.progressionModel-mainWrapper .stageSections1 {
+    /* background-color: #004d8b;*/
+    background-color: #aadfe8;
+    padding: 10px 3px;
+    margin: 6px 0px;
+    border-left: 1px solid #ECF0F1;
+    border-right: 1px solid #ECF0F1;
+    /*border-left: 1px solid #000;
+    border-right: 1px solid #000;*/
+}
+
+.progressionModel-mainWrapper .clinicalSections {
+    background-color: #839d31;
+    padding: 16px 0px;
+    margin: 6px 0px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: none;
+}
+
+.progressionModel-mainWrapper .deathSections {
+    background-color: #a84541;
+    padding: 10px 0px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: none;
+}
+
+.progressionModel-mainWrapper .showHandIcon {
+    cursor: pointer;
+}
+
+.liverTransplantSection {
+    /* background: #17becf;*/
+    background: #e95a52;
+    padding: 20px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.liverTransplantSection:after {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    /* border-top: 21px solid #17becf;*/
+    border-top: 21px solid #e95a52;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin: -21px -80px;
+}
+
+.liverTransplantSection .liverTransPlantInfo {
+    position: absolute;
+    background: url(/infoicon-blue.png);
+    background-repeat: no-repeat;
+    /* left: 3px;*/
+    right: -10px;
+    top: 2px;
+}
+
+.cirrhosisStages {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+
+/*----- Tab Links -----*/
+
+.safetydrugTabsRisk {
+    width: 100%;
+    display: inline-block;
+}
+
+.safetydrugTabRisk-links {
+    border-bottom: 1px dotted #ececec;
+    text-align: center;
+}
+
+.safetydrugTabRisk-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.safetyDrugSectionRisk {
+    padding: 0px 5px 0px 5px;
+    border: 1px solid #FFFFFF;
+    /*box-shadow: 0px 0px 12px -3px gray;*/
+}
+
+.safetydrugTabRisk-links li:hover a:after,
+.safetydrugTabRisk-links li.active a:after {
+    visibility: visible;
+}
+
+.safetydrugTabRisk-links li a:after {
+    content: "";
+    top: 100%;
+    border-left: 6px solid transparent;
+    border-top: 7px solid #ef4722;
+    border-right: 6px solid transparent;
+    position: absolute;
+    left: 49%;
+    visibility: hidden;
+}
+
+.safetydrugTabRisk-links li {
+    float: left;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: -57px -5px;
+    width: 125px;
+}
+
+.safetydrugTabRisk-links a {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #112431;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-align: center;
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+}
+
+.safetydrugTabRisk-links a:hover {
+    color: #fff;
+    background: #ef4722;
+}
+
+.safetydrugTabsRisk li.active a,
+.safetydrugTabsRisk li.active a:hover {
+    color: #fff;
+    background: #ef4722;
+}
+
+.safetydrugTabsRisk li.active {
+    background-position: -57px -51px !important;
+}
+
+
+/*----- Content of Tabs -----*/
+
+.safetydrugTabRisk-content {
+    padding: 15px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.safetydrugTabRisk {
+    display: none;
+}
+
+.safetydrugTabRisk.active {
+    display: block;
+}
+
+.safetydrugTabRisk .section.div:not([name='nonCollapsableElement_34073-7']) {
+    display: none;
+}
+
+
+/* end sub tabs css */
+
+.safetydrugTabsRisk .section {
+    display: none;
+}
+
+.safetydrugTabsRisk .riskhide {
+    display: block;
+}
+
+.safetydrugTabsRisk .collapseElement {
+    display: block;
+    visibility: visible;
+}
+
+.safetydrugTabsRisk #nonCollapsableElement_34073-7 {
+    display: none;
+}
+
+.containertitle1 {
+    font-weight: 600;
+}
+
+.analytics-tooltip-live {
+    width: 200px !important;
+    right: -55px !important;
+}
+
+
+.machineLearnTabsFilterBand .dashBoard-breadCrumSections {
+    margin: 0px;
+    width: 75%;
+}
+.machineLearnTabsFilterBand {
+    padding: 0px;
+}
+
+.machineLearnTabsFilterBand .ful_nav_search {
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    border-right: 1px solid #efefef;
+}
+.riskDistribution-XAxisText {
+    font-size: 18px;
+}
+
+.riskDistribution-YAxisText {
+    font-size: 15px;
+}
+.noRiskDataFoundAlert {
+    text-align: center;
+    font-size: 15px;
+    color: #a2a0a0;
+}
+
+.mlTabPatientsList .ecf-patientRow {
+    cursor: auto !important;
+}
+
+/* Treatment Efficacy Under Analytics*/
+.te_selectMedication [type="checkbox"]:not(:checked), .te_selectMedication [type="checkbox"]:checked {
+    position: relative !important;
+    left: 0px !important;
+    margin-right: 10px !Important;
+    margin-left: 10px;
+}
+
+.te_selectMedication label span {
+    font-size: 11px;
+}
+.treatmentEfficacyDropdown button{
+    width: 250px;
+    float: left;
+    margin: 0px 10px;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ef4722;
+}
+
+.treatmentEfficacyDropdown .ui-multiselect-header {
+    margin-bottom: 3px;
+    padding: 3px 0 3px 4px;
+    background: #fff;
+    border: none;
+    border-radius: 0px;
+}
+
+/*overriding Default style of multiselect dropdown*/
+.ui-multiselect-header {
+    margin-bottom: 3px !important;
+    padding: 3px 0 3px 4px !important;
+    background: #fff !important;
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #999 !important;
+    font-weight: normal !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: 1px solid transparent !important;
+    background: #e8e8e8 !important;
+    font-weight: bold !important;
+    color: #2b2b2b !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #ef4722 !important;
+    padding: 3px 1px !important;
+}
+
+.mlscInfoTip{
+    position: absolute;
+    top: 8px;
+    left: 170px;
+}
+
+.mlscInfoTip:hover .mlscInfoTip_tooltip {
+    visibility: visible;
+}
+
+.analyticsPJ-drugFilterWrap {
+    padding: 5px 5px 0px 25px;
+}
+
+.analyticsPJ-drugFilterWrap .analyticsPJDrugCombo {
+    float: left;
+}
+
+/* 
+* @author Pram (13th Feb 17) 
+* @desc Treatment Priority Selectize Dropdown style & other style changes
+*/
+.cirrhoticModelBorderbox {
+    padding: 8px 10px  !important;
+}
+
+.probFeaturesDropDown-Container{
+    border-bottom: 1px solid red;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.probFeaturesDropDown {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 34px;
+}
+
+.probFeaturesDropDown .probFeatures-dropdownLabel {
+    padding-top: 12px;
+    color: #696969;
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.inputform-w150 {
+    width: 150px;
+    float: left;
+    position: relative;
+    min-height: 34px;
+    margin-left: 20px;
+}
+
+.probFeaturesDropDown .ps_textbox {
+    padding: 0px;
+}
+
+.probFeaturesDropDown .selectize-control {
+    width: calc(100% - 30px) !important;
+    position: relative;
+    float: right;
+    height: 27px;
+    font-size: 13px !important;
+    margin-top: -5px;
+}
+
+.probFeaturesDropDown .selectize-input>* {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-size: 14px;
+    text-align: right;
+}
+
+.probFeaturesDropDown .mlscInfoTip {
+    position: absolute;
+    top: 8px;
+    left: 70%;
+}
+
+.cirrhoticProbChartTooltip .tooltip-Section {
+    float: left;
+    width: 100%;
+}
+
+.cirrhoticProbChartTooltip .bulletPointWrap {
+    width: 10%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: right;
+}
+
+.cirrhoticProbChartTooltip .bulletPoint {
+    height: 5px;
+    width: 5px;
+    background-color: #1d1c1c;
+    border-radius: 25px;
+    float: right;
+}
+
+.cirrhoticProbChartTooltip .tooltip-SectionLabel {
+    width: 40%;
+    display: inline-block;
+}
+
+.cirrhoticProbChartTooltip .tooltip-SectionValue {
+    width: 40%;
+    display: inline-block;
+}
+
+.defaultPredictionSection {
+    float: left;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.customPatientPredictionSection {
+    float: left;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 8px;
+    display: none;
+    position: relative;
+}
+
+.defaultPredictionSection .predictionVarialbles {
+    float: left;
+}
+
+.defaultPredictionSection .addCustomPatientBtn {
+    padding: 3px 10px;
+    font-size: 14px;
+    background: #ee4118 !important;
+    text-align: center;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0px grey;
+    cursor: pointer;
+    float: right;
+ }
+
+.customPatientPredictionSection .hideCustomPatientSectionBtn {
+    position: absolute;
+    right: -15px;
+    top: 4px;
+    padding: 3px 10px;
+    font-size: 14px;
+    background: #ee4118 !important;
+    text-align: center;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0px grey;
+    cursor: pointer;
+}
+
+.selectize-control .hivCombo{
+    z-index: 99;
+}
+
+.prescriptionCount-rxCostTable .common-efd-cell1{
+    width:25% !important;
+}
+.prescriptionCount-rx .commonInfoTable{
+    border:none;
+}
+.prescriptionCount-rx .commonInfoTable .common-efd-row{
+    padding: 4px 0px !important;
+    font-size: 13px;
+}
+/* */
+
+
+.removeCustomPatientsWrapper {
+    margin: 18px 10px 0px 0px;
+    padding: 5px;
+    display: none;
+}
+
+.removeCustomPatientsWrapper .removeCustomPatients {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.predictCustomPatientBtn {
+    top: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    background: #ee4118 !important;
+    text-align: center;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0px grey;
+    cursor: pointer;
+    width: auto;
+}
+
+#cirrhosis-probabilityPopupChartWrapper .popup-inner {
+    width: 80%;
+    height: 80%;
+}
+
+.cirrhosisModelStatWrapper {
+    border: 1px solid #cec4c4;
+    margin-top: 10px;
+    margin-left: 10px;
+}

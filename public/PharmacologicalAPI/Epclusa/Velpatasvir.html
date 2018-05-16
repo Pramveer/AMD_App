@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html class="turbolinks-progress-bar">
+<head>
+<title></title>
+<style>
+* {
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+body {
+	margin: 0;
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, th {
+	padding: 0;
+}
+a {
+	background-color: transparent;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sub {
+	bottom: -0.25em;
+}
+b, strong {
+	font-weight: bold;
+}
+input {
+	line-height: normal;
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+button {
+	overflow: visible;
+}
+button, select {
+	text-transform: none;
+}
+button, html input[type='button'], input[type='reset'], input[type='submit'] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+img {
+	border: 0;
+}
+*::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #333333;
+	background-color: #fff;
+}
+.container-fluid, main, body, .home-intro {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+main {
+	width: 100%;
+	margin-top: 61px;
+}
+/* @media all and (min-width:768px) */
+main {
+	margin-top: 106px;
+}
+/* @media all and (min-width:992px) */
+main {
+	margin-top: 61px;
+}
+/* @media all and (min-width:1200px) */
+main {
+	margin-top: 61px;
+}
+.container-fluid::before, main::before, body::before, .home-intro::before, .container-fluid::after, main::after, body::after, .home-intro::after {
+	content: " ";
+	display: table;
+}
+.container-fluid::after, main::after, body::after, .home-intro::after {
+	clear: both;
+}
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: transparent;
+}
+html.turbolinks-progress-bar::before {
+	content: " ";
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	background-color: #0076ff;
+	height: 3px;
+	opacity: 0.99;
+	width: 0%;
+	transition: width 0ms ease-out, opacity 0ms ease-in;
+	transform: translate3d(0px, 0px, 0px);
+}
+p {
+	margin: 0 0 10px;
+}
+.alert, #unearth-search-info .approximate-warning {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.alert-danger {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}
+table {
+	background-color: transparent;
+}
+.table, .content-table, .table-container table.table-inner, .data-table-container table.table-inner, table.table-standard {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.table-bordered, .content-table {
+	border: 1px solid #ddd;
+}
+#disqus_thread {
+	text-align: left;
+}
+.drugs-c div#drug-meta {
+	clear: both;
+	font-size: 12px;
+	text-align: center;
+	font-color: grey;
+}
+th {
+	text-align: left;
+}
+table.dataTable td, table.dataTable th {
+	box-sizing: content-box;
+}
+.table > thead > tr > th, .content-table > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, table.table-standard > thead > tr > th, .table > thead > tr > td, .content-table > thead > tr > td, .table-container table.table-inner > thead > tr > td, .data-table-container table.table-inner > thead > tr > td, table.table-standard > thead > tr > td, .table > tbody > tr > th, .content-table > tbody > tr > th, .table-container table.table-inner > tbody > tr > th, .data-table-container table.table-inner > tbody > tr > th, table.table-standard > tbody > tr > th, .table > tbody > tr > td, .content-table > tbody > tr > td, .table-container table.table-inner > tbody > tr > td, .data-table-container table.table-inner > tbody > tr > td, table.table-standard > tbody > tr > td, .table > tfoot > tr > th, .content-table > tfoot > tr > th, .table-container table.table-inner > tfoot > tr > th, .data-table-container table.table-inner > tfoot > tr > th, table.table-standard > tfoot > tr > th, .table > tfoot > tr > td, .content-table > tfoot > tr > td, .table-container table.table-inner > tfoot > tr > td, .data-table-container table.table-inner > tfoot > tr > td, table.table-standard > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.4285;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+.table > thead > tr > th, .content-table > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, table.table-standard > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+}
+.table-condensed > thead > tr > th, .table-container table.table-inner > thead > tr > th, .data-table-container table.table-inner > thead > tr > th, .table-condensed > thead > tr > td, .table-container table.table-inner > thead > tr > td, .data-table-container table.table-inner > thead > tr > td, .table-condensed > tbody > tr > th, .table-container table.table-inner > tbody > tr > th, .data-table-container table.table-inner > tbody > tr > th, .table-condensed > tbody > tr > td, .table-container table.table-inner > tbody > tr > td, .data-table-container table.table-inner > tbody > tr > td, .table-condensed > tfoot > tr > th, .table-container table.table-inner > tfoot > tr > th, .data-table-container table.table-inner > tfoot > tr > th, .table-condensed > tfoot > tr > td, .table-container table.table-inner > tfoot > tr > td, .data-table-container table.table-inner > tfoot > tr > td {
+	padding: 5px;
+}
+.table-bordered > thead > tr > th, .content-table > thead > tr > th, .table-bordered > thead > tr > td, .content-table > thead > tr > td, .table-bordered > tbody > tr > th, .content-table > tbody > tr > th, .table-bordered > tbody > tr > td, .content-table > tbody > tr > td, .table-bordered > tfoot > tr > th, .content-table > tfoot > tr > th, .table-bordered > tfoot > tr > td, .content-table > tfoot > tr > td {
+	border: 1px solid #ddd;
+}
+.drug-table > tbody > tr > th {
+	background: #D9F5FE;
+	color: #555555;
+}
+.wishart-not-available.wishart {
+	color: #949494;
+}
+.table-container table.table-inner {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: none;
+	text-align: left;
+	border: none;
+	font-size: 13px;
+}
+table.dataTable {
+	clear: both;
+	margin-top: 6px !important;
+	margin-bottom: 6px !important;
+	max-width: none !important;
+}
+.table .table, .content-table .table, .table-container table.table-inner .table, .data-table-container table.table-inner .table, table.table-standard .table, .table .content-table, .content-table .content-table, .table-container table.table-inner .content-table, .data-table-container table.table-inner .content-table, table.table-standard .content-table, .table .table-container table.table-inner, .table-container .table table.table-inner, .content-table .table-container table.table-inner, .table-container .content-table table.table-inner, .table-container table.table-inner table.table-inner, table.table-standard .table-container table.table-inner, .table-container table.table-standard table.table-inner, .table .data-table-container table.table-inner, .data-table-container .table table.table-inner, .content-table .data-table-container table.table-inner, .data-table-container .content-table table.table-inner, .data-table-container table.table-inner table.table-inner, table.table-standard .data-table-container table.table-inner, .data-table-container table.table-standard table.table-inner, .table table.table-standard, .content-table table.table-standard, .table-container table.table-inner table.table-standard, .data-table-container table.table-inner table.table-standard, table.table-standard table.table-standard {
+	background-color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1), .table-container table.table-inner > tbody > tr:nth-of-type(2n+1), .data-table-container table.table-inner > tbody > tr:nth-of-type(2n+1), table.table-standard > tbody > tr:nth-of-type(2n+1) {
+	background-color: #f9f9f9;
+}
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+.wishart-link-out {
+	white-space: nowrap;
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: "Glyphicons Halflings";
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-new-window::before {
+	content: "\e164";
+}
+.wishart-link-out .glyphicon {
+	color: silver;
+}
+table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+	padding-right: 30px;
+}
+table.table-condensed.dataTable > thead > tr > th, .table-container table.table-inner.dataTable > thead > tr > th, .data-table-container table.table-inner.dataTable > thead > tr > th {
+	padding-right: 20px;
+}
+table.table-condensed.dataTable .sorting::after, .table-container table.table-inner.dataTable .sorting::after, .data-table-container table.table-inner.dataTable .sorting::after, table.table-condensed.dataTable .sorting_asc::after, .table-container table.table-inner.dataTable .sorting_asc::after, .data-table-container table.table-inner.dataTable .sorting_asc::after, table.table-condensed.dataTable .sorting_desc::after, .table-container table.table-inner.dataTable .sorting_desc::after, .data-table-container table.table-inner.dataTable .sorting_desc::after {
+	top: 6px;
+	right: 6px;
+}
+.table > caption + thead > tr:first-child > th, .content-table > caption + thead > tr:first-child > th, .table-container table.table-inner > caption + thead > tr:first-child > th, .data-table-container table.table-inner > caption + thead > tr:first-child > th, table.table-standard > caption + thead > tr:first-child > th, .table > caption + thead > tr:first-child > td, .content-table > caption + thead > tr:first-child > td, .table-container table.table-inner > caption + thead > tr:first-child > td, .data-table-container table.table-inner > caption + thead > tr:first-child > td, table.table-standard > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .content-table > colgroup + thead > tr:first-child > th, .table-container table.table-inner > colgroup + thead > tr:first-child > th, .data-table-container table.table-inner > colgroup + thead > tr:first-child > th, table.table-standard > colgroup + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .content-table > colgroup + thead > tr:first-child > td, .table-container table.table-inner > colgroup + thead > tr:first-child > td, .data-table-container table.table-inner > colgroup + thead > tr:first-child > td, table.table-standard > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > th, .content-table > thead:first-child > tr:first-child > th, .table-container table.table-inner > thead:first-child > tr:first-child > th, .data-table-container table.table-inner > thead:first-child > tr:first-child > th, table.table-standard > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .content-table > thead:first-child > tr:first-child > td, .table-container table.table-inner > thead:first-child > tr:first-child > td, .data-table-container table.table-inner > thead:first-child > tr:first-child > td, table.table-standard > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+table.data-table .dataTables_wrapper {
+	margin-top: 0.4em;
+}
+.row, .unearth-advanced-c .search-condition, .unearth-search-results .unearth-search-hit .unearth-search-details, #biodbi-search-results .biodbi-hit .biodbi-sequence {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row::before, .unearth-advanced-c .search-condition::before, .unearth-search-results .unearth-search-hit .unearth-search-details::before, #biodbi-search-results .biodbi-hit .biodbi-sequence::before, .row::after, .unearth-advanced-c .search-condition::after, .unearth-search-results .unearth-search-hit .unearth-search-details::after, #biodbi-search-results .biodbi-hit .biodbi-sequence::after {
+	content: " ";
+	display: table;
+}
+.row::after, .unearth-advanced-c .search-condition::after, .unearth-search-results .unearth-search-hit .unearth-search-details::after, #biodbi-search-results .biodbi-hit .biodbi-sequence::after {
+	clear: both;
+}
+.col-xs-1, .unearth-advanced-c .search-condition .remove-button, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-sm-1, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-md-1, .unearth-advanced-c .search-condition .remove-button, .unearth-search-results .unearth-search-hit .unearth-search-details .result-link, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-lg-1, .col-xs-2, .unearth-advanced-c .search-condition .predicate-select, .col-sm-2, .col-md-2, .unearth-advanced-c .search-condition .predicate-select, .home-intro .dod-structure, .col-lg-2, .col-xs-3, .unearth-advanced-c .search-condition .field-select, .unearth-advanced-c .search-condition .value, .unearth-advanced-c .search-condition .helptext, .col-sm-3, .col-md-3, .unearth-advanced-c .search-condition .field-select, .unearth-advanced-c .search-condition .value, .unearth-advanced-c .search-condition .helptext, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-sm-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-md-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .home-intro .dod-drug, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .unearth-search-results .unearth-search-hit .unearth-search-details .result-info, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* @media all and (min-width:768px) */
+.col-sm-1, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-labels, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, #biodbi-search-results .biodbi-hit .biodbi-sequence .biodbi-sequence-comparison, .col-sm-11, .col-sm-12 {
+	float: left;
+}
+/* @media all and (min-width:768px) */
+.col-sm-5 {
+	width: 41.66%;
+}
+/* @media all and (min-width:768px) */
+.col-sm-7 {
+	width: 58.33%;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+	margin: 0;
+	white-space: nowrap;
+	text-align: right;
+}
+ul, ol {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.pagination {
+	display: inline-block;
+	padding-left: 0px;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+	margin: 2px 0;
+	white-space: nowrap;
+}
+.pagination > li {
+	display: inline;
+}
+.pagination > li > a, .pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.4285;
+	text-decoration: none;
+	color: #337ab7;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+	color: #777777;
+	background-color: #fff;
+	border-color: #ddd;
+	cursor: not-allowed;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+	z-index: 3;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	cursor: default;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	margin-left: 0px;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.pagination-sm > li > a, table.data-table .dataTables_wrapper .pagination > li > a, .pagination-sm > li > span, table.data-table .dataTables_wrapper .pagination > li > span {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.pagination-sm > li:last-child > a, table.data-table .dataTables_wrapper .pagination > li:last-child > a, .pagination-sm > li:last-child > span, table.data-table .dataTables_wrapper .pagination > li:last-child > span {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.pagination-sm > li:first-child > a, table.data-table .dataTables_wrapper .pagination > li:first-child > a, .pagination-sm > li:first-child > span, table.data-table .dataTables_wrapper .pagination > li:first-child > span {
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+div.dataTables_wrapper div.dataTables_info {
+	padding-top: 8px;
+	white-space: nowrap;
+}
+.text-muted, table.data-table .dataTables_wrapper .dataTables_length, table.data-table .dataTables_wrapper .dataTables_info {
+	color: #777777;
+}
+/* @media all and (min-width:768px) */
+.col-sm-12 {
+	width: 100%;
+}
+.data-table-container .datatable {
+	font-size: 13px;
+}
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+.drug-table .mixtures .breadcrumb {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.breadcrumb > li {
+	display: inline-block;
+}
+.breadcrumb > li + li::before {
+	content: "/ ";
+	padding: 0 5px;
+	color: #ccc;
+}
+table.dataTable thead > tr > th {
+	padding-left: 5px !important;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+	cursor: pointer;
+	position: relative;
+}
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting_asc_disabled::after, table.dataTable thead .sorting_desc_disabled::after {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	display: block;
+	font-family: "Glyphicons Halflings";
+	opacity: 0.5;
+}
+table.dataTable thead .sorting_asc::after {
+	content: "\e155";
+}
+table.dataTable thead .sorting::after {
+	opacity: 0.2;
+	content: "\e150";
+}
+/* @media all and (min-width:768px) */
+.col-sm-6 {
+	width: 50%;
+}
+.dataTables_filter {
+	margin-right: 1em;
+}
+div.dataTables_wrapper div.dataTables_filter {
+	text-align: right;
+}
+.form-group, table.data-table .dataTables_wrapper .dataTables_filter {
+	margin-bottom: 15px;
+}
+table.data-table .dataTables_wrapper .dataTables_filter {
+	float: right;
+	width: 300px;
+	margin-bottom: 0px;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+	font-weight: normal;
+	white-space: nowrap;
+	text-align: left;
+}
+table.data-table .dataTables_wrapper .dataTables_filter label {
+	display: inline;
+}
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+	margin-left: 0.5em;
+	display: inline-block;
+	width: auto;
+}
+.form-control, .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition select, table.data-table .dataTables_wrapper .dataTables_filter input {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #555555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.input-sm, .input-group-sm > .form-control, table.data-table .dataTables_wrapper .dataTables_filter .input-group-sm > input, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn, #jumper .input-group-sm > .input-group-btn > .btn-jump, .drugs-c #drug-actions .input-group-sm > .input-group-btn > .btn-jump, .drug-table .products .input-group-sm > .input-group-btn > .full-image, .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition select {
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+input[type='search'] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+}
+input[type='search'] {
+	box-sizing: border-box;
+}
+input[type='search'] {
+	-webkit-appearance: none;
+}
+table.data-table .dataTables_wrapper .dataTables_filter input {
+	display: inline;
+}
+:-ms-input-placeholder.form-control, .unearth-advanced-c .search-condition input:-ms-input-placeholder, .unearth-advanced-c .search-condition select:-ms-input-placeholder, table.data-table .dataTables_wrapper .dataTables_filter input:-ms-input-placeholder {
+	color: #999;
+}
+select.input-sm, .input-group-sm > select.form-control, .input-group-sm > select.input-group-addon, .input-group-sm > .input-group-btn > select.btn, #jumper .input-group-sm > .input-group-btn > select.btn-jump, .drugs-c #drug-actions .input-group-sm > .input-group-btn > select.btn-jump, .drug-table .products .input-group-sm > .input-group-btn > select.full-image, .unearth-advanced-c .search-condition select {
+	height: 30px;
+	line-height: 30px;
+}
+/* @media all and (min-width:768px) */
+.form-inline .form-control, .form-inline .unearth-advanced-c .search-condition input, .unearth-advanced-c .search-condition .form-inline input, .form-inline .unearth-advanced-c .search-condition select, .unearth-advanced-c .search-condition .form-inline select, .form-inline table.data-table .dataTables_wrapper .dataTables_filter input, table.data-table .dataTables_wrapper .dataTables_filter .form-inline input {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
+div.dataTables_wrapper div.dataTables_length select {
+	width: 75px;
+	display: inline-block;
+}
+.input-xs, table.data-table .dataTables_wrapper .dataTables_length select, table.data-table .dataTables_wrapper .dataTables_filter input {
+	height: 28px;
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+table.data-table .dataTables_wrapper .dataTables_length {
+	display: inline;
+}
+div.dataTables_wrapper div.dataTables_length label {
+	font-weight: normal;
+	text-align: left;
+	white-space: nowrap;
+}
+table.data-table .dataTables_wrapper .dataTables_length label {
+	float: none;
+	text-align: left;
+	vertical-align: middle;
+}
+.btn-group, .btn-group-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+.modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+/* @media all and (min-width:768px) */
+.modal-dialog {
+	width: 600px;
+	margin: 30px auto;
+}
+.fade.modal .modal-dialog {
+	-webkit-transform: translate(0, -25%);
+	transform: translate(0px, -25%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	transition: -webkit-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+.modal-content {
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	box-shadow: 0px 3px 9px rgba(0,0,0,0.5);
+	background-clip: padding-box;
+	outline: 0;
+}
+/* @media all and (min-width:768px) */
+.modal-content {
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+.modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.modal-header::before, .modal-header::after {
+	content: " ";
+	display: table;
+}
+.modal-header::after {
+	clear: both;
+}
+.modal-body {
+	position: relative;
+	padding: 15px;
+}
+.modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+.modal-footer::before, .modal-footer::after {
+	content: " ";
+	display: table;
+}
+.modal-footer::after {
+	clear: both;
+}
+.btn, #jumper .btn-jump, .drugs-c #drug-actions .btn-jump, .drug-table .products .full-image {
+	display: inline-block;
+	margin-bottom: 0px;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4285;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn-default, #jumper .btn-jump, .drugs-c #drug-actions .btn-jump {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+img {
+	vertical-align: middle;
+}
+.close {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0px 1px 0px #fff;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+.modal-header .close {
+	margin-top: -2px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h4, .h4 {
+	font-size: 18px;
+}
+.modal-title {
+	margin: 0;
+	line-height: 1.4285;
+}
+.btn-sm, .btn-group-sm > .btn, #jumper .btn-group-sm > .btn-jump, .drugs-c #drug-actions .btn-group-sm > .btn-jump, .drug-table .products .btn-group-sm > .full-image {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn-group > .btn, #jumper .btn-group > .btn-jump, .drugs-c #drug-actions .btn-group > .btn-jump, .drug-table .products .btn-group > .full-image, .btn-group-vertical > .btn, #jumper .btn-group-vertical > .btn-jump, .drugs-c #drug-actions .btn-group-vertical > .btn-jump, .drug-table .products .btn-group-vertical > .full-image {
+	position: relative;
+	float: left;
+}
+.btn-group > :first-child.btn, #jumper .btn-group > :first-child.btn-jump, .drugs-c #drug-actions .btn-group > :first-child.btn-jump, .drug-table .products .btn-group > :first-child.full-image {
+	margin-left: 0px;
+}
+.btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn, #jumper .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn-jump, .drugs-c #drug-actions .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).btn-jump, .drug-table .products .btn-group > :first-child:not(.dropdown-toggle):not(:last-child).full-image {
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.btn-group .btn + .btn, .btn-group #jumper .btn-jump + .btn, #jumper .btn-group .btn-jump + .btn, .btn-group .drugs-c #drug-actions .btn-jump + .btn, .drugs-c #drug-actions .btn-group .btn-jump + .btn, .btn-group .drug-table .products .full-image + .btn, .drug-table .products .btn-group .full-image + .btn, .btn-group #jumper .btn + .btn-jump, #jumper .btn-group .btn + .btn-jump, .btn-group #jumper .btn-jump + .btn-jump, #jumper .btn-group .btn-jump + .btn-jump, .btn-group .drug-table .products #jumper .full-image + .btn-jump, #jumper .btn-group .drug-table .products .full-image + .btn-jump, .drug-table .products .btn-group #jumper .full-image + .btn-jump, #jumper .drug-table .products .btn-group .full-image + .btn-jump, .btn-group .drugs-c #drug-actions .btn + .btn-jump, .drugs-c #drug-actions .btn-group .btn + .btn-jump, .btn-group .drugs-c #drug-actions .btn-jump + .btn-jump, .drugs-c #drug-actions .btn-group .btn-jump + .btn-jump, .btn-group .drug-table .products .drugs-c #drug-actions .full-image + .btn-jump, .drugs-c #drug-actions .btn-group .drug-table .products .full-image + .btn-jump, .drug-table .products .btn-group .drugs-c #drug-actions .full-image + .btn-jump, .drugs-c #drug-actions .drug-table .products .btn-group .full-image + .btn-jump, .btn-group .drug-table .products .btn + .full-image, .drug-table .products .btn-group .btn + .full-image, .btn-group #jumper .drug-table .products .btn-jump + .full-image, .drug-table .products .btn-group #jumper .btn-jump + .full-image, #jumper .btn-group .drug-table .products .btn-jump + .full-image, .drug-table .products #jumper .btn-group .btn-jump + .full-image, .btn-group .drugs-c #drug-actions .drug-table .products .btn-jump + .full-image, .drug-table .products .btn-group .drugs-c #drug-actions .btn-jump + .full-image, .drugs-c #drug-actions .btn-group .drug-table .products .btn-jump + .full-image, .drug-table .products .drugs-c #drug-actions .btn-group .btn-jump + .full-image, .btn-group .drug-table .products .full-image + .full-image, .drug-table .products .btn-group .full-image + .full-image, .btn-group .btn + .btn-group, .btn-group #jumper .btn-jump + .btn-group, #jumper .btn-group .btn-jump + .btn-group, .btn-group .drugs-c #drug-actions .btn-jump + .btn-group, .drugs-c #drug-actions .btn-group .btn-jump + .btn-group, .btn-group .drug-table .products .full-image + .btn-group, .drug-table .products .btn-group .full-image + .btn-group, .btn-group .btn-group + .btn, .btn-group #jumper .btn-group + .btn-jump, #jumper .btn-group .btn-group + .btn-jump, .btn-group .drugs-c #drug-actions .btn-group + .btn-jump, .drugs-c #drug-actions .btn-group .btn-group + .btn-jump, .btn-group .drug-table .products .btn-group + .full-image, .drug-table .products .btn-group .btn-group + .full-image, .btn-group .btn-group + .btn-group {
+	margin-left: -1px;
+}
+.btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn, #jumper .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn-jump, .drugs-c #drug-actions .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).btn-jump, .drug-table .products .btn-group > :not(:first-child):not(.dropdown-toggle):not(:last-child).full-image {
+	border-radius: 0;
+}
+.btn-group > :last-child:not(:first-child).btn, #jumper .btn-group > :last-child:not(:first-child).btn-jump, .drugs-c #drug-actions .btn-group > :last-child:not(:first-child).btn-jump, .drug-table .products .btn-group > :last-child:not(:first-child).full-image, .btn-group > :not(:first-child).dropdown-toggle {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.glyphicon-zoom-in::before {
+	content: "\e015";
+}
+.glyphicon-exclamation-sign::before {
+	content: "\e101";
+}
+</style>
+</head>
+<body class="drugs-c  show-a" data-c="drugs" data-a="show">
+   <main role="main">
+   <table class="drug-table data-table table table-condensed table-bordered">
+      <tbody>
+         <tr>
+            <th>Name</th>
+            <td><strong>Velpatasvir</strong></td>
+         </tr>
+         <tr>
+            <th>Accession Number</th>
+            <td><strong>DB11613</strong></td>
+         </tr>
+         <tr>
+            <th>Type</th>
+            <td>Small Molecule</td>
+         </tr>
+         <tr>
+            <th>Groups</th>
+            <td>Approved</td>
+         </tr>
+         <tr>
+            <th>Description</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+         <tr>
+            <th>Indication</th>
+            <td>Used together with sofosbuvir in the treatment of hepatitis C infection of all six major genotypes.</td>
+         </tr>
+         <tr>
+            <th>Structure</th>
+            <td>
+               <div class="structure"><a class="moldbi-thumbnail" href="http://moldb.wishartlab.com/molecules/DB11613/image.png"><img alt="Thumb" src="http://moldb.wishartlab.com/molecules/DB11613/thumb.png"></a></div>
+               <div class="structure-links">
+                  <div class="btn-group btn-group-sm">
+                  	<a class="btn btn-default" href="#" rel="nofollow" data-toggle="modal" data-target="#structure-zoom"><span class="glyphicon glyphicon-zoom-in"> </span></a>
+                  	<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11613.mol" rel="nofollow" target="_blank">MOL</a>
+                  	<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11613.sdf" rel="nofollow" target="_blank">SDF</a>
+                  	<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11613.pdb" rel="nofollow" target="_blank">PDB</a>
+                  	<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11613.smiles" rel="nofollow" target="_blank">SMILES</a>
+                  	<a class="btn btn-default" href="http://www.drugbank.ca/structures/structures/small_molecule_drugs/DB11613.inchi" rel="nofollow" target="_blank">InChI</a>
+                  	</div>
+                  <div class="modal fade" id="structure-zoom">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button class="close" aria-hidden="true" type="button" data-dismiss="modal"> ×</button>
+                              <h4 class="modal-title">Structure for DB11613 (Velpatasvir)</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p><img alt="Image" src="http://moldb.wishartlab.com/molecules/DB11613/image.png"></p>
+                           </div>
+                           <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal"> Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <th>Synonyms</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+         <tr>
+            <th>Products</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+         <tr>
+            <th>International Brands</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+         <tr>
+            <th>Brand mixtures</th>
+            <td class="data-table-container">
+               <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="DataTables_Table_0_wrapper">
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <div class="dataTables_length" id="DataTables_Table_0_length">
+                           <label>
+                              Show 
+                              <select name="DataTables_Table_0_length" class="form-control input-sm" aria-controls="DataTables_Table_0">
+                                 <option value="10">10</option>
+                                 <option value="25">25</option>
+                                 <option value="50">50</option>
+                                 <option value="100">100</option>
+                              </select>
+                              entries
+                           </label>
+                        </div>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="dataTables_filter" id="DataTables_Table_0_filter"><label><input class="form-control input-sm" aria-controls="DataTables_Table_0" type="search" placeholder="Search" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <table class="mixtures table table-condensed table-striped datatable dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                           <thead>
+                              <tr role="row">
+                                 <th tabindex="0" class="sorting_asc" aria-controls="DataTables_Table_0" aria-label="Name: activate to sort column descending" aria-sort="ascending" rowspan="1" colspan="1">Name</th>
+                                 <th tabindex="0" class="sorting" aria-controls="DataTables_Table_0" style="width: 497px;" aria-label="Labeller: activate to sort column ascending" rowspan="1" colspan="1">Labeller</th>
+                                 <th tabindex="0" class="sorting" aria-controls="DataTables_Table_0" style="width: 449px;" aria-label="Ingredients: activate to sort column ascending" rowspan="1" colspan="1">Ingredients</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr class="odd" role="row">
+                                 <td class="sorting_1"><strong>Epclusa</strong></td>
+                                 <td>Gilead Sciences Canada Inc</td>
+                                 <td>
+                                    <ol class="breadcrumb">
+                                       <li><a href="/PharmacologicalAPI/Epclusa/Sofosbuvir.html">Sofosbuvir</a></li>
+                                       <li><strong>Velpatasvir</strong></li>
+                                    </ol>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-5">
+                        <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div>
+                     </div>
+                     <div class="col-sm-7">
+                        <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                           <ul class="pagination">
+                              <li class="paginate_button previous disabled" id="DataTables_Table_0_previous"><a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="0">Previous</a></li>
+                              <li class="paginate_button active"><a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="1">1</a></li>
+                              <li class="paginate_button next disabled" id="DataTables_Table_0_next"><a tabindex="0" aria-controls="DataTables_Table_0" href="#" data-dt-idx="2">Next</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <th>Salts</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+         <tr>
+            <th>CAS number</th>
+            <td>1377049-84-7</td>
+         </tr>
+         <tr>
+            <th>Weight</th>
+            <td>Average: 883.019 <br>Monoisotopic: 882.406460731 </td>
+         </tr>
+         <tr>
+            <th>Chemical Formula</th>
+            <td>C<sub>49</sub>H<sub>54</sub>N<sub>8</sub>O<sub>8</sub></td>
+         </tr>
+         <tr>
+            <th>InChI Key</th>
+            <td>FHCUMDQMBHQXKK-CDIODLITSA-N</td>
+         </tr>
+         <tr>
+            <th>InChI</th>
+            <td>
+               <div class="wrap">InChI=1S/C49H54N8O8/c1-26(2)41(54-48(60)63-5)47(59)57-27(3)12-17-38(57)45-51-36-16-14-30-20-35-33-15-13-31(19-32(33)25-65-40(35)21-34(30)43(36)53-45)37-22-50-44(52-37)39-18-28(24-62-4)23-56(39)46(58)42(55-49(61)64-6)29-10-8-7-9-11-29/h7-11,13-16,19-22,26-28,38-39,41-42H,12,17-18,23-25H2,1-6H3,(H,50,52)(H,51,53)(H,54,60)(H,55,61)/t27-,28-,38-,39-,41-,42+/m0/s1</div>
+            </td>
+         </tr>
+         <tr>
+            <th>IUPAC Name</th>
+            <td>
+               <div class="wrap"></div>
+            </td>
+         </tr>
+         <tr>
+            <th>SMILES</th>
+            <td>
+               <div class="wrap">[H][C@](N=C(O)OC)(C(C)C)C(=O)N1[C@@]([H])(C)CC[C@@]1([H])C1=NC2=C(N1)C1=CC3=C(C=C1C=C2)C1=C(CO3)C=C(C=C1)C1=CN=C(N1)[C@]1([H])C[C@]([H])(COC)CN1C(=O)[C@]([H])(N=C(O)OC)C1=CC=CC=C1</div>
+            </td>
+         </tr>
+         <tr>
+            <th>External Links</th>
+            <td class="table-container">
+               <table class="table-inner" id="external-links">
+                  <thead>
+                     <tr>
+                        <th>Resource</th>
+                        <th>Link</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Drug Product Database</td>
+                        <td><a class="wishart-link-out" href="http://webprod5.hc-sc.gc.ca/dpd-bdpp/info.do?code=22733&amp;lang=eng" target="_blank">22733 <span class="glyphicon glyphicon-new-window"> </span></a></td>
+                     </tr>
+                     <tr>
+                        <td>Wikipedia</td>
+                        <td><a class="wishart-link-out" href="http://en.wikipedia.org/wiki/Velpatasvir" target="_blank">Velpatasvir <span class="glyphicon glyphicon-new-window"> </span></a></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+         <tr>
+            <th>References</th>
+            <td><span class="wishart wishart-not-available">Not Available</span></td>
+         </tr>
+      </tbody>
+   </table>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'drugbank'; // required: replace example with your forum shortname
+    var disqus_identifier = 'DB11613';
+    var disqus_url = 'http://www.drugbank.ca/drugs/DB11613';
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'drugbank'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<div id="drug-meta" style="margin-top: 2em;">Drug created on August 05, 2016 17:48 / Updated on August 17, 2016 12:25 </div></main></body>
+</html>

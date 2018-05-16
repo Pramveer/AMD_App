@@ -1,0 +1,40 @@
+<template name="TreatmentEfficacyCompareEngine">
+
+
+	<div class="">
+
+		<div class="col-lg-12">
+
+
+			<div class="row" style="margin-top:15px;">
+                <!-- Loading Wheel-->
+                <div class="col-lg-12 mlSubTabsChartSectionMask" style="min-height: 480px;">
+                    <div class="chart_loader payer_loader">Loading...</div>
+                </div>
+                
+                <div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;">
+
+                    <div id="DivGraphs" class="col-md-12" style="width: 100%;  padding: 0px;margin-left: 0px;padding-top: 10px !important;min-height: 480px;">
+
+                        <div class="col-md-12" id="OMedicineCount">
+                            <div class="boxshadow_borderline inline-block">
+                                
+                                <div class="pharma_patientsjourney_title SvrTrentChartTitle"></div>
+                                <div id="pharma_patientsjourney"  style="margin-bottom: 50px;">
+                                    <div class="providerNoDataFound">Please Select Medications</div>
+                                </div>
+                                <div class="pharma_SvrPatientCount_title SvrTrentChartTitle"></div>
+                                <div id="pharma_SvrPatientCount">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>		
+                </div>
+
+			</div>
+		</div>
+
+	</div>
+
+</template>

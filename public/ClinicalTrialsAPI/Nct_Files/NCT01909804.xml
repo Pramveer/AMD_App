@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="76">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01909804</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-342-0109</org_study_id>
+    <nct_id>NCT01909804</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Sofosbuvir Plus GS-5816 With or Without Ribavirin in Treatment-experienced Subjects With Chronic HCV Infection</brief_title>
+  <official_title>A Phase 2, Multicenter, Randomized, Open-Label Study to Investigate the Safety and Efficacy of Sofosbuvir + GS-5816 for 12 Weeks in Treatment-Experienced Subjects With Chronic HCV Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the antiviral efficacy, safety, and tolerability of sofosbuvir
+      (SOF)+GS-5816 with or without ribavirin (RBV) in treatment-experienced participants with
+      chronic genotype (GT) 1 or 3 hepatitis C virus (HCV) infection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2013</start_date>
+  <completion_date type="Actual">August 2014</completion_date>
+  <primary_completion_date type="Actual">May 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Proportion of participants with sustained virologic response 12 weeks after discontinuation of therapy (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as HCV RNA &lt; the lower limit of quantitation (LLOQ &lt; 25 IU/mL) 12 weeks following the last dose of study drug.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of adverse events leading to permanent discontinuation of study drug</measure>
+    <time_frame>Baseline to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR) at 4 and 24 weeks after discontinuation of therapy (SVR4 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR24 is defined as HCV RNA &lt; LLOQ at 4 and 24 weeks following the last dose of study drug, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with virologic failure</measure>
+    <time_frame>Baseline to posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic failure is defined as virologic breakthrough (participant achieved undetectable HCV RNA levels during treatment but subsequently had detectable HCV RNA while continuing treatment), non-response (HCV RNA ≥ LLOQ while on treatment), or relapse (participant achieved undetectable HCV RNA levels during treatment maintained undetectable HCV RNA for the duration of treatment or achieved undetectable HCV RNA within 4 weeks of the end of treatment but did not achieve SVR at 4, 12, or 24 weeks posttreatment).</description>
+  </secondary_outcome>
+  <number_of_arms>12</number_of_arms>
+  <enrollment type="Actual">323</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection without cirrhosis will receive SOF+GS-5816 25 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS5816 25mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection without cirrhosis will receive SOF+GS-5816 25 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection without cirrhosis will receive SOF+GS-5816 100 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection without cirrhosis will receive SOF+GS-5816 100 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection with cirrhosis will receive SOF+GS-5816 25 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection with cirrhosis will receive SOF+GS-5816 25 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection with cirrhosis will receive SOF+GS-5816 100 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 3 HCV infection with cirrhosis will receive SOF+GS-5816 100 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 25 mg (GT1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1 HCV infection will receive SOF+GS-5816 25 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1 HCV infection will receive SOF+GS-5816 25 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg (GT1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1 HCV infection will receive SOF+GS-5816 100 mg for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1 HCV infection will receive SOF+GS-5816 100 mg plus RBV for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SOF</intervention_name>
+    <description>SOF 400 mg tablet administered orally once daily</description>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS5816 25mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT1)</arm_group_label>
+    <other_name>Sovaldi®</other_name>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>GS-5816</intervention_name>
+    <description>GS-5816 tablet administered orally once daily</description>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS5816 25mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT1)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) 200 mg tablets administered orally in a divided daily dose according to package insert weight-based dosing recommendations (&lt; 75 kg = 1000 mg and ≥ 75 kg = 1200 mg)</description>
+    <arm_group_label>SOF+GS5816 25mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) without cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT3) with cirrhosis</arm_group_label>
+    <arm_group_label>SOF+GS-5816 25 mg+RBV (GT1)</arm_group_label>
+    <arm_group_label>SOF+GS-5816 100 mg+RBV (GT1)</arm_group_label>
+    <other_name>Ribasphere®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Body mass index (BMI) ≥ 18 kg/m^2
+
+          -  HCV RNA ≥ 10000 IU/mL at screening
+
+          -  Prior treatment failure to a regimen including interferon with or without RBV
+
+          -  HCV genotype 1 or 3
+
+          -  Chronic HCV infection
+
+          -  Cirrhosis determination
+
+          -  Use of highly effective contraception methods if female of childbearing potential or
+             sexually active male
+
+        Exclusion Criteria:
+
+          -  Current or prior history of clinically significant illness other than HCV
+
+          -  Screening ECG with clinically significant abnormalities
+
+          -  Prior exposure to HCV specific direct acting antiviral agent
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  Chronic liver disease of non-HCV etiology
+
+          -  Hepatitis B
+
+          -  Active drug abuse
+
+          -  Use of any prohibited concomitant medications
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John McNally</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Long Beach</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pasadena</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Denver</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wellington</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hillsborough</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Santa Fe</city>
+        <state>New Mexico</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Great Neck</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fayetteville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Winston-Salem</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Annandale</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fairfax</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Newport News</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Camperdown</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Darlinghurst</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clayton</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fremantle</city>
+        <state>Western Australia</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Perth</city>
+        <state>Western Australia</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Auckland</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Christchurch</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Juan</city>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>New Zealand</country>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>February 2015</verification_date>
+  <lastchanged_date>February 25, 2015</lastchanged_date>
+  <firstreceived_date>July 17, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis</keyword>
+  <keyword>HCV Genotype 3</keyword>
+  <keyword>Treatment naive</keyword>
+  <keyword>Treatment experienced</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

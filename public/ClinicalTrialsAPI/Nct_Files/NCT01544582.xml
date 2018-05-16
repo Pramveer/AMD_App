@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="27">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01544582</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P08518</org_study_id>
+    <secondary_id>EP08043.001</secondary_id>
+    <secondary_id>SCH 503034 P08518</secondary_id>
+    <nct_id>NCT01544582</nct_id>
+  </id_info>
+  <brief_title>Drug Utilization of Boceprevir and Clinical Management of Health Outcomes of Interest in Chronic Hepatitis C Participants (P08518)</brief_title>
+  <official_title>An Observational Post-Authorization Safety Study (PASS) of Victrelis™ (Boceprevir) Among Chronic Hepatitis C Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an observational prospective follow-up study to assess the utilization of Boceprevir
+      and the management of pre-specified health outcomes of interest (HOIs) under conditions of
+      routine clinical care.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2012</start_date>
+  <completion_date type="Actual">June 2015</completion_date>
+  <primary_completion_date type="Actual">June 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Boceprevir utilization versus other therapies</measure>
+    <time_frame>Study Period 1 year</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion of participants prescribed boceprevir + peginterferon and ribavirin (P-R), telaprevir + P-R, or P-R alone.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Clinical management of health outcomes of interest ([HOI], anemia, neutropenia, thrombocytopenia, or serious rash)</measure>
+    <time_frame>Up to 48 weeks of treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The proportion of participants that had drug dose reductions, drug interruptions, drug discontinuations, concomitant therapies, hospitalizations/urgent care visits for management of HOIs in the 3 treatment groups.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of anemia, neutropenia, thrombocytopenia, and serious skin rash</measure>
+    <time_frame>Up to 48 weeks of treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Rate of occurrence of anemia, neutropenia, thrombocytopenia, or serious rash in the 3 treatment groups.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">719</enrollment>
+  <condition>Hepatitis C Chronic</condition>
+  <arm_group>
+    <arm_group_label>Boceprevir + P-R</arm_group_label>
+    <description>Participants prescribed boceprevir + peginterferon and ribavirin (P-R)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Telaprevir + P-R</arm_group_label>
+    <description>Participants prescribed telaprevir + P-R</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>P-R Alone</arm_group_label>
+    <description>Participants prescribed P-R alone</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adults 18 years or older.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Documented chronic hepatitis C (CHC) genotype-1 infection
+
+          -  Untreated or failed previous therapy
+
+          -  Initiated a new treatment regimen after the study implementation date at their site
+
+          -  Subject agrees to participate in the study by giving written informed consent
+
+        Exclusion Criteria:
+
+          -  Patients taking part in a clinical trial or in any study where a patient is receiving
+             care outside of normal clinical practice for HCV.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Spain</country>
+    <country>United Kingdom</country>
+  </removed_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 30, 2015</lastchanged_date>
+  <firstreceived_date>February 2, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Pegylated Interferon</keyword>
+  <keyword>boceprevir</keyword>
+  <keyword>telaprevir</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

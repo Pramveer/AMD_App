@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="147">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02064049</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VHCRP1302</org_study_id>
+    <nct_id>NCT02064049</nct_id>
+  </id_info>
+  <brief_title>Surveillance and Treatment of Prisoners With Hepatitis C</brief_title>
+  <acronym>SToP-C</acronym>
+  <official_title>A Pilot Study to Assess the Feasibility of Hepatitis C Virus (HCV) Treatment as Prevention With Interferon-free Direct Acting Antivirals (DAAs) in the Prison Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kirby Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kirby Institute</source>
+  <oversight_info>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to assess how feasible it is to treat and prevent the
+      transmission of Hepatitis C in the prison setting to achieve substantial reductions in the
+      incidence and prevalence of Hepatitis C.
+
+      It is hypothesised that a rapid scale-up of Hepatitis C Virus (HCV) treatment with
+      interferon-free Direct Acting Anti-virals (DAAs) in prison inmates will achieve a &gt;50%
+      reduction in the incidence of HCV infection over a two year period in the prison setting.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study will be conducted initially in two maximum security prisons located in New South
+      Wales, Australia and comprises four phases:
+
+      Phase 1, Surveillance of HCV Incidence and Prevalence and Liver Disease Burden:
+
+      The HCV incidence and prevalence phase is a prospective longitudinal cohort. HCV incidence
+      and prevalence and liver disease burden will be monitored through regular six-monthly
+      cross-sectional surveys of participants for 3.5 years.
+
+      Phase 2, Modelling:
+
+      The data from year 1 of the surveillance of HCV incidence and prevalence phase will be used
+      to model the number of participants required to be treated to demonstrate a 50% reduction in
+      incidence.
+
+      Phase 3, Treatment Intervention:
+
+      The treatment intervention will only be conducted in one of the maximum security prisons
+      (Treatment Prison). The second prison will continue to care for HCV infected inmates as per
+      standard of care (Control Prison). The intervention component of this study will consist of
+      a phase IV open-label study of interferon-free DAAs for the treatment of HCV infection. The
+      treatment phase will commence in year 2 and will be two years in duration. The exact drug
+      combination and regimen to be used in the treatment intervention will be determined in year
+      1 once phase II and III data of sofosbuvir and ledipasvir and other potential
+      interferon-free DAA regimens are published. The exact number of participants required to
+      demonstrate a 50% reduction in incidence will be determined during the modelling phase.
+
+      Phase 4, Cost-effectiveness:
+
+      During the treatment intervention phase participants will be required to complete a survey
+      to obtain estimates of health outcomes (EQ-5D survey) at regular intervals. This data will
+      be used by the health economist to determine the cost effectiveness of treatment as
+      prevention in the prison setting.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>October 2014</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Hepatitis C virus (HCV) incidence</measure>
+    <time_frame>2 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Incidence of HCV infection over a two year period within two NSW prisons (Treatment Prison vs. Control Prison)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hepatitis C virus prevalence</measure>
+    <time_frame>2 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Change in prevalence of HCV infection over a two year period within two NSW prisons</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>SVR12</measure>
+    <time_frame>24 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion of patients with undetectable HCV RNA at 12 weeks following the end of treatment (SVR12)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ETR</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The proportion of patients with an end of treatment response (ETR)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response (RVR)</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion of patients with undetectable HCV RNA at 4 weeks following the initiation of treatment (RVR)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Very rapid virological response (vRVR)</measure>
+    <time_frame>2 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion of patients with undetectable HCV RNA at 2 weeks following the initiation of treatment (vRVR)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatment adherence</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The proportion adherent to therapy (both on-treatment adherence and treatment discontinuation) and the association between adherence and response to treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with adverse events</measure>
+    <time_frame>16 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Safety and tolerability of the treatment regimen</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatment uptake</measure>
+    <time_frame>2 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The rate of HCV treatment uptake among eligible inmates and reasons for non-uptake</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>On-treatment change in illicit drug use</measure>
+    <time_frame>24 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Changes in illicit drug use behaviours during treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV reinfection rate</measure>
+    <time_frame>2 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The rate of HCV reinfection following treatment</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">650</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Control Prison</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>HCV infected inmates will be cared for as per standard of care.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Hepatitis C treatment (likely Sofosbuvir and ribavirin)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Interferon-free direct acting antiviral treatment. Exact drug combination and regimen to be determined, based on phase II and III data released before intervention phase commences in year 2.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir and ribavirin</intervention_name>
+    <description>The treatment phase will commence in year 2. The exact drug combination and regimen to be used in the treatment intervention will be determined in year 1 once phase II and III data of sofosbuvir and ledipasvir and other potential interferon-free DAA regimens are published. The likely drug regimen will be either sofosbuvir (400mg daily) and ribavirin (1000-1200mg daily, weight-based) for 12 weeks, or sofosbuvir (400mg daily) and ledipasvir (90mg daily) in a once daily fixed dose combination for 8 or 12 weeks.</description>
+    <arm_group_label>Hepatitis C treatment (likely Sofosbuvir and ribavirin)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Surveillance of HCV Incidence and Prevalence phase:
+
+          1. 18 years of age or older.
+
+          2. Voluntarily signed the informed consent form.
+
+          3. A lifetime history of injecting drug use
+
+          4. Adequate English and mental health status to provide written informed consent and
+             comply with study procedures
+
+        Treatment Intervention phase:
+
+          1. Male participants 18 years of age or older.
+
+          2. Detectable HCV RNA in plasma.
+
+          3. Anticipated incarceration duration &gt;12 weeks following the planned commencement of
+             therapy.
+
+          4. Compensated liver disease where the following criteria must be met:
+
+               -  INR&lt; 1.8
+
+               -  Albumin &gt;30 g/L
+
+               -  Bilirubin &lt;35umol/L
+
+          5. Patients with Fibroscan &gt; 12KPa or AFP &gt;50 ng/mL must have an abdominal ultrasound or
+             CT scan without evidence of hepatocellular carcinoma within 2 months prior to
+             screening.
+
+          6. Participants have voluntarily signed the informed consent form.
+
+        Exclusion Criteria:
+
+        Surveillance of HCV Incidence and Prevalence phase:
+
+        ---Prisoners held in 'strict protection' (this class of prisoner has limited access for
+        medical treatment)
+
+        Treatment Intervention phase:
+
+          1. Therapy with any systemic anti-viral, anti-neoplastic or immunomodulatory treatment
+             (including supraphysiologic doses of steroids and radiation) =&lt; 6 months prior to the
+             first dose of study drug.
+
+          2. Any investigational drug =&lt; 6 weeks prior to the first dose of study drug.
+
+          3. History or other evidence of decompensated liver disease.
+
+          4. Neutrophil count &lt;1000 cells/mm3 or platelet count &lt;50,000 cells/mm3 at screening.
+
+          5. Serum creatinine level &gt;1.5 x upper limit of normal at screening.
+
+          6. Ongoing severe psychiatric disease as judged by the treating physician.
+
+          7. Frequent injecting drug use that is judged by the treating physician to compromise
+             treatment safety.
+
+          8. Inability or unwillingness to provide informed consent or abide by the requirements
+             of the study.
+
+          9. Hemoglobin &lt;12 g/dL (&lt;7.4 mmol/L) in women or &lt;13 g/dL (&lt;8.1 mmol/L) in men at
+             screening.
+
+         10. Prisoners held in 'strict protection' (this class of prisoner has limited access for
+             medical treatment).
+
+         11. Any exclusion criteria specific to the interferon-free DAA regimen selected for use
+             this the study (to be submitted via a protocol amendment if applicable)
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gregory Dore, BSc, MBBS, FRACP, MPH, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kirby Institute, University of New South Wales; St Vincent's Hospital Sydney</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Marianne Byrne, BSc(Hons), MPM</last_name>
+    <phone>+61 2 9385 9984</phone>
+    <email>mbyrne@kirby.unsw.edu.au</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Pip Marks, BSc, MPH(Hons)</last_name>
+    <phone>+61 2 9385 0886</phone>
+    <email>pmarks@kirby.unsw.edu.au</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Goulburn Correctional Centre</name>
+      <address>
+        <city>Goulburn</city>
+        <state>New South Wales</state>
+        <zip>2580</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Lithgow Correctional Centre</name>
+      <address>
+        <city>Lithgow</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 31, 2015</lastchanged_date>
+  <firstreceived_date>February 12, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>People who inject drugs</keyword>
+  <keyword>Drug users</keyword>
+  <keyword>Direct acting antiviral (DAA)</keyword>
+  <keyword>Infectious diseases</keyword>
+  <keyword>Prisoners</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

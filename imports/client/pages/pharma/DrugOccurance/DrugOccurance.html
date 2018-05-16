@@ -1,0 +1,259 @@
+<template name="DrugOccurance">
+	<!--Nisha 02/28/2017 modified the page commented out "analytics-tooltipHead" to remove the heading-->
+	{{> PharmaSubTabs data="therapyCooccurance"}}
+<div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+  
+  <span class="breadcrumb-item active">Target Market</span> 
+</nav>
+        </div>
+	<div class="row" style="margin-top:40px;">
+		<div class="col-lg-12 mlSubTabsChartSectionMask loadingwheelMask">
+			<div class="chart_loader payer_loader">Loading...</div>
+		</div>
+		<div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;min-height: 100px;">
+			<!-- Compare Button -->
+			<!--<div class="js-comparativeEngine ce_CompareButton "><img src="/compare-icon.png"><span class="tooltiptext">Compare</span> 
+			</div>-->
+			<div class="panel" style="margin-left:30px;margin-top:40px;margin-right:30px;">
+				<!-- <div class="panel-heading" style="padding:top:50px;"> -->
+				<h3 class="panel-title containertitle" style="text-align:center;font-size: 20px ! important;display:inline-block;padding-top:16px;">
+					Therapy Co-occurrence</h3>
+				<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Therapy Co-occurance
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the patients count for each drug, and stacks in the
+				bar chart represents the patients taking combination of other medication with that drug. <br><br>
+				<span class="boldfnt">Market Share</span> - It represents the count of patients who took the drugs over total count of patients who took all the drugs for the selected cohort. <br><br>
+			</div>
+
+		</div>
+		</span>
+		<div class="panel-body">
+			<div id="pharma_medicationcooccur" class="boxshadow_borderline"></div>
+		</div>
+		<!-- </div> -->
+
+
+
+		<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+			<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Single and Combined Occurrence</h3>
+			<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Single and Combined Occurance
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of patients by type of medication(single
+			drug/ combination of drug) they are taking. <br><br>
+		</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSingleCombinedPie"></div>
+	</div>
+	</div>
+
+	<div class="col-lg-6 boxshadow_borderline" style="text-align:center !important;padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Genotype Distribution</h3>
+		<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Genotype Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of patients by type of medication(single
+		drug/ combination of drug) they are taking for each Genotype. <br><br>
+	</div>
+	</div>
+	</span>
+	<div class="panel-body" style="text-align:left">
+		<div id="pharma_GenotypeWiseSingleCombinedBar"></div>
+	</div>
+	</div>
+	<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Cirrhosis Distribution</h3>
+		<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Cirrhosis Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of patients by type of medication(single
+		drug/ combination of drug) they are taking for each Cirrhosis. <br><br>
+	</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSingleCombinedCirrhosis"></div>
+	</div>
+	</div>
+	<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Fibrosis Distribution</h3>
+		<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Fibrosis Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of patients by type of medication(single
+		drug/ combination of drug) they are taking for each Fibrosis. <br><br>
+	</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSingleCombinedFibrosis"></div>
+	</div>
+	</div>
+	<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Treatment Period Distribution</h3>
+		<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Treatment Period Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of patients by type of medication(single
+		drug/ combination of drug) they are taking for each Treatment Period. <br><br>
+	</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSingleCombinedTreatmentPeriod"></div>
+	</div>
+	</div>
+
+<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;">Success Rate for Single and Combined Medication </h3>
+		<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Success Rate for Single and Combined Medication
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of number of patients succeeded by type of medication(single
+		drug/ combination of drug) they are taking for each Medication. <br><br>
+	</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSingleCombined"></div>
+	</div>
+	</div>
+
+<!--Nisha 02/13/2017 added Info Icon seperately for Question Answered for along with info buttons-->
+<!--Nisha 02/10/2017 added Question Answered for info button-->
+<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;padding-right:10px;">Compare Medication on Success Rate </h3>
+		<span class="macLearningsubTabs-questIcon mlInfoTip" >
+								<div class="analytics-tooltip mlInfoTip_tooltip"  style="right: -175px !important;" >
+								<!--<div class="analytics-tooltipHead">
+								 Compare Medication on Success Rate
+								</div>-->
+								<div class="analytics-tooltipBody right-arrow" style="font-size: 13px;">
+									<span class="boldfnt">Question Answered:</span><br>How many patients fail to improve on competitor drugs   
+								</div>
+
+								</div>
+							</span>
+
+		<span class="macLearningsubTabs-infoIcon mlInfoTip infoalignment">
+											<div class="analytics-tooltip mlInfoTip_tooltip" style="right: -148px;">
+												<!--<div class="analytics-tooltipHead">
+													Compare Medication on Success Rate
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+											<span class="boldfnt">N : <span id="medicationSuccessRateCount"></span></span><br/>
+				<span class="boldfnt">Definition</span> - This chart represents the distribution of number of patients succeeded by type of medication(single
+		drug/ combination of drug) they are taking for each Medication. <br><br>
+		 
+	</div>
+	</div>
+	</span>
+	<div class="panel-body">
+		<div id="pharma_medicationSuccessRate"></div>
+	</div>
+	</div>
+<!--Nisha 02/10/2017 added Question Answered for info button-->
+	
+	<div class="col-lg-6 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+			<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;padding-right:10px;">Compare Drugs By Cirrhosis </h3>
+			<span class="macLearningsubTabs-questIcon mlInfoTip" >
+								<div class="analytics-tooltip mlInfoTip_tooltip" style="right: -175px !important;" >
+								<!--<div class="analytics-tooltipHead">
+								 Compare Drugs By Cirrhosis 
+								</div>-->
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									 
+									<span class="boldfnt">Question Answered:</span><br> For which sub cohorts of patients is medication superior to other products   
+								</div>
+
+								</div>
+							</span>
+
+			<span class="macLearningsubTabs-infoIcon mlInfoTip infoalignment">
+												<div class="analytics-tooltip mlInfoTip_tooltip" style="right: -148px;">
+													<!--<div class="analytics-tooltipHead">
+														Compare Drugs By Cirrhosis 
+													</div>-->
+													<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : <span id="CirrhosisSuccessRateCount"></span></span><br/>
+					<span class="boldfnt">Definition</span> - This chart represents the distribution of number of patients succeeded by type of  Cirrhosis. <br><br>
+				 
+						</div>
+					</div>
+			</span>
+			<div class="panel-body">
+				<div id="pharma_cirrhosisCompareSuccessRate" style="width:560px;height: 400px;"></div>
+			</div>
+	</div>
+<!--Nisha 02/10/2017 added Question Answered for info button-->
+
+	<div class="col-lg-12 boxshadow_borderline" style="padding-left:20px;padding-top:5px; padding-bottom: 28px; border-bottom: 1px solid #e2e2e2;">
+		<h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;padding-right:10px;">Compare Drugs Performance  By Genotype </h3>
+	<span class="macLearningsubTabs-questIcon mlInfoTip" >
+								<div class="analytics-tooltip mlInfoTip_tooltip"  style="right: -175px !important;">
+								<!--<div class="analytics-tooltipHead">
+								 Compare Drugs Performance By Genotype
+								</div>-->
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									 
+									<span class="boldfnt">Question Answered:</span><br> 
+									For which genotypes and sub-genotypes does medication produce the best outcomes<br><br>  Do competitor drugs fail<br><br>  
+Quantify how many undiagnosed or untreated patients could incrementally benefit from pipeline drugs over existing competitor products   
+								</div>
+
+								</div>
+							</span>
+
+		<span class="macLearningsubTabs-infoIcon mlInfoTip  infoalignment">
+											<div class="analytics-tooltip mlInfoTip_tooltip" style="right: -148px;">
+												<!--<div class="analytics-tooltipHead">
+													Compare Drugs Performance By Genotype
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : <span id="GenotypeSuccessRateCount"></span></span><br/>
+													<span class="boldfnt">Definition</span> - This chart represents the distribution of number of patients succeeded by type of  Genotype. <br><br>
+													 	</div>
+											</div>
+		</span>
+		<div class="panel-body">
+			<div id="pharma_GenotypeCompareSuccessRate" style="width:1160px;height: 400px;"></div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	{{ >MainFooter}}
+</template>

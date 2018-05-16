@@ -1,0 +1,397 @@
+<!--Nisha 02/24/2017 Commented out all the "analytics-tooltipHead" items to remove the heading from information buttons-->
+<template name="Summary">
+
+  {{> PharmaSubTabs data="summary"}}
+    <!--<div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+  
+  <span class="breadcrumb-item active">Patient Traits</span> 
+</nav>
+        </div>-->
+        <div class="breadcrumb-fulldiv" style="background-color: #eceeef;">
+<nav class="breadcrumb"  style="width: 215px;">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+
+  <span class="breadcrumb-item active">Patient Traits</span>
+</nav>
+ <div class="dashboardWrap" id='dv-dash-time-filter'>      
+									<label class="switch" title="switch population" style="float:none;margin:4px 0 0 0">
+										<input id="showSelectedPopulationPharma"  checked type="checkbox"  title="switch population">
+										<div class="slider round"></div>
+									</label>
+								 
+								</div>
+        </div>
+
+    <div class="wrapper" id="GeneralTab">
+        
+        <div class="fullwidth">
+
+            <div class="ps-section">
+                <!-- Compare Button -->
+                <!--<div class="js-comparativeEngine ce_CompareButton " style=""><img src="/compare-icon.png"><span class="tooltiptext">Compare</span> 
+                </div>-->
+
+                <!-- <div class="">
+
+                    <div class="col-md-12" style="width: 100%; padding: 0px;margin-left: 13px;padding-top: 10px !important">
+                        <div class="col-md-3 setpadding AdvPayerDropDownContainer" style="width: 19%;">
+                            <div class="AdvPayerDropDown" id="insurancePlan">
+                                <div class="dropdownLabel" title="Drugs are alphabetically sorted and can be changed for selection">Type of drug</div>
+                                <div class="drugdropdown" style="min-height: 28px;">
+                                    <select id="pharma-medication" class="DrugSelect selectized" tabindex="-1">
+                                        <option value="all">ALL</option>
+                                        {{#each getMedication}}
+                                            <option value="{{this}}">{{this}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 setpadding AdvPayerDropDownContainer" id="treatedselectGenotypePH" style="width: 21%;">
+                               <div class="dropdownLabel">
+                                <span>Genotype</span><br>
+                            </div>
+                            <div class="dropdownCombogen dropdownCombo" style="width: 100%;">
+                                <dl class="dropdown genotypeSelect">
+                                    <dt>
+                                        <a href="#">
+
+                                            <p class="multiSelPH">
+                                                <span title="All">ALL</span>
+                                            </p>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <div class="mutliSelectPH">
+                                            <ul>
+                                                <li class="checkbox">
+                                                    <label>
+															<input type="checkbox" value="all" checked class="isCheckedallSum"/>
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															ALL
+														 </label>
+                                                </li>
+                                                {{#each getGenotypeList}}
+                                                <li class="checkbox">
+                                                    <label>
+															<input type="checkbox" value="{{this}}" class="isChecked" disabled />
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															{{this}}
+														</label>
+                                                </li>
+                                                {{/each}}
+                                            </ul>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 setpadding AdvPayerDropDownContainer" style="width: 19%;">
+
+                            <div class="AdvPayerDropDown " id="selectTreatment">
+                                <div class="dropdownLabel">Treatment</div>
+                                <select class="treatedTreatment" name="treatment">
+										  <option value="all">ALL</option>
+			                              <option value="Naive">Naive</option>
+			                              <option value="Experienced">Experienced</option>
+										</select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 setpadding AdvPayerDropDownContainer" id="selectCirrhosis" style="width: 20%;">
+
+                            <div class="AdvPayerDropDown" id="selectCirrhosis">
+                                <div class="dropdownLabel">Cirrhosis</div>
+                                <select class="treatedCirrhosis" name="cirrhosis">
+										  <option value="all">ALL</option>
+			                              <option value="Yes">Cirrhosis</option>
+			                              <option value="No">Non Cirrhosis</option>
+										</select>
+                            </div>
+                        </div>
+                        <div class="col-md-2" style="padding-top: 36px;float: right;padding-left:40px">
+                            <div class="goButtonWrapper">
+                                <span class="applyUniFilters pharmaApplyUniFilters treatedApplyUniFilters applyBtn btn btn-success btn-cons">
+                                        GO
+                                    </span>
+                             </div>
+                            <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="js-showPateintsList"></a></div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Wrapper for charts section -->
+                <div class="row" style="margin-top:40px;">
+                       <!--<div class="container-fluid dashboardWrap" id='dv-dash-time-filter'>
+        <div>
+									<label class="switch" title="switch population">
+										<input id="showSelectedPopulationPharma" type="checkbox"  title="switch population">
+										<div class="slider round"></div>
+									</label>
+								</div>
+								</div>-->
+                    <div class="col-lg-12 mlSubTabsChartSectionMask loadingwheelMask">
+                        <div class="chart_loader payer_loader">Loading...</div>
+                    </div>
+                    <div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;min-height: 100px;width:98%;margin: 0 1%">
+                          <div class="">
+                      <div class="col-lg-4 chartContainer common-paddingZero" style="height:190px;">
+                          <div class="boxContainerDashboard">
+                              <div class="totalPatientsContainer " style="height:190px;border:none;">
+                                  <div class="totalPatinetsLabel">Total Patients</div>
+                                  <div id="uniquePatients" class="totalPatientsCountDashboard" style="color:#f1cb6a !important;"> </div>
+
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="col-lg-4 chartContainer common-paddingZero" style="height:190px;">
+                          <div class="boxContainerDashboard" style="height: 190px;">
+                              <div class="panel-heading genotypeDistSelectHeading">
+                                  <h3 class="panel-title containertitle" style="display:inline-block;float:left"> <span id="medicinalPatientsCount"></span></h3>
+                                    <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead" id="medication-info-name">
+
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='medication-N'></span>
+													<br>
+														<span class="boldfnt">Definition</span> - This statistics display patients who have Medication and Viral Load information for Pharma tab.<br>
+
+
+	
+												</div>
+
+											</div>
+										</span>
+
+                              </div>
+                              <div class="panel-body" style="text-align:left;">
+                                <div style="float: left; width: 100%; padding-left: 25px;">
+                                    <div class="efd-cell1 efd-totalPatiensIcon" style="width: 38px;background-position-x: 1247px;padding-left: 0px;" title="Subpopulation"></div>
+                                    <div id="totalPatients" class="efd-cell2_subpopulaiton" style="color: #f1cb6a !important; font-size: 18px;padding-left: 11px !important;"></div>
+                                </div>
+                                <div id="malePatients" style="padding-left: 25px;"><i class="fa fa-male" aria-hidden="true" style="font-size: 28px;padding: 2px 10px;" title="Male Patients"></i>
+                                    <span class="malePatientsCount" id="malePatientsC" style="color:#f1cb6a !important;">  </span>
+                                </div>
+                                <div id="femalePatients" style="padding-left: 25px;"><i class="fa fa-female" aria-hidden="true" style="font-size: 28px;padding: 2px 10px;" title="Female Patients"></i>
+                                    <span class="femalePatientsCount" id="femalePatientsC" style="color:#f1cb6a !important;padding: 10px 5px;">  </span>
+                                </div>
+                                <div id="femalePatients" style="margin-bottom: 13px; padding-left: 25px;"><i class="fa fa-transgender" aria-hidden="true" style="font-size: 28px;padding: 2px 10px;" title="Unknown Patients"></i>
+                                    <span class="femalePatientsCount" id="unknownPatientsC" style="color:#f1cb6a !important;padding: 10px 2px;">  </span>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 chartContainer common-paddingZero" style="height:190px;">
+                          <div class="boxContainerDashboard" style="height:190px;">
+                              <div class="panel-heading ethnicityHeading">
+                                  <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;"> Race Distribution</h3>
+
+                                       <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float:right">
+						<div class="analytics-tooltip mlInfoTip_tooltip common-tooltipArrowRight" style="right:-35px">
+							<!--<div class="analytics-tooltipHead">
+								Race  Distribution
+							</div>-->
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+										<span class="boldfnt">N : </span> <span id='race-distribution-N'></span>
+											<br>
+									<span class="boldfnt">Definition</span> - Patient distribution on the basis of Race.
+									<br>
+
+
+
+								</div>
+
+							</div>
+				 </span>
+                              </div>
+                              <div class="panel-body">
+                                  <div id="pharma_racechart"></div>
+                              </div>
+                          </div>
+                      </div>
+                        
+</div>
+                      <!--   <div class=""> -->
+                  
+                      <div class="">
+                          <div class="col-lg-4 chartContainer common-paddingZero">
+                              <div class="boxContainerDashboard" style="height: 250px !Important; margin: 10px 0 0 0;">
+                                  <div class="panel-heading">
+                                      <!--<h3 class="panel-title containertitle">Non-Cirrhosis Distribution</h3>-->
+                                       <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;">Treatment Distribution</h3>
+                            			<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Treatment Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='treatment-distribution-N'></span>
+													<br>
+														<span class="boldfnt">Definition</span> - Patient Distribution on the basis of Treatment <br>
+
+												</div>
+
+											</div>
+										</span>
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="pharma_noncirrhosis"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 chartContainer common-paddingZero">
+                              <div class="boxContainerDashboard" style="height: 250px !Important; margin: 10px 0 0 0;">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;">Mortality Rate</h3>
+                                       <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+												Mortality Rate
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='mortality-distribution-N'></span>
+													<br>
+													<span class="boldfnt">Definition</span> - Patient Distribution on the basis of Death Status <br>
+
+
+
+												</div>
+
+											</div>
+										</span>
+
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="pharma_MortalityRate"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 chartContainer common-paddingZero" >
+                          <div class="boxContainerDashboard" style="height:250px;margin: 10px 0 0 0;">
+                              <div class="panel-heading genotypeDistSelectHeading">
+                                  <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;"> Age Distribution</h3>
+                             <span class="macLearningsubTabs-infoIcon mlInfoTip " style="float:right">
+											<div class="analytics-tooltip mlInfoTip_tooltip common-tooltipArrowRight" style="right:-35px">
+												<!--<div class="analytics-tooltipHead">
+													Age  Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='age-distribution-N'></span>
+													<br>
+														<span class="boldfnt">Definition</span> - Patient distribution on the basis of Age
+														<br>
+
+	
+												</div>
+
+											</div>
+										</span>
+                              </div>
+                              <div class="panel-body">
+                                  <div id="pharma_chart" style="margin-top: 20px;" ></div>
+                              </div>
+                          </div>
+                      </div>
+                        
+                         </div>
+                         <div class="">
+                     
+                          <div class="col-lg-4 chartContainer common-paddingZero">
+                              <div class="boxContainerDashboard" style="height: 250px !Important;">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;">Genotype Distribution</h3>
+                                      <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+													Genotype Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='genotype-distribution-N'></span>
+													<br>
+														<span class="boldfnt">Definition</span> - Patient Distribution on the basis of Genotype <br>
+
+
+	
+												</div>
+
+											</div>
+										</span>
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="pharma_GenotypeDistribution"></div>
+                                  </div>
+                              </div>
+                          </div>  
+                          <div class="col-lg-4 chartContainer common-paddingZero">
+                              <div class="boxContainerDashboard" style="height: 250px !Important;">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;">Cirrhosis Distribution</h3>
+                                       <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+													Cirrhosis Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='cirrhosis-distribution-N'></span>
+													<br>
+													<span class="boldfnt">Definition</span> - Decompensated are patients with either Ascites,Portal,Hypertension,Varices or Encephalopathy in their test results.<br><br>
+
+
+
+												</div>
+
+											</div>
+										</span>
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="pharma_Cirrhosis"></div>
+                                  </div>
+                              </div>
+                          </div>   
+                   	 <div class="col-lg-4 chartContainer common-paddingZero">
+                              <div class="boxContainerDashboard" style="height: 250px !Important;">
+                                  <div class="panel-heading">
+                                      <h3 class="panel-title containertitle" style="text-align:left;float:left; display: inline-block;">Retreatment Distribution By Genotype</h3>
+                                      <span class="macLearningsubTabs-infoIcon mlInfoTip " style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip common-tooltipArrowRight" style="right:-35px">
+												<!--<div class="analytics-tooltipHead">
+													Retreatment Distribution By Genotype
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='retreated-distribution-N'></span>
+													<br>
+														<span class="boldfnt">Definition</span> - This chart represents how many patients have taken retreatment for each genotype. <br>
+												</div>
+
+											</div>
+										</span>
+                                  </div>
+                                  <div class="panel-body">
+                                      <div id="pharma_RetreatedDistribution"></div>
+                                  </div>
+                              </div>
+                          </div>
+                   
+                      </div>
+
+                    </div>
+                </div>
+                <!-- Wrapper for charts  -->
+                <div class="popup pharmaPatientsPopup" data-popup="pharmaPatientsPopup">
+                    <div class="popup-inner">
+                        <button type="button" class="close pharma_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+                        <div class="pharmaPatientsPopup-header"></div>
+                        <div class="pharmaPatientsPopup-container"></div>
+                    </div>
+                </div>
+                <!-- {{#with renderCharts}} {{/with}} -->
+            </div>
+        </div>
+    </div>
+    {{ >MainFooter}}
+</template>

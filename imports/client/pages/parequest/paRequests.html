@@ -1,0 +1,33 @@
+<template name="PARequests">
+    <!-- Full Width Column -->
+    <div class="content-wrapper">
+        <div class="container pagecontent">
+            <!-- Content Header (Page header) -->
+            <div class="row">
+                <section class="content-header hltrec">
+                    <div data-toggle="collapse" data-target="#optbar" aria-expanded="false" aria-controls="navbar" class="res_leftnavigation navbar-toggle collapsed">
+                       Diagnosis/Evaluation <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </div>
+                     <div style="margin:20px 0px 10px 0px">
+                         <div class="cpbackbtn">
+                            <a href="{{pathFor 'Provider'}}" class="compareDrugbackbtn"><span class="compareDrugbackbtnIcon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>back</a>
+                        </div>
+                        </div>
+                    <div class="hltrec_left navbar-collapse collapse" id="optbar">
+                        <ul class="leftnavigation ">
+                            <li class="active double-border"><a href="/PARequests">New PA Request</a>
+                             <span class="arrow-right"> 
+                                    </span>
+                                    </li>
+                            <li><a href="/PADashboard">Saved PA Requests</a> <span class="arrow-right"> </span></li>
+                        </ul>
+                    </div>
+                    <div class="hltrec_right cmm-pa-container">
+                        {{> PARequest}}
+                    </div>
+                </section>
+            </div>
+        </div>
+        {{>MainFooter}}
+    </div>
+</template>

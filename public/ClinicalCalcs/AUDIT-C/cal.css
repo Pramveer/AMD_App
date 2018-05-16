@@ -1,0 +1,131 @@
+.tool {
+		position: relative;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+	
+	.tool large {
+		font-size: 30px;
+		left: 10px;
+		position: absolute;
+		top: 19px;
+	}
+	
+	.tool-option label,
+	.tool-option input {
+		display: inline;
+	}
+	
+	.tool-container h3 {
+		padding-left: 25px;
+		font-size: 14px;
+	}
+	
+	.tool-option {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 13px;
+		color: #000;
+		position: relative;
+		background: #efefef;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 2px #eee;
+		border-radius: 20px;
+		
+		width: 215px;
+		padding-left: 10px;
+		float: right;
+		clear: right;
+	}
+	
+	.tool-option:hover {
+		box-shadow: 1px 1px 2px #666;
+		background: #fff;
+		cursor: pointer;
+	}
+	
+	.tool-option .points {
+		background: #eee;
+		border-radius: 10px;
+		padding: 5px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+	
+	.tool-option.selected  {
+		background: #fff;
+	}
+	
+	.tool-option.selected .points {
+		background: rgb(255,222,70);
+	}
+	
+	.tool-container {
+		position: relative;
+		padding: 15px 10px;
+		
+		border-top: 2px dotted #ccc;
+		
+		clear: both;
+	}
+	
+	.tool-container.container-often {
+		border-top: 2px solid #cccccc;
+	}
+	
+	.tool-container.container-result h3 {
+		position: relative;
+	}
+	
+	.tool-elem,
+	.tool-result {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	.tool-result {
+		
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		position: relative;
+		top: -30px;
+	}
+	
+	.tool-result .figure {
+	
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		
+		background: rgb(255,222,70);
+	}	
+	
+	.tool-result .class {
+	
+	}
+	
+	.tool-result-interpretation {
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		background: rgb(204,224,245);	
+		padding-left: 0px;
+	}
+	
+	.tool-result-interpretation h3 {
+		margin-top: 0px;
+	}
+	
+	#page-content .tool-result-interpretation ul {
+		padding-left: 40px;
+	}

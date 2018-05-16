@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="45">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00353418</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NV18209</org_study_id>
+    <nct_id>NCT00353418</nct_id>
+  </id_info>
+  <brief_title>A Study of PEGASYS (Peginterferon Alfa-2a (40KD)) Plus COPEGUS (Ribavirin) in Patients With Chronic Hepatitis C (CHC) Genotype 1 and Human Immunodeficiency Virus-1 (HIV-1) Co-infection</brief_title>
+  <official_title>A Randomized, Multicenter, Double Blinded Study Comparing the Safety and Efficacy of Pegasys® 180 ug Plus Copegus® 1000 or 1200 mg to the Currently Approved Combination of Pegasys® 180 ug Plus Copegus® 800 mg in Interferon-naïve Patients With Chronic Hepatitis C Genotype 1 Virus Infection and HIV-1</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This 2-arm study will compare the efficacy and safety of treatment with Pegasys (180 µg
+      weekly) plus Copegus (800 mg daily) and Pegasys (180 µg weekly) plus Copegus (1000-1200 mg
+      daily) in interferon-naive patients with CHC genotype 1 co-infected with HIV-1. Treatment
+      will be administered for 48 weeks, and this will be followed by 24 treatment-free weeks. The
+      anticipated time on study treatment is 3-12 months, and the target sample size is 100-500
+      individuals.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2006</start_date>
+  <completion_date type="Actual">April 2009</completion_date>
+  <primary_completion_date type="Actual">April 2009</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virological Response (SVR)</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined by the percentage of patients with undetectable Hepatitis C virus (HCV) ribonucleic acid (RNA) at 24 weeks after completion of the 48-week treatment period (i.e., a single last HCV RNA &lt; 20 IU/mL measured ≥ Day 477 [≥ Week 68]). Patients without an HCV measurement at the end of the 24-week untreated follow-up period were considered nonresponders.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Adverse Events, Dose Reductions and Withdrawals Due to Anemia</measure>
+    <time_frame>Up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Adverse events of anemia included hemolytic anemia, aplasia pure red cell, and pancytopenia.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Virological Response at End of Treatment Period</measure>
+    <time_frame>Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virological response at the end of the treatment period was defined as a single last HCV RNA measurement &lt;20 IU/mL at the completion of the treatment period (Days 324 to 351). Patients without an HCV measurement at Week 48 were considered nonresponders.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virological Response at Weeks 4, 12 and 24</measure>
+    <time_frame>Weeks 4, 12 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virological response at Weeks 4, 12 and 24 was also defined as a single last undetectable HCV RNA (&lt; 20 IU/mL) falling within the visit windows of Days 16 to 43, 72 to 99, and 156 to 183, respectively. Patients without an HCV measurement at a study week were considered nonresponders at that study week.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relapse of Virological Response</measure>
+    <time_frame>Weeks 48 and 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse of virological response was calculated by dividing the number of patients who achieved a virological response at the end of treatment but had detectable HCV RNA at the last assessment posttreatment by the number of patients with a virological response at the end of treatment who had at least one HCV RNA assessment posttreatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response (RVR) by Week 4</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as an undetectable HCV RNA &lt; 20 IU/mL (a single last HCV RNA &lt; 20 IU/mL falling in the time window of Days 2 to 43). Patients without an HCV measurement by Week 4 were considered nonresponders.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early Virological Response (EVR), Partial EVR and Complete EVR by Week 12</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR: Undetectable HCV RNA &lt;20 IU/mL or ≥2 log10 drop from pretreatment level, by Week 12 (a single last HCV RNA &lt;20 IU/mL or ≥2 log10 drop from pretreatment level in the time window of Days 2 to 99). Partial EVR: Detectable HCV RNA but ≥2 log10 drop from pretreatment, by Week 12 (a single last HCV RNA detectable but ≥2 log10 drop from pretreatment in the time window of Days 2 to 99). Complete EVR: Undetectable HCV RNA &lt;20 IU/mL, by Week 12 (a single last HCV RNA &lt;20 IU/mL in the time window of Days 2 to 99). Patients without an HCV measurement by Week 12 were considered nonresponders.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">415</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 800 mg</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 1000 or 1200 mg</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2a</intervention_name>
+    <description>180 µg subcutaneously weekly for 48 weeks</description>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 800 mg</arm_group_label>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 1000 or 1200 mg</arm_group_label>
+    <other_name>Pegasys</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>800 mg orally daily for 48 weeks</description>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 800 mg</arm_group_label>
+    <other_name>Copegus</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>1000 mg or 1200 mg (based on patient weight of &lt; 75 kg or ≥ 75 kg, respectively) orally daily for 48 weeks</description>
+    <arm_group_label>PEG-IFN Alfa-2a 180 μg + Ribavirin 1000 or 1200 mg</arm_group_label>
+    <other_name>Copegus</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients, ≥18 years of age
+
+          -  CHC genotype 1
+
+          -  Stable HIV-1 infection
+
+        Exclusion Criteria:
+
+          -  Previous treatment with an alpha interferon, ribavirin, viramidine, levovirin,
+             amantadine or investigational HCV protease or polymerase inhibitors
+
+          -  Medical condition associated with liver disease other than CHC infection
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Portugal</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </removed_countries>
+  <link>
+    <url>http://www.roche-trials.com/studyResultGet.action?studyResultNumber=NV18209</url>
+    <description>Clinical Study Report Synopsis</description>
+  </link>
+  <verification_date>July 2010</verification_date>
+  <lastchanged_date>July 30, 2010</lastchanged_date>
+  <firstreceived_date>July 17, 2006</firstreceived_date>
+  <firstreceived_results_date>May 14, 2010</firstreceived_results_date>
+  <responsible_party>
+    <name_title>Disclosures Group</name_title>
+    <organization>Hoffmann-La Roche</organization>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Acquired Immunodeficiency Syndrome</mesh_term>
+    <mesh_term>HIV Infections</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

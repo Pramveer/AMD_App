@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="114">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00704184</url>
+  </required_header>
+  <id_info>
+    <org_study_id>7009-007</org_study_id>
+    <secondary_id>MK7009-007</secondary_id>
+    <secondary_id>2007_658</secondary_id>
+    <nct_id>NCT00704184</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Vaniprevir (MK7009) Administered With Pegylated-Interferon and Ribavirin (MK-7009-007)</brief_title>
+  <official_title>A Phase II, Randomized, Placebo-Controlled Study to Evaluate the Safety and Efficacy of MK7009 Administered Concomitantly With Pegylated-Interferon and Ribavirin for 28 Days in Treatment-Naive Patients With Chronic Hepatitis C Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      A study to evaluate how effective different levels of Vaniprevir (MK-7009), when
+      administered with Pegylated-Interferon (Peg-IFN) and Ribavirin, are at achieving rapid viral
+      response (RVR) i.e., undetectable hepatitis C virus [HCV] viral ribonucleic acid [RNA] at
+      Week 4 in participants with chronic HCV infection. The primary hypothesis was that the
+      proportion of participants in one or more of the Vaniprevir treatment groups achieving RVR
+      would be greater than the proportion of placebo participants achieving RVR when Vaniprevir
+      and placebo were co-administered with Peg-IFN/Ribavirin.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2008</start_date>
+  <completion_date type="Actual">April 2010</completion_date>
+  <primary_completion_date type="Actual">December 2008</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Achieving RVR</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Rapid Viral Response (RVR) was declared if Hepatitis C Virus (HCV) ribonucleic acid (RNA) was undetectable at Week 4.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Experiencing an Adverse Event (AE)</measure>
+    <time_frame>Up to Day 42</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The number of participants experiencing AEs in each treatment group was monitored during the Vaniprevir/Placebo treatment (Day 1 to Day 28) and safety follow-up (Day 29 to Day 42) periods.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Discontinuing From Study Therapy Due to AEs</measure>
+    <time_frame>Day 1 to Day 28</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE was defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of study therapy, whether or not considered related to the use of the product.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With ≥2-log10 Decrease in HCV RNA</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with at least a 2-log10 decrease from baseline in HCV RNA following 4 weeks of treatment with Placebo or Vaniprevir.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With ≥3-log10 Decrease in HCV RNA</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The number of participants with at least a 3-log10 decrease from baseline in HCV RNA following 4 weeks of treatment with Placebo or Vaniprevir.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Log Change From Baseline in HCV RNA</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The mean changes from baseline in log10 HCV RNA in each vaniprevir group was compared against control treatment at Week 4.</description>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Actual">95</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Placebo + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participants took double-blind Placebo + Peg-IFN/Ribavirin from Week 1 to Week 4, followed by open-label Peg-IFN/Ribavirin from Week 5 to Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 300 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants took double-blind Vaniprevir 300 mg twice daily (b.i.d.) + Peg-IFN/Ribavirin from Week 1 to Week 4, followed by open-label Peg-IFN/Ribavirin from Week 5 to Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 600 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants took double-blind Vaniprevir 600 mg b.i.d. + Peg-IFN/Ribavirin from Week 1 to Week 4, followed by open-label Peg-IFN/Ribavirin from Week 5 to Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 600 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants took double-blind Vaniprevir 600 mg q.d. + Peg-IFN/Ribavirin from Week 1 to Week 4, followed by open-label Peg-IFN/Ribavirin from Week 5 to Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants took double-blind Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin from Week 1 to Week 4, followed by open-label Peg-IFN/Ribavirin from Week 5 to Week 48.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Comparator: Vaniprevir</intervention_name>
+    <description>Vaniprevir 300 mg b.i.d., 600 mg b.i.d., 600 mg q.d., or 800 mg q.d.; duration of treatment: 28 days</description>
+    <arm_group_label>Vaniprevir 300 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <other_name>MK-7009</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Comparator: Pegylated-Interferon (Peg-IFN)</intervention_name>
+    <description>Peg-IFN 180 mcg once-weekly subcutaneous injection; duration of treatment: 48 weeks</description>
+    <arm_group_label>Placebo + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 300 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Comparator: Ribavirin</intervention_name>
+    <description>Ribavirin 200 mg tablet b.i.d. (dose based on body weight); duration of treatment: 48 weeks</description>
+    <arm_group_label>Placebo + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 300 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg b.i.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Comparator: placebo</intervention_name>
+    <description>Matching placebo to vaniprevir; duration of treatment: 28 days</description>
+    <arm_group_label>Vaniprevir 800 mg q.d. + Peg-IFN/Ribavirin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient has chronic Genotype 1 Hepatitis C infection
+
+        Exclusion Criteria:
+
+          -  Subject has been previously treated for HCV
+
+          -  Has Human Immunodeficiency Virus (HIV)
+
+          -  Has Hepatitis B
+
+          -  Has a history of clinically significant medical condition that may interfere with the
+             study (e.g., stroke or chronic seizures or major neurological disorder) or is
+             contraindicated for treatment with peg-IFN and Ribavirin
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Austria</country>
+    <country>Canada</country>
+    <country>Chile</country>
+    <country>Colombia</country>
+    <country>Czech Republic</country>
+    <country>Denmark</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Israel</country>
+    <country>New Zealand</country>
+    <country>Puerto Rico</country>
+    <country>Russian Federation</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>Taiwan</country>
+    <country>United States</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Manns MP, Gane E, Rodriguez-Torres M, Stoehr A, Yeh CT, Marcellin P, Wiedmann RT, Hwang PM, Caro L, Barnard RJ, Lee AW; MK-7009 Protocol 007 Study Group. Vaniprevir with pegylated interferon alpha-2a and ribavirin in treatment-naïve patients with chronic hepatitis C: a randomized phase II study. Hepatology. 2012 Sep;56(3):884-93. doi: 10.1002/hep.25743. Epub 2012 Jul 17.</citation>
+    <PMID>22473713</PMID>
+  </results_reference>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 1, 2015</lastchanged_date>
+  <firstreceived_date>June 23, 2008</firstreceived_date>
+  <firstreceived_results_date>September 26, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

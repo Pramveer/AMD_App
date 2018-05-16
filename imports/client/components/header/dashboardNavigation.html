@@ -1,0 +1,48 @@
+<!--Arvind,  Added isAuthorized helper method 03-May-2017 -->
+<template name="dashboardNavigation">
+    <div class="top-navigation-div">
+        <!--  <div class="searchPatientMenu"><i class="fa fa-bars" aria-hidden="true" style="padding:5px;">Search</i></div> -->
+        <ul id="headerNavBar" class="top-navigation" style="width:960px;margin-left:210px;">
+            <!--<li class="js-nav-item active"><a href="/#" class="NavigateUrlByTabDesk">dashboard</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Patient'}}" class="NavigateUrlByTabDesk">patient</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Provider'}}" class="NavigateUrlByTabDesk">provider</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Payer'}}" class="NavigateUrlByTabDesk">payer</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Pharma'}}" class="NavigateUrlByTabDesk">pharma</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Analytics'}}" class="NavigateUrlByTabDesk">analytics</a></li>-->
+            <!--<li class="js-nav-item  active"><a href="/#" class="NavigateUrlByTabDesk">dashboard</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Patient'}}" class="NavigateUrlByTabDesk">patient</a></li>-->
+            {{#unless isPrimaryCarePhysicianRole}}
+            <li class="js-nav-item  active"><a href="/#" class="NavigateUrlByTabDesk">EPIDEMIOLOGY</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Patient'}}" class="NavigateUrlByTabDesk">patient</a></li>
+            {{/unless}} 
+            
+            {{#if isPrimaryCarePhysicianRole}}
+            <!--Nisha 03/23/2017 modified to keep patient sceening activated based on role    -->
+            <li class="active"><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+            {{/if}}
+            
+            <!--Added By Arvind 4th May 17  Provider tab will be not acccessible for PCP user-->
+             {{#if isAuthorized 'Provider'}}
+            <li class="js-nav-item"><a href="{{pathFor 'Provider'}}" class="NavigateUrlByTabDesk">provider</a></li>
+            {{/if}}
+             {{#if isAuthorized 'Payer'}}
+            <li class="js-nav-item"><a href="{{pathFor 'Payer'}}" class="NavigateUrlByTabDesk">payer</a></li>
+             <!--Arvind 04-May-2017 modified to remove patient sceening activated based on role and also displayed for payer role    -->
+            <li><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+            {{/if}}
+            <!--            
+            {{#unless isAuthorized 'assessmenttool'}}
+            <li><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+            {{/if}}-->
+             {{#if isAuthorized 'Pharma'}}
+            <!--Nisha 04/06/2017 for making MarketOverview the default page-->
+            <!--<li class="js-nav-item"><a href="{{pathFor 'Pharma/Summary'}}" class="NavigateUrlByTabDesk">pharma</a></li>-->
+            <li class="js-nav-item"><a href="{{pathFor 'Pharma/MarketOverview'}}" class="NavigateUrlByTabDesk">pharma</a></li>
+            {{/if}}
+             {{#if isAuthorized 'Analytics' }}
+            <li class="js-nav-item"><a href="{{pathFor 'Analytics/Efficacy'}}" class="NavigateUrlByTabDesk">analytics</a></li>
+            {{/if}}
+        </ul>
+
+    </div>
+</template>

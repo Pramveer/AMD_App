@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="110">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02350569</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-337-1428</org_study_id>
+    <nct_id>NCT02350569</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Ledipasvir/Sofosbuvir Fixed Dose Combination Administered in Patients Infected With Chronic Genotype 1 or 4 HCV for Use in the Peri-Operative Liver Transplantation Setting</brief_title>
+  <official_title>A Phase 2, Multicenter, Open-Label Study to Investigate the Safety and Efficacy of Ledipasvir/Sofosbuvir Fixed Dose Combination Administered in Patients Infected With Chronic HCV for Use in the Peri-Operative Liver Transplantation Setting</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the safety, tolerability, antiviral efficacy, and pharmacokinetics
+      of ledipasvir/sofosbuvir (LDV/SOF) fixed-dose combination (FDC) administered for 4 weeks in
+      adults with genotype 1 or 4 hepatitis C virus (HCV) infection who are undergoing primary
+      liver transplantation.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Anticipated">July 2016</completion_date>
+  <primary_completion_date type="Anticipated">May 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants with sustained virologic response 12 weeks after discontinuation of therapy (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as HCV RNA &lt; the lower limit of quantitation (LLOQ) 12 weeks following the last dose of study drug.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of any adverse events leading to premature discontinuation of study drug</measure>
+    <time_frame>Up to 4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with sustained virologic response 4 weeks after discontinuation of therapy (SVR4)</measure>
+    <time_frame>Posttreatment Weeks 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 is defined as HCV RNA &lt; the LLOQ 4 weeks following the last dose of study drug.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with HCV RNA &lt; LLOQ by visit while on treatment</measure>
+    <time_frame>Up to 4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with virologic failure</measure>
+    <time_frame>Up to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic failure is defined as
+On-treatment virologic failure
+HCV RNA ≥ LLOQ at the last observed HCV RNA collected on-treatment (ie, end of treatment measurement)
+Relapse
+HCV RNA ≥ LLOQ during the posttreatment period having achieved HCV RNA &lt; LLOQ at end of treatment, confirmed with 2 consecutive values or last available posttreatment measurement</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">25</enrollment>
+  <condition>Hepatitis C Virus Infection</condition>
+  <arm_group>
+    <arm_group_label>LDV/SOF</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1 or 4 HCV will receive one dose of LDV/SOF prior to the transplant and then will receive LDV/SOF once daily for 4 weeks following the transplant.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV/SOF</intervention_name>
+    <description>Ledipasvir 90 mg /sofosbuvir 400 mg (LDV/SOF) FDC tablet administered orally</description>
+    <arm_group_label>LDV/SOF</arm_group_label>
+    <other_name>Harvoni®</other_name>
+    <other_name>GS-5885/GS-7977</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Willing and able to provide written informed consent or for those individuals where
+             hepatic encephalopathy affects their ability to provide initial or ongoing consent,
+             has an appropriate and legally-authorized representative (LAR) willing and able to
+             provide consent on behalf of the individual.
+
+          -  HCV RNA infection with quantifiable virus at screening
+
+          -  Must have chronic genotype 1 or 4 HCV infection
+
+          -  Currently on the liver transplantation wait list
+
+          -  Screening electrocardiogram (ECG) without clinically significant abnormalities.
+
+          -  A negative serum pregnancy test result is required for females
+
+        Exclusion Criteria:
+
+          -  Any previous solid organ transplant
+
+          -  Any serious or active medical or psychiatric illness which, in the opinion of the
+             investigator, would interfere with treatment, assessment, or compliance
+
+          -  HIV infection or a positive hepatitis B virus surface antigen result
+
+          -  History of malignancy
+
+          -  Treatment with any approved or experimental medication with known anti-HCV activity
+             within 1 month prior to screening date
+
+          -  Prior exposure to an HCV non-structural protein (NS)5A inhibitor
+
+          -  Patients on hemodialysis prior to or at the time of transplantation will be excluded
+
+          -  Creatinine clearance (CLcr) &lt; 40 mL/min at screening or &lt; 40 mL/min on day of
+             transplant
+
+          -  Participation in a clinical study with an investigational drug or biologic within 28
+             days prior to screening visit
+
+          -  Receipt or planned receipt of an organ from an HCV positive donor
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Robert H Hyland, DPhil</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gilead Study Team</last_name>
+    <email>337-1428Alerts@gilead.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 18, 2015</lastchanged_date>
+  <firstreceived_date>January 26, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>liver transplant</keyword>
+  <keyword>hepatitis C</keyword>
+  <keyword>Gilead</keyword>
+  <keyword>Communicable Diseases</keyword>
+  <keyword>Infection</keyword>
+  <keyword>Virus Diseases</keyword>
+  <keyword>Digestive System Diseases</keyword>
+  <keyword>Hepatitis</keyword>
+  <keyword>Hepatitis, Viral, Human</keyword>
+  <keyword>Liver Diseases</keyword>
+  <keyword>RNA Virus Infections</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

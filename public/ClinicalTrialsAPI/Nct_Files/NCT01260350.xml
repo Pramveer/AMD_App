@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="96">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01260350</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P7977-0523</org_study_id>
+    <secondary_id>Medsafe</secondary_id>
+    <nct_id>NCT01260350</nct_id>
+  </id_info>
+  <brief_title>Open-Labeled Study of PSI-7977 and RBV With and Without PEG-IFN in Treatment-Naïve Patients With HCV GT2 or GT3</brief_title>
+  <official_title>A Multi-center, Open-Labeled Exploratory Study to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics Following Oral Administration of PSI-7977 400 mg and Ribavirin for 12 Weeks With and Without Pegylated Interferon in Treatment-Naïve Patients With Chronic HCV Infection Genotype 2 or Genotype 3</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>New Zealand: Medsafe</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to assess the safety and tolerability of sofosbuvir (SOF) 400 mg with and
+      without ribavirin (RBV) and/or with and without pegylated interferon alfa-2a (PEG) in
+      subjects with genotype 1, 2 or 3 hepatitis C (HCV) infection.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Part 1: HCV genotype 2 or 3: participants will receive SOF 400 mg once daily with
+      weight-based RBV for 12 weeks. Participants will be randomized in equal proportions to: no
+      PEG (Arm 1), PEG for 4 weeks (Arm 2), PEG for 8 weeks (Arm 3), or PEG for 12 weeks (Arm 4).
+
+      Part 2: HCV genotype 2 or 3: participants will receive SOF 400 mg once daily (monotherapy)
+      for 12 weeks (Arm 5), or SOF 400 mg once daily with PEG and weight-based RBV for 8 weeks
+      (Arm 6); HCV genotype 1: null responders (did not respond to their prior treatment) will
+      receive SOF 400 mg once daily with weight-based RBV for 12 weeks (Arm 7).
+
+      Part 3: HCV genotype 1 treatment-naive (Arm 8) or HCV genotype 2 or 3 treatment-experienced
+      participants (Arm 9) will receive SOF 400 mg once daily in combination with weight-based RBV
+      for 12 weeks.
+
+      Part 4: HCV genotype 2 or 3 treatment naive participants will receive SOF 400 mg once daily
+      with weight-based RBV for 8 weeks (Arm 10) or SOF 400 mg once daily and 800 mg RBV for 12
+      weeks (Arm 11). HCV genotype 1 null responders will receive SOF 400 mg once daily,
+      ledipasvir (LDV), and weight based RBV for 12 weeks (Arm 12). HCV genotype-1 treatment naive
+      participants will receive SOF 400 mg once daily with weight-based RBV and LDV for 12 weeks
+      (Arm 13).
+
+      Part 5: HCV genotype 1 null responders will receive SOF 400 mg once daily with GS-9669 500
+      mg once daily and weight-based RBV for 12 weeks (Arm 14). HCV genotype-1 treatment naive
+      participants receive SOF 400 mg once daily with GS-9669 500 mg once daily and weight-based
+      RBV for 12 weeks (Arm 15).
+
+      Part 6: HCV genotype 1 null responders with Stage F4 fibrosis will receive LDV/SOF FDC for
+      12 weeks (Arm 16) or LDV/SOF FDC with weight-based RBV for 12 weeks (Arm 17). HCV genotype 2
+      or 3 treatment-naive participants will receive LDV/SOF FDC for 12 weeks (Arm 18). HCV
+      genotype 2 or 3 treatment-experienced participants will receive LDV/SOF FDC for 12 weeks
+      (Arm 19). HCV genotype 1 hemophiliacs will receive LDV/SOF FDC with weight-based RBV for 12
+      weeks (Arm 20). HCV genotype 1 treatment-naive participants will receive LDV/SOF FDC with
+      weight-based RBV for 6 weeks (Arm 21). HCV genotype 1 treatment-naive participants will
+      receive LDV/SOF FDC for 6 weeks (Arm 22).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2010</start_date>
+  <completion_date type="Actual">December 2013</completion_date>
+  <primary_completion_date type="Actual">October 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Who Experienced Adverse Events</measure>
+    <time_frame>Up to 12 weeks plus 30 days</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Adverse events (AEs) occurring from baseline (Day 1 for all groups) to 30 days following the last dose of study drug were summarized across the participant population. A participant was counted once if they had a qualifying event.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response 12 Weeks Following Completion of Treatment (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as HCV RNA &lt; the limit of detection (LOD; &lt; 15 IU/mL) 12 weeks after the last dose of study drug.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With HCV RNA &lt; LOD at Week 6</measure>
+    <time_frame>Week 6</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With HCV RNA &lt; LOD at Week 8</measure>
+    <time_frame>Week 8</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data are not presented for Group 21 which ended treatment after Week 6.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With HCV RNA &lt; LOD at Week 12</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data are not presented for Groups 6, 10, and 21 which ended treatment after Week 8 or Week 6.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA at Week 6</measure>
+    <time_frame>Baseline to Week 6</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA at Week 8</measure>
+    <time_frame>Baseline to Week 8</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data are not presented for Group 21 which ended treatment after Week 6.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA at Week 12</measure>
+    <time_frame>Baseline to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data are not presented for Groups 6, 10, and 21 which ended treatment after Week 8 or Week 6. Data are not presented for Groups 16, 17, 18, and 20 because participants with detectable HCV RNA discontinued due to protocol-specified stopping rules.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Virologic Failure</measure>
+    <time_frame>Up to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants with on-treatment virologic failure (viral breakthrough, rebound, or nonresponse) or following treatment (viral relapse) was summarized.
+On-treatment virologic failure was defined as:
+Viral breakthrough (confirmed HCV RNA ≥ LOD after having previously had HCV RNA &lt; LOD while on treatment),
+Viral rebound (confirmed &gt; 1 log10 IU/mL increase in HCV RNA from nadir while on treatment, or
+Nonresponse (HCV RNA persistently ≥ LOD through 6 weeks of treatment)
+Viral relapse was defined as confirmed HCV RNA ≥ LOD during the posttreatment period having achieved HCV RNA &lt; LOD at the last on-treatment visit.</description>
+  </secondary_outcome>
+  <number_of_arms>22</number_of_arms>
+  <enrollment type="Actual">292</enrollment>
+  <condition>Chronic Hepatitis C Infection</condition>
+  <arm_group>
+    <arm_group_label>Group 1: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive (TN) participants with genotype (GT) 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2: SOF+RBV 12 wk+PEG 4 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks plus PEG 180 µg once weekly for 4 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 3: SOF+RBV 12 wk+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks plus PEG 180 µg once weekly for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 4: SOF+RBV+PEG 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily+weight-based RBV (1000-1200 in a divided daily dose) plus PEG 180 µg once weekly for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 5: SOF 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 6: SOF+RBV+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) plus PEG 180 µg once weekly for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 7: SOF+RBV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced (TE) participants with genotype 1 HCV infection who did not respond to prior treatment will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 8: SOF+RBV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 1 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 9: SOF+RBV 12 wk: GT 2 or 3, TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 10: SOF+RBV 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 11: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive SOF 400 mg once daily plus split-dose RBV (800 mg in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 12: SOF+RBV+LDV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 1 HCV infection who did not respond to prior treatment will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) plus LDV 90 mg once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 13: SOF+RBV+LDV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 1 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) plus LDV 90 mg once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 14: SOF+RBV+GS-9669 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 1 HCV infection who did not respond to prior treatment will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) plus GS-9669 500 mg once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 15: SOF+RBV+GS-9669 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 1 HCV infection will receive SOF 400 mg once daily plus weight-based RBV (1000-1200 in a divided daily dose) plus GS-9669 500 mg once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 16: LDV/SOF FDC 12 wk: GT 1, fibrosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 1 HCV infection and Stage F4 fibrosis who did not respond to prior treatment will receive LDV 90 mg/SOF 400 mg FDC once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 17: LDV/SOF FDC+RBV 12 wk: GT 1, fibrosis</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 1 HCV infection with Stage F4 fibrosis who did not respond to prior treatment will receive LDV 90 mg/SOF 400 mg FDC once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 18: LDV/SOF FDC 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 2 or 3 HCV infection will receive LDV 90 mg/SOF 400 mg FDC once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 19: LDV/SOF FDC 12 wk: GT 2 or 3, TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-experienced participants with genotype 2 or 3 HCV infection will receive LDV 90 mg/SOF 400 mg FDC once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 20: LDV/SOF FDC+RBV 12 wk: GT 1, hemophiliac</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Hemophiliac participants with genotype 1 HCV infection will receive LDV 90 mg/SOF 400 mg FDC once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 21: LDV/SOF FDC+RBV 6 wk: GT 1, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 1 HCV infection will receive LDV 90 mg/SOF 400 mg FDC once daily plus weight-based RBV (1000-1200 in a divided daily dose) for 6 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 22: LDV/SOF FDC 6 wk: GT 1, TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment-naive participants with genotype 1 HCV infection were randomized to receive LDV 90 mg/SOF 400 mg FDC once daily for 6 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SOF</intervention_name>
+    <description>Sofosbuvir (SOF) tablets administered orally once daily</description>
+    <arm_group_label>Group 1: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 2: SOF+RBV 12 wk+PEG 4 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 3: SOF+RBV 12 wk+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 4: SOF+RBV+PEG 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 5: SOF 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 6: SOF+RBV+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 7: SOF+RBV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 8: SOF+RBV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 9: SOF+RBV 12 wk: GT 2 or 3, TE</arm_group_label>
+    <arm_group_label>Group 10: SOF+RBV 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 11: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 12: SOF+RBV+LDV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 13: SOF+RBV+LDV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 14: SOF+RBV+GS-9669 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 15: SOF+RBV+GS-9669 12 wk: GT 1, TN</arm_group_label>
+    <other_name>Sovaldi®</other_name>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) capsules administered orally in a divided daily dose</description>
+    <arm_group_label>Group 1: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 2: SOF+RBV 12 wk+PEG 4 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 3: SOF+RBV 12 wk+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 4: SOF+RBV+PEG 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 6: SOF+RBV+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 7: SOF+RBV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 8: SOF+RBV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 9: SOF+RBV 12 wk: GT 2 or 3, TE</arm_group_label>
+    <arm_group_label>Group 10: SOF+RBV 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 11: SOF+RBV 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 12: SOF+RBV+LDV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 13: SOF+RBV+LDV 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 14: SOF+RBV+GS-9669 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 15: SOF+RBV+GS-9669 12 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 17: LDV/SOF FDC+RBV 12 wk: GT 1, fibrosis</arm_group_label>
+    <arm_group_label>Group 20: LDV/SOF FDC+RBV 12 wk: GT 1, hemophiliac</arm_group_label>
+    <arm_group_label>Group 21: LDV/SOF FDC+RBV 6 wk: GT 1, TN</arm_group_label>
+    <other_name>Copegus®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG</intervention_name>
+    <description>Peginterferon alfa-2a (PEG) administered via subcutaneous injection once weekly</description>
+    <arm_group_label>Group 2: SOF+RBV 12 wk+PEG 4 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 3: SOF+RBV 12 wk+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 4: SOF+RBV+PEG 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 6: SOF+RBV+PEG 8 wk: GT 2 or 3, TN</arm_group_label>
+    <other_name>Pegasys®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV</intervention_name>
+    <description>Ledipasvir (LDV) tablets administered orally once daily</description>
+    <arm_group_label>Group 12: SOF+RBV+LDV 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 13: SOF+RBV+LDV 12 wk: GT 1, TN</arm_group_label>
+    <other_name>GS-5885</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>GS-9669</intervention_name>
+    <description>GS-9669 tablets administered orally once daily</description>
+    <arm_group_label>Group 14: SOF+RBV+GS-9669 12 wk: GT 1, TE</arm_group_label>
+    <arm_group_label>Group 15: SOF+RBV+GS-9669 12 wk: GT 1, TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV/SOF</intervention_name>
+    <description>LDV/SOF fixed-dose combination (FDC) tablet administered once daily</description>
+    <arm_group_label>Group 16: LDV/SOF FDC 12 wk: GT 1, fibrosis</arm_group_label>
+    <arm_group_label>Group 17: LDV/SOF FDC+RBV 12 wk: GT 1, fibrosis</arm_group_label>
+    <arm_group_label>Group 18: LDV/SOF FDC 12 wk: GT 2 or 3, TN</arm_group_label>
+    <arm_group_label>Group 19: LDV/SOF FDC 12 wk: GT 2 or 3, TE</arm_group_label>
+    <arm_group_label>Group 20: LDV/SOF FDC+RBV 12 wk: GT 1, hemophiliac</arm_group_label>
+    <arm_group_label>Group 21: LDV/SOF FDC+RBV 6 wk: GT 1, TN</arm_group_label>
+    <arm_group_label>Group 22: LDV/SOF FDC 6 wk: GT 1, TN</arm_group_label>
+    <other_name>Harvoni®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chronic Genotype 2 or 3 HCV-infection or Genotype 1, serum HCV RNA ≥ 50,000 IU/mL
+
+          -  Not co-infected with HIV
+
+          -  Use of highly effective contraception methods if female of childbearing potential or
+             sexually active male
+
+        Exclusion Criteria:
+
+          -  History of any other clinically significant chronic liver disease
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  History of significant drug allergy to nucleoside/nucleotide analogs.
+
+          -  Participation in a clinical study within 3 months prior to first dose
+
+          -  Positive result for significant drug use at Screening
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Robert H. Hyland, DPhil</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Auckland Clinical Studies Ltd.</name>
+      <address>
+        <city>Auckland</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Christchurch Clinical Studies Trust</name>
+      <address>
+        <city>Christchurch</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>New Zealand</country>
+  </location_countries>
+  <results_reference>
+    <citation>Gane EJ, Stedman CA, Hyland RH, Ding X, Svarovskaia E, Subramanian GM, Symonds WT, McHutchison JG, Pang PS. Efficacy of nucleotide polymerase inhibitor sofosbuvir plus the NS5A inhibitor ledipasvir or the NS5B non-nucleoside inhibitor GS-9669 against HCV genotype 1 infection. Gastroenterology. 2014 Mar;146(3):736-743.e1. doi: 10.1053/j.gastro.2013.11.007. Epub 2013 Nov 18.</citation>
+    <PMID>24262278</PMID>
+  </results_reference>
+  <results_reference>
+    <citation>Gane EJ, Stedman CA, Hyland RH, Ding X, Svarovskaia E, Symonds WT, Hindes RG, Berrey MM. Nucleotide polymerase inhibitor sofosbuvir plus ribavirin for hepatitis C. N Engl J Med. 2013 Jan 3;368(1):34-44. doi: 10.1056/NEJMoa1208953.</citation>
+    <PMID>23281974</PMID>
+  </results_reference>
+  <verification_date>November 2014</verification_date>
+  <lastchanged_date>November 7, 2014</lastchanged_date>
+  <firstreceived_date>December 13, 2010</firstreceived_date>
+  <firstreceived_results_date>November 7, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>PSI-7977</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <keyword>GS-7977</keyword>
+  <keyword>GS-5885</keyword>
+  <keyword>GS-9669</keyword>
+  <keyword>FDC</keyword>
+  <keyword>ribavirin</keyword>
+  <keyword>RBV</keyword>
+  <keyword>Pegylated Interferon</keyword>
+  <keyword>PEG-IFN</keyword>
+  <keyword>Chronic Hepatitis C Infection</keyword>
+  <keyword>HCV</keyword>
+  <keyword>Hepatitis</keyword>
+  <keyword>Genotype 1</keyword>
+  <keyword>Genotype 2</keyword>
+  <keyword>Genotype 3</keyword>
+  <keyword>GT 1</keyword>
+  <keyword>GT 2</keyword>
+  <keyword>GT 3</keyword>
+  <keyword>Hemophilia</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Infection</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

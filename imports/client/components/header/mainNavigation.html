@@ -1,0 +1,89 @@
+<!--Arvind,  Added isAuthorized helper method 03-May-2017 -->
+<template name="mainNavigation">
+  <div class="top-navigation-div">
+
+    {{#if isPrimaryCarePhysicianRole}}
+    <div style="display: none;">
+      <div class="searchPatientMenu">
+        <i class="fa fa-bars" aria-hidden="true" style="padding:5px;"></i>
+        <span class="advancedSearchChange">Search</span>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        {{>AdvancedSearch}}
+      </div>
+    </div>
+    {{else}}
+
+    <div class="searchPatientMenu">
+      <i class="fa fa-bars" aria-hidden="true" style="padding:5px;"></i>
+      <span class="advancedSearchChange">Search</span>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      {{>AdvancedSearch}}
+    </div>
+    {{/if}}
+
+    <ul id="headerNavBar" class="top-navigation" style="width:960px;margin-left:210px">
+      <!--<li class="js-nav-item"><a href="{{pathFor 'dashboard'}}" class="NavigateUrlByTabDesk">dashboard</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Patient'}}" class="NavigateUrlByTabDesk">patient</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Provider'}}" class="NavigateUrlByTabDesk">provider</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Payer'}}" class="NavigateUrlByTabDesk">payer</a></li>
+            <li class="js-nav-item"><a href="{{pathFor 'Pharma'}}" class="NavigateUrlByTabDesk">pharma</a></li>
+                    <li class="js-nav-item"><a href="{{pathFor 'Analytics'}}" class="NavigateUrlByTabDesk">analytics</a></li>-->
+      {{#unless isPrimaryCarePhysicianRole}}
+      <li class="js-nav-item"><a href="/#" class="NavigateUrlByTabDesk">EPIDEMIOLOGY</a></li>
+      <li class="js-nav-item"><a href="{{pathFor 'Patient'}}" class="NavigateUrlByTabDesk">patient</a></li>
+      {{/unless}} 
+      {{#if isPrimaryCarePhysicianRole}}
+      <!--Nisha 03/23/2017 modified to keep patient sceening activated based on role    -->
+      <li class="active"><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+      {{/if}}
+
+      <!--Added By Yuvraj 1st March 17  By default Provider tab will be hidden for PCP user-->
+      <!--Added By Arvind 4th May 17  Provider tab will be not acccessible for PCP user-->
+      {{#if isAuthorized 'Provider'}}
+      <li class="js-nav-item" id="providerTabMenu"><a href="{{pathFor 'Provider'}}" class="NavigateUrlByTabDesk">provider</a></li>
+      {{/if}}
+      
+       {{#if isAuthorized 'Payer'}}
+      <li class="js-nav-item"><a href="{{pathFor 'Payer'}}" class="NavigateUrlByTabDesk">payer</a></li>
+      <!--Arvind 04-May-2017 modified to remove patient sceening activated based on role and also displayed for payer role    -->
+      <li><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+     
+      {{/if}}
+      <!--{{#unless isAuthorized 'assessmenttool'}}
+      <li><a href="{{pathFor 'AssessmentTool'}}" id="psNavigation" class="NavigateUrlByTabDesk">primary care</a></li>
+      {{/unless}} -->
+
+       {{#if isAuthorized 'Pharma'}}
+      <!--Nisha 04/06/2017 for making MarketOverview the default page-->
+      <!--<li class="js-nav-item"><a href="{{pathFor 'Pharma/Summary'}}" class="NavigateUrlByTabDesk">pharma</a></li>-->
+      <li class="js-nav-item"><a href="{{pathFor 'Pharma/MarketOverview'}}" class="NavigateUrlByTabDesk">pharma</a></li>
+      {{/if}} {{#if isAuthorized 'Analytics'}}
+      <li class="js-nav-item"><a href="{{pathFor 'Analytics/Efficacy'}}" class="NavigateUrlByTabDesk">analytics</a></li>
+      {{/if}}
+
+    </ul>
+  </div>
+  <div class="pharmasubmenu_Btn">
+    <i class="fa fa-bars" aria-hidden="true" style="padding:5px;"></i>
+  </div>
+  <div class="analyticssubmenu_Btn">
+    <i class="fa fa-bars" aria-hidden="true" style="padding:5px;"></i>
+  </div>
+   <!-- Comparison popup -->
+        <div class="popup" data-popup="datasetComparsionPopup" id="datasetComparsionPopup">
+          <div class="popup-inner">
+            <div class="modal-body popup-body" style="min-height:465px;">
+              <div class="datasetComparsionPopup-header">Data Comparison View ( <span class="chartTypeLabel"> </span> )</div>
+                <div class="datasetComparsionPopupContent" id="datasetComparsionPopupContent">
+                
+                </div>
+            </div>
+            <div class="popup-close js-closeDatasetComparsionPopup" data-popup-close="datasetComparsionPopup" href="#" style="cursor:pointer;">x</div>
+          </div>
+        </div>
+  {{> DrugPopupForValidation}}
+</template>

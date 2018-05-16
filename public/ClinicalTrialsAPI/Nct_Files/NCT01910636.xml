@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="12">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01910636</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-334-0118</org_study_id>
+    <nct_id>NCT01910636</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of Sofosbuvir Plus Ribavirin in Japanese Adults With Chronic Genotype 2 HCV Infection</brief_title>
+  <official_title>A Phase 3b, Multicenter, Open-Label Study to Investigate the Efficacy and Safety of Sofosbuvir Plus Ribavirin in Treatment-Naïve and Treatment-Experienced Japanese Subjects With Chronic Genotype 2 HCV Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the antiviral efficacy, safety, and tolerability of sofosbuvir
+      (SOF) plus ribavirin (RBV) in Japanese participants with chronic genotype 2 hepatitis C
+      virus (HCV) infection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2013</start_date>
+  <completion_date type="Actual">June 2014</completion_date>
+  <primary_completion_date type="Actual">March 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response (SVR) at 12 Weeks After Discontinuation of Therapy (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as HCV RNA &lt; the lower limit of quantitation (LLOQ; ie, 25 IU/mL) at 12 weeks after stopping study treatment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Adverse Events Leading to Permanent Discontinuation of Study Drug(s)</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants permanently discontinuing any study drug due to an adverse event was summarized.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at 4 and 24 Weeks After Discontinuation of Therapy (SVR4 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR 24 were defined as HCV RNA &lt; LLOQ at 4 and 24 weeks following the last dose of study drug, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Experiencing Viral Breakthrough</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral breakthrough was defined as HCV RNA ≥ LLOQ after having previously had HCV RNA &lt; LLOQ while on treatment, confirmed with 2 consecutive values (second confirmation value may have been posttreatment) or with a last available on-treatment measurement and no subsequent follow-up values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Experiencing Viral Relapse</measure>
+    <time_frame>Up to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral relapse was defined as having achieved undetectable HCV RNA levels (HCV RNA &lt; LLOQ) at end of treatment, but did not achieve an SVR.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">153</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Sofosbuvir+RBV 12 weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive sofosbuvir+RBV for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <description>Sofosbuvir 400 mg tablet administered orally once daily</description>
+    <arm_group_label>Sofosbuvir+RBV 12 weeks</arm_group_label>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+    <other_name>Sovaldi®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) tablets were administered orally in a divided daily dose according to package insert weight-based dosing according to the approved Copegus labeling in Japan (&lt; 60 kg = 600 mg , &gt; 60 kg to ≤ 80 kg = 800 mg, and ≥ 80 kg = 1000 mg)</description>
+    <arm_group_label>Sofosbuvir+RBV 12 weeks</arm_group_label>
+    <other_name>Copegus®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Chronic genotype 2 HCV-infection
+
+          -  Male or female, age ≥ 20 years
+
+          -  Body weight ≥ 40 kg
+
+          -  HCV RNA ≥ 10,000 IU/mL at screening
+
+        Exclusion Criteria:
+
+          -  Current or prior history of clinically significant illness other than HCV
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  Chronic liver disease of a non-HCV etiology
+
+          -  Infection with hepatitis B virus (HBV) or human immunodeficiency virus (HIV)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Steven Knox</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Akita</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chiba</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chiyoda-ku</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gifu</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ichikawa</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Itabashi-ku</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Izunokuni</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kita-Ku</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kurashiki</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kurume</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Matsumoto</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Musashino</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nishinomiya</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ogaki</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Omura</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sapporo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Shinjuku-ku</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Suita</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Yamagata</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 13, 2015</lastchanged_date>
+  <firstreceived_date>July 23, 2013</firstreceived_date>
+  <firstreceived_results_date>March 13, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>HCV genotype 2 (GT-2)</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

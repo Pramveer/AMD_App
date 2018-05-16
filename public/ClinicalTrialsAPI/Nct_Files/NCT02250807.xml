@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="29">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02250807</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR105429</org_study_id>
+    <secondary_id>TMC435HPC3021</secondary_id>
+    <secondary_id>2014-003446-27</secondary_id>
+    <nct_id>NCT02250807</nct_id>
+    <nct_alias>NCT02256176</nct_alias>
+  </id_info>
+  <brief_title>Efficacy and Safety Study of Simeprevir in Combination With Sofosbuvir in Subjects With Chronic Genotype 4 Hepatitis C Virus Infection</brief_title>
+  <official_title>A Phase 3, Multicenter, Open-Label, Single-Arm Study to Investigate the Efficacy and Safety of a 12-Week Regimen of Simeprevir in Combination With Sofosbuvir in Treatment-Naive or -Experienced Subjects With Chronic Genotype 4 Hepatitis C Virus Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen R&amp;D Ireland</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Janssen R&amp;D Ireland</source>
+  <oversight_info>
+    <authority>Spain: Agencia Española de Medicamentos y Productos Sanitarios</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to show superiority of simeprevir (SMV) in combination with
+      sofosbuvir for 12 weeks versus a historical control. Historical control will be a composite
+      of the observed historical sustained virological response at Week 12 (SVR12) rates of SMV in
+      combination with (pegylated) interferon (PegIFN)/ribavirin (RBV) of the subpopulations in
+      study HPC3011 (NCT01567735) and will depend on the percentage of treatment-naive, prior
+      relapser, prior non-responder, interferon (IFN)-intolerant and other subjects enrolled in
+      this study.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a Phase 3, open-label (all people know the identity of the intervention),
+      single-arm, multicenter study (conducted at multiple sites). The study consists of 3
+      periods: a Screening period (up to 4 weeks), Treatment period (12 Weeks) and Post treatment
+      follow-up period (until 24 weeks after end of treatment). The duration of the subjects'
+      participation will be approximately 40 weeks. In the treatment period subjects will receive
+      oral capsule simeprevir along with oral tablet sofosbuvir once daily for 12 weeks. Primarily
+      efficacy will be evaluated as percentage of subjects with sustained virologic response at
+      Week 12 after the end of treatment. Subjects' safety will be monitored throughout the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>January 2015</start_date>
+  <completion_date type="Anticipated">January 2016</completion_date>
+  <primary_completion_date type="Anticipated">November 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Subjects With Sustained Virologic Response (SVR 12) at Week 12 After End of Treatment (EOT)</measure>
+    <time_frame>Week 12 after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Subject will be considered to have reached SVR 12, if hepatitis C virus (HCV) is less than (&lt;) 15 international units per milliliter (IU/mL) at Week 12 after EOT.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Subjects With Sustained Virologic Response at Week 4 (SVR 4) and 24 (SVR 24) After EOT</measure>
+    <time_frame>Week 4 and 24 after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Subject will be considered to have reached SVR 4, if hepatitis C virus (HCV) is &lt;15 IU/mL at Week 4 after EOT and SVR 24, if hepatitis C virus (HCV) is &lt;15 IU/mL at Week 24 after EOT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Subjects With On-treatment Virologic Response of Hepatitis C Virus (HCV) Ribonucleic Acid (RNA)</measure>
+    <time_frame>Baseline, Week 1, 2, 3, 4 and 8</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Subject will be considered to have on treatment virologic response if HCV RNA value is &lt;15 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Subjects With on-treatment failure along with Viral Breakthrough</measure>
+    <time_frame>Baseline up to EOT (Week 12)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Subject will be considered to have on-treatment failure if they have detectable HCV RNA (&lt;15 IU/mL detectable or &gt;=15 IU/mL) at EOT. Viral breakthrough is defined as greater than (&gt;) 1.0 log base 10 increase in HCV RNA from nadir or confirmed HCV RNA &gt;100 IU/mL in subjects who had previously achieved HCV RNA &lt;15 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Subjects With Viral Relapse</measure>
+    <time_frame>Week 4, 12 and 24 after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Subject will be considered to have viral relapse if they do not achieve SVR 4, 12 or 24 and meet the following conditions: 1) At EOT, HCV RNA &lt;15 IU/mL, undetectable and 2) During the follow-up period, HCV RNA &gt;=15 IU/mL.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">40</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <condition>Genotype 4 Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Simeprevir and Sofosbuvir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Subjects will receive oral capsule of Simeprevir 150 milligram (mg) along with oral tablet of sofosbuvir 400 mg, once a day from Day 1 up to Week 12.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir</intervention_name>
+    <description>Subjects will receive oral capsule of Simeprevir 150 mg, once a day from Day 1 up to Week 12.</description>
+    <arm_group_label>Simeprevir and Sofosbuvir</arm_group_label>
+    <other_name>TMC435</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <description>Subjects will receive oral tablet of sofosbuvir 400 mg, once a day from Day 1 up to Week 12.</description>
+    <arm_group_label>Simeprevir and Sofosbuvir</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects with confirmed hepatitis C virus (HCV) with HCV RNA greater than (&gt;) 10000
+             international unit per milliliter (IU/mL)
+
+          -  Subjects who are treatment naive or treatment-experienced.
+
+          -  Subjects must have documentation of a liver biopsy or fibroscan or agree to have one
+             during screening
+
+          -  Subjects with cirrhosis must have an hepatic imaging procedure (ultrasound, CT scan
+             or magnetic resonance imaging [MRI]) within 6 months before the screening visit (or
+             during the screening period) with no findings suspicious for hepatocellular carcinoma
+             (HCC)
+
+          -  Women of childbearing potential or men with a female partner of childbearing
+             potential must agree to use an effective form of contraception, or not be
+             heterosexually active, or of nonchildbearing potential
+
+        Exclusion Criteria:
+
+          -  Evidence of clinical hepatic decompensation
+
+          -  Any liver disease of non-HCV etiology
+
+          -  Subjects with a past history of treatment with an approved or investigational DAA
+
+          -  Co-infection with human immunodeficiency virus (HIV) type 1 or type 2 (HIV-1 or
+             HIV-2) (positive HIV-1 or HIV-2 antibodies test at screening)
+
+          -  Infection/co-infection with HCV non-genotype 4
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen R&amp;D Ireland Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen R&amp;D Ireland</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Badalona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Santander N/A</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sevilla N/A</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sevilla</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 25, 2015</lastchanged_date>
+  <firstreceived_date>September 24, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic hepatitis C</keyword>
+  <keyword>Genotype 4 chronic hepatitis C</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

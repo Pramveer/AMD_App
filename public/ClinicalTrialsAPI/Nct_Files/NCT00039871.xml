@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="45">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00039871</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P02370</org_study_id>
+    <nct_id>NCT00039871</nct_id>
+  </id_info>
+  <brief_title>PEG-Intron Plus Rebetol Treatment of Chronic Hepatitis C Subjects Who Failed Response to Alpha-Interferon Plus Ribavirin (Study P02370)</brief_title>
+  <official_title>PEG-Intron Plus REBETOL for the Treatment of Subjects With Chronic Hepatitis C Who Failed to Respond to Previous Combination Therapy (Any Alpha Interferon Treatment in Combination With Ribavirin)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of this study is to determine the effectiveness of PEG-Intron 1.5 ug/kg/wk
+      plus REBETOL (ribavirin) 800-1400 mg/day in adults with chronic hepatitis C with moderate to
+      severe liver fibrosis or cirrhosis who failed to respond to previous treatment with an alpha
+      interferon in combination with ribavirin. Patients who do not respond to PEG-Intron plus
+      REBETOL (ribavirin) will be enrolled in a long-term maintenance study to evaluate the
+      effectiveness of PEG-Intron monotherapy versus no treatment for the prevention of disease
+      progression (Protocols P02569 and P02570).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2002</start_date>
+  <completion_date type="Actual">September 2007</completion_date>
+  <primary_completion_date type="Actual">September 2007</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response (SVR) Rate</measure>
+    <time_frame>Assessed at end of 24 weeks posttreatment follow-up</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of participants with undetectable hepatitis C virus RNA (HCV-RNA)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response (SVR) for Participants With Undetectable HCV-RNA at Treatment Week 12</measure>
+    <time_frame>24 weeks posttreatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of participants with undetectable HCV-RNA at Treatment Week 12 who had subsequent undetectable HCV-RNA after 24 weeks of posttreatment follow-up</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response (SVR) for Participants With Detectable But ≥2 Log Drop in HCV-RNA at Treatment Week 12</measure>
+    <time_frame>24 weeks posttreatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of participants with detectable HCV-RNA but ≥2 log drop from baseline in HCV-RNA at Treatment Week 12 who had subsequent undetectable HCV-RNA after 24 weeks of posttreatment follow-up</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">2333</enrollment>
+  <condition>Hepatitis</condition>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Fibrosis</condition>
+  <condition>Liver Cirrhosis</condition>
+  <arm_group>
+    <arm_group_label>Overall study population</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIntron (peginterferon alfa-2b; SCH 54031)</intervention_name>
+    <description>PegIntron (peginterferon alfa-2b) administered at a dose of 1.5 mcg/kg subcutaneously (SC) once a week (QW) for up to 48 weeks</description>
+    <arm_group_label>Overall study population</arm_group_label>
+    <other_name>SCH 54031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>REBETOL (ribavirin; SCH 18908)</intervention_name>
+    <description>REBETOL (ribavirin) administered on a weight basis: 800-1400 mg/day orally (PO) for up to 48 weeks</description>
+    <arm_group_label>Overall study population</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Age at entry 18-65
+
+          -  Positive for Hepatitis C
+
+          -  Nonresponder to previous treatment (minimum of 3 months) with an alpha Interferon
+             plus ribavirin
+
+          -  Liver biopsy demonstrating moderate to severe fibrosis or cirrhosis
+
+        Exclusion Criteria:
+
+          -  Any cause for the liver disease other than chronic hepatitis C
+
+          -  History or presence of complications of cirrhosis
+
+          -  Alcohol or illicit drug use or methadone treatment within the past 2 years
+
+          -  Treatment for chronic hepatitis C within the previous 6 months
+
+          -  Diseases or conditions that could interfere with the subject's participation in and
+             completion of the study
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Belgium</country>
+    <country>Brazil</country>
+    <country>Canada</country>
+    <country>Colombia</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Greece</country>
+    <country>Italy</country>
+    <country>Mexico</country>
+    <country>Norway</country>
+    <country>Portugal</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>Switzerland</country>
+    <country>Taiwan</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Poynard T, Munteanu M, Colombo M, Bruix J, Schiff E, Terg R, Flamm S, Moreno-Otero R, Carrilho F, Schmidt W, Berg T, McGarrity T, Heathcote EJ, Gonçales F, Diago M, Craxi A, Silva M, Boparai N, Griffel L, Burroughs M, Brass C, Albrecht J. FibroTest is an independent predictor of virologic response in chronic hepatitis C patients retreated with pegylated interferon alfa-2b and ribavirin in the EPIC³ program. J Hepatol. 2011 Feb;54(2):227-35. doi: 10.1016/j.jhep.2010.06.038. Epub 2010 Sep 15. Erratum in: J Hepatol. 2013 Oct;59(4):914.</citation>
+    <PMID>21056496</PMID>
+  </results_reference>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 26, 2015</lastchanged_date>
+  <firstreceived_date>June 13, 2002</firstreceived_date>
+  <firstreceived_results_date>September 29, 2008</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Liver Cirrhosis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

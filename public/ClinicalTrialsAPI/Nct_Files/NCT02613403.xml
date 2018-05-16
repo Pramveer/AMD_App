@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="168">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02613403</url>
+  </required_header>
+  <id_info>
+    <org_study_id>3682-021</org_study_id>
+    <secondary_id>2015-001483-19</secondary_id>
+    <nct_id>NCT02613403</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of MK-3682B (MK-5172 + MK-3682 + MK-8408) Fixed Dose Combination in Chronic HCV Participants Failing Prior Antiviral Treatment (MK-3682-021)</brief_title>
+  <official_title>A Phase II, Randomized, Open-Label Clinical Trial to Study the Efficacy and Safety of the Combination Regimen of MK-3682B (MK-5172 + MK-3682 + MK-8408 Fixed Dose Combination (FDC)) in Subjects With Chronic HCV GT1 or GT3 Infection Who Have Failed a Direct Acting Antiviral Regimen</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized, multicenter, open-label trial of the combination regimen of MK-5172
+      (grazoprevir [GZR]) (100 mg), MK-3682 (450 mg) and MK-8408 (60 mg) for 16 weeks with
+      ribavirin (RBV) or 24 weeks without RBV in cirrhotic (C) or non-cirrhotic (NC) hepatitis C
+      virus (HCV) genotype (GT) 1 or GT3-infected participants who have previously failed a
+      direct-acting antiviral regimen (DAA). The combination regimen will be administered as two
+      fixed-dose combination (FDC) tablets, referred to as MK-3682B, given once-daily.
+
+      The study will evaluate the efficacy of the combination regimen of MK-5172 (GZR), MK-3682
+      and MK-8408 with or without ribavirin as assessed by the proportion of participants
+      achieving Sustained Virologic Response 12 weeks (SVR12) after the end of all study therapy.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Prior to enrollment of GT3-infected subjects, the safety and efficacy data for GT3 subjects
+      being dosed in Part B of MK-3682-012 (NCT02332720) will be reviewed. Participants in
+      MK-5172-017 (NCT01667081) are eligible for enrollment in the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>December 2015</start_date>
+  <completion_date type="Anticipated">January 2017</completion_date>
+  <primary_completion_date type="Anticipated">October 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Achieving Sustained Virologic Response 12 Weeks After The End of Study Therapy (SVR12)</measure>
+    <time_frame>12 weeks after the end of study therapy: Week 28 for MK-3682B + RBV Groups; Week 36 for MK-3682B Groups</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced at least one adverse event</measure>
+    <time_frame>Up to Week 40 for MK-3682B + RBV Groups; up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who discontinued study drug due to an adverse event</measure>
+    <time_frame>Up to Week 16 for MK-3682B + RBV Groups and up to Week 24 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced at least one serious adverse event</measure>
+    <time_frame>Up to Week 40 for MK-3682B + RBV Groups; up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced at least one drug-related adverse event</measure>
+    <time_frame>Up to Week 40 for MK-3682B + RBV Groups; up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced at least one serious and drug-related adverse event</measure>
+    <time_frame>Up to Week 40 for MK-3682B + RBV Groups; up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced at least one laboratory adverse event of interest</measure>
+    <time_frame>Up to Week 40 for MK-3682B + RBV Groups; up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants who experienced AST/ALT &gt;5 x upper limit normal at Week 4 or later</measure>
+    <time_frame>From Week 4 up to Week 40 for MK-3682B + RBV Groups; from Week 4 up to Week 48 for MK-3682B Groups</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <number_of_arms>6</number_of_arms>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Hepatitis</condition>
+  <condition>Hepatitis C</condition>
+  <condition>Digestive System Diseases</condition>
+  <condition>Flaviviridae Infections</condition>
+  <condition>Hepatitis, Viral, Human</condition>
+  <condition>Liver Diseases</condition>
+  <condition>RNA Virus Infections</condition>
+  <condition>Virus Diseases</condition>
+  <arm_group>
+    <arm_group_label>GT1 SOF/LDV failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT1 participants previously failing a sofosbuvir (SOF)/ledipasvir (LDV) DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily + RBV twice daily for 16 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GT1 SOF/LDV failures: MK-3682B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT1 participants previously failing an SOF/LDV DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GT1 GZR/EBR failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT1 participants previously failing an MK-5172/MK-8742 (GZR/elbasvir [EBR]) DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily + RBV twice daily for 16 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GT1 GZR/EBR failures: MK-3682B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT1 participants previously failing an MK-5172/MK-8742 (GZR/EBR) DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GT3 SOF/LDV, SOF/DCV, SOF/RBV, SOF/PR failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT3 participants previously failing an SOF/LDV, SOF/daclatasvir (DCV), SOF/RBV, or SOF/pegylated interferon and ribavirin (PR) DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily + RBV twice daily for 16 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GT3 SOF/LDV, SOF/DCV, SOF/RBV, SOF/PR failures: MK-3682B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>C or NC HCV GT3 participants previously failing an SOF/LDV, SOF/DCV, SOF/RBV, or SOF/PR DAA regimen will receive treatment with MK-3682B (MK-5172 [50 mg] + MK-3682 [225 mg] + MK-8408 [30 mg] FDC) 2 tablets once daily for 24 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>MK- 3682B</intervention_name>
+    <description>Two MK- 3682B 1,136 mg FDC tablets each containing 50 mg MK-5172 (GZR), 225 mg MK-3682 (formerly IDX21437), and 30 mg MK-8408 taken once daily by mouth.</description>
+    <arm_group_label>GT1 SOF/LDV failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_label>GT1 SOF/LDV failures: MK-3682B</arm_group_label>
+    <arm_group_label>GT1 GZR/EBR failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_label>GT1 GZR/EBR failures: MK-3682B</arm_group_label>
+    <arm_group_label>GT3 SOF/LDV, SOF/DCV, SOF/RBV, SOF/PR failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_label>GT3 SOF/LDV, SOF/DCV, SOF/RBV, SOF/PR failures: MK-3682B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Two to three Ribavirin 200 mg (800 or 1000 or 1200 or 1400 mg total daily dose) capsules taken twice daily by mouth as part of a weight-based dosing regimen.</description>
+    <arm_group_label>GT1 SOF/LDV failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_label>GT1 GZR/EBR failures: MK-3682B + RBV</arm_group_label>
+    <arm_group_label>GT3 SOF/LDV, SOF/DCV, SOF/RBV, SOF/PR failures: MK-3682B + RBV</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Has HCV RNA ≥ 10,000 IU/mL in peripheral blood at enrollment.
+
+          -  Has documented chronic HCV GT1 or HCV GT3 infection (with no evidence of non-typeable
+             or mixed genotype)
+
+          -  Has documented relapse, defined as having HCV RNA target not detected at
+             end-of-treatment, but HCV RNA quantifiable during follow-up, after treatment with one
+             of the following DAA regimens either by approved dosage and duration or by completion
+             of a clinical trial: GT1: SOF/LDV ± RBV; GT1: GZR/EBR ± RBV; GT3: SOF + RBV; GT3: SOF
+             + PR; GT3: SOF + DCV ± RBV; GT3: SOF/LDV ± RBV. Participants who previously failed PR
+             treatment, with or without simepravir (SIM), boceprevir (BOC), or telaprevir (TPV),
+             prior to receiving DAA therapy, may also be enrolled.
+
+          -  Is otherwise healthy.
+
+          -  Has either absence of cirrhosis or presence of compensated cirrhosis.
+
+          -  Is not of reproductive potential or is of reproductive potential and agrees to avoid
+             becoming pregnant or impregnating a partner beginning at least 2 weeks prior to
+             administration of the initial dose of study drug, through 6 months after taking the
+             last dose of study drug (or longer if dictated by local regulations), by complying
+             with one of the following: (1) practice abstinence from heterosexual activity OR (2)
+             use (or have their partner use) two forms of acceptable contraception during
+             heterosexual activity which may include oral contraceptives.
+
+          -  For HIV co-infected participants additional criteria include: 1) documented HIV-1
+             infection 2) either not currently on antiretroviral therapy (ART) without plans to
+             initiate ART while participating in this study or has well controlled HIV on ART 3)
+             at least one viable antiretroviral regimen alternative beyond their current regimen
+             in the event of HIV virologic failure and the development of anti-retroviral drug
+             resistance.
+
+        Exclusion Criteria:
+
+          -  Is under the age of legal consent, is mentally or legally incapacitated, has
+             significant emotional problems at the time of pre-study screening visit or expected
+             during the conduct of the study or has a history of a clinically significant
+             psychiatric disorder which, in the opinion of the investigator, would interfere with
+             the study procedures.
+
+          -  Has previously received a DAA containing regimen other than the permitted regimens
+             listed above.
+
+          -  Did not complete their prior DAA therapy due to intolerance to the DAA regimen or who
+             failed the DAA regimen for reasons other than relapse (e.g., virologic breakthrough,
+             rebound or non-response, non-compliance, lost to follow-up, withdrew consent).
+
+          -  Has evidence of decompensated liver disease manifested by the presence of or history
+             of ascites, esophageal or gastric variceal bleeding, hepatic encephalopathy or other
+             signs or symptoms of advanced liver disease.
+
+          -  Has cirrhosis classified as Child-Pugh Class B or C or has a Pugh-Turcotte (CPT)
+             score &gt;6
+
+          -  Is coinfected with hepatitis B virus (HBV)
+
+          -  For participants with HIV, has a history of opportunistic infection in the 6 months
+             prior to screening.
+
+          -  Has a history of malignancy ≤5 years prior to enrollment except for adequately
+             treated basal cell or squamous cell skin cancer or in situ cervical cancer or
+             carcinoma in situ; or is under evaluation for other active or suspected malignancy.
+
+          -  Has cirrhosis and liver imaging within 6 months of Day 1 showing evidence of
+             hepatocellular carcinoma (HCC) or is under evaluation for HCC.
+
+          -  Is currently participating or has participated in a study with an investigational
+             compound within 30 days of signing informed consent and is not willing to refrain
+             from participating in another such study during the course of this study.
+             Participants participating in MK-5172-017 (NCT01667081) may be enrolled in this
+             study, MK- 3682-021.
+
+          -  Has clinically-relevant drug or alcohol abuse within 12 months of screening
+
+          -  Is a female and is pregnant or breastfeeding or expecting to conceive or donate eggs
+             from at least 2 weeks prior to Day 1 through at least 6 months after last dose of
+             study drug, or longer if dictated by local regulations.
+
+          -  Is a male whose female partner(s) is/are pregnant.
+
+          -  Has organ transplants (including hematopoietic stem cell transplants) other than
+             cornea and hair.
+
+          -  Has history of gastric surgery or history of malabsorption disorders.
+
+          -  Has current or history of any clinically significant cardiac
+             abnormalities/dysfunction or personal or family history of Torsade de pointes.
+
+          -  Has chronic pulmonary disease.
+
+          -  Has an hemoglobinopathy.
+
+          -  Has central nervous system (CNS) trauma requiring intubation, intracranial pressure
+             monitoring, brain meningeal or skull surgery, or resulting in seizure, coma,
+             permanent neurologic deficits, abnormal brain imaging, or cerebral spinal fluid (CSF)
+             leak; prior brain hemorrhage and/or intracranial aneurysms (whether adequately
+             repaired or not).
+
+          -  Has current or history of seizure disorder unless seizure was &gt;10 years ago, a single
+             isolated event, no history of or current use of anti-seizure medications, and a
+             documented normal neurological examination at Day 1.
+
+          -  Has history of stroke or transient ischemic attack.
+
+          -  Has medical/surgical conditions that may result in a need for hospitalization during
+             the period of the study.
+
+          -  Has a medical condition requiring, or likely to require, chronic systemic
+             administration of corticosteroids, TNF antagonists, or other immunosuppressant drugs
+             during the course of the study
+
+          -  Has evidence of history of chronic hepatitis not caused by HCV. Participants with
+             history of acute non-HCV-related hepatitis, which resolved &gt;6 months before study
+             entry, may be enrolled.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 20, 2015</lastchanged_date>
+  <firstreceived_date>November 20, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Digestive System Diseases</mesh_term>
+    <mesh_term>Flaviviridae Infections</mesh_term>
+    <mesh_term>Gastrointestinal Diseases</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Liver Diseases</mesh_term>
+    <mesh_term>RNA Virus Infections</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

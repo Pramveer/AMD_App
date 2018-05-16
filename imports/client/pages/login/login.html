@@ -1,0 +1,102 @@
+<template name="login">
+    <!-- Content Header (Page header) -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v1" sizes="16x16 32x32 64x64">
+    <header class="main-header text-center">
+        <nav class="navbar navbar-static-top" style="background: #ffffff;">
+            <a href="#" class="navbar-brand"><img src="/Logo.png" /></a>
+            <!-- <div class='head-label' style="float:left;margin-left:30px;font-size:18px;text-transform: uppercase;margin-top:39px;">EVIDENCE-BACKED. VALUE-BASED. SPECIALITY DRUG DECISION SUPPORT </div> -->
+        </nav>
+    </header>
+    <div class="content-wrapper loginbackgoundimg">
+        <div class="col-sm-4 grayboxforlgn">
+            <div class="row">
+                <div class="loginbox" style="width:75%">
+                    <form name='frmLogin' id='frmLogin' autocomplete="off">
+                        <div class="col-xs-12 text-center" style="    color: #000000; margin: 0 0 20px 0;font-size: 24px;font-weight: 400; padding: 0px;">
+                            Welcome to Pinscriptive
+                        </div>
+                        <div class="col-xs-12">
+                            <input type="text" id="txtUser" class="loginbox-fld" placeholder="User Name..." />
+                        </div>
+                        <div class="col-xs-12">
+                            <input type="password" id="txtPassword" class="loginbox-fld" placeholder="Password...">
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <input type="submit" class="loginbox-btn" onclick="Template.login.submitLogin();" value="Sign In" style="">
+                        </div>
+                        <div class="col-xs-12 text-center loginlinks" style="margin-top: 12px;"> <a href="#" class="a-forgot-user" data-toggle="modal" data-target="#ForgotUserName">Forgot User name or Password</a></div>
+                        <!--Old working two forgot link -->
+                        <!--                         <div class="col-xs-12 text-right loginlinks"> Forgot <a href="#" class="a-forgot-user" data-toggle="modal" data-target="#ForgotUserName">User Name</a> \
+                            <a href="#" class="a-forgot-pass" data-toggle="modal" data-target="#ForgotPassword">Password</a></div>
+ -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="ForgotUserName" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content login-modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Account Recovery</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="frmForgotUser" name="frmForgotUser" autocomplete="off">
+                            <div class="mypo_notificaton " style="display:none;">
+                                <span>Username sent successfully on your email</span>
+                            </div>
+                            <div class="mypo_warn_notificaton redcolor" style="display:none;">
+                                <span></span>
+                            </div>
+                            <div class="frgtpwdiv">
+                                <div class="fpd_chbox">
+                                   <label> <input type="radio" name="rdoForgot" value="password"> I forgot my password</label></div>
+                                <div id='fpd_pass' class="fpd_password" style="display:none">
+                                    <span>Enter your email and we'll send you your password.
+                                    </span>
+                                    <div class="form-group">
+                                        <label for="txtForgotPass">Email: </label>
+                                        <input type="text" class="form-control" id="txtForgotPass" placeholder="Enter email">
+                                    </div>
+                                </div>
+                                <div class="fpd_chbox">
+                               <label>     <input type="radio" name="rdoForgot" value="username"> I forgot my username</label></div>
+                                <div id='fpd_user' class="fpd_password" style="display:none">
+                                    <span>Enter your email and we'll send you your username.
+                                    </span>
+                                    <div class="form-group">
+                                        <label for="txtForgotUser">Email: </label>
+                                        <input type="text" class="form-control" id="txtForgotUser" placeholder="Enter email">
+                                    </div>
+                                </div>
+                                <div class="fpd_chbox">
+                                   <label> <input type="radio" name="rdoForgot" value="both"> I forgot my username and password</label>
+                                </div>
+                                <div id='fpd_both' class="fpd_password" style="display:none">
+                                    <span>Enter your email and we'll send you your username and password.
+                                    </span>
+                                    <div class="form-group">
+                                        <label for="txtForgotBoth">Email: </label>
+                                        <input type="text" class="form-control" id="txtForgotBoth" placeholder="Enter email">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer forgot-footer" style="display:none;">
+                        <input type="submit" class="btn btn-default" id="btnForgotUser" value="Submit" />
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Close" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="main-footer">
+        <div class="copyrightfoot" style="padding: 15px 0px;background-color: #112D41;">Copyright &copy; {{getCurrentYear}} Pinscriptive</div>
+        <!-- /.container -->
+    </footer>
+
+</template>

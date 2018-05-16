@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="504">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00774397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1220.5</org_study_id>
+    <secondary_id>2008-003538-11</secondary_id>
+    <nct_id>NCT00774397</nct_id>
+  </id_info>
+  <brief_title>Antiviral Effect, Safety, and Pharmacokinetics of BI201335 +PegIFN/RBV in HCV-GT1 (SILEN-C1&amp;2)</brief_title>
+  <official_title>Antiviral Effect, Safety and Pharmacokinetics of BI 201335 NA in Hepatitis C Virus Genotype 1 Infected Treatment-naïve and Treatment-experienced Patients for 24 Weeks as Combination Therapy With Pegylated Interferon-alpha 2a and Ribavirin (Double-blinded, Randomised, Placebo-controlled, Phase II)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <authority>Argentina: A.N.M.A.T. (Administracion Nacional de Medicamentos, Alimentos y Tecnología Médica).</authority>
+    <authority>Australia: Dept of Health and Ageing Therapeutic Goods Admin</authority>
+    <authority>Austria: Federal Office for Safety in Health Care</authority>
+    <authority>Canada: Health Canada - Therapeutic Products Directorate</authority>
+    <authority>Czech Republic: State Institute for Drug Control (SUKL), CZ-100 41 Prague 10</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: BfArM (Bundesagentur für Arzneimittel und Medizinalproduke)</authority>
+    <authority>Korea, Republic of: Korea Food and Drug Administration</authority>
+    <authority>Netherlands: Central Committee on Research Involving Human Subjects (CCMO)</authority>
+    <authority>Portugal: National Pharmacy and Medicines Institute</authority>
+    <authority>Romania: National Medicines Agency, Bucharest</authority>
+    <authority>Spain: Spanish Agency for Medicines and Health Products</authority>
+    <authority>Switzerland: Swissmedic</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>United States: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective was to investigate the antiviral effect, safety, and pharmacokinetics of BI
+      201335 (Faldaprevir), given as a soft gelatine capsule, in patients with hepatitis C virus
+      (HCV) genotype 1 infection. Combination therapy of BI 201335 (Faldaprevir) with pegylated
+      interferon α-2a (PegIFN) and ribavirin (RBV), with or without a 3-day lead-in, was assessed
+      in treatment-naïve (TN) and treatment experienced (TE) patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2008</start_date>
+  <primary_completion_date type="Actual">November 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double-Blind, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Virological Response 4 Weeks After the End of Treatment With BI 201335 or Placebo</measure>
+    <time_frame>Week 28</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>An achieved virological response is defined as the plasma Hepatitis C Virus RiboNucleic Acid (HCV RNA) level below the lower limit of detection (BLD).
+This data was only collected for patients, who stopped trial participation at Week 24 and did not continue with PegIFN/RBV until Week 48.
+The lower limit of quantification (BLQ) of this assay was 25 IU/mL and the lower limit of detection (BLD) was 10 IU/mL at the time of the protocol finalisation. During the course of the trial, the manufacturer defined BLD as '&lt; 25 IU/mL, not detectable' and BLQ as '&lt; 25 IU/mL, detectable'.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sustained Virological Response 24 Weeks (SVR24) After Completion of All Therapy</measure>
+    <time_frame>Day 155 after the end of all treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virological (VL) response was defined as the plasma HCV RNA level below the lower limit of detection.
+The first VL measurement that occurred in the time window ≥ Day 155 (from End Of Treatment on) was selected for the determination of SVR24.
+Therefore, patients with virological load BLD 24 weeks after completion of therapy, who had a rebound after this time point (outside the defined time window of 155 days after end of all treatments) were identified as SVR24 achieved.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Virological Response at Week 2</measure>
+    <time_frame>Week 2</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral load (plasma HCV RNA level) below the lower limit of quantification at Week 2 (&lt; 25 IU/ml, detectable or undetectable)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virological Response at Week 4</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral load (plasma HCV RNA level) below the lower limit of quantification at Week 4 (&lt; 25 IU/ml, detectable or undetectable)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early Virological Response (EVR)</measure>
+    <time_frame>Baseline and Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Early Virological Response (EVR) is defined as ≥ 2 log 10 reduction in plasma HCV RNA level from baseline at Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Extended Rapid Virological Response (eRVR)</measure>
+    <time_frame>Week 4 and Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Extended Rapid Virological Response (eRVR) is defined as plasma HCV RNA levels below the lower limit of quantification at Week 4 and below the lower limit of detection at Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Complete Early Virological Response (cEVR)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Complete Early Virological Response (cEVR) is defined as plasma HCV RNA level below the lower limit of detection at Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>End of Treatment Response at Week 24</measure>
+    <time_frame>Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>End of Treatment Response of BI 201335 or placebo (ETR BI 201335/placebo ) is defined as plasma HCV RNA level below the lower limit of detection at Week 24.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>End of Treatment Response at End of All Therapy</measure>
+    <time_frame>Week 24 or Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>End of Treatment Response (ETR) is defined as plasma HCV RNA level below the lower limit of detection at end of all therapy, i.e. at Week 24 or Week 48</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virological Response 12 Weeks (SVR12) After Completion of All Therapy</measure>
+    <time_frame>Week 36 or Week 60</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sustained Virological Response 12 Weeks (SVR12) after completion of all therapy is defined as plasma HCV RNA level below the lower limit of detection at 12 weeks after completion of all therapy, i.e. at Week 36 or 60</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Reach a Plasma HCV RNA Level Below the Lower Limit of Detection</measure>
+    <time_frame>On or after day 155 post end of all treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Summary of time (i.e Median number of days) to reach a plasma HCV RNA level below limit of detection (BLD)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to Loss of Virological Response</measure>
+    <time_frame>Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Time to loss of virological response, defined as the last value below the lower limit of detection in a patient who subsequently had 2 consecutive plasma HCV RNA level measurements ≥100 IU/mL. Patients that did not achieve suppression of plasma HCV RNA levels below the lower limit of detection until Week 24 were defined as having a time to failure of zero.
+Time is expressed in Median number of days.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virological Rebound</measure>
+    <time_frame>Week 24 or Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virological rebound is defined as increase of ≥ 1 log 10 in plasma HCV RNA level from a quantifiable nadir, or to ≥ 250 IU/mL after previous nadir &lt; 25 IU/mL (detectable), or to ≥ 100 IU/mL after a previous viral load below the lower limit of detection.
+Note that this is numerical rebound, not requiring confirmation with a re-measurement.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Breakthrough on BI 201335/Placebo (Rebound While All 3 Treatments Were Still Ongoing)</measure>
+    <time_frame>Up to Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with Unconfirmed rebound ( ≥ 1log10 increase in HCV mRNA) while on BI201335/placebo + 5 days washout.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Breakthrough on PegIFN/RBV (Rebound While Only PegIFN/RBV Treatment Alone Was Still Ongoing)</measure>
+    <time_frame>Week 24 through Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with Unconfirmed rebound (≥ 1log10 increase in HCV mRNA) while on PegIFN/RBV treatment + 5 days washout.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relapse</measure>
+    <time_frame>post-End of treatment (i.e. post 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse was rebound after the viral load at end of all treatment had been below the lower limit of detection, or, if the value at end of all treatment was missing, after both the last value before End of Treatment (EOT) and the first value after End of Treatment were below the lower limit of detection.
+Patients could experience relapse at any point post-treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Diastolic Blood Pressure and Systolic Blood Pressure</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the initial drug administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Pulse Rate</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Weight of the Patients</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Global Assessment of Tolerability</measure>
+    <time_frame>Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The investigator was to assess the tolerability of trial medication based on adverse events (AEs) and the laboratory evaluation.
+Tolerability was assessed by the investigator according to the categories 'good', 'satisfactory', 'not satisfactory', and 'bad'.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Haemoglobin of the Patients</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients [N(%)] With Transitions Relative to Reference Range for Laboratory Parameter Haemoglobin</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with normal or high baseline moved to low .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Absolute Neutrophils of the Patients</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients [N(%)] With Transitions Relative to Reference Range for Laboratory Parameter Absolute Neutrophils</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with normal or high baseline moved to low .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in ALT/GPT,SGPT of the Patients</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the drug administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients [N(%)] With Transitions Relative to Reference Range for Laboratory Parameter ALT/GPT,SGPT</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with normal or low baseline moved to high .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 24 in Total Bilirubin of the Patients</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Baseline is defined as the last value before the administration of BI 201335 or placebo.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Patients [N(%)] With Transitions Relative to Reference Range for Laboratory Parameter Total Bilirubin</measure>
+    <time_frame>Baseline and Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Number of patients with normal or low baseline moved to high .</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trough Concentration (Cpre,ss) of Faldaprevir at Steady State</measure>
+    <time_frame>Week 8, week 10, week 12, week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>C(pre,ss) is defined as pre-dose (trough) concentration of Faldaprevir in plasma at steady state immediately before administration of the next dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trough Concentration (Cpre,ss) of Ribavirin at Steady State (Receiving 1000 mg/Day RBV)</measure>
+    <time_frame>Week 8, week 10, week 12, week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>C(pre,ss) is defined as pre-dose (trough) concentration of Ribavirin in plasma at steady state immediately before administration of the next dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trough Concentration (Cpre,ss) of Ribavirin at Steady State (Receiving 1200 mg/Day RBV)</measure>
+    <time_frame>Week 8, week 10, week 12, week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>C(pre,ss) is defined as pre-dose (trough) concentration of Ribavirin in plasma at steady state immediately before administration of the next dose.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trough Concentration (Cpre,ss) of PegIFN at Steady State</measure>
+    <time_frame>Week 8, week 10, week 12, week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>C(pre,ss) is defined as pre-dose (trough) concentration of PegIFN in plasma at steady state immediately before administration of the next dose.</description>
+  </secondary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Actual">719</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>240 mg QD TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>240 mg BI 201335 NA (Faldaprevir) once daily (QD) combined with PegIFN/RBV for 24 weeks, success-dependently followed by re-randomisation to stop or to an additional 24 weeks of PegIFN/RBV in treatment-naive (TN) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>240 mg QD / LI-TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>240 mg BI 201335 NA (Faldaprevir) once daily (QD) combined with PegIFN/RBV for 24 weeks, with a 3-day lead-in phase of PegIFN/RBV (i.e. initiation of BI 201335 (Faldaprevir) three days after first administration of PegIFN/RBV), success-dependently followed by re-randomisation to stop or to an additional 24 weeks of PegIFN/RBV in treatment-naive (TN) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Placebo once daily combined with PegIFN/RBV for 24 weeks, followed by an additional 24 weeks of PegIFN/RBV in treatment-naive (TN) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>120 mg QD / LI-TN</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>120 mg BI 201335 NA (Faldaprevir) once daily (QD) combined with PegIFN/RBV for 24 weeks, with a 3-day lead-in (LI) phase of PegIFN/RBV (i.e. initiation of BI 201335 (Faldaprevir) three days after first administration of PegIFN/RBV), followed by an additional 24 weeks of PegIFN/RBV in treatment naive (TN) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>240 mg QD TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>240 mg BI 201335 NA (Faldaprevir) once daily (QD) combined with PegIFN/RBV for 24 weeks, followed by an additional 24 weeks of PegIFN/RBV in treatment experienced (TE) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>240 mg QD / LI-TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>240 mg BI 201335 NA (Faldaprevir) once daily (QD) combined with PegIFN/RBV for 24 weeks, with a 3-day lead-in phase of PegIFN/RBV (i.e. initiation of BI 201335 (Faldaprevir) three days after first administration of PegIFN/RBV), success-dependently followed by re-randomisation to stop or to an additional 24 weeks of PegIFN/RBV in treatment-experienced (TE) patients</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>240 mg BID / LI-TE</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>240mg BI 201335 NA (Faldaprevir) twice daily combined with PegIFN/RBV for 24 or 48 weeks, with 3-day lead-in phase of PegIFN/RBV, in treatment-experienced patients</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 240 mg QD / LI</intervention_name>
+    <description>240mg BI 201335 NA (Faldaprevir) once daily with a 3 days lead-in phase of PegIFN/RB, 24 weeks</description>
+    <arm_group_label>240 mg QD / LI-TN</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d), 24 or 48 weeks</description>
+    <arm_group_label>240 mg QD / LI-TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 120mg QD / LI</intervention_name>
+    <description>120mg BI 201335 NA (Faldaprevir) once daily, for 24 weeks</description>
+    <arm_group_label>120 mg QD / LI-TN</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d),48 weeks</description>
+    <arm_group_label>120 mg QD / LI-TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 240 mg QD</intervention_name>
+    <description>240mg BI 201335 NA (Faldaprevir) once daily, 24 weeks</description>
+    <arm_group_label>240 mg QD TN</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d),48 weeks</description>
+    <arm_group_label>240 mg QD TN</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 240 mg QD</intervention_name>
+    <description>240mg BI 201335 NA (Faldaprevir) once daily, 24 weeks</description>
+    <arm_group_label>240 mg QD TE</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d), 24 or 48 weeks</description>
+    <arm_group_label>240 mg QD TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 240 mg BID</intervention_name>
+    <description>240mg BI 201335 NA (Faldaprevir) twice, 24 weeks</description>
+    <arm_group_label>240 mg BID / LI-TE</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d),48 weeks</description>
+    <arm_group_label>240 mg BID / LI-TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d),48 weeks</description>
+    <arm_group_label>240 mg QD / LI-TE</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335 NA 240 mg QD</intervention_name>
+    <description>240mg BI 201335 NA (Faldaprevir) once daily, 24 weeks</description>
+    <arm_group_label>240 mg QD / LI-TE</arm_group_label>
+    <other_name>Faldaprevir</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIFN/RBV</intervention_name>
+    <description>PegIFN (180 µg/wk) and RBV (1000/1200mg/d), 24 or 48 weeks</description>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Placebo</description>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+        chronic HCV GT1; therapy-naive to IFN, PegIFN, or RBV; HCV VL &gt;=100,000 IU/mL Liver biopsy
+        within 2 years prior to study enrolment showing necroinflammatory activity or presence of
+        fibrosis Normal retinal finding on fundoscopy within 6 months prior to Day 1 age 18-65
+        years Females and males with adequate contraception
+
+        Exclusion criteria:
+
+        Mixed genotype (1/2, 1/3, or 1/4), diagnosed by genotypic testing at screening Previous
+        treatment with protease inhibitor Evidence of liver disease due to causes other than
+        chronic HCV infection HIV-1 or HIV-2 positive HBV positive Decompensated liver disease, or
+        history of decompensated liver disease Active or suspected malignancy or history of
+        malignancy within the last 5 years History of alcohol or drug abuse within the past 12
+        months. Usage of any investigational drug within 30 days prior to enrolment, or 5
+        half-lives, whichever is longer Known hypersensitivity to any ingredient of the study
+        drugs Condition that is defined as one which in the opinion of the investigator may put
+        the patient at risk because of participation in the study or may influence the results of
+        the study or the patient's ability to participate in the study Alpha-fetoprotein value &gt;
+        100ng/mL at screening; if &gt;20ng/mL and &lt;=100ng/mL, patients can be included if there is no
+        evidence of liver cancer in two congruent imaging studies Total bilirubin &gt; 1.5x ULN wiht
+        ratio of direct/indirect &gt;1. ALT or AST levels &gt; 5x ULN INR prolonged to &gt;1.5x ULN
+        Exclusion criteria related to PegIFN and/or RBV restrictions.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>1220.5.0001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0008 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0010 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0009 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.0004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.5401 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Capital Federal</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.5403 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Capital Federal</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.5405 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Derqui, Pilar</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.5402 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Rosario</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.5406 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Rosario</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6110 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Camperdown</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6109 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Kogarah</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6105 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Randwick</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6101 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Westmead</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6103 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Herston</city>
+        <state>Queensland</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6104 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Woolloongabba</city>
+        <state>Queensland</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6102 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Clayton</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6107 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Fitzroy</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.6108 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Parkville</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4303 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Linz</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4301 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Wien</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4302 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Wien</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hamilton</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.1004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4202 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Melnik</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4203 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Opava</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3301A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Clichy</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3307A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Creteil</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3309A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3304A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Marseille</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3306A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3308A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Paris Cedex 20</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3302A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3303A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3305A Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vandoeuvre Cedex</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4902 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4903 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4917 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4914 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bochum</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4913 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bonn</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4915 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dortmund</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4905 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Düsseldorf</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4912 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Düsseldorf</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4906 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Frankfurt/Main</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4908 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hamburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4904 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hannover</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4910 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Leipzig</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4909 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Mainz</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4907 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Tübingen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8210 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Busan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8205 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Daegu</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8201 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Pusan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8202 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8206 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8207 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8208 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8204 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seoungnam</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8203 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Sungnam</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8209 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Suwon</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.8211 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Yangsan</city>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3101 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3102 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Leiden</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3501 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Coimbra</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3504 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Coimbra</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3502 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lisboa</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3503 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lisboa</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3506 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Porto</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3507 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Porto</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3402 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3405 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3401 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3403 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3404 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.3406 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4104 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bern</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4102 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>La Chaux-de-Fonds</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4103 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lugano</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4101 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Zürich</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4106 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Zürich</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4405 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bristol</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4401 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4402 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4406 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4409 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4410 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4408 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Nottingham</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1220.5.4403 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Southampton</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Canada</country>
+    <country>Czech Republic</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Korea, Republic of</country>
+    <country>Netherlands</country>
+    <country>Portugal</country>
+    <country>Romania</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://trials.boehringer-ingelheim.com/</url>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 14, 2015</lastchanged_date>
+  <firstreceived_date>October 16, 2008</firstreceived_date>
+  <firstreceived_results_date>July 3, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

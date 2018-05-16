@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="671">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00496912</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RO1 DA016065-01</org_study_id>
+    <nct_id>NCT00496912</nct_id>
+  </id_info>
+  <brief_title>Management of Hepatitis C in HIV-Infected and Uninfected IDUs</brief_title>
+  <official_title>Management of Hepatitis C in HIV-Infected and Uninfected IDUs</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institute on Drug Abuse (NIDA)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institute on Drug Abuse (NIDA)</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <authority>United States: Federal Government</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine if hepatitis C has damaged the liver, whether each
+      subject's hepatitis C is treatable with currently available medicines, whether patient
+      education groups before treatment help more patients start hepatitis C treatment, and if
+      hepatitis C treatment with peginterferon and ribavirin given either by directly observed
+      therapy or standard of care can be successfully given to persons who use or have used
+      injection drugs.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Injection drug use is the predominant mode of hepatitis C (HCV) transmission in the United
+      States and most injection drug users (IDUs) have HCV infection. HCV infection can cause
+      progressive hepatic fibrosis (cirrhosis) over 20 or more years, leading, in some patients,
+      to end-stage liver disease, hepatocellular carcinoma and death. Coinfection with human
+      immunodeficiency virus (HIV) is present in 20-30% of HCV-infected IDUs, and is associated
+      with the more rapid progression of HCV-related liver disease causing HCV infection to be
+      considered as an opportunistic infection. While treatment of hepatitis C with pegylated
+      interferon alfa and ribavirin (PEG/RBV) eradicates HCV infection in approximately one-half
+      of patients, persons receiving methadone maintenance therapy, those who have recently used
+      illicit drugs, and those with comorbidities (e.g., HIV infection, psychiatric disease) have
+      been largely excluded from HCV treatment protocols. This research addresses the reality that
+      the persons most affected by HCV infection (IDUs) are the least studied and the least
+      treated, a disparity that becomes even more compelling as the success of HCV therapy
+      increases. The principal goal of this research proposal is to expand the proportion of
+      former and active injection drug users (IDUs) with HIV co-infection that benefit from
+      hepatitis C care by assessing eligibility for treatment, medical necessity, and
+      effectiveness of enhanced patient education prior to the initiation of HCV treatment among
+      this patient population. To achieve these objectives, we plan to ask three fundamental
+      questions: (1) what proportion of IDUs are eligible for hepatitis C virus (HCV) therapy
+      based on both established and controversial criteria; (2) what proportion of IDUs currently
+      need HCV treatment according to 2002 NIH consensus guidelines; and (3) what proportion of
+      these treatment-eligible IDUs will initiate HCV therapy provided at no cost either as
+      directly observed therapy compared to standard of care and is HCV treatment of IDUs more
+      effective when enhanced patient education is provided prior to the initiation of HCV
+      treatment. By answering these questions, we will 1) characterize the extent to which these
+      various criteria affect treatment eligibility among IDUs; 2) define the magnitude of the
+      medical need for treatment in these settings; and 3) evaluate the effectiveness of directly
+      observed therapy versus standard of care and patient education on the initiation of HCV
+      treatment. Overall, the study will provide much needed data to guide development of policies
+      and guidelines for the treatment of HCV infection among IDUs, the largest risk group in the
+      United States.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2004</start_date>
+  <completion_date type="Actual">June 2008</completion_date>
+  <primary_completion_date type="Actual">June 2008</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>1. The proportion of IDUs who have clear medical contraindications to HCV treatment. 2. The prevalence of significant hepatic fibrosis among treatment eligible IDUs. 3. The proportion of treatment-eligible IDUs who initiate PEG/RBV therapy.</measure>
+    <time_frame>4 years</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The proportion of IDUs without clear contraindications who might be excluded by each of the 7 controversial contraindications.</measure>
+    <time_frame>4 years</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">410</enrollment>
+  <condition>Hepatitis C Virus</condition>
+  <condition>HIV Infections</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Peginterferon/ribavirin</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon/Ribavirin</intervention_name>
+    <description>peginterferon, ribavirin, standard doses</description>
+    <arm_group_label>2</arm_group_label>
+    <other_name>no other names. These are standard names.</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Must use or have used injection drugs
+
+          -  Must have a reactive HCV antibody
+
+        Exclusion Criteria:
+
+          -  Does not have an absolute contraindication to HCV treatment:
+
+               -  HCV RNA not detected by PCR.
+
+               -  Pregnant or not willing to use birth control.
+
+               -  Life expectancy &lt; 2 years.
+
+               -  Severe depression with suicidal ideation.
+
+               -  Allergic reaction to PEG/RBV.
+
+               -  Severe hematologic abnormality that is likely to be exacerbated by treatment.
+
+               -  Renal insufficiency.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Mark S Sulkowski, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Johns Hopkins University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Johns Hopkins University</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21287</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Seal KH, Currie SL, Shen H, Anand BS, Bini EJ, Brau N, Jeffers L, Wright TL; VA HCV-001 Study Group. Hepatitis C treatment candidacy and outcomes among 4318 US veterans with chronic hepatitis C virus infection: does a history of injection drug use matter? J Clin Gastroenterol. 2007 Feb;41(2):199-205.</citation>
+    <PMID>17245220</PMID>
+  </reference>
+  <reference>
+    <citation>Grebely J, Conway B, Raffa JD, Lai C, Krajden M, Tyndall MW. Hepatitis C virus reinfection in injection drug users. Hepatology. 2006 Nov;44(5):1139-45.</citation>
+    <PMID>17058216</PMID>
+  </reference>
+  <results_reference>
+    <citation>Mehta SH, Lucas GM, Mirel LB, Torbenson M, Higgins Y, Moore RD, Thomas DL, Sulkowski MS. Limited effectiveness of antiviral treatment for hepatitis C in an urban HIV clinic. AIDS. 2006 Nov 28;20(18):2361-9.</citation>
+    <PMID>17117023</PMID>
+  </results_reference>
+  <verification_date>April 2009</verification_date>
+  <lastchanged_date>April 17, 2009</lastchanged_date>
+  <firstreceived_date>July 5, 2007</firstreceived_date>
+  <responsible_party>
+    <name_title>Jag H. Khalsa, Ph.D., Chief, Medical Consequences</name_title>
+    <organization>NIDA</organization>
+  </responsible_party>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>HIV</keyword>
+  <keyword>IV Drug users</keyword>
+  <keyword>Treatment Naive</keyword>
+  <keyword>Treatment Experienced</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

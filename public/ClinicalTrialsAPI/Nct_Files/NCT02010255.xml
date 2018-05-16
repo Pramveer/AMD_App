@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="127">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02010255</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-337-0124</org_study_id>
+    <secondary_id>2013-002802-30</secondary_id>
+    <nct_id>NCT02010255</nct_id>
+  </id_info>
+  <brief_title>Ledipasvir/Sofosbuvir Fixed-Dose Combination Plus Ribavirin in Subjects With Chronic HCV With Advanced Liver Disease or Post-Liver Transplant</brief_title>
+  <official_title>A Phase 2, Multicenter, Open-Label Study to Investigate the Safety and Efficacy of Sofosbuvir/Ledipasvir Fixed-Dose Combination + Ribavirin Administered in Subjects Infected With Chronic HCV Who Have Advanced Liver Disease or Are Post-Liver Transplant</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Austria: Federal Office for Safety in Health Care</authority>
+    <authority>Austria: Agency for Health and Food Safety</authority>
+    <authority>Belgium: Federal Agency for Medicinal Products and Health Products</authority>
+    <authority>France: Agence Nationale de Sécurité du Médicament et des produits de santé</authority>
+    <authority>Italy: The Italian Medicines Agency</authority>
+    <authority>Netherlands: The Central Committee on Research Involving Human Subjects (CCMO)</authority>
+    <authority>Spain: Agencia Española de Medicamentos y Productos Sanitarios</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>Switzerland: Swissmedic</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate ledipasvir/sofosbuvir (LDV/SOF) fixed-dose combination (FDC) in
+      participants with chronic genotype 1 or 4 hepatitis C virus (HCV) infection. Participants
+      will be randomized to receive 12 or 24 weeks of dosing with the LDV/SOF FDC tablet plus
+      ribavirin (RBV).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2014</start_date>
+  <completion_date type="Actual">August 2015</completion_date>
+  <primary_completion_date type="Actual">May 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Proportion of participants with sustained virologic response 12 weeks after last dose of study drug (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as HCV RNA &lt; the lower limit of quantitation (LLOQ) 12 weeks after last dose of study drug.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of participants who discontinue study drug due to an adverse event</measure>
+    <time_frame>Baseline to Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR) 2, 4, 8, and 24 weeks after last dose of study drug (SVR2, SVR4, SVR8 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 2, 4, 8, and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR2, SVR4, SVR8, and SVR 24 is defined as HCV RNA &lt; LLOQ at 2, 4, 8, and 24 weeks following the last dose of study drug, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants who have HCV RNA &lt; LLOQ by visit while on treatment</measure>
+    <time_frame>Weeks 1, 2, 4, 6, 8, and 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV RNA levels and change from Day 1 through Week 8</measure>
+    <time_frame>Baseline to Weeks 1, 2, 4, 6, and 8</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with virologic failure</measure>
+    <time_frame>Baseline to posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in model for end-stage liver disease (MELD) and Child-Pugh-Turcotte (CPT) scores</measure>
+    <time_frame>Baseline to posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with post-transplant virologic response</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>For those participants who have a liver transplant while on study, the proportion of participants with post-transplant virologic response (PTVR, defined as HCV RNA &lt; LLOQ at 12 weeks post-transplant) will be summarized for participants in the Full Analysis Set (FAS) who have HCV RNA &lt; LLOQ at their last observed HCV RNA prior to transplant.</description>
+  </secondary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Actual">334</enrollment>
+  <condition>Chronic HCV Infection</condition>
+  <arm_group>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort A, advanced liver disease Group 1. Participants with cirrhosis and moderate hepatic impairment (CPT Class B) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort A, advanced liver disease Group 2. Participants with cirrhosis and severe hepatic impairment (CPT Class C) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 3. Participants without cirrhosis (fibrosis stage F0-F3) and with no evidence of hepatic decompensation will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 4. Participants with cirrhosis and mild hepatic impairment (CPT Class A) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 5. Participants with cirrhosis and moderate hepatic impairment (CPT Class B) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 6. Participants with cirrhosis and severe hepatic impairment (CPT Class C) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 7</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 7. Participants with aggressive recurrent disease after transplant with evidence of cholestasis (fibrosing cholestatic hepatitis [FCH]) will be randomized to receive either 12 or 24 weeks of LDV/SOF FDC plus RBV.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV/SOF</intervention_name>
+    <description>LDV 90 mg/SOF 400 mg FDC tablet administered orally once daily</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_label>Group 7</arm_group_label>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+    <other_name>GS-5885</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>RBV administered as 200 mg tablets (up to 1000-1200 mg) in a divided daily dose</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_label>Group 7</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Able to provide written informed consent
+
+          -  Chronic genotype 1 and/or 4 HCV infection
+
+          -  Normal ECG
+
+          -  Negative serum pregnancy test for female subjects
+
+          -  Male subjects and female subjects of childbearing potential must agree to use
+             contraception
+
+          -  Able to comply with the dosing instructions for study drug and able to complete the
+             study schedule of assessments, including all required post treatment visits
+
+        Exclusion Criteria:
+
+          -  Serious or active medical or psychiatric illness
+
+          -  HIV or hepatitis B viral (HBV) infection
+
+          -  Stomach disorder that could interfere with the absorption of the study drug
+
+          -  Treated with an anti-HCV medication in the last 30 days
+
+          -  Any prior exposure to an HCV nonstructural protein (NS)5a-specific inhibitor
+
+          -  Use of human granulocyte-macrophage colony-stimulating factor (GM-CSF), epoetin alfa
+             or other therapeutic hematopoietic agents within 2 weeks of screening
+
+          -  History of clinically significant medical condition associated with other chronic
+             liver disease
+
+          -  Active spontaneous bacterial peritonitis at screening
+
+          -  Females who are breastfeeding
+
+          -  Infection requiring systemic antibiotics
+
+          -  Participated in a clinical study with an investigational drug or biologic within the
+             last 30 days
+
+          -  Active or history (last 6 months) of drug or alcohol abuse
+
+          -  History of organ transplant other than liver, kidney, or corneal.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Shampa De-Oertel, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Royal Prince Alfred Hospital, University of Sydney</name>
+      <address>
+        <city>Camperdown</city>
+        <state>New South Wales</state>
+        <zip>2050</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Austin Repatriation Hospital (Melbourne) // Victorian Transplant Centre</name>
+      <address>
+        <city>Heidelberg</city>
+        <state>Victoria</state>
+        <zip>3084</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medizinische Universitaet Innsbruck</name>
+      <address>
+        <city>Innsbruck</city>
+        <zip>A-6020</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medizinische Universitat Wien</name>
+      <address>
+        <city>Wien</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UCL St-Luc Brussels</name>
+      <address>
+        <city>Brussels</city>
+        <zip>1200</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Universitair Ziekenhuis Gent</name>
+      <address>
+        <city>Gent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Division of Gastroenterology, University of Alberta, Edmonton</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 2C2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of British Columbia and Vancouver General Hospital</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 3P1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>London Health Sciences Centre-University Hospital</name>
+      <address>
+        <city>London</city>
+        <state>Ontario</state>
+        <zip>N6A 5A5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Health Network // Toronto General Hospital</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2C4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital St. Luc</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H1T 2M4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>McGill University Health Centre \\ Royal Victoria Hospital</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3A 1A1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Beaujon</name>
+      <address>
+        <city>Clichy Cedex</city>
+        <zip>92118</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Mondor \\ Service d'Hépatologie et de Gastroentérologie,</name>
+      <address>
+        <city>Créteil</city>
+        <zip>94010</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital Saint-Eloi</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34295</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hopital Paul Brousse</name>
+      <address>
+        <city>Villejuif Cedex</city>
+        <zip>94804</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum RWTH Aachen</name>
+      <address>
+        <city>Aachen</city>
+        <zip>52074</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Universitätsklinikum Essen - klinikum für Gastroenterolgie und Hepatologie</name>
+      <address>
+        <city>Essen</city>
+        <zip>45122</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Johann Wolfgang Goethe University, Department of Internal Medicine I</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Medical School of Hannover</name>
+      <address>
+        <city>Hannover</city>
+        <zip>30625</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>IRCCS Cà Grande Ospedale Maggiore Policlinico</name>
+      <address>
+        <city>Milano</city>
+        <zip>20122</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Azienda Ospedaliera San Giovanni, Battista di Torino \\ Professor of Gastroenterology-San Giovanni Battista Hospital-University of Torino</name>
+      <address>
+        <city>Torino</city>
+        <zip>10126</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Leids Universitair Medisch Centrum</name>
+      <address>
+        <city>Leiden</city>
+        <zip>2333 ZA</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Erasmus MC in Rotterdam</name>
+      <address>
+        <city>Rotterdam</city>
+        <zip>3015 CE</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Auckland City Hospital</name>
+      <address>
+        <city>Auckland</city>
+        <zip>1023</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clinic i Provincial</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>8036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitari Vall d' Hebron</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>8035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Puerta de Hierro, Madrid</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28220</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario y Politecnico La Fe de Valencia</name>
+      <address>
+        <city>Valencia</city>
+        <zip>46009</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Berne</name>
+      <address>
+        <city>Bern</city>
+        <zip>3010</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital Zurich</name>
+      <address>
+        <city>Zurich</city>
+        <zip>CH-8091</zip>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospitals Birmingham NHS Foundation Trust</name>
+      <address>
+        <city>Birmingham</city>
+        <zip>B15 2TH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Infirmary of Edinburgh \\ Scottish Liver Transplant Unit-Edinburgh</name>
+      <address>
+        <city>Edinburgh</city>
+        <zip>EH3 9YW</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Kings College Hospital, Institute of Liver Studies</name>
+      <address>
+        <city>London</city>
+        <zip>SE5 9RS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Belgium</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Netherlands</country>
+    <country>New Zealand</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 9, 2015</lastchanged_date>
+  <firstreceived_date>December 9, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Liver Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

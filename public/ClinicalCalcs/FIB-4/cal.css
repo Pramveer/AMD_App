@@ -1,0 +1,153 @@
+.tool {
+		position: relative;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.tool-equation {
+	}
+
+	.tool-input {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+		width: 100%;
+		position: relative;
+		background: #efefef;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 2px #eee;
+		border-radius: 20px;
+	}
+	
+	.tool-input:hover {
+		box-shadow: 1px 1px 2px #666;
+		background: #fff;
+	}
+	
+	.tool-container {
+		position: relative;
+		padding: 6px 10px;
+		width: 150px;
+		display: inline-block;
+		text-align: center;
+	}
+	
+	.tool-container .caption {
+		text-align: left;
+		font-size: 12px;
+		display: block;
+		position: relative;
+		padding-left: 10px;
+	}
+	
+	.tool-container.container-age {
+		width: 100px;
+	}
+	
+	.tool-container.container-ast_platelet_count {
+		width: 160px;
+	}
+	
+	.tool-container.container-alt {
+		width: 100px;
+	}
+	
+	.tool-container.container-ast_level {
+		width: 125px;
+	}
+	
+	.tool-container.container-alt {
+		border-top: 2px solid rgb(0, 0, 0);
+		position: relative;
+		top: 7px;
+		padding-left: 0px;
+	}
+	
+	.tool-elem.tool-elem-radic {
+		font-size: 50px;
+		line-height: 0px;
+		margin-right: -12px;
+		height: 1px;
+		top: -5px;
+		position: relative;
+		font-weight: normal;
+	}
+	
+	@-moz-document url-prefix() {
+		.tool-elem.tool-elem-radic {
+			line-height: 50px;
+		}
+	}
+	
+	.tool-section-num {
+		text-align: center;
+	}
+	
+	.tool-section-denom {
+		border-top: 2px solid #000;
+	}
+	
+	.tool-elem,
+	.tool-result {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 5px;
+		height: 40px;
+		
+	}
+	
+	.tool-elem-fraction .tool-elem{
+		display: inline-block;
+	}
+	
+	.tool-result {
+		background: rgb(255,222,70);
+		border-radius: 20px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+	}
+	
+	.tool-result .units {
+		margin-left: 1px;
+	}
+	
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover LOL */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}
+	
+	.tool-result-interpretation {
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		background: rgb(204,224,245);
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	
+	.tool-result-interpretation h3 {
+		margin-top: 0px;
+		padding-left: 0px;
+	}
+	
+	.tool-equation {
+		clear: both;
+	}
+	
+	.content-included h3 {
+    font-size: 13px;
+    font-family: Arial,Verdana,sans-serif;
+}
+.tool-result-interpretation h3 {
+    margin-top: 0px;
+    padding-left: 0px;
+}

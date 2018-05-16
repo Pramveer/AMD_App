@@ -1,0 +1,30 @@
+<template name="CompareOptionsView">
+
+    
+    <div class="compareOptionsList">
+        <div class="compareOptionDropDownLable"> Compare Options </div>
+        <div class="compareOptionDropDownContainer">
+            <select id="ce_compareOptions" name="" style="">
+                <option value="select">Select...</option>
+                {{#each compareOptions}}
+                    <option value="{{this}}">{{this}}</option>
+                {{/each}}
+            </select>
+        </div>
+    </div>
+
+    <div class="compareAgainstOptionsList">
+        <div class="compareOptionDropDownLable"> Compare By </div>
+        <div class="compareOptionDropDownContainer">
+            <select id="ce_compareAgainstOptions" name="" style="">
+                <option value="select">Select...</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="goButtonWrapper js-optionsViewApply" style="position: absolute;top: 15%;right: 1%;">
+        <span class="applyBtn btn btn-success btn-cons">Apply</span>
+    </div>
+
+</template>

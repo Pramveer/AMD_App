@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="60">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02421211</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR106992</org_study_id>
+    <secondary_id>TMC435HPC2017</secondary_id>
+    <secondary_id>2015-000459-25</secondary_id>
+    <nct_id>NCT02421211</nct_id>
+  </id_info>
+  <brief_title>A Study to Investigate the Pharmacokinetic Interactions Between Simeprevir and Ledipasvir in a Treatment Regimen Consisting of Simeprevir, Sofosbuvir, and Ledipasvir in Treatment-naive Participants With Chronic Hepatitis C Virus Genotype 1 Infection</brief_title>
+  <official_title>A Phase 2, 2-panel, Open-label Randomized Study in Hepatitis C Virus Infected Subjects to Investigate the Pharmacokinetic Interactions Between Simeprevir and Ledipasvir in a Treatment Regimen Consisting of Simeprevir, Sofosbuvir and Ledipasvir in Treatment-naive Participants.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen Sciences Ireland UC</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Janssen Sciences Ireland UC</source>
+  <oversight_info>
+    <authority>Belgium: Federal agency for medecines and health products</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Belgium: Agencia Española del Medicamento</authority>
+    <authority>Belgium: ANSM - Agence Nationale de Sécurité du Médicament et des produits de santé</authority>
+    <authority>Belgium: Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten (FAGG)</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the pharmacokinetic interactions between simeprevir
+      and ledipasvir in a treatment regimen consisting of simeprevir (SMV), sofosbuvir (SOF), and
+      ledipasvir (LDV) in treatment-naive participants with chronic hepatitis C virus (HCV)
+      genotype 1 infection.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an open-label (all people know the identity of the intervention), 2-panel, Phase 2,
+      randomized (study medication assigned to participants by chance) study. The study will
+      consist of 3 study phases: Screening Phase (5 weeks), an Open-label Treatment Phase (70 days
+      for Panel 1 and 56 days for Panel 2), a Post-treatment Follow-up Phase (12 weeks after the
+      actual end of treatment). Participants will receive a combination of the following
+      treatments: Treatment A: SMV 150 milligram (mg) once daily; Treatment B: LDV 90 mg along
+      with SOF 400 mg once daily; Treatment C: SOF 400 mg once daily. Participants will be
+      randomly assigned to Panel 1 (Treatment AC followed by Treatment AB) and Panel 2 (Treatment
+      B followed by Treatment AB). The total study duration will be approximately 27 weeks for
+      participants in Panel 1 and 25 weeks for participants in Panel 2. Participants will be
+      primarily accessed for pharmacokinetic parameters. Participants' safety will be monitored
+      throughout the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>May 2015</start_date>
+  <completion_date type="Anticipated">December 2015</completion_date>
+  <primary_completion_date type="Anticipated">November 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Pharmacokinetics Study, Intervention Model: Parallel Assignment, Masking: Open Label</study_design>
+  <primary_outcome>
+    <measure>Minimum Plasma Concentration (Cmin) of Simeprevir and Ledipasvir</measure>
+    <time_frame>Pre-dose, 0.5, 1, 2, 4, 6, 8, 10, 12, 18, and 24 hours post-dose on Day 14 and Day 28</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Pharmacokinetic (PK) parameters will be assessed at steady-state of Simeprevir (SMV)/Ledipasvir (LDV) before (Day 14) and after (Day 28) the addition of LDV/SMV to the treatment regimen.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Maximum Plasma Concentration (Cmax) of Simeprevir and Ledipasvir</measure>
+    <time_frame>Pre-dose, 0.5, 1, 2, 4, 6, 8, 10, 12, 18, and 24 hours post-dose on Day 14 and Day 28</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>PK parameters will be assessed at steady-state of SMV/LDV before (Day 14) and after (Day 28) the addition of LDV/SMV to the treatment regimen.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area Under the Curve Plasma Concentration-Time Curve From Time Zero to End of Dosing Interval (AUCtau) of Simeprevir and Ledipasvir</measure>
+    <time_frame>Pre-dose, 0.5, 1, 2, 4, 6, 8, 10, 12, 18, and 24 hours post-dose on Day 14 and Day 28</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>PK parameters will be assessed at steady-state of SMV/LDV before (Day 14) and after (Day 28) the addition of LDV/SMV to the treatment regimen.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs) and Treatment-emergent Grade 1-4 Laboratory Abnormalities</measure>
+    <time_frame>Screening upto End of Follow-up phase (up to 27 weeks in Panel 1 and up to 25 weeks in Panel 2)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE is any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. An SAE is an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. The percentage of participants experiencing AEs, SAEs and treatment-emergent grade 1-4 aboratory abnormalities will be assessed.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With On-treatment Virologic Response</measure>
+    <time_frame>Baseline up to End of Treatment (EOT) (Day 70 in Panel 1 and Day 56 in Panel 2)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Hepatitis C virus (HCV) ribonucleic acid (RNA) results satisfying a specified threshold. The following thresholds will be considered at any time point: less than (&lt;) lower limit of quantification (LLOQ) undetectable, &lt;LLOQ detectable, &lt;LLOQ undetectable/detectable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants with Sustained Viral Response 4 Weeks After the Actual EOT (SVR4) and 12 Weeks After Actual EOT (SVR12)</measure>
+    <time_frame>4 weeks after EOT (Week 4 of follow-up phase in Panel 1 and Panel 2) and 12 weeks after EOT (Week 12 of follow-up phase in Panel 1 and Panel 2)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 is defined as HCV RNA &lt;LLOQ, detectable or undetectable at 4 weeks after EOT. SVR12 is defined as HCV RNA &lt;LLOQ, detectable or undetectable at 12 weeks after EOT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With On-treatment Failure</measure>
+    <time_frame>Baseline up to EOT (Day 70 in Panel 1 and Day 56 in Panel 2)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who did not achieve SVR12 and with confirmed detectable HCV RNA at the actual end of study treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Viral Relapse</measure>
+    <time_frame>End of Treatment until end of follow-up Phase (Week 12 of follow-up phase) in Panel 1 and Panel 2</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who did not achieve SVR12, with undetectable HCV RNA at the actual end of study treatment and confirmed HCV RNA greater than or equal to (&gt;=) LLOQ during 12-week follow-up.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV Nonstructural Protein (NS3/4A), Nonstructural Protein 5A (NS5A) and Nonstructural Protein 5B (NS5B) Sequence in Participants not Achieving SVR</measure>
+    <time_frame>Baseline until end of follow-up phase (Week 12 of follow-up phase) in Panel 1 and Panel 2)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sequencing of the HCV nonstructural protein 3/4A (NS3/4A), nonstructural protein 5A (NS5A) and nonstructural protein 5B (NS5B) genes will be done to identify pre-existing sequence polymorphisms in all participants at baseline and characterize emerging HCV viral variants in participants not achieving SVR.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Panel 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive Simeprevir (SMV) 150 milligram (mg) capsule (Treatment A) along with Sofosbuvir (SOF) 400 mg tablet, orally, once daily (Treatment C) from Day 1 until Day 14 followed by SMV 150 mg capsule (Treatment A) along with fixed dose combination (FDC) tablet of 90 mg Ledipasvir (LDV)/400 mg SOF (Treatment B), orally, once daily from Day 15 until Day 70.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Panel 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive FDC tablet of 90 mg LDV/400 mg SOF (Treatment B), orally, once daily from Day 1 until Day 14 followed by SMV 150 mg capsule (Treatment A) along with FDC tablet of 90 mg LDV/400 mg SOF (Treatment B), orally, once daily from Day 15 until Day 56.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir (SMV)</intervention_name>
+    <description>Participants will receive 150 milligram (mg) of SMV (Treatment A) once daily in Panel 1 and Panel 2.</description>
+    <arm_group_label>Panel 1</arm_group_label>
+    <arm_group_label>Panel 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ledipasvir (LDV)</intervention_name>
+    <description>Participants will receive 90 mg of LDV once daily as FDC tablet with SOF (Treatment B) in Panel 1 and Panel 2.</description>
+    <arm_group_label>Panel 1</arm_group_label>
+    <arm_group_label>Panel 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir (SOF)</intervention_name>
+    <description>Participants will receive 400 mg of SOF alone (Treatment C) in Panel 1 and as FDC tablet with LDV (Treatment B) once daily in Panel 2.</description>
+    <arm_group_label>Panel 1</arm_group_label>
+    <arm_group_label>Panel 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants with Body Mass Index (weight in kilogram [kg] divided by the square of
+             height in meters) of 18.0 to 35.0 kilogram per square meter kg/m^2, extremes included
+
+          -  Participants must be treatment-naive (that is, have not received prior treatment with
+             any approved or investigational drug)
+
+          -  Participants with HCV ribonucleic acid (RNA) plasma levels greater than (&gt;) 10,000
+             international unit per milliliter (IU/ml) and lower than 6,000,000 international unit
+             per milliliter (IU/ml) at screening
+
+          -  Participants with absence of cirrhosis confirmed by FibroTest/Fibrosure score less or
+             equal to 0.75 and an aspartate aminotransferase to platelet ration index less or
+             equal to 2 or a Fibroscan less or equal to 14.6 kilopascale (kPA), performed within 6
+             months prior or during the screening period
+
+          -  Participants with documented chronic HCV infection: diagnosis of HCV infection &gt;6
+             months prior to screening, either by detectable HCV RNA, an HCV positive antibody
+             test or presence of histological changes consistent with chronic hepatitis in a liver
+             biopsy
+
+        Exclusion Criteria:
+
+          -  Participant has infection/co-infection with HCV of a genotype other than genotype 1,
+             human immunodeficiency virus (HIV) type 1 or 2
+
+          -  Participant has any evidence of liver disease of non-HCV etiology. This includes, but
+             is not limited to acute hepatitis A, active hepatitis B, drug- or alcohol-related
+             liver disease, autoimmune hepatitis, hemochromatosis, Wilson's disease, alpha-1
+             antitrypsin deficiency, non-alcoholic steatohepatitis, primary biliary cirrhosis, or
+             any other non-HC liver disease considered clinically significant by the investigator
+
+          -  Participant with significant co-morbidities, conditions or clinical significant
+             findings during screening assessments that in the opinion of the investigator could
+             compromise the participants' safety or could interfere with the Participant
+             participating in and completing the study
+
+          -  Participant received an organ transplant (other than cornea or hair transplant or
+             skin graft)
+
+          -  Participants have key protocol defined laboratory abnormalities
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen Sciences Ireland UC Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen Sciences Ireland UC</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Use link at the bottom of the page to see if you qualify for an enrolling site (see list). If you still have questions:</last_name>
+    <email>JNJ.CT@sylogent.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>Antwerpen</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brugge</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brussel</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gent</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Leuven</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Canada</country>
+  </location_countries>
+  <link>
+    <url>http://pam.sylogent.com/cr/CR106992</url>
+    <description>To learn how to participate in this trial please click here.</description>
+  </link>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 18, 2015</lastchanged_date>
+  <firstreceived_date>April 15, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C, Chronic</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Ledipasvir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

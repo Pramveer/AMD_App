@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="178">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00980330</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR016063</org_study_id>
+    <secondary_id>TMC435-TiDP16-C206</secondary_id>
+    <secondary_id>2009-010590-20</secondary_id>
+    <nct_id>NCT00980330</nct_id>
+  </id_info>
+  <brief_title>A Safety and Effectiveness Study of TMC435 in Chronic, Genotype 1, Hepatitis C Patients Who Failed to Previous Standard Treatment</brief_title>
+  <acronym>ASPIRE</acronym>
+  <official_title>A Phase IIb, Randomized, Double-Blind, Placebo-Controlled Trial to Investigate the Efficacy, Tolerability, Safety and Pharmacokinetics of TMC435 as Part of a Treatment Regimen Including PegIFNa-2a and Ribavirin in HCV Genotype 1 Infected Subjects Who Failed Previous Standard Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Tibotec Pharmaceuticals, Ireland</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Tibotec Pharmaceuticals, Ireland</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Canada: Health Canada</authority>
+    <authority>Portugal: National Pharmacy and Medicines Institute</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>Austria: Federal Office for Safety in Health Care</authority>
+    <authority>Belgium: Federal Agency for Medicinal Products and Health Products</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Israel: Ministry of Health</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>Norway: Norwegian Medicines Agency</authority>
+    <authority>Poland: The Central Register of Clinical Trials</authority>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>Great Britain: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the efficacy, safety and tolerability of different
+      regimens of TMC435 with standard treatment compared to standard treatment alone in
+      participants with chronic, genotype 1, hepatitis C virus (HCV) infection who has failed
+      previous treatment with pegylated interferon (Peg-INF-alfa-2a) and ribavirin (RBV).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study is a randomized (study drug assigned by chance), double-blind (neither physician
+      nor participant knows the name of the assigned drug), placebo-controlled Phase IIb trial
+      with TMC435 in participants with chronic, genotype 1, hepatitis C virus (HCV) infection who
+      have failed standard treatment with pegylated interferon (Peg-INF-alfa-2a) and ribavirin
+      (RBV). The study will compare the efficacy, tolerability and safety of different regimens
+      with TMC435 combined with standard treatment (Peg-INF-alfa-2a and RBV) versus standard
+      treatment alone. The trial will consist of a screening period of maximum 6 weeks, a 48-week
+      treatment period, and a 24-week follow-up period. Participants will be eligible to enroll in
+      the trial if they failed to respond to a prior course of standard treatment or relapsed
+      following standard treatment. Participants will be randomly assigned to receive TMC435 with
+      standard treatment for 12 weeks followed by standard treatment (plus placebo) for 36 weeks,
+      TMC435 (100 mg or 150 mg once a day) with standard treatment for 24 weeks followed by
+      standard treatment (plus placebo) for 24 weeks, TMC435 (100 mg or 150 mg once a day) with
+      standard treatment for 48 weeks, or a placebo with standard treatment for 48 weeks.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2009</start_date>
+  <completion_date type="Actual">August 2011</completion_date>
+  <primary_completion_date type="Actual">August 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The Percentage of Participants Achieving a Sustained Virologic Response at the End of Treatment (EOT) and 24 Weeks After the EOT (SVR24)</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in the overall population with an SVR24, defined as having plasma levels of Hepatitis C Virus ribonucleic acid less than 25 IU/mL undetectable at the EOT and 24 weeks after the EOT.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants With a Greater Than 2 log10 Drop in Plasma Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Levels at Time Points During Treatment</measure>
+    <time_frame>Weeks, 2, 4, 8, and 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group who achieved a greater than 2 log10 drop in plasma levels of HCV RNA at selected time points during treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving Plasma Levels of Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) &lt;25 IU/mL Undetectable During Treatment and Follow-up</measure>
+    <time_frame>Weeks, 2, 4, 8, 12, 24, 36, 48, 60, 72 and EOT (up to Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment who achieved plasma HCV RNA levels of &lt;25 IU/mL undetectable at selected time points during treatment and follow-up and at the end of treatment (EOT).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving Plasma Levels of Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) &lt;25 IU/mL Detectable or Undetectable During Treatment and Follow-up</measure>
+    <time_frame>Weeks, 2, 4, 8, 12, 24, 36, 48, 60, 72, and EOT (up to Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group who achieved plasma HCV RNA levels below the limit of quantification defined as less than 25 IU/mL (detectable or undetectable) at selected time points during treatment, follow-up, and at the end of treatment (EOT).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving a Rapid Virologic Response (RVR)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group who achieved a RVR, defined as having an undetectable plasma Hepatitis C virus ribonucleic acid level after receiving 4 weeks of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving an Early Virologic Response (EVR)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants who achieved an EVR, defined as having a greater than or equal to 2 log10 reduction in plasma Hepatitis C virus ribonucleic acid from baseline at Week 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving a Complete Early Virologic Response (cEVR)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group who had a cEVR, defined as having undetectable plasma levels of Hepatitis C virus ribonucleic acid at Week 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving a Sustained Virologic Response 12 Weeks After the Planned End of Treatment (SVR12)</measure>
+    <time_frame>Week 60</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in the overall population who achieved undetectable plasma Hepatitis C virus ribonucleic acid levels at the end of treatment (EOT) and 12 Weeks after the planned EOT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants With Viral Breakthrough</measure>
+    <time_frame>EOT (up to Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in the overall population in each treatment group during the treatment period who experienced viral breakthrough, defined as a confirmed increase of greater than 1 log10 IU/mL in Hepatitis C virus (HCV) ribonucleic acid (RNA) from the lowest level reached or a confirmed HCV RNA of &gt; 100 IU/mL in participants whose HCV RNA had previously been below the lower limit of quantification (i.e., less than 25 IU/mL detectable or undetectable).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants With Viral Relapse</measure>
+    <time_frame>Up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in the overall population who had viral relapse, defined as confirmed detectable Hepatitis C virus (HCV) ribonucleic acid (RNA) during the follow-up period in participants with HCV RNA less than 25 IU/mL undetectable at end of treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Participants Who Achieved Normalized Alanine Aminotransferase (ALT) Levels at the End of Treatment (EOT)</measure>
+    <time_frame>EOT (up to Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the number of participants with abnormal ALT levels at Baseline who achieved the normal ALT levels at the EOT (up to Week 48).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Plasma Concentrations of TMC435</measure>
+    <time_frame>0 (predose, baseline) and 4, 8, 12, and 24 hours post-dose at Weeks 2, 4, 8, 12, 16, 24, and 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows median (range) predose plasma concentration (C0h) values and median (range) average steady-state plasma concentration (Css,av) values for TMC435 for participants in each of the 6 TMC435 treatment groups.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Area Under the Plasma Concentration-time Curve From 0 to 24 Hours (AUC24h) for TMC435</measure>
+    <time_frame>0 (predose, baseline) and 4, 8, 12, and 24 hours post-dose at Weeks 2, 4, 8, 12, 16, 24, and 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the median (range) AUC24h values for TMC435 for participants in each TMC435 treatment group.</description>
+  </secondary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Actual">463</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>TMC435 100 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 100 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 12 weeks followed by Placebo with PR for 36 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMC435 100 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants willl receive TMC435 100 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 24 weeks followed by Placebo with PR for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMC435 100 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 100 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMC435 150 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 150 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 12 weeks followed by Placebo and PR for 36 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMC435 150 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 150 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 24 weeks followed Placebo and PR for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>TMC435 150 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 150 mg once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo 48 Wks + PR48</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participants will receive Placebo once daily with Peg-IFN-alfa-2a (P) once weekly and ribavirin (R) twice daily for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>TMC435</intervention_name>
+    <description>One TMC435 100-mg capsule or two 75-mg capsules orally (by mouth) once daily for 12, 24, or 48 weeks.</description>
+    <arm_group_label>TMC435 100 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>Placebo 48 Wks + PR48</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>One or 2 capsules of placebo identical in appearance to TMC435 taken orally once daily for 24, 36, or 48 weeks.</description>
+    <arm_group_label>TMC435 100 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 24 Wks + PR48</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peg-IFN-alfa-2a (P)</intervention_name>
+    <description>180 micrograms taken as one 0.5 mL subcutaneous injection once weekly for 48 weeks.</description>
+    <arm_group_label>TMC435 100 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>Placebo 48 Wks + PR48</arm_group_label>
+    <other_name>PEGASYS</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (R)</intervention_name>
+    <description>1000 or 1200 mg/day (5 or 6 tablets) taken orally as a twice daily regimen taken for 48 weeks.</description>
+    <arm_group_label>TMC435 100 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 100 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 12 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 24 Wks + PR48</arm_group_label>
+    <arm_group_label>TMC435 150 mg 48 Wks + PR48</arm_group_label>
+    <arm_group_label>Placebo 48 Wks + PR48</arm_group_label>
+    <other_name>COPEGUS</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Must have chronic hepatitis C infection as evidenced by liver biopsy, anti-hepatitis
+             C virus (HCV) and HCV RNA positive
+
+          -  Must have chronic hepatitis C infection (genotype 1) with HCV RNA level greater
+             than10000 IU/mL
+
+          -  Patient must have failed at least 1 prior course of peg interferon
+             (Peg-IFN-alfa-2a)/ribavirin (RBV) therapy (standard treatment)
+
+          -  Must be willing to use 2 effective methods of birth control for up to 7 months after
+             last dose of study medication
+
+        Exclusion Criteria:
+
+          -  Has an evidence of decompensated liver disease
+
+          -  Co-infection with any other Hepatitis C virus genotype or co-infection with the human
+             immunodeficiency virus (HIV)
+
+          -  Has a medical condition which is a contraindication to Peg-INF or RBV therapy
+
+          -  Have had history of, or any current medical condition which could impact the safety
+             of the patient in the study
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Tibotec Pharmaceuticals, Ireland Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Tibotec Pharmaceuticals, Ireland</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Palm Harbor</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Laurel</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jackson</city>
+        <state>Mississippi</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tupelo</city>
+        <state>Mississippi</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Concord</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Darlinghurst</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fitzroy</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New Lambton Heights</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Parkville</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sydney</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Woolloongabba N/A</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wien</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brugge</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brussels</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bruxelles</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Edegem</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gent</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Leuven</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Roeselare</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ottawa</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Creteil N/A</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Grenoble</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nice</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Paris Cedex 12</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vandoeuvre Les Nancy</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Düsseldorf</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Frankfurt A. M.</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Freiburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hannover</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Köln</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Stuttgart</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Würzburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Haifa</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jerusalem</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nazareth</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Petah Tiqva</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ramat-Gan</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tel-Aviv</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Zefat</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Auckland</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Christchurch</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hamilton</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nordbyhagen</city>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Oslo</city>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tromsø</city>
+        <country>Norway</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bialystok</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bydgoszcz</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Czeladz</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kielce</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Warszawa</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Coimbra</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lisboa</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Porto</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Moscow</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nizhny Novgorod</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Saint-Petersburg</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Samara</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Smolensk</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>St Petersburg</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Plymouth</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Belgium</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Israel</country>
+    <country>New Zealand</country>
+    <country>Norway</country>
+    <country>Poland</country>
+    <country>Portugal</country>
+    <country>Russian Federation</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>May 2014</verification_date>
+  <lastchanged_date>May 30, 2014</lastchanged_date>
+  <firstreceived_date>September 10, 2009</firstreceived_date>
+  <firstreceived_results_date>December 18, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <keyword>Peginterferon alpha-2a</keyword>
+  <keyword>PegIFNalpha-2a</keyword>
+  <keyword>RBV</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>Placebo</keyword>
+  <keyword>TMC435-TIDP16-C206</keyword>
+  <keyword>TMC435-C206</keyword>
+  <keyword>TMC435</keyword>
+  <keyword>HCV</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

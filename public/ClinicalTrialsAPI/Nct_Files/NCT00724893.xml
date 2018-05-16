@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="211">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00724893</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04423</org_study_id>
+    <secondary_id>MK-4031-267</secondary_id>
+    <nct_id>NCT00724893</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Pegetron® Redipen™ Treatment and Treatment Compliance of Patients With Chronic Hepatitis C in Canada (P04423)</brief_title>
+  <official_title>Pegetron® Redipen™ Prospective Optimal Weight-based Dosing Response Program</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Canada: Ethics Review Committee</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Treatment compliance is a key success factor in obtaining the full benefit of Pegetron
+      (peginterferon alfa-2b [PegIFN-2b] plus ribavirin combination) therapy for patients.
+      Treatment-naïve patients with chronic hepatitis C (CHC) in Canada to whom Pegetron Redipen
+      was prescribed will receive Pegetron Redipen therapy in accordance with approved labeling.
+      The study will assess the effect of the newly approved Pegetron Redipen on treatment
+      compliance and its effect on sustained virologic response rates. Sustained virologic
+      response is defined as negative hepatitis C virus ribonucleic acid (HCV-RNA) six months
+      post-treatment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2005</start_date>
+  <completion_date type="Actual">August 2012</completion_date>
+  <primary_completion_date type="Actual">August 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Achieving Viral Response at Any Evaluation Point (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This is a measure of the number of participants achieving a viral response (negative hepatitis C virus ribonucleic acid [HCV-RNA]) at either of the follow-up evaluation time points (12 weeks [window 10-14 weeks] or ≥22 weeks after the end of treatment (EOT). Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Achieving Viral Response at 12 Weeks After EOT (Stage 1)</measure>
+    <time_frame>Up to 62 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This is a measure of the number of participants achieving a viral response (negative HCV-RNA) at 12 weeks (window 10-14 weeks) after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Achieving Sustained Viral Response (SVR) (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>This is a measure of the number of participants who achieved SVR, defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Participants Achieving SVR (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at six months after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Discontinued From Study Treatment Due to Adverse Events (Stage 1 and Stage 2)</measure>
+    <time_frame>Up to 48 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving Viral Response at Any Evaluation Point, Excluding Participants Who Discontinued Treatment Prior to Early Virologic Response (EVR) Evaluation (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral response was defined as negative HCV-RNA. EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at Treatment Week 12. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving Viral Response at 12 Weeks After EOT, Excluding Participants Who Discontinued Prior to EVR Evaluation (Stage 1)</measure>
+    <time_frame>Up to 62 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral response was defined as negative HCV-RNA. EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at Treatment Week 12. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR, Excluding Participants Who Discontinued Prior to EVR Evaluation (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at Treatment Week 12. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Participants Achieving Viral Response at 12 Weeks After EOT, Excluding Participants Who Discontinued Prior to EVR Evaluation and Participants With Missing Data (Stage 1)</measure>
+    <time_frame>Up to 62 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral response was defined as negative HCV-RNA; evaluation was done 12 weeks (window 10-14 weeks) after EOT. EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at Treatment Week 12. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Participants Achieving SVR Excluding Participants Who Discontinued Prior to EVR Evaluation and Participants With Missing Data (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at Treatment Week 12. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Participants Achieving Viral Response at 12 Weeks After EOT by Chronic HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 62 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral response was defined as negative HCV-RNA; evaluation was done 12 weeks (window 10-14 weeks) after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Number of Participants Achieving Viral Response at 12 Weeks After EOT by Liver Fibrosis Stage (Stage 1)</measure>
+    <time_frame>Up to 62 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral response was defined as negative HCV-RNA; evaluation was done 12 weeks (window 10-14 weeks) after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 =significant liver damage, the liver becomes fibrotic [scarred] and connects with other scarred areas, and F4 = severe damage [cirrhosis] and liver no longer functions properly).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Liver Fibrosis Stage (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 = significant liver damage, the liver is fibrotic [scarred] and connects with other scarred areas, and F4 = severe damage [cirrhosis] and liver no longer functions properly).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Chronic HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks following EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Viral Load (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Viral load categories were defined as High (≥100,000 Iu/mL) or Low (&lt;100,000 Iu/mL).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Weight (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Chronic HCV Genotype + Liver Fibrosis Stage (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 =significant liver damage, the liver becomes fibrotic [scarred] and connects with other scarred areas, and F4 = severe damage [cirrhosis] and liver no longer functions properly). For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Chronic HCV Genotype + Viral Load (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Viral load categories were defined as High (≥100,000 Iu/mL) or Low (&lt;100,000 Iu/mL). For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Weight + Chronic HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR (Stage 1)</measure>
+    <time_frame>From Week 10 to Week 14</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by EVR Type (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative after 12 weeks of treatment. SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Gender (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Race (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Human Immunodeficiency Virus (HIV) Status (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at ≥22 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With End of Treatment (EOT) Response (Stage 1)</measure>
+    <time_frame>Up to 48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EOT response was defined as HCV-RNA negative after 24 weeks of treatment in participants with HCV Genotype 2 or 3, and after 48 weeks of treatment in participants with Genotype 1, 4, 5, or 6. If there was no EOT information or if it was marked as &quot;not done&quot; then EOT was set to &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With EOT Response by Chronic HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EOT response was defined as HCV-RNA negative after 24 weeks of treatment in participants with HCV-RNA Genotype 2 or 3, and after 48 weeks of treatment in participants with Genotype 1, 4, 5, or 6. If there was no EOT information or if it was marked as &quot;not done&quot; then EOT was set to &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With EVR by Selected Chronic HCV Genotypes (Stage 1)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA detectable with a ≥2 log reduction from baseline or HCV-RNA negative at TW12. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relapse Rate by HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The relapse rate was calculated with these parameters: EOT &quot;yes&quot;, EVR evaluation valid, and ≥22 weeks of follow-up data. There were no imputations for EOT or SVR. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Discontinued From Study Drug Due to Adverse Events by Chronic HCV Genotype (Stage 1)</measure>
+    <time_frame>Up to 48 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment. For this analysis participants were grouped by their HCV genotype (Types 1-6); a genotype is a classification based on the differences in the genetic material within the hepatitis virus. Knowing the HCV genotype helps with deciding what type and what duration of treatment will be needed because each genotype demonstrates a different response to treatment in infected individuals.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving Rapid Virologic Response (RVR) (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment (window of 2 to 6 weeks). Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by Race (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment (window of 2 to 6 weeks). Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by Race (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Race (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at six months after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR Who Achieved SVR (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after four weeks of treatment. SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR Who Achieved SVR (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by Liver Fibrosis Stage (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after four weeks of treatment. SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 =significant liver damage, the liver becomes fibrotic [scarred] and connects with other scarred areas , and F4 = severe damage [cirrhosis] and liver no longer functions properly).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by Liver Fibrosis Stage (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment.SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 =significant liver damage, the liver becomes fibrotic [scarred] and connects with other scarred areas , and F4 = severe damage [cirrhosis] and liver no longer functions properly).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Liver Fibrosis Score (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. Liver fibrosis stage was measured with the METAVIR scoring system (F0=no fibrosis or liver damage, F1 = beginning of liver damage with some slight scarring, F2 = moderate liver damage, scarring advancing in liver and surrounding blood vessels, F3 =significant liver damage, the liver becomes fibrotic [scarred] and connects with other scarred areas , and F4 = severe damage [cirrhosis] and liver no longer functions properly).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by Weight (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by Weight (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Weight (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by Chronic HCV Genotype 1 Subtype (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment. SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype subcategory (1a or 1b); subcategories are the result of a change in the genetic material in the viruses within the genotype.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by Chronic HCV Genotype 1 Subtype (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment.SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype subcategory (1a or 1b); subcategories are the result of a change in the genetic material in the viruses within the genotype.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Chronic HCV Genotype 1 Subtype (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;. For this analysis participants were grouped by their HCV genotype subcategory (1a or 1b); subcategories are the result of a change in the genetic material in the viruses within the genotype.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by Gender (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by Gender (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by Gender (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving RVR by HIV Status (Stage 2)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as undetectable HCV-RNA after 4 weeks of treatment (window of 2 to 6 weeks). Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving EVR by HIV Status (Stage 2)</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as either HCV-RNA undetectable with a ≥2 log reduction in HCV-RNA from baseline or HCV-RNA undetectable after 12 weeks of treatment. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR by HIV Status (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as HCV-RNA negative at six months following EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Compliance for Participants Achieving SVR Based on Medication Adherence Questionnaire (MAQ) (Stage 2)</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Compliance was defined as participants taking ≥80% versus &lt;80% of their doses; compliance ≥80% was derived from participants who answered &quot;always&quot; or &quot;most of the time&quot; to Questions 4 (How often do you stick to your medication schedule for your Ribavirin?) and 5 (How often do you stick to your medication schedule for your Redipen [peginterferon] injections?) of the 6-question compliance questionnaire. Percentages are based on the total number of participants within each compliance category. SVR was defined as HCV-RNA negative at 24 weeks after EOT. Participants with no viral response information were considered viral response &quot;no&quot;.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">2430</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Stage 1 Participants</arm_group_label>
+    <description>Participants with CHC receiving PegIFN-2b using Redipen™ formulation (1.5 mcg/kg) once weekly and ribavirin capsules (800-1400 mg) daily according to routine medical practice at participating study sites.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stage 2 Participants</arm_group_label>
+    <description>Participants with CHC Genotype 1 receiving PegIFN-2b using Redipen™ formulation (1.5 mcg/kg) once weekly and ribavirin capsules (800-1400 mg) daily according to routine medical practice at participating study sites.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIFN-2b</intervention_name>
+    <description>PegIFN-2b powder for solution adminstered subcutaneously using the newly approved Redipen. Dosing per approved labeling</description>
+    <arm_group_label>Stage 1 Participants</arm_group_label>
+    <arm_group_label>Stage 2 Participants</arm_group_label>
+    <other_name>Pegetron®</other_name>
+    <other_name>Pegylated interferon alfa-2b</other_name>
+    <other_name>PegIntron</other_name>
+    <other_name>SCH 054031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Ribavirin capsules administered orally. Dosing in accordance with approved labelling.</description>
+    <arm_group_label>Stage 1 Participants</arm_group_label>
+    <arm_group_label>Stage 2 Participants</arm_group_label>
+    <other_name>SCH 018908</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Treatment-naïve patients with chronic hepatitis C undergoing treatment with Pegetron
+        Redipen at approximately 100 centers in Canada.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Treatment-naïve patients with chronic hepatitis C
+
+          -  Adults (&gt;18 years of age)
+
+          -  Prescribed Pegetron Redipen
+
+          -  Must meet all requirements for treatment with Pegetron Redipen
+
+          -  Must be able to obtain reimbursement of medication through private or provincial
+             coverage
+
+        Exclusion Criteria:
+
+          -  Active hepatitis B virus (HBV) infection (hepatitis B surface antigen [HBsAg]
+             positive)
+
+          -  HIV antibody positive
+
+          -  Post liver transplant patients
+
+          -  Any other exclusion criteria as per the product Monograph
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Canada</country>
+  </removed_countries>
+  <verification_date>July 2015</verification_date>
+  <lastchanged_date>July 20, 2015</lastchanged_date>
+  <firstreceived_date>July 25, 2008</firstreceived_date>
+  <firstreceived_results_date>July 29, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

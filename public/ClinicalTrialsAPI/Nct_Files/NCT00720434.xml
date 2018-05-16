@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="309">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00720434</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A8121007</org_study_id>
+    <nct_id>NCT00720434</nct_id>
+  </id_info>
+  <brief_title>A Dose Ranging Study Of PF-00868554 In Combination With PEGASYS And COPEGUS In Patients With Chronic Hepatitis C Genotype 1 Infection</brief_title>
+  <official_title>A Phase 2, Randomized, Placebo Controlled, Dose Ranging Study To Evaluate Peginterferon Alfa 2a (Pegasys®) And Ribavirin (Copegus®) With And Without PF-00868554 In Subjects Chronically Infected With Hepatitis C Virus</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Pfizer</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Pfizer</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to further assess the potency of PF-00868554, an HCV polymerase
+      inhibitor, in subjects chronically infected with HCV by evaluating the antiviral activity of
+      PF-00868554 in combination with current standard of care therapy, pegylated
+      interferon-alpha2a (PEGASYS) and ribavirin (COPEGUS).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2008</start_date>
+  <completion_date type="Actual">March 2010</completion_date>
+  <primary_completion_date type="Actual">March 2010</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Change From Baseline in Plasma Log10 Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) at Week 4 - Full Analysis Set</measure>
+    <time_frame>Baseline, Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Plasma HCV RNA levels were measured using the Roche COBAS Taqman assay (limit of detection: 25 international unit per milliliter [IU/mL]). Baseline value calculated as the average of the screening and Day 1 pre-dose measurements.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change From Baseline in Plasma Log10 Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) at Week 4 - Modified Analysis Set</measure>
+    <time_frame>Baseline, Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Plasma HCV RNA levels were measured using the Roche COBAS Taqman assay (limit of detection: 25 IU/mL). Baseline value calculated as the average of the screening and Day 1 pre-dose measurements.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Participants Achieving Undetectable Plasma Hepatitis C Virus (HCV) Ribonucleic Acid (RNA)</measure>
+    <time_frame>Week 4, 12, 48, 60, 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Proportion of participants achieving undetectable plasma HCV RNA at Week 4 (rapid virologic response), at Week 12 (early virologic response), at Week 48 (end of treatment response), at Week 60 (sustained virologic response; 12 weeks after cessation of therapy), at Week 72 (sustained virologic response; 24 weeks after cessation of therapy) were summarized. Undetectable viral load was defined as HCV RNA &lt;25 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Alanine Aminotransferase (ALT) Levels</measure>
+    <time_frame>Week 4, 12, 48, 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Population Pharmacokinetics (PK) of PF-00868554</measure>
+    <time_frame>1, 2 and 6 hours post-dose on Day 1; 0 hour (pre-dose) on Day 7, 14, 21; 0 hour (pre-dose), 2, 6 hours post-dose on Day 28</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data for this Outcome Measure are not reported here because the analysis population includes participants who were not enrolled in this study. ClinicalTrials.gov is designed for reporting results from only those participants who were enrolled in the study and described in the Participant Flow and Baseline Characteristics modules.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">35</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>500 mg BID</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>300 mg BID</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>C</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>200 mg BID</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>D</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Placebo</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PF-00868554</intervention_name>
+    <description>500 mg BID administered as 5x100 mg tablets for 4 weeks in combination with standard of care; standard of care continued for an additional 44 weeks.</description>
+    <arm_group_label>A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PF-00868554</intervention_name>
+    <description>300 mg BID administered as 3x100 mg tablets for 4 weeks in combination with standard of care; standard of care continued for an additional 44 weeks</description>
+    <arm_group_label>B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PF-00868554</intervention_name>
+    <description>200 mg BID administered as 2x100 mg tablets for 4 weeks in combination with standard of care; standard of care continued for an additional 44 weeks</description>
+    <arm_group_label>C</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Placebo administered for 4 weeks in combination with standard of care; standard of care continued for an additional 44 weeks</description>
+    <arm_group_label>D</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Treatment naive (no prior treatment with IFN-a +/- RBV regimens.
+
+          -  Subjects who have discontinued IFN-a containing regimens after &lt;2 weeks of therapy
+             due to tolerability issues are considered treatment naive.
+
+          -  HCV RNA &gt; 100,000 IU/mL at screening.
+
+          -  Genotype 1.
+
+          -  A diagnosis of chronic HCV infection for at least 6 months.
+
+        Exclusion Criteria:
+
+          -  Evidence of acute or chronic infection with HIV or HBV.
+
+          -  Exposure within the previous three months to an investigational anti-HCV agent.
+
+          -  Evidence of severe or decompensated liver disease.
+
+          -  Subjects with liver disease unrelated to HCV infection.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pfizer CT.gov Call Center</last_name>
+    <role>Study Director</role>
+    <affiliation>Pfizer</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Tulsa</city>
+        <state>Oklahoma</state>
+        <zip>74135</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Santurce</city>
+        <zip>00909</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://trialinfoemail.pfizer.com/pages/landing.aspx?StudyID=A8121007&amp;StudyName=A%20Dose%20Ranging%20Study%20Of%20PF-00868554%20In%20Combination%20With%20PEGASYS%20And%20COPEGUS%20In%20Patients%20With%20Chronic%20Hepatitis%20C%20Genotype%201%20Infection</url>
+    <description>To obtain contact information for a study center near you, click here.</description>
+  </link>
+  <verification_date>June 2013</verification_date>
+  <lastchanged_date>June 18, 2013</lastchanged_date>
+  <firstreceived_date>July 18, 2008</firstreceived_date>
+  <firstreceived_results_date>June 18, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

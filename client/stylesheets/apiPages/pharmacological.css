@@ -1,0 +1,41 @@
+#PharmacologicalFrame{
+	overflow-y:hidden !important;
+	overflow-x:hidden !important;
+	border: none;
+    min-height: 486px;
+	width: 100%;
+}
+#iframeWrapper{
+    /*width: 76.2%;*/
+		width: 100%;
+}
+.api-credits{
+	width: 100%;
+    margin: 0 auto;
+    background: #E9E7E3;
+    padding: 10px;
+    text-align: right;
+}
+.pharmacological-api-credits{
+	background: #E9E7E3;
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+}
+.pharmaceutial .selectize-control {
+    width: 35% !important;
+    float: right;
+    margin-top: -22px;
+    background: white;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    position: absolute;
+    left: 260px;
+    bottom: -2px;
+    border: 1px solid #ef4823 !important;
+}
+.pharmaceutial .cpinDDL .selectize-dropdown{
+    width: 177.781px !important;
+    top: 24px;
+    left: -3px !important;
+}

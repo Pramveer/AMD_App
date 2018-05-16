@@ -1,0 +1,392 @@
+<template name="QualityIndicator">
+  <div class="breadcrumb-fulldiv">
+        <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="Efficacy">Analytics</a>
+
+        <span class="breadcrumb-item active">Quality Indicators</span>
+        </nav>
+        </div>
+    {{ >AnalyticsPatientDetails}} {{> AnalyticsSubtabs data="qualityindicator"}} {{#if isLoading}}
+    <div class="content-wrapper">
+        {{> NewLoading}}
+    </div>
+    {{else}} {{#if noDataFound}}
+
+    <div class="providerNoDataFound">No drugs found for the given medical situation. Please refine clinical criteria.</div>
+    {{else}}
+    <!--Nisha 02/24/2017
+        Removed font-size: 20px ! important;  from 
+        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;font-size: 20px ! important;display:inline;"> </h3>       
+    -->
+    <div class="ps-section">
+        <div class="ml-subTabsTitle"> Quality Indicators
+            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                <div class="analytics-tooltip mlInfoTip_tooltip">
+                    <div class="analytics-tooltipHead">
+                        Quality Indicators
+                    </div>
+                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                <span class='boldfnt'>Definition</span> - This section represents the quality indicators listed in the <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target="_blank">'2016 AGA Measures - HCV'</a> document.
+                    </div>
+                </div>
+            </span>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="col-lg-6" style="text-align:center;padding-left:20px;padding-top:5px;">
+                    <div class="panel boxshadow_borderline" style="width:98%;max-height:1300px !important;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title containertitle " style="padding-top:45px;display:inline;">Sustained Virological Response (SVR12) - % Cured </h3>
+                            <i class="fa fa-line-chart togglechart" data='svr23Cured' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                <div class="analytics-tooltip mlInfoTip_tooltip">
+                                    <div class="analytics-tooltipHead">	Sustained Virological Response (SVR12) - % Cured</div>
+                                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                         <span class="boldfnt">N : </span> <span id='SVR12-Cured-N'></span>
+											<br><br/><br/>
+                                        <span class="boldfnt">Definition</span> - This chart represents the success rate of patients successfully
+                                        treated over the years. From this we can see if the quality is increased or not over the years.<br><br> <b>Calculation</b>
+                                        : Patient Treated in particular year *100/Total patients in that year. <br><br>
+                                        <span style='color:red;padding-right:5px;'>*</span>
+                                        <span style='display:inline-block; margin-top: 10px;'>Sourced from
+                                        <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target='_blank'>2016 AGA Measures - HCV</a></span>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <div id="yearlyQualityIndicator" style="width:550px;height:400px;"> </div>
+                        </div>
+                    </div>
+                    <div class="qualityindicator" style="display:none;">
+                        <li class="active"></li>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" style="text-align:center;padding-left:20px;padding-top:5px;">
+                    <div class="panel boxshadow_borderline" style="width:98%;max-height:1300px !important;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title containertitle " style="padding-top:45px;display:inline;">RNA Testing Before Initiating Treatment</h3>
+                            <i class="fa fa-line-chart togglechart" data='rnatestingtreatment' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                <div class="analytics-tooltip mlInfoTip_tooltip">
+                                    <div class="analytics-tooltipHead">RNA Testing Before Initiating Treatment</div>
+                                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                        <span class="boldfnt">N : </span> <span id='ViralLoadBeforePatientTreatment-N'></span>
+											<br><br/><br/>
+                                        <span class="boldfnt">Definition</span> -  This chart represents the number of patients who had viral load test before starting
+                                        the treatment. <br><br>
+                                        <span style='color:red;padding-right:5px;'>*</span>
+                                        <span style='display:inline-block; margin-top: 10px;'>Sourced from
+                                        <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target='_blank'>2016 AGA Measures - HCV</a></span>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <div id="ViralLoadBeforePatientTreatment" style="width:550px;height:400px;"> </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>  <!-- end col 12 -->
+
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Patients Treated After 1st Treatment Failure</h3>
+                        <i class="fa fa-line-chart togglechart" data='1treatmenttfailure' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Patients Treated After 1st Treatment Failure</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N : </span> <span id='retreatedPatientQualityIndicator-N'></span>
+											 <br/><br/>
+                                    <span class="boldfnt">Definition</span> - . This chart represents the number of patients opted for
+                                    another treatment if they are not cured after the 1st treatment.<br><br>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='display:inline-block; margin-top: 10px;'>Sourced from
+                                        <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target='_blank'>2016 AGA Measures - HCV</a></span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="optionSelectionQuality" class="">
+                            <input type="radio" name="optionSelectionQuality" class="radioduration" value="genotype" checked="checked"> Genotype
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQuality" class="radioduration" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQuality" class="radioduration" value="race"> Race&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQuality" class="radioduration" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQuality" class="radioduration" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div id="retreatedPatientQualityIndicator" style="width:1190px;height:400px;"> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">RNA Testing Between 4-12 Weeks After Initiation of Treatment</h3>
+                        <i class="fa fa-line-chart togglechart" data='inittreatmentt12' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">RNA Testing Between 4-12 Weeks After Initiation of Treatment</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> - <span id="svr12PatientQualityIndicator-N">0</span> <br/><br/>
+                                    <span class="boldfnt">Definition</span> - This chart represents the number of patients who had viral load test between 4-12 weeks after initiating the treatment.<br><br>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='display:inline-block; margin-top: 10px;'>Sourced from
+                                        <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target='_blank'>2016 AGA Measures - HCV</a></span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="optionSelectionQualitysvr12" class="">
+                            <input type="radio" name="optionSelectionQualitysvr12" class="radioduration" value="genotype" checked="checked"> Genotype
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQualitysvr12" class="radioduration" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQualitysvr12" class="radioduration" value="race"> Race&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQualitysvr12" class="radioduration" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="optionSelectionQualitysvr12" class="radioduration" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div id="svr12PatientQualityIndicator" style="width:1190px;height:400px;"> </div>
+                    </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+            <!-- drug comparision -->
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Responders and Non Responders</h3>
+                        <i class="fa fa-line-chart togglechart" data='respondersandnon' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Responders and Non Responders</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> - <span id="ComparisnPatientQualityIndicator-N">0</span> <br/><br/>
+                                    <span class="boldfnt">Definition</span> -This chart represents the responders and non-responder for different categories.<br/>
+                                        1) Responders are divided into following two categories:<br/>
+                                        <b>Relapsed</b> : During the Treatment Viral Load Decreased and it increased again after the Treatment ends<br/>
+                                        <b>Reinfected</b>: Viral load was undetected at 12 weeks and was again detectable after that.<br/>
+                                        2) Non Responders are further divided into two categories:<br/>
+                                        <b>Null responder</b>: HCV RNA levels declined to less than 2 log10 IU/ml by week 12 <br/>
+                                        <b>Partial responder</b>: HCV RNA levels > 2 log10 IU/ml response whose virus remained detectable by week 24.<br><br>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='display:inline-block; margin-top: 10px;'>Sourced from
+                                        <a href='http://www.gastro.org/practice-management/measures/2016_AGA_Measures_-_HCV.pdf' target='_blank'>2016 AGA Measures - HCV</a></span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="optionSelectionQualityComparisn" style="display:none">
+                                <input type="radio" name="optionSelectionQualitysvr12C" class="radioduration" value="genotype" checked="checked"> Genotype
+                                &nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="optionSelectionQualitysvr12C" class="radioduration" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="optionSelectionQualitysvr12C" class="radioduration" value="race"> Race&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="optionSelectionQualitysvr12C" class="radioduration" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="optionSelectionQualitysvr12C" class="radioduration" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+                        </div>
+                    <div class="backBtnResponders">Back</div>
+                        <div id="ComparisnPatientQualityIndicator" style="width:1190px;height:400px;"> </div>
+                    </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="col-lg-6">
+                    <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                        <div class="panel-heading" style="text-align:center;">
+                            <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Hepatitis B Patient</h3>
+                            <i class="fa fa-line-chart togglechart" data='hepBPatient' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                <div class="analytics-tooltip mlInfoTip_tooltip">
+                                    <div class="analytics-tooltipHead">Hepatitis B Vaccination</div>
+                                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                        <span class="boldfnt">N</span> : <span id="hepBPatientQualityIndicator-N">0</span> <br/><br/>
+                                        <b>Definition</b>-This chart represents the percentage of patients with a diagnosis of hepatitis C who received at least one
+                                        injection of hepatitis B vaccine, or who have documented immunity to hepatitis B.
+                                        Although no specific recommendation has been advanced for vaccination against
+                                        hepatitis B, the evidence that persons co-infected with hepatitis B and C have a worse
+                                        prognosis than those with HCV infection alone suggests that hepatitis B vaccination
+                                        should be offered to persons who are at risk for exposure to hepatitis B if they lack
+                                        preexisting antibody to hepatitis B. (AASLD, 2009).
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="panel-body" style="text-align:center;">
+                            <div id="hepBPatientQualityIndicator"> </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-6">
+                    <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Hepatitis A & C Patient</h3>
+                        <i class="fa fa-line-chart togglechart" data='hepandc' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Hepatitis A & C Patient</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> : <span id="hepACPatientQualityIndicator-N">0</span> <br/><br/>
+                                    <b>Definition</b>:This chart represents the percentage of patients with a diagnosis of
+                                    chronic hepatitis C who have received at least one injection of hepatitis A vaccine, or who
+                                    have documented immunity to hepatitis A.The hepatitis A vaccination decreases the potential
+                                    for a patient acquiring hepatitis A which would contribute to further liver damage.
+                                    <br/>
+                                    <b>Tobacco Use-Screening and Cessation Intervention</b> :
+                                    This chart represents the percentage of patients who were screened for tobacco use one or
+                                    more times within 24 months AND who received cessation counseling intervention if identified
+                                    as a tobacco user.This measure is intended to promote adult tobacco screening and tobacco
+                                    cessation interventions for those who use tobacco products.
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="hepACPatientQualityIndicator"> </div>
+                    </div>
+                </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+
+            <div class="col-lg-12 hepPatientQualityIndicatorOverFlowDisplay" style="padding-left:35px;padding-top:5px;width:98%;display:none">
+                <div class="panel boxshadow_borderline" style="max-height:1300px !important;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Distribution of Hepatitis Patients</h3>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Distribution of Hepatitis Patients</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> - <span id="hepBPatientQualityIndicatorOverFlow-N">0</span> <br/><br/>
+                                    <b>Definition</b>:This chart represents the distribution of hepatitis patients based on selection done on above pie chart.
+                                    <br/>
+
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="optionSelectionQualityOverFlow">
+                        <input type="radio" name="hepBPatientQualityIndicatorOverFlow" class="radioduration" value="genotype" checked="checked"> Genotype
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="hepBPatientQualityIndicatorOverFlow" class="radioduration" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="hepBPatientQualityIndicatorOverFlow" class="radioduration" value="race"> Race&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="hepBPatientQualityIndicatorOverFlow" class="radioduration" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="hepBPatientQualityIndicatorOverFlow" class="radioduration" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="backButtonCss backBtnOverFlow">Back</div>
+                        <div id="hepBPatientQualityIndicatorOverFlow" style="width:1190px;height:400px;"> </div>
+                    </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+            <!--Added By Yurvaj 25th April 2017 :  New Chart from URAC sheet.-->
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="col-lg-6">
+                    <div class="panel boxshadow_borderline" style="">
+                        <div class="panel-heading" style="text-align:center;">
+                            <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Non FDA Compliant Medications</h3>
+                            <i class="fa fa-line-chart togglechart" data='fdanoncompalint' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                <div class="analytics-tooltip mlInfoTip_tooltip">
+                                    <div class="analytics-tooltipHead">Non FDA Compliant Medications</div>
+                                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                        <span class="boldfnt">N</span> - <span id="qi-nonFdaCombosDistribution_N">0</span> <br/><br/>
+                                        <span><b>Definition</b> - This chart represents patients who were prescribed medication which is not compliant with the clinical protocols.</span>
+                                        <div>
+                                            <span style="color:red; padding-right:5px;">*</span>
+                                            <span style="display:inline-block; margin-top: 10px;">Sourced from
+                                                <a href="https://www.urac.org/about-urac/about-urac/" target="_blank">www.urac.org</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="panel-body" style="text-align:center;">
+                            <div id="qi-nonFdaCombosDistribution">A bar chart will be shown here.</div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-6">
+                    <div class="panel boxshadow_borderline" style="">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Drugs with Inappropriate Regiments Prescription</h3>
+                        <i class="fa fa-line-chart togglechart" data='improperregimen' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Drugs with Inappropriate Regiments Prescription</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> : <span id="inappropriateRegimentsDistribution-N">0</span> <br/><br/>
+                                    <b>Definition</b> : This chart represents the drug prescribed to number of patients that does not fulfill the FDA standards.
+                                    <br/>
+                                    <span class='boldfnt'>Improper Medication</span>  : This is the drug which was prescribed with dosage that is not compliant with standard dosage among all the drugs in the treatment.<br/>
+                                    <span class='boldfnt'>Dosage Quantity</span> : This is the number of times patient was prescribed the same medication with non FDA compliant dosage.
+
+                                    <div>
+                                        <span style="color:red; padding-right:5px;">*</span>
+                                        <span style="display:inline-block; margin-top: 10px;">Sourced from
+                                            <a href="https://www.urac.org/about-urac/about-urac/" target="_blank">www.urac.org</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="inappropriateRegimentsDistribution"></div>
+                    </div>
+                </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+            <!--Added By Yurvaj 25th April 2017 :  New Chart from URAC sheet.-->
+            <div class="col-lg-12" style="padding-left:35px;padding-top:5px;width:98%;">
+                <div class="panel boxshadow_borderline" style="">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title containertitle " style="text-align:center;padding-top:45px;display:inline;">Patients with Non FDA Compliant Therapy Duration</h3>
+                         <i class="fa fa-line-chart togglechart" data='nonfdatherapyduration' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Patients with Non FDA Compliant Therapy Duration</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">N</span> - <span id="qi-therapyNonFdaGenotypes_N">0</span> <br/><br/>
+
+                                    <span><b>Definition</b> - This chart represents patient count for each genoype who were not prescribed as per FDA compliant therapy period.</span>
+                                    <div>
+                                        <span style="color:red; padding-right:5px;">*</span>
+                                        <span style="display:inline-block; margin-top: 10px;">Sourced from
+                                            <a href="https://www.urac.org/about-urac/about-urac/" target="_blank">www.urac.org</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="panel-body" style="text-align:center;">
+                        <div id="qi-therapyNonFdaGenotypes"></div>
+                    </div>
+                </div>
+            </div>  <!-- end col 12 -->
+
+        </div>
+    </div>
+
+    {{/if}}
+    <!--  End Of No Data Found If Block  -->
+    {{/if}}
+    <!--  End Of Main If Block  -->
+    {{>MainFooter}}
+
+</template>

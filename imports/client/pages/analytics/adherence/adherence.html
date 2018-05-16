@@ -1,0 +1,200 @@
+<template name="Adherence">
+    <div class="breadcrumb-fulldiv">
+        <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="Efficacy">Analytics</a>
+
+        <span class="breadcrumb-item active">Adherence</span>
+        </nav>
+        </div>
+    {{ >AnalyticsPatientDetails}}
+    {{> AnalyticsSubtabs data="adherence"}}
+
+ <!-- Header for Adherence sub tabs -->
+    <!--<div class="macLearningsubTabs">
+        <ul class="au-header adherenceSubtabs-links">
+            <li class="active">
+                    <a href="#" data="withFDACompliant">FDA Compliant
+
+                    </a>
+            </li>
+            <li>
+                <a href="#" data="withoutFDACompliant">Non FDA Compliant
+                </a>
+
+            </li>
+            <li>
+                <a href="#" data="allMedsData">ALL Medications
+                </a>
+
+            </li>
+        </ul>
+    </div>
+
+    <span class="analyticsSubtabInfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'>
+                  <span>Medications Info</span>
+                </div>
+                <div class='cust-popup-content'>
+                <b>FDA Compliants</b><br>
+                <b>Note: </b> These are the medications which are following to FDA Compliants
+                <hr>
+                <b>Non FDA Compliants</b><br>
+                <b>Note: </b> Here you will see all other Medications which are not following FDA Compliants
+                <hr>
+                <b>All Medications</b><br>
+                <b>Note: </b>Here you can see all medications for the selected subpopulation
+                <br>
+               </div>
+
+            </div>"><img src="/info-icon.png">
+        </div>
+    </span>-->
+
+      <div class="btngroup">
+    <!--Jayesh 03/06/2017 Updated FDA Labels-->
+ <div class="macLearningsubTabs" style="position: relative;display: inline-block;">
+		<ul class="rweb-list adherence">
+			<li class="active">
+				<a href="#" data="withFDACompliant">FDA Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="withoutFDACompliant">FDA Not Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="allMedsData">All Therapy</a>
+			</li>
+		</ul>
+
+	</div>
+
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'>
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>
+		<b>FDA Approved Therapy</b><br>
+		<b>Note: </b> These are the medications which are following to FDA Compliants
+		<hr>
+		<b>FDA Not Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has not been approved by FDA.
+		<hr>
+		<b>All Medications</b><br>
+		<b>Note: </b>These are all therapies for the selected subpopulation.
+		<br>
+	</div>
+
+	</div>"><img src="/info-icon.png">
+	</div>
+	</span>
+</div>
+
+
+
+    {{#if isLoading}}
+      <div class="content-wrapper">
+        {{> NewLoading}}
+      </div>
+    {{else}}
+
+        {{#if noDataFound}}
+
+            <div class="providerNoDataFound">No drugs found for the given medical situation. Please refine clinical criteria.</div>
+        {{else}}
+
+
+            <div class="ps-section">
+                <div class="efficacy-div">
+                    <!-- <div class="efd-maintitle">Adherence Rate - Medication Possession Ratio</div> -->
+                    <div class="ml-subTabsTitle">
+                        {{>CompareToggleButton chartName='adherence'}}
+                        Adherence Rate - Medication Possession Ratio
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">
+                                    Adherence Rate - Medication Possession Ratio
+                                </div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                        <span>
+                                          <span class='boldfnt'>N :</span> {{uniquepatients}} ({{percentage}}) Over {{totalpatients}} Patients with Medication.
+                                           <br/><br/>
+                                             This chart represents weighted average of adherence for all the therapies of a particular drug.
+                                             It is by default sorted by number of patients who took that medication. <br /><br />
+                                            <span class='boldfnt'>Adherence</span> <br /> MPR is used to determine compliance and measured from the first to the last prescription.  The denominator is the duration from the start period to the completion of the last prescription, and the numerator is the number of days supplied over that period from first to last prescription.Here, Medication dispense is used for days prescription. <br /><br/>
+                                                                <span class='boldfnt'>Adherence (MPR) for Patient x = </span><br/>
+                                                                <span class='formulaSection'><span style='border-bottom: 1px dotted;'> (days_medication/7) </span> <span style='padding-top: 10px;position: absolute;padding-left:1%'>* 100 </span><br/>
+                                                                <span>treatment_Period</span></span></span>
+                                         <br/>
+                                        <br/>
+                                        <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from<a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <!-- {{#with getPateintInfo}} -->
+                    <!-- <div class="efd-table-data">
+                        <div class="efd-row">
+                            <div class="efd-cell1">Genotype</div>
+                            <div class="efd-cell2 ecf-Genotype">{{PopulationData_Genotype}}</div>
+                        </div>
+                        <div class="efd-row">
+                            <div class="efd-cell1">Treatment</div>
+                            <div class="efd-cell2 ecf-Treatment">{{PopulationData_Treatment}}</div>
+                        </div>
+                        <div class="efd-row">
+                            <div class="efd-cell1">Cirrhosis</div>
+                            <div class="efd-cell2 ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                        </div>
+                        <div class="efd-row">
+                            <div class="efd-cell1 efd-totalPatiensIcon"></div>
+                            <div class="efd-cell2 efd-totalPatients"></div>
+                        </div>
+
+                    </div> -->
+<!--
+                        <div class="efd-table-data costBurdenSection">
+
+                            <div class="col-md-2">
+                                <div class="efd-cell1">Genotype: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                <div class="efd-cell1">Treatment: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1">Cirrhosis: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                                <div class="efd-cell2_subpopulaiton efd-totalPatients"></div>
+                            </div>
+                            <div class="col-md-2">
+                                    <div class="efd-cell1 efd-showPatiens" style="width:40px;"></div>
+                                    <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="js-showPateintsListAdh">Show Patients</a></div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="efd-cell1 efd-exportPatiens" style="width:25px;"></div>
+                                    <div class="efd-cell2_subpopulaiton ecf-exportPatient adherenceexportPatient"><a href="#">Export Patients</a></div>
+                                </div>
+                        </div>
+                    {{/with}} -->
+                    <div>
+                      <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="globalshowPatientadherence js-showPateintsListAdh"></a></div>
+                      <div class="efd-cell2_subpopulaiton ecf-exportPatient globalexportPatientadherence"><a href="#"></a></div>
+                    </div>
+                    <div class="Adherence-Chart-Container" id="adherence-container">
+                    </div>
+                </div>
+            </div>
+
+        {{/if}}  <!--  End Of No Data Found If Block  -->
+    {{/if}} <!--  End Of Main If Block  -->
+    {{>MainFooter}}
+</template>

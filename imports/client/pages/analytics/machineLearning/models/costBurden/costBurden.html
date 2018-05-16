@@ -1,0 +1,541 @@
+<template name="CostBurden">
+    <div class="breadcrumb-fulldiv">
+    <nav class="breadcrumb">
+    <a class="breadcrumb-item" href="../Efficacy">Analytics</a>
+
+    <span class="breadcrumb-item active">Cost Burden</span>
+    </nav>
+        </div>
+    {{> AnalyticsSubtabs data="CostBurden"}}
+    <!--{{> MachineLearningSubtabs data="CostBurden"}}-->
+
+    {{#if isLoading}}
+        <div class="content-wrapper">
+            {{> NewLoading}}
+         </div>
+    {{else}}
+
+    <div class="utilization-div">
+        <div class="ml-subTabsTitle">
+              <i class="fa fa-line-chart togglechart" data='costBurden-analytics' aria-hidden="true" title="compare"  style="cursor:pointer;margin-right:10px;color: black;
+    font-size: 15px;"></i>
+    Cost Burden
+            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                <div class="analytics-tooltip mlInfoTip_tooltip">
+                    <div class="analytics-tooltipHead">
+                        Cost Burden
+                    </div>
+                     <div class="analytics-tooltipBody" style="font-size: 13px;">
+                         <span class='boldfnt'>N: </span>
+                         <span class='costBurden-overAllTotalPatients'></span> Patients
+                         <br/><br/>
+                            <span class='boldfnt'>Definition</span> - We are examining the cost associated in
+            the following areas: Physicians Services, Hospitalizations, Diagnostic Testing, Liver Diseases and Antiviral
+            Therapy.
+            <br/> For each category we're showing the per patient cost which describes the cost burden on the patient for
+            the categories.
+            <br/>
+            <br/>
+            <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from                        <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+        </div>
+    </div>
+    </span>
+    </div>
+    <div class="machineLearnTabsFilterBand">
+        <!--<div class="ful_nav_search"  style="display: none;">
+            <div class="boxContainer survialrate-dateFiltersSection">
+                Duration: &nbsp;&nbsp;&nbsp;
+                <select id="selectfromdate">
+                    {{#each getMacLearnYearsComboValues}}
+                        <option value="{{this}}" selected="{{getMacLearnFromDateValue this}}">{{this}}</option>
+                    {{/each}}
+                </select>&nbsp;&nbsp;&nbsp;
+                                <select id="selecttodate">
+                    {{#each getMacLearnYearsComboValues}}
+                        <option value="{{this}}" selected="{{getMacLearnToDateValue this}}">{{this}}</option>
+                    {{/each}}
+                </select> &nbsp;&nbsp;&nbsp;
+                <input type="button" class="analytics-applyDateFilters js-analytics-applyDateFilters" value="GO" />
+            </div>
+        </div>-->
+        <div class="js-analytics-applyDateFilters"></div>
+        <div class="boxContainerDashboard dashBoard-breadCrumSections costBurden-Crums" style="width: 100%;"></div>
+    <div class="ful_nav_links">
+            <div>
+              <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="globalshowPatientcostburden js-showCostPList"></a></div>
+              <div class="efd-cell2_subpopulaiton ecf-exportPatient costburdenexportPatient globalexportPatientcostburden"><a href="#"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <!-- <div class="boxContainerDashboard dashBoard-breadCrumSections costBurden-Crums"></div> -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 mlSubTabsChartSectionMask">
+            <div class="chart_loader payer_loader">Loading...</div>
+        </div>
+
+        <!--
+         * @author: Pramveer
+         * @date: 22th Feb 17
+         * @desc: Changed the tooltip info icon layout & updated info for Physician Service, Hospitalization.
+        -->
+
+        <div class="col-md-12 mlSubTabsChartSectionWrap" style="display:none;">
+            <!--<div id="costBurdenChart" class="mlSubTabsChartSection"></div>
+                <div class="mlCustomc3-xLabel">Race</div>-->
+<div class="col-md-12 boxContainerDashboard">
+            <div class="col-md-6 boxContainerDashboard">
+                <div class="ml-subTabsTitle" style="font-size:15px;">Average Cost -All Categories
+                     <!--@author: pramveer
+                     @date: 23rd feb 2017
+                     @desc: added tooltip-->
+                     <span class="macLearningsubTabs-infoIcon mlInfoTip" style="top:5px;">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <div class="analytics-tooltipHead"> Average Cost -All Categories </div>
+                            <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                
+                                <span class="boldfnt">Antiviral Therapy N : </span> 
+                                <span class='costBurden-AntiviralN'></span> 
+                                (<span class='costBurden-AntiviralN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br />
+                                <span class="boldfnt">Liver Disease N : </span> 
+                                <span class='costBurden-liverDiseaseN'> </span> 
+                                (<span class='costBurden-liverDiseaseN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br />
+                                <span class="boldfnt">Hospitalization N : </span> 
+                                <span class='costBurden-HopitalizedN'></span> 
+                                (<span class='costBurden-HopitalizedN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br />
+                                <span class="boldfnt">Physician Service N : </span> 
+                                <span class='costBurden-physcianServiceN'></span> 
+                                (<span class='costBurden-physcianServiceN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                
+                                <br/><br/>
+
+                                <span class='boldfnt'>Definition</span> - This chart shows the average cost all the cost burden categories Physician service,
+                                Antiviral Therapy , Liver Disease and Hospitalization.
+                                <br/> <br/>
+                                <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from  <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="costBurden-allCatsChart" class="mlSubTabsChartSection"></div>
+                 <!--style="max-height:263px!important;height:300px;width:600px;"-->
+            </div>
+
+            <div class="col-md-6 boxContainerDashboard">
+                <div class="ml-subTabsTitle" style="font-size:15px;">Physician Service
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip" style="top:5px;">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <div class="analytics-tooltipHead"> Average Physician Service Cost </div>
+                            <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                <span class="boldfnt">N : </span> 
+                                <span class='costBurden-physcianServiceN'></span> 
+                                (<span class='costBurden-physcianServiceN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br/><br/>
+                                <span class='boldfnt'>Definition</span> - This chart shows the average cost for the physician services taken by the patients
+                                like Physician Phone Consultion , Physician Blood Bank Service, Physician Standby Serv Each 30 min etc.
+                                <br/>
+                                <span class='boldfnt'>Calculation</span> - Extracted cost for each physician service from the claims table with respective CPT codes of the Services, Then mapped the patients
+                                and added the cost for each service the patient took.
+                                <br/> <br/>
+                                <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from  <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="costBurden-physicianService" class="mlSubTabsChartSection"></div>
+            </div>
+
+            <div class="col-md-6 boxContainerDashboard">
+                <div class="ml-subTabsTitle" style="font-size:15px;">Hospitalization
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip" style="top:5px;">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <div class="analytics-tooltipHead"> Average Hospitalization Cost </div>
+                            <div class="analytics-tooltipBody" style="font-size: 13px;word-break: break-all;">
+                                 <span class="boldfnt">N : </span> 
+                                <span class='costBurden-HopitalizedN'></span> 
+                                (<span class='costBurden-HopitalizedN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br /><br/>
+                                <span class='boldfnt'>Definition</span> - This chart show the average cost for all the hospilatization services like
+                                ICU/Surgical, ICU/Intermediate, Coronory care or CCU, CCU/Intermediate etc.
+                                <br/>
+                                <span class='boldfnt'>Calculation</span> - Extracted cost for each Procedure code, ICD9/ICD10 codes where the patients are marked as
+                                hospilatised. Then mapped these cost with the patients who are hospilatised for any diagnosis.
+                                <br/> <br/>
+                                <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from  <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="costBurden-hospitalization" class="mlSubTabsChartSection"></div>
+            </div>
+
+            <!--<div class="col-md-6 boxContainerDashboard">
+                <div class="mlCustomc3-xLabel" style="margin:0px;">Diagnosis Testing
+                    <div class="costBurden-infoTip" title="Average Diagnosis Testing Cost"></div>
+                </div>-->
+                <!-- Commented as we don't have diagnosis cost data-->
+                <!--<div id="costBurden-diagTesting" class="mlSubTabsChartSection"></div>-->
+           <!--   </div>-->
+
+           <!-- 
+            * @author: Pramveer
+            * @date: 27th Feb 17
+            * @desc: Updated definition for the liver disease costs.
+           -->
+              <div class="col-md-6 boxContainerDashboard">
+                    <div class="ml-subTabsTitle" style="font-size:15px;">Treatment of Liver Disease
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip" style="top:5px;">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead"> Average Liver Disease Cost </div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                     <span class="boldfnt">N : </span> 
+                                    <span class='costBurden-liverDiseaseN'> </span> 
+                                    (<span class='costBurden-liverDiseaseN-PerN'></span>) 
+                                    Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                    <br /> <br/>
+                                    <span class="boldfnt">Definition</span> -This chart represents the average costs for all patients after liver transplant.
+                                    To find that cost we have added all the costs from ICD and CPT codes as well as hospitalization cost, physician service cost,medication cost and
+                                    liver disease cost.<br>
+                                    We have taken the date of 1st encounter  for liver transplant to differentiate before and after cost.
+                                    <br/>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div id="costBurden-liverDisease" class="mlSubTabsChartSection"></div>
+                </div>
+
+            <div class="col-md-12 boxContainerDashboard">
+                <div class="ml-subTabsTitle" style="font-size:15px;">Antiviral Therapy
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip" style="top:5px;">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <div class="analytics-tooltipHead"> Average Antiviral Therapy Cost </div>
+                            <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                 <span class="boldfnt">N : </span> 
+                                <span class='costBurden-AntiviralN'></span> 
+                                (<span class='costBurden-AntiviralN-PerN'></span>) 
+                                Over <span class='costBurden-overAllTotalPatients'></span> Patients
+                                <br /><br/>
+                                <span class='boldfnt'>Definition</span> - This chart shows the average costs for the each therapy the patients has undergone.
+                                <br/> <br/>
+                                <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from  <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="costBurden-antiTherapy" class="mlSubTabsChartSection"></div>
+            </div>
+</div>
+        <!--Nisha 02/24/2017 Modified the titles to match pharma-->
+        <div class="col-md-12 boxContainerDashboard">
+            <div style="width:98%;text-align: center;">
+                <div class="panel-heading" >
+                     {{>CompareToggleButton chartName='pharmaTreatmentRelapsed'}}
+                    <h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;"> Cost of Relapsed Patients</h3>
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                                    <div class="analytics-tooltip mlInfoTip_tooltip" >
+                                                        <!--<div class="analytics-tooltipHead">
+                                                        Relapsed Patients Distribution
+                                                        </div>-->
+                                                        <div class="analytics-tooltipBody" style="font-size: 13px;">
+                        <span class="boldfnt"> N : </span> 
+                        <span class='costBurden-relaspedN'></span> 
+                        (<span class='costBurden-relaspedN-PerN'></span>)
+                        Over <span class='costBurden-overallrelapedAndRemittedN'></span> Patients
+                        <br/><br/>
+                        <span class='boldfnt'>Definition</span> - This chart shows the count of patients who relapsed with the treatment.
+                                        Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                        then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+
+                    </div>
+
+                </div>
+                </span>
+
+                </div>
+                <div class="panel-body">
+                    <div id="treamentRelapsedPatientSelection" class="">
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="genotype" checked="checked"> Genotype
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="race"> Race &nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="age"> Age&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="fibrosis"> Fibrosis&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="medication"> Medication&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div id="pharmaTreatmentRelapsed" style="width:1130px;height:360px;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- remiited patients chart -->
+		<!--<div class="col-md-12">-->
+        <div class="col-md-12 boxContainerDashboard">
+            <div style="width:100%;min-height:460px;text-align: center;">
+                <div class="panel-heading">
+                    {{>CompareToggleButton chartName='pharmaTreatmentRemmitted'}}
+                    <h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;"> Cost of Remitted Patients </h3>
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                                <div class="analytics-tooltip mlInfoTip_tooltip" >
+                                                    <!--<div class="analytics-tooltipHead">
+                                                    Remission of Patients Distribution
+                                                    </div>-->
+                                                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                    <span class="boldfnt"> N : </span> 
+                    <span class='costBurden-remittedN'></span> 
+                    (<span class='costBurden-remittedN-PerN'></span>) 
+                    Over <span class='costBurden-overallrelapedAndRemittedN'></span> Patients
+                    <br/><br/>
+                    <span class='boldfnt'>Definition</span> - This chart shows the count of patients who got remission during the treatment.
+                                    Remitted patients are the ones who had viral load after starting the treatment and their viral load was undetectable before
+                                    the treatment ends.
+                </div>
+
+            </div>
+            </span>
+
+                </div>
+                <div class="panel-body">
+                    <div id="treamentRemittedPatientSelection" class="">
+                                    <input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="genotype" checked="checked"> Genotype
+                                    &nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="treatment"> Treatment Period&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div id="pharmaTreatmentRemmitted" style="min-width:1130px;min-height:400;"></div>
+                </div>
+            </div>
+        </div>
+        <!--Liver Transplant; Nisha 02/23/2017 Modified for Adding Code and removed popup -->
+        <div class="col-md-12 boxContainerDashboard">
+            <div style="width:100%;min-height:460px;text-align: center;">
+              <div class="panel-heading">
+                <i class="fa fa-line-chart togglechart-livertransplant" data='costBurden-analytics-livertransplant' aria-hidden="true" title="compare" style="cursor: pointer; margin-right: 10px; display: inline;"></i>   
+                <h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Liver Transplant</h3>
+                   <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                      <div class="analytics-tooltip mlInfoTip_tooltip">
+                                          <!--<div class="analytics-tooltipHead">Liver Transplant</div>-->
+                                          <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                                <span class="boldfnt"> N : </span> 
+                                                <span class='costBurden-LivertransPlantN'></span> 
+                                                (<span class='costBurden-LivertransPlantN-PerN'></span>) 
+                                                Over <span class='costBurden-overAllLiverTranplantN'></span> Patients
+                                                <br/><br/>
+                                                <span class="boldfnt">Definition</span> -This chart represents all the costs for patients before liver transplant and after that.
+                                                To find that cost we have added all the costs from ICD and CPT codes as well as hospitalization cost, physician service cost,medication cost and
+                                                liver disease cost.<br>
+                                                We have taken the date of 1st encounter  for liver transplant to differentiate before and after cost.
+
+
+                                          </div>
+                                      </div>
+                      </span>
+              </div>
+                <div class="panel-body">
+                    <!--<div id="livertransplantback_main" class="customChartBackButton backButtonCss">Back</div>-->
+                    <div id="analyticsLiverTransplantByGenotype" style="min-width:1130px;min-height:400;"></div>
+                    <div id="divCostTable" style="display:none;width:1130px;height:400px; overflow: hidden;"></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="mlPatientsDetailWrapper" style="border:none;">
+        <div class="popup analyticsPatientsPopup costBurdenPList" data-popup="analyticsPatientsPopup">
+            <div class="popup-inner">
+                <button type="button" class="close mlTabs_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+                <div class="analyticsPatientsPopup-header"></div>
+                <div class="analyticsPatientsPopup-container"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <!--<div class="col-lg-12 mlSubTabsChartSectionMask">
+            <div class="chart_loader payer_loader">Loading...</div>
+        </div>-->
+        <!-- render charts section -->
+        <div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;">
+            <!-- Compare Button -->
+            <!--<div class="js-comparativeEngine ce_CompareButton " style=""><img src="/compare-icon.png"><span class="tooltiptext">Compare</span>
+            </div>-->
+            <div class="panel boxshadow_borderline" style="width:98%;min-height:500px !important">
+                <div class="panel-body">
+                    <div class="panel-heading genotypeDistSelectHeading">
+                        <h3 class="panel-title containertitle" style="font-size: 20px ! important;">Incremental Cost Effectiveness Ratio (ICER) 
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip custmtopandleft">
+                            <div class="analytics-tooltip mlInfoTip_tooltip analytics-tooltipt">
+                                <div class="analytics-tooltipHead">Incremental Cost Effectiveness Ratio (ICER)</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt"> N : </span> 
+                                    <span class='costBurden-IcerN'></span> 
+                                    (<span class='costBurden-IcerN-PerN'></span>) 
+                                    Over <span class='costBurden-AntiviralN'></span> Patients with Medications
+                                    <br />
+                                    <br/>
+                                    <b> ICER : </b>Incremental Co-Effective Ratio is the additional money needs to be spent in order to gain one
+                                    additional QALY when you switch from one medication to another.
+                                    <div style="padding-left:5px">
+                                        ICER = (Cn - Co)/(QALYn - QALYo)<br/><br/>
+
+                                        Cn        = Average cost for New Medicine<br/>
+                                        Co        = Average cost for the Old Medicine<br/>
+                                        QALYn = Quality Adjusted Life Year for New Medicine<br/>
+                                        QALYo = Quality Adjusted Life Year for Old Medicine
+                                    </div><br/>
+                                    <b>QALY : </b>Quality Adjusted Life Year is the Quality years from the remaining life for the patients.
+                                    <br/><br/>
+
+                                    QALY = Q*(1-e(-0.03*Remaining Years))/0.03
+                                    <br/>	<br/>
+                                    Q = Probability of patient getting Treated
+                                    We have taken this based on the success rate of getting treated for particular medicine.
+                                    <br/><br/>
+                                    Remaining Years = This is calculated as Average Age in US - Patients Age = 20.
+
+                                    <br/><br/>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='margin-top: 10px;'>Sourced from
+                                        <a  style="word-break: break-all;" href="http://heapol.oxfordjournals.org/content/21/5/402.full">http://heapol.oxfordjournals.org/content/21/5/402.full</a>
+                                    </span>
+                                    <br/>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='margin-top: 10px;'>Sourced from
+                                        <a style="word-break: break-all;" href="http://www.healthstrategy.com/formularycea/formularycea.htm">http://www.healthstrategy.com/formularycea/formularycea.htm</a>
+                                    </span>
+                                    <br/>
+                                    <span style='color:red;padding-right:5px;'>*</span>
+                                    <span style='margin-top: 10px;'>Sourced from
+                                        <a  style="word-break: break-all;" href ="http://www.hcvguidelines.org/full-report/overview-cost-reimbursement-and-cost-effectiveness-considerations-hepatitis-c-treatment">http://www.hcvguidelines.org/full-report/overview-cost-reimbursement-and-cost-effectiveness-considerations-hepatitis-c-treatment</a>
+                                    </span>
+                                    <br/>
+                                </div>
+                            </div>
+                        </span>
+                        </h3>
+                    </div>
+
+                    <!-- ICER Filter Header -->
+                    <div class="pharmaCost-ICERHeader">
+                        <!-- Drugs Drop Down -->
+                        <div class="col-lg-3 setpadding AdvPayerDropDownContainer" style="width: 19%;padding: 0px !important;">
+                            <div class="AdvPayerDropDown" id="insurancePlan">
+                                <div class="dropdownLabel" style="text-align:left;" title="Drugs are alphabetically sorted and can be changed for selection">Choose Drug</div>
+                                <div class="drugdropdown drugdropdownt" style="min-height: 28px;">
+                                    <select id="pharma-medicationICER" class="DrugSelect selectized" tabindex="-1" onchange="Template.MedicationCost.icerDrugComboChange(this)">
+                                                <option value="null" selected disabled>Select ...</option>
+                                                <!--{{#each getICERMedication}}
+                                                    <option value="{{this}}">{{this}}</option>
+                                                {{/each}}-->
+                                            </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Compare Drugs Section -->
+                        <div class="newclass pharmaCost-CompareDrugButton" style=" width: 810px; float: left;position: relative;padding-top: 10px;">
+                            <div class="panel-heading viral_load_over_time_title" style="margin-left:0px !important">
+                                <i class="fa fa-bars" aria-hidden="true" style="padding:5px 5px 0 0;"></i>
+                                <h3 class="panel-title containertitle" style="font-size:14px !important;">Compare Drugs</h3>
+                            </div>
+                            <div class="viral_load_over_time_opition" id="viral_load_over_time_opition" style="top: 9px !important; left: 170px; z-index: 9;">
+                                <div id='divMedicineList'>
+                                    <ul style="padding: 12px 15px 10px;">
+                                        {{#each getICERMedication}}
+                                        <div class="col-lg-6">
+                                            <li class="checkbox">
+                                                <label>
+                                                            <input type="checkbox" value="{{this}}" class="medicinelist" checked="true"  />
+                                                            <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                                            {{this}}
+                                                        </label>
+                                            </li>
+                                        </div>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GO Button Wrap-->
+                        <div class="goButtonWrapper goButtonWrapper_new" style="padding-top: 8px;">
+                            <span class="applyUniFilters treatedPharmaICER applyBtn btn btn-success btn-cons" style="padding: 12px 12px 11px;">
+                                            GO
+                                    </span>
+                        </div>
+
+                    </div>
+
+                    <!-- ICER Filter Header END -->
+                    <div class="pharmaCost-ICERNoData">
+                        <div class="providerNoDataFound">No Drug Selected! Please select a Drug.</div>
+                    </div>
+
+                    <div class="pharmaCost-ICERChartSection panel panel-default">
+                        <div class="col-lg-12" style="position:relative;">
+                            <div class="pharmaCost-icerOptimalWrapper">
+                                <div>OPTIMAL POINT</div>
+                                <div class="pharmaCost-icerOptimalIcon"></div>
+                            </div>
+                            <div id="pharmaQALYICERxy"></div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="col-lg-6">
+                                <div id="pharmaICER"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="pharmaQALY"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wrapper for table data  -->
+    <!--<div class="popup pharmaPatientsPopup" data-popup="pharmaPatientsPopup">
+       <div class="col-lg-12 mlSubTabsChartSectionMask loadingwheelMask costChartsLoading" style="display: none">
+            <div class="chart_loader payer_loader">Loading...</div>
+      </div>
+      <div class="costChartWrapper" style="display: none;width:98%;min-height:460px;">
+         <div class="popup-inner" style="height:600px !important;overflow:auto;">
+             <button type="button" class="close pharma_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+             <div class="pharmaPatientsPopup-header"></div>
+             <div class="pharmaPatientsPopup-container"> <div id="divCostTable"></div></div>
+         </div>
+      </div>
+  </div>-->
+<!-- Wrapper End for table data  -->
+    <!--div class="patientsDetailsButtonsWrapper">
+            <div class="pin-buttons js-showCostPList">
+                <span class="buttonIcon"><img src=""></span>
+                <span class="buttonText">Show Patients Details</span>
+            </div>
+            <div class="pin-buttons">
+                <span class="buttonIcon"><img src=""></span>
+                <span class="buttonText">Export Patients</span>
+            </div>
+        </div-->
+    </div>
+    {{/if}}
+    {{>MainFooter}}
+</template>

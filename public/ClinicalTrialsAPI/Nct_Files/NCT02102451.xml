@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="161">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02102451</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VHCRP1208</org_study_id>
+    <nct_id>NCT02102451</nct_id>
+  </id_info>
+  <brief_title>Control and Elimination Within Australia of Hepatitis C From People Living With HIV</brief_title>
+  <acronym>CEASE</acronym>
+  <official_title>A Five Year Plan of Enhanced HCV Monitoring, Primary Care-based Workforce Development, Rapid Scale-up of HCV Treatment and Public Health Policy Action in HIV Positive Individuals in Australia.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kirby Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kirby Institute</source>
+  <oversight_info>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the feasibility of rapid scale-up of new hepatitis
+      C (HCV) treatments, known as interferon-free Direct Acting Antiviral (DAA) drugs, and impact
+      on the proportion of people with HCV within the HIV-HCV coinfected population of Australia.
+
+      It is hypothesised that a rapid scale-up of hepatitis C treatment with interferon-free
+      therapies in individuals with HIV-HCV coinfection will assist in controlling HCV infection
+      in this population.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This project has four major components which will occur independently but are linked to the
+      central theme of controlling and eradicating hepatitis C from the Australian HIV positive
+      population.
+
+      Database of HIV-HCV individuals (CEASE-D):
+
+      Surveillance of HIV-HCV positive individuals will occur through the enrolment into the
+      CEASE-D observational study database. The proportion with HCV viraemia in this population
+      will be determined through three cross-sectional surveys; at enrolment (2014-2015),
+      follow-up 1 (2016) and follow-up 2 (2018). Participation will involve providing informed
+      consent, collection of limited clinic and demographic information, a dried blood spot
+      sample, patient completed CEASE questionnaires and FibroScan® (where available). It is
+      estimated that approximately 1000 HIV-HCV coinfected individuals will be enrolled into the
+      CEASE-D database.
+
+      Modelling (CEASE-M):
+
+      Mathematical modeling will be undertaken to examine various treatment strategies, including
+      HCV treatment scale-up timelines. The data from the first cross-sectional survey of the HCV
+      surveillance phase (CEASE-D) will inform components of the modeling.
+
+      HCV Education for HIV prescribers (CEASE-E):
+
+      A comprehensive education program in HCV treatment with interferon-free DAA therapy will be
+      conducted with HIV prescribers with high HCV caseloads in preparation for the rapid scale-up
+      of HCV treatment.
+
+      HCV Treatment Scale-Up (CEASE-T):
+
+      An initial pilot phase will involve clinics (tertiary care and primary care) with existing
+      HCV treatment programs, with early access to interferon-free DAA regimens pre-PBS listing
+      through pharma-sponsored early access schemes or clinical trials protocols. This will be
+      followed by an expanded phase following PBS listing.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>July 2014</start_date>
+  <completion_date type="Anticipated">December 2018</completion_date>
+  <primary_completion_date type="Anticipated">December 2018</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>HCV viraemia</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Proportion of HCV viraemia within the Australian HIV-HCV population over a five year period</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Needs, behaviour and attitudes towards HCV treatment</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To assess the needs, risk behaviour and willingness to undergo treatment in HIV-HCV coinfected individuals</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV treatment uptake</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To monitor levels and types of HCV treatment uptake over time as therapies for HCV infection evolve</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Factors associated with HCV treatment and retreatment</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To examine factors which are associated with treatment and retreatment uptake at the tertiary, secondary and primary care level, including the influence of liver stage disease, genotype and availability of treatment regimens on treatment decision making</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV treatment response rates</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To assess treatment response rates to the roll out of interferon-free DDA therapies including the reasons for treatment failure</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of HCV retreatment</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To monitor rates of retreatment including for treatment failure and for reinfection</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV transmission history</measure>
+    <time_frame>5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To characterise, using molecular epidemiology, HCV transmission history within the HIV-HCV coinfected population</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>HIV</condition>
+  <condition>HIV-HCV Coinfection</condition>
+  <arm_group>
+    <arm_group_label>Hepatitis C treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Interferon-free direct acting antiviral treatment. Exact drug combination and regimen/s to be determined, based on phase II and III data released before the treatment phase commences.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir and ribavirin</intervention_name>
+    <description>Exact drug combination and regimen/s to be determined, based on phase II and III data released before the treatment phase commences.</description>
+    <arm_group_label>Hepatitis C treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        CEASE-D:
+
+          -  18 years of age or older
+
+          -  Voluntarily signed the informed consent form
+
+          -  HIV positive
+
+          -  HCV antibody positive
+
+          -  Adequate English and mental health status to provide written informed consent and
+             comply with study procedures
+
+        CEASE-T:
+
+          -  18 years of age or older
+
+          -  Voluntarily signed the informed consent form
+
+          -  HIV positive
+
+          -  HCV antibody positive
+
+          -  The exact treatment regimen will be determined prior to the commencement of the
+             treatment intervention phase, and inclusion criteria relevant to the regimen defined
+             in line with this decision.
+
+        Exclusion Criteria:
+
+        CEASE-D:
+
+          -  Inability or unwillingness to comply with protocol requirements
+
+        CEASE-T:
+
+          -  Exclusion criteria specific to the drug regimen/s will be submitted once the
+             regimen/s has been selected.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gail Matthews, MbChB, MRCP, FRACP, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kirby Institute, University of New South Wales</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Greg Dore, BSc, MBBS, FRACP, MPH, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Kirby Institute, University of New South Wales</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Jasmine Skurowski, BSc</last_name>
+    <phone>+61 2 9385 0932</phone>
+    <email>jskurowski@kirby.unsw.edu.au</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Pip Marks, BSc, MPH(Hons)</last_name>
+    <phone>+61 2 9385 0886</phone>
+    <email>pmarks@kirby.unsw.edu.au</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Blue Mountains Sexual Health and HIV Centre</name>
+      <address>
+        <city>Katoomba</city>
+        <state>New South Wales</state>
+        <zip>2780</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Eva Jackson, MBBS, FAChSHM</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>East Sydney Doctors</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>David Baker, MBChB, DCH, DipMed</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Holdsworth House Medical Practice</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Mark Bloch, MBBS, DipFP, DipMedHyp, MMed</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kirketon Road Centre</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Phillip Read, MBBS, MRCP, FAChSHM, MPH</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Nepean Sexual Health and HIV Clinic</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2747</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Rick Varma, MbChB, MRCP, FAChSHM</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St Vincent's Hospital</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Greg Dore, BSc, MBBS, FRACP, MPH, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Taylor Square Private Clinic</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Robert Finlayson, MBBS, FACSHP, FAChSH</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Albion Centre</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Rohan Bopage, MBBS, MMed, FAChSHM, FRACP</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Western Sydney Sexual Health</name>
+      <address>
+        <city>Sydney</city>
+        <state>New South Wales</state>
+        <zip>2150</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Rick Varma, MbChB, MRCP, FAChSHM</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 28, 2015</lastchanged_date>
+  <firstreceived_date>March 20, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Interferon-free</keyword>
+  <keyword>Direct acting antiviral (DAA)</keyword>
+  <keyword>Treatment as prevention</keyword>
+  <keyword>Surveillance</keyword>
+  <keyword>Feasibility</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Coinfection</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

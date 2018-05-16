@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="117">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01636960</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P08556</org_study_id>
+    <secondary_id>MK-4031-370</secondary_id>
+    <secondary_id>132228</secondary_id>
+    <nct_id>NCT01636960</nct_id>
+  </id_info>
+  <brief_title>A Study of Pegylated Interferon Alfa-2b as an Adjuvant Treatment in Japanese Patients With Malignant Melanoma (P08556)</brief_title>
+  <official_title>An Open-Label, Single-arm, Multicenter Phase I Study of SCH 54031 (Pegylated Interferon Alfa-2b) as an Adjuvant Treatment in Japanese Patients With Malignant Melanoma (Protocol No. MK-4031 370 Also Known as SCH 54031, P08556)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a study to evaluate the safety and tolerability of peginterferon alfa-2b (PegIFN
+      alfa-2b) as adjuvant treatment in Japanese participants with malignant melanoma after
+      definitive surgical resection including complete lymphadenectomy. Participants on this study
+      will initially receive PegIFN alfa-2b for 8 weeks (Induction Phase) and then may continue to
+      receive PegIFN alfa-2b (Maintenance Phase) as long as they are experiencing clinical
+      benefit.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study is ongoing in Maintenance Phase which is planned to continue for up to 252 weeks
+      after study start.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>December 2012</start_date>
+  <completion_date type="Anticipated">October 2016</completion_date>
+  <primary_completion_date type="Actual">March 2014</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Experiencing Dose-limiting Toxicities (DLTs) - Induction Phase</measure>
+    <time_frame>Up to 8 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>A DLT is an event (clinical or laboratory) that results in a change in the given dose.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Safety: Number of Participants Experiencing Adverse Events (AEs)</measure>
+    <time_frame>Up to 1 year (to be updated as data collection continues)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Discontinuing Study Drug Because of AEs</measure>
+    <time_frame>Up to 1 year (to be updated as data collection continues)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">9</enrollment>
+  <condition>Malignant Melanoma</condition>
+  <arm_group>
+    <arm_group_label>Participants receiving PegIFN alfa-2b</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive PegIFN alfa-2b 6 µg/kg subcutaneously (SC) on Day 1 of each week for 8 weeks (Induction) and then 3 µg/kg SC once weekly for up to 252 weeks (Maintenance).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIFN alfa-2b</intervention_name>
+    <arm_group_label>Participants receiving PegIFN alfa-2b</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Stage II or III melanoma
+
+          -  Primary melanoma completely excised
+
+          -  Full lymphadenectomy within 84 days prior to initiation of study treatment
+
+          -  Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1
+
+        Exclusion Criteria:
+
+          -  Ocular melanoma or melanoma of the mucous membranes
+
+          -  Evidence of distant or non-regional lymph node metastases
+
+          -  In-transit melanoma
+
+          -  Previously treated with interferon alpha/beta, chemotherapy, hormonal therapy,
+             radiotherapy or immunotherapy/vaccine for melanoma
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Japan</country>
+  </removed_countries>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 4, 2015</lastchanged_date>
+  <firstreceived_date>July 5, 2012</firstreceived_date>
+  <firstreceived_results_date>January 26, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

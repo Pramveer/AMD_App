@@ -1,0 +1,29 @@
+<template name="main">
+    <div class="wrapper">
+        <div class="fullwidth">
+            <div class="hold-transition skin-blue layout-top-nav">
+                {{#if currentuser}}
+                {{#if isWelcome}}
+
+                   <div class="ps-header">
+                		{{>topHeader}}
+                    	{{>Header}}
+                    {{>mainNavigation}}
+                  </div>
+                	{{/if}}
+
+                {{/if}}
+
+                {{> yield}}
+            </div>
+            
+        </div>
+    </div>
+    <div style="display:none" id="popupForLoading" class="modal-box calc-modal-box usermanual-box-load">
+                <header style="border-bottom: none !important;">
+                </header>
+                <div class="modal-body">
+                     {{> NewLoading}} 
+                </div>      
+            </div>
+</template>

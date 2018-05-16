@@ -1,0 +1,21 @@
+<template name="PharmaSubTabs">
+	<div class="advancePharmaSubTabs-links-wrapper payerToolSection">
+		<div class="pharma_submenu_main_div">
+			<ul class="pharma_submenu_list">
+				<!-- Praveen 03/15/2017 moved rwe benchmark tab to  bottom -->
+				<!-- Nisha 04/06/2017 moved Market Overview tab to top -->
+				<li class="{{isActive 'marketOverview'}}"><a href="{{pathFor 'Pharma/MarketOverview'}}" id="marketOverview">Market Overview</a></li>
+			    <li class="{{isActive 'summary'}}"><a href="{{pathFor 'Pharma/Summary'}}" id="summaryTab">Patient Traits</a></li>
+				<li class="{{isActive 'competitorAnalysis'}}"><a href="{{pathFor 'Pharma/CompetitorAnalysis'}}" id="competitorTab">Competitor Analysis</a></li>
+				<li class="{{isActive 'treatmentEfficacy'}}"><a href="{{pathFor 'Pharma/TreatmentEfficacy'}}" id="patientjourneyTab">Patient Journey</a></li>
+				<li class="{{isActive 'comorbidityAnalytics'}}"><a href="{{pathFor 'Pharma/ComorbidityAnalytics'}}" id="comorbidityTab">Comorbidity</a></li>
+				<li class="{{isActive 'therapyCooccurance'}}"><a href="{{pathFor 'Pharma/TherapyCooccurance'}}" id="targetMarketTab">Target Market</a></li>
+				<li class="{{isActive 'cost'}}"><a href="{{pathFor 'Pharma/MedicationCost'}}" id="valuePropositionTab">Value Proposition</a></li>
+				<li class="{{isActive 'advanceAnalytics'}}"><a href="{{pathFor 'Pharma/AdvanceAnalytics'}}" id="viralLoadTab">Viral Load</a></li>
+				<li class="{{isActive 'physicianpatientarget'}}"><a href="{{pathFor 'Pharma/PhysicianPatientTarget'}}" id="physicianPatientTab">Physician Patient Targeting </a></li>
+				<li class="{{isActive 'rwebenchmark'}}"><a href="{{pathFor 'Pharma/RWEBenchmark'}}" id="benchmarkTab">RWE Benchmark</a></li>
+			</ul>
+		</div>
+	</div>
+
+</template>

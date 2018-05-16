@@ -1,0 +1,1125 @@
+<template name="RWEBenchmark">
+    {{> PharmaSubTabs data="rwebenchmark"}}
+    
+
+    <div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+  
+  <span class="breadcrumb-item active">RWE Benchmark</span> 
+</nav>
+        </div>
+<div class="btngroup">
+    <!--Jayesh 03/06/2017 Updated FDA Labels-->
+ <div class="macLearningsubTabs" style="position: relative;display: inline-block;">
+		<ul class="rweb-list">
+			<li class="active">
+				<a href="#" data="withFDACompliant">FDA Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="withoutFDACompliant">FDA Not Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="allMedsData">All Therapy</a>
+			</li>
+		</ul>
+		
+	</div>
+
+
+<!--Nisha 02/10/2017 added Question answered-->
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'> 
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>
+		<b>FDA Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has been approved by FDA.
+		<hr>
+		<b>FDA Not Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has not been approved by FDA.
+		<hr>
+		<b>All Therapy</b><br>
+		<b>Note: </b> These are all therapies for the selected subpopulation.
+		<br>
+        
+	</div>
+
+	</div>"><img src="/info-icon.png">
+	</div>
+	</span>
+    <!--Nisha 02/13/2017 added Question answered-->
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'> 
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>		 
+        <b>Question Answered:</b><br>
+		Compare competitor drugs against RWE Benchmark by sub-population
+		<br>
+	</div>
+
+	</div>"><img src="/quest-icon.png">
+	</div>
+	</span>
+    
+</div>
+    <!-- Header for RWE sub tabs -->
+  
+
+ <div class="provider-relativeWeights-section">
+        <button class="weightsAccordion">Prioritize Decision Parameters</button>
+        <div class="panel accordianPanel">
+            <div class="accordianContentWrapper">
+                <div class="col-md-3 relativeWeight">
+                    <div class="weightSlidersLabelSection">
+                        <label>Efficacy</label>
+                    </div>
+                    <div class="weightSliderContainer">
+                        <div class="weightslidspan0">0%</div>
+                        <div class="WeightSliderDiv">
+                            <div class=" rangeslider weightSliderDivision" style="height: 10px;"></div>
+                            <input id="txtEffWeight_Provider" type="range" value="100" step="1" min="0" max="100">
+                            <div class="sliderOutput">100<span>%</span></div>
+                        </div>
+                        <div class="weightslidspan100">100%</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 relativeWeight">
+                    <div class="weightSlidersLabelSection">
+                        <label>Adherence</label>
+                    </div>
+                    <div class="weightSliderContainer">
+                        <div class="weightslidspan0">0%</div>
+                        <div class="WeightSliderDiv">
+                            <div class=" rangeslider weightSliderDivision" style="height: 10px;"></div>
+                            <input id="txtAdhWeight_Provider" type="range" value="100" step="1" min="0" max="100">
+                            <div class="sliderOutput">100<span>%</span></div>
+                        </div>
+                        <div class="weightslidspan100">100%</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 relativeWeight">
+                    <div class="weightSlidersLabelSection">
+                        <label>Cost</label>
+                    </div>
+                    <div class="weightSliderContainer">
+                        <div class="weightslidspan0">0%</div>
+                        <div class="WeightSliderDiv">
+                            <div class=" rangeslider weightSliderDivision" style="height: 10px;"></div>
+                            <input id="txtCostWeight_Provider" type="range" value="100" step="1" min="0" max="100">
+                            <div class="sliderOutput">100<span>%</span></div>
+                        </div>
+                        <div class="weightslidspan100">100%</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="goButtonWrapper" style=" margin-top: 33px;padding: 0px;margin-left: 3px;">
+                        <span class="js_applyWeights applyBtn btn btn-success btn-cons">GO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{#if isLoading}}
+      <div class="content-wrapper">
+        {{> NewLoading}}
+      </div>
+    {{else}}
+
+    {{#if noDataFound}}
+
+      <div class="providerNoDataFound">No drugs found for the given medical situation. Please refine clinical criteria.</div>
+    {{else}}
+
+
+
+ 
+
+
+    <div class="wrapper">
+        <div class="fullwidth">
+    <div class="ps-section">
+
+        <!-- <div class="pro-que-alert">
+            <div class="pro-questation">
+                <span>Will Harvoni(12W) be the best drug for this patient?</span>
+                <a href="#" class="pro-que-btn">yes</a>
+            </div>
+            <div class="pro-alert">
+                <div class="pro-alert-img"><img src="/alert.png" /></div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nulla fimibus felis interdum gravida ac at quam</span>
+            </div>
+        </div> -->
+
+        <!-- Toal N is Appended when DrugInfoUpdated helper finish Executing. -->
+       <!--  <div class="efficacy-div">
+                {{#with getPateintInfo}} -->
+                <!-- <div class="efd-table-data costBurdenSection">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1">Genotype: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="efd-cell1">Treatment: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1">Cirrhosis: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                        <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"></div>
+                    </div>
+                </div> -->
+
+
+                <!-- New Filters -->
+
+              <!--   <div class="efd-table-data costBurdenSection" id="filter_desc">
+                  <div class="col-md-2" style="display:none;">
+                  </div>
+                  <div class="pt-filter-desc-provider col-md-2" style="display:none;" id="desc_genotype">
+                      <div class="efd-cell1">Genotype: </div>
+                      <div class="efd-cell2_subpopulaiton ecf-Genotype"></div>
+                  </div>
+                  <div class="pt-filter-desc-provider col-md-3" style="display:none;" id="desc_treatment">
+                      <div class="efd-cell1">Treatment: </div>
+                      <div class="efd-cell2_subpopulaiton ecf-Treatment"></div>
+                  </div>
+                  <div class="pt-filter-desc-provider col-md-2" style="display:none;" id="desc_cirrhosis">
+                      <div class="efd-cell1">Cirrhosis: </div>
+                      <div class="efd-cell2_subpopulaiton ecf-Cirrhosis"></div>
+                  </div>
+                  <div class="pt-filter-desc-provider col-md-2">
+                        <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                        <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_etoh">
+                      <div class="efd-cell1">ETOH Level: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_apri">
+                      <div class="efd-cell1">APRI: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_virallaod">
+                      <div class="efd-cell1">Viral Load: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_age">
+                      <div class="efd-cell1">Age: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_weight">
+                      <div class="efd-cell1">Body Weight: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_alcohol">
+                      <div class="efd-cell1">Alcohol: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_renalfailure">
+                      <div class="efd-cell1">Renal Failure: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_mentalhealth">
+                      <div class="efd-cell1">Mental Health: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_hiv">
+                      <div class="efd-cell1">HIV: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>             
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_meldscore">
+                      <div class="efd-cell1">Meld Score: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_liverassessment">
+                      <div class="efd-cell1">Liver Assessment: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_fibrosure">
+                      <div class="efd-cell1">Fibrosure: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_fibroscan">
+                      <div class="efd-cell1">Fibroscan: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_liverbiopsy">
+                      <div class="efd-cell1">Liver Biopsy: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                 
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_hcc">
+                      <div class="efd-cell1">HCC: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>                 
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_chemistry">
+                      <div class="efd-cell1">Chemistry: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div> 
+                           
+                  <div class="pt-filter-desc-provider" style="display:none;" id="desc_ethnicity">
+                      <div class="efd-cell1">Ethnicity: </div>
+                      <div class="efd-cell2_subpopulaiton"></div>
+                  </div>     
+              </div>
+
+
+                {{/with}}
+            </div> -->
+        <div class="pro-que-alert drug-inspection" style="display:none">
+            <div class="ps-drug-popup">
+                <span>Will <b  id="inspected-drug"></b>be prescribed for this Patient?</span>
+                <a href="#" class="pro-que-btn" id="btnCaptureResponse">yes</a>
+            </div>
+          <!--   <div class="pro-alert">
+                <div class="pro-alert-img"><img src="/alert.png" /></div>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nulla fimibus felis interdum gravida ac at quam</span>
+            </div> -->
+        </div>
+
+        <!--{{#if isProgressive}}
+                <div class="warningMessage" style="position:relative;width: 100%;float: left;text-align: center;">
+                    <div class="warningdivcritical" id="warningdivcritical" style="margin: 0px auto;width: 100%;padding: 10px 0px;display: inline-block;background-color: #fff;text-align: center;">
+                        <label style="color:#ef4823;display: inline-block;">Critical Health Alert: </label>
+                        <p style="display: inline-block;margin-left:8px;margin-bottom: 0;">This patient with <a class="APRI-icon" style='position:relative'>APRI<span class="apri_tooltip apri-alert" >This is an <b>A</b>ST to <b>P</b>latelet <b>R</b>atio <b>I</b>ndex. Most laboratories use 40 IU/L as the value for the AST upper limit of normal.</span></a> &gt; 1 have high chances of disease progression. For details, please see <a class="gotoanalytic" style="cursor:pointer;">Analytics</a> tab.</p>
+                    </div>
+
+                </div>
+        {{/if}}-->
+        <div class="pro-drug-list">
+
+            <div class="pdl-header">
+
+              <!--<div class="population-count">
+                <div class="population-count-hover">Total Patients:<span  id='patientCount' style="margin-left:5px;">&nbsp;</span></div>
+              </div>-->
+
+                <ul class="pdl-list">
+                    <li class=""><span style="cursor: default !important;">Compare</span></li>
+                      <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'drugScore'}}" sortby="drugScore" id="drugScoreColumn"><span>Drug Score</span></li>
+                    <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'efficacy'}}" sortby="efficacy" id="efficacyColumn"><span>Efficacy</span></li>
+                    <li class=" DrugHeading"><span style="cursor: default !important;">Safety</span></li>
+                    <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'adherence'}}" sortby="adherence" id="adherenceColumn"><span>Adherence</span></li>
+                    <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'utilization'}}" sortby="utilization" id="utilizationColumn"><span>Utilization</span></li>
+                    <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'cost'}}" sortby="cost" id="costColumn"><span>Cost</span></li>
+                    <li class=" SortDrugPageBy DrugHeading {{isSortedBy 'value'}}" sortby="value" id="valueColumn"><span>Relative Value
+<div  class='pop'  data-content="<div class='cust-popup-box cust-smlpopup-box' ><div class='cust-popup-title'> <span>Relative Value Chart</span></div>
+            <div class='cust-popup-content cust-smlpopup-box'>
+                <span id='valueHover_0' class='safetyFlagtooltip' style='width:350px;left:-163px;'>
+
+                          <div class='safetyRiskPopupMessage' style='font-size: 14px; font-weight: 400;'>
+                              <span class='boldfnt'>Definition: </span> - All the possible therapies for this patient are plotted on an Efficacy v/s cost graph. Drug in top right zone and in proximity to top right corner is an indication
+                of being most optimal one among the remaining therapies.
+                <br/>
+                <br/>
+                <img id='valueDefinationImg' src='/relative-chart.jpg'>
+                <br/>
+                <br/> This is because the x-axis starts with highest cost and decreases towards right, while y-axis starts with lowest Efficacy and increases towards top. So the top right corner represents low cost and high efficacy. The more the drug is near
+                to top right corner of graph, the more optimal the drug is among the possible therapies.
+                <br/>
+                <br/>
+
+                <span>Where :</span>
+                <br/>
+                <span><span class='boldfnt'>Efficacy</span> is the computed efficacy of the therapy based on real world evidence.
+                <br/>
+                <span class='boldfnt'>Cost</span> is the actual total cost of the therapy for a given treatment period.
+                </span>
+            </div>
+            </span>
+        </div>
+    </div>"><img src="/info-icon.png"></div>
+
+
+    </span>
+    </li>
+    <!--Nisha Commented CI-->
+     <!--<li class=" SortDrugPageBy DrugHeading {{isSortedBy 'confidenceindex'}}" sortby="confidenceindex" id="confidenceindexColumn"><span>Confidence Index
+            <div  class='pop'  data-content="<div class='cust-popup-box cust-smlpopup-box' ><div class='cust-popup-title'> <span>Confidence-Index</span></div>
+    <div class='cust-popup-content cust-smlpopup-box'>
+        <span id='valueHover_0' class='safetyFlagtooltip' style='width:350px;left:-163px;'>
+
+                          <div class='safetyRiskPopupMessage' style='font-size: 14px; font-weight: 400;'>
+                              <span class='boldfnt'>Definition: </span> - Confidence index is the confidence/assurance,
+        among any particular result for sub-population. It is decided based on the total patients in particular category
+        for that sub-population.
+        <br/>
+
+        <br/>
+        <div style='width:400px; float:left;'> <span style='margin-top:14px;display:inline-block'>Confidence Index for particular subgroup(m) is CI <sub>m</sub>  = </span></div>
+        <div style='width:120px; float:left;'>
+            <div style='border-bottom:1px dotted #ccc; width:100%; text-align:center'>n <sub>m</sub> * 100
+
+            </div>
+            <div style='width:100%; text-align:center;'>n<sub>max</sub></div>
+            <br><br>
+
+
+        </div>
+        <br><br>
+        <div style='width:600px; float:left;'>n<sub>m</sub> = number of patients in that combinations
+            <br><br>n<sub>max</sub> = maximum number of patient among all the combinations
+        </div>
+        <br/>
+        <br/>
+
+
+    </div>
+    </span>
+    </div>
+    </div>"><img src="/info-icon.png"></div>
+         </span></li>-->
+
+    </ul>
+    </div>
+    {{#if isDrugInfoUpdatedEmpty}} {{#each DrugInfoUpdated }}
+
+    <div class="pdl-content paginationDrugs">
+        <ul class="pdl-list {{Paging DrugSequence}}">
+            <li class="">
+                <div class="provider-checkbox drugtitle">
+                    <input type="checkbox" id="cb-{{DrugName}}" value="{{DrugName}}" />
+                    <label for="cb-{{DrugName}}"></label>
+                </div>
+            </li>
+              <li class="pdl-chart">
+                <div class="{{isBestDrugScore drugScore Best_Drug_Score}}">
+                    {{drugScore}}
+                </div>
+                
+
+                <div class="pop pdl-efficacy" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Score</span></div>
+
+                            <div class='cust-popup-content'>
+                            <div>
+                            <div class='text-center'>
+                                <a class='pathForEfficacybyDrug btn btn-default btn-block' href='#' param='' class='btn btn-default btn-block'>More Information</a>
+                            </div></div></div></div>"><img src="/info-icon.png">
+                </div>
+
+            </li>
+            <li class="pdl-chart">
+<!-- OLD Ring circle chart CODE-->
+              <!-- <div class="bubble" data-percent="{{Efficacy.Efficacy}}"></div> -->
+{{>PercentCircle score=Efficacy.Efficacy}}
+                <!-- <div class="c100 {{pureCSSRingCircle Efficacy.Efficacy}} small">
+                    <span>{{Efficacy.Efficacy}}%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div> -->
+
+
+                <div class="pop pdl-efficacy"  data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Efficacy</span></div>
+
+                              <div class='cust-popup-content'>
+                                <div>
+                            <div  class='drugs-bubble'>
+                            <span class='boldfnt'>Real World Evidence: ({{Efficacy.ResponseRate}})</span> <br/>
+
+
+                            <span>Sustained Virologic Response(SVR): </span> <br/>
+
+
+                            <span class='mgl10'>{{Treatment_Period}} : <span class='boldfnt'>{{fixForInteger Efficacy.Efficacy}}</span> </span><br/>
+                           </div>
+                            <hr>
+
+                            <span><span class='boldfnt'>Definition</span> - The efficacy of a drug is the measure of effectiveness of therapy based on real world evidence. It is defined as the percentage of similar patients ((i.e with same HCV genotype, cirrhosis and naive/experienced conditions) who had SVR 12 value of 0 or undetected after taking the given prescription for a given treatment period.
+                            <br/><br/><span class='boldfnt'>Efficacy (%) =  </span><br/>
+                            <span class='formulaSection'><span  style='border-bottom: 1px dotted;'> Count of Drug Population Patients (Nx) where svr_12 0 or undetected </span> <span style='margin-top: 8px;position: absolute;padding-left2%;'>* 100 </span><br/>
+                            <span style='padding-left:15%'>Drug Population (Nx)</span></span></span><br/>
+                            <span>Where :</span><br/>
+                            <span><span class='boldfnt'>SVR 12</span> is Sustained Virological Response on a gap of 12 weeks after completion of a given treatment period.
+                                <br/>
+                                <span class='boldfnt'>Drug population</span> is the number of patients who underwent the therapy
+                            </span>
+                            </span>
+                            <br/>
+                             <br/>
+                            <div class='text-center'>
+                                <a class='pathForEfficacybyDrug btn btn-default btn-block' href='#' param='Efficacy' class='btn btn-default btn-block'>More Information</a>
+                            </div></div></div></div>"><img src="/info-icon.png">
+                </div>
+
+            </li>
+            <li class="">
+
+                <!-- <div class="safty-title">Harvoni
+                                      <div class="infodiv">
+                                          <a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div><div class='cust-popup-content'><div class='efficacy '><div class='drugs-bubble'><span class='boldfnt'>Real World Evidence: (N=120)</span> <br><span>Sustained Virologic Response(SVR): </span> <br><span class='mgl10'>12 Weeks : <span class='boldfnt'>92.50%</span> </span><br></div><hr><span><span class='boldfnt'>Definition</span> - The efficacy of a drug is the measure of effectiveness of therapy based on real world evidence. It is defined as the percentage of similar patients ((i.e with same HCV genotype, cirrhosis and naive/experienced conditions) who had SVR 12 value of 2M or less after taking the given prescription for a given treatment period.<br><br><span class='boldfnt'>Efficacy (%) =  </span><br><span class='formulaSection'><span style='border-bottom: 1px dotted;'> Count of Drug Population Patients (Nx) where svr_12 &lt; 2M </span> <span style='margin-top: 8px;position: absolute;padding-left2%;'>* 100 </span><br><span style='padding-left:15%'>Drug Population (Nx)</span></span></span><br><span>Where :</span><br><span><span class='boldfnt'>SVR 12</span> is Sustained Virological Response on a gap of 12 weeks after completion of a given treatment period.<br><span class='boldfnt'>Drug population</span> is the number of patients who underwent the therapy</span><br><br><div class='text-center'><a class='pathForAnalyticsbyDrug btn btn-default btn-block' href='#' param='Efficacy'>More Information</a></div></div></div></div>"><img src="/info-icon.png"></a>
+                                      </div>
+                                  </div> -->
+                <!--
+                                  <ul class="safty-list">
+                                      <li>
+                                          <a href="#" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div><div class='cust-popup-content'><p>Drug Interactions: Coadministration of DAKLINZA can alter the concentration of other drugs and other drugs may alter the concentration of daclatasvir.  Consult the full prescribing information before use for contraindicated drugs and other potential drug-drug interactions.(2.2, 4, 5.1,7, 12.)</p><ul class='cust-popup-list-box'><li><a href='#'>O rato roeu a roupa do rei de roma</a></li><li><a href='#'>Lorem ipsum sit amet </a></li></ul><div class='cust-popup-fulltext-btn'><a href='#'>Full Text</a></div></div></div>">Top
+                                          risk
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div><div class='cust-popup-content'><p>Drug Interactions: Coadministration of DAKLINZA can alter the concentration of other drugs and other drugs may alter the concentration of daclatasvir.  Consult the full prescribing information before use for contraindicated drugs and other potential drug-drug interactions.(2.2, 4, 5.1,7, 12.)</p><ul class='cust-popup-list-box'><li><a href='#'>O rato roeu a roupa do rei de roma</a></li><li><a href='#'>Lorem ipsum sit amet </a></li></ul><div class='cust-popup-fulltext-btn'><a href='#'>Full Text</a></div></div></div>">Low
+                                          risk
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div><div class='cust-popup-content'><p>Drug Interactions: Coadministration of DAKLINZA can alter the concentration of other drugs and other drugs may alter the concentration of daclatasvir.  Consult the full prescribing information before use for contraindicated drugs and other potential drug-drug interactions.(2.2, 4, 5.1,7, 12.)</p><ul class='cust-popup-list-box'><li><a href='#'>O rato roeu a roupa do rei de roma</a></li><li><a href='#'>Lorem ipsum sit amet </a></li></ul><div class='cust-popup-fulltext-btn'><a href='#'>Full Text</a></div></div></div>">Drug
+                                          interaction
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" data-content="<div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div><div class='cust-popup-content'><p>Drug Interactions: Coadministration of DAKLINZA can alter the concentration of other drugs and other drugs may alter the concentration of daclatasvir.  Consult the full prescribing information before use for contraindicated drugs and other potential drug-drug interactions.(2.2, 4, 5.1,7, 12.)</p><ul class='cust-popup-list-box'><li><a href='#'>O rato roeu a roupa do rei de roma</a></li><li><a href='#'>Lorem ipsum sit amet </a></li></ul><div class='cust-popup-fulltext-btn'><a href='#'>Full Text</a></div></div></div>">Real
+                                          world risk</a>
+                                      </li>
+                                  </ul>
+
+                                -->
+
+                {{#each renderRiskData DrugName Safety}}
+                <div class="safty-box pdl-safety">
+                      {{#if shouldShowFlag showFlag}}
+                      <div class="infodiv pdl-safety">
+
+                            <!-- <img src="/info-icon.png"> -->
+                           
+                            <span class="blink_me"><i class="fa fa-exclamation-triangle red" aria-hidden="true"></i></span>
+                            <div class='info-div-tooltip-box'>
+
+                                <div class="beforearrow"></div>
+
+                                <div class='info-div-tooltipbox-title'>
+
+                                    <span> Risk Condition</span>
+
+                                </div>
+
+                                <div class='info-div-tooltip-content'>
+                                        <div class="info-div-tooltip-list-box">
+                                        <div class="safetyRiskPopupMessage">The following health risk condition/s has been identified for <span class="js-currentPatient cpRiskCondition">this patient</span>.</div>
+                                        <div class="safetyFlagKeywords">
+                                            {{#if isPregnancyPresent Pregnancy_In_HR}}
+                                            <div class='flagPrenancy' style='display:{{isFemale}}'><span>{{Pregnancy_In_HR}}</span>- <span>High Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#43685-7" subsection="{{Pregnancy_HR_Section}}" keyword="{{Pregnancy_In_HR}}">{{Pregnancy_HR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isPregnancyPresent Pregnancy_In_LR}}
+                                            <div><span>{{Pregnancy_In_LR}}</span> - <span>Low Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#34084-4" subsection="{{Pregnancy_LR_Section}}" keyword="{{Pregnancy_In_LR}}">{{Pregnancy_LR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isRenalFailurePresent RenalFailure_In_HR}}
+                                            <div><span>{{RenalFailure_In_HR}}</span> - <span>High Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#43685-7" subsection="{{RenalFailure_HR_Section}}" keyword="{{RenalFailure_In_HR}}">{{RenalFailure_HR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isRenalFailurePresent RenalFailure_In_LR}}
+                                            <div><span>{{RenalFailure_In_LR}}</span> - <span>Low Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#34084-4" subsection="{{RenalFailure_LR_Section}}" keyword="{{RenalFailure_In_LR}}">{{RenalFailure_LR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isMentalHealthPresent MentalHealth_In_HR}}
+                                            <div><span>{{MentalHealth_In_HR}}</span> - <span>High Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#43685-7" subsection="{{MentalHealth_HR_Section}}" keyword="{{MentalHealth_In_HR}}">{{MentalHealth_HR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isMentalHealthPresent MentalHealth_In_LR}}
+                                            <div><span>{{MentalHealth_In_LR}}</span> - <span>Low Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#34084-4" subsection="{{MentalHealth_LR_Section}}" keyword="{{MentalHealth_In_LR}}">{{MentalHealth_LR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isHIVPresent HIV_In_HR}}
+                                            <div><span>{{HIV_In_HR}}</span> - <span>High Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#43685-7" subsection="{{HIV_HR_Section}}" keyword="{{HIV_In_HR}}">{{HIV_HR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isHIVPresent HIV_In_LR}}
+                                            <div><span>{{HIV_In_LR}}</span> - <span>Low Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#34084-4" subsection="{{HIV_LR_Section}}" keyword="{{HIV_In_LR}}">{{HIV_LR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isAlcoholPresent Alcohol_In_HR}}
+                                            <div><span>{{Alcohol_In_HR}}</span> - <span>High Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#43685-7" subsection="{{Alcohol_HR_Section}}" keyword="{{Alcohol_In_HR}}">{{Alcohol_HR_Title}}</span>
+                                            </div>
+                                            {{/if}} {{#if isAlcoholPresent Alcohol_In_LR}}
+                                            <div><span>{{Alcohol_In_LR}}</span> - <span>Low Risk</span>
+                                                <br>
+                                                <span class="safetyFlagTitleLink" drug="{{drugname}}" section="#34084-4" subsection="{{Alcohol_LR_Section}}" keyword="{{Alcohol_In_LR}}">{{Alcohol_LR_Title}}</span>
+                                            </div>
+                                            {{/if}}
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+                      </div>
+                      <div class="safty-title">{{drugnamewithperiod}}</div>
+
+                      {{else}}
+                        <div class="safty-title">{{drugnamewithperiod}}</div>
+                      {{/if}}
+                     
+                    
+                   <!--  {{#if shouldShowFlag showFlag}} -->
+
+                    <div class="safetyFlag" style="width: 25px; float: left;">
+                        <!-- http://jsfiddle.net/Roobyx/FHUbA/45/ -->
+                        <!-- <img id="graph_one" class="graph one" src="/safety-alert-icon.png" /> -->
+
+
+                        <div class="infodiv pdl-safety">                        
+                            <span><img src="/dosage.png"></span>
+                            <div class='info-div-tooltip-box'>
+
+                                <div class="beforearrow"></div>
+
+                                <div class='info-div-tooltipbox-title'>
+
+                                    <span> Dosage Quantity</span>
+
+                                </div>
+
+                                <div class='info-div-tooltip-content'>
+                                        <div class="info-div-tooltip-list-box">
+                                        <div class="safetyRiskPopupMessage">Standard Dosage: {{drugDosage}}
+                                        <br />
+                                        {{ #if drugDosageFlag}}
+                                            <u>Dosage Conditions</u>: 
+                                          <br/>
+                                          {{#each dosageArray}}
+                                            {{ name }} : {{ value }}
+                                            <br/>
+                                          {{/each}}
+                                        {{/if}}
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   <!--  {{/if}} -->
+                    <!-- <span style="color: #0089df;">{{drugname}} </span> -->
+
+                    <br />
+
+                    <!--  New Capsules -->
+                    <ul class="safty-list font-13">
+                        <li>
+                          <div name="hrcount"  class="safetybtn pdl-safety pop pill trCapsule RiskCapsules"  drug="{{drugname}}" fileName="{{hrFile}}" data-content="
+                                            <div class='cust-popup-box'><div class='cust-popup-title'> <span>{{drugname}} - Top Risk</span></div>
+                                            <div class='cust-popup-content'>
+
+                                            <iframe class='lr-hr-Frame' src='{{hrFile}}' onload='Template.Provider.popupLoaded(this)'></iframe>
+                                            <a href='#' drug='{{drugname}}' section='#43685-7' class='btn btn-default btn-block lr-hr-moreInfo'><span class='lr-hr-moreInfoIcon'></span>full text</a>
+                                            <span style='color:red;padding-right:5px;'>*</span><span style='display:inline-block; margin-top: 10px;'>Sourced from <a href='http://dailymed.nlm.nih.gov/dailymed/' target='_blank'>http://dailymed.nlm.nih.gov</a></span>
+                                          </div>
+                                          </div>">Top risk
+                          </div>
+
+                        </li>
+
+                        <li>
+                            <div name="hrcount" class="safetybtn pdl-safety pil pop rweCapsule RiskCapsules pop"  drug="{{drugname}}" fileName="{{lrFile}}" data-content="
+                           <div class='cust-popup-box'><div class='cust-popup-title'> <span>Real World Evidence <span class='totalPatientsCount'>({{../DrugN}} Patients)</span></span></div>
+                           <div class='cust-popup-content'>
+                              <div class='row'>
+
+                                <div class='col-md-3 RWEBox'>
+                                    <div class='rweCount'>
+                                    <h1>
+                                    {{calcPercentage ../DrugN ../SafetyCondition.Admission}}%
+                                    </h1>
+                                    <p>Patients</p>
+                                    </div>
+                                    <div class='rweImage'><img src='/hospitalized.png'></div>
+                                    <div class='rewRiskName'>Hospitalized</div>
+                                </div>
+                                <div class='col-md-3 RWEBox'>
+                                    <div class='rweCount'>
+                                      <h1>  {{calcPercentage ../DrugN ../SafetyCondition.Interaction}}%
+                                      </h1>
+                                      <p>Patients</p></div>
+                                      <div class='verticalGradient'></div>
+                                      <div class='rweImage'><img src='/drug_interaction.png'></div>
+                                      <div class='rewRiskName'>Drug to drug interactions</div>
+                                    </div>
+                                    <div class='col-md-3 RWEBox'>
+                                        <div class='rweCount'>
+                                        <h1>
+                                        {{calcPercentage ../DrugN ../SafetyCondition.LiverFailure}}%
+                                        </h1>
+                                        <p>Patients</p></div>
+                                        <div class='verticalGradient'></div>
+                                        <div class='rweImage'><img src='/liver_failure.png'></div>
+                                        <div class='rewRiskName'>Liver Failure</div>
+                                    </div>
+                                    <div class='col-md-3'>
+                                        <div class='rweCount'>
+                                        <h1>
+                                        {{calcPercentage ../DrugN  ../SafetyCondition.Anemia}}%
+                                        </h1>
+                                        <p>Patients</p></div>
+                                        <div class='verticalGradient'></div>
+                                        <div class='rweImage'><img src='/anemia.png'></div>
+                                        <div class='rewRiskName'>Anemia</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>">
+Real World Risk</div>
+                        </li>
+
+
+                        <li>
+                            <div name="rwecount"  class="safetybtn pdl-safety pil pop  DICapsule diCapsule RiskCapsules" href="#" drug="{{drugname}}" data-content="
+                            <div class='cust-popup-box'><div class='cust-popup-title'> <span>Drug Interactions</span></div>
+                            <div class='cust-popup-content'>
+                                <iframe class= 'cidiRiskFrame' onload='Template.Provider.getDataForRiskSections(this)' drug='{{drugname}}' section='DI'></iframe>
+                           <a href='#' drug='{{drugname}}' section='#34073-7' class='btn btn-default btn-block lr-hr-moreInfo'><span class='lr-hr-moreInfoIcon'></span>full text</a>
+            <span style='color:red;padding-right:5px;'>*</span><span style='display:inline-block; margin-top: 10px;color: #6e7579;'>Sourced from <a style='color: #ef4722;font-weight: 600;' href='http://dailymed.nlm.nih.gov/dailymed/' target='_blank'>http://dailymed.nlm.nih.gov</a></span>
+     
+                            </div>
+                            </div>">
+                                                                                                            Drug Interaction</div>
+                        </li>
+                        <li> <div name="lrcount" class="safetybtn pdl-safety pil pop CICapsule ciCapsule RiskCapsules" href="#" drug="{{drugname}}"
+                          data-content="
+                          <div class='cust-popup-box'><div class='cust-popup-title'> <span>Contraindications</span></div>
+                          <div class='cust-popup-content'>
+                              <iframe class= 'cidiRiskFrame' onload='Template.Provider.getDataForRiskSections(this)' drug='{{drugname}}' section='CI'></iframe>
+                               <a href='#' drug='{{drugname}}' section='#34070-3' class='btn btn-default btn-block lr-hr-moreInfo'><span class='lr-hr-moreInfoIcon'></span>full text</a>
+            <span style='color:red;padding-right:5px;'>*</span><span style='display:inline-block; margin-top: 10px;color: #6e7579;'>Sourced from <a style='color: #ef4722;font-weight: 600;' href='http://dailymed.nlm.nih.gov/dailymed/' target='_blank'>http://dailymed.nlm.nih.gov</a></span>
+
+                          </div>
+               </div>">
+                                                                                                            Contraindication</div>
+                        </li>
+                        <li>
+
+                            <div name="lrcount"   class="safetybtn pdl-safety pil pop crCapsule RiskCapsules" href="#" drug="{{drugname}}" fileName="{{lrFile}}" data-content="
+                            <div class='cust-popup-box'><div class='cust-popup-title'>
+                              <span>{{drugname}} - Common Risk</span></span></div>
+                            <div class='cust-popup-content'>
+
+
+
+
+                                                                                                                    <iframe class='lr-hr-Frame' src='{{lrFile}}' onload='Template.Provider.popupLoaded(this)'></iframe>
+                                                                                                                    <a href='#' drug='{{drugname}}' section='#34084-4' class='btn btn-default btn-block lr-hr-moreInfo'><span class='lr-hr-moreInfoIcon'></span>full text</a>
+                                                                                                                    <span style='color:red;padding-right:5px;'>*</span><span style='display:inline-block; margin-top: 10px;'>Sourced from <a href='http://dailymed.nlm.nih.gov/dailymed/' target='_blank' role='button'>http://dailymed.nlm.nih.gov</a></span>
+                                                                                                                  </div></div>"> Low Risk
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+                {{/each}}
+
+            </li>
+            <li class="pdl-chart">
+                <!-- <div class="bubble" data-percent="{{Adherence.Adherence}}"></div> -->
+                {{>PercentCircle score=Adherence.Adherence}}
+
+                <div class='pop pdl-adherence' data-content="
+                            <div class='cust-popup-box'><div class='cust-popup-title'> <span>Adherence</span></div><div class='cust-popup-content'>
+                              <div>
+                                                                                     <div class='drugs-bubble'>
+                                                          <span class='boldfnt'>Real World Evidence: {{Adherence.MPR}}</span> <br/>
+
+                                                          <span>Medication Possesion ratio MPR:</span><br/>
+
+                                                            <span class='mgl10'>{{Treatment_Period}} : <span class='boldfnt'>{{fixForInteger Adherence.Adherence}}</span> </span><br/>
+                                                     </div>
+
+                                                     </div>
+
+                                                          <hr class='fltlft fullwid'>
+
+
+                                                      <span><span class='boldfnt'>Definition</span> - MPR is used to determine compliance and measured from the first to the last prescription.  The denominator is the duration from the start period to the completion of the last prescription, and the numerator is the number of days supplied over that period from first to last prescription.Here, Medication dispense is used for days prescription.<br/><br/>
+                                                      <span class='boldfnt'>Adherence (MPR) for Patient x = </span><br/>
+                                                      <span class='formulaSection'><span style='border-bottom: 1px dotted;'> (days_medication/7) </span> <span style='padding-top: 8px;position: absolute;padding-left:1%'>* 100 </span><br/>
+                                                      <span>treatment_Period</span></span></span>
+                                                      </span>
+                                                      <br/>
+                                                      <br/>
+                                                      <div class='text-center'>
+                                                          <a class='pathForAdherencebyDrug btn btn-default btn-block' href='#' param='Adherence' class='btn btn-default btn-block'>More Information</a>
+                                                      </div></div>
+                            </div></div>"><img src="/info-icon.png"></div>
+
+            </li>
+            <li class="pdl-chart">
+                <!-- <div class="bubble" data-percent="{{Utilization.Utilization}}"></div> -->
+  {{>PercentCircle score=Utilization.Utilization}}
+                <div class="pop pdl-utilization" data-content="<div class='cust-popup-box'>
+                              <div class='cust-popup-title'> <span>Utilization</span></div><div class='cust-popup-content'>
+                                <div>
+                                <div class='drugs-bubble'>
+
+                          <span class='boldfnt'>Real World Evidence: {{Utilization.Rx}}</span> <br/>
+
+                           <!-- <span class='mgl10'>12 weeks: {{Utilization.RxW12}} (<span class='boldfnt'>{{Utilization.PRxW12}}</span>)</span><br/>
+                            <span class='mgl10'>24 weeks:  {{Utilization.RxW24}} (<span class='boldfnt'>{{Utilization.PRxW24}}</span>)</span><br/> -->
+                            <span class='mgl10'>{{Treatment_Period}} : <span class='boldfnt'>{{fixForInteger Utilization.Utilization}}</span> </span><br/>
+                            </div>
+
+                          <hr  class='fltlft fullwid'>
+                          <span><span class='boldfnt'>Definition</span> - Utilization is the percentage of patients who took this drug against the total number of patients similar to this patient (i.e with same HCV genotype, cirrhosis and naive/experienced conditions).
+                          <br/><br/><span class='boldfnt'>Utilization (%) =  </span><br/>
+                           <span class='formulaSection'><span style='padding-left: 15%;padding-right: 15%;'> Nx </span> <span style='padding-top: 15px;position: absolute;'>* 100 </span><br/>
+                           <span style='border-top: 1px dotted;'>N1 + N2 + ... + Nx + ...  Nn </span></span>
+                           </span>
+                           </span>
+                          <br/>
+                           <br/>
+                          <div class='text-center'>
+                              <a class='pathForUtilizationbyDrug btn btn-default btn-block' href='#' param='Utilization' class='btn btn-default btn-block'>More Information</a>
+                          </div></div></div></div>"><img src="/info-icon.png">
+                </div>
+            </li>
+
+            <li class="">
+		
+            <div class="pdl-list-circle">
+            <div class='pop pdl-cost pop-widthof200' data-content="
+            <div class='cust-popup-box' style='width:400px !important;'>
+                            <div class='cust-popup-title'> <span>Cost</span></div><div class='cust-popup-content'>
+                       <div>
+
+                          <div class='drugs-bubble paidCost'>
+
+                        <span class='boldfnt'>Paid</span><br/>
+                        <span class='' style='text-align:left;font-weight:bold;'>Median: </span>${{Cost.costMedianMode.paid_median_cost}}<br/>
+                       <span class='' style='text-align:left; font-weight:bold;'>Mode: </span> ${{Cost.costMedianMode.paid_mode_cost}}<br/>
+                          </div>
+                      
+                     <div class='drugs-bubble copayCost'>
+                      <span><span class='boldfnt'>Copay </span><br/>
+                       
+                       <span class='' style='text-align:left; font-weight:bold;'>Mode: </span>${{Cost.costMedianMode.copay_mode_cost}}<br/>
+                       
+
+                      </span>
+                    <div>
+                      <br/>
+                    </div>
+                    </div>
+                    
+
+                    <br/>
+                    <hr>
+                   <div class='' style='text-align:left; '><hr>
+                  <p style ='text-align: justify; text-justify: inter-word;'> <span class=''  style='font-weight:bold;'> Note:  </span>
+                    We have different claims cost for this medication therapy.  To represent cost, we are using two parameters.
+                    </p>
+                     
+                      <span style='font-weight:bold;'>Median: </span>  it is the middle of a sorted list of numbers.<br/>
+                      <span style='font-weight:bold;'>Mode: </span> It is simply the number which appears most often.
+                    </div>
+
+
+
+
+
+
+
+                    </div>">
+                {{{Cost.CostEstimateSymbol}}}
+                </div>
+                </div>
+			
+      				
+                <div class='pop pdl-cost pop-widthof200' data-content="
+      					<div class='cust-popup-box' style='width:400px !important;'>
+                                  <div class='cust-popup-title'> 
+      								<span>Cost</span>
+      							</div>
+      							<div class='cust-popup-content'>
+                                  <div>
+
+      							<div class='drugs-bubble'>
+      								<span class='boldfnt'>Cost Estimate: {{Cost.CostEstimateSymbol}}</span>
+      							</div>
+      							<hr>
+
+      							<span>
+      								<span class='boldfnt'>Definition</span> - Cost Scale<br/>
+      								<span class='mgl10'><span class='cost-scale-symbol'>$</span>0-57K</span><br/>
+      								<span class='mgl10'><span class='cost-scale-symbol'>$$</span>57-90K</span><br/>
+      								<span class='mgl10'><span class='cost-scale-symbol'>$$$</span>90-150K</span><br/>
+      							</span>
+      							<br/>
+
+
+                    <span>
+                     <p style ='text-align: justify; text-justify: inter-word;'> <span class='boldfnt'>Note</span> - We have different claims cost for this medication therapy.  To represent cost, we are using two parameters.
+                     </p>
+                      <span style='font-weight:bold;'>Median: </span>  it is the middle of a sorted list of numbers.<br/>
+                      <span style='font-weight:bold;'>Mode: </span> It is simply the number which appears most often.
+                    </span>
+                
+
+
+
+
+
+                            <!-- <div class='text-center'>
+                                <a href='/Cost' class='btn btn-default btn-block'>More Information</a>
+                            </div> -->
+                          </div>
+      			
+      				</div>"><img src="/info-icon.png"></div>
+
+            </li>
+            <li class="TotalValueWraper">
+              <div class="col-md-1 drugitem TotalValueWraper width100">
+                            <div class="text-center pdl-totalvalue dcol02TotalValue fltlft" drugsequence="{{DrugSequence}}" drugData="{{DrugsData}}" madication="{{DrugName}}" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                            <div style='width:985px;'><span style='width:935px;height:500px;z-index:9;' id='valueChart_{{DrugSequence}}'  class='dimpleMapsContainer'></span><span style='width:100px;height:60px;position:absolute;top: 50px;right: 20%;opacity:0.5;z-index:1;'>
+                                <img width='100px' height='60px' src='/optimal-position.png'/></span>
+                                     <span class='valueChartPopulation_Prev valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                         {{#with getPateintInfo}}
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue relativeValueChart_Genotype'>{{PopulationData_Genotype}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue relativeValueChart_Cirrhosis'>{{PopulationData_Cirrhosis}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue relativeValueChart_Treatment'>{{PopulationData_Treatment}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainer' class='populationValue'>{{PopulationData_ViralLoad}}</td></tr>
+
+                                        </table>
+                                        {{/with}}
+                                        <!-- <span class='moreChartPopulationLink'>more</span> -->
+                                     </span>
+                                     <span class='valueChartPopulation_All valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                         {{#with getPateintInfo}}
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue relativeValueChart_Genotype'>{{PopulationData_Genotype}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue relativeValueChart_Cirrhosis'>{{PopulationData_Cirrhosis}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue relativeValueChart_Treatment'>{{PopulationData_Treatment}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainerAll' class='populationValue'>{{PopulationData_ViralLoad}}</td></tr>
+
+                                        </table>
+                                        {{/with}}
+                                        <!-- <span class='moreChartPopulationLink'>less</span> -->
+                                     </span>
+                                     <span class='valueChartChangeAxisCombo'>
+                                         <b>X-axis </b><div class='form-select'><select class='changeXAxis'>
+        								 			<option value='Cost'>Cost</option>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                        <br />
+                                        <b>Y-axis </b><div class='form-select'><select class='changeYAxis'>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Cost'>Cost</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                     </span>
+                                     <span class='valueChartLegend'>
+                                         <img src='/value-newLegend.png'/>
+                                     </span></div>" title="<b>Relative Value for {{DrugName}}</b> <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.dcol02TotalValue&quot;).popover(&quot;hide&quot;);'></i>">
+
+                                <div class="gaugeMeter" style="display: inline-block;">
+
+                                    <div id="SvgForValueZone{{DrugSequence}}"> {{CreateSVGForValueZone DrugsData DrugName DrugSequence}}</div>
+
+                                </div>
+                            </div>
+
+                            <div class="pdl-relative-value-title">
+                                <img src="/select-position.png" />
+                                <!--<span style='float: left;margin-left: 8px;'>Relative Position</span>-->
+
+                                <div class="pdl-magnifier TotalValueWraper TotalValueWraperZoomBtn width100">
+                                                                  
+                                    <div class="text-center pdl-totalvalue dcol02TotalValue fltlft" drugsequence="{{DrugSequence}}" drugData="{{DrugsData}}" madication="{{DrugName}}" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                                    <div style='width:900px;'>
+                                        <span style='width:850px;height:500px;z-index:9;' id='valueChart_{{DrugSequence}}' class='dimpleMapsContainer'></span>
+                                        <span style='width:100px;height:60px;position:absolute;top: 50px;right: 20%;opacity:0.5;z-index:1;'><img width='100px' height='60px' src='/optimal-position.png'/></span>
+                                     <span class='valueChartPopulation_Prev valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                         {{#with getPopulationData}}
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue relativeValueChart_Genotype'>{{PopulationData_Genotype}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue relativeValueChart_Cirrhosis'>{{PopulationData_Cirrhosis}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue relativeValueChart_Treatment'>{{PopulationData_Treatment}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainer' class='populationValue'>{{PopulationData_ViralLoad}}</td></tr>
+
+                                        </table>
+                                        {{/with}}
+                                        <!-- <span class='moreChartPopulationLink'>more</span> -->
+                                     </span>
+                                     <span class='valueChartPopulation_All valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                         {{#with getPopulationData}}
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue'>{{PopulationData_Genotype}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue'>{{PopulationData_Cirrhosis}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue'>{{PopulationData_Treatment}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainerAll' class='populationValue'>{{PopulationData_ViralLoad}}</td></tr>
+
+                                        </table>
+                                        {{/with}}
+                                        <!-- <span class='moreChartPopulationLink'>less</span> -->
+                                     </span>
+                                     <span class='valueChartChangeAxisCombo'>
+                                         <b>X-axis </b><div class='form-select'><select class='changeXAxis'>
+                              <option value='Cost'>Cost</option>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                        <br />
+                                        <b>Y-axis </b><div class='form-select'><select class='changeYAxis'>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Cost'>Cost</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                     </span>
+                                     <span class='valueChartLegend'>
+                                         <img src='/value-newLegend.png'/>
+                                     </span></div>" title="<b>Relative Value for {{DrugName}}</b> <i class='fa fa-times pull-right popoverTogle' onclick='$(&quot;.dcol02TotalValue&quot;).popover(&quot;hide&quot;);'></i>">
+<img src="/magnifier.png" title="Click on small chart to zoom out" style="margin-left:5px;"/>
+                            </div>
+                                </div>                                   
+
+                            </div>
+                           
+                        </div>
+
+            </li>
+            <!--commented CI by nisha-->
+               <!--<li class="pdl-chart">    <div style="margin: 0 auto; width: 90px;"> {{>PercentCircle score=ConfidenceIndex}}
+                </div>  </li>-->
+        </ul>
+    </div>
+    {{/each}} {{/if}}
+    <div class="pdl-footer">
+
+        <div class="pdlf-compare-div js-compare-btn" style="display: none;">
+            <a href="{{pathFor 'CompareDrugRWE'}}" class="pdf-coamre-btn">Compare Selected</a>
+        </div>
+        <!-- <div class="draug_header" style="display:none;">
+                <ul class="head-wrap">
+                    <li>
+                        <a href="{{pathFor 'CompareDrug'}}" class="lightgreenbtn">Compare Drugs</a>
+                    </li>
+                </ul>
+            </div> -->
+ {{#if isDrugInfoUpdatedEmpty}} {{#if isHavePaging DrugInfoUpdated.length}}
+        <div class="drugpagination pdlf-pagination">
+            <ul class="pdlf-pagination-list">
+                <li class="disable pg-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+                {{#each PaginationPages}}
+                  {{#if isPageFirst pageno }}
+                    <li class="pg{{pageno}} active numpg">{{pageno}}</li>
+                  {{else}}
+                    <li class="pg{{pageno}} numpg">{{pageno}}</li>
+                  {{/if}}
+                  
+                {{/each}}
+                <!-- <li class="active pg1">1</li>
+                <li class="pg2">2</li> -->
+
+                <li  class='pg-next'><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+{{/if}}
+{{/if}}
+        <!-- <div class="drugpagination pdlf-pagination">
+           <ul class="pdlf-pagination-list">
+               <li class="disable pg-prev"><i class="fa fa-long-arrow-left"></i> Prev </li>
+               <li class="active pg1"> 1</li>
+               <li class="pg2"> 2</li>
+               <li class='pg-next'> Next <i class="fa fa-long-arrow-right"></i>
+               </li>
+           </ul>
+       </div> -->
+
+    </div>
+
+    <!-- <div class="pro-evidance-div">
+                <div class="ped-title">Evidence Based Publications & Resources</div>
+                <ul class="ped-linklist">
+                    <li>
+                        <div class="distalbe"><span>Evidence Based Clinical Practice Guidelines</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </li>
+                    <li>
+                        <div class="distalbe"><span>Clinical Trials</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </li>
+                    <li>
+                        <div class="distalbe"><span>Pharmacological & Pharmaceutical</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </li>
+                </ul>
+            </div> -->
+
+    <!--<div class="pro-evidance-div">
+        <div class="ped-title">Evidence Based Publications & Resources</div>
+        <ul class="ped-linklist apiLinksWrapper">
+            <li>
+                <div class="apiLinksSpan distalbe" id="evidenceBased_Api"><span>Evidence Based Clinical Practice Guidelines</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </li>
+            <li>
+                <div class="apiLinksSpan distalbe" id="clinicalTrials_Api"><span>Clinical Trials</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </li>
+            <li>
+                <div class="apiLinksSpan distalbe" id="Pharmacological_Api"><span>Pharmacological & Pharmaceutical</span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </li>
+        </ul>
+    </div>-->
+
+
+    </div>
+
+
+    </div>
+
+  </div>
+</div>
+      {{/if}}  <!--  End Of No Data Found If Block  -->
+    {{/if}} <!--  End Of Main If Block  -->
+
+    {{>MainFooter}}
+</template>

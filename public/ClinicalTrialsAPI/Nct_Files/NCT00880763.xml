@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="531">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00880763</url>
+  </required_header>
+  <id_info>
+    <org_study_id>7009-016</org_study_id>
+    <secondary_id>2009_576</secondary_id>
+    <nct_id>NCT00880763</nct_id>
+  </id_info>
+  <brief_title>A Study of Safety and Efficacy of Vaniprevir Administered With Pegylated-Interferon and Ribavirin in Japanese Participants With Chronic Hepatitis C Infection (7009-016)</brief_title>
+  <official_title>A Phase II Randomized Placebo-controlled Study to Evaluate the Safety and Efficacy of MK-7009 Administered Concomitantly With Pegylated-Interferon and Ribavirin for 28 Days in Japanese Treatment-Experienced Patients With Chronic Hepatitis C Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study evaluates safety and efficacy of vaniprevir (MK7009), when administered with
+      Pegylated-Interferon (peg-IFN) and Ribavirin, in Japanese patients with Hepatitis C
+      infection. The primary hypotheses are that 1.) the proportion of patients achieving rapid
+      viral response (RVR) in one or more of the vaniprevir treatment groups is superior to that
+      in the placebo group, when each is administered concomitantly with pegylated interferon
+      (peg-IFN) α-2a and ribavirin; and 2.) vaniprevir at the studied doses is well tolerated
+      compared with placebo, when each is administered concomitantly with peg-IFN α-2a and
+      ribavirin for 28 days.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2009</start_date>
+  <completion_date type="Actual">February 2012</completion_date>
+  <primary_completion_date type="Actual">June 2010</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Achieving Rapid Viral Response</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Rapid viral response (RVR) is defined as undetectable hepatitis C virus ribonucleic acid (HCV RNA) at Week 4. Serum HCV RNA levels were measured using Roche COBAS TaqMan HCV Auto assay. The limit of quantification was 1.2 log IU/mL (15 IU/mL) and the limit of detection was &lt;1.2 log IU/mL, but with no specific value. The Data-As-Observed (DAO) approach was used to handle missing data.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving a &gt; or = 2-log10 Decrease in HCV RNA From Baseline to Week 4</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Serum HCV RNA levels were measured using Roche COBAS TaqMan HCV Auto assay. The DAO approach was used to handle missing data.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving a &gt; or = 3-log10 Decrease in HCV RNA From Baseline to Week 4</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Serum HCV RNA levels were measured using Roche COBAS TaqMan HCV Auto assay. The DAO approach was used to handle missing data.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in HCV RNA in log10 at Week 4</measure>
+    <time_frame>Baseline and Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Change from baseline in HCV RNA at Week 4 was calculated by subtracting Week 4 HCV RNA level from Baseline HCV RNA level. HCV RNA is measured as International Units per milliliter (IU/mL). Serum HCV RNA levels were measured using Roche COBAS TaqMan HCV Auto assay. The DAO approach was used to handle missing data.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Experienced at Least One Adverse Event</measure>
+    <time_frame>Up to 6 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Discontinued Study Drug Due to an Adverse Event</measure>
+    <time_frame>Up to 6 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event is any unfavorable and unintended change in the structure, function, or chemistry of the body whether or not considered related to the study treatment.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">90</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Vaniprevir 200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive vaniprevir 100 mg twice daily in combination with peg-IFN and ribavirin for 28 days. Participants will continue peg-IFN and ribavirin through Week 6 or, at the investigators discretion, up to Week 72.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 600 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive vaniprevir 300 mg twice daily in combination with peg-IFN and ribavirin for 28 days. Participants will continue peg-IFN and ribavirin through Week 6 or, at the investigators discretion, up to Week 72.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 1200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive vaniprevir 600 mg twice daily in combination with peg-IFN and ribavirin for 28 days. Participants will continue peg-IFN and ribavirin through Week 6 or, at the investigators discretion, up to Week 72.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Placebo + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Participants will receive placebo twice daily in combination with peg-IFN and ribavirin for 28 days. Participants will continue peg-IFN and ribavirin through Week 6 or, at the investigators discretion, up to Week 72.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Vaniprevir</intervention_name>
+    <description>Vaniprevir oral capsule administered twice daily (200, 600 or 1200 mg/day) for 28 days</description>
+    <arm_group_label>Vaniprevir 200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 1200 mg + peg-IFN + ribavirin</arm_group_label>
+    <other_name>MK7009</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pegylated Interferon (peg-IFN)</intervention_name>
+    <description>Open-label peg-IFN alfa-2a subcutaneous injection (sourced locally) administered weekly, 180 micrograms, for 6 weeks</description>
+    <arm_group_label>Vaniprevir 200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 1200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Placebo + peg-IFN + ribavirin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Open-label ribavirin (sourced locally) administered orally twice daily, 600 to 1000 mg/day, for 6 weeks</description>
+    <arm_group_label>Vaniprevir 200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 600 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Vaniprevir 1200 mg + peg-IFN + ribavirin</arm_group_label>
+    <arm_group_label>Placebo + peg-IFN + ribavirin</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Comparator: Placebo</intervention_name>
+    <description>Placebo to vaniprevir oral capsule twice daily for 28 days</description>
+    <arm_group_label>Placebo + peg-IFN + ribavirin</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Has chronic genotype 1 Hepatitis C infection
+
+        Exclusion Criteria:
+
+          -  Has not tolerated previous course of peg-IFN and ribavirin
+
+          -  Has HIV
+
+          -  Has Hepatitis B
+
+          -  Has a history of clinically significant medical condition that may interfere with the
+             study (e.g., stroke or chronic seizures or major neurological disorder) or is
+             contraindicated for treatment with peg-IFN and ribavirin
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Japan</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Hayashi N, Mobashery N, Izumi N. Vaniprevir plus peginterferon alfa-2a and ribavirin in treatment-experienced Japanese patients with hepatitis C virus genotype 1 infection: a randomized phase II study. J Gastroenterol. 2015 Feb;50(2):238-48. doi: 10.1007/s00535-014-0979-2. Epub 2014 Aug 13.</citation>
+    <PMID>25115901</PMID>
+  </results_reference>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 1, 2015</lastchanged_date>
+  <firstreceived_date>April 10, 2009</firstreceived_date>
+  <firstreceived_results_date>September 26, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

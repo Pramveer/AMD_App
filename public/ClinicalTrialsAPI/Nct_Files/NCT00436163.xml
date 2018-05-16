@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="135">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00436163</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML20601</org_study_id>
+    <nct_id>NCT00436163</nct_id>
+  </id_info>
+  <brief_title>A Study of PEGASYS (Peginterferon Alfa-2a (40KD)) in Patients With HBeAg-Positive Chronic Hepatitis B (CHB).</brief_title>
+  <official_title>An Open Label Study Evaluating Safety and the Effect of PEGASYS® on HBV DNA Levels in Patients With HBeAg-positive and HBeAg-negative Chronic Hepatitis B</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Estonia:State Agency of Medicines of Estonia</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This single arm study will evaluate the efficacy and safety of PEGASYS in treatment-naive
+      Baltic patients with HBeAg-positive chronic HBV. All patients will receive PEGASYS 180
+      micrograms s.c. once weekly. Following 48 weeks of treatment, there will be a 24 week period
+      of treatment-free follow-up. The anticipated time on study treatment is 3-12 months, and the
+      target sample size is &lt;100 individuals.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2007</start_date>
+  <completion_date type="Actual">May 2010</completion_date>
+  <primary_completion_date type="Actual">May 2010</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of patients with HBV DNA &lt;100,000 copies/mL</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>HBV DNA &lt;400 copies/mL, HBsAg seroconversion, ALT normalization, sustained HBe seroconversion.</measure>
+    <time_frame>Weeks 48 and 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AEs, laboratory parameters.</measure>
+    <time_frame>Throughout study</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">38</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon alfa-2a [Pegasys]</intervention_name>
+    <description>180 micrograms sc weekly for 48 weeks</description>
+    <arm_group_label>1</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  adult patients, 18-70 years of age;
+
+          -  HBeAg positive, HBsAg positive for &gt;=6 months;
+
+          -  anti-HBs negative;
+
+          -  HBV DNA &gt;500,000 copies/mL.
+
+        Exclusion Criteria:
+
+          -  previous antiviral or interferon-based therapy for CHB;
+
+          -  evidence of decompensated liver disease;
+
+          -  chronic liver disease other than viral hepatitis;
+
+          -  co-infection with active hepatitis A, C or D virus;
+
+          -  co-infection with human immunodeficiency virus (HIV).
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Tallinn</city>
+        <zip>10138</zip>
+        <country>Estonia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tallinn</city>
+        <zip>10617</zip>
+        <country>Estonia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tartu</city>
+        <zip>51014</zip>
+        <country>Estonia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Riga</city>
+        <zip>1006</zip>
+        <country>Latvia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kaunas</city>
+        <zip>47144</zip>
+        <country>Lithuania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kaunas</city>
+        <zip>50009</zip>
+        <country>Lithuania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Klaipeda</city>
+        <zip>92288</zip>
+        <country>Lithuania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vilnius</city>
+        <zip>08117</zip>
+        <country>Lithuania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vilnius</city>
+        <zip>08661</zip>
+        <country>Lithuania</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Estonia</country>
+    <country>Latvia</country>
+    <country>Lithuania</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>February 15, 2007</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

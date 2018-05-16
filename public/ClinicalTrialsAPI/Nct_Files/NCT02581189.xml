@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="693">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02581189</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P15-651</org_study_id>
+    <nct_id>NCT02581189</nct_id>
+  </id_info>
+  <brief_title>Effectiveness of Paritaprevir/r - Ombitasvir, + Dasabuvir, ± Ribavirin in Patients With Chronic Hepatitis C in Canada</brief_title>
+  <acronym>AMBER</acronym>
+  <official_title>Real World Evidence of the Effectiveness of Paritaprevir/r - Ombitasvir, + Dasabuvir, ± Ribavirin in Patients With Chronic Hepatitis C - An Observational Study in Canada (AMBER)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AbbVie</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Cato Research</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IST GmbH, Germany</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>AbbVie</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Canada: Institutional Review Board</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study seeks to provide evidence of the effectiveness and obtain patient reported
+      outcome (PRO) data for the interferon-free ABBVIE REGIMEN ± RBV in participants with chronic
+      hepatitis C (CHC) in a real life setting across clinical practice patient populations in
+      Canada.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">March 2018</completion_date>
+  <primary_completion_date type="Anticipated">March 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants achieving sustained virological response at week 12 (SVR12)</measure>
+    <time_frame>12 weeks after the last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as hepatitis c virus ribonucleic acid (HCV RNA) levels &lt;50 IU/mL 12 weeks after the last dose of study drug.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of the direct-acting antiviral (DAA) dose taken in relation to the target dose of DAA</measure>
+    <time_frame>Throughout the study for approximately 36 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of the ribavirin (RBV) dose taken in relation to the target dose of RBV</measure>
+    <time_frame>Throughout the study for approximately 36 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of missed ribavirin (RBV) treatment days in relation to the target number of RBV treatment days</measure>
+    <time_frame>Throughout the study for approximately 36 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Hepatitis C positive participants</arm_group_label>
+    <description>Hepatitis C positive participants</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients chronically infected with HCV, receiving the interferon-free ABBVIE REGIMEN
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Confirmed, CHC, genotype 1, treatment-naïve or -experienced participants receiving
+             combination therapy with the interferon-free ABBVIE REGIMEN ± RBV
+
+          -  If RBV is co-administered with the ABBVIE REGIMEN, it has been prescribed in line
+             with the current local label (with special attention to contraception requirements
+             and contraindication during pregnancy)
+
+          -  Participants must voluntarily sign and date a participant authorization to use and/or
+             disclose his/her anonymized health data prior to inclusion into the study
+
+        Exclusion Criteria:
+
+        - Participant participating or intending to participate in a concurrent interventional
+        therapeutic trial
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Linda Assouline, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>AbbVie</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145360</name>
+      <address>
+        <city>Barrie</city>
+        <zip>L4M 7G1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144690</name>
+      <address>
+        <city>Belleville</city>
+        <zip>K8N 1E6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144530</name>
+      <address>
+        <city>Brampton</city>
+        <zip>L6R 3J7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144547</name>
+      <address>
+        <city>Calgary</city>
+        <zip>T2N 4Z6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145357</name>
+      <address>
+        <city>Calgery</city>
+        <zip>T2N 4Z6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144674</name>
+      <address>
+        <city>Fredricton</city>
+        <zip>E3B 5N5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144529</name>
+      <address>
+        <city>Halifax</city>
+        <zip>B3H 1V7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144691</name>
+      <address>
+        <city>Hamilton</city>
+        <zip>L8S 4K1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144693</name>
+      <address>
+        <city>Moncton</city>
+        <zip>E1C 6Z8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144539</name>
+      <address>
+        <city>Montreal</city>
+        <zip>H4A 3J1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144546</name>
+      <address>
+        <city>Montreal</city>
+        <zip>H3T 1E2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144692</name>
+      <address>
+        <city>Montreal</city>
+        <zip>H4J 1C5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145372</name>
+      <address>
+        <city>Montreal</city>
+        <zip>H2L 4P9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144531</name>
+      <address>
+        <city>Quebec</city>
+        <zip>G1W 4R4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144684</name>
+      <address>
+        <city>Saint John</city>
+        <zip>E2L4L2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144695</name>
+      <address>
+        <city>Saskatoon</city>
+        <zip>S7K 0C3</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144689</name>
+      <address>
+        <city>Sherbrooke</city>
+        <zip>J1G 2E8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145371</name>
+      <address>
+        <city>St. John</city>
+        <zip>R3E 3P4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144532</name>
+      <address>
+        <city>Toronto</city>
+        <zip>M6H 3M1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144538</name>
+      <address>
+        <city>Toronto</city>
+        <zip>M5G 2C4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144525</name>
+      <address>
+        <city>Vancouver</city>
+        <zip>V6Z 2C7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144526</name>
+      <address>
+        <city>Vancouver</city>
+        <zip>V5Z 1H2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144676</name>
+      <address>
+        <city>Vancouver</city>
+        <zip>V6Z-2K5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144688</name>
+      <address>
+        <city>Vancouver</city>
+        <zip>V5Z 1M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145359</name>
+      <address>
+        <city>Victoria</city>
+        <zip>V8W 1M8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144527</name>
+      <address>
+        <city>Westminster</city>
+        <zip>V3L 3W5</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 145370</name>
+      <address>
+        <city>Winnipeg</city>
+        <zip>R3E 3P4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 27, 2015</lastchanged_date>
+  <firstreceived_date>October 19, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Hepatitis C</keyword>
+  <keyword>Influence of adherence</keyword>
+  <keyword>Patient reported outcomes</keyword>
+  <keyword>Effectiveness</keyword>
+  <keyword>Genotype 1</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

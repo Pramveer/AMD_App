@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="525">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01796457</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DK082864 Immunology Treatment</org_study_id>
+    <secondary_id>U01DK082864</secondary_id>
+    <nct_id>NCT01796457</nct_id>
+  </id_info>
+  <brief_title>HBRN: Immune Regulation and Costimulation in Natural History and Therapeutic Outcome of Chronic Hepatitis B</brief_title>
+  <official_title>HBRN: Immune Regulation and Costimulation in Natural History and Therapeutic Outcome of Chronic Hepatitis B</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Pittsburgh</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Pittsburgh</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an ancillary to the NIDDK-sponsored treatment trials titled: Combination Therapy of
+      Pegylated Interferon Alfa-2a and Tenofovir Versus Tenofovir Monotherapy in Chronic Hepatitis
+      B (NCT01369212) and Combination Entecavir and Peginterferon Therapy in HBeAg-Positive
+      Immune-Tolerant Adults With Chronic Hepatitis B (NCT01369199).
+
+      This study will examine the balance between immune regulatory and effector responses in
+      hepatitis B-infected participants enrolled in the HBRN's clinical trials (NCT01369212 and
+      NCT01369199) to define natural history and treatment outcome.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim 1. Therapeutic HBV suppression will enhance antiviral immune effector responses and
+      reduce immune inhibitory factors in participants with chronic hepatitis B. This study will
+      also examine if antiviral therapy has a durable effect in host immune phenotype and define
+      the immunological effect of interferon-alpha (IFNα) therapy in chronic HBV participants.
+
+      Aim 2. Antiviral immune effector and regulatory responses before, during and/or after
+      therapy can predict long term therapeutic response.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Anticipated">March 2018</completion_date>
+  <primary_completion_date type="Anticipated">March 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Immune regulatory and effector responses relative to HBV DNA, ALT and clinical outcome</measure>
+    <time_frame>up to 192 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBV-specific lymphoproliferative, IFN-gamma and IL10 responses, T cell activation and costimulatory markers ( PD1, CTLA4, CD28, CD127), FoxP3+ Treg frequency, and NK frequency and expression of activating/inhibitory receptors Dendritic cell frequency</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">165</enrollment>
+  <condition>Hepatitis B</condition>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be recruited from multi-site clinical centers in the United
+        States and Canada including primary care hospitals and community centers that have
+        enrolled into the HBRN clinical trials (NCT01369212 or NCT01369199).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Ability to provide informed consent for participation in the ancillary study
+
+        Exclusion Criteria:
+
+          -  Children under 18 years of age
+
+          -  Pregnant women
+
+          -  Participants with anemia (Hgb&lt;10 or Hct&lt;30)
+
+          -  Participants with active medical conditions such as congestive heart failure or
+             chronic lung disease requiring oxygen, active coronary artery disease with unstable
+             angina, sepsis and renal failure
+
+          -  Participants with significant medical conditions, autoimmune disease or
+             immunosuppression
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kyong-Mi Chang, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mary Valiga, RN</last_name>
+    <phone>215-823-5800 Ext. 6726</phone>
+    <email>mevaliga@mail.med.upenn.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>California Pacific Medical Center</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stewart Cooper, MD</last_name>
+      <phone>415-600-1530</phone>
+      <email>scooper@cpmcri.org</email>
+    </contact>
+    <contact_backup>
+      <phone>415-600-1020</phone>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University of California San Francisco Medical Center</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Norah Terrault, MD,MPH</last_name>
+      <phone>415-476-2227</phone>
+      <email>norah.terrault@ucsf.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Beth Israel Deaconess Medical Center</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Daryl Lau, MD</last_name>
+      <phone>617-632-1098</phone>
+      <email>dlau@bidmc.harvard.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Ray Chung, MD</last_name>
+      <phone>617-724-7562</phone>
+      <email>rtchung@partners.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Minnesota</name>
+      <address>
+        <city>Plymouth</city>
+        <state>Minnesota</state>
+        <zip>55446</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Mohamed Hassan, MD</last_name>
+      <phone>612-625-8999</phone>
+      <email>hassan042@umn.edu</email>
+    </contact>
+    <contact_backup>
+      <phone>612-626-1716</phone>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic Rochester</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Lewis R. Roberts, MB, ChB, PhD</last_name>
+      <phone>507-538-4877</phone>
+      <email>roberts.lewis@mayo.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Texas Southwestern</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75390</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>William Lee, MD</last_name>
+      <phone>214-645-6110</phone>
+      <email>william.lee@utsouthwestern.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Commonwealth University Medical Center</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23298</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Richard Sterling, MD</last_name>
+      <phone>804-828-4060</phone>
+      <email>rksterli@vcu.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Harborview Medical Center</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Robert Carithers, MD</last_name>
+      <phone>206-598-4956</phone>
+      <email>robertc@medicine.washington.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Mason Medical Center</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chia Wang, MD, MS</last_name>
+      <phone>206-341-1452</phone>
+      <email>chia.wang@vmmc.org</email>
+    </contact>
+    <contact_backup>
+      <phone>206-341-1021</phone>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Toronto Western Hospital Liver Centre</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Harry Janssen, MD, PhD</last_name>
+      <phone>416-603-5800</phone>
+      <phone_ext>2776</phone_ext>
+      <email>harry.janssen@uhn.edu</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.hepbnet.org</url>
+    <description>Hepatitis B Research Network (HBRN) Website</description>
+  </link>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 4, 2015</lastchanged_date>
+  <firstreceived_date>February 19, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis B</keyword>
+  <keyword>Immunology</keyword>
+  <keyword>HBV</keyword>
+  <keyword>Immune tolerant</keyword>
+  <keyword>Immune active</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

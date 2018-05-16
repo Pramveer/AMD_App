@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="134">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01753557</url>
+  </required_header>
+  <id_info>
+    <org_study_id>G060-A12</org_study_id>
+    <nct_id>NCT01753557</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of MP-424, Peginterferon Alfa-2a (PEG-IFN Alfa-2a), and Ribavirin(RBV) in Treatment-Naïve or Relapsed Hepatitis C</brief_title>
+  <official_title>A Phase 3 Study of MP-424 in Combination With PEG-IFN Alfa-2a and RBV, in Subjects With Genotype 1 Hepatitis C, Who Are Treatment-Naïve or Relapsed After Previous Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mitsubishi Tanabe Pharma Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Mitsubishi Tanabe Pharma Corporation</source>
+  <oversight_info>
+    <authority>Japan: Ministry of Health, Labor and Welfare</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the efficacy and safety of MP-424 with PEG-IFN Alfa-2a and RBV in
+      patients with genotype 1 hepatitis C, who are naïve to its treatment or relapsed after
+      previous treatment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2012</start_date>
+  <completion_date type="Actual">November 2014</completion_date>
+  <primary_completion_date type="Actual">November 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Undetectable HCV (Hepatitis C Virus) RNA (Ribonucleic Acid) at 24 weeks after completion of drug administration (SVR, sustained viral response)</measure>
+    <time_frame>48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Undetectable HCV RNA at 4 weeks after beginning of drug administration (RVR, rapid viral response)</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Undetectable HCV RNA at completion of drug administration (ETR, end-of-treatment response)</measure>
+    <time_frame>24 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Undetectable HCV RNA at 12 weeks after completion of drug administration</measure>
+    <time_frame>36 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Transition of serum HCV RNA levels</measure>
+    <time_frame>From baseline to 24 weeks after completion of drug administration</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Viral sequencing at the NS3 protease region of HCV virus</measure>
+    <time_frame>From baseline to 24 weeks after completion of drug administration</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">54</enrollment>
+  <condition>Chronic Hepatitis C (CHC)</condition>
+  <arm_group>
+    <arm_group_label>Treatment-Naive</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment-Relapsed</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>MP-424</intervention_name>
+    <description>MP-424: 750mg every 8 hours (q8h) for 12 weeks</description>
+    <arm_group_label>Treatment-Naive</arm_group_label>
+    <arm_group_label>Treatment-Relapsed</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>RBV: 600 - 1000 mg/day based on body weight for 24 weeks</description>
+    <arm_group_label>Treatment-Naive</arm_group_label>
+    <arm_group_label>Treatment-Relapsed</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG-IFN alfa-2a</intervention_name>
+    <description>PEG-IFN alfa-2a: 180mcg/week for 24 weeks</description>
+    <arm_group_label>Treatment-Naive</arm_group_label>
+    <arm_group_label>Treatment-Relapsed</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Genotype 1 CHC
+
+          -  treatment-naïve or relapsers (patient who relapsed after previous treatment)
+
+          -  Able and willing to follow contraception requirements
+
+        Exclusion Criteria:
+
+          -  Cirrhosis of the liver or hepatic failure
+
+          -  Hepatitis B surface antigen-positive or HIV (Human Immunodeficiency Virus)
+             antibodies-positive
+
+          -  History of, or concurrent hepatocellular carcinoma
+
+          -  History of, or concurrent depression, schizophrenia, or suicide attempt in the past
+
+          -  Pregnant, lactating, or suspected pregnant patients, or male patients whose female
+             partner is pregnant
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kazuoki Kondo, M.D.</last_name>
+    <role>Study Director</role>
+    <affiliation>Mitsubishi Tanabe Pharma Corporation</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Toranomon Hospital</name>
+      <address>
+        <city>Kawasaki City</city>
+        <state>Takatsu-ku</state>
+        <zip>213-8587</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 17, 2015</lastchanged_date>
+  <firstreceived_date>December 13, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Pegasys</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

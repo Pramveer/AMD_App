@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="22">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00160251</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P03659</org_study_id>
+    <nct_id>NCT00160251</nct_id>
+  </id_info>
+  <brief_title>Boceprevir (SCH 503034) Plus Peg-Intron, With and Without Added Ribavirin, in Patients With Chronic Hepatitis C, Genotype 1, Who Did Not Respond to Previous Treatment With Peginterferon Alfa Plus Ribavirin (Study P03659AM2)(COMPLETED)</brief_title>
+  <official_title>PEG-Intron/REBETOL vs PEG-Intron/ SCH 503034 With and Without Ribavirin in Chronic Hepatitis C Virus Genotype 1 (HCV-1) Peginterferon Alfa/Ribavirin Nonresponders: A SCH 503034 Dose-Finding Phase 2 Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this study is to determine the safe and effective dose range of
+      boceprevir (SCH 503034) in combination with PEG-Intron in adult subjects who have chronic
+      hepatitis C without cirrhosis, and who have failed an adequate course of combination therapy
+      with peginterferon-alfa plus ribavirin. A secondary objective is to explore whether
+      ribavirin provides an additional benefit when combined with PEG-Intron plus boceprevir.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2005</start_date>
+  <completion_date type="Actual">July 2007</completion_date>
+  <primary_completion_date type="Actual">July 2007</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double-Blind, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percent of Participants Who Were Hepatitis C Virus Ribonucleic Acid (HCV-RNA) Negative at the End of Treatment (EoT)</measure>
+    <time_frame>Baseline up to Week 49</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sustained Viral Response (SVR) was defined as the percentage of participants with HCV-RNA undetectable at the follow-up Week 24.
+All percentages were based on the total number of participants originally randomized/enrolled to that particular arm.
+For Arm 1B, the denominator for the percentages was the number who received at least 1 dose of BOC.
+Arm 1A was not analyzed.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percent of Participants Who Achieved Sustained Virologic Response (SVR)</measure>
+    <time_frame>Baseline up to Week 73 [24 weeks after end of treatment (EoT)]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as the percentage of participants with Hepatitis C Virus Ribonucleic Acid (HCV-RNA) undetectable at the follow-up Week 24.
+All percentages were based on the total number of participants originally randomized/enrolled to that particular arm.
+For Arm 1B, the denominator for the percentages was the number who received at least 1 dose of BOC.
+Arm 1A was not analyzed.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percent of Participants Who Achieved Sustained Viral Response (SVR) by Time to First Negative HCV-RNA</measure>
+    <time_frame>Baseline up to Week 73 [24 weeks after EoT]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants who became HCV-RNA undetectable within the first 13 weeks and subsequently became HCV-RNA positive were not considered negative for this analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Were HCV-RNA Negative at EoT After Receiving 1 Week of Treatment With PegIntron (PEG) by Log Drop</measure>
+    <time_frame>Week 1 and Week 49</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>For each log drop category (&lt;0, 0 to 0.5, 0.5 to &lt;1, 1 to &lt;1.5, ≥1.5, and Missing), the percentage of participants receiving combination therapy who were HCV-RNA negative at EoT (Week 49) was calculated as follows:
+Number of participants in a log category who were HCV-RNA negative divided by the total number of participants in that log drop category (n).
+Percentages were NOT derived using treatment arm N values. The sum of the n values for all 6 log drop categories within a treatment arm equals the overall N for that treatment group.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percent of Participants With Virologic Response Prior to Amendment 2</measure>
+    <time_frame>Week 3, Week 5, Week 13</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic response was defined as the percentage of participants with Hepatitis C Virus Ribonucleic Acid (HCV-RNA) ≤10,000 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Peak Plasma Concentration of Boceprevir (BOC)</measure>
+    <time_frame>All visits during treatment (baseline to Week 49) except Day 1 of Week 1</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>All plasma samples were assayed using a validated liquid chromatography with tandem mass spectrometric detection (LCMS/MS) method.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Area Under the Plasma Concentration-time Curve of Boceprevir Plasma Concentration for an 8-hour Dosing Period</measure>
+    <time_frame>All visits during treatment (baseline to Week 49) except Day 1 of Week 1</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>All plasma samples were assayed using a validated liquid chromatography with tandem mass spectrometric detection (LCMS/MS) method.
+The dosing interval of 8 hours is represented as the hr in the unit of measure.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Trough Plasma Concentration Level</measure>
+    <time_frame>All visits during treatment (baseline to Week 49) except Day 1 of Week 1</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>All plasma samples were assayed using a validated liquid chromatography with tandem mass spectrometric detection (LCMS/MS) method.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in Alanine Aminotransferase (ALT) Levels</measure>
+    <time_frame>Baseline up to dosing change (&gt; 25 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Change in ALT levels during initial treatment regimen and after rolling into amendment 2 as compared to baseline.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Were HCV-RNA Negative During Amendment 2 (AM2) for Those Who Started on Arms 2 (PEG+BOC 100), 3 (PEG+BOC 200), 4 (PEG+BOC 400 [48 Weeks]), 6 (PEG+BOC 400 [24 Weeks])</measure>
+    <time_frame>From dosing change to end of follow-up (Week 73)(up to 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Log drop at baseline of dosing change = difference of log viral loads between baseline (closest to the treatment begin date) and dosing change baseline (virology value closest to the dosing change begin date).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Were HCV-RNA Negative During Amendment 2 (AM2) for Those Who Started on PegIntron (PEG) + Rebetol (RVB) + Boceprevir (BOC) 400 (Arm 5)</measure>
+    <time_frame>From dosing change to end of follow-up (Week 73)(up to 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Log drop at baseline of dosing change = difference of log viral loads between baseline (closest to the treatment begin date) and dosing change baseline (virology value closest to the dosing change begin date).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Were HCV-RNA Negative During Amendment 2 (AM2) for Those Who Started on PegIntron (PEG) + Boceprevir (BOC) 800 (Arm 7)</measure>
+    <time_frame>From dosing change to end of follow-up (Week 73) (up to 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Log drop at baseline of dosing change = difference of log viral loads between baseline (closest to the treatment begin date) and dosing change baseline (virology value closest to the dosing change begin date).</description>
+  </secondary_outcome>
+  <number_of_arms>9</number_of_arms>
+  <enrollment type="Actual">357</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Arm 1A: PegIntron (PEG) + Ribavirin (RBV)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + RBV for 12 weeks. If HCV-RNA is undetected, PEG + RBV will continue for another 36 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 1B: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + RBV for 12 weeks. If HCV-RNA is detectable, BOC 400 mg TID will be added for 36 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2: PegIntron (PEG) + Boceprevir (BOC) 100 (48 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEB + BOC 100 for 48 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 3: PegIntron (PEG) + Boceprevir (BOC) 200 (48 Weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + BOC 200 for 48 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 4: PegIntron (PEG) + Boceprevir (BOC) 400 (48 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + BOC 400 for 48 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 5: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + RBV + BOC 400 for 48 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 6: PegIntron (PEG) + Boceprevir (BOC) 400 (24 Weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>A single dose of PEG is given first, followed 1 week later by PEG + BOC 400 for 24 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 7: PegIntron (PEG) + Boceprevir (BOC) 800</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>By first protocol amendment to P03659, this non-randomized arm is added. A single dose of PEG is given first, followed 1 week later by PEG + BOC 800 for 24 weeks. By second protocol amendment to P03659, participants will be rolled over into Arm 8 for the remainder of the treatment period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 8: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 800</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>By second protocol amendment to P03659, participants from all arms except Arm 1A will be rolled over into PEG + RBV + BOC 800 for the remainder of the treatment period.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir (BOC)</intervention_name>
+    <description>100 or 200 mg capusles taken orally as 100 mg, 200 mg, 400 mg, or 800 mg TID</description>
+    <arm_group_label>Arm 1B: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 2: PegIntron (PEG) + Boceprevir (BOC) 100 (48 weeks)</arm_group_label>
+    <arm_group_label>Arm 3: PegIntron (PEG) + Boceprevir (BOC) 200 (48 Weeks)</arm_group_label>
+    <arm_group_label>Arm 4: PegIntron (PEG) + Boceprevir (BOC) 400 (48 weeks)</arm_group_label>
+    <arm_group_label>Arm 5: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 6: PegIntron (PEG) + Boceprevir (BOC) 400 (24 Weeks)</arm_group_label>
+    <arm_group_label>Arm 7: PegIntron (PEG) + Boceprevir (BOC) 800</arm_group_label>
+    <arm_group_label>Arm 8: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 800</arm_group_label>
+    <other_name>SCH 503034</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIntron (PEG)</intervention_name>
+    <description>1.5 mcg/kg weekly subcutaneously</description>
+    <arm_group_label>Arm 1A: PegIntron (PEG) + Ribavirin (RBV)</arm_group_label>
+    <arm_group_label>Arm 1B: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 2: PegIntron (PEG) + Boceprevir (BOC) 100 (48 weeks)</arm_group_label>
+    <arm_group_label>Arm 3: PegIntron (PEG) + Boceprevir (BOC) 200 (48 Weeks)</arm_group_label>
+    <arm_group_label>Arm 4: PegIntron (PEG) + Boceprevir (BOC) 400 (48 weeks)</arm_group_label>
+    <arm_group_label>Arm 5: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 6: PegIntron (PEG) + Boceprevir (BOC) 400 (24 Weeks)</arm_group_label>
+    <arm_group_label>Arm 7: PegIntron (PEG) + Boceprevir (BOC) 800</arm_group_label>
+    <arm_group_label>Arm 8: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 800</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (RBV)</intervention_name>
+    <description>200 mg capsules taken twice daily (BID) (total daily dose of 800-1400 mg/day, depending on weight [weight-based dosing {WBD}])</description>
+    <arm_group_label>Arm 1A: PegIntron (PEG) + Ribavirin (RBV)</arm_group_label>
+    <arm_group_label>Arm 1B: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 5: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 400</arm_group_label>
+    <arm_group_label>Arm 8: PegIntron (PEG)+Ribavirin (RBV)+Boceprevir (BOC) 800</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Key inclusion criteria:
+
+          -  Documented infection with chronic hepatitis C (CHC), genotype 1.
+
+          -  Documented failure to respond to an adequate course of treatment (minimum 12 weeks)
+             with peginterferon-alfa plus ribavirin (failure defined as &lt;2 log drop in HCV-RNA
+             after 12 weeks of therapy or those who never become Hepatitis C Virus Ribonucleic
+             Acid (HCV)-RNA negative)
+
+          -  No evidence of cirrhosis on liver biopsy.
+
+          -  Results of physical examination and laboratory tests within specified ranges.
+
+          -  Abstinence from use of abused substances.
+
+        Key exclusion criteria:
+
+          -  Women who are pregnant or nursing a child.
+
+          -  Patients with cirrhosis, co-infection with Hepatitis B or human immunodeficiency
+             virus (HIV), and African-American patients (by protocol amendment 2, African-American
+             patients can enroll).
+
+          -  Previous treatment with any Hepatitis C Virus (HCV) polymerase or protease inhibitor.
+
+          -  Patients who relapsed following response to previous treatment.
+
+          -  Evidence of advanced liver disease, or liver disease from a cause other than CHC.
+
+          -  Pre-existing psychiatric condition.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 13, 2015</lastchanged_date>
+  <firstreceived_date>September 8, 2005</firstreceived_date>
+  <firstreceived_results_date>May 13, 2011</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>PEG-Intron</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>Protease Inhibitor</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

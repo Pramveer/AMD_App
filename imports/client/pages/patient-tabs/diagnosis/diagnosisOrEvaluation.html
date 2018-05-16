@@ -1,0 +1,252 @@
+<template name="DiagnosisOrEvaluation">
+   <!--  Bind Patient's Health Data from Database using 'person' helper method-->
+    {{#with person}}
+    <div class="hltrec_right">
+        <div class="hltrecr_left">
+            <div class="textfldboxs ">
+                <div class="textflddiv {{isFormValid Genotype}} dvGenotype">
+                    <div class="box-title">
+                        <Label><span class="redcolor">*</span> Genotype</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{Genotype}}" />
+                    </div>
+                </div>
+                <div class="textflddiv {{isFormValid ViralLoad}} dvViralLoad">
+                    <div class="box-title">
+                        <Label><span class="redcolor">*</span> Viral Load</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" id="txtViralLoad" class="hltrec_txtfld" value="{{ViralLoad}}" placeholder="Enter Information" />
+                    </div>
+                </div>
+                <div class="textflddiv {{isFormValid ETOH}} dvETOHLevel">
+                    <div class="box-title">
+                        <Label><span class="redcolor">*</span> ETOH Level</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{ETOH}}" />
+                    </div>
+                </div>
+            </div>
+            <!-- Treatment Panel -->
+            <div class="borderbox">
+                <div class="textfldboxs">
+                    <div class="textflddiv fullwidth borderbot">
+                        <div class="box-title">
+                            <Label> Treatment </Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" name="rdTreatmentExperienced" class="hltrec_radio" value="Yes" />Naive
+                            <input type="radio" name="rdTreatmentExperienced" class="hltrec_radio" value="No" {{treatmentTypeExperinced Treatment}} />Experienced </div>
+                    </div>
+                </div>
+                <div class="textfldboxs dvToggleTreatment {{clsDesableOpacity Treatment}}">
+                    <div class="textflddiv fld3">
+                        <div class="box-title">
+                            <Label> Relapsed </Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" name="rdTreatmentNative" {{isYesChecked Relapsed}} />Yes
+                            <input type="radio" class="hltrec_radio" name="rdTreatmentNative" {{isNoChecked Relapsed}} />No </div>
+                    </div>
+                    <div class="textflddiv fld3">
+                        <div class="box-title">
+                            <Label>Partial Respose </Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" name="rdRelapsed" {{isYesChecked PartialRespos}} />Yes
+                            <input type="radio" class="hltrec_radio" name="rdRelapsed" {{isNoChecked PartialRespos}} />No </div>
+                    </div>
+                    <div class="textflddiv fld3">
+                        <div class="box-title">
+                            <Label> Non Responsive</Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" name="rdNonResponsive" {{isYesChecked NonResponsive}} />Yes
+                            <input type="radio" class="hltrec_radio" name="rdNonResponsive" {{isNoChecked NonResponsive}} />No </div>
+                    </div>
+                </div>
+            </div>
+            <div class="textfldboxs btnbox">
+                <div class="textflddiv ">
+                    <div class="box-title">
+                        <Label>Screening for
+                            <br /> Hepatocellular carciNoma(HCC)</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input placeholder="Enter Information" type="text" class="hltrec_txtfld" value="{{HCC}}" /> </div>
+                </div>
+                <div class="textflddiv  dvUrineScreen">
+                    <div class="box-title">
+                        <Label><span class="redcolor">*</span> Urine Screen</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input placeholder="Enter Information" type="text" class="hltrec_txtfld" value="{{UrineScreen}}" /> </div>
+                </div>
+            </div>
+            <div class="borderbox">
+                <div class="textfldboxs">
+                    <div class="textflddiv ">
+                        <div class="box-title">
+                            <Label>Cirrhosis</Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" name="rdCirrhosis" value="Yes" {{isYesChecked Cirrhosis}} />Yes
+                            <input type="radio" class="hltrec_radio" name="rdCirrhosis" value="No" {{isNoChecked Cirrhosis}} />No </div>
+                    </div>
+                    <div class="textflddiv dvCirrhosis  ">
+                        <div class="box-title">
+                            <Label> Meld Score</Label>
+                        </div>
+                        <div class="box-fld">
+                            <input type="text" placeholder="Enter Information" class="hltrec_txtfld" value="{{MeldScore}}" /> </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Assessment of liver disease Panel-->
+            <div class="borderbox">
+                <div class="textfldboxs">
+                    <div class="textflddiv fullwidth borderbot">
+                        <div class="box-title">
+                            <Label><span class="redcolor">*</span> Assessment of liver disease</Label>
+                        </div>
+                        <div class="box-radio">
+                            <input type="radio" class="hltrec_radio" name="rdALD" value="Yes" {{isYesChecked AssessmentLiverDisaese}}/>Yes
+                            <input type="radio" class="hltrec_radio" name="rdALD" value="No" {{isNoChecked AssessmentLiverDisaese}}/>No
+                        </div>
+                    </div>
+                </div>
+                <div class="textfldboxs dvAssessmentld {{isFormValid AssessmentLiverDisaese}}">
+                    <div class="textflddiv ">
+                        <div class="box-title">
+                            <Label><span class="redcolor">**</span> Fibrosure </Label>
+                        </div>
+                        <div class="box-fld">
+                            <input type="text" placeholder="Enter Information" class="hltrec_txtfld" id="txtFibrosure" value="{{Fibrosur}}">
+                        </div>
+                    </div>
+                    <div class="textflddiv">
+                        <div class="box-title">
+                            <Label><span class="redcolor">**</span> Liver biopsy</Label>
+                        </div>
+                        <div class="box-fld">
+                            <input type="text" placeholder="Enter Information" class="hltrec_txtfld" id="txtLiverBiopsy" value="{{LiverBiopsy}}">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="clsRequire"><span>**</span> Only one or the other is required</div>
+                </div>
+            </div>
+            <div class="borderbox">
+                <div class="textfldboxs dvCMPCBC ">
+                    <div class="textflddiv dvCMP {{isFormValid CMP}}">
+                        <div class="box-title ">
+                            <Label><span class="redcolor">*</span> CMP </Label>
+                        </div>
+                        <!--                                         <div class="box-fld">
+                            <input type="text" placeholder="Enter Information" class="hltrec_txtfld" id="txtCMP" value="{{CMP}}">
+                        </div> -->
+                        <div class="box-btn">
+                            <button class="hltrec_btn  {{setLabClass CMP}}">View Lab</button>
+                        </div>
+                    </div>
+                    <div class="textflddiv dvCBC {{isFormValid CBC}}">
+                        <div class="box-title">
+                            <Label><span class="redcolor">*</span> CBC</Label>
+                        </div>
+                        <!-- <div class="box-fld">
+                            <input type="text" placeholder="Enter Information" class="hltrec_txtfld" id="txtCBC" value="{{CBC}}">
+                        </div> -->
+                        <div class="box-btn">
+                            <button class="hltrec_btn {{setLabClass CBC}}">View Lab</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clsRequire"><span>*</span> Required Fields</div>
+        </div>
+        <div class="hltrecr_right">
+            <div class="fulwidbox">
+                <div class="box-title">
+                    <Label> Age </Label>
+                </div>
+                <div class="box-fld">
+                    <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{getAge Birthday}}" />
+                </div>
+            </div>
+            <div class="fulwidbox">
+                <div class="box-title">
+                    <Label> Gender</Label>
+                </div>
+                <div class="box-fld">
+                    <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{Gender}}" />
+                </div>
+            </div>
+            <div class="fulwidbox">
+                <div class="box-title">
+                    <Label> Ethnicity</Label>
+                </div>
+                <div class="box-fld">
+                    <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{Ethnicity}}" />
+                </div>
+            </div>
+            <div class="fulwidbox">
+                <div class="box-title">
+                    <Label> Body Weight</Label>
+                </div>
+                <div class="box-fld">
+                    <input type="text" class="hltrec_txtfld" placeholder="Enter Information" value="{{BodyWeight}}" />
+                </div>
+            </div>
+            <div class="fulwidbox dvPregnancy {{riskbox Pregnancy}}">
+                <div class="box-title">
+                    <Label> Pregnancy</Label>
+                </div>
+                <div class="box-radio">
+                    <input type="radio" class="hltrec_radio" name="rdPregnancy" value="Yes" {{isYesChecked Pregnancy}}/>Yes
+                    <input type="radio" class="hltrec_radio" name="rdPregnancy" value="No" {{isNoChecked Pregnancy}} />No </div>
+                {{{exclamation Pregnancy}}}
+            </div>
+            <div class="fulwidbox dvRenelFailure  {{riskbox RenalFailure}}">
+                <div class="box-title">
+                    <Label> Renal Failure</Label>
+                </div>
+                <div class="box-radio">
+                    <input type="radio" class="hltrec_radio" name="rdRenal" value="Yes" {{isYesChecked RenalFailure}}/>Yes
+                    <input type="radio" class="hltrec_radio" name="rdRenal" value="No" {{isNoChecked RenalFailure}}/>No
+                </div>
+                {{{exclamation RenalFailure}}}
+            </div>
+            <div class="fulwidbox dvMentalHealth {{riskbox MentalHealth}} ">
+                <div class="box-title">
+                    <Label> Mental Health</Label>
+                </div>
+                <div class="box-radio">
+                    <input type="radio" class="hltrec_radio" name="rdMental" value="Yes" {{isYesChecked MentalHealth}}/>Yes
+                    <input type="radio" class="hltrec_radio" name="rdMental" value="No" {{isNoChecked MentalHealth}}/>No </div>
+                {{{exclamation MentalHealth}}}
+            </div>
+            <div class="fulwidbox dvSmoking {{riskbox Smoking}}">
+                <div class="box-title">
+                    <Label> Smoking</Label>
+                </div>
+                <div class="box-radio">
+                    <input type="radio" class="hltrec_radio" name="rdsmoking" value="Yes" {{isYesChecked Smoking}} />Yes
+                    <input type="radio" class="hltrec_radio" name="rdsmoking" value="No" {{isNoChecked Smoking}}/>No </div>
+                {{{exclamation Smoking}}}
+            </div>
+            <div class="fulwidbox {{riskbox Alcohol}}">
+                <div class="box-title">
+                    <Label> Alcohol</Label>
+                </div>
+                <div class="box-radio">
+                    <input type="radio" class="hltrec_radio" name="rdAlcohol" value="Yes" {{isYesChecked Alcohol}} />Yes
+                    <input type="radio" class="hltrec_radio" name="rdAlcohol" value="No" {{isNoChecked Alcohol}} />No </div>
+                {{{exclamation Alcohol}}}
+            </div>
+        </div>
+    </div>
+    {{/with}}
+</template>

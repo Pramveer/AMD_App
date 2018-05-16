@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="92">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02510300</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-334-1113</org_study_id>
+    <secondary_id>2014-004674-42</secondary_id>
+    <nct_id>NCT02510300</nct_id>
+  </id_info>
+  <brief_title>A Registry for Adolescent and Pediatric Participants Who Received a Gilead Hepatitis C Virus Direct Acting Antiviral (DAA) in Gilead-Sponsored Chronic Hepatitis C Infection Trials</brief_title>
+  <official_title>A Long Term Follow-up Registry for Adolescent and Pediatric Subjects Who Received a Gilead Hepatitis C Virus Direct Acting Antiviral (DAA) in Gilead-Sponsored Chronic Hepatitis C Infection Trials</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>Australia: National Health and Medical Research Council</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <authority>Italy: The Italian Medicines Agency</authority>
+    <authority>Germany: Ministry of Health</authority>
+    <authority>Belgium: Federal Agency for Medicinal Products and Health Products</authority>
+    <authority>India: Ministry of Health</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This Registry will enroll adolescent and pediatric participants who received at least one
+      Gilead Hepatitis C Virus (HCV) direct acting antiviral (DAA) while participating in a
+      Gilead-sponsored chronic hepatitis C clinical trial. The primary objective of this Registry
+      is to determine the long-term safety of anti-HCV regimens in the pediatric population.
+      Secondary objectives of this Registry are to determine whether subsequent detection of HCV
+      RNA in participants who relapse following sustained virologic response (SVR) represents the
+      re-emergence of pre-existing virus, the development of resistance mutations, or whether it
+      is due to re-infection, and to characterize resistance mutations and the persistence of
+      resistance mutations in pediatric participants who did not achieve SVR. Once enrolled,
+      participants will be followed for up to 5 years.
+    </textblock>
+  </brief_summary>
+  <overall_status>Enrolling by invitation</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">April 2023</completion_date>
+  <primary_completion_date type="Anticipated">April 2023</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational [Patient Registry]</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>Growth data as measured by body height</measure>
+    <time_frame>Up to 5 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Growth data as measured by body weight</measure>
+    <time_frame>Up to 5 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Development as measured by Tanner Pubertal Stage Assessment</measure>
+    <time_frame>Up to 5 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of adverse events</measure>
+    <time_frame>Up to 5 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants experiencing any adverse event will be summarized.</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Hepatitis C Virus Infection</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir (SOF)</intervention_name>
+    <description>Exposure of interest for participants who received a sofosbuvir-based regimen in previous Gilead-Sponsored Chronic Hepatitis C Infection Trials</description>
+    <other_name>Sovaldi®</other_name>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ledipasvir/Sofosbuvir (LDV/SOF)</intervention_name>
+    <description>Exposure of interest for participants who received a Ledipasvir/Sofosbuvir-based regimen in previous Gilead-Sponsored Chronic Hepatitis C Infection Trials</description>
+    <other_name>Harvoni®</other_name>
+    <other_name>GS-5885/GS-7977</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood samples
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Individuals who participated in a Gilead-sponsored chronic hepatitis C study as an
+        adolescent or pediatric participant and received at least one Gilead HCV direct acting
+        antiviral (DAA)
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Have previously participated in a Gilead-sponsored chronic hepatitis C study as an
+             adolescent or pediatric participant and received at least one Gilead HCV direct
+             acting antiviral
+
+          -  Parent or legal guardian able to provide written informed consent OR individual is
+             able to provide written informed consent and willing to comply with study
+             requirements as determined by institutional review board (IRB)/independent ethics
+             committee(IEC)/local requirements and Investigator's discretion.
+
+          -  Individual is able to provide written assent, if they have the ability to read and
+             write, as determined by IRB/IEC/local requirements and Investigator's discretion
+
+        Exclusion Criteria:
+
+          -  Individual is currently receiving or plans to initiate a new course of hepatitis C
+             therapy including any investigational drug or device during the course of the
+             follow-up Registry.
+
+          -  History of clinically-significant illness or any other major medical disorder that
+             may interfere with the individual's follow-up, assessments or compliance with the
+             protocol.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>3 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bittoo Kanwar, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Louisville</city>
+        <state>Kentucky</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Omaha</city>
+        <state>Nebraska</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fort Worth</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Morgantown</city>
+        <state>West Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Newcastle</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Westmead</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Parkville</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Starnberg</city>
+        <state>Bayern</state>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wuppertal</city>
+        <state>Nordrhein-westfalen</state>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bologna</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Firenze</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Padova</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Torino</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Auckland</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Krasnoyarsk</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Moscow</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Novokuznetsk</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Saint-Petersburg</city>
+        <zip>196645</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Saint-Petersburg</city>
+        <zip>197022</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tolyatti</city>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Birmingham</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Leeds</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>London</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Nottingham University Hospitals NHS Trust</name>
+      <address>
+        <city>Nottingham</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nottingham</city>
+        <state>England</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Glasgow</city>
+        <state>Scotland</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Birmingham Childrens Hospital NHS Trust</name>
+      <address>
+        <city>Birmingham</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Leeds Teaching Hospitals NHS Trust</name>
+      <address>
+        <city>Leeds</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>King's College Hospital</name>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Germany</country>
+    <country>Italy</country>
+    <country>New Zealand</country>
+    <country>Russian Federation</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 8, 2015</lastchanged_date>
+  <firstreceived_date>July 27, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

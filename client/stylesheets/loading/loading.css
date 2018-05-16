@@ -1,0 +1,67 @@
+
+
+
+.overlay {
+    background:transparent url(../images/overlay.png) repeat top left;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:50;
+}
+.anim_loading_theme {
+    width : 80px !important;
+    height: 50px !important;
+    z-index: 99999999 !important;
+    text-align: center;
+    left: 46%;
+    top: 40%;
+    background: transparent !important; 
+    position: absolute;
+    visibility: hidden;
+}
+
+.loading_theme {
+    font-size: 10px;
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: #F36335;
+    margin: 32px -24px;
+    position: absolute;
+    font-weight: bolder
+
+}
+
+.circle {
+    background-color: rgba(0,0,0,0);
+    border: 5px solid rgb(14, 38, 56);
+    opacity: .9;
+    border-right: 5px solid rgba(0,0,0,0);
+    border-left: 5px solid rgba(0,0,0,0);
+    border-radius: 100px;
+    box-shadow: 0 0 35px #D8AB2D;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    animation: spinPulse 2s infinite ease-in-out;
+    -moz-animation: spinPulse 2s infinite ease-in-out;
+    -webkit-animation: spinPulse 2s infinite linear;
+}
+
+.circleOne {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid rgb(19, 50, 72);
+    opacity: .9;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-radius: 75px;
+    box-shadow: 0 0 15px #133248;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+    position: relative;
+    top: -70px;
+    animation: spinoffPulse 3s infinite linear;
+    -moz-animation: spinoffPulse 3s infinite linear;
+    -webkit-animation: spinoffPulse 3s infinite linear;
+}

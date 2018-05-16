@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="49">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00050531</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ID02-534</org_study_id>
+    <secondary_id>NCI-2012-01295</secondary_id>
+    <nct_id>NCT00050531</nct_id>
+  </id_info>
+  <brief_title>High-Dose Gleevec Alone or in Combination With Peg-Intron and GM-CSF in Early Phase Chronic Myelogenous Leukemia (CML)</brief_title>
+  <official_title>Randomized Trial of Therapy of Early Phase Chronic Myelogenous Leukemia With High-Dose Imatinib Mesylate (Gleevec) Alone or in Combination With Peg-Alpha Interferon (PEG-Intron) and Sargramostim (GM-CSF)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>M.D. Anderson Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Novartis</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>M.D. Anderson Cancer Center</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this clinical research study is to learn if giving PEG-Alpha Interferon
+      (PEG-Intron) and Sargramostim (GM-CSF) to patients receiving treatment with high dose
+      Gleevec (imatinib mesylate) is more effective in treating CML in chronic phase than therapy
+      with imatinib mesylate alone.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Imatinib mesylate is a drug that blocks a protein that is responsible for the development of
+      CML. PEG-Intron is a natural substance made by the cells of the immune system and helps to
+      control CML. GM-CSF is a hormone that helps to stimulate the production of white blood
+      cells.
+
+      During the study you will take 400 mg of imatinib mesylate by mouth 2 times a day (800 mg a
+      day total). Imatinib mesylate should be taken each morning and evening with a large glass of
+      water. You may be given a &quot;pill diary&quot; to write down when (day and time) you take the drug.
+      You may also write in the diary any side effects you may experience. You may bring the
+      diary, any unused tablets, and empty bottles of imatinib mesylate with you to every visit to
+      the study doctor. Any unused supplies must be returned at the end of the study.
+
+      After completing 6 months of imatinib mesylate therapy, you will be randomly assigned (as in
+      the toss of a coin) to one of two groups. Patients in the first group will be given
+      PEG-Intron and GM-CSF in addition to imatinib mesylate therapy. Patients in the other group
+      will continue taking only imatinib mesylate.
+
+      If you are assigned to the group that will receive PEG-Intron and GM-CSF, you will continue
+      taking imatinib mesylate. In addition, PEG-Intron will be given as an injection under the
+      skin once a week. Sargramostim will be given as an injection under the skin 3 times a week.
+      You and/or your family members can be taught to give these injections.
+
+      Every 1-2 weeks during the first 4 weeks of the study, you will have around 2 teaspoons of
+      blood drawn for routine blood tests and to measure the amount of imatinib in your blood. The
+      blood tests will then be repeated every 6 to 8 weeks (or more often if your doctor feels it
+      is necessary) for as long as you are on the study. A bone marrow sample will also be taken
+      every 3 months for the first year and then every 4 to 6 months for as long as you are on the
+      study to check on the status of the disease .
+
+      You will be asked to visit the doctor for a physical exam and to have vital signs measured.
+      These visits will be scheduled at least every 3 months while you are on the study. The
+      visits may be scheduled more often depending on the status of the disease.
+
+      Update: February 2012:
+
+      Blood test are recommended 2 times per year. Your doctor will discuss with you how often you
+      should have blood tests. Bone marrow will be done if your doctor thinks it is needed to
+      check the disease. You must return to M.D. Anderson at least once every year. You may not
+      need a bone marrow test every visit, but you will have blood drawn to measure the amount of
+      disease you have.
+
+      Treatment in both groups may be continued for up to 7-10 years, or as long as the doctor
+      feels is necessary to control the leukemia.
+
+      If the disease gets worse or you experience any intolerable side effects, you will be taken
+      off the study and your doctor will discuss other treatment options with you.
+
+      This is an investigational study. All of the drugs used in this study are FDA approved and
+      commercially available. However, their use in this study is investigational. A total of 98
+      patients will take part in this study. All will be enrolled at MD Anderson.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2003</start_date>
+  <primary_completion_date type="Actual">August 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Crossover Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Durations of Pathologic Complete Response (PCR) Negativity, Cytogenetic Response, Hematologic Control, and Survival</measure>
+    <time_frame>12 months</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Primary measure of efficacy is molecular response at 12 months. Other endpoints are cytogenetic response, duration of molecular and cytogenetic response, and survival. The trial will be considered successful if it is established (with 95% probability) that molecular response rate with the combination is superior to the 19% achieved with Gleevec alone.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">94</enrollment>
+  <condition>Leukemia, Myeloid, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Gleevec</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Gleevec 400 mg orally twice daily.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Gleevec + Peg-Intron + GM-CSF</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Gleevec 400 mg orally twice daily. Peg-Intron 0.5 mcg/kg each week subcutaneously. GM-CSF 125 mcg/m^2 three times per week subcutaneously.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Gleevec</intervention_name>
+    <description>400 mg orally twice daily.</description>
+    <arm_group_label>Gleevec</arm_group_label>
+    <arm_group_label>Gleevec + Peg-Intron + GM-CSF</arm_group_label>
+    <other_name>Imatinib Mesylate</other_name>
+    <other_name>STI-571</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peg-alpha interferon (Peg-Intron)</intervention_name>
+    <description>PEG-IFN 0.5 mcg/kg each week subcutaneously.</description>
+    <arm_group_label>Gleevec</arm_group_label>
+    <arm_group_label>Gleevec + Peg-Intron + GM-CSF</arm_group_label>
+    <other_name>PEG Interferon</other_name>
+    <other_name>Interferon Alfa-2b (PEG conjugate)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sargramostim (GM-CSF)</intervention_name>
+    <description>125 mcg/m^2 three times per week subcutaneously.</description>
+    <arm_group_label>Gleevec + Peg-Intron + GM-CSF</arm_group_label>
+    <other_name>LeukineTM</other_name>
+    <other_name>Granulocyte-Macrophage Colony Stimulating Factor</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients with Ph-positive CML in early chronic phase CML who have received no or
+             minimal prior therapy, (&lt;1 month of prior IFN-alpha (with or without ara-C) and/or
+             Gleevec).
+
+          2. Eastern Cooperative Oncology Group (ECOG) performance of 0-2.
+
+          3. Adequate end organ function, defined as the following: total bilirubin &lt; 1.5 x upper
+             limit of normal (ULN), serum glutamate pyruvate transaminase (SGPT) &lt; 2.5 x ULN,
+             creatinine &lt; 1.5 x ULN
+
+          4. Signed informed consent.
+
+        Exclusion Criteria:
+
+          1. New York Heart Association (NYHA) cardiac class 3-4 heart disease.
+
+          2. Psychiatric disability (psychosis)
+
+          3. Pregnant or lactating females
+
+          4. Late chronic phase, accelerated or blastic phase
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jorge E Cortes, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>M.D. Anderson Cancer Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Texas MD Anderson Cancer Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.mdanderson.org</url>
+    <description>University of Texas MD Anderson Cancer Center Website</description>
+  </link>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 17, 2015</lastchanged_date>
+  <firstreceived_date>December 12, 2002</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Myelogenous Leukemia</keyword>
+  <keyword>CML</keyword>
+  <keyword>Early Chronic Phase Chronic Myelogenous Leukemia</keyword>
+  <keyword>Imatinib Mesylate</keyword>
+  <keyword>Gleevec</keyword>
+  <keyword>Peg-Alpha Interferon</keyword>
+  <keyword>Peg-Intron</keyword>
+  <keyword>Sargramostim</keyword>
+  <keyword>GM-CSF</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Myelogenous, Chronic, BCR-ABL Positive</mesh_term>
+    <mesh_term>Leukemia, Myeloid</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Imatinib</mesh_term>
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

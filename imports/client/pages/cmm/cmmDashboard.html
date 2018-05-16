@@ -1,0 +1,23 @@
+<template name="PADashboard">
+    <!-- Full Width Column -->
+    <div class="content-wrapper">
+        <div class="container pagecontent">
+            <!-- Content Header (Page header) -->
+            <div class="row">
+                <section class="content-header hltrec">
+                    <div class="pa-request-content">
+                        <div style="margin:20px 0px 10px 0px">
+                         <div class="cpbackbtn">
+                            <a href="{{pathFor 'Provider'}}" class="compareDrugbackbtn"><span class="compareDrugbackbtnIcon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>back</a>
+                        </div>
+                        </div>
+                        {{> CMMDashboard}}
+                    </div>
+                </section>
+            </div>
+        </div>
+        {{>MainFooter}}
+        <!-- /.container -->
+    </div>
+    <!-- /.content-wrapper -->
+</template>

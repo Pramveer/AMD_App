@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="41">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01544920</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P07755</org_study_id>
+    <secondary_id>2011-001345-32</secondary_id>
+    <secondary_id>MK-3034-040</secondary_id>
+    <secondary_id>CTRI/2012/12/003200</secondary_id>
+    <secondary_id>PHRR131022-000133</secondary_id>
+    <nct_id>NCT01544920</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of Boceprevir/Peginterferon Alfa-2a/Ribavirin in Interleukin-28B CC Allele-Positive Chronic Hepatitis C Virus (HCV) Genotype 1 Participants (P07755)</brief_title>
+  <official_title>A Phase 3, Safety and Efficacy Study of Boceprevir/Peginterferon Alfa-2a/Ribavirin in Chronic HCV Genotype 1 IL28B CC Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary purpose of this study is to compare the efficacy of two boceprevir
+      (BOC)-containing therapeutic regimens in the treatment of naïve participants with chronic
+      hepatitis C virus (HCV) genotype 1 who have the IL28B CC allele.
+
+      The regimens differ in the treatment for participants who achieve HCV ribonucleic acid (RNA)
+      undetectability at the end of the peginterferon alfa-2a (PEG-IFN2a) plus ribavirin (RBV) 4
+      week lead-in. Participants receive either PEG-IFN2a plus RBV alone or BOC plus PEG-IFN2a
+      plus RBV.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2012</start_date>
+  <completion_date type="Actual">May 2015</completion_date>
+  <primary_completion_date type="Actual">May 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Overall Number of Participants Achieving Sustained Viral Response (SVR) at Follow-up Week 24</measure>
+    <time_frame>Baseline to Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving SVR at Follow-up Week 24 Among Those Participants Who Had Achieved Rapid Virologic Response (RVR)</measure>
+    <time_frame>Baseline to Follow-up Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">737</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>PEG-IFN2a/RBV</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants receive an initial 4 week lead-in of PEG-IFN2a/RBV. A 1:1 ratio randomization occurs at Week 4:
+Participants randomized to the active comparator arm will receive open label PEG-IFN2a/RBV for a total of 24 weeks if HCV RNA is undetectable at Week 4.
+Participants who are HCV RNA detectable at Week 4 (non-RVR) will follow a response guided therapy recommendation. These participants will receive BOC/PEG-IFN2a/RBV regimen at Week 6 to allow for the HCV RNA laboratory process turnaround.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>BOC/PEG-IFN2a/RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants receive an initial 4-week lead-in of PEG-IFN2a/RBV. Participants randomized to the experimental arm at Week 4 will receive BOC/PEG-IFN2a/RBV for a total of 24 weeks if the HCV RNA is undetectable at Week 4 (RVR). Those participants who are HCV RNA detectable at Week 4 (Non-RVR) will follow a response guided therapy recommendation.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>peginterferon alfa-2a</intervention_name>
+    <description>peginterferon alfa-2a vials 180 ug/week subcutaneous</description>
+    <arm_group_label>PEG-IFN2a/RBV</arm_group_label>
+    <arm_group_label>BOC/PEG-IFN2a/RBV</arm_group_label>
+    <other_name>Pegasys™</other_name>
+    <other_name>SCH 054031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin</intervention_name>
+    <description>ribavirin 1,000 mg/day (body weight &lt;75 kg) or 1200 mg/day (body weight ≥75 kg) orally divided into two daily doses.</description>
+    <arm_group_label>PEG-IFN2a/RBV</arm_group_label>
+    <arm_group_label>BOC/PEG-IFN2a/RBV</arm_group_label>
+    <other_name>Rebetol</other_name>
+    <other_name>018908</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>boceprevir</intervention_name>
+    <description>Four 200 mg capsules three times a day orally for a total daily dose of 2400 mg.</description>
+    <arm_group_label>PEG-IFN2a/RBV</arm_group_label>
+    <arm_group_label>BOC/PEG-IFN2a/RBV</arm_group_label>
+    <other_name>SCH 503034</other_name>
+    <other_name>Victrelis</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Is ≥ 40 kg and ≤ 125 kg.
+
+          -  Documented CHC genotype 1 with HCV RNA ≥10,000 International Units (IU)/mL
+
+          -  Has IL-28B CC allele gene
+
+          -  Has had a liver biopsy without evidence of cirrhosis and hepatocellular carcinoma
+             (non-invasive fibroscan and Fibrotest can also be used for staging of liver disease).
+
+        Exclusion Criteria:
+
+          -  Co-infection with the human immunodeficiency virus (HIV) or hepatitis B virus
+             (Hepatitis B surface antigen [HBsAg] or HIV positive).
+
+          -  Previously treated with an interferon and ribavirin regimen or HCV direct acting
+             antiviral regimen.
+
+          -  Treatment for hepatitis C with any investigational medication, or prior treatments
+             with herbal remedies with known hepatotoxicity
+
+          -  Receiving any medication(s) within 2 weeks prior to the Day 1 visit that are highly
+             dependent on Cytochrome P450 3A4 (CYP3A4/5) for clearance, and for which elevated
+             plasma concentrations could be associated with serious and/or life-threatening events
+
+          -  Participation in any other clinical trial within 30 days of the screening visit in
+             this trial or intention to participate in another clinical trial during participation
+             in this trial.
+
+          -  Evidence of decompensated liver disease or hepatocellular carcinoma (HCC)
+
+          -  Is diabetic and/or hypertensive with significant retinopathy
+
+          -  Has any known medical condition that could interfere with the participation in and
+             completion of the trial including immunologically-mediated disease, chronic pulmonary
+             disease, or current or history of any clinically significant cardiac
+             abnormalities/dysfunction.
+
+          -  Evidence of active or suspected malignancy, or a history of malignancy, within the
+             last 5 years
+
+          -  Hemoglobin &lt;12 g/dL for females and &lt;13 g/dL for males
+
+          -  Neutrophils &lt;1,500/mm^3, or &lt;1,200/mm^3 for participants of African descent
+
+          -  Platelets &lt;150,000/mm^3
+
+          -  Direct bilirubin &gt;1.5 x upper limit of normal (ULN) of the laboratory reference
+             range.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>Belgium</country>
+    <country>Brazil</country>
+    <country>Canada</country>
+    <country>Chile</country>
+    <country>Colombia</country>
+    <country>Czech Republic</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Guatemala</country>
+    <country>Hong Kong</country>
+    <country>Israel</country>
+    <country>Japan</country>
+    <country>Korea, Republic of</country>
+    <country>Malaysia</country>
+    <country>Mexico</country>
+    <country>New Zealand</country>
+    <country>Peru</country>
+    <country>Philippines</country>
+    <country>Poland</country>
+    <country>Portugal</country>
+    <country>Puerto Rico</country>
+    <country>Russian Federation</country>
+    <country>Singapore</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>Taiwan</country>
+    <country>Thailand</country>
+    <country>Turkey</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 18, 2015</lastchanged_date>
+  <firstreceived_date>February 28, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

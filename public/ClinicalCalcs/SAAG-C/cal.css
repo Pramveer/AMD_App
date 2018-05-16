@@ -1,0 +1,153 @@
+.tool {
+		position: relative;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.tool-input {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+		width: 70px;
+		position: relative;
+		background: #efefef;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 2px #eee;
+		border-radius: 20px;
+		
+		display: inline;
+		float: right;
+		
+		margin-top: -10px;
+	}
+	
+	.tool-input:hover {
+		box-shadow: 1px 1px 2px #666;
+		background: #fff;
+	}
+	
+	.tool-input:disabled {
+		background: #fff;
+	}
+	
+	.tool-container {
+		position: relative;
+		padding: 15px 0px;
+		clear: both;
+		border-bottom: 2px dashed #ccc;
+	}
+	
+	.tool h3 {
+		display: inline;
+		margin-right: 5px;
+	}
+	
+	.container-constant {
+		display: none;
+	}
+	
+	.tool-container .caption {
+		text-align: left;
+		font-size: 12px;
+		display: block;
+		position: relative;
+		padding-left: 20px;
+	}
+	
+	.tool-elem,
+	.tool-result {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	.tool-elem-meld {
+		padding-right: 85px;
+		text-align: right;
+		margin-top: 20px;
+	}
+	
+	.tool-elem-log {
+		position: absolute;
+		left: 0px;
+		top: 26px;
+		width: 195px;
+		text-align: right;
+		display: none;
+	}
+	.tool-elem-plus {
+		position: absolute;
+		right: 0px;
+		top: 26px;
+		width: 210px;
+		text-align: left;
+		display: none;
+	}
+	
+	sub {
+		font-size: 80%;
+		position: relative;
+		top: 3px;
+	}
+	
+	.tool-elem-times {
+		left: 405px;
+	}
+	
+	.tool-result {
+		background: rgb(255,222,70);
+		border-radius: 20px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		margin-top: -31px;
+		position: absolute;
+		right: 0px;
+		width: 55px;
+		text-align: center;
+	}
+	
+	.tool-result .units {
+		margin-left: 1px;
+	}
+	
+	.tool-result-interpretation {
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		background: rgb(204,224,245);	
+		padding-left: 0px;
+		margin-top: 30px;
+	}
+	
+	.tool-result-interpretation h3 {
+		margin-top: 0px;
+	}
+	
+	.tool-option {
+		display: inline;
+		float: right;
+		margin-left: 10px;
+	}
+	
+	.tool-option label,
+	.tool-option input{
+		display: inline;
+	}
+	
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover LOL */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}
+	.content-included h3 {
+    font-size: 13px;
+    font-family: Arial,Verdana,sans-serif;
+	padding-left: 10px;
+    margin: 0;
+    margin-top: 15px;
+}

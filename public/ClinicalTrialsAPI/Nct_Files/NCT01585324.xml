@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="257">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01585324</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML25186</org_study_id>
+    <secondary_id>2011-001256-10</secondary_id>
+    <nct_id>NCT01585324</nct_id>
+  </id_info>
+  <brief_title>A Study of The Relationship Between Drop in Hemoglobin and Sustained Virological Response in Patients With Chronic Hepatitis C Treated With Copegus (Ribavirin) and Pegasys (Peginterferon Alfa-2a)</brief_title>
+  <official_title>Open, Multicenter Phase IV Study, Evaluating Drop of Hemoglobin in Association to the Rate of Sustained Virological Response in Chronic Hepatitis C Patients Treated With Ribavirin (Copegus®) in Combination With Standard Treatment (ANECO)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Czech Republic: State Institute for Drug Control</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This open-label, multicenter, phase IV study will evaluate the relationship between the drop
+      in hemoglobin levels and sustained virological response in patients with chronic hepatitis C
+      genotype 1 treated with Copegus (ribavirin) and Pegasys (peginterferon alfa-2a). Patients
+      will receive Copegus 1000 mg or 1200 mg orally daily and Pegasys 180 mcg subcutaneously
+      weekly. Anticipated time on study treatment, depending on virological response, will be 48
+      or 72 weeks.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2012</start_date>
+  <completion_date type="Actual">January 2014</completion_date>
+  <primary_completion_date type="Actual">January 2014</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virological Response (SVR) 24 Weeks After End of Treatment</measure>
+    <time_frame>24 weeks after the end of treatment (72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR was defined as a disappearance of HCV viral load 24 weeks after the end of the treatment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change From Baseline in Hemoglobin Level at Week 12 of Treatment Among Participants With or Without SVR</measure>
+    <time_frame>Baseline and Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Change in hemoglobin level from a baseline level was assessed in the group of participants who achieved SVR and in the group of participants without SVR.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Decrease in Hemoglobin</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The drop in hemoglobin level at Week 12 compared to level at baseline was assessed and categorized in pre-defined categories (up to 20, 20-40, greater than [&gt;] 40 g/L) for the group of participants who achieved SVR and in the group of participants without SVR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Lowest Hemoglobin Level During Treatment Among Participants With or Without SVR</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The mean minimum hemoglobin value achieved during the treatment was assessed in the group of participants who achieved SVR and in the group of participants without SVR.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Reduction in Ribavirin Dose Due to Drop in Hemoglobin Among Participants With or Without SVR</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Neutropenia Among Participants With or Without SVR</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Thrombocytopenia Among Participants With or Without SVR</measure>
+    <time_frame>Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Single Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon alfa-2a [Pegasys]</intervention_name>
+    <description>180 mcg subcutaneously weekly</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin [Copegus]</intervention_name>
+    <description>1000 mg or 1200 mg orally daily</description>
+    <arm_group_label>Single Arm</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients, &gt;/= 18 years of age
+
+          -  Chronic hepatitis C, genotype 1
+
+          -  Treatment-naïve or patients who relapsed or failed to respond to previous combination
+             therapy with interferon and ribavirin
+
+          -  Detectable HCV-RNA
+
+          -  Fertile males and females of child-bearing potential must agree to use two forms of
+             contraception during treatment and for 6 months after treatment end
+
+        Exclusion Criteria:
+
+          -  Pregnant or breast-feeding women
+
+          -  Male partners of pregnant women
+
+          -  History or evidence of a medical condition associated with chronic liver disease
+             other than HCV
+
+          -  Co-infection with active hepatitis A, hepatitis B and/or HIV virus
+
+          -  Hepatocellular carcinoma
+
+          -  History or evidence of oesophageal varices or other conditions consistent with
+             decompensated liver disease
+
+          -  Anemia
+
+          -  Any patient with increased baseline risk for anemia (e.g. thalassemia,
+             spherocyctosis, history of GI bleeding)
+
+          -  History or evidence of significant cardiovascular disease
+
+          -  Kidney disease
+
+          -  Severe retinopathy
+
+          -  History of severe psychiatric disease, especially depression
+
+          -  Therapy with any systemic anti-viral, anti-neoplastic or immunomodulatory treatment
+             (including supraphysiologic doses of steroids and radiation) &lt;/= 6 months prior to
+             first dose of study drug
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Most</city>
+        <zip>43401</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Czech Republic</country>
+  </location_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 25, 2015</lastchanged_date>
+  <firstreceived_date>April 24, 2012</firstreceived_date>
+  <firstreceived_results_date>June 25, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

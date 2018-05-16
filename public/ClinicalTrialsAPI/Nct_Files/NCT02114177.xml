@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="18">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02114177</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR103430</org_study_id>
+    <secondary_id>TMC435HPC3017</secondary_id>
+    <nct_id>NCT02114177</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety Study of Simeprevir in Combination With Sofosbuvir in Participants With Chronic Hepatitis C Virus Infection Without Cirrhosis</brief_title>
+  <official_title>A Phase 3, Multicenter, Randomized, Open-Label Study to Investigate the Efficacy and Safety of a 12- or 8-Week Treatment Regimen of Simeprevir in Combination With Sofosbuvir in Treatment-Naïve and -Experienced Subjects With Chronic Genotype 1 Hepatitis C Virus Infection Without Cirrhosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen Infectious Diseases BVBA</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Janssen Infectious Diseases BVBA</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to evaluate the efficacy and safety of a treatment regimen of 12
+      weeks or 8 weeks of simeprevir in combination with sofosbuvir in chronic hepatitis C virus
+      (HCV) genotype 1 infected men and women without cirrhosis who are HCV treatment-naïve or
+      treatment-experienced.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a randomized (the study medication is assigned by chance), open-label (all people
+      know the identity of the intervention), multicenter study. The study will consist of a
+      screening phase up to 6 weeks, open-label treatment phase of 8 weeks or 12 weeks, and
+      post-treatment follow up phase up to 24 weeks after end of treatment. Approximately 300
+      participants will be randomly allocated in a 1:1 ratio to receive 150 mg simeprevir in
+      combination with 400 mg sofosbuvir once daily either for 12 weeks (Arm 1) or 8 weeks (Arm
+      2). Safety evaluations will include assessment of adverse events, clinical laboratory tests,
+      vital signs, and physical examination. The maximum study duration for each participant will
+      be approximately 42 weeks.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2014</start_date>
+  <completion_date type="Actual">April 2015</completion_date>
+  <primary_completion_date type="Actual">January 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Achieving a Sustained Virologic Response 12 Weeks After the Planned end of Treatment (SVR12)</measure>
+    <time_frame>Week 20 or Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 defined as the number of participants with less than 25 IU/mL detectable or undetectable plasma Hepatitis C virus ribonucleic acid 12 weeks after planned end of treatment. End of treatment is at Week 8 or 12; threrefore, outcome will be meassured at Week 20 or Week 24.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving a Sustained Virologic Response 4 Weeks After the Planned end of Treatment (SVR4)</measure>
+    <time_frame>Week 12 or Week 16</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 is defined as the number of participants with less than 25 IU/mL detectable or undetectable plasma Hepatitis C virus (HCV) ribonucleic acid (RNA) 4 weeks after planned end of treatment. End of treatment is at Week 8 or 12; threrefore, outcome will be meassured at Week 12 or Week 16.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving a Sustained Virologic Response 24 Weeks After the Planned end of Treatment (SVR24)</measure>
+    <time_frame>Week 32 or Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR24 is defined as the number of participants with less than 25 IU/mL detectable or undetectable plasma HCV RNA 24 weeks after planned end of treatment. End of treatment is at Week 8 or 12; threrefore, outcome will be meassured at Week 32 or Week 36.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Achieving a On-treatment Virologic Response</measure>
+    <time_frame>Day 1, Day 3, Day 7, Week 2, Week 3, Week 4, Week 8, Week 12, Week 16, Week 20, Week 24, Week 32, Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>On-treatment virologic response is defined as the change from baseline in log10 hepatitis C virus ribonucleic acid.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants with Viral Breakthrough</measure>
+    <time_frame>Up to Week 42</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral breakthrough is defined as the number of participants with greater than 1 log10 IU/mL increase in plasma Hepatitis C virus ribonucleic acid level from the lowest level reached (ie, lowest value measured in between baseline and current value), or a confirmed plasma HCV RNA level of greater than 100 IU/mL in participants whose plasma HCV RNA had previously been less than 25 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants with Viral Relapse</measure>
+    <time_frame>Up to Week 42</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral relapse is defined as the number of participants who did not achieve sustained virologic response, have less than 25 IU/mL undetectable plasma HCV RNA at end of treatment, and greater than or equal to 25 IU/mL plasma HCV RNA during the follow-up phase.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change from Baseline in Hepatitis C Symptom and Impact Questionnaire (HCV-SIQ) scores</measure>
+    <time_frame>Baseline (Day 1) to Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HCV-SIQv4 is a self-administered questionnaire which contains 33 items classified as 3 categories of scores: sum of responses to 29 symptom items as a symptom severity score category, sum of response to 3 items as a time missed from work/school category, and 1 response to question regarding the impact of symptoms on daily activities as an impairment in daily activity score category. The total score is the sum of scores of these 3 categories. Higher HCV-SIQv4 scores indicate worse symptom severity, more time missed from work/school, and more impairment in daily activities.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in Fatigue Severity Scale (FSS) Scores</measure>
+    <time_frame>Baseline (Day 1) to Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The FSS is a self-administered questionnaire with 9 items developed to assess disabling fatigue. These 9 item responses are measured on a 7-point Likert scale ranging from strongly disagree (1 point) to strongly agree (7 points). The 9 items are averaged to produce a total score. A lower total score indicates less effect of fatigue on everyday life.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in Center for Epidemiologic Studies Depression Scale (CES-D) Scores</measure>
+    <time_frame>Baseline (Day 1) to Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The CES-D scale assesses how often during the past week participants experienced 20 symptoms commonly associated with major depression. CES-D scores range from 0 (no symptoms) to 60 (all 20 symptoms most or all of the time during the past 5-7 days). The CES-D scores between 16 and 23 points indicate mild to moderate depressive illness while CES-D scores greater than or equal to 23 indicate probable major depressive illness.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in EuroQol 5 Dimension (EQ-5D) Questionnaire Scores</measure>
+    <time_frame>Baseline (Day 1) to Week 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The EQ-5D questionnaire is a brief, generic health-related quality of life assessment (HRQOL) that can also be used to incorporate participant preferences into health economic evaluations. The EQ-5D questionnaire assesses HRQOL in terms of degree of limitation on 5 health dimensions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression) and as overall health using a &quot;thermometer&quot; visual analog scale with response options ranging from 0 (worst imaginable health) to 100 (best imaginable health). Lower scores indicate worsening. EQ-5D scores include EQ-5D valuation index score which includes a weighted scoring of the 5 dimension scores with a possible range from 0 to 1, EQ-5D visual analog scale (VAS) is a 20 cm vertical VAS with scores ranging from 0 (worst imaginable health) to 100 (perfect health), and EQ5D descriptive system scores consist of five scores reflecting each of the 5 EQ-5D health dimensions ranging from 0 [no limitation] to 4 [incapacity]).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">310</enrollment>
+  <condition>Hepatitis C Virus Infection</condition>
+  <arm_group>
+    <arm_group_label>Arm 1 (Simeprevir/Sofosbuvir)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>150 participants will receive 1 capsule of 150 mg simeprevir and 1 tablet of 400 mg sofosbuvir orally (by mouth) once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2 (Simeprevir/Sofosbuvir)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>150 participants will receive 1 capsule of 150 mg simeprevir and 1 tablet of 400 mg sofosbuvir orally once daily for 8 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir</intervention_name>
+    <description>150 participants will receive 1 capsule of 150 mg orally once daily for 12 weeks in Arm 1 or 8 weeks in Arm 2.</description>
+    <arm_group_label>Arm 1 (Simeprevir/Sofosbuvir)</arm_group_label>
+    <arm_group_label>Arm 2 (Simeprevir/Sofosbuvir)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <description>150 participants will receive 1 tablet of 400 mg sofosbuvir orally once daily for 12 weeks in Arm 1 or 8 weeks in Arm 2.</description>
+    <arm_group_label>Arm 1 (Simeprevir/Sofosbuvir)</arm_group_label>
+    <arm_group_label>Arm 2 (Simeprevir/Sofosbuvir)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Hepatitis C virus (HCV) genotype 1a or 1b infection confirmed before randomization
+
+          -  Documentation of the presence or absence of a NS3 Q80K polymorphism in HCV genotype
+             1a infected participants before randomization
+
+          -  Documentation of the IL28B genotype before randomization
+
+          -  HCV ribonucleic acid level greater than 10,000 IU/mL at screening
+
+          -  Treatment-experienced participants must have at least 1 documented previous course of
+             interferon-based regimen with or without ribavirin
+
+          -  Absence of cirrhosis in participants
+
+        Exclusion Criteria:
+
+          -  Evidence of clinical hepatic decompensation (history or current evidence of ascites,
+             bleeding varices or hepatic encephalopathy)
+
+          -  Infection/co-infection with HCV non-genotype 1a or 1b
+
+          -  Co-infection with human immunodeficiency virus (HIV) type 1 or type 2 (HIV-1 or
+             HIV-2) (positive HIV-1 or HIV-2 antibodies test at screening)
+
+          -  Co-infection with hepatitis-B virus (hepatitis-B-surface-antigen positive)
+
+          -  Previously been treated with any direct acting anti-HCV agent (approved or
+             investigational) for chronic HCV infection
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen Infectious Diseases BVBA Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen Infectious Diseases BVBA</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Dothan</city>
+        <state>Alabama</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bakersfield</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chula Vista</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Englewood</city>
+        <state>Colorado</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bradenton</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lauderdale Lakes</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Maitland</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wellington</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Zephyrhills</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Columbus</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jackson</city>
+        <state>Mississippi</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hillsborough</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vineland</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ny</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Winston Salem</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>East Greenwich</city>
+        <state>Rhode Island</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Greer</city>
+        <state>South Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Knoxville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Falls Church</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 4, 2015</lastchanged_date>
+  <firstreceived_date>April 2, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C Virus Infection</keyword>
+  <keyword>Simeprevir</keyword>
+  <keyword>Sofosbuvir</keyword>
+  <keyword>HCV</keyword>
+  <keyword>Cirrhosis</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Communicable Diseases</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Infection</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

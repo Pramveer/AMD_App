@@ -1,0 +1,25 @@
+/* Remove grid in middle of bar chart*/
+/*#adherence-chart {
+      background: #fff;
+      border: solid 1px #ddd;
+      box-shadow: 0 0 4px rgba(0,0,0,0);
+      font: 10px sans-serif;
+      height: 800px;
+      position: relative;
+      width: 100%;
+    }
+
+    #adherence-chart svg {
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+
+    #adherence-chart circle.topBubble {
+      fill: #aaa;
+      stroke: #666;
+      stroke-width: 1.5px;
+     }*/
+.c3-grid {
+    display: none;
+}

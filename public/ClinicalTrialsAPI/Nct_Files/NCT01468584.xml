@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="180">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01468584</url>
+  </required_header>
+  <id_info>
+    <org_study_id>G060-A11</org_study_id>
+    <nct_id>NCT01468584</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of MP-424, Peginterferon Alfa-2b and Ribavirin in Non-responder Genotype 2 Hepatitis C Infected Patients</brief_title>
+  <official_title>A Phase 3 Study of MP-424 in Combination With Peginterferon Alfa-2b and Ribavirin, in Subjects With Genotype 2 Hepatitis C, Who Did Not Respond to Previous Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mitsubishi Tanabe Pharma Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Mitsubishi Tanabe Pharma Corporation</source>
+  <oversight_info>
+    <authority>Japan: Ministry of Health, Labor and Welfare</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the efficacy and safety of MP-424 with Peginterferon Alfa-2b and
+      Ribavirin (RBV) in patients with genotype 2 hepatitis C, who did not respond to previous
+      treatment.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2011</start_date>
+  <completion_date type="Actual">September 2013</completion_date>
+  <primary_completion_date type="Actual">September 2013</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Undetectable HCV RNA at 24 Weeks After Completion of Drug Administration (SVR, Sustained Viral Response)</measure>
+    <time_frame>After 24 weeks of follow-up</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>MP-424</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>MP-424 (generic name:Telaprevir)</intervention_name>
+    <description>750mg q8h for 12 weeks</description>
+    <arm_group_label>MP-424</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>400 - 1000 mg/day based on body weight for 24 weeks</description>
+    <arm_group_label>MP-424</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2b</intervention_name>
+    <description>1.5mcg/kg/week for 24 weeks</description>
+    <arm_group_label>MP-424</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Genotype 2, chronic hepatitis C
+
+          -  Non-responders (patient who did not respond to previous treatment)
+
+          -  Able and willing to follow contraception requirements
+
+        Exclusion Criteria:
+
+          -  Cirrhosis of the liver or hepatic failure
+
+          -  Hepatitis B surface antigen-positive or HIV antibodies-positive
+
+          -  History of, or concurrent hepatocellular carcinoma
+
+          -  History of, or concurrent depression, schizophrenia,; or suicide attempt in the past
+
+          -  Pregnant, lactating, or suspected pregnant patients, or male patients whose female
+             partner is pregnant
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kazuoki Kondo, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Mitsubishi Tanabe Pharma Corporation</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Toranomon Hospital</name>
+      <address>
+        <city>Minato-ku</city>
+        <state>Tokyo</state>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <results_reference>
+    <citation>Kumada H, Sato K, Takehara T, Nakamuta M, Ishigami M, Chayama K, Toyota J, Suzuki F, Nakayasu Y, Ochi M, Yamada I, Okanoue T. Efficacy of telaprevir-based therapy for difficult-to-treat patients with genotype 2 chronic hepatitis C in Japan. Hepatol Res. 2015 Jul;45(7):745-54. doi: 10.1111/hepr.12416. Epub 2014 Nov 18.</citation>
+    <PMID>25196718</PMID>
+  </results_reference>
+  <verification_date>October 2014</verification_date>
+  <lastchanged_date>October 29, 2014</lastchanged_date>
+  <firstreceived_date>November 2, 2011</firstreceived_date>
+  <firstreceived_results_date>October 29, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Genotype 2</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

@@ -1,0 +1,227 @@
+<template name="Utilization">
+     <div class="breadcrumb-fulldiv">
+        <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="Efficacy">Analytics</a>
+
+        <span class="breadcrumb-item active">Utilization</span>
+        </nav>
+        </div>
+    {{ >AnalyticsPatientDetails}}
+    {{> AnalyticsSubtabs data="utilization"}}
+
+<!-- Header for Utilization sub tabs -->
+    <!--<div class="macLearningsubTabs">
+        <ul class="au-header utilizationSubtabs-links">
+            <li class="active">
+                    <a href="#" data="withFDACompliant">FDA Compliant
+
+                    </a>
+            </li>
+            <li>
+                <a href="#" data="withoutFDACompliant">Non FDA Compliant
+                </a>
+
+            </li>
+            <li>
+                <a href="#" data="allMedsData">ALL Medications
+                </a>
+
+            </li>
+        </ul>
+    </div>
+
+    <span class="analyticsSubtabInfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'>
+                  <span>Medications Info</span>
+                </div>
+                <div class='cust-popup-content'>
+                <b>FDA Compliants</b><br>
+                <b>Note: </b> These are the medications which are following to FDA Compliants
+                <hr>
+                <b>Non FDA Compliants</b><br>
+                <b>Note: </b> Here you will see all other Medications which are not following FDA Compliants
+                <hr>
+                <b>All Medications</b><br>
+                <b>Note: </b>Here you can see all medications for the selected subpopulation
+                <br>
+               </div>
+
+            </div>"><img src="/info-icon.png">
+        </div>
+    </span>-->
+    <div class="btngroup">
+    <!--Jayesh 03/06/2017 Updated FDA Labels-->
+ <div class="macLearningsubTabs" style="position: relative;display: inline-block;">
+		<ul class="rweb-list utilization">
+			<li class="active">
+				<a href="#" data="withFDACompliant">FDA Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="withoutFDACompliant">FDA Not Approved Therapy</a>
+			</li>
+			<li class="">
+				<a href="#" data="allMedsData">All Therapy</a>
+			</li>
+		</ul>
+
+	</div>
+
+    <span class="providerSubtabInfo rewbinfo">
+        <div class='pop' data-content="
+            <div class='cust-popup-box' style='width:450px !important;'>
+                <div class='cust-popup-title'>
+                  <span>Medications Info</span>
+	</div>
+	<div class='cust-popup-content'>
+		<b>FDA Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has been approved by FDA.
+		<hr>
+		<b>FDA Not Approved Therapy</b><br>
+		<b>Note: </b> These are the therapies which has not been approved by FDA.
+		<hr>
+		<b>All Therapy</b><br>
+		<b>Note: </b> These are all therapies for the selected subpopulation.
+		<br>
+	</div>
+
+	</div>"><img src="/info-icon.png">
+	</div>
+	</span>
+</div>
+
+    {{#if isLoading}}
+      <div class="content-wrapper">
+        {{> NewLoading}}
+      </div>
+    {{else}}
+
+        {{#if noDataFound}}
+
+            <div class="providerNoDataFound">No drugs found for the given medical situation. Please refine clinical criteria.</div>
+        {{else}}
+
+            <div class="ps-section">
+                <div class="efficacy-div">
+                <div class="ml-subTabsTitle">
+                    {{>CompareToggleButton chartName='compareutilization'}}
+                    Utilization
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                        <div class="analytics-tooltip mlInfoTip_tooltip">
+                            <div class="analytics-tooltipHead">
+                                Utilization
+                            </div>
+                            <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span>
+                                      <span class='boldfnt'>N</span> : {{uniqPatients}} ({{percentage}}) Over {{totPatients}} Patients with Medication.
+                                     <br/><br/>
+                                        <!--<span class='boldfnt'>Definition</span> - Utilization is the percentage of patients who took this drug against the total number of patients similar to this patient (i.e with same HCV genotype, cirrhosis and naive/experienced conditions).-->
+                                           <span class='boldfnt'>Definition</span> - Utilization is the percentage of patients who took this drug against the total number of patients.
+                                            <br/><br/><span class='boldfnt'>Utilization (%) =  </span><br/>
+                                            <span class='formulaSection'><span style='padding-left: 18%;padding-right: 18%;'> Nx </span> <span style='padding-top: 12px;position: absolute;'>* 100 </span><br/>
+                                            <span style='border-top: 1px dotted;'>N1 + N2 + ... + Nx + ...  Nn </span></span>
+                                            </span>
+
+
+                                    <br/>
+                                    <br/>
+                                    <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from                        <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                        <!-- {{#with getPateintInfo}}
+                        <div class="efd-table-data costBurdenSection">
+
+                            <div class="col-md-2">
+                                <div class="efd-cell1">Genotype: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                <div class="efd-cell1">Treatment: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1">Cirrhosis: </div>
+                                <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                                <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1 efd-showPatiens" style="width:40px;"></div>
+                                <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="js-showPateintsListUti">Show Patients</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="efd-cell1 efd-exportPatiens" style="width:25px;"></div>
+                                <div class="efd-cell2_subpopulaiton ecf-exportPatient utlizationexportPatient"><a href="#">Export Patients</a></div>
+                            </div>
+                        </div>
+                        {{/with}} -->
+
+                        <div>
+                          <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="globalshowPatientutilization js-showPateintsListUti"></a></div>
+                          <div class="efd-cell2_subpopulaiton ecf-exportPatient utlizationexportPatient globalexportPatientutilization"><a href="#"></a></div>
+                        </div>
+                    </div>
+            </div>
+                <div class="utilization-div">
+
+                    <ul class="ulf-list">
+                        <li class="legend-item">
+                            <div class="utilization-legend-icon"></div>
+                            <span class="utilization-legend-text">Provider Population</span>
+                        </li>
+                        <!--<li class="legend-item">
+                            <div class="utilization-legend-icon"></div>
+                            <span class="utilization-legend-text">My Network</span>
+                        </li>-->
+                        <li class="legend-item">
+                            <div class="utilization-legend-icon"></div>
+                            <span class="utilization-legend-text">Population health</span>
+                        </li>
+                    </ul>
+                    <div class="utilization-header">
+                        <div class="width0f875 ud-border3side">
+                            Utilization Rate
+                        </div>
+                        <div class="width0f270 ud-border3side">
+                            RX %
+                        </div>
+                    </div>
+                    <div class="utilization-content">
+                        <div class="ud-fulldiv">
+                            <div class="width0f775">
+                                <div id="utilization-pie-chart-part1" style="margin:0 auto;text-align: center"></div>
+                            </div>
+                            <div class="width0f370">
+                                <div id="utilization-pie-chart-part2" style="margin:0 auto;text-align: center"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="utilization-footer">
+                        <h3>Subtitle</h3>
+                        <ul class="ulf-list">
+                            <li class="legend-item">
+                                <div class="utilization-legend-icon"></div>
+                                <span class="utilization-legend-text">Provider Population</span>
+                            </li>
+                            <li class="legend-item">
+                                <div class="utilization-legend-icon"></div>
+                                <span class="utilization-legend-text">Population health</span>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+                <div class="utilization-div">
+                    <div id="chart-legend"></div>
+                </div>
+
+        {{/if}}  <!--  End Of No Data Found If Block  -->
+    {{/if}} <!--  End Of Main If Block  -->
+    {{>MainFooter}}
+</template>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="5">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01392170</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2011-0184</org_study_id>
+    <secondary_id>NCI-2011-01465</secondary_id>
+    <nct_id>NCT01392170</nct_id>
+  </id_info>
+  <brief_title>Pegasys in Patients With Chronic Myeloid Leukemia (CML)</brief_title>
+  <official_title>Phase II Study of Pegylated Ifná-2a (Pegasys) in Patients With Chronic Myeloid Leukemia Who Have Minimal Residual Disease While Receiving Therapy With Tyrosine Kinase Inhibitors</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>M.D. Anderson Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>M.D. Anderson Cancer Center</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this clinical research study is to learn if adding pegylated interferon-alfa 2a
+      (Pegasys) to the TKI that you are already receiving can help to control CML. The safety of
+      this treatment combination will also be studied.
+
+      Pegasys is a form of the drug interferon. It is designed to help the body's immune system to
+      fight infections. It may also affect the body's response to cancer.
+
+      A TKI (imatinib mesylate, nilotinib, or dasatinib) is designed to bind to and shut off a
+      protein in tumor cells called Bcr-Abl. Shutting Bcr-Abl off may prevent CML cells from
+      growing, and may cause them to die.
+
+      You are already receiving a TKI. This consent form will describe the administration of
+      Pegasys, any tests and procedures that need to be performed while you are receiving Pegasys,
+      and any risks/benefits there may be from receiving Pegasys.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Study Drug Administration:
+
+      If you are found to be eligible to take part in this study, you will receive Pegasys through
+      a needle under the skin 1 time each week while you are on study. You will be taught how to
+      use the study drug at the first visit and will administer it to yourself at all future
+      doses.
+
+      You will continue receiving the TKI you are already taking at the dose and frequency you
+      have been receiving it when you began taking part in this study.
+
+      Study Visits:
+
+      At every study visit, you will be asked about any side effects you may have had and to list
+      any drugs you may be taking.
+
+      Every 1-2 weeks for 8 weeks, then every 6-8 weeks after that, blood (about 1-2 teaspoons)
+      will be drawn for routine tests.
+
+      Every 3 months for 6 months, then every 6-12 months after that, you will have a complete
+      physical exam, including measurement of your vital signs.
+
+      Every 3-6 months for 1 year, you will have a bone marrow aspirate to check the status of the
+      disease and to check for changes in your chromosomes.
+
+      Every 3-6 months for 1 year, then every 6-12 months after that, blood (about 1 teaspoon)
+      will be drawn to check the levels of leukemia in the blood.
+
+      Length of Study:
+
+      You may continue taking Pegasys for as long as the doctor thinks it is in your best
+      interest. You will no longer be able to take the study drug if the disease gets worse, if
+      intolerable side effects occur, or if you are unable to follow study directions.
+
+      This is an investigational study. Pegasys is FDA approved and commercially available for the
+      treatment of CML. TKIs (imatinib, nilotinib, and dasatinib) are FDA approved and
+      commercially available for the treatment of CML. The combination of these drugs to treat CML
+      is investigational.
+
+      Up to 50 patients will take part in this study. All will be enrolled at MD Anderson.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Slow Accrual
+  </why_stopped>
+  <start_date>October 2011</start_date>
+  <completion_date type="Actual">March 2014</completion_date>
+  <primary_completion_date type="Actual">March 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Achieved of Major Molecular Response (MMR) or Complete Molecular Response (CMR)</measure>
+    <time_frame>12 months from start of treatment with PEG-IFNá-2a</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Molecular response defined as: major molecular response (MMR) corresponds to a BCR-ABL1/ABL1 ratio of &lt;=0.01. Complete molecular response (CMR) is defined as undetectable BCR-ABL1 transcripts. Molecular response measured every 3 months (a total of 4 assessments within one year of therapy).</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">2</enrollment>
+  <condition>Leukemia</condition>
+  <arm_group>
+    <arm_group_label>PEG-IFNá-2a</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PEG-IFNá-2a (Pegasys) 45 mcg subcutaneously as single weekly dose.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG-IFNá-2a</intervention_name>
+    <description>45 mcg given subcutaneously as a single weekly dose for 24 months.</description>
+    <arm_group_label>PEG-IFNá-2a</arm_group_label>
+    <other_name>Pegasys</other_name>
+    <other_name>Peginterferon Alpha-2a</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients 16 years or older with Philadelphia chromosome (Ph)-positive or
+             BCR-ABL1-positive CML (as determined by cytogenetics, FISH, or PCR).
+
+          2. Patients are receiving an FDA-approved TKI for the management of CML.
+
+          3. Patients must have received TKI therapy for at least 24 months and not have increased
+             their TKI dose in the last 6 months.
+
+          4. Patients must be in complete cytogenetic remission.
+
+          5. Patients must have detectable BCR-ABL1 transcript levels meeting at least one of the
+             following criteria: 1. The patient has received therapy for at least 2 years and does
+             not have a sustained major molecular response, or 2. The patient has received therapy
+             for at least 5 years and does not have a sustained complete molecular response.
+
+          6. Patients must not have had a known continuous interruption of TKI therapy of greater
+             than 14 consecutive days or for a total of 6 weeks in the 6 months prior to
+             enrollment.
+
+          7. Patients must sign an informed consent indicating that they are aware of the
+             investigational nature of this study.
+
+          8. Eastern Cooperative Oncology Group (ECOG) performance status &lt;/= 2.
+
+          9. Adequate organ function defined as: bilirubin &lt; 2x upper limit of normal (ULN)
+             (unless associated with Gilbert's syndrome), creatinine &lt;/= 1.5x ULN, and serum
+             glutamate pyruvate transaminase (sGPT) or serum glutamate oxaloacetate transaminase
+             (sGOT) &lt;/= 2.5x ULN.
+
+         10. Men and women of childbearing potential should practice effective methods of
+             contraception. Women of childbearing potential must have a negative serum or urine
+             pregnancy test within 1 week of enrollment.
+
+        Exclusion Criteria:
+
+          1. Patients receiving any non-FDA approved TKI.
+
+          2. Patients who are pregnant or breast-feeding.
+
+          3. Patients with clinically significant heart disease (NYHA Class III or IV).
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alfonso Quintas-Cardama, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>M.D. Anderson Cancer Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Texas MD Anderson Cancer Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.mdanderson.org</url>
+    <description>University of Texas MD Anderson Cancer Center Website</description>
+  </link>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 13, 2015</lastchanged_date>
+  <firstreceived_date>July 8, 2011</firstreceived_date>
+  <firstreceived_results_date>March 31, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Leukemia</keyword>
+  <keyword>Chronic Myeloid Leukemia</keyword>
+  <keyword>CML</keyword>
+  <keyword>Tyrosine Kinase Inhibitors</keyword>
+  <keyword>TKI</keyword>
+  <keyword>Complete cytogenetic remission</keyword>
+  <keyword>CCyR</keyword>
+  <keyword>Minimal residual disease</keyword>
+  <keyword>MRD</keyword>
+  <keyword>PEG-IFNa-2a</keyword>
+  <keyword>Pegasys</keyword>
+  <keyword>Peginterferon Alpha-2a</keyword>
+  <keyword>Philadelphia chromosome (Ph)-positive</keyword>
+  <keyword>BCR-ABL1-positive</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Myelogenous, Chronic, BCR-ABL Positive</mesh_term>
+    <mesh_term>Leukemia, Myeloid</mesh_term>
+    <mesh_term>Neoplasm, Residual</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

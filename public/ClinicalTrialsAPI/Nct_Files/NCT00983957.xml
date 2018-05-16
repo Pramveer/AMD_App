@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="56">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00983957</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI444-020</org_study_id>
+    <nct_id>NCT00983957</nct_id>
+  </id_info>
+  <brief_title>Study to Assess the Effect of BMS-790052 on the Pharmacokinetics of Ortho Tri-Cyclen® in Healthy Female Subjects</brief_title>
+  <official_title>The Effect of the Co-administration of BMS-790052 on the Pharmacokinetics of a Combined Oral Contraceptive Containing Ethinyl Estradiol and Norgestimate (Ortho Tri-Cyclen®) in Healthy Female Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bristol-Myers Squibb</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess the effect of BMS-790052 on the pharmacokinetics of
+      Ortho Tri-Cyclen® in healthy female subjects.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2009</start_date>
+  <completion_date type="Actual">February 2010</completion_date>
+  <primary_completion_date type="Actual">February 2010</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Pharmacokinetics Study, Intervention Model: Single Group Assignment, Masking: Open Label</study_design>
+  <primary_outcome>
+    <measure>Maximum Observed Plasma Concentration (Cmax) of Ethinyl Estradiol</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 hours post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Ethinyl Estradiol is an analyte of Ortho Tri-Cyclen. Ethinyl Estradiol was measured in plasma, using liquid chromatography-tandem mass spectrometry (LC-MS/MS) by a validated analytical method during the period of known analyte stability. Cmax was measured in picograms per milliliter (pg/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area Under the Concentration-Time Curve (AUC) in 1 Dosing Interval of Ethinyl Estradiol</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Ethinyl Estradiol was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. AUC(TAU) was measured in picograms multiplied by hours (h) per milliliter (pg*h/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time of Maximum Observed Plasma Concentration of Ethinyl Estradiol</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Ethinyl Estradiol was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. Tmax was measured in hours (h), and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Maximum Observed Plasma Concentration of Norelgestromin</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norelgestromin is a major active metabolite of norgestimate (NGM) which is found in Ortho Tri-Cyclen. Norelgestromin was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. Cmax was measured in nanograms per milliliter (ng/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Area Under the Concentration-Time Curve in 1 Dosing Interval of Norelgestromin</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norelgestromin was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. AUC(TAU) was measured in nanograms multiplied by hours (h) per milliliter (ng*h/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Time of Maximum Observed Plasma Concentration of Norelgestromin</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norelgestromin was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. Tmax was measured in hours (h), and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Maximum Observed Plasma Concentration of Norgestrel</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norgestrel is an NGM metabolite and was measured in plasma using liquid chromatography-mass spectrometry by a validated analytical method during the period of known analyte stability. Cmax was measured in picograms per milliliter (pg/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Area Under the Concentration-Time Curve in 1 Dosing Interval of Norgestrel</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norgestrel was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. AUC(TAU) was measured in picograms multiplied by hours (h) per milliliter (pg*h/mL) and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time of Maximum Observed Plasma Concentration of Norgestrel</measure>
+    <time_frame>Pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24 h post-dose on Days 49 and 77</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Norgestrel was measured in plasma, using liquid chromatography-tandem mass spectrometry by a validated analytical method during the period of known analyte stability. Tmax was measured in hours (h), and derived from 24 hour plasma concentration versus time data using non-compartmental methods. Pre-dose concentrations and concentrations prior to the first quantifiable concentration that were below the lower limit of quantitation were treated as missing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Serious Adverse Events (SAEs), Adverse Events (AEs) Leading to Discontinuation, and Who Died</measure>
+    <time_frame>For AEs from start of treatment (Day 1) up to Day 78 or discharge and for SAEs from Day 1 to 30 days after last dose of study drug</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE=any new unfavorable symptom, sign, or disease or worsening of a preexisting condition that may not have a causal relationship with treatment. SAE=a medical event that at any dose results in death, persistent or significant disability/incapacity, or drug dependency/abuse; is life-threatening, an important medical event, or a congenital anomaly/birth defect; or requires or prolongs hospitalization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Laboratory Test Abnormalities</measure>
+    <time_frame>From start of treatment (Day 1) up to Day 78 or discharge</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Laboratory marked abnormalities were defined as Hematocrit (low) as &lt;0.85*Pre-treatment (PreRx), Hemoglobin (low) as &lt;0.85*PreRx, Aspartate Aminotransferase (AST) (high) as &gt;1.25*PreRx if PreRx &gt; upper limits of normal (ULN); &gt;1.25*ULN if PreRx &lt;=ULN; &gt;1.25*ULN if PreRx = Missing, Blood in urine (high) as ≥2 PreRx if PreRx ≥1; ≥2 if PreRx &lt;1; ≥2 if PreRx = Missing.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Demonstrating a Clinically Meaningful Effect in Vital Signs</measure>
+    <time_frame>Baseline, Day 28, Day 29, Day 67, Day 68, Day 78, Day of discharge</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Vital Signs were measured after the participant was seated quietly for at least 5 minutes and included systolic and diastolic blood pressure, heart rate, respiratory rate, and temperature. Baseline = Last non-missing pretreatment value.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Demonstrating a Clinically Meaningful Effect in ECG Parameters</measure>
+    <time_frame>Screening, Day 1, Day 67, Day 77</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The electrocardiogram (ECG) evaluations were performed within ± 15 minutes of the relative time points. ECGs were recorded after the participants were in supine position for at least 5 minutes. ECG parameters measured were: PR interval, QRS complex, QT interval and corrected QT (QTc).</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">47</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>BMS-790052 plus Ortho Tri-Cyclen®</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BMS-790052</intervention_name>
+    <description>Tablets, Oral, 60 mg, once daily, 10 days</description>
+    <arm_group_label>BMS-790052 plus Ortho Tri-Cyclen®</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ortho Tri-Cyclen®</intervention_name>
+    <description>Tablets, Oral, once daily, 78 days</description>
+    <arm_group_label>BMS-790052 plus Ortho Tri-Cyclen®</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Key Inclusion Criteria:
+
+          -  Healthy female subjects, 18-45 years, BMI 18-32 kg/m².
+
+          -  Must be using an adequate method of contraception to avoid pregnancy throughout the
+             study.
+
+        Key Exclusion Criteria:
+
+          -  Abnormal Pap smear within 1 yr of dosing, and abnormal menstrual cycle during the 3
+             months prior to enrollment.
+
+          -  Any significant or chronic uncontrolled medical illness.
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>45 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bristol-Myers Squibb</last_name>
+    <role>Study Director</role>
+    <affiliation>Bristol-Myers Squibb</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>MDS Pharma Services (US), Inc</name>
+      <address>
+        <city>Tempe</city>
+        <state>Arizona</state>
+        <zip>85283</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Covance Clinical Research Unit, Inc.</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <zip>78752</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Local Institution</name>
+      <address>
+        <city>St. Laurent</city>
+        <state>Quebec</state>
+        <zip>H4R2N6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://ctr.bms.com/ctd/start.do</url>
+    <description>BMS Clinical Trials Disclosure</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/clinical_trials/Pages/Investigator_Inquiry_form.aspx</url>
+    <description>Investigator Inquiry form</description>
+  </link>
+  <link>
+    <url>http://www.fda.gov/MEDWATCH/safety.htm</url>
+    <description>For FDA Safety Alerts and Recalls refer to the following link: http://www.fda.gov/MEDWATCH/safety.htm</description>
+  </link>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 16, 2015</lastchanged_date>
+  <firstreceived_date>September 23, 2009</firstreceived_date>
+  <firstreceived_results_date>August 18, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Contraceptives, Oral, Combined</mesh_term>
+    <mesh_term>Moxifloxacin</mesh_term>
+    <mesh_term>Norgestimate, ethinyl estradiol drug combination</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

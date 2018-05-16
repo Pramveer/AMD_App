@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="25">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00705666</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04437</org_study_id>
+    <nct_id>NCT00705666</nct_id>
+  </id_info>
+  <brief_title>Treatment of Patients With Chronic Hepatitis C With PegIntron as Monotherapy or in Combination With Ribavirin (Study P04437)(COMPLETED)</brief_title>
+  <acronym>ADEQUATION</acronym>
+  <official_title>Real Situation Observational Study of VIRAFERONPEG® in Patients With Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>France: Not Applicable</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In February 2002, a French Consensus Conference on the management of patients with chronic
+      hepatitis C in France was organized. The jury issued several recommendations on pegylated
+      alpha interferon/ribavirin treatment strategy. Three years after these recommendations, it
+      is of interest to understand the evolution of hepatitis C management in France in real
+      clinical practice. This observational study will permit the identification of patients who
+      are treated and will provide information on the use of PegIntron/ Ribavirin.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      To assure a good representation of participants treated for hepatitis C, participants who
+      meet the inclusion criteria will be enrolled on a consecutive basis.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2006</start_date>
+  <completion_date type="Actual">July 2008</completion_date>
+  <primary_completion_date type="Actual">July 2008</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>The Number of Participants Receiving the Recommended Treatment Duration (24 Weeks for Genotypes 2 and 3 and 48 Weeks for Genotype 1 According to the French 2002 Consensus Meeting).</measure>
+    <time_frame>Physicians will complete a questionnaire at these visits: treatment initiation; 12 and 24 weeks after treatment initiation and 24 weeks after the end of treatment; and 36 and 48 weeks after treatment initiation for participants treated for 48 weeks.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">789</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Hepacivirus</condition>
+  <arm_group>
+    <arm_group_label>PegIntron as monotherapy or in combination with Ribavirin.</arm_group_label>
+    <description>Adult participants with chronic hepatitis C treated with PegIntron as monotherapy or in combination with ribavirin.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>Peginterferon alfa-2b as monotherapy or in combination with ribavirin will be administered according to the products' labeling.</description>
+    <arm_group_label>PegIntron as monotherapy or in combination with Ribavirin.</arm_group_label>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (SCH 18908)</intervention_name>
+    <description>Peginterferon alfa-2b as monotherapy or in combination with ribavirin will be administered according to the products' labeling.</description>
+    <arm_group_label>PegIntron as monotherapy or in combination with Ribavirin.</arm_group_label>
+    <other_name>Rebetol</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult participants with chronic hepatitis C treated with PegIntron as monotherapy or in
+        combination with ribavirin at academic centers, clinics, and private practices in France.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult participants starting a treatment with PegIntron for the treatment of chronic
+             hepatitis C.
+
+        Exclusion Criteria:
+
+          -  Concomitant participation in a clinical trial for the treatment of hepatitis C.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 1, 2015</lastchanged_date>
+  <firstreceived_date>June 23, 2008</firstreceived_date>
+  <firstreceived_results_date>March 30, 2010</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="123">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00854581</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20070805</org_study_id>
+    <secondary_id>SCCC-2007055</secondary_id>
+    <nct_id>NCT00854581</nct_id>
+  </id_info>
+  <brief_title>Zidovudine, Interferon Alfa-2b, and PEG-Interferon Alfa-2b in Treating Patients With Human T-Cell Lymphotropic Virus Type 1-Associated Adult T-Cell Leukemia/Lymphoma</brief_title>
+  <official_title>Prospective Study of the Molecular Characteristics of Sensitive and Resistant Disease in Patients With HTLV-I Associated Adult T Cell Leukemia Treated With Zidovudine (AZT) Plus Interferon Alpha-2b</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Miami</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Miami</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      RATIONALE: Human T-cell lymphotropic virus type 1 can cause cancer. Zidovudine is an
+      antiviral drug that acts against the human T-cell lymphotropic virus type 1. Giving
+      zidovudine, interferon alfa-2b, and PEG-interferon alfa-2b together may stimulate the immune
+      system and slow down or keep the cancer cell from growing.
+
+      PURPOSE: This clinical trial is studying how well giving zidovudine together with interferon
+      alfa-2b and PEG-interferon alfa-2b works in treating patients with human T-cell lymphotropic
+      virus type 1-associated adult T-cell leukemia/lymphoma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OBJECTIVES:
+
+      Primary
+
+        -  To investigate whether the lack of IRF-4 and/or c-Rel is associated with response
+           (complete response or partial response) to zidovudine, recombinant interferon alfa-2b,
+           and PEG-interferon alfa-2b therapy in patients with human T-cell lymphotropic virus
+           type 1-associated adult T-cell leukemia/lymphoma (ATLL).
+
+        -  To analyze, in responders, the presence of any remaining detectable clones of ATLL
+           (minimal residual disease) at 3 and 6 months of maintained remission on antivirals and
+           at one-year post-initiation of therapy in order to determine whether this represents
+           persistence of the original tumor clone or another variant.
+
+        -  To analyze clones from patients who relapse to determine whether antiviral escape is
+           associated with expression of IRF-4, c-Rel, or other molecular events (p53, p16
+           mutations) including expansion of novel clones.
+
+        -  To investigate whether zidovudine functions as an inhibitor of NF-κB in vivo by
+           analyzing serially collected leukemic samples during the first 48 hours of treatment
+           with zidovudine alone.
+
+        -  To determine the effect of valproic acid therapy on persistent clonal disease in
+           patients in complete or stable partial remission.
+
+      Secondary
+
+        -  To determine the failure-free survival and overall survival of these patients.
+
+      OUTLINE: This is a multicenter study.
+
+        -  Induction therapy: Patients receive zidovudine IV twice daily on days 1-14, and
+           recombinant interferon alfa-2b IV twice daily on days 3-14. Patients achieving clinical
+           complete response (CR) proceed to part 1 maintenance therapy; patients achieving
+           partial response (PR) receive another 7 days of zidovudine and recombinant interferon
+           alfa-2b and then proceed to part 1 maintenance therapy.
+
+        -  Part 1 maintenance therapy: Patients receive oral zidovudine twice daily and
+           PEG-interferon alfa-2b subcutaneously (SC) once weekly, beginning on day 14 or 21 and
+           continue to day 60. Patients are evaluated after completion of part 1 maintenance
+           therapy and proceed to part 2 maintenance therapy.
+
+        -  Part 2 maintenance therapy: Patients achieving CR with undetectable clonal disease
+           proceed to group A; patients achieving CR with minimal residual disease (by PCR) or PR
+           proceed to group B.
+
+             -  Group A: Patients receive oral zidovudine twice daily and PEG-interferon alfa-2b
+                SC once weekly. Treatment continues in the absence of disease progression or
+                unacceptable toxicity.
+
+             -  Group B: Patients receive oral zidovudine twice daily and PEG-interferon alfa-2b
+                SC once weekly for 12 weeks and undergo reevaluation. Patients in continued CR
+                with minimal residual disease or stable PR receive oral valproic acid twice daily,
+                PEG-interferon alfa-2b SC once weekly, and oral zidovudine twice daily for 6
+                months. At that point (month 9) patients with no detectable clonal disease
+                continue their previous treatment, while patients with minimal residual disease
+                receive PEG-interferon alfa-2b SC and oral zidovudine twice daily in the absence
+                of disease progression or unacceptable toxicity.
+
+      Blood samples are collected at baseline, days 1 and 2, and months 3, 6, and 12 for protein,
+      genomic DNA, and RNA analysis. Baseline molecular characteristics of the tumor and tumor
+      response to treatment is assessed.
+
+      After completion of study treatment, patients are followed every 3 months for 1 year.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Investigator Decision
+  </why_stopped>
+  <start_date>November 2007</start_date>
+  <primary_completion_date type="Actual">November 2011</primary_completion_date>
+  <phase>Phase 1/Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Crossover Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>To Investigate Whether the Lack of IRF-4 and/or c-Rel is Associated With Response (CR or PR) to Zidovudine (AZT) and IFN Alpha-2b Therapy.</measure>
+    <time_frame>3, 6 and 12 months.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Presence of Minimal Residual Disease at 3 and 6 Months of Maintained Remission and at 1 Year Post Initiation of Therapy</measure>
+    <time_frame>3, 6 and 12 months.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To Analyze Clones From Patients Who Relapse to Determine Whether Antiviral Escape is Associated With Expression of IRF-4, c-Rel or Other Molecular Events (p53, p16 Mutations) Including Expansion of Novel Clones.</measure>
+    <time_frame>3, 6 and 12 months.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>To Investigate Whether AZT Functions as an Inhibitor of NF-kB in Vivo by Analyzing Serially Collected Leukemic Samples During the First 48 Hours of Treatment With AZT Only.</measure>
+    <time_frame>3, 6 and 12 months.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Who Achieved Complete Response or Partial Response According to Molecular Response Criteria</measure>
+    <time_frame>3, 6 and 12 months.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To determine the effect of valproic acid therapy on persistent clonal disease in patients in complete or stable partial remission.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Failure-free Survival</measure>
+    <time_frame>measured from the date of treatment initiation until date of documented disease progression, relapse after response, or death from any cause.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Failure-free survival (FFS) will be measured from the date of treatment initiation until date of documented disease progression, relapse after response, or death from any cause. For patients alive and free of relapse or progression, follow-up time will be censored at the last documented date of failure-free status.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival</measure>
+    <time_frame>Measured from the date of initiation of study treatment until date of death from any cause.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Overall survival (OS) will be measured from the date of initiation of study treatment until date of death from any cause. In the absence of death, the follow-up will be censored at date of last contact (censored observation).</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">13</enrollment>
+  <condition>Lymphoma</condition>
+  <condition>Precancerous/Nonmalignant Condition</condition>
+  <arm_group>
+    <arm_group_label>Induction Therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Zidovudine + Interferon alfa-2b</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Zidovudine + Interferon alfa-2b + PEG Interferon alfa-2b</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PEG-interferon alfa-2b</intervention_name>
+    <description>PEG-IFN-alfa2b 1.5 ug/kg SQ weekly.</description>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+    <other_name>PEG-IFN-alfa2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Interferon alfa-2b</intervention_name>
+    <description>Days 3 - 14: Interferon Alpha-2b 5 10 million units IV twice daily.</description>
+    <arm_group_label>Induction Therapy</arm_group_label>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Valproic Acid</intervention_name>
+    <description>Patients will be started on one capsule (250 mg) with water twice daily.</description>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+    <other_name>Depakene</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Zidovudine</intervention_name>
+    <description>Days 1-2: (0-48 hours) Zidovudine (AZT) 1.5 grams intravenously (IV) twice daily. Days 3-14: Zidovudine (AZT) 1.5 grams IV twice daily and Interferon Alpha-2b 5 10 million units IV twice daily. Subsequent doses dependent on patient response.</description>
+    <arm_group_label>Induction Therapy</arm_group_label>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+    <other_name>Retrovir</other_name>
+    <other_name>AZT</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>Molecular Evaluation/Analysis of Malignant Clones of ATLL</intervention_name>
+    <description>Blood Sample - Baseline/Pre-Treatment, months 3 and 6, End of Month 12, Disease Progession</description>
+    <arm_group_label>Maintenance Therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>NF-kB Inhibition</intervention_name>
+    <description>Blood Sample - Baseline/Pre-Treatment, Induction,</description>
+    <arm_group_label>Induction Therapy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        DISEASE CHARACTERISTICS:
+
+          -  Histologically or cytologically confirmed diagnosis of adult T-cell leukemia/lymphoma
+
+               -  Any stage disease
+
+               -  Leukemic types only (smoldering, chronic, or acute)
+
+          -  Tumors must be CD3 positive (&gt; 50% cells express CD3)
+
+          -  Documented human T-cell lymphotropic virus type 1 (HTLV-1) infection by serologic
+             assay (ELISA, western blot) and confirmed to be HTLV-1 rather than HTLV-2 by
+             differential western blot or PCR
+
+          -  Measurable or evaluable disease
+
+        PATIENT CHARACTERISTICS:
+
+          -  Karnofsky performance status 50-100%
+
+          -  ANC ≥ 1,500/mm^3
+
+          -  Platelet count ≥ 50,000/mm^3 unless cytopenias are secondary to adult T-cell
+             leukemia/lymphoma
+
+          -  Transaminases ≤ 7 times upper limit of normal unless secondary to hepatic
+             infiltration with lymphoma
+
+          -  Total bilirubin &lt; 2.0 mg/dL unless secondary to hepatic infiltration with lymphoma
+             (if secondary to indinavir or atazanavir therapy, patients are eligible provided
+             total bilirubin ≤ 3.5 mg/dL and that direct bilirubin is normal)
+
+          -  Creatinine &lt; 2.0 mg/dL
+
+          -  Not pregnant or nursing
+
+          -  Negative pregnancy test
+
+          -  Fertile patients must use effective contraception during study treatment
+
+          -  No grade 3 or 4 cardiac failure
+
+          -  Ejection fraction ≥ 50%
+
+          -  No concurrent uncontrolled illness including, but not limited to, any of the
+             following:
+
+               -  Ongoing or active infection
+
+               -  Symptomatic congestive heart failure
+
+               -  Unstable angina pectoris
+
+               -  Cardiac arrhythmia
+
+               -  Psychiatric illness or social situations that would limit compliance with study
+                  requirements
+
+          -  No concurrent active malignancy except for in situ carcinoma of the cervix;
+             non-metastatic, non-melanomatous skin cancer; or Kaposi's sarcoma not requiring
+             systemic chemotherapy
+
+          -  No autoimmune or viral hepatitis or decompensated liver disease unless due to
+             lymphoma
+
+          -  No hypersensitivity to recombinant interferon alfa-2b, PEG-interferon alfa-2b,
+             zidovudine, or any component of the formulation
+
+          -  No psychological, familial, sociological, or geographical conditions precluding study
+             treatment and/or medical follow-up
+
+          -  HIV positivity allowed
+
+        PRIOR CONCURRENT THERAPY:
+
+          -  Patients already receiving erythropoietin or filgrastim (G-CSF) allowed
+
+          -  Concurrent antiretroviral therapy in HIV-positive patients allowed
+
+          -  No prior zidovudine and/or interferon
+
+          -  No other concurrent investigational agents
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>120 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Juan Carlos Ramos, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Miami Sylvester Comprehensive Cancer Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Miami Sylvester Comprehensive Cancer Center - Miami</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://cancer.gov/clinicaltrials/EPROST-20070805</url>
+    <description>Clinical trial summary from the National Cancer Institute's PDQ® database</description>
+  </link>
+  <reference>
+    <citation>Tsukasaki K, Hermine O, Bazarbachi A, Ratner L, Ramos JC, Harrington W Jr, O'Mahony D, Janik JE, Bittencourt AL, Taylor GP, Yamaguchi K, Utsunomiya A, Tobinai K, Watanabe T. Definition, prognostic factors, treatment, and response criteria of adult T-cell leukemia-lymphoma: a proposal from an international consensus meeting. J Clin Oncol. 2009 Jan 20;27(3):453-9. doi: 10.1200/JCO.2008.18.2428. Epub 2008 Dec 8.</citation>
+    <PMID>19064971</PMID>
+  </reference>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 23, 2015</lastchanged_date>
+  <firstreceived_date>February 28, 2009</firstreceived_date>
+  <firstreceived_results_date>December 22, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Miami</investigator_affiliation>
+    <investigator_full_name>Juan C. Ramos</investigator_full_name>
+    <investigator_title>Associate Professor of Clinical</investigator_title>
+  </responsible_party>
+  <keyword>recurrent adult T-cell leukemia/lymphoma</keyword>
+  <keyword>stage I adult T-cell leukemia/lymphoma</keyword>
+  <keyword>stage II adult T-cell leukemia/lymphoma</keyword>
+  <keyword>stage III adult T-cell leukemia/lymphoma</keyword>
+  <keyword>stage IV adult T-cell leukemia/lymphoma</keyword>
+  <keyword>HTLV-1 infection</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Leukemia, T-Cell</mesh_term>
+    <mesh_term>Leukemia-Lymphoma, Adult T-Cell</mesh_term>
+    <mesh_term>Lymphoma</mesh_term>
+    <mesh_term>Precancerous Conditions</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Valproic Acid</mesh_term>
+    <mesh_term>Zidovudine</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="30">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00910624</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05514</org_study_id>
+    <nct_id>NCT00910624</nct_id>
+  </id_info>
+  <brief_title>Boceprevir Treatment in Participants With Chronic Hepatitis C Genotype 1 Deemed Nonresponders to Peginterferon/Ribavirin (P05514)</brief_title>
+  <acronym>PROVIDE</acronym>
+  <official_title>A Single-Arm Study to Provide Boceprevir Treatment in Subjects With Chronic Hepatitis C Genotype 1 Deemed Nonresponders to Peginterferon/Ribavirin in Previous Schering-Plough Boceprevir Studies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a single-arm, multicenter study of boceprevir (BOC) in combination with
+      peginterferon plus ribavirin (PEG/RBV) in adult chronic hepatitis C (CHC) genotype 1
+      participants who completed their per-protocol defined treatment and did not achieve
+      sustained viral response (SVR) while in the PEG/RBV control arm(s) of an Schering-Plough
+      Research Institute (SPRI) study of BOC combination therapy. Participants who are able to
+      enroll in this study within 2 weeks after the last dose of PEG/RBV in previous protocol are
+      to receive BOC+ PEG/RBV for up to 44 weeks followed by 24 weeks post-treatment follow-up.
+      Participants who are not able to enroll in this study within 2 weeks after the last dose of
+      PEG/RBV in previous protocol are to receive PEG/RBV for 4 weeks followed by BOC+ PEG/RBV for
+      up to 44 weeks, with 24 weeks post-treatment follow-up.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2009</start_date>
+  <completion_date type="Actual">December 2012</completion_date>
+  <primary_completion_date type="Actual">December 2012</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Virologic Response at Follow-Up Week 24 (SVR24);</measure>
+    <time_frame>From start of 4-week PEG/RBV lead-in therapy or 44-week BOC/PR treatment through Follow-Up Week (FW) 24 (up to 68 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR24 was defined as undetectable Hepatitis C Virus ribonucleic acid (HCV-RNA) at Follow-up Week (FW) 24. SVR rates were evaluated by the prior interferon response (e.g., log drop from baseline at TW 4 or TW 12) in the previous studies.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants With Adverse Events (AEs) Leading to Dose Modification (DM) or Discontinuation (DC), Treatment-Related Serious AEs (SAEs), Neutrophil Count &lt;0.75 × 10^9/L, or Hemoglobin (Hgb) &lt;10 g/dL</measure>
+    <time_frame>From start of 4-week PEG/RBV lead-in therapy or 44-week BOC/PR treatment through FW 24 (up to 68 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE= any untoward medical occurrence in a participant administered a pharmaceutical product/biologic (at any dose), whether or not considered related to the use of that product. Included the onset of new illness and the exacerbation of pre-existing conditions. Clinically significant laboratory abnormalities that required intervention/additional therapy, required a dose modification, or were associated with a clinical manifestation were considered AEs. SAE= any adverse drug or biologic or device experience occurring at any dose resulting in death, was life-threatening, was persistent or caused significant disability/incapacity, required in-patient hospitalization or prolonged hospitalization, or was a congenital anomaly or birth defect.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Early Virologic Response (EVR)</measure>
+    <time_frame>From TW 1 to TW 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>EVR was defined as undetectable HCV-RNA at TW 12 of BOC + PEG/RBV. EVR rates were evaluated by the prior interferon response (e.g., log drop from baseline at TW 4 or TW 12) in the previous studies.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">168</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>BOC + PEG/RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants who enrolled within 2 weeks after the last dose of PEG/RBV in previous protocol received boceprevir (BOC) + peginterferon/ribavirin (PEG/RBV) for up to 44 weeks followed by 24 weeks post-treatment follow-up. Participants who did not enroll within 2 weeks after the last dose of PEG/RBV in previous protocol received PEG/RBV for 4 weeks followed by BOC + PEG/RBV for up to 44 weeks, with 24 weeks post-treatment follow-up.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <description>Boceprevir, 200-mg capsules, 800 mg three times a day (TID) orally (PO)</description>
+    <arm_group_label>BOC + PEG/RBV</arm_group_label>
+    <other_name>SCH 503034</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>Peginterferon alfa-2b 1.5 µg/kg/week subcutaneously (SC)</description>
+    <arm_group_label>BOC + PEG/RBV</arm_group_label>
+    <other_name>PegIntron, PEG</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (SCH 18908)</intervention_name>
+    <description>Ribavirin weight-based dosing (WBD) 600 mg/day to 1400 mg/day PO divided twice daily (BID).</description>
+    <arm_group_label>BOC + PEG/RBV</arm_group_label>
+    <other_name>Rebetol, RBV</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participant must have been assigned to a PEG/RBV control arm in a previous SPRI study
+             of BOC, must have completed treatment as per protocol, and have been compliant with
+             all study treatment and scheduled procedures within the previous study.
+
+          -  Participant must have received at least 12 weeks of treatment with PEG/RBV and must
+             have discontinued treatment in the previous study due to the futility rule (as
+             defined in the previous protocol), had virologic breakthrough, or relapse.
+
+          -  Participant must have had detectable HCV-RNA upon completion of the previous study.
+
+          -  Participant and participant partner(s) must each agree to use acceptable methods of
+             contraception for at least 2 weeks prior to starting any study treatment and to
+             continue until at least 6 months after the last doses of study drugs, or longer if
+             dictated by local regulations.
+
+          -  Participant must be willing to give written informed consent.
+
+        Exclusion Criteria:
+
+          -  All participant exclusion criteria from the SPRI clinical study in which the
+             participant participated prior to qualifying for this study will apply in this study,
+             EXCEPT for the following:
+
+               -  Treatment with RBV within 90 days and any interferon-alpha within 1 month of the
+                  enrollment is not exclusionary in P05514.
+
+               -  Participation in any other SPRI clinical trial within 30 days of enrollment in
+                  this study is not exclusionary.
+
+               -  Use of growth factor at the entry of the study is allowed if it was prescribed
+                  in the previous study.
+
+               -  Laboratory criteria of thyroid-stimulating hormone (TSH) do not apply.
+                  Laboratory criteria of hemoglobin, neutrophils, and platelets do not apply,
+                  unless they met dose reduction/interruption/discontinuation criteria in the
+                  previous study.
+
+               -  Participants who develop moderate depression in the previous study and continue
+                  to be stable and well controlled are not excluded
+
+          -  Participants who had the opportunity to receive boceprevir in the previous study.
+
+          -  Participants requiring discontinuation, interruption, or dose reduction of RBV for
+             more than 2 weeks in the previous study.
+
+          -  Participants requiring discontinuation, interruption, or dose reduction of PEG to
+             less than two-thirds of the assigned starting dose for more than 2 weeks in the
+             previous study.
+
+          -  Participants who experienced a life-threatening SAE considered at least possibly
+             related to study drugs by the investigator or sponsor in the previous study.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <results_reference>
+    <citation>Vierling JM, Davis M, Flamm S, Gordon SC, Lawitz E, Yoshida EM, Galati J, Luketic V, McCone J, Jacobson I, Marcellin P, Muir AJ, Poordad F, Pedicone LD, Albrecht J, Brass C, Howe AY, Colvard LY, Helmond FA, Deng W, Treitel M, Wahl J, Bronowicki JP. Boceprevir for chronic HCV genotype 1 infection in patients with prior treatment failure to peginterferon/ribavirin, including prior null response. J Hepatol. 2014 Apr;60(4):748-56. doi: 10.1016/j.jhep.2013.12.013. Epub 2013 Dec 19.</citation>
+    <PMID>24362076</PMID>
+  </results_reference>
+  <verification_date>July 2015</verification_date>
+  <lastchanged_date>July 6, 2015</lastchanged_date>
+  <firstreceived_date>May 28, 2009</firstreceived_date>
+  <firstreceived_results_date>September 18, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

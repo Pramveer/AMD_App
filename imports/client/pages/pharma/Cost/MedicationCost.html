@@ -1,0 +1,386 @@
+<template name="MedicationCost">
+<!--Nisha
+02/13/2017
+Changed the labels of charts and postion-->
+<!--Nisha 02/28/2017 modified the page commented out "analytics-tooltipHead" to remove the heading-->
+	{{> PharmaSubTabs data="cost"}}
+
+	 <div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+
+  <span class="breadcrumb-item active">Value Proposition</span>
+</nav>
+        </div>
+	<div class="container">
+		<div class="row">
+			<div class="row">
+				<div class="col-lg-12 mlSubTabsChartSectionMask">
+					<div class="chart_loader payer_loader">Loading...</div>
+				</div>
+				<!-- render charts section -->
+				<div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;margin-top:30px;padding-left:50px;">
+					<!-- Compare Button -->
+					<!--<div class="js-comparativeEngine ce_CompareButton " style=""><img src="/compare-icon.png"><span class="tooltiptext">Compare</span>
+					</div>-->
+					<div class="panel boxshadow_borderline" style="width:98%;min-height:500px !important">
+						<div class="panel-body">
+							<div class="panel-heading genotypeDistSelectHeading">
+								<h3 class="panel-title containertitle" style="font-size: 20px ! important;">Incremental Cost Effectiveness Ratio (ICER) <span class="macLearningsubTabs-infoIcon mlInfoTip custmtopandleft">
+									<div class="analytics-tooltip mlInfoTip_tooltip analytics-tooltipt">
+										<!--<div class="analytics-tooltipHead">Incremental Cost Effectiveness Ratio (ICER)</div>-->
+										<div class="analytics-tooltipBody" style="font-size: 13px;">
+											<br />
+											<b> ICER : </b>Incremental Co-Effective Ratio is the additional money needs to be spent in order to gain one
+											additional QALY when you switch from one medication to another.
+											<div style="padding-left:5px">
+												ICER = (Cn - Co)/(QALYn - QALYo)<br/><br/>
+
+												Cn        = Average cost for New Medicine<br/>
+												Co        = Average cost for the Old Medicine<br/>
+												QALYn = Quality Adjusted Life Year for New Medicine<br/>
+												QALYo = Quality Adjusted Life Year for Old Medicine
+											</div><br/>
+											<b>QALY : </b>Quality Adjusted Life Year is the Quality years from the remaining life for the patients.
+											<br/><br/>
+
+											QALY = Q*(1-e(-0.03*Remaining Years))/0.03
+											<br/>	<br/>
+											Q = Probability of patient getting Treated
+											We have taken this based on the success rate of getting treated for particular medicine.
+											<br/><br/>
+											Remaining Years = This is calculated as Average Age in US - Patients Age = 20.
+
+											<br/><br/>
+											<span style='color:red;padding-right:5px;'>*</span>
+									<span style='margin-top: 10px;'>Sourced from
+												<a style="word-break: break-all;" href="http://heapol.oxfordjournals.org/content/21/5/402.full">http://heapol.oxfordjournals.org/content/21/5/402.full</a>
+											</span>
+									<br/>
+									<span style='color:red;padding-right:5px;'>*</span>
+									<span style='margin-top: 10px;'>Sourced from
+												<a style="word-break: break-all;" href="http://www.healthstrategy.com/formularycea/formularycea.htm">http://www.healthstrategy.com/formularycea/formularycea.htm</a>
+											</span>
+									<br/>
+									<span style='color:red;padding-right:5px;'>*</span>
+									<span style='margin-top: 10px;'>Sourced from
+												<a style="word-break: break-all;" href ="http://www.hcvguidelines.org/full-report/overview-cost-reimbursement-and-cost-effectiveness-considerations-hepatitis-c-treatment">http://www.hcvguidelines.org/full-report/overview-cost-reimbursement-and-cost-effectiveness-considerations-hepatitis-c-treatment</a>
+											</span>
+									<br/>
+							</div>
+						</div>
+						</span>
+						</h3>
+					</div>
+
+					<!-- ICER Filter Header -->
+					<div class="pharmaCost-ICERHeader">
+						<!-- Drugs Drop Down -->
+						<div class="col-lg-3 setpadding AdvPayerDropDownContainer" style="width: 19%;padding: 0px !important;">
+							<div class="AdvPayerDropDown" id="insurancePlan">
+								<div class="dropdownLabel" style="text-align:left;" title="Drugs are alphabetically sorted and can be changed for selection">Choose Drug</div>
+								<div class="drugdropdown drugdropdownt" style="min-height: 28px;">
+									<select id="pharma-medicationICER" class="DrugSelect selectized" tabindex="-1" onchange="Template.MedicationCost.icerDrugComboChange(this)">
+												<option value="null" selected disabled>Select ...</option>
+												<!--{{#each getICERMedication}}
+													<option value="{{this}}">{{this}}</option>
+												{{/each}}-->
+											</select>
+								</div>
+							</div>
+						</div>
+
+						<!-- Compare Drugs Section -->
+						<div class="newclass pharmaCost-CompareDrugButton" style=" width: 810px; float: left;position: relative;padding-top: 10px;">
+							<div class="panel-heading viral_load_over_time_title" style="margin-left:0px !important">
+								<i class="fa fa-bars" aria-hidden="true" style="padding:5px 5px 0 0;"></i>
+								<h3 class="panel-title containertitle" style="font-size:14px !important;">Compare Drugs</h3>
+							</div>
+							<div class="viral_load_over_time_opition" id="viral_load_over_time_opition" style="top: 9px !important; left: 170px; z-index: 9;">
+								<div id='divMedicineList'>
+									<ul style="padding: 12px 15px 10px;">
+										{{#each getICERMedication}}
+										<div class="col-lg-6">
+											<li class="checkbox">
+												<label>
+															<input type="checkbox" value="{{this}}" class="medicinelist" checked="true"  />
+															<span class="cr"><i class="cr-icon fa fa-check"></i></span>
+															{{this}}
+														</label>
+											</li>
+										</div>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<!-- GO Button Wrap-->
+						<div class="goButtonWrapper goButtonWrapper_new" style="padding-top: 8px;">
+							<span class="applyUniFilters treatedPharmaICER applyBtn btn btn-success btn-cons" style="padding: 12px 12px 11px;">
+											GO
+									</span>
+						</div>
+
+					</div>
+
+					<!-- ICER Filter Header END -->
+					<div class="pharmaCost-ICERNoData">
+						<div class="providerNoDataFound">No Drug Selected! Please select a Drug.</div>
+					</div>
+					<div class="pharmaCost-ICERChartSection panel panel-default">
+						<div class="col-lg-12" style="position:relative;">
+							<div class="pharmaCost-icerOptimalWrapper">
+								<div>OPTIMAL POINT</div>
+								<div class="pharmaCost-icerOptimalIcon"></div>
+							</div>
+							<div id="pharmaQALYICERxy"></div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="col-lg-6">
+								<div id="pharmaICER"></div>
+							</div>
+							<div class="col-lg-6">
+								<div id="pharmaQALY"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="panel boxshadow_borderline" style="width:98%;">
+				<div class="panel-heading">
+					<h3 class="panel-title containertitle" style="display: inline-block;font-size: 20px ! important;">Comparison Between Costs Per Treatment</h3>
+					<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+												Comparison Between Costs Per Treatment
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">Definition</span> - This chart represents average / median / min / max / std. deviation
+					of cost for each treatment, broken by genotype. This represents how much additional money patients will have to spend
+					if they do not get treated in earlier treatments.<br><br>
+					<span class="boldfnt">Calculation</span><br><br>
+					<span class="boldfnt">Average cost</span> - Average cost for patient in that sub-population.<br><br>
+					<span class="boldfnt">Median cost</span> - Median(middle value after sorting the data) cost for patient in that sub-population.<br><br>
+					<span class="boldfnt">Minimum cost</span> - Minimum cost for patients in that sub-population. <br><br>
+					<span class="boldfnt">Maximum cost</span> - Maximum cost for patients in that sub-population. <br><br>
+					<span class="boldfnt">Std. deviation cost</span> - The standard deviation of a sub-population is known as <b>σ</b>					(sigma) and is calculated using: <br>
+					<img src="/standardDeviationEq.gif" width="127" height="53" border="0"><br> Where <b>x</b> represents each value in
+					the sub-population, μ is the mean value of the population,<b> Σ</b> is the summation (or total), and <b>N</b> is the
+					number of values in the population.<br><br>
+				</div>
+
+			</div>
+			</span>
+
+		</div>
+
+		<div class="panel-body">
+			<div id="treamentAvgCostSelection" class="">
+				<input type="radio" name="treamentAvgCostData" class="radioduration" value="Average" checked="checked"> Average 
+				&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentAvgCostData" class="radioduration" value="Median"> Median  &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentAvgCostData" class="radioduration" value="Min"> Minimum &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentAvgCostData" class="radioduration" value="Max"> Maximum &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentAvgCostData" class="radioduration" value="StdDev"> Standard Deviation &nbsp;&nbsp;&nbsp;
+			</div>
+			<div id="pharmaTreatmentAvgCost"></div>
+		</div>
+	</div>
+	<div class="panel boxshadow_borderline" style="width:98%;">
+		<div class="panel-heading">
+			<h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Cumulative Cost Per Treatment</h3>
+			<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+												Cumulative Cost Per Treatment
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">Definition</span> - This chart represents cumulative of average / min / max / median
+			/ std. deviation cost for each treatment. This represents how much total money patients will have to spend if they do
+			not get treated in earlier treatments.<br><br>
+			<span class="boldfnt">Calculation</span><br><br>
+			<span class="boldfnt">Average cost</span> - Average cost for patient in that sub-population.<br><br>
+			<span class="boldfnt">Median cost</span> - Median(middle value after sorting the data) cost for patient in that sub-population.<br><br>
+			<span class="boldfnt">Minimum cost</span> - Minimum cost for patients in that sub-population. <br><br>
+			<span class="boldfnt">Maximum cost</span> - Maximum cost for patients in that sub-population. <br><br>
+			<span class="boldfnt">Std. deviation cost</span> - The standard deviation of a sub-population is known as <b>σ</b> (sigma)
+			and is calculated using: <br>
+			<img src="/standardDeviationEq.gif" width="127" height="53" border="0"><br> Where <b>x</b> represents each value in the
+			sub-population, μ is the mean value of the population,<b> Σ</b> is the summation (or total), and <b>N</b> is the number
+			of values in the population.<br><br>
+		</div>
+
+	</div>
+	</span>
+
+	</div>
+
+	<div class="panel-body">
+		<div id="treamentCumulativeCostSelection" class="">
+			<input type="radio" name="treamentCumulativeCostData" class="radioduration" value="Average" checked="checked"> Average
+			 &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="treamentCumulativeCostData" class="radioduration" value="Median"> Median  &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="treamentCumulativeCostData" class="radioduration" value="Min"> Minimum &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="treamentCumulativeCostData" class="radioduration" value="Max"> Maximum &nbsp;&nbsp;&nbsp;
+			<input type="radio" name="treamentCumulativeCostData" class="radioduration" value="StdDev"> Standard Deviation &nbsp;&nbsp;&nbsp;
+		</div>
+		<div id="pharmaTreatmentCumulativeCost" style="height: 400px"></div>
+	</div>
+
+	<div class="panel" style="width:98%;">
+		<div class="panel-heading">
+			<h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Retreated Distribution</h3>
+			  <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <!--<div class="analytics-tooltipHead">Retreated Distribution</div>-->
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">Definition</span> - This chart represents the number of patients who have taken retreatment for each Genotype.
+ 										<br> <br>
+ 									Further on click of any bar, it will drill down to show the same information broken by number of total treatments taken, medication and treatment period.
+  									<br> <br>
+                                </div>
+                            </div>
+            </span>
+		</div>
+
+		<div class="panel-body">
+			<div id="pharmaRetreatmentByGenotype" style="height: 500px"></div>
+		</div>
+		</div>
+
+	</div>
+<!--Nisha 02/24/2017 Modified the titles to remove it from info-->
+	<div class="panel boxshadow_borderline" style="width:98%;max-height:1300px !important;">
+		<div class="panel-heading">
+			<h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;"> Cost of Relapsed Patients </h3>
+			<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+												 Cost of Relapsed Patients
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+
+				  <span class='boldfnt'>Definition</span> - This chart shows the count of patients who relapsed with the treatment.
+                                   Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                   then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+
+			</div>
+
+		</div>
+		</span>
+
+		</div>
+		<div class="panel-body">
+			<div id="treamentRelapsedPatientSelection" class="">
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="genotype" checked="checked"> Genotype
+				&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="race"> Race &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="cirrhosis"> Cirrhosis&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="gender"> Gender&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="age"> Age&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="fibrosis"> Fibrosis&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="treamentRelapsedPatientSelection" class="radiorelapsed" value="medication"> Medication&nbsp;&nbsp;&nbsp;
+			</div>
+			<div id="pharmaTreatmentRelapsed" style="width:1170px;height:360px;">
+
+			</div>
+		</div>
+		</div>
+		<!-- remiited patients chart -->
+		<!--<div class="col-md-12">-->
+		<div class="panel boxshadow_borderline" style="width:98%;min-height:460px;">
+			<div class="panel-heading">
+				<h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;"> Cost of Remitted Patients </h3>
+				<span class="macLearningsubTabs-infoIcon mlInfoTip">
+											<div class="analytics-tooltip mlInfoTip_tooltip" >
+												<!--<div class="analytics-tooltipHead">
+												 Cost of Remitted Patients
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+				  <span class='boldfnt'>Definition</span> - This chart shows the count of patients who got remission during the treatment.
+                                 Remitted patients are the ones who had viral load after starting the treatment and their viral load was undetectable before
+                                 the treatment ends.
+			</div>
+
+		</div>
+		</span>
+
+			</div>
+			<div class="panel-body">
+				<div id="treamentRemittedPatientSelection" class="">
+								<input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="genotype" checked="checked"> Genotype
+								&nbsp;&nbsp;&nbsp;
+								<input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="medication"> Medication &nbsp;&nbsp;&nbsp;
+								<input type="radio" name="treamentRemittedPatientSelection" class="radioremitted" value="treatment"> Treatment Period&nbsp;&nbsp;&nbsp;
+				</div>
+				<div id="pharmaTreatmentRemmitted" style="min-width:1170px;min-height:400;"></div>
+			</div>
+		</div>
+		<!--</div>-->
+
+
+	<!-- <div class="col-lg-12" style="text-align: center; margin-top: 30px; padding-left: 50px;min-height:500px !important"> -->
+	<!-- </div> -->
+
+
+		<!--Liver Transplant; Nisha 02/10/2017 -->
+		<!--Liver Transplant; Nisha 02/23/2017 Modified for Adding Code and removed popup -->
+
+        <div class="col-lg-12 mlSubTabsChartSectionMask  loadingwheelMask symptomsChartsLoading" style="display: none">
+             <div class="chart_loader payer_loader">Loading...</div>
+        </div>
+    
+		<div class="panel boxshadow_borderline symptomsChartWrapper" style="display: none;width:98%;min-height:460px;">
+		<div class="panel-heading">
+			<h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Liver Transplant</h3>
+			  <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <!--<div class="analytics-tooltipHead">Liver Transplant</div>-->
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class="boldfnt">Definition</span> - This chart represents all the costs for patients before liver transplant and after that.
+																		To find that cost we have added all the costs from ICD and CPT codes as well as hospitalization cost, physician service cost,medication cost and
+																		liver disease cost.<br>
+																		We have taken the date of 1st encounter  for liver transplant to differentiate before and after cost.
+
+                                </div>
+                            </div>
+            </span>
+		</div>
+
+		<div class="panel-body">
+			<div id="pharmaLiverTransplantByGenotype" style="min-width:1170px;min-height:400px;"></div>
+			<div id="divCostTable" style="display:none;width:1170px;height:400px; overflow: hidden;"></div>
+		</div>
+		</div>
+		 <!-- Wrapper for table data  -->
+             <!--<div class="popup pharmaPatientsPopup" data-popup="pharmaPatientsPopup">
+			  <div class="col-lg-12 mlSubTabsChartSectionMask loadingwheelMask costChartsLoading" style="display: none">
+               <div class="chart_loader payer_loader">Loading...</div>
+            </div>
+
+		     <div class="costChartWrapper" style="display: none;width:98%;min-height:460px;">
+                    <div class="popup-inner" style="height:600px !important;overflow:auto;">
+                        <button type="button" class="close pharma_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+                        <div class="pharmaPatientsPopup-header"></div>
+                        <div class="pharmaPatientsPopup-container"> <div id="divCostTable"></div></div>
+                    </div>
+                </div>
+             </div>-->
+        
+
+	</div>
+
+
+
+	<!-- charts section end -->
+	</div>
+	<!-- <div class="col-lg-12 pharmaCostTab" style="padding-top:10px;">
+      </div> -->
+	</div>
+	</div>
+	{{ >MainFooter}}
+</template>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="61">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00723632</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04588</org_study_id>
+    <nct_id>NCT00723632</nct_id>
+  </id_info>
+  <brief_title>Pharmacoeconomic Study Assessing the Cost of Chronic Hepatitis C Treatment With Peginterferon Alfa-2b (PegIntron) and Ribavirin (Rebetol) in the Czech Republic (Study P04588)(COMPLETED)</brief_title>
+  <official_title>Cost of Treatment of Chronic Hepatitis C Using Combination of Peginterferon α-2b Plus Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Czech Republic: State Institute for Drug Control</authority>
+    <authority>Czech Republic: Ethics Committee</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of the study is to evaluate the costs associated with peginterferon alfa-2b
+      (PegIntron) plus ribavirin (Rebetol) treatment for chronic hepatitis C in the Czech
+      Republic. Only costs associated with rescue medication, concomitant therapy, disease
+      monitoring, and medical intervention costs recognized by the treating institution as
+      treatment-related expenses will be included in the analysis. The study will also evaluate
+      the correlation between hepatitis C virus (HCV) therapy-related costs with ribavirin dosing
+      and participant history.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2005</start_date>
+  <completion_date type="Actual">December 2010</completion_date>
+  <primary_completion_date type="Actual">December 2010</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Case-Only, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Average Cost Per Participant With Sustained Virologic Response (SVR) Stratified by Weight Category</measure>
+    <time_frame>From enrollment up to 48 weeks for participants with hepatitis C virus (HCV) genotype 1, and from enrollment up to 24 weeks for participants with HCV genotypes 2 and 3</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR is defined as undetectable HCV ribonucleic acid (RNA) six months after the end of treatment. Cost per participant with SVR was calculated as a ratio of the total costs for all participants and the number of participants with SVR in the given group. All costs were adjusted for inflation to 2010 values.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Average Cost Per Participant With SVR Stratified by Ribavirin Dosage</measure>
+    <time_frame>From enrollment up to 48 weeks for participants with HCV genotype 1, and from enrollment up to 24 weeks for participants with HCV genotypes 2 and 3</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR is defined as undetectable HCV ribonucleic acid (RNA) six months after the end of treatment. Cost per participant with SVR was calculated as a ratio of the total costs for all participants and the number of participants with SVR in the given group. All costs were adjusted for inflation to 2010 values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Average Cost Per Participant With SVR Stratified by Prior Treatment Status</measure>
+    <time_frame>From enrollment up to 48 weeks for participants with HCV genotype 1, and from enrollment up to 24 weeks for participants with HCV genotypes 2 and 3</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR is defined as undetectable HCV ribonucleic acid (RNA) six months after the end of treatment. Cost per participant with SVR was calculated as a ratio of the total costs for all participants and the number of participants with SVR in the given group. All costs were adjusted for inflation to 2010 values.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">901</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Peginterferon alfa-2b and ribavirin</arm_group_label>
+    <description>All participants included in the study</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>peginterferon alfa-2b</intervention_name>
+    <description>Peginterferon alfa-2b administered in accordance with approved labeling, ie, 1.5 μg/kg weekly SC for 48 weeks for participants with hepatitis C virus (HCV) genotype 1 or for 24 weeks for participants with HCV genotype 2, 3.</description>
+    <arm_group_label>Peginterferon alfa-2b and ribavirin</arm_group_label>
+    <other_name>SCH 054031</other_name>
+    <other_name>PegIntron</other_name>
+    <other_name>peginterferon α-2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin</intervention_name>
+    <description>Ribavirin administered in accordance with approved labeling, ie, 800 mg/day for participants &lt;65 kg, 1000 mg/day for participants &gt;65 to &lt;85 kg, and 1200 mg/day for participants &gt;=85 kg, administered orally for 48 weeks for participants with HCV genotype 1 or for 24 weeks for participants with HCV genotype 2, 3.</description>
+    <arm_group_label>Peginterferon alfa-2b and ribavirin</arm_group_label>
+    <other_name>SCH 018908</other_name>
+    <other_name>Rebetol</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants with chronic hepatitis C treated with peginterferon alfa-2b and ribavirin at
+        approximately 81 sites in the Czech Republic.
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants with chronic hepatitis C
+
+          -  At least 18 years old
+
+          -  Eligibility determined based on the diagnosis and medical judgment only.
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Czech Republic</country>
+  </removed_countries>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 1, 2015</lastchanged_date>
+  <firstreceived_date>July 25, 2008</firstreceived_date>
+  <firstreceived_results_date>November 11, 2011</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

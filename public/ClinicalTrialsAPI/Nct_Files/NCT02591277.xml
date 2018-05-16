@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="153">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02591277</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-337-1498</org_study_id>
+    <nct_id>NCT02591277</nct_id>
+  </id_info>
+  <brief_title>Use-Results Surveillance Study of Harvoni® in Japanese Patients With Chronic Genotype 1 Hepatitis C Virus Infection</brief_title>
+  <official_title>A Prospective Observational Post-Marketing Study of Harvoni in Japanese Patients With Genotype 1 Chronic Hepatitis C Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the safety and efficacy of Harvoni® (ledipasvir/sofosbuvir
+      (LDV/SOF) fixed-dose combination (FDC)) treatment under real world use in Japan. Among adult
+      patients with chronic genotype 1 hepatitis C virus (HCV) infection and treated with Harvoni
+      in routine clinical use, the primary objective of this study is to evaluate the incidence of
+      adverse drug reactions (ADRs) under real world settings.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>November 2015</start_date>
+  <completion_date type="Anticipated">July 2018</completion_date>
+  <primary_completion_date type="Anticipated">July 2018</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Ecologic or Community, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Incidence of adverse drug reaction (ADR) under real world settings</measure>
+    <time_frame>Up to 16 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR) 12 and 24 weeks after discontinuation of therapy (SVR12 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 12 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 and SVR24 are defined as HCV RNA &lt; the lower limit of quantification (LLOQ) 12 and 24 weeks following the last dose of study drug, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with HCV NS5A and NS5B resistance associated variants among patients who do not achieve SVR at 12 weeks</measure>
+    <time_frame>Approximately 12 weeks after treatment completion or discontinuation</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">3000</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Harvoni</arm_group_label>
+    <description>Adult patients with chronic genotype 1 HCV infection with or without compensated cirrhosis who take Harvoni as part of routine clinical care at a participating clinic/hospital.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Harvoni</intervention_name>
+    <description>Harvoni (90/400 mg) FDC tablet administered orally once daily</description>
+    <arm_group_label>Harvoni</arm_group_label>
+    <other_name>LDV/SOF</other_name>
+    <other_name>GS-5885/GS-7977</other_name>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Whole blood
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients with chronic genotype 1 HCV infection with or without compensated cirrhosis
+        who take Harvoni as part of routine clinical care at a participating clinic/hospital.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients with chronic genotype 1 HCV infection with or without compensated
+             cirrhosis
+
+          -  Patients who are prescribed Harvoni
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Leslie Ng, PhD, MPH</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gilead Study Team</last_name>
+    <email>JP.HCV.PMS@gilead.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>Asahi-shi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chichibu-shi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fujioka-shi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Higashiibaraki-gun</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Iruma-gun</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Toyama-shi</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 8, 2015</lastchanged_date>
+  <firstreceived_date>October 28, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>observational</keyword>
+  <keyword>post-marketing</keyword>
+  <keyword>ledipasvir/sofosbuvir</keyword>
+  <keyword>Japan</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

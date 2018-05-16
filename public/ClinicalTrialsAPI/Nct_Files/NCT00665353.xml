@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="435">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00665353</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ACTG A5239</org_study_id>
+    <secondary_id>1U01AI068636</secondary_id>
+    <nct_id>NCT00665353</nct_id>
+    <nct_alias>NCT00735982</nct_alias>
+  </id_info>
+  <brief_title>Pioglitazone Before Peginterferon and Ribavirin for Hepatitis C Infection in HIV/HCV-Coinfected Patients With Insulin Resistance</brief_title>
+  <official_title>A Pilot Study of Therapy With Pioglitazone Prior to HCV Treatment in HIV-1 and HCV Genotype 1-Infected Subjects With Insulin Resistance Who Are Prior Nonresponders to Peginterferon and Ribavirin Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AIDS Clinical Trials Group</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>AIDS Clinical Trials Group</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Insulin resistance is common in people coinfected with HIV and Hepatitis C virus (HCV) and
+      is associated with poor responses to treatment for HCV. Pioglitazone is an FDA-approved
+      medication for the treatment of type 2 diabetes. It works by increasing the body's
+      sensitivity to insulin. The purpose of this study is to determine whether treatment with
+      pioglitazone prior to HCV treatment with peginterferon and ribavirin is safe and effective
+      in improving the treatment outcome in insulin-resistant, HIV/HCV-coinfected people for whom
+      previous treatment with peginterferon and ribavirin was unsuccessful.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      New and better strategies for the treatment of HCV in HIV/HCV-coinfected people are urgently
+      needed. Standard therapy for HCV includes treatment with peginterferon plus ribavirin.
+      Peginterferon is a modified form of the drug interferon and is used either alone or in
+      combination with ribavirin for the treatment of HCV. Ribavirin works by stopping HCV from
+      multiplying inside the body. Sustained virologic response rates in past large studies of
+      peginterferon plus ribavirin used for treating HCV types 1 or 4 ranged from 11% to 29%.
+      Studies have shown that insulin resistance in HCV-infected people who are HIV uninfected
+      leads to poorer HCV treatment response. Improving the body's response to insulin may also
+      improve the outcome of treatment for HCV.
+
+      Participants in this study will take pioglitazone alone for up to 28 weeks. At Entry and
+      Weeks 2, 4, 8, 12,18, and 24 participants will receive clinical assessments. At Week 24,
+      participants will undergo additional tests to ensure that they can enter Step 2 of the
+      study. Participants who are able to continue will then take peginterferon and ribavirin in
+      addition to the pioglitazone for up to 48 additional weeks. Clinical assessments will take
+      place at the time of entry and Weeks 2, 4, 8, 12, 16, and 24 of Step 2. Participants who do
+      not exhibit a response to the treatment at Weeks 12 or 24 will not continue Step 2, as it is
+      unlikely that further treatment will elicit a response. Participants who continue in the
+      study will return to the study site for clinical assessments at Weeks 32, 40, and 48 of Step
+      2. Follow-up visits will be held at Weeks 60 and 72. The assessments done at clinic visits
+      may include any or all of the following tests: thyroid function, hematology and chemistry,
+      fasting plasma glucose, liver function, gamma-glutamyl transferase, pregnancy, CD4/CD8,
+      HIV-1 RNA, qualitative HCV RNA, and quantitative HCV RNA.
+
+      On November 18, 2011 the study was closed to accrual due to not meeting targeted accrual
+      goals.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2009</start_date>
+  <completion_date type="Actual">December 2011</completion_date>
+  <primary_completion_date type="Actual">May 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The Proportion of All Subjects With HCV Viral Load &lt; 60 IU/mL at Week 24 of Step 2.</measure>
+    <time_frame>Week 24 of Step 2</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Safety and Tolerability</measure>
+    <time_frame>Step 1 (Up to 24 to 28 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Summary of the number of subjects with at least one grade 3 or higher sign/symptom or laboratory abnormality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety and Tolerability</measure>
+    <time_frame>Step 2 (Up to 72 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Summary of the number of subjects with at least one grade 3 or higher sign/symptom or laboratory abnormality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The Proportion of All Subjects With HCV Viral Load &lt; 60 IU/mL at Week 72of Step 2.</measure>
+    <time_frame>Week 72 of Step 2</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Absolute Change From Entry to Week 24 of Step 1 in AST and ALT.</measure>
+    <time_frame>From Entry to Week 24 of Step 1</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Absolute Change From Entry to Week 24 of Step 1 in Homeostasis Model of Assessment - Insulin Resistance (HOMA-IR)</measure>
+    <time_frame>From Entry to Week 24 of Step 1</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Absolute Change From Entry to Week 24 of Step 1 in Fasting Total Cholesterol and Triglycerides.</measure>
+    <time_frame>From Entry to Week 24 of Step 1</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">19</enrollment>
+  <condition>HIV-1 and Hepatitis C Co-Infection</condition>
+  <arm_group>
+    <arm_group_label>PIO (step 1) then PIO+PEG-INF+RBV (step 2)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All participants in this study will receive pioglitazone therapy for 24 to 28 weeks. Participants will continue pioglitazone and add peginterferon and ribavirin to their treatment regimen for up to 48 additional weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pioglitazone</intervention_name>
+    <description>Traditionally used in the treatment of type 2 diabetes to increase insulin sensitivity. Participants will take 30 mg daily in tablet form.</description>
+    <arm_group_label>PIO (step 1) then PIO+PEG-INF+RBV (step 2)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>peginterferon</intervention_name>
+    <description>Used in the treatment of HCV. Participants will receive 180 mcg subcutaneously once a week.</description>
+    <arm_group_label>PIO (step 1) then PIO+PEG-INF+RBV (step 2)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin</intervention_name>
+    <description>Used in the treatment of HCV. Participants will receive 1000 to 1200 mg orally per day depending on weight.</description>
+    <arm_group_label>PIO (step 1) then PIO+PEG-INF+RBV (step 2)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        For Step 1:
+
+          -  HIV infected
+
+          -  Exhibited no response to previous treatment with PEG-IFN alfa-2a 180 mcg/week or
+             alfa-2b 1.5 mcg/kg/week and at least 1000 mg/day ribavirin given for at least 12
+             consecutive weeks. More information on this criterion can be found in the protocol.
+
+          -  HOMA-IR valued greater than 2.5 within 42 days prior to study entry. More information
+             on this criterion can be found in the protocol.
+
+          -  CD4 count of at least 200 cells/mm3 within 42 days prior to study entry
+
+          -  HCV RNA of at least 60 IU/ml by quantitative RT-PCR assay with or without reactive
+             anti-HCV antibodies within 42 days prior to study entry
+
+          -  Documentation of infection with HCV genotype 1, within 42 days prior to study entry
+
+          -  On stable or no antiretroviral therapy for 12 weeks prior to study entry.
+             Interruptions in treatment lasting 14 days or less are allowed if the participant
+             reinitiated the same regimen prior to study entry. Dose modifications or changes in
+             drug formulations during the 12 weeks prior to study entry are permissible.
+
+          -  Participants on antiretroviral therapy should plan to remain on the same therapy for
+             at least 24 weeks after study entry. Participants not on antiretroviral therapy
+             should have no plans to initiate therapy during the first 24 weeks following study
+             entry.
+
+          -  Participants with documented or suspected hepatic cirrhosis must have a modified
+             Child-Pugh-Turcotte (CPT) within 42 days prior to study entry.
+
+          -  Participants with documented or suspected hepatic cirrhosis must have either serum
+             alpha-fetoprotein level of 50 ng/ml or less within 24 weeks prior to study entry; OR
+             serum alpha-fetoprotein greater than 50 ng/ml but no greater than 400 ng/ml with an
+             imaging procedure that shows no evidence of a hepatic tumor, both obtained within 24
+             weeks prior to study entry.
+
+          -  Certain laboratory values obtained within 42 days prior to study entry. More
+             information on this criterion can be found in the protocol.
+
+          -  Willing to use effective forms of contraception throughout the study. More
+             information on this criterion can be found in the protocol.
+
+          -  Ability and willingness of participant to give written informed consent.
+
+        For Step 2:
+
+          -  No more than 28 days have passed since the Step 1, Week 24 visit
+
+          -  Participants who were treated in Step 1 who meet the following criteria:
+
+               1. Detectable HCV RNA (&gt; 60 IU/mL) at the Step 1, Week 24 evaluation
+
+               2. CD4 cell count of at least 200 cells/mm3 at Week 24. If the CD4 count is less
+                  than 200 cells/mm3 at Week 24, then it must not have decreased by more than 20
+                  cells/mm3 from the Step 1 entry value.
+
+               3. Taking pioglitazone at the time of Step 2 entry
+
+          -  Certain laboratory values obtained within 28 days prior to Step 2 entry. More
+             information on this criterion can be found in the protocol.
+
+          -  Willing to use an effective form of contraception throughout the study
+
+          -  Female participants of reproductive potential are required to have a negative serum
+             or urine β-HCG pregnancy test within 14 days prior to Step 2 entry
+
+          -  Participants without a pregnant partner.
+
+        Exclusion Criteria:
+
+          -  Presence of known causes of significant liver disease. More information on this
+             criterion can be found in the protocol.
+
+          -  Evidence of decompensated liver disease manifested by presence or history of ascites,
+             variceal bleeding, or hepatic encephalopathy
+
+          -  History of HCV treatment within 28 days prior to study entry
+
+          -  Evidence that nonresponse to prior HCV treatment may have been due to nonadherence or
+             certain dose reductions. More information on this criterion can be found in the
+             protocol.
+
+          -  Use of interferon gamma, TNF-alpha inhibitors, rifampin, rifabutin, pyrazinamide,
+             isoniazid, ganciclovir, or hydroxyurea within 14 days prior to study entry
+
+          -  Current use of didanosine or zidovudine or plans to initiate use of either during the
+             study
+
+          -  Active drug or alcohol abuse or dependence that, in the opinion of the study
+             investigator, could interfere with adherence to study requirements
+
+          -  History of uncontrolled seizure disorder
+
+          -  Uncontrolled depression or other psychiatric disorder, such as untreated Grade 3
+             psychiatric disorder, Grade 3 disorder not amenable to medical intervention, or any
+             hospitalization within the past 52 weeks that may affect tolerability of study
+             requirements
+
+          -  History of autoimmune disorders, including but not limited to Crohn's disease,
+             ulcerative colitis, severe psoriasis, and rheumatoid arthritis, that have been
+             exacerbated by previous interferon use
+
+          -  Any systematic antineoplastic or immunomodulatory treatment or radiation within 24
+             weeks prior to study entry
+
+          -  Serious illness including malignancy, active symptomatic coronary artery disease
+             within 24 weeks prior to study entry, or other chronic medical condition that could
+             interfere with safe study completion
+
+          -  Presence of AIDS-defining opportunistic infections within 12 weeks prior to study
+             entry
+
+          -  Hemoglobinopathy (e.g., thalassemia major) or any other cause of or tendency to
+             hemolysis. Subjects with thalassemia minor may be enrolled at the discretion of the
+             investigator.
+
+          -  History of major organ transplantation with an existing functional graft
+
+          -  Use of antidiabetic medications for any reason within 12 weeks prior to study entry
+
+          -  Fasting plasma glucose level of at least 126 mg/dl within 42 days prior to study
+             entry or current or previous treatment at any time for diabetes with measures other
+             than diet. Women with a history of gestational diabetes, patients with diabetes or
+             hyperglycemia occurring in the context of short term use of corticosteroids, growth
+             hormone, or other diabetogenic medication, and patients with diabetes or
+             hyperglycemia following an episode of pancreatitis who no longer require treatment
+             for diabetes are not excluded.
+
+          -  Known osteoporosis or receipt of treatment of osteopenia or osteoporosis within 12
+             weeks prior to study entry with the following medications: risedronate (Actonel®),
+             ibandronate (Boniva®), etidronate (Didronel®), raloxifene (Evista®), teriparatide
+             (Forteo®), aledronate (Fosamax®), calcitonin (Miacalcin®).
+
+          -  Known initiation or change in dose of any statins, fibrates, omega-3 fatty acids,
+             bile acid sequestrants, ezetimibe, and niacin derivatives within 12 weeks prior to
+             study entry
+
+          -  Known allergy, sensitivity, or hypersensitivity to components of the study drugs or
+             their formulation
+
+          -  Regular and excessive use of alcohol within the 12 weeks prior to study entry. More
+             information on this criterion can be found in the protocol.
+
+          -  Unwilling to restrict alcohol use during the study to 120 g of alcohol per week or
+             less for men and 60 g of alcohol per week or less for women
+
+          -  Known glucocorticoid use in supraphysiologic doses (e.g., more than 10 mg per day of
+             prednisone or equivalent doses of other glucocorticoids) within 12 weeks prior to
+             study entry
+
+          -  Known glucocorticoid use in physiologic replacement doses (e.g., 10 mg or less per
+             day of prednisone or equivalent doses of other glucocorticoids) initiated within 28
+             days prior to study entry
+
+          -  History of congestive heart failure corresponding to New York Heart Association Class
+             II or greater
+
+          -  Current use of prohibited concomitant medications. More information on this criterion
+             is available in the protocol.
+
+          -  Current participation in experimental studies that include treatments not approved by
+             the FDA or any blinded treatments, with the exception of investigational
+             antiretrovirals available through expanded access programs
+
+          -  Body mass index (BMI) greater than 35 kg/m2
+
+          -  Participant or participant's partner is pregnant or breastfeeding
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marshall Glesby, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Cornell Clinical Trials Unit, Weill Medical College of Cornell University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kristen Marks, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>New York Presbyterian Hospital-Cornell</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Ucsf Aids Crs (801)</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern University CRS (2701)</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>New Jersey Medical School-Adult Clinical Research Ctr. CRS (31477)</name>
+      <address>
+        <city>Newark</city>
+        <state>New Jersey</state>
+        <zip>07103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Cornell CRS (7804)</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10011</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>NY Univ. HIV/AIDS CRS (401)</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>AIDS Care CRS (1108)</name>
+      <address>
+        <city>Rochester</city>
+        <state>New York</state>
+        <zip>14642</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Metro Health CRS (2503)</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Commonwealth Univ. Medical Ctr. CRS (31475)</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23219</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://aidsinfo.nih.gov/DrugsNew/DrugDetailNT.aspx?MenuItem=Drugs&amp;Search=On&amp;int_id=336</url>
+    <description>Click here for more information on peginterferon</description>
+  </link>
+  <link>
+    <url>http://aidsinfo.nih.gov/DrugsNew/DrugDetailNT.aspx?MenuItem=Drugs&amp;Search=On&amp;int_id=28</url>
+    <description>Click here for more information on ribavirin</description>
+  </link>
+  <link>
+    <url>http://aidsinfo.nih.gov/clinicaltrials/htmltrials_sp.asp?an=1630</url>
+    <description>Haga clic aquí para ver información sobre este ensayo clínico en español.</description>
+  </link>
+  <reference>
+    <citation>de Larrañaga GF, Wingeyer SD, Puga LM, Alonso BS, Benetucci JA. Relationship between hepatitis C virus (HCV) and insulin resistance, endothelial perturbation, and platelet activation in HIV-HCV-coinfected patients under highly active antiretroviral treatment. Eur J Clin Microbiol Infect Dis. 2006 Feb;25(2):98-103.</citation>
+    <PMID>16477441</PMID>
+  </reference>
+  <reference>
+    <citation>Patel MR, Mullen MP, Dieterich DT. Sustained virologic response with short-course ribavirin and peginterferon treatment in 2 patients coinfected with HIV and HCV genotype 1. AIDS Read. 2006 Mar;16(3):164, 168-9; discussion 168-9.</citation>
+    <PMID>16538956</PMID>
+  </reference>
+  <reference>
+    <citation>Romero-Gómez M, Del Mar Viloria M, Andrade RJ, Salmerón J, Diago M, Fernández-Rodríguez CM, Corpas R, Cruz M, Grande L, Vázquez L, Muñoz-De-Rueda P, López-Serrano P, Gila A, Gutiérrez ML, Pérez C, Ruiz-Extremera A, Suárez E, Castillo J. Insulin resistance impairs sustained response rate to peginterferon plus ribavirin in chronic hepatitis C patients. Gastroenterology. 2005 Mar;128(3):636-41.</citation>
+    <PMID>15765399</PMID>
+  </reference>
+  <reference>
+    <citation>Torriani FJ, Rodriguez-Torres M, Rockstroh JK, Lissen E, Gonzalez-García J, Lazzarin A, Carosi G, Sasadeusz J, Katlama C, Montaner J, Sette H Jr, Passe S, De Pamphilis J, Duff F, Schrenk UM, Dieterich DT; APRICOT Study Group. Peginterferon Alfa-2a plus ribavirin for chronic hepatitis C virus infection in HIV-infected patients. N Engl J Med. 2004 Jul 29;351(5):438-50.</citation>
+    <PMID>15282351</PMID>
+  </reference>
+  <verification_date>May 2013</verification_date>
+  <lastchanged_date>May 14, 2013</lastchanged_date>
+  <firstreceived_date>April 22, 2008</firstreceived_date>
+  <firstreceived_results_date>June 7, 2012</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>HIV</keyword>
+  <keyword>HCV</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Coinfection</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Insulin Resistance</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Pioglitazone</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="141">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01987453</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-337-1118</org_study_id>
+    <secondary_id>2014-001245-24</secondary_id>
+    <nct_id>NCT01987453</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of Ledipasvir/Sofosbuvir Fixed-Dose Combination ± Ribavirin in Subjects With Chronic Genotype 1 HCV Who Participated in a Prior Gilead-Sponsored HCV Treatment Study</brief_title>
+  <official_title>An Open-Label, Multicenter Study To Evaluate The Efficacy And Safety Of Sofosbuvir/Ledipasvir Fixed-Dose Combination ± Ribavirin For 12 or 24 Weeks In Chronic Genotype 1 HCV Infected Subjects Who Participated In A Prior Gilead-Sponsored HCV Treatment Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to evaluate the efficacy, safety, and tolerability of ledipasvir/sofosbuvir
+      (Harvoni®; LDV/SOF) fixed-dose combination (FDC) tablet with or without ribavirin (RBV) in
+      participants with chronic genotype 1 hepatitis C virus (HCV) infection who have participated
+      in a prior Gilead-sponsored HCV treatment study, and who did not achieve sustained virologic
+      response (SVR), defined as HCV RNA &lt; lower limit of quantification (LLOQ) 24 weeks after
+      last dose of study drug (SVR24).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2013</start_date>
+  <completion_date type="Actual">November 2015</completion_date>
+  <primary_completion_date type="Actual">November 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Proportion of participants with sustained virologic response 12 weeks after discontinuation of therapy (SVR12)</measure>
+    <time_frame>Post-treatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as HCV RNA &lt; the lower limit of quantitation (LLOQ) 12 weeks following the last dose of study medication.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of adverse events leading to permanent discontinuation of study drug</measure>
+    <time_frame>Up to 12 Weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR) at 4 and 24 weeks after discontinuation of therapy (SVR4 and SVR24)</measure>
+    <time_frame>Post-treatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR24 is defined as HCV RNA &lt; LLOQ at 4 and 24 weeks following the last dose of study medication, respectively.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with HCV RNA &lt; LLOQ while on treatment</measure>
+    <time_frame>Baseline to Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in HCV RNA from Baseline</measure>
+    <time_frame>Baseline to Week 8</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with virologic failure</measure>
+    <time_frame>Baseline to post-treatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic failure is defined as virologic breakthrough (participant achieved undetectable HCV RNA levels during treatment but subsequently had detectable HCV RNA while continuing treatment), non-response (HCV RNA ≥ LLOQ through 8 weeks of treatment), or relapse (participant achieved undetectable HCV RNA levels during treatment maintained undetectable HCV RNA for the duration of treatment or achieved undetectable HCV RNA within 4 weeks of the end of treatment but did not achieve SVR at 4, 12, or 24 weeks post-treatment).</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">100</enrollment>
+  <condition>HCV Infection</condition>
+  <arm_group>
+    <arm_group_label>LDV/SOF+RBV 12 weeks (Group 1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants who failed a prior SOF+RBV±Pegylated Interferon (Peg-IFN) regimen will receive LDV/SOF FDC plus RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LDV/SOF (Group 2)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants who failed a prior LDV/SOF±RBV regimen will receive LDV/SOF FDC for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LDV/SOF+RBV 24 weeks (Group 3)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with advanced compensated or decompensated cirrhosis who failed a prior SOF+RBV regimen will receive LDV/SOF FDC plus RBV for 24 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV/SOF</intervention_name>
+    <description>LDV/SOF 90/400 mg FDC tablet administered orally once daily</description>
+    <arm_group_label>LDV/SOF+RBV 12 weeks (Group 1)</arm_group_label>
+    <arm_group_label>LDV/SOF (Group 2)</arm_group_label>
+    <arm_group_label>LDV/SOF+RBV 24 weeks (Group 3)</arm_group_label>
+    <other_name>Harvoni®</other_name>
+    <other_name>GS-5885/GS-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) tablets administered orally in a divided daily dose according to package insert weight-based dosing recommendations (&lt; 75 kg = 1000 mg and ≥ 75 kg = 1200 mg)
+Participants in the LDV/SOF+RBV 24 weeks group will dose adjust RBV according to hemoglobin and renal status as stated in the RBV package insert.</description>
+    <arm_group_label>LDV/SOF+RBV 12 weeks (Group 1)</arm_group_label>
+    <arm_group_label>LDV/SOF+RBV 24 weeks (Group 3)</arm_group_label>
+    <other_name>Ribasphere®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Willing and able to provide written informed consent
+
+          -  Infection with HCV genotype 1
+
+          -  HCV RNA &gt; LLOQ at screening
+
+          -  Participation in a prior Gilead-sponsored study
+
+          -  Screening laboratory values within defined thresholds
+
+          -  Use of two effective contraception methods if female of childbearing potential or
+             sexually active male
+
+          -  Must be of generally good health, with the exception of chronic HCV infection, as
+             determined by the Investigator
+
+          -  Must be able to comply with the dosing instructions for study drug administration and
+             able to complete the study schedule of assessments
+
+        Exclusion Criteria:
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  Co-infection with HIV or hepatitis B virus (HBV)
+
+          -  Current or prior history of clinical hepatic decompensation (Groups 1 and 2 only)
+
+          -  Hepatocellular carcinoma (HCC)
+
+          -  History of clinically significant illness or any other medical disorder that may
+             interfere with subject treatment, assessment or compliance with the protocol
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jenny Yang, PharmD</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Beverly Hills</city>
+        <state>California</state>
+        <zip>90210</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90027</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90036</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90069</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Oceanside</city>
+        <state>California</state>
+        <zip>92056</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20009</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32256</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wellington</city>
+        <state>Florida</state>
+        <zip>33414</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <zip>30060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Downers Grove</city>
+        <state>Illinois</state>
+        <zip>60515</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46237</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bowling Green</city>
+        <state>Kentucky</state>
+        <zip>42101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Baton Rouge</city>
+        <state>Louisiana</state>
+        <zip>70809</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55414</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <zip>64131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hillsborough</city>
+        <state>New Jersey</state>
+        <zip>08844</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Albuquerque</city>
+        <state>New Mexico</state>
+        <zip>87131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Binghamton</city>
+        <state>New York</state>
+        <zip>13903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Manhasset</city>
+        <state>New York</state>
+        <zip>11030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <zip>28801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Winston-Salem</city>
+        <state>North Carolina</state>
+        <zip>27103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <zip>38138</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Norfolk</city>
+        <state>Virginia</state>
+        <zip>23502</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23226</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98111</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Camperdown</city>
+        <state>New South Wales</state>
+        <zip>2050</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clichy</city>
+        <zip>92110</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Juan</city>
+        <zip>00927</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Barcelona</city>
+        <zip>08028</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>France</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </location_countries>
+  <removed_countries>
+    <country>New Zealand</country>
+  </removed_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 10, 2015</lastchanged_date>
+  <firstreceived_date>November 12, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>genotype 1</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

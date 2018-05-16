@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="25">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01585584</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MISP #39897</org_study_id>
+    <secondary_id>24411</secondary_id>
+    <nct_id>NCT01585584</nct_id>
+  </id_info>
+  <brief_title>Triple-Therapy in Patients With HCV Genotype 3 Who Previously Failed Treatment</brief_title>
+  <acronym>LeeG3</acronym>
+  <official_title>Triple-Therapy With PegInterferon α-2b + Ribavirin + Boceprevir in Patients With HCV Genotype 3 Who Previously Failed Treatment With PegInterferon α + Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Calgary</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Calgary</source>
+  <oversight_info>
+    <authority>Canada: Health Canada</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to test the potential antiviral efficacy of triple-combination
+      therapy with Peginterferon α-2b + ribavirin + boceprevir (PRB) in patients with HCV genotype
+      3 who previously failed Peginterferon α + ribavirin (non-responders or relapsers).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      i) Obtain preliminary information on the association between important baseline and
+      on-treatment factors and SVR in this patient population. Variables to be examined may
+      include gender, age, advanced fibrosis or cirrhosis (F3 or F4 estimated by Fibroscan),
+      baseline viral load, RVR, wk 8 viral load, end-of-treatment viral response.
+
+      ii) Evaluate adverse events. iii) Evaluate viral resistance.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2012</start_date>
+  <completion_date type="Actual">July 2015</completion_date>
+  <primary_completion_date type="Actual">December 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response (SVR) at 24 Weeks Post Treatment</measure>
+    <time_frame>24 weeks after treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Sustained Virologic Response (SVR) is evaluated 24 weeks after end of treatment and defined as undetectable plasma HCV-RNA at follow up week 24. HCV RNA is measured using Cobas TaqMan.Of the 6 subjects who completed the treatment, 3 obtained SVR at 24 weeks post treatment.</description>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">11</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Boceprevir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <description>All patients will receive a 4-week lead-in with Peginterferon and Ribavirin therapy, followed by 24 weeks of Pegetron 1.5microg/kg + weight-based ribavirin + boceprevir 800mg tid. HCV RNA (Cobas TaqMan) will be measured at baseline and at treatment weeks 4, 6,8,12,16,20,24 and 28, and post-treatment weeks 12 and 24 (to obtain SVR-12 and SVR-24 results).</description>
+    <arm_group_label>Boceprevir</arm_group_label>
+    <other_name>VICTRELIS™</other_name>
+    <other_name>boceprevir capsules, 200 mg</other_name>
+    <other_name>Hepatitis C Virus (HCV) Protease Inhibitor</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects will be eligible for the study if they meet the following inclusion
+             criteria:
+
+               1. 18 years of age or older
+
+               2. Infected with HCV genotype 3 (mixed genotypes are NOT permitted)
+
+               3. Have received at least 12 weeks of previous treatment with peginterferon-α +
+                  ribavirin
+
+               4. Detectable serum HCV-RNA
+
+               5. No significant co-morbid conditions
+
+               6. Liver biopsy is not necessary
+
+               7. Cirrhotic patients will be eligible to participate if Child-Pugh class A
+                  (maximum 15% of subjects)
+
+        Exclusion Criteria:
+
+          -  Subjects will be excluded from participation in this study if the following
+             conditions are present:
+
+               1. Significant comorbidities: uncontrolled psychiatric conditions including severe
+                  depression, cardiovascular, respiratory, renal or metabolic conditions, active
+                  carcinoma.
+
+               2. Active substance abuse within the past 12 months
+
+               3. Co-infection with hepatitis B or HIV
+
+               4. Decompensated cirrhosis (Child-Pugh class B or C)
+
+               5. Significant cytopenia - any of the following: platelets &lt;80 x 109/L, neutropenia
+                  &lt;1.2 x 103/L, Hb &lt;120 g/l for men or 110 g/l for women
+
+               6. Lack of informed consent
+
+               7. Previous null-responders (&lt;2 log10 decrease at week 12 with previous PR therapy)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Samuel Lee, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Calgary</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Calgary Liver Unit</name>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <zip>T2N 4Z6</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>August 2015</verification_date>
+  <lastchanged_date>August 22, 2015</lastchanged_date>
+  <firstreceived_date>April 18, 2012</firstreceived_date>
+  <firstreceived_results_date>August 22, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Calgary</investigator_affiliation>
+    <investigator_full_name>Sam Lee</investigator_full_name>
+    <investigator_title>Hepatologist</investigator_title>
+  </responsible_party>
+  <keyword>Boceprevir</keyword>
+  <keyword>Hepatitis C Genotype 3</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Protease Inhibitors</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

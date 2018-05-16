@@ -1,0 +1,430 @@
+<template name="ProgressionModel">
+
+    {{> AnalyticsSubtabs data="machine"}}
+
+    {{> MachineLearningSubtabs data="ProgressionModel"}}
+
+
+    <!--{{#if isLoading}}
+         <div class="content-wrapper">
+            {{> NewLoading}}
+        </div> 
+    {{else}}-->
+
+
+
+    <div class="utilization-div">
+        <div class="ml-subTabsTitle">Progression Model
+            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+
+                <div class="analytics-tooltip mlInfoTip_tooltip">
+                    <div class="analytics-tooltipHead">
+                        Progression Model
+                    </div>
+                    <div class="analytics-tooltipBody" style="font-size: 13px;">
+                            <span class='boldfnt'>Definition</span>
+            <span>
+                                Progression model helps to determine the cirrhosis development for the patients and helps us to categorize the patient
+                                on the cirrhosis type (Compensated / Decompensated ).<br/>
+                                In an estimated 20 to 30% of patients with hepatitis C infection,
+                                chronic viremia results in inflammation followed by fibrosis and cirrhosis.
+                                Advanced fibrosis and early cirrhosis are not usually clinically detectable or symptomatic.
+                                As patients develop more extensive hepatic fibrosis, pressure begins to build within the portal system,
+                                potentially resulting in development of esophageal varices and splenic sequestration of platelets.
+
+                                <br/>
+                                The End stage for the Cirrhosis development is Liver Transplantions which is determined by CTP Score & Meld score.
+                                <br/>
+                            </span>
+            <br/>
+            <br/>
+            <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+        </div>
+    </div>
+
+    </span>
+    </div>
+
+    <div class="machineLearnTabsFilterBand">
+        <div class="ful_nav_search" style="display: none;">
+            <div class="boxContainer survialrate-dateFiltersSection">
+                Duration: &nbsp;&nbsp;&nbsp;
+                <select id="selectfromdate">
+                {{#each getMacLearnYearsComboValues}}
+                    <option value="{{this}}" selected="{{getMacLearnFromDateValue this}}">{{this}}</option>
+                {{/each}}
+            </select>&nbsp;&nbsp;&nbsp;
+                            <select id="selecttodate">
+                {{#each getMacLearnYearsComboValues}}
+                    <option value="{{this}}" selected="{{getMacLearnToDateValue this}}">{{this}}</option>
+                {{/each}}
+            </select> &nbsp;&nbsp;&nbsp;
+                <input type="button" class="analytics-applyDateFilters js-analytics-applyDateFilters" value="GO" />
+            </div>
+        </div>
+        <div class="boxContainerDashboard dashBoard-breadCrumSections progressionModel-Crums"></div>
+       <!--  <div class="ful_nav_links">
+            {{#with getPateintInfo}}
+            <div class="efd-table-data costBurdenSection">
+                <div class="col-md-2">
+                    <div class="efd-cell1">Genotype: </div>
+                    <div class="efd-cell2_subpopulaiton ecf-Genotype">{{PopulationData_Genotype}}</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="efd-cell1">Treatment: </div>
+                        <div class="efd-cell2_subpopulaiton ecf-Treatment">{{PopulationData_Treatment}}</div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="efd-cell1">Cirrhosis: </div>
+                    <div class="efd-cell2_subpopulaiton ecf-Cirrhosis">{{PopulationData_Cirrhosis}}</div>
+                </div>
+                <div class="usercount">
+                    <div class="efd-cell1 efd-totalPatiensIcon" style="width:40px;"></div>
+                    <div class="efd-cell2_subpopulaiton progressionModel-totalPatients"></div>
+                </div>
+                <div class="show_patients">
+                    <div class="row">
+                        <div class="efd-cell1 efd-showPatiens js-showPateintsList" style="width:40px;"></div>
+                        <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="js-showProgessionPList">Show Patients</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="efd-cell1 efd-exportPatiens" style="width:25px;"></div>
+                        <div class="efd-cell2_subpopulaiton ecf-exportPatient progressionexportPatient"><a href="#">Export Patients</a></div>
+                    </div>
+                </div>
+            </div>
+            {{/with}}
+        </div> -->
+        <div>
+          <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="globalshowPatientprogressionmodel js-showProgessionPList"></a></div>
+          <div class="efd-cell2_subpopulaiton ecf-exportPatient progressionexportPatient globalexportPatientprogressionmodel"><a href="#"></a></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!-- <div class="boxContainerDashboard dashBoard-breadCrumSections progressionModel-Crums"></div> -->
+        </div>
+
+
+        <div class="col-md-12 mlSubTabsChartSectionMask">
+            <div class="chart_loader payer_loader">Loading...</div>
+        </div>
+
+        <div class="col-md-12 mlSubTabsChartSectionWrap" style="display:none;">
+            <div class="col-md-12 boxContainerDashboard">
+                <div class="mlCustomc3-xLabel" style="margin:0px;">HCV Disease Progression
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead"> HCV Disease Progression</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    <span class='boldfnt'>Definition: </span> Patients with cirrhosis
+                    can be subcategorized as having four stages, with stages 1 and 2 classified under Compensated category
+                    and stages 3 and 4 in the Decompensated category. The risk of death increases significantly with each
+                    more advanced stage.
+
+                </div>
+            </div>
+            </span>
+        </div>
+        <div id="progressionModelChart" class="mlSubTabsChartSection">
+            <!-- Cirrhosis Contitions -->
+            <div class="col-md-10 progressionModel-mainWrapper">
+                <!--div class="col-md-2 leftSectionlabels">
+                                <div class="progressionModel-Headers" style="visibility:hidden">extra</div>
+                                    <div class="col-md-12 cirrhosisSections">
+                                    <div class="stageSections js-stageSections showHandIcon" fibrorange="0-0.27">
+                                        <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead">Stage 0</div>
+                                                <div class="analytics-tooltipBody"  style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                     <b>Range :</b> 0-0.27<br><br>
+                                                     <span class="boldfnt">Definition</span> - The Fibrosis-4 score helps to estimate the amount of scarring in the liver. Enter the required values to calculate the FIB-4 value. It will appear in the oval on the far right (highlighted in yellow).<br><br>
+
+														<span class="boldfnt">Formula Section</span><br>
+														<span>FIB-4 = </span><br>
+														<span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+															<span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+														</span>
+
+
+                                                </div>
+                                            </div>
+                                        </span>
+                                        <div>Stage 0</div>
+                                        <div><span class="stage0Count">0</span><span> Patients</span></div>
+                                    </div>
+                                    </div>
+                                <div class="clinicalSections" style="padding: 25px 0px;">Clinical</div>
+                                <div class="deathSections">Death</div>
+                            </div-->
+                <div class="col-md-7 cirrhosisSectionWrap compensatedCirrhosisWrapper">
+                    <div class="progressionModel-Headers cirrhosisSectionHeader js-cirrhosisSectionHeader showHandIcon" cirrhosistype="Compensated">
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                        <div class="analytics-tooltip mlInfoTip_tooltip custmpopupboxw300">
+                                            <div class="analytics-tooltipHead"> Compensated Cirrhosis </div>
+                                            <div class="analytics-tooltipBody" style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                               Cirrhosis is considered to be compensated in the asymptomatic patient with or without gastroesophageal varices. Compensated cirrhotics are not jaundiced and have not yet developed ascites, variceal bleeding, or hepatic encephalopathy. Cirrhosis can remain compensated for many years.
+                                            </div>
+                                        </div>
+                                    </span>
+                        <div>Compensated Cirrhosis</div>
+                        <div><span class="compCirrhosisCount">0</span><span> Patients</span></div>
+                    </div>
+                    <div class="col-md-4 cirrhosisSections">
+                        <div class="stageSections js-stageSections showHandIcon" fibrorange="0-0.27">
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead">Stage 0</div>
+                                                <div class="analytics-tooltipBody"  style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                     <b>Range :</b> 0-0.27<br><br>
+                                                     <span class="boldfnt">Definition</span>                            - The Fibrosis-4 score helps to estimate the amount of scarring in the liver. Enter the required
+                            values to calculate the FIB-4 value. It will appear in the oval on the far right (highlighted
+                            in yellow).<br><br>
+
+                            <span class="boldfnt">Formula Section</span><br>
+                            <span>FIB-4 = </span><br>
+                            <span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+                            <span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+                            </span>
+
+
+                        </div>
+                    </div>
+                    </span>
+                    <div>Stage 0</div>
+                    <div><span class="stage0Count">0</span><span> Patients</span></div>
+                </div>
+            </div>
+            <div class="col-md-4 cirrhosisSections">
+                <div class="stageSections js-stageSections showHandIcon" fibrorange="0.28-0.31">
+                    <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead">Stage 1</div>
+                                                <div class="analytics-tooltipBody"  style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                     <b>Range :</b> 0.28-0.31<br><br>
+                                                     <span class="boldfnt">Definition</span> - The Fibrosis-4
+                    score helps to estimate the amount of scarring in the liver. Enter the required values to calculate the
+                    FIB-4 value. It will appear in the oval on the far right (highlighted in yellow).<br><br>
+
+                    <span class="boldfnt">Formula Section</span><br>
+                    <span>FIB-4 = </span><br>
+                    <span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+                    <span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+                    </span>
+
+
+                </div>
+            </div>
+            </span>
+            <div>Stage 1</div>
+            <div><span class="stage1Count">0</span><span> Patients</span></div>
+        </div>
+        <div class="clinicalSections js-clinicalSections showHandIcon">No Varices <br/>No Ascites</div>
+        <div class="deathSections showHandIcon">1%</div>
+    </div>
+    <div class="col-md-4 cirrhosisSections">
+        <div class="stageSections js-stageSections showHandIcon" fibrorange="0.32-0.58">
+            <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead"> Stage 2</div>
+                                                <div class="analytics-tooltipBody" style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                     <b>Range :</b> 0.32-0.58
+                                                        <br><br>
+                                                     <span class="boldfnt">Definition</span> - The Fibrosis-4
+            score helps to estimate the amount of scarring in the liver. Enter the required values to calculate the FIB-4
+            value. It will appear in the oval on the far right (highlighted in yellow).<br><br>
+
+            <span class="boldfnt">Formula Section</span><br>
+            <span>FIB-4 = </span><br>
+            <span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+            <span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+            </span>
+        </div>
+    </div>
+    </span>
+    <div>Stage 2</div>
+    <div><span class="stage2Count">0</span><span> Patients</span></div>
+    </div>
+    <div class="clinicalSections js-clinicalSections showHandIcon">Varices <br/>No Ascites</div>
+    <div class="deathSections showHandIcon">3%</div>
+    </div>
+    </div>
+    <div class="col-md-5 cirrhosisSectionWrap decompensatedCirrhosisWrapper">
+        <div class="progressionModel-Headers cirrhosisSectionHeader js-cirrhosisSectionHeader showHandIcon" cirrhosistype="Decompensated">
+            <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                        <div class="analytics-tooltip mlInfoTip_tooltip custmpopupboxw300">
+                                            <div class="analytics-tooltipHead"> Decompensated Cirrhosis </div>
+                                            <div class="analytics-tooltipBody" style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                Decompensated cirrhosis is defined by the development of jaundice, ascites, variceal hemorrhage, or hepatic encephalopathy.  A MELD score should be calculated for all patients with decompensated to better estimate the survival probability. In general, survival is poor in patients with decompensated cirrhosis and they should be considered for liver transplantation.
+
+                                            </div>
+                                        </div>
+                                    </span>
+            <div>Decompensated Cirrhosis</div>
+            <div><span class="decompCirrhosisCount">0</span><span> Patients</span></div>
+        </div>
+        <div class="col-md-6 cirrhosisSections">
+            <div class="stageSections1 js-stageSections1 showHandIcon" fibrorange="0.59-0.73">
+                <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead"> Stage 3</div>
+                                                <div class="analytics-tooltipBody" style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                     <b>Range :</b> 0.59-0.73
+                                                        <br><br>
+                                                     <span class="boldfnt">Definition</span> - The Fibrosis-4
+                score helps to estimate the amount of scarring in the liver. Enter the required values to calculate the FIB-4
+                value. It will appear in the oval on the far right (highlighted in yellow).<br><br>
+
+                <span class="boldfnt">Formula Section</span><br>
+                <span>FIB-4 = </span><br>
+                <span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+                <span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+                </span>
+            </div>
+        </div>
+        </span>
+        <div>Stage 3</div>
+        <div><span class="stage3Count">0</span><span> Patients</span></div>
+    </div>
+    <div class="clinicalSections js-clinicalSections showHandIcon">Ascites +/- <br/>Varices</div>
+    <div class="deathSections showHandIcon">20%</div>
+    </div>
+    <div class="col-md-6 cirrhosisSections">
+        <div class="stageSections1 js-stageSections1 showHandIcon" fibrorange="0.74-1">
+            <span class="macLearningsubTabs-infoIcon mlInfoTip cirrhosisStages">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox">
+                                                <div class="analytics-tooltipHead">Stage 4</div>
+                                                <div class="analytics-tooltipBody"  style="font-size: 13px; width: 370px !important; text-align: justify;">
+                                                   <b>Range :</b> 0.74-1
+                                                    <br><br>
+                                                     <span class="boldfnt">Definition</span> - The Fibrosis-4
+            score helps to estimate the amount of scarring in the liver. Enter the required values to calculate the FIB-4
+            value. It will appear in the oval on the far right (highlighted in yellow).<br><br>
+
+            <span class="boldfnt">Formula Section</span><br>
+            <span>FIB-4 = </span><br>
+            <span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+            <span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+            </span>
+        </div>
+    </div>
+    </span>
+    <div>Stage 4</div>
+    <div><span class="stage4Count">0</span><span> Patients</span></div>
+    </div>
+    <div class="clinicalSections js-clinicalSections showHandIcon">Bleeding +/- <br/>Varices</div>
+    <div class="deathSections showHandIcon">57%</div>
+    </div>
+    </div>
+    </div>
+    <!-- Liver Transplantions Contitions -->
+    <div class="col-md-2 liverTransplantWrapper">
+        <div class="liverTransplantSection js-liverTransplantSection">
+            <span class="macLearningsubTabs-infoIcon mlInfoTip liverTransPlantInfo">
+                                    <div class="analytics-tooltip mlInfoTip_tooltip custmpopupbox analytics-tooltip-live">
+                                        <div class="analytics-tooltipHead">Liver Transplantions</div>
+                                        <div class="analytics-tooltipBody" style="font-size: 13px; width:200px !important;">
+                                            Patients with decompensated cirrhosis having  meld Score &gt; 10 and
+                                            ctp score &gt; 7 are considered for liver transplantions.
+                                            <br/>
+                                            Usually patients from stage 3 & 4 are considered for the liver transplantions.
+
+                                        </div>
+                                    </div>
+                                </span>
+            <div>
+                <div>Liver Transplantions</div>
+                <div><span class="liverTransplantCount">0</span><span> Patients</span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-12 boxContainerDashboard">
+        <div class="mlCustomc3-xLabel" style="margin:0px;">Cirrhosis Development Post HCV Infection
+            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Cirrhosis Development</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    This graphic clearly shows the risk of developing cirrhosis
+                                    increases with older age at the time of initial HCV infection.
+                                </div>
+                            </div>
+                        </span>
+        </div>
+        <div id="diseaseProgression-CirrhosisDevelop" class="mlSubTabsChartSection"></div>
+        <div class="analyticsChart-bottomLabel">Age Group</div>
+    </div>
+
+    <!-- <div class="col-md-6 boxContainerDashboard">
+                    <div class="mlCustomc3-xLabel" style="margin:0px;">Mortality Based on CTP Score
+                        <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                <div class="analytics-tooltipHead">Mortality Based on CTP Score</div>
+                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                    This graphic shows the patient mortality based on ctp score.
+                                    Patients with higher baseline Child-Turcotte-Pugh(CTP) scores have a marked
+                                    increase in risk of death at 3 months than those with lower
+                                    Child-Turcotte-Pugh scores.
+                                    <br/><br/>
+                                    <span class='boldfnt'>CTP Score: </span>
+                                    Child-Turcotte-Pugh(CTP) score determines the Severity of Cirrhosis
+                                    to estimate the child's cirrhosis severity.
+                                    This is score range on a scale of 5 - 15 using the çlinical factors like<br/>
+                                    - Encephalopathy <br/>
+                                    - Ascites <br/>
+                                    - Bilirubin <br/>
+                                    - Albumin <br/>
+                                    - International normalized ratio
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div id="diseaseProgression-factorsChart" class="mlSubTabsChartSection"></div>
+                    <div class="analyticsChart-bottomLabel">CTP Score</div>
+                </div> -->
+
+    </div>
+
+    </div>
+
+    <div class="mlPatientsDetailWrapper" style="border:none;">
+        <div class="popup analyticsPatientsPopup progressionModelPList" data-popup="analyticsPatientsPopup">
+            <div class="popup-inner">
+                <button type="button" class="close mlTabs_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+                <div class="analyticsPatientsPopup-header"></div>
+                <div class="analyticsPatientsPopup-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--div class="patientsDetailsButtonsWrapper">
+            <div class="pin-buttons js-showProgessionPList">
+                <span class="buttonIcon"><img src=""></span>
+                <span class="buttonText">Show Patients Details</span>
+            </div>
+            <div class="pin-buttons">
+                <span class="buttonIcon"><img src=""></span>
+                <span class="buttonText">Export Patients</span>
+            </div>
+        </div-->
+    </div>
+    {{>MainFooter}}
+</template>

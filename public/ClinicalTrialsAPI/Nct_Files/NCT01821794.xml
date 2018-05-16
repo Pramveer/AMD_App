@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="493">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01821794</url>
+  </required_header>
+  <id_info>
+    <org_study_id>130091</org_study_id>
+    <secondary_id>13-DK-0091</secondary_id>
+    <nct_id>NCT01821794</nct_id>
+  </id_info>
+  <brief_title>Tenofovir DF With or Without Peginterferon for Chronic Hepatitis B</brief_title>
+  <official_title>Combination Therapy of Pegylated Interferon Alfa-2a and Tenofovir DF Versus Tenofovir DF Monotherapy in HBeAg-Positive and HBeAg-Negative Chronic Hepatitis B</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background:
+
+      - There are two forms of chronic hepatitis B. The difference between the forms is whether or
+      not a viral protein called hepatitis B e antigen is present in the blood. Standard
+      approaches to treating both forms of chronic hepatitis B involve different drugs. One drug
+      is called peginterferon, another is called tenofovir DF. These drugs are often given
+      separately and used for different forms of the disease. However, researchers want to see if
+      combining peginterferon and tenofovir DF will be a more effective treatment than tenofovir
+      DF alone.
+
+      Objectives:
+
+      - To see whether combining tenofovir DF and peginterferon, or using tenofovir DF alone, is a
+      more effective treatment of chronic hepatitis B.
+
+      Eligibility:
+
+      - Individuals at least 18 years of age who have chronic hepatitis B and are in the Hepatitis
+      B Research Network Cohort study.
+
+      Design:
+
+        -  Participants will be screened with a physical exam and medical history. Blood, urine,
+           and liver tissue samples will be collected. Bone and liver imaging studies will also be
+           performed.
+
+        -  Participants will be divided into two groups. One group will have tenofovir DF alone
+           for 192 weeks (about 4 years). The other group will have tenofovir DF and peginterferon
+           for 24 weeks (about 6 months), and then tenofovir DF alone for 168 weeks (about 3.5
+           years).
+
+        -  Participants will take the study drugs on the schedule determined by their study
+           doctors. They will keep a diary to record their doses and any side effects.
+
+        -  Participants will have three study visits 4 weeks apart after the starting the
+           treatment. At these visits, they will have a physical exam and provide blood samples.
+           They may also provide urine samples and have imaging studies.
+
+        -  After the first three study visits, participants will continue to have study visits
+           every 12 weeks until the treatment ends at week 192. These visits will have many of the
+           same tests as the first three visits. At some of these visits, they may fill out
+           questionnaires about their quality of life.
+
+        -  Participants who do not respond to the study drugs may have their medications changed.
+           They may also be asked to stop treatment.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a randomized (1:1) parallel group design trial comparing (i) tenofovir DF 300 mg
+      daily for 192 weeks (4 years) and (ii) peginterferon alfa-2a 180 micrograms/g weekly for 24
+      weeks plus tenofovir DF 300 mg daily for 192 weeks (4 years). Enrolled participants will be
+      stratified by HBeAg status (positive/negative), genotype (A vs. all others) and cirrhosis
+      (present vs. absent). After 192 weeks of treatment, participants meeting criteria for
+      treatment discontinuation will stop treatment and be followed for 48 weeks (total duration
+      of treatment and follow up is 240 weeks). A liver biopsy will be obtained at the end-of
+      treatment (week 180-192) to assess improvement in histology. Emtricitabine/tenofovir
+      coformulated as Truvada, approved for treating HIV but not for treating HBV infection, will
+      be offered to participants with primary nonresponse, partial virological response or
+      confirmed virologic breakthrough.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>March 2013</start_date>
+  <completion_date type="Anticipated">December 2021</completion_date>
+  <primary_completion_date type="Anticipated">May 2020</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>HBsAg loss at the end of 48-weeks post-treatment follow-up (week 240)</measure>
+    <time_frame>48 weeks post treatment</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>ALT normalization</measure>
+    <time_frame>192 weeks; 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cumulative HBsAg loss</measure>
+    <time_frame>192 weeks; 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBsAg seroconversion</measure>
+    <time_frame>192 weeks; 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBeAg loss</measure>
+    <time_frame>192 weels; 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>ALT corresponding to approx 1.25XULN</measure>
+    <time_frame>192, 228, 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBV DNA &amp; lt; 1000 IU/mL</measure>
+    <time_frame>192, 228, 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBV DNA &amp; lt; 20 IU/m</measure>
+    <time_frame>192, 228, 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Absence antiviral drug-resistance HBV mu</measure>
+    <time_frame>192 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained HBV DNA less than 1000 IU/mL</measure>
+    <time_frame>192 weeks; 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate treatment discontinuation due to AE</measure>
+    <time_frame>192 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of AE and SAE</measure>
+    <time_frame>240 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBV DNA &amp; lt; 1000IU/mL &amp; amp; ALT approx 1.25XULN</measure>
+    <time_frame>228 and 240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rate of treatment failure</measure>
+    <time_frame>240 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">31</enrollment>
+  <condition>Chronic Hepatitis B e Antigen Negative</condition>
+  <condition>Chronic Hepatitis B e Antigen Positive</condition>
+  <arm_group>
+    <arm_group_label>TDF only</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Tenofovir monotherapy</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon and Tenofovir</intervention_name>
+    <arm_group_label>TDF only</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  INCLUSION CRITERIA:
+
+               1. Enrolled in the Hepatitis B Research Network (HBRN) Cohort Study or completed
+                  the necessary components of the Cohort baseline evaluation by the end of the
+                  baseline visit for this study.
+
+               2. At least 18 years of age at the time of randomization (day 0).
+
+               3. Chronic HBV infection as evidenced by at least one of the following:
+
+                    1. HBsAg positive result within 8 weeks prior to randomization and another
+                       time at least 24 weeks prior to randomization with no HBsAg negative result
+                       in between.
+
+                    2. HBsAg positive plus absence of detectable anti-HBc IgM in serum within 8
+                       weeks prior to randomization.
+
+                    3. HBsAg positive within 8 weeks prior to randomization and HBV DNA greater
+                       than or equal to 1,000 IU/mL on 2 occasions at least 24 weeks apart (can
+                       include result from screening visit within 8 weeks of randomization).
+
+                    4. HBsAg positive within 8 weeks prior to randomization plus evidence of
+                       chronic hepatitis B infection as indicated by a liver biopsy within 144
+                       weeks of randomization
+
+               4. HBeAg positive or negative.
+
+               5. Serum HBV DNA greater than or equal to 1000 IU/mL on 2 occasions at least 4
+                  weeks apart within the 32 weeks prior to randomization (can include result from
+                  screening visit within 8 weeks of randomization).
+
+               6. At least two elevated serum ALT levels (&gt; 45 U/L for males and &gt; 30 U/L for
+                  females) at least 4 weeks, and no more than 32 weeks apart with the second being
+                  within 8 weeks of randomization.
+
+               7. Compensated liver disease, with total bilirubin less than or equal to 2 mg/dL
+                  (except if Gilbert s syndrome), direct bilirubin less than or equal to 0.5
+                  mg/dL, INR less than or equal to 1.5, and serum albumin greater than or equal to
+                  3.5 g/dL
+
+               8. No evidence of HCC based upon alpha-fetoprotein (AFP) less than or equal to
+                  20ng/mL within 8 weeks prior to randomization:
+
+                    1. Participants who meet AASLD criteria for HCC surveillance must have
+                       negative liver imaging by ultrasound (US), computerized tomography (CT) or
+                       magnetic resonance imaging (MR) within 28 weeks of randomization as part of
+                       standard of care.
+
+                    2. Participants with AFP &gt; 20 ng/mL must be evaluated clinically with
+                       additional imaging and shown not to have HCC on CT or MRI.
+
+               9. Liver biopsy that shows findings consistent with chronic hepatitis B with the
+                  Modified Ishak histology activity index (HAI) greater than or equal to 3
+                  (necroinflammatory component only) or Ishak fibrosis score greater than or equal
+                  to 1 or both, as assessed by the local consortium pathologist on review of a
+                  liver biopsy done within 144 weeks of randomization. Slides must be available
+                  for review by the local consortium pathologist and meet adequacy requirements.
+                  If the participant had received previous treatment for hepatitis B, the biopsy
+                  must have been done after discontinuation of treatment.
+
+              10. Females of child bearing potential must agree to use an adequate method of
+                  contraception throughout the study and must have a negative pregnancy test
+                  immediately prior to the start of treatment.
+
+              11. Provide informed consent and agree to adhere to the requirements of the study.
+
+        EXCLUSION CRITERIA:
+
+          1. Serum ALT &gt; 450 U/L for males and &gt; 300 U/L for females (participants are eligible
+             for re-screening if ALT levels fall to the range of eligibility).
+
+          2. Treatment with interferon or nucleos(t)ide analogues for hepatitis B within 48 weeks
+             of randomization.
+
+          3. More than 48 weeks of therapy with nucleos(t)ide analogues for hepatitis B at any
+             time in the past.
+
+          4. History of hepatic decompensation including, but not limited to, ascites, variceal
+             bleeding, or hepatic encephalopathy.
+
+          5. Known allergy or intolerance to any of the study medications.
+
+          6. Females who are pregnant or breastfeeding.
+
+          7. Previous organ transplantation including engrafted bone marrow transplant.
+
+          8. Any other concomitant liver disease, including hemochromatosis or hepatitis C or D.
+             Non-alcoholic fatty liver disease (NAFLD) with steatosis and/or mild to moderate
+             steatohepatitis is acceptable but NALFD with severe steatohepatitis is exclusionary.
+
+          9. Positive anti-HIV (test to be completed within 8 weeks prior to randomization).
+
+         10. Renal insufficiency with calculated (by MDRD method) creatinine clearance &lt; 60 mL/min
+             within 8 weeks prior to randomization.
+
+         11. Platelet count &lt; 90,000 /mm3, hemoglobin &lt; 13 g/dL (males) or &lt; 12 g/dL (females),
+             absolute neutrophil count &lt; 1500 /mm3 (&lt; 1000/mm3 for African-Americans) within 8
+             weeks prior to randomization.
+
+         12. History of alcohol or drug abuse within 48 weeks of randomization.
+
+         13. Pre-existing psychiatric condition(s), including, but not limited to:
+
+               1. Current moderate or severe depression as determined by the study physician.
+
+               2. History of depression requiring hospitalization within past 10 years.
+
+               3. History of suicidal or homicidal attempt within the past 10 years.
+
+               4. History of severe psychiatric disorders including, but not limited to,
+                  schizophrenia, psychosis, bipolar disorder as determined by a study physician.
+
+         14. History of immune-mediated disease, or cerebrovascular, chronic pulmonary or cardiac
+             disease associated with functional limitation, retinopathy, uncontrolled thyroid
+             disease, poorly controlled diabetes or uncontrolled seizure disorder, as determined
+             by a study physician.
+
+         15. Any medical condition that would, in the opinion of a study physician be predicted to
+             be exacerbated by therapy or that would limit study participation.
+
+         16. Any medical condition requiring, or likely to require, chronic systemic
+             administration of corticosteroids or other immunosuppressive medications during the
+             course of this study.
+
+         17. Evidence of active or suspected malignancy, or a history of malignancy within the
+             last 144 weeks prior to randomization (except adequately treated carcinoma in situ or
+             basal cell carcinoma of the skin).
+
+         18. Expected need for ongoing use of any antivirals with activity against HBV during the
+             course of the study.
+
+         19. Participation in any other clinical trial involving investigational drugs within 30
+             days of randomization or intention to participate in another clinical trial involving
+             investigational drugs during participation in this study.
+
+         20. Any other condition that in the opinion of a study physician would make the
+             participant unsuitable for enrollment or could interfere with the participant
+             participating in and completing the study.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Marc G Ghany, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Elenita Rivera, R.N.</last_name>
+    <phone>(301) 496-3531</phone>
+    <email>erivera@cc.nih.gov</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marc G Ghany, M.D.</last_name>
+    <phone>(301) 402-5115</phone>
+    <email>mg228m@nih.gov</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>National Institutes of Health Clinical Center, 9000 Rockville Pike</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>For more information at the NIH Clinical Center contact Patient Recruitment and Public Liaison Office (PRPL)</last_name>
+      <phone>800-411-1222</phone>
+      <phone_ext>TTY8664111010</phone_ext>
+      <email>prpl@mail.cc.nih.gov</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Mayo Clinic, Rochester</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_2013-DK-0091.html</url>
+    <description>NIH Clinical Center Detailed Web Page</description>
+  </link>
+  <reference>
+    <citation>Hoofnagle JH, Doo E, Liang TJ, Fleischer R, Lok AS. Management of hepatitis B: summary of a clinical research workshop. Hepatology. 2007 Apr;45(4):1056-75. Review.</citation>
+    <PMID>17393513</PMID>
+  </reference>
+  <reference>
+    <citation>Shepard CW, Simard EP, Finelli L, Fiore AE, Bell BP. Hepatitis B virus infection: epidemiology and vaccination. Epidemiol Rev. 2006;28:112-25. Epub 2006 Jun 5. Review.</citation>
+    <PMID>16754644</PMID>
+  </reference>
+  <reference>
+    <citation>Lok AS, McMahon BJ. Chronic hepatitis B. Hepatology. 2007 Feb;45(2):507-39. Erratum in: Hepatology. 2007 Jun;45(6):1347.</citation>
+    <PMID>17256718</PMID>
+  </reference>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 30, 2015</lastchanged_date>
+  <firstreceived_date>March 15, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis B</keyword>
+  <keyword>Anti-Viral Treatment</keyword>
+  <keyword>Pegylated Interferon</keyword>
+  <keyword>Tenofovir Disoproxil Fumarate</keyword>
+  <keyword>Hepatitis B Surface Antigen</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Tenofovir</mesh_term>
+    <mesh_term>Tenofovir disoproxil</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

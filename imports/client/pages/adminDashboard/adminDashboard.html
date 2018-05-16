@@ -1,0 +1,107 @@
+<template name="AdminDashboard">
+    <div class="content-wrapper">
+        <div class="pagecontent posrelovfhid" style="width:100%">
+            <div>
+                <i class="tb_notification" style="display:none;"> New user created successfully  </i>
+                <i class="tb_warning_notification" style="display:none;"> Something go wrong   </i>
+                <input type="button" class="tb_addbtn" id="btnNewUser" />
+            </div>            
+            <div class="textfld-grup user-info-container" style="display:none;">
+                <form name="frmUser" id="frmUser" autocomplete="off">
+                    <div class="tg-group">
+                        <input type="hidden" id="hdnId" name="hdnId" />
+                         <div class="tg-box tg-box-l">
+                            <label>User Name<span class="asterik">*</span></label>
+                            <input type="text" class="tg-txtfld" name="txtUserName" id="txtUserName"  maxlength="30">
+                        </div>
+                        <div class="tg-box tg-box-l">
+                            <label>First Name<span class="asterik">*</span></label>
+                            <input type="text" id="txtFname" name="txtFname" class="tg-txtfld"  maxlength="30">
+                        </div>
+                        <div class="tg-box tg-box-l">
+                            <label>Last Name<span class="asterik">*</span></label>
+                            <input type="text" id="txtLname" name="txtLname" class="tg-txtfld"  maxlength="30">
+                        </div>
+                    </div>
+                    <div class="tg-group">
+                       <div class="tg-box tg-box-l">
+                            <label>Gender<span class="asterik">*</span></label>
+                            <select name="ddlGender" id="ddlGender" class="tg-txtfld">
+                                <option value="0">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>                                
+                            </select>
+                        </div>
+                        <div class="tg-box tg-box-l">
+                            <label>Email<span class="asterik">*</span></label>
+                            <input type="text" id="txtUEmail" name="txtUEmail" class="tg-txtfld">
+                        </div> 
+                           <div class="tg-box tg-box-l">
+                            <label>Organization<span class="asterik">*</span></label>
+                            {{{getOrganizations}}}
+                        </div>
+                     
+                    </div>
+                   
+                    <div class="tg-group">
+                          <div class="tg-box tg-box-l">
+                            <label>Role<span class="asterik">*</span></label>
+                            {{{getRoles}}}
+                        </div>
+                        <div class="tg-box custom-role-tab tg-box-l" style="display:none;">
+                        <label>Select Tabs<span class="asterik">*</span></label>
+                        <input type="text" class="tg-txtfld" name="txtTabs" id="txtTabs" />  
+                        <div style="font-style: italic;"> Dashboard will be the landing page by default.</div>                      
+                        </div>
+                      </div>
+                      <div class="tg-group">
+                        {{#if IsAdmin}}
+                        <div id="superUserDiv" class="tg-box tg-box-l checkbox" style="display:none;">
+                            <input type="checkbox" class="search-checkbox-btn" id="chkSuperuser" name="chkSuperuser" value="1">
+                            <label for="chkSuperuser">Super User</label>
+                        </div>
+                        {{/if}}
+                        <div class="tg_box_btn tg-box-l">
+                            <input type="button" class="user_save_btn" id="btnSaveUser" value="Save">
+                            <input type="button" class="user_save_btn" id="btnUpdateUser" value="Update" style="display:none;">
+                            <input type="button" class="user_close_btn" value="Close">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tablediv">
+                <table class="tb_table">
+                    <thead class="tb_head">
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Organization</th>
+                            <th>Role</th>
+                            <th>Email</th>
+                            <th>User Name</th>
+                            <th style="text-align: center !important;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tb_body">
+                        {{#each Users}}
+                        <tr>
+                            <td>{{first_name}}</td>
+                            <td>{{last_name}}</td>
+                            <td>{{provider}}</td>
+                            <td>{{role_name}}</td>
+                            <td>{{email}}</td>
+                            <td>{{username}}</td>
+                            <td>
+                                <div class="ad_actbtn"><img src="/ad_edit.png" alt="Edit User" data-toggle="tooltip" class="edit-user" title="Edit User" data-original-title="Edit User" /></div>
+                                <div class="ad_actbtn"><img src="/ad_delete.png" alt="Disable User" data-toggle="tooltip" class="delete-user" title="Disable User" data-original-title="Disable User" />
+                                </div>
+                                <div class="ad_actbtn"><img src="/ad_reset.png" alt="Reset Password" data-toggle="tooltip" class="reset-user" title="Reset Password" data-original-title="Reset Password" /></div>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</template>

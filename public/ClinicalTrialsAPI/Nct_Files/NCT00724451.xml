@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="156">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00724451</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05488</org_study_id>
+    <nct_id>NCT00724451</nct_id>
+  </id_info>
+  <brief_title>Observational Study Assessing Chronic Hepatitis C Management in Clinical Practice in Italy (Study P05488 AM1)</brief_title>
+  <official_title>Prospective, Observational, Multicentre Study Evaluating HCV Patients Characteristics of Eligibility and Disease Management in Real Clinical Practice</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Italy: Ministry of Health</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The goal of this study is to elucidate the reasons why patients with chronic hepatitis C
+      (CHC) would not be considered eligible for antiviral treatment. The study is conducted in
+      common clinical practice at approximately 54 sites in Italy. Patients deemed eligible for
+      antiviral therapy will be treated at the discretion of the physician with either
+      peginterferon alfa-2a or peginterferon alfa-2b, both in combination with ribavirin, in
+      accordance with approved labeling. A secondary objective of this study is to define
+      &quot;treatment failure&quot; and to evaluate the reasons for treatment discontinuation.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Probability sampling: Consecutive adult patients with chronic hepatitis C in clinical
+      practice at approximately 54 sites in Italy will be included in the study. The decision as
+      to treatment choice falls at the discretion of the treating physician.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2008</start_date>
+  <completion_date type="Actual">October 2011</completion_date>
+  <primary_completion_date type="Actual">October 2011</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Case-Only, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Number of Participants Not Eligible for Antiviral Treatment by Reason for Non-eligibility</measure>
+    <time_frame>Measured at baseline</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Investigators recorded their reasons for not prescribing anti-viral treatment. More than one reason leading to non-eligibility could be presented for the same participant.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Discontinued From Treatment by Reason for Discontinuation</measure>
+    <time_frame>24 weeks after the end of treatment (total of 48 to 72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Investigators recorded reasons for treatment discontinuation.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Treatment Failure by Reason for Failure</measure>
+    <time_frame>24 to 48 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Investigators recorded reasons for treatment failure whether or not treatment was completed.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">1128</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Participants with Chronic Hepatitis C (CHC)</arm_group_label>
+    <description>Peginterferon-naïve participants with CHC seen in general clinical practice in Italy and treated with either pegylated interferon alfa-2a or alfa-2b + ribavirin.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b</intervention_name>
+    <description>Peginterferon alfa-2b administered in accordance with approved labeling</description>
+    <arm_group_label>Participants with Chronic Hepatitis C (CHC)</arm_group_label>
+    <other_name>SCH 054031</other_name>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Ribavirin administered in accordance with approved labeling</description>
+    <arm_group_label>Participants with Chronic Hepatitis C (CHC)</arm_group_label>
+    <other_name>SCH 018908</other_name>
+    <other_name>Copegus</other_name>
+    <other_name>Rebetol</other_name>
+    <other_name>Virazole</other_name>
+    <other_name>RBV</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2a</intervention_name>
+    <description>Peginterferon alfa-2a administered in accordance with approved labeling</description>
+    <arm_group_label>Participants with Chronic Hepatitis C (CHC)</arm_group_label>
+    <other_name>Pegasys</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive adult patients with chronic hepatitis C seen in common clinical practice at
+        approximately 54 sites in Italy. Treatment for hepatitis C is determined at the local site
+        (pegylated interferon a or b/ribavirin).
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Willingness to sign an Informed Consent
+
+          -  Male and female patients &gt;=18 years of age with Chronic Hepatitis C
+
+          -  Not previously treated with Peg-Interferons
+
+          -  Positive for serum hepatitis C virus (HCV)-ribonucleic acid (RNA)
+
+        Exclusion Criteria:
+
+          -  Previous treatment with peginterferon
+
+          -  Participation in a therapeutic Good Clinical Practice (GCP) clinical study within 30
+             days prior to study start
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Italy</country>
+  </removed_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 24, 2015</lastchanged_date>
+  <firstreceived_date>July 25, 2008</firstreceived_date>
+  <firstreceived_results_date>October 5, 2012</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

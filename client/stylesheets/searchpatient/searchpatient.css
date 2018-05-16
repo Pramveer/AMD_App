@@ -1,0 +1,86 @@
+/* for responsive design */
+
+.res_searchdiv { 
+    display: none
+}
+@media screen and (max-width: 480px){
+    .search_result { 
+        display: none
+    }	
+    .res_searchdiv {
+        display: block; 
+        width: 100%; 
+        padding: 0px 0px 0 10px; 
+        background: #dadada; 
+        border-bottom: 1px solid #fff
+    }
+    .res_iconbox{ 
+        display: table-cell; 
+        vertical-align: middle; 
+        height: 40px
+    }
+    .res_sicon{ 
+        width: 26px; 
+        height: 26px; 
+        text-align: center; 
+        background: #009cff; 
+        border-radius: 50%; 
+        padding: 5px 0;  
+        margin: 0 15px 0 0;
+    }
+    .res_sicon i { 
+        font-size: 16px; 
+        color:#fff;
+    }
+    .res_sname{ 
+        display: table-cell; 
+        width: 90%; 
+        vertical-align: middle;
+    }
+    .res_sdrparrowbox{
+        background: #E0E0E0; 
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: right; 
+        box-shadow: -8px 0 7px -2px #ececec;
+    }
+    .searchdropdown{ 
+        display: table-row; 
+        width: 100%
+    }
+    .res_sdrparrow{
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #7f7f7f;
+        display: inline-block;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        width: 0;margin:0 10px 0 13px;
+    }
+    .res_stitle{
+        font-size: 18px; 
+        font-weight: bold; 
+        color:#7f7f7f; 
+        width: 100%; 
+        margin-top: 10px;
+    }
+    .res_stype{ 
+        font-size: 12px; 
+        width: 100%; 
+        margin-bottom: 10px; 
+        color:#7f7f7f;}
+}
+
+.nav-fix-bottom{
+    position: fixed;
+    bottom: 0;
+}
+
+/* New search result design*/
+.search_pheader{
+    padding: 0px 8px !important;
+}
+.searchuserdetail .col-sm-5.control-label,.searchuserdetail .col-sm-4.control-label{
+    padding: 0
+}

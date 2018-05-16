@@ -1,0 +1,1125 @@
+<!--Nisha 02/24/2017 Commented out all the "analytics-tooltipHead" items to remove the heading from information buttons-->
+<template name="Dashboard">
+    <div class="content-wrapper">
+    	{{#if isLoading}}
+
+    		{{> NewLoading}}
+
+    	{{else}}
+
+        	<div id="wrapper" class="dashboardTemp">
+
+		        <!-- Navigation -->
+
+		        <div id="page-wrapper">
+					<div class="col-md-12 mlSubTabsChartSectionMask" style="display:none;">
+						<div class="chart_loader payer_loader">Loading...</div>
+					</div>
+		            <div class="container-fluid dashboardWrap" id='dv-dash-time-filter'>
+						<div class="col-md-12" style="float: left;padding: 0px;">
+							<div class="boxContainerDashboard dashBoard-dateFiltersSection" style="float: left;">
+								<!-- <div>
+								<select class="timeFilterDistSelect">
+									<option name="default" value = "duration">Duration</option>
+									<option name="year" value = "year" selected>Year</option>
+									<option name="quarter" value = "quarter">Quarter</option>
+								</select>
+								</div>
+								<div style="padding-top: 5px;">
+									<input type="month" class="dashboard-fromDate js-dashboard-fromDate dashboard-date" />
+									<input type="month" class="dashboard-toDate js-dashboard-toDate dashboard-date"/>
+									<input type="button" class="dashboard-applyDateFilters js-dashboard-applyDateFilters" value="GO"/>
+								</div> -->
+								<!-- <div class="panellist timeFilterDistSelect"> -->
+								<div class="checkbox" >
+									<label for="timeFilterDistSelect">Duration</label>
+									<input type="text" class="search-checkbox-btn" id="timeFilterDistSelect"  name="timeFilterDistSelect" style="width:168px;" value="01/01/2015 - 01/31/2015">
+
+								</div>
+								<div style="padding-top: 5px;">
+									<input type="button" class="dashboard-applyDateFilters js-dashboard-applyDateFilters" value="GO"/>
+								</div>
+								<div>
+									<label class="switch">
+										<input id="showSelectedPopulation" type="checkbox">
+										<div class="slider round"></div>
+									</label>
+								</div>
+								<!-- </div> -->
+							</div>
+							<!--<div class="boxContainerDashboard">
+								<label class="switch">
+									<input type="checkbox" checked>
+									<div class="slider round"></div>
+								</label>
+							</div>-->
+							<div class="boxContainerDashboard dashBoard-breadCrumSections"></div>
+						</div>
+
+						<!-- <div class="">
+		                    <div class="col-lg-12">
+
+							<div class="panel-body"> -->
+
+						<!-- <div class="row"> -->
+				<div class="subpopulationcharts" style="display:none;">
+						<div class="">
+							<div class="col-lg-5 chartContainer" style="height:170px;">
+								<div class="boxContainerDashboard">
+									<div class="totalPatientsContainer " style="height:170px;">
+										<div class="totalPatinetsLabel">Total Patients</div>
+										<div class="totalPatientsCountDashboard" id="totalPatients" style="color:#f1cb6a !important;">{{getTotalPatients}}</div>
+									</div>
+
+									<div class="maleAndFmalePatientsContainer" >
+										<h3 class="panel-title containertitle" style="width:220px; float:left">Unique Patients</h3>
+										<div style="margin-top: 22px;">
+										<div id="malePatients"><i class="fa fa-male" aria-hidden="true" style="font-size: 20px;padding: 10px;" title="Male Patients"></i> <span class="malePatientsCount" style="color:#f1cb6a !important;"> {{getPatientCountByGender 'M'}}</span></div>
+										<div id="femalePatients"><i class="fa fa-female" aria-hidden="true" style="font-size: 20px;padding: 10px;" title="Female Patients"></i><span class="femalePatientsCount" style="color:#f1cb6a !important;">{{getPatientCountByGender 'F'}}</span></div>
+										<div id="transgenderPatients"><i class="fa fa-transgender" aria-hidden="true" style="font-size: 20px;padding: 10px;" title="Unknown Patients"></i><span class="transgenderPatientsCount" style="color:#f1cb6a !important;">{{getPatientCountByGender 'U'}}</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 chartContainer" style="height:170px;">
+								<div class="boxContainerDashboard">
+									<div class="panel-heading ethnicityHeading">
+										<h3 class="panel-title containertitle" style="width:202px;float:left"><i class="fa fa-line-chart togglechart" data='race' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp; Race Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">Race  Distribution</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='race-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patient distribution on the basis of Race.
+													<br>
+												</div>
+
+											</div>
+										</span>
+
+									</div>
+									<div class="panel-body">
+										<div id="tPEthnicityDistribution"></div>
+									</div>
+								</div>
+							</div>
+							
+		                    <div class="col-lg-3 chartContainer" style="height:170px;">
+		                        <div class="boxContainerDashboard">
+									<div class="panel-heading genotypeDistSelectHeading">
+										<h3 class="panel-title containertitle" style="width:202px;float:left"><i class="fa fa-line-chart togglechart" data='age' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp; Age Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;margin-top:-15px;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">Age  Distribution</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='age-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patient distribution on the basis of Age
+													<br>
+												</div>
+											</div>
+										</span>
+									</div>
+									<div class="panel-body">
+										<div id="tPAgeDistribution" style="height:144px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+		                <div class="">
+							<!--cost burden charts-->
+							<div class="col-lg-3 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='insurance' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Insurance Plan Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip" style="width:380px;">
+												<!--<div class="analytics-tooltipHead">
+													Insurance Plan Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<!--<div class="insuranceDistriChart"></div>-->
+													<span class="boldfnt">N: </span> <span id='insuranceDistriChart'></span><br />
+													<!--<br /><span class="boldfnt">Medicare N: </span> <span id='Medicare-N'></span>
+													<br /><span class="boldfnt">Commercial N : </span> <span id='Commercial-N'></span>-->
+													<br /><span class="boldfnt">Definition</span> - Patient Distribution on the basis of Insurance Plan
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPInsurancePlan" style="text-align: center;height:235px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+							    <div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float:left;"><i class="fa fa-line-chart togglechart" data='treatmentCirrhosis' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp; Cirrhosis Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Cirrhosis Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='cirrhosis-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - This chart represent number of patients with decompensated cirrhosis and compensated cirrhosis.<br><br>
+													<span class="boldfnt"></span>Decompensated are patients with either Ascites,Portal,Hypertension,Varices or Encephalopathy in their test results.<br>
+													<span>Compensated and Decompensated Patients are shown distributed by Treatment</span>
+													<br>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body tPCirrhosisDistributionData">
+		                               <div id="tPCirrhosisDistribution" style="text-align: center;height:235px;width:380px;"></div>
+									   <!--<div id="tPCirrhosisDistribution1" style="width:50%;float:left"></div>-->
+		                            </div>
+		                        </div>
+		                    </div>
+
+
+							<div class="col-lg-5 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="width: 210px;float: left;"><i class="fa fa-line-chart togglechart" data='svr' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Viral Load Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Viral Load Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<div class='viralSVRNData'></div><br>
+													<span class="boldfnt">Definition</span> - This charts represent viral  load  distribution for  patients  in millions(M). <br><br>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPSVR" style="text-align: center;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+
+		               
+		                    <div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading genotypeDistSelectHeading">
+		                                <h3 class="panel-title containertitle" style="width:220px;float:left"><i class="fa fa-line-chart togglechart" data='genotype' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp; Genotype Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: left;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Genotype Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='genotype-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patient Distribution on the basis of Genotype <br>
+												</div>
+											</div>
+										</span>
+
+		                                <select class="genotypeDistSelect">
+		                                	<option name="default" value = "select">Select</option>
+		                                	<option name="race" value = "race">Race</option>
+		                                	<option name="treatment" value = "treatment">Treatment</option>
+		                                	<option name="cirrhosis" value = "cirrhosis">Cirrhosis</option>
+		                                	<option name="age" value = "age">Age</option>
+		                                	<option name="gender" value = "gender">Gender</option>
+		                                </select>
+
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="tPGenotypeDistribution"></div>
+										<div style="text-align: center;margin-left: -125px;margin-top: 20px;">Genotype</div>
+		                            </div>
+		                        </div>
+		                    </div>
+				<div class="col-lg-8">
+					<div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float:left;"><i class="fa fa-line-chart togglechart" data='cirrhosistypeDistribution' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Treatment Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Treatment Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='treatment-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patient Distribution on the basis of Treatment <br>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="tPTreatmenteDistribution" style="margin-left: -26px;margin-top: 18px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+							<div class="col-lg-4 chartContainer">
+								<div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='treatmentStatusDistribution' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Adherence Rates</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip  dashboard_tooltip" style="width:380px; right: -35px;">
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N: </span> <span id='treament-status-distribution-N'></span>
+													<br />
+													<br /><span class="boldfnt">Definition</span> - This chart represents the patient was prescribed drug X by a provider, and didn't complete the prescription, instead the patient was prescribed a different drug by the provider for a different path of therapy.
+													<br />
+													<br />
+													<span class="boldfnt">Note</span> - The adherence rate calculation only includes the patient who have started treatment and discontinued (does not include the patient who did not start treatment)<br /><br />
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="treatmnetStatusDistributionChart" style="margin-left: -26px;margin-top: 18px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+							
+					<div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='RetreatedChartData' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Retreatment Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip  dashboard_tooltip" style="width:380px; right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Retreatment Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N: </span> <span id='retreated-distribution-N'></span><br>
+													<br /><span class="boldfnt">Definition</span> - This chart represents how many patients have taken retreatment for each genotype.
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="retreatedDistributionChart" style="text-align: center;height:235px;margin-left: -26px;margin-top: 18px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+					</div>
+
+							<div class="col-lg-12 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 450px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="float:left;"><i class="fa fa-line-chart togglechart" data='drugGenotypeDistribution1' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp; Drug Distribution by Genotype</h3>
+										
+		                                <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip  dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Drug Distribution By Genotype
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='tPDrugGenotyeDistribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - This chart shows drugs distribution on the basis of
+													genotypes. e.g. how many patients with genotype 1a have been prescibed harvoni.<br>
+												</div>
+											</div>
+										</span>
+
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPDrugGenotyeDistribution" style="width:1200px;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+
+		                </div>
+		                {{#with renderCharts}}
+		                {{/with}}
+		                <!-- /.row -->
+
+		                 <!-- Mechine Learning Charts -->
+
+						<div class="">
+		                    <div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading genotypeDistSelectHeading">
+		                                <h3 class="panel-title containertitle" style="width:220px;float:left"><i class="fa fa-line-chart togglechart" data='diseasePrediction' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Disease Prediction</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Disease Prediction
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='disease-prediction-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - This chart represent progression of disease. Patients with APRI > 1 are considered to be at High Risk. Here, we are using 40 IU/L as the value for the AST upper limit of normal when calculating an APRI value.<br><br>
+
+													<!--<span class="boldfnt">How to Calculate</span><br>-->
+													<span class="boldfnt">Formula:</span><br>
+													<span>APRI = </span><br>
+													<span class="formulaSection" style="font-size:10px;">
+														<span style="border-bottom: 1px dotted;margin-left:-2px;">AST Level (IU/L) / AST (Upper Limit of Normal) (IU/L)</span>
+														<span style="margin-top: 7px;padding-left:1%;margin-left: 0px;position: absolute;"> * 100 </span><br>
+														<span style="padding-left:15%">(Platelet Count (109/L))</span>
+													</span>
+													<br/>
+													<br/>
+													<span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a target="_blank" class="dashboardsourcelink" href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="tPDiseasePrediction" style="text-align: center;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+
+		                    <div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="width: 220px;float: left;"><i class="fa fa-line-chart togglechart" data='treatmentPriority' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Treatment Priority</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip" style="width:380px;">
+												<!--<div class="analytics-tooltipHead">
+													Treatment Priority
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='treatment-priority-N'></span>
+													<br><br>
+														<span class="boldfnt">Definition</span> - The Fibrosis-4 score helps to estimate the amount of scarring in the liver.<br><br>
+
+														<!--<span class="boldfnt">Formula Section</span><br>-->
+														<span class="boldfnt">Formula:</span><br>
+														<span>FIB-4 = </span><br>
+														<span class="formulaSection" style="font-size:11px;">
+
+															<span style="border-bottom: 1px dotted;margin-left:55px;float:left;">#Age(years) * #AST Level(U/L)</span>
+															<span style="padding-left:10%;float:left;">(#Platelet Count (109/L) * #(ALT (U/L))^(1/2)</span>
+														</span>
+														 <br/>
+							                             <br/>
+														 <span class="boldfnt">Interpretations:</span><br/>
+														 	&lt; 0.21 = Stage F0 - No fibrosis <br/>
+															0.21 - 0.27 = Stage F0 - F1 <br/>
+															0.27 - 0.31 = Stage F1 - Portal fibrosis <br/>
+															0.31 - 0.48 = Stage F1 - F2 <br/>
+															0.48 - 0.58 = Stage F2 - Bridging fibrosis with few septa <br/>
+															0.58 - 0.72 = Stage F3 - Bridging fibrosis with many septa <br/>
+															0.72 - 0.74 = Stage F3 - F4 <br/>
+															&gt; 0.74 = Stage F4 - Cirrhosis <br/>
+
+
+														 <br/><br/><br>
+							                            <span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a target="_blank" class="dashboardsourcelink" href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+														<br/>
+														<span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a target="_blank" class="dashboardsourcelink" href='http://www.mayomedicallaboratories.com'>http://www.mayomedicallaboratories.com</a></span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPTreatmentPriority" style="text-align: center;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+
+		                    <div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="width: 220px;float: left;"><i class="fa fa-line-chart togglechart" data='riskDistribution' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Risk Distribution</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='risk-distribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - These are the primary risks that impact treatment and outcome: HIV, Mental Health, Alcohol, Renal Failure &amp; Pregnancy.<br><br>
+														<span class="formulaSection">
+													</span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPRiskDistributionDonut" style="text-align: center;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-8 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="width: 220px;float: left;"><i class="fa fa-line-chart togglechart" data='survivalRate' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Survival Rate</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip">
+												<!--<div class="analytics-tooltipHead">
+													Predictor Survival Rate
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='survival-rate-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - The Model for End Stage Liver Disease (MELD) predicts survival for patients with advanced liver disease.<br><br>
+
+													<!--<span class="boldfnt">Formula Section</span><br>-->
+													<span class="boldfnt">Formula:</span><br>
+													<span>Meld Score :</span><br>
+													<span class="formulaSection">
+														<span>MELD(i) = round1[ 0.378 * loge(bilirubin)) + (1.120*loge(INR)) + (0.957*loge(creatinine)) + 0.643 ] * 10</span><br>
+														<span> MELD = MELD(i) + 1.32 * (137-Na) - [0.033*MELD(i)*(137-Na)]</span><br>
+													</span><br>
+													<div class="col-md-12 survivaInfoSection">
+														<div class="efd-row">3-Month Mortality Based on MELD Scores</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="color:#000;font-weight:bold; width:120px;">MELD Score</div>
+															<div class="efd-cell2" style="color:#000;font-weight:bold;">Mortality Probability</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="width:120px;">40</div>
+															<div class="efd-cell2">71.3%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="width:120px;">30-39</div>
+															<div class="efd-cell2">52.6%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="width:120px;">20-29</div>
+															<div class="efd-cell2">19.6%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="width:120px;">10-19</div>
+															<div class="efd-cell2">6.0%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="width:120px;">9 or less</div>
+															<div class="efd-cell2">1.9%</div>
+														</div>
+													</div>
+													<br/><br/>
+													<span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a target="_blank" class="dashboardsourcelink" href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+												</div>
+											</div>
+
+										</span>
+
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="tPSurvivalRate"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+							<div class="col-lg-4 chartContainer">
+		                        <div class="boxContainerDashboard" style="height: 270px !Important;">
+		                            <div class="panel-heading">
+		                                <h3 class="panel-title containertitle" style="width: 220px;float: left;"><i class="fa fa-line-chart togglechart" data='mortalityRate' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp;Mortality Rate</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Mortality Rate
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='mortality-rate-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> -  The Meld score helps us to find out the patients mortality percentage based on the meld score ranges.<br><br>
+
+													<!--<span class="boldfnt">Formula Section</span><br>-->
+													<span class="boldfnt">Formula:</span><br>
+													<span>Meld Score :</span><br>
+													<span class="formulaSection">
+														<span>MELD(i) = round1[ 0.378 * loge(bilirubin)) + (1.120*loge(INR)) + (0.957*loge(creatinine)) + 0.643 ] * 10</span><br>
+														<span> MELD = MELD(i) + 1.32 * (137-Na) - [0.033*MELD(i)*(137-Na)]</span><br>
+													</span>
+													<br/><br/>
+													<div class="col-md-12 survivaInfoSection">
+														<div class="efd-row">3-Month Mortality Based on MELD Scores</div>
+														<div class="efd-row">
+															<div class="efd-cell1" style="color:#000;font-weight:bold;">MELD Score</div>
+															<div class="efd-cell2" style="color:#000;font-weight:bold;">Mortality Probability</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1">40</div>
+															<div class="efd-cell2">71.3%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1">30-39</div>
+															<div class="efd-cell2">52.6%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1">20-29</div>
+															<div class="efd-cell2">19.6%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1">10-19</div>
+															<div class="efd-cell2">6.0%</div>
+														</div>
+														<div class="efd-row">
+															<div class="efd-cell1">9 or less</div>
+															<div class="efd-cell2">1.9%</div>
+														</div>
+											        </div>
+													<span style='color:red;padding-right:5px;'>*</span><span style='margin-top: 10px;'>Sourced from <a target="_blank" class="dashboardsourcelink" href='http://www.hepatitisc.uw.edu'>http://www.hepatitisc.uw.edu</a></span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                                <div id="tPSurvivalRateLegends" style="text-align:center;"></div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="col-lg-12 chartContainer">
+		                        <!--<div class="boxContainerDashboard" style="height: 270px !Important;">-->
+									<div class="boxContainerDashboard" >
+		                            <div class="panel-heading" style="margin-bottom: 15px;">
+		                                <h3 class="panel-title containertitle" style="width: 220px;float: left;">Cost Burden</h3>
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Predictor Cost burden
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">Antiviral Therapy N : </span> <span id='cost-burden-at-N'></span>
+													<br /><span class="boldfnt">Liver Disease N : </span> <span id='cost-burden-ld-N'></span>
+													<br /><span class="boldfnt">Hospitalization N : </span> <span id='cost-burden-h-N'></span>
+													<br /><span class="boldfnt">Physician Service N : </span> <span id='cost-burden-ps-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> -  We are examining the cost associated in the following areas:
+													Physicians Services, Hospitalizations, Diagnostic Testing, Liver Diseases and Antiviral Therapy.
+													<br>
+													For each category we're showing the per patient cost which describes the cost burden on the patient for the categories.
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body" style="margin-top: 5px; ">
+									   <i class="fa fa-line-chart togglechart" data='costBurden' diff="tPCostBurden" aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>
+		                               <div id="tPCostBurden" style="width:50%;float:left" class='pin-c3-custom-label-color'>
+										  
+									   </div>
+									    <i class="fa fa-line-chart togglechart" data='costBurden' diff="tPLiverCostChart" aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>
+									    <div id="tPLiverCostChart" style="width:48%;float:left" class='pin-c3-custom-label-color'>
+				
+										</div>
+		                            </div>
+
+									<div class="panel-body">
+									   <i class="fa fa-line-chart togglechart" data='costBurden' diff="tPHospitalizationCostChart" aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>
+		                               <div id="tPHospitalizationCostChart" style="width:50%;float:left" class='pin-c3-custom-label-color'>
+									   </div>
+									   <i class="fa fa-line-chart togglechart" data='costBurden' diff="tPPhysicianCostChart" aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>
+										<div id="tPPhysicianCostChart" style="width:48%;float:left" class='pin-c3-custom-label-color'>
+											
+										</div>
+		                            </div>
+
+		                        </div>
+		                    </div>
+							
+		                </div>
+				</div>
+				<!--subpopulation charts closed-->
+				<!--new charts section-->
+				<div class="newPopulationCharts">
+						<div class="">
+							<!--Patients prescribed anti-HCV therapy Oct 2013 to Sep 2016-->
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff = "statechart" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Patients Distribution by State (click on NM for State Distribution)</h2>
+										
+										<div class="backBtnResponders">Back</div>
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='threapy-region-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patients Distribution by State.<br><br>
+														This chart represents how many patients were prescribed anti-HCV therapy in each state.
+														<br>Click on New Mexico to view further distribution by state.
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPrescrobedTherapyMap" style="text-align: center;width:600px;height:350px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+
+							<!-- Pram 27th June 2017: Added new charts-->
+							
+							<!-- HEP C Incidence Chart -->
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;">
+											<i class="fa fa-line-chart togglechart" data='hcvIncidentData' diff="payermix" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+											&nbsp;&nbsp;Hepatitis C Incidence in US
+										</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='hepCIncidenceChart-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - The following chart shows the distribution of HCV patients by year.<br><br>
+													<span class="formulaSection">
+													</span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="hepCIncidenceChart" style="text-align: center;width:600px;height:350px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+
+							<!-- Estimated Person Infected with Hep C Chart -->
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;">
+											<i class="fa fa-line-chart togglechart" data='hcvEstimationData' diff="payermix" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+											&nbsp;&nbsp;Estimated Person Infected with HCV
+										</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt"></span> <span id='estimatedHepCInfectionChart-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - The following chart shows year wise distribution of the HCV patients and corresponding Medication and HCV RNA test.<br><br>
+													<span class="formulaSection">
+													</span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="estimatedHepCInfectionChart" style="text-align: center;width:600px;height:350px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+
+							<!-- HCV Prevelence Chart -->
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading" style="width:73%;float:left;">
+		                                <h2 class="panel-title containertitle" style="float: left;">
+											<i class="fa fa-line-chart togglechart" data='hcvPrevelenceData' diff="payermix" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+											&nbsp;&nbsp; Prevelence of HCV Antibody
+										</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='hcvPrevelenceChart-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - The following chart shows year wise distribution of HCV patients categorised by Age, Race and Gender.<br><br>
+													<span class="formulaSection">
+													</span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+									<div class="form-group" style='margin-left: 15px;width: 130px;margin-bottom:0px; display: inline-block;' >
+										<select id="hcvPrevelenceCombo" name="hcvPrevelenceCombo" class="form-control dashboardDropdown">
+											<option value="Age" selected>Age</option>
+											<option value="Race" >Race</option>
+											<option value="Gender" >Gender</option>
+										</select>
+									</div>
+		                            <div class="panel-body">
+		                               <div id="hcvPrevelenceChart" style="text-align: center;width:600px;height:340px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+
+							<!-- End new charts-->
+
+							<div class="col-lg-12 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff="payermix" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Observed Distribution by Payer Mix</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='payer-mix-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Observed Distribution by Payer Mix.<br><br>
+													This chart represents the distribution of insurance type for payers in three categories: Medicaid, Medicare and Commercial.
+														<span class="formulaSection">
+													</span>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="newChartPayerMix" style="text-align: center;height:350px;width:1200px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-12 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='MarketShareOverMonthsChartData' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Market Share Over Months</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='market-share-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> <br>
+													Market share of each medication within selected time range for every month.
+													<br><br>
+													<span class="boldfnt">Formula:</span> <br>
+														<span class="formulaSection">
+														Market share (%):
+														<br /> (Therapy on particular medication * 100) / (Total Therapy)
+														</span>
+														<br><br>
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+										<div style="display: inline-block;">
+										<div class="form-group" style='margin: 15px;width: 130px; margin-bottom: 0px;float: left;' >
+                                            <select id="ddlMedicationMarketShare" name="ddlScreeningHCVgenotype" class="form-control dashboardDropdown">
+                                                                                    <option value="ALL" selected>All Medication</option>
+                                                                                    {{#each getMedicationMarketShare}}					  
+                                                                                    <option value="{{this}}">{{this}}</option>
+                                                                                    {{/each}}
+                                            </select>
+                                        </div>
+										<div id="marketShareMedication" style='float: left;margin-top: 22px;display: none'>Sovaldi(N): 20 (25%) and Sovaldi Variation(N): 25 (23%)</div>
+										</div>
+										<br />
+										<div id='marketshareMsg' style='text-align:center'>
+											<h5>Click and drag to zoom in. Hold down shift key to pan</h5>
+										</div>
+		                               <div id="markerShareOverMonthsChart" style="text-align: center;width:1200px;"></div>
+		                            </div>
+		                        </div>
+							</div>
+					<div class="col-lg-6 chartContainer">
+						<div class="boxContainerDashboard">
+							<div class="panel-heading">
+								<h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='costPrescription' diff="costperrx" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Cost per Rx</h2>
+								<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+									<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+										<div class="analytics-tooltipBody" style="font-size: 13px;">
+											<span class="boldfnt">N : </span> <span id='cost-perrx-N'></span>
+											<br><br>
+											<span class="boldfnt">Definition</span> - Cost per Rx.<br><br>
+												This chart represents the average cost per prescription and the prescription 
+												count for each medication. The size of bubble indicates the ingredient cost which 
+												is nothing but the total cost spent on that drug by all the patients.
+										</div>
+									</div>
+								</span>
+							</div>
+							<div class="panel-body">
+								<div id="prescriptionCount-rxCost" style="text-align: center;width:600px;height:350px;"></div>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-6 chartContainer prescriptionCount-rx">
+				   <div class="boxContainerDashboard">
+					 <div class="panel-body">
+						<div class="commonInfoTable" style="height:371px;">
+								<div class="prescriptionCount-rxCostTable" style="max-height:345px;overflow-y: auto;"></div>
+						</div>
+					 </div>
+					</div>
+				</div>
+			<div class="col-lg-12 chartContainer">
+					<div class="col-lg-6 chartContainer">
+						<div class="boxContainerDashboard">
+							<div class="panel-heading">
+								<h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='costPrescription' diff="ingredientcostpres" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Ingredient Cost by Prescription</h2>
+								
+								<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+									<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+										<div class="analytics-tooltipBody" style="font-size: 13px;">
+											<span class="boldfnt">N : </span> <span id='ingr-costprescription-N'></span>
+											<br><br>
+											<span class="boldfnt">Definition</span> - Ingredient Cost by Prescription.<br><br>
+												This chart represents the ingredient cost and cost of prescription
+										</div>
+									</div>
+								</span>
+							</div>
+							<div class="panel-body">
+								<div id="prescriptionCount-IngredientCost" style="text-align: center;width:570px;height:350px;"></div>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-6 chartContainer">
+					<div class="boxContainerDashboard">
+						<div class="panel-heading">
+							<h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff = "svrcare" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Types and Rates of Care Failure</h2>
+							
+							<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+								<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+									<!--<div class="analytics-tooltipHead">
+										Risk Distribution
+									</div>-->
+									<div class="analytics-tooltipBody" style="font-size: 13px;">
+										<span class="boldfnt">N : </span> <span id='threapy-race-N'></span>
+										<br><br>
+										<span class="boldfnt">Definition</span> - Types and Rates of Care Failure.<br><br>
+											This chart represents the four type of care failure:<br/>
+												1) Not Cured: Patients who are not cured based on SVR12 results.<br/>
+												2) Discontinued : Patients who did not complete the treatment.<br/>
+												3) Lost to follow Up: Patients who started the treatment but  did not go for viral load test at week 12<br/>
+												4) Did NOT start DAA treatment: Patients who got positive viral  load but did not start treatment there after.<br/>
+									</div>
+								</div>
+							</span>
+						</div>
+						<div class="panel-body">
+							<div id="treamentAvgCostSelection" class="" style="margin-top:10px;text-align:center;">
+								<input type="radio" name="treamentAvgCostData" class="radioduration" value="SVRNotAchieved" checked="checked"> Not Cured
+								&nbsp;&nbsp;
+								<input type="radio" name="treamentAvgCostData" class="radioduration" value="Discontinued"> Discontinued  &nbsp;&nbsp;
+								<input type="radio" name="treamentAvgCostData" class="radioduration" value="Followup"> Lost To follow up &nbsp;&nbsp;
+								<input type="radio" name="treamentAvgCostData" class="radioduration" value="Notprescribed"> No Prescription &nbsp;&nbsp;
+							</div>
+							<div class="mlSubTabsChartSectionMask" style="display:none">
+								<div class="chart_loader payer_loader" style="height:310px;">Loading...</div>
+							</div>
+							<div class="mlSubTabsChartSectionWrap">
+								<div id="divRateFailure" style="text-align: center;width:600px;height:320px;"></div>
+							</div>	
+						</div>
+		
+					</div>
+				</div>
+				</div>
+			<div class="col-lg-6 chartContainer">
+				<div class="boxContainerDashboard">
+					<div class="panel-heading">
+						<h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='prescriptionCount' diff ='prescriptionCount' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Prescription Count</h2>
+						
+						<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+							<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									<span class="boldfnt">N : </span> <span id='prescription-count-N'></span>
+									<br><br>
+									<span class="boldfnt">Definition</span> - Prescription Count.<br><br>
+										This chart represents the prescription count for each drug.
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="panel-body">
+						<div id="prescriptionCount-ContainerDashboard" style="text-align: center;width:600px;height:300px;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 chartContainer">
+				<div class="boxContainerDashboard">
+					<div class="panel-heading">
+						<h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff = "Prescribefibrosis" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Patients Distribution by Fibrosis</h2>
+						
+						<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+							<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+								<!--<div class="analytics-tooltipHead">
+									Risk Distribution
+								</div>-->
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									<span class="boldfnt">N : </span> <span id='tPatientsbyFibrosis-N'></span>
+									<br><br>
+									<span class="boldfnt">Definition</span> - Patients Distribution by Fibrosis.<br><br>
+										This chart represents the Fibrosis stage distrbuted among patients.
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="panel-body">
+						<div id="tPatientsbyFibrosis" style="text-align: center;width:600px;height:300px;"></div>
+					</div>
+				</div>
+			</div>
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff = "Prescribegenotype" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Patients prescribed anti-HCV therapy by Genotype</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='threapy-genotype-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patients prescribed anti-HCV therapy by Genotype.<br><br>
+														This chart represents the patients distribution by Genotype.
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPatientbygenotype" style="text-align: center;width:600px;height:300px"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"> <i class="fa fa-line-chart togglechart" data='prescriptionCount' diff="prescriptionCountIng" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i> &nbsp;&nbsp; Ingredient Cost</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='ingredient-cost-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Ingredient Cost.<br> This chart represents the Ingredient cost for each drug. Initially it shows all the primary drugs. On toggle all the combinations will be visible. 
+ Ingredient cost is the total cost for therapy of that drug by all the patients.<br>
+ Calculation : Total Prescription For Drug * Average Cost for that Drug
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="IngredientCost-ContainerDashboard" style="text-align: center;width:600px;height:300px"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='patientPrescription' diff = "Prescribepayer" aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Patients prescribed anti-HCV therapy by Payer</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='threapy-insurance-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patients prescribed anti-HCV therapy by Payer.<br><br>
+														This chart represents the Anti-HCV therapy distribution by Payer
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPatientsByPayer" style="text-align: center;width:600px;height:300px"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-6 chartContainer">
+								<div class="boxContainerDashboard">
+		                            <div class="panel-heading">
+		                                <h2 class="panel-title containertitle" style="float: left;"><i class="fa fa-line-chart togglechart" data='treatmentM' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>&nbsp;&nbsp;Patients prescribed anti-HCV therapy by Treatment</h2>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;">
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												<!--<div class="analytics-tooltipHead">
+													Risk Distribution
+												</div>-->
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='threapy-treatment-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patients prescribed anti-HCV therapy by Treatment.<br><br>
+														This chart represents the Anti-HCV therapy distribution by Treatment
+												</div>
+											</div>
+										</span>
+		                            </div>
+		                            <div class="panel-body">
+		                               <div id="tPatientsBytreatment" style="text-align: center;width:600px;height:300px"></div>
+		                            </div>
+		                        </div>
+							</div>
+							<div class="col-lg-12 chartContainer">
+								<div class="boxContainerDashboard">
+									<div class="panel-heading ethnicityHeading">
+										<h3 class="panel-title containertitle" style="width:202px;float:left"><i class="fa fa-line-chart togglechart" data='drugFibrosisDistribution' aria-hidden="true" title="compare" style="float:left;cursor:pointer;"></i>&nbsp;&nbsp; Drug Distribution by Fibrosis</h3>
+										
+										<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float: right;" >
+											<div class="analytics-tooltip mlInfoTip_tooltip dashboard_tooltip" style="right: -35px;">
+												
+												<div class="analytics-tooltipBody" style="font-size: 13px;">
+													<span class="boldfnt">N : </span> <span id='tPFibrosisMediDistribution-N'></span>
+													<br><br>
+													<span class="boldfnt">Definition</span> - Patient distribution on the basis of Fibrosis Stage With Medications.
+													<br>
+												</div>
+
+											</div>
+										</span>
+
+									</div>
+									<div class="panel-body">
+										<div id="tPFibrosisMediDistribution" style="width:1200px;height:400px;"></div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+				
+		            </div>
+
+		            </div>
+		            <!-- /.container-fluid -->
+
+		        </div>
+		        <!-- /#page-wrapper -->
+
+		    </div>
+		    <!-- /#wrapper -->
+
+         {{/if}}
+    </div>
+
+	<div class="showDataComparisionIcon" title="Compare Data" style="display:none;"><img src="/compare-icon.png"></div>
+
+	<!-- Data comparsion Popup-->
+	<div class="popup" data-popup="datasetComparsionPopup" id="datasetComparsionPopup">
+		<div class="popup-inner">
+			<div class="modal-body popup-body" style="min-height:465px;">
+				<div class="datasetComparsionPopup-header">Data Comparison View ( <span class="chartTypeLabel"> </span> )</div>
+					<div class="datasetComparsionPopupContent" id="datasetComparsionPopupContent">
+					
+					</div>
+			</div>
+
+			<div class="popup-close js-closeDatasetComparsionPopup" data-popup-close="datasetComparsionPopup" href="#" style="cursor:pointer;">x</div>
+		</div>
+	</div>
+
+    {{>MainFooter}}
+</template>

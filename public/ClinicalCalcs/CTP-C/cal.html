@@ -1,0 +1,103 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Child-Turcotte-Pugh Calculator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href='../tipTip.css' rel='stylesheet' type='text/css'>
+<link href='cal.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../vendors-min.js"></script>
+<script type="text/javascript" src="cal.js"></script>
+
+	
+</head>
+<body style="font-family:Lucida Grande,Verdana,sans-serif; font-size: 12px; color: #333; ">  
+<div class="inner"><h1 class="title">Child-Turcotte-Pugh Calculator</h1><div class="content">Use the Child-Turcotte-Pugh Classification for Severity of Cirrhosis calculator to estimate the child's cirrhosis severity. Select the applicable Clinical and Lab Criterias, then check the classification at the bottom.<div class="content-included">
+<div id="tool_ctp" class="tool tool-ctp">
+	
+	<h3><span style="float: right">Points</span>Clinical and Lab Criteria</h3>
+	
+	<div class="tool-container container-encephalopathy">
+		<h3>Encephalopathy</h3>
+		<div class="tool-option">
+			<input type="radio" name="encephalopathy" value="1" id="encephalopathy_1" class="tool-input">
+			<label for="encephalopathy_1">None<span class="points">+1</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="encephalopathy" value="2" id="encephalopathy_2" class="tool-input">
+			<label for="encephalopathy_2">Mild to moderate (grade 1 or 2)<span class="points">+2</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="encephalopathy" value="3" id="encephalopathy_3" class="tool-input">
+			<label for="encephalopathy_3">Severe (grade 3 or 4)<span class="points">+3</span></label>
+		</div>
+	</div>
+	<div class="tool-container container-ascites">
+		<h3>Ascites</h3>
+		<div class="tool-option">
+			<input type="radio" name="ascites" value="1" id="ascites_1" class="tool-input">
+			<label for="ascites_1">None<span class="points">+1</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="ascites" value="2" id="ascites_2" class="tool-input">
+			<label for="ascites_2">Mild to moderate (diuretic responsive)<span class="points">+2</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="ascites" value="3" id="ascites_3" class="tool-input">
+			<label for="ascites_3">Severe (diuretic refractory)<span class="points">+3</span></label>
+		</div>
+	</div>
+	<div class="tool-container container-bilirubin">
+		<h3>Bilirubin (mg/dL)</h3>
+		<div class="tool-option">
+			<input type="radio" name="bilirubin" value="1" id="bilirubin_1" class="tool-input">
+			<label for="bilirubin_1">&lt; 2<span class="points">+1</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="bilirubin" value="2" id="bilirubin_2" class="tool-input">
+			<label for="bilirubin_2">2-3<span class="points">+2</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="bilirubin" value="3" id="bilirubin_3" class="tool-input">
+			<label for="bilirubin_3">&gt; 3<span class="points">+3</span></label>
+		</div>
+	</div>
+	<div class="tool-container container-albumin">
+		<h3>Albumin (g/dL)</h3>
+		<div class="tool-option">
+			<input type="radio" name="albumin" value="1" id="albumin_1" class="tool-input">
+			<label for="albumin_1">&gt; 3.5<span class="points">+1</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="albumin" value="2" id="albumin_2" class="tool-input">
+			<label for="albumin_2">2.8-3.5<span class="points">+2</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="albumin" value="3" id="albumin_3" class="tool-input">
+			<label for="albumin_3">&lt; 2.8<span class="points">+3</span></label>
+		</div>
+	</div>
+	<div class="tool-container container-inr">
+		<h3>International normalized ratio</h3>
+		<div class="tool-option">
+			<input type="radio" name="inr" value="1" id="inr_1" class="tool-input">
+			<label for="inr_1">&lt; 1.7<span class="points">+1</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="inr" value="2" id="inr_2" class="tool-input">
+			<label for="inr_2">1.7-2.3<span class="points">+2</span></label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="inr" value="3" id="inr_3" class="tool-input">
+			<label for="inr_3">&gt; 2.3<span class="points">+3</span></label>
+		</div>
+	</div>
+	<div class="tool-container container-result">
+	
+		<h3>Child-Turcotte-Pugh Class obtained by adding score for each parameter (total points)</h3>
+		<div class="tool-result"><span class="figure"></span><span class="class"></span></div>
+	</div>
+</div>
+</div></div></div>
+</body>
+</html>

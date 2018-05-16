@@ -1,0 +1,105 @@
+.apiTitleEvidence {
+    float: right;
+    padding-right: 19.5%;
+    padding-top: 27px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #000099;
+    text-shadow: 1px 1px 1px #FFFEFB;
+    padding-bottom: 14px;
+}
+.EvidenceBackBUttonWrapper {
+       padding: 10px;
+    margin-left: 38.9%;
+    width: 50%;
+}
+.EvidenceBackBUttonWrapper span{
+    font-size: 16px;
+    color: #F74118;
+    margin-left: 72%;
+    margin-right: 2%;
+}
+.frameHiderLeft{
+	height: 100%;
+    position: absolute;
+    width: 280px;
+    background: #EEEEEE;
+    z-index: 9;
+}
+.frameHiderRight{
+	height: 100%;
+    position: absolute;
+    width: 288px;
+    background: #EEEEEE;
+    z-index: 9;
+	right : 0px;
+}
+.contentRenderFrameParentEvidence{
+	position: relative;
+    overflow: hidden !important;
+	width : 76.2%;
+}
+
+/*.ClinicalTopBar .container.ClinicalTrialHeader{
+	width : 76.2% !important;
+}*/
+/*.ClinicalTopBar .ClinicalTriaMenubar{
+	width : 76.2% !important;
+}*/
+.ClinicalTopBar .container.ClinicalTrialHeader .navbar-brand {
+	/*margin-left:13% !important;*/
+	padding : 0px !important;
+}
+
+.ClinicalTopBar #searchform{
+		/*margin-right: 13% !important;*/
+    margin-right: 0 !important;
+}
+
+
+#EvidenceFrame{
+    width: 100%;
+    border: none;
+}
+
+#EvidenceFrame body{
+   padding: 10px;
+   overflow: hidden;
+}
+
+.Evidencepagination{
+    display: inline-block;
+    float: right;
+}
+.current{
+    background-color: #ef4823 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.Evidencepagination ul li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    background: #fff;
+    margin: 6px;
+    color: #ef4823;
+    text-align: center;
+    width: 26px;
+    height: 25px;
+    cursor: pointer;
+}
+.iframeWrapperEvidence{
+    /*position: absolute;
+    width: 76.2% !important;
+    top: 120px;*/
+    /*position: absolute;*/
+    width: 100%;
+    /*top: 120px;*/
+}
+.Evidence-api-credits{
+    background: #E9E7E3;
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+}

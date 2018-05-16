@@ -1,0 +1,15 @@
+<template name="dashboardLayout">
+    <div class="wrapper">
+        <div class="fullwidth">
+            <div class="hold-transition skin-blue layout-top-nav">
+                {{#if currentuser}}
+                {{#if isWelcome}}
+                <div class="ps-header">
+                    {{>topHeader}} {{>dashboardNavigation}}
+                </div>
+                  {{/if}}
+                {{/if}} {{> yield}}
+            </div>
+        </div>
+    </div>
+</template>

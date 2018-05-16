@@ -1,0 +1,376 @@
+.wasteOppotunityPopup-Content .content-wrapper {
+    height: 100%;
+}
+
+.wasteOpportunity-Card {
+    margin-bottom: 25px;
+    cursor:pointer;
+}
+
+
+/* Jayesh 5th April 2017 Fix scroll issue */
+
+.wasteOppotunity-SectionWrapper {
+    overflow: hidden;
+    height: 100%;
+}
+
+.wasteOppotunityTitle-Wrapper {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.wasteOppotunityTitle {
+    color: #333;
+    font-weight: 600;
+}
+
+.wasteOppotunityContent {
+    padding: 10px;
+    margin: 8px 0px 0px 0px;
+    border-top: 1px solid #e1e1e1;
+    height: 94%;
+}
+
+.wasteOppotunityContent .nav-sidebar a {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.wasteOppotunityContent .nav>li.active a {
+    font-weight: bold;
+}
+
+.wasteOppotunityContent .nav>li.active {
+    background: #eee;
+}
+
+.wasteBoxContainer {
+    padding: 5px;
+}
+
+.wasteBoxContainer-innerBox {
+    border: .5px solid #fdfdfd;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    padding: 3px;
+    min-height: 120px;
+}
+
+.wasteQuestion {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wasteAnswer {
+    color: #f1cb6a;
+    font-weight: 600;
+}
+
+.wasteFilter-Space {
+    padding-left: 10px;
+}
+
+.wasteNoDataFoundSection {
+    width: 100%;
+    float: left;
+    margin: 21px auto;
+    text-align: center;
+    color: #ef4823;
+}
+
+
+/* Popup Override */
+
+.wasteOppotunityPopup .popup-inner {
+    width: 95% !important;
+    height: 640px !important;
+    top: 50% !important;
+}
+
+.wasteOppotunityBox {
+    background-color: #fff;
+    min-height: 140px;
+    /*box-shadow: 0 2px 4px 0 rgba(99, 99, 99, 0.85), 0 3px 1px -2px rgb(103, 103, 103), 0 1px 5px 0 rgba(146, 146, 146, 0.85);*/
+    box-shadow: 0px 6px 16px 0px rgba(99, 99, 99, 0.85);
+    border-radius: 0px;
+    /* border: 1px solid #ff8a8a; */
+    background: rgb(100, 148, 255);
+    color: #fff;
+}
+
+.wb-header {
+    padding: 5px 5px 0px 5px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.wb-header-title {
+    float: left;
+    width: 70%;
+}
+
+.wb-header-value-container {
+    float: left;
+    width: 30%;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 13px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.wb-header-overview-value {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /*font-size: 15px;*/
+    font-size: 34px;
+    /* margin-top: 13px; */
+    padding: 10px;
+    font-weight: 600;
+    /* padding-right: 10px; */
+    /*border-bottom: 1px dotted #e4e4e4;*/
+}
+
+.wb-content {
+    float: left;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.wasteMainChartBox {
+    min-height: 440px;
+}
+
+.wasteChartSection {
+    background: #fff;
+    padding: 0px;
+}
+
+.ws-header {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    margin: 0 0 10px 0px
+}
+
+.ws-selectedFilters {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding: 10px;
+}
+
+.ws-patient-container {
+    float: left;
+    width: 60%;
+    text-align: right;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.ws-patient-container span {
+    padding-right: 10px;
+}
+
+
+/*Info tooltips*/
+
+.wasteInfoTip {
+    position: relative;
+}
+
+.wasteOpportunity-infoIcon {
+    font-size: 14px;
+    top: 6px;
+    background-position: 38%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 20px;
+    width: 53px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.wasteOpportunity-tooltip {
+    position: absolute;
+    background: #fff;
+    line-height: 18px;
+    visibility: hidden;
+    z-index: 9;
+    top: 28px;
+    width: 370px;
+    right: -160px;
+    text-align: left;
+    color: #525252;
+    font-size: 14px;
+    box-shadow: 0px 1px 2px 0px rgba(19, 19, 19, 0.52);
+}
+
+.wasteOpportunity-tooltipHead {
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wasteOpportunity-tooltipBody {
+    padding: 10px;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.wasteInfoTip:hover .wasteInfoTip_tooltip {
+    visibility: visible;
+}
+
+.wasteOpportunity-tooltip:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #f1f1f1;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.waste-tooltip-box {
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(19, 19, 19, 0.52);
+    box-shadow: 0px 1px 2px 0px rgba(19, 19, 19, 0.52);
+    padding: 0;
+    margin: -10px;
+    margin-left: -14px;
+    width: 350px;
+    text-align: justify;
+}
+
+.waste-RegimentsDrugCosttooltip .wasteOpportunity-tooltip:after {
+    margin-left: 111px !important;
+}
+
+.waste-noDataFoundSection {
+    min-height: 400px;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.waste-noDataFoundMsg {
+    color: red;
+    font-size: 16px;
+}
+
+.waste-patientinchangeintreatmentgeno .wasteOpportunity-tooltip:after {
+    margin-left: 109px !important;
+}
+
+
+/* NON Standart Codes */
+
+.waste-table-Header {
+    height: inherit;
+    font-size: 15px;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 15px 0px;
+    background: #fff;
+    border-bottom: 1px solid #ef431d;
+}
+
+.waste-table-column-header {
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.waste-table-Header .testName {
+    width: 270px;
+}
+
+.waste-table-Header .standardCode {
+    width: 200px;
+}
+
+.waste-table-Header .customerCodes {
+    width: 450px;
+}
+
+.waste-table-row {
+    padding: 2px 0px;
+}
+
+.waste-table-row:hover {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 0px 0px 5px 1px #e1e1e1;
+    cursor: pointer;
+}
+
+.waste-table-column {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+.waste-table-row .testName {
+    width: 270px;
+}
+
+.waste-table-row .standardCode {
+    width: 200px;
+}
+
+.waste-table-row .customerCodes {
+    width: 450px;
+}
+
+.customHeaderForWaste {
+    padding: 5px 5px 0px 5px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px dotted #e4e4e4;
+    background-color: rgb(46, 126, 151);
+    color: #fff;
+}
+
+.waste-table-Header .labTest {
+    width: 500px;
+}
+
+.waste-table-Header .patientCount {
+    width: 400px;
+}
+
+.waste-table-row .labTest {
+    width: 500px;
+}
+
+.waste-table-row .patientCount {
+    width: 400px;
+}
+
+.wasteRetreatedTabTooltip .wasteOpportunity-tooltip:after {
+    left: 130px;
+}
+
+.globalexportPatientWasteChart {
+    font-size: 22px;
+    margin-left: 18px;
+    float: right;
+}

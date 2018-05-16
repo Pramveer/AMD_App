@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="69">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02124044</url>
+  </required_header>
+  <id_info>
+    <org_study_id>140065</org_study_id>
+    <secondary_id>14-CC-0065</secondary_id>
+    <nct_id>NCT02124044</nct_id>
+  </id_info>
+  <brief_title>Safety, Tolerability, and Efficacy of Asunaprevir and Daclatasvir in Subjects Coinfected With HIV-HCV</brief_title>
+  <official_title>Safety, Tolerability, and Efficacy of Daclatasvir and Asunaprevir, With or Without BMS-791325, in Subjects Coinfected With HIV-HCV</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institutes of Health Clinical Center (CC)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>National Institutes of Health Clinical Center (CC)</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic hepatitis C virus (HCV) infection is a major public health problem with an estimated
+      180 million people infected worldwide. In the United States an estimated 4.1 million people
+      are infected and HCV is the principal cause of death from liver disease and leading
+      indication for liver transplantation. Within HIV/HCV co-infected patients, liver disease due
+      to Hepatitis C progresses even more rapidly. While combination of ribavirin (RBV) and
+      pegylated interferon (PEG) in combination with boceprevir/telaprevir is the currently
+      recommended therapy for chronic HCV infection and has superior cure rates compared to
+      PEG+RBV alone in HCV monoinfected patients, treatment is still associated with a high
+      incidence of adverse events (AEs), discontinuations and poor cure rates in several
+      populations. Within the HIV/HCV co-infected population treatment for HCV remains complicated
+      given drug interactions between anti-retrovirals and HCV protease inhibitors, in addition to
+      the extensive side-effects due to PEG +RBV alone. Recent studies have demonstrated that the
+      use of a combination of anti-virals which target HCV without interferon (IFN) can cure HCV,
+      without additional toxicities. These novel therapies that do not rely on an IFN backbone may
+      additionally enhance cure rates in HIV/HCV co-infected, a population which has historically
+      been difficult to cure.
+
+      This is an open label study to assess the safety, tolerability and efficacy of asunaprevir
+      (ASV) 100 mg BID and daclatasvir (DCV) 60 mg daily (selective HCV NS3 and NS5A inhibitors
+      respectively) in 20 HIV/HCV co-infected treatment-na(SqrRoot) ve and treatment experienced
+      HCV genotype 1b individuals.
+
+      The findings from this study will aid in the understanding of antiviral and host responses
+      and determinants of response to an IFN free regimen in HIV/HCV co-infected patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Chronic hepatitis C virus (HCV) infection is a major public health problem with an estimated
+      180 million people infected worldwide. In the United States an estimated 4.1 million people
+      are infected and HCV is the principal cause of death from liver disease and leading
+      indication for liver transplantation. Within HIV/HCV co-infected patients, liver disease due
+      to Hepatitis C progresses even more rapidly. While combination of ribavirin (RBV) and
+      pegylated interferon (PEG) in combination with boceprevir/telaprevir is the currently
+      recommended therapy for chronic HCV infection and has superior cure rates compared to
+      PEG+RBV alone in HCV monoinfected patients, treatment is still associated with a high
+      incidence of adverse events (AEs), discontinuations and poor cure rates in several
+      populations. Within the HIV/HCV co-infected population treatment for HCV remains complicated
+      given drug interactions between anti-retrovirals and HCV protease inhibitors, in addition to
+      the extensive side-effects due to PEG +RBV alone. Recent studies have demonstrated that the
+      use of a combination of anti-virals which target HCV without interferon (IFN) can cure HCV,
+      without additional toxicities. These novel therapies that do not rely on an IFN backbone may
+      additionally enhance cure rates in HIV/HCV co-infected, a population which has historically
+      been difficult to cure.
+
+      This is an open label study to assess the safety, tolerability and efficacy of two regimens
+      for the treatment of HCV, asunaprevir (ASV) 100 mg BID and daclatasvir (DCV) 60 mg daily
+      (selective HCV NS3 and NS5A inhibitors respectively) in 10 HIV/HCV genotype 1b co-infected
+      treatment-na(SqrRoot) ve and treatment experienced individuals and DCV + ASV + BMS-791325
+      administered as a fixed dose combination (FDC) pill in 20 HIV/HCV GT 1a or 1b coinfected
+      treatment-na(SqrRoot) ve and treatment experienced individuals.
+
+      The findings from this study will aid in the understanding of antiviral and host responses
+      and determinants of response to an IFN free regimen in HIV/HCV co-infected patients.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>February 2014</start_date>
+  <completion_date type="Anticipated">January 2017</completion_date>
+  <primary_completion_date type="Anticipated">November 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The incidence of grade 3 and 4 adverse events (AEs) followingtreatment with DCV/ASV or DCV/ASV/BMS-791325 in HIV-HCV coinfected subjects</measure>
+    <time_frame>36 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The proportion of subjects who achieve SVR12</measure>
+    <time_frame>12 weeks after completion of treatment</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Log change in HCV response</measure>
+    <time_frame>On days 1, 3, 5, 7, 14, 21, and 28 of treatment</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The association between HIV Viral load &amp; lt; 40 copies/mL but detectable vs. undetectable while on therapy and HIV virologic failure or HIV VL blips.</measure>
+    <time_frame>24 weeks for DVS/ASV arm and 12 weeks for DCV/ASV/BMS-791325 arm.</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">39</enrollment>
+  <condition>HIV-HCV</condition>
+  <arm_group>
+    <arm_group_label>2DAA</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>ASV (100 mg twice a day) and DCV (60 mg once a day) will be administered orally for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3DAA</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>DCV (30 mg), ASV (200 mg) and BMS- 791325 (75 mg) combined in a fixeddose combination pill (FDC) will be administered orally twice a day for 12 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Asunaprevir and Dalatasvir</intervention_name>
+    <description>ASV (100 mg twice a day) and DCV (60 mg once a day) will be administered orally for 24 weeks</description>
+    <arm_group_label>2DAA</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir and Asunaprevir, with or without BMS-791325</intervention_name>
+    <description>DCV (30 mg), ASV (200 mg) and BMS-791325 (75 mg) combined in a fixed-dose combination pill (FDC) will be administered orally twice a day for 12 weeks</description>
+    <arm_group_label>3DAA</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  INCLUSION CRITERIA
+
+        Subjects who meet the following criteria are eligible to enter the study:
+
+          1. Eighteen years of age or older at screening
+
+          2. Na(SqrRoot) ve to treatment for hepatitis C or treatment experienced on previous
+             IFN-containing treatment for chronic HCV infection. Patients who have been
+             re-infected with HCV are excluded.
+
+          3. Women are allowed to participate if they agree to always use at least two forms of
+             birth control. One form must be barrier protection (i.e., condom or female condom)
+             and the other is to meet one of the criteria below:
+
+               1. Non-childbearing potential status (i.e., physiologically incapable of becoming
+                  pregnant)
+
+                  - Has had a hysterectomy or
+
+                  - Has had a bilateral oophorectomy or
+
+                  - Is post-menopausal (age greater than or equal to 50 and a demonstration of a
+                  total cessation of menses for greater than or equal to 1 year) or
+
+                  - Has had a bilateral tubal ligation or fallopian tube inserts
+
+               2. Childbearing potential status women must have a negative serum pregnancy test at
+                  screening and agree to use an acceptable form of birth control, such as any of
+                  the following:
+
+                  - Complete abstinence from sexual intercourse 2 weeks prior to administration of
+                  the study drug until completion of the follow-up procedures and at least 5 weeks
+                  (women) after the last dose of the study drugs.
+
+                  - Vasectomized partner in reliably monogamous relationship.
+
+                    -  An intrauterine device (IUD) 2 weeks prior to administration of the study
+                       drugs continuously until completion of the follow-up procedures and at
+                       least 5 weeks after the last dose of the study drugs.
+
+                    -  Double contraceptive method (condom or occlusive cap [diaphragm or
+                       cervical/vault caps]; spermicidal foam/gel/film/cream/suppository).
+
+                    -  Oral, implantable, transdermal, or injectable or any other form of hormonal
+                       contraceptives are NOT an acceptable form of contraception for females on
+                       this study.
+
+          4. Men are allowed to participate if they agree to use at least 2 forms of birth
+             control. One form must be barrier protection (i.e., condom or female condom) and the
+             other is to meet one of the criteria below:
+
+               1. Are sterile or
+
+               2. Agree to use at least one of the following approved methods of contraception 2
+                  weeks prior to administration of the study drug until the completion of the
+                  followup procedures and at least 14 weeks after the last dose of the study
+                  drugs:
+
+                    -  A male condom with spermicide.
+
+                    -  A sterile sexual partner.
+
+                    -  A female sexual partner who has an IUD.
+
+                    -  A female sexual partner using a female condom with spermicide, intravaginal
+                       system (e.g., NuvaRing[registered]), diaphragm with spermicide, cervical
+                       cap with spermicide, or oral, implantable, transdermal, or injectable
+                       contraceptives.
+
+          5. Chronic GT1b (2DAA arm) or Chronic GT 1 (1a or 1b) (3DAA arm) infection as documented
+             by one or more measurements of serum HCV RNA greater than or equal to 2,000 IU/mL
+             during screening and at least one of the following:
+
+               1. A positive anti-HCV antibody, HCV RNA, or HCV genotype test result greater than
+                  or equal to 12 months prior to the baseline (Day 0) visit together with current
+                  positive HCV RNA or anti-HCV antibody test results.
+
+        Or
+
+        b. Positive HCV RNA test and anti-HCV antibody test results together with a liver biopsy
+        consistent with chronic HCV infection or a liver biopsy performed before Day 0 with
+        evidence of chronic hepatitis C infection disease, such as the presence of fibrosis.
+
+        6. HIV treatment status:
+
+          1. Documented HIV infection (defined by positive Western blot result or detectable HIV
+             viral load), ARV untreated for &gt; 8 weeks preceding dosing and having either:
+
+               1. A CD4 T-cell count greater than or equal to 500 cells/mm3 within 8 weeks of Day
+                  0 or
+
+               2. An HIV viral load less than 500 copies/mL with a stable CD4 count for at least 3
+                  months
+
+          2. Documented HIV-1 (defined by positive western blot result or detectable HIV viral
+             load) infection on a stable protocol-approved, ARV regimen for greater than or equal
+             to 4 weeks prior to dosing and is expected to continue the current ARV regimen
+             through the end of study with all of the following
+
+               1. a CD4 T-cell count &gt; 100 cells/mm3
+
+               2. a documented plasma HIV-1 RNA level less than the level of detection measured at
+                  least twice in the 4 weeks preceding dosing. If the lower limit of detection of
+                  the local HIV-1 RNA result is &gt; 50 copies/mL (e.g., &lt; 70 copies/mL, the
+                  screening plasma HIV-1 RNA level cannot exceed 50 copies/mL).
+
+               3. HIV ARV agents including only:
+
+        a. Raltegrativir plus one of the following
+
+        b. Tenofovir and emtricitabine or abacavir and lamivudine
+
+        7. Documentation of hepatitis C genotype 1b (2DAA arm) or GT 1 (1a or 1b) (3DAA arm) alone
+        infection within 6 months prior to Day 0. HCV genotype/subtypes performed outside the NIH
+        will be accepted for eligibility if performed using the Siemens LiPA v2.0 assay or an
+        assay with equivalent performance in identifying the HCV genetype 1b (e.g., Abbott
+        RealTime HCV Genotype II assay).
+
+        8. Liver biopsy obtained within 36 calendar months prior to the baseline (Day 0) visit to
+        verify the presence or absence of cirrhosis, except as indicated below. If no recent (&lt; 36
+        months) liver biopsy is available, a liver biopsy may be performed prior to the baseline
+        visit.
+
+          1. Cirrhosis is defined as any one of the following:
+
+               1. Any biopsy showing cirrhosis (at any time, not restricted to the 36 calendar
+                  months prior to baseline visit).
+
+               2. A FibroSUR[trademark] score, of &gt; 0.75 and an aspartate aminotransferase (AST)
+                  platelet ratio index (APRI) of &gt; 2 within the last year.
+
+          2. Absence of cirrhosis is defined as any one of the following:
+
+               1. A liver biopsy performed within 36 calendar months of screening showing absence
+                  of cirrhosis.
+
+               2. A FibroSUR[trademark] score, within the last year, of &lt; 0.48 and an APRI of &lt; 1.
+
+                  In the absence of a definitive diagnosis of presence or absence of cirrhosis by
+                  the criteria detailed above, a liver biopsy is required. The
+                  FibroSURE[trademark]test can be performed and the results can be used to
+                  determine the inclusion and exclusion criteria. Patients with Child Pugh B or C
+                  cirrhotics are excluded
+
+             9. Ability to communicate effectively with the study investigator and other key
+             personnel.
+
+             10. Willingness to comply with the study restrictions and requirements.
+
+             11. Opioid-dependent individuals must be participating in a supervised treatment
+             program.
+
+             12. Subjects must have an external primary care doctor (outside of the Clinical
+             Center and the NIH) for their medical management.
+
+             13. Willingness to have blood or tissue samples stored for future use to study liver
+             disease and immune function.
+
+             14. Willingness to undergo HLA typing.
+
+             15. Otherwise healthy status as determined by medical history, physical examination,
+             electrocardiogram (ECG), and clinical laboratory measurements performed at screening.
+
+        Contraception
+
+        The effects of ASV and DCV on the developing human fetus are unknown. For this reason, men
+        and women of childbearing potential must agree to use adequate contraception as outlined
+        in the inclusion and exclusion criteria prior to study entry and until 5 weeks (women )
+        and 14 weeks (men) after last dose of study medication. Hormonal contraception is NOT
+        considered an effective form of birth control for female subjects on this study. Oral
+        contraceptives are not as effective in women taking ASV and DCV so women cannot rely on
+        this form of birth control to prevent pregnancy. Females of childbearing-age must have a
+        negative pregnancy test result prior to receiving ASV and DCV. If a woman becomes pregnant
+        or suspects of being pregnant during the course of the study, she should inform the study
+        staff and her primary care physician immediately.
+
+        EXCLUSION CRITERIA
+
+          1. Current or prior history of any of the following:
+
+               1. Clinically significant illness (other than HCV) or any other major medical
+                  disorder that may interfere with the subject treatment, assessment of compliance
+                  with the protocol; subjects currently under evaluation for a
+                  clinically-significant illness (other than HCV) are also excluded
+
+               2. Gastrointestinal disorder with post-operative condition that could interfere
+                  with the absorption of the study drug
+
+               3. Poor venous access interfering with required study blood collection
+
+               4. Clinical hepatic decompensation (i.e.,-ascites, encephalopathy or variceal
+                  hemorrhage)
+
+               5. Hepatic impairment (e.g., Child-Pugh class B [moderate] or Child-Pugh class C
+                  [severe])
+
+               6. Solid organ transplantation
+
+               7. Significant pulmonary disease, significant cardiac disease or porphyria.
+
+               8. Unstable psychiatric disease (subjects with psychiatric illness that is well
+                  controlled on a stable treatment regimen or currently not requiring medication
+                  may be included)
+
+               9. Any malignancy or its treatment that in the opinion of the PI may cause ongoing
+                  interference with host immunity; subjects under evaluation for malignancy are
+                  not eligible
+
+              10. Significant drug allergy (such as anaphylaxis or hepatotoxicity)
+
+              11. Chronic liver disease of a non-HCV etiology (e.g., hemochromatosis, Wilson s
+                  disease, alfa-1 antitrypsin deficiency, cholangitis)
+
+          2. Positive nucleotide sequence analyses of the NS5A gene for Y93H or L31M/V
+             polymorphisms for the 2DAA arm only.
+
+          3. Positive test results at screening for hepatitis B virus (HBV) surface antigen
+             (HBsAg) or HBV RNA (completed only if necessary to rule out chronic HBV)
+
+          4. Current use of non-protocol approved ARVs
+
+          5. A new AIDS-defining condition diagnosed within 30 days prior to date screening
+             consent is signed or active serious infection (other than HIV and HCV), requiring
+             parenteral antibiotics, antivirals or antifungals within 30 days prior to Day 0
+
+          6. Abnormal hematological and biochemical parameters at screening, unless the test has
+             been repeated and at least one subsequent result is within the acceptable range prior
+             to study drug administration, including:
+
+               1. Neutrophil count &lt; 750 cells/mm3
+
+               2. Hemoglobin level &lt; 9 g/dL
+
+               3. Platelet count less than or equal to 50,000 cells/mm3
+
+               4. Estimated glomerular filtration rate, calculated by the chronic kidney disease
+                  epidemiology collaboration formula: &lt; 50 mL/min/1.73 m^2
+
+               5. ALT or AST level greater than or equal to10 times upper limit of normal (ULN)
+
+               6. Serum lipase level greater than or equal to 1.5 times ULN at screening or during
+                  the screening period in a patient with symptoms of pancreatitis
+
+               7. Total bilirubin level greater than or equal to 2.0 times ULN, except in subjects
+                  with Gilbert s syndrome
+
+               8. Albumin level less than or equal to 3.0 g/dL
+
+          7. Donation or loss of blood of &gt; 400 mL within 8 weeks prior to the first dose of the
+             study drugs
+
+          8. Poorly controlled diabetes as indicated by a screening glycosylated hemoglobin
+             (HbA1c) &gt; 10
+
+          9. Known hypersensitivity to ASV, DCV or formulation excipients
+
+         10. Pregnant or breastfeeding
+
+         11. Screening or baseline with clinically significant ECG findings, or personal/first
+             degree relative history of Torsade de pointes
+
+         12. Need for the use of the following medications from 21 days prior to the start of
+             study drugs through the end of treatment:
+
+               1. Hematologic stimulating agents, erythropoiesis stimulating agents (ESAs),
+                  granulocyte colony stimulating factor (GCSF), thrombopoeitin (TPO) mimetics
+
+               2. Chronic systemic antineoplastic or immunomodulatory treatment including
+                  supraphysiologic doses of immunosuppressants such as corticosteroids (e.g.,
+                  prednisone equivalent &gt; 10 mg/day for &gt; 2 weeks), azathioprine or monoclonal
+                  antibodies (e.g., infliximab)
+
+               3. Investigational agents or devices for any indication
+
+                  13 Previous treatment with an HCV protease inhibitor or any DAA
+
+        14. Medications for disease conditions excluded from the protocol (e.g.,- active cancer,
+        transplantation) are not listed under the Concomitant medication section, and are
+        disallowed from the study
+
+        15. Use of certain medications and herbal/natural supplements per PI discretion, expected
+        to result in increases or decreases in exposure to study or non-study medications as
+        listed in Section 5.5 while receving study medications and within five half-lives or 14
+        days [whichever is longer] of the first dose of study medications.
+
+        16. Co-enrollment Guidelines: Co-enrollment in other clinical trials is restricted, other
+        than enrollment in observational studies or those evaluating the use of a licensed
+        medication. Study staff should be notified of co-enrollment status, as it may require
+        prior approval of the investigator
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Henry Masur, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>National Institutes of Health Clinical Center (CC)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>National Institutes of Health Clinical Center, 9000 Rockville Pike</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://clinicalstudies.info.nih.gov/cgi/detail.cgi?B_2014-CC-0065.html</url>
+    <description>NIH Clinical Center Detailed Web Page</description>
+  </link>
+  <reference>
+    <citation>Lok AS, Gardiner DF, Lawitz E, Martorell C, Everson GT, Ghalib R, Reindollar R, Rustgi V, McPhee F, Wind-Rotolo M, Persson A, Zhu K, Dimitrova DI, Eley T, Guo T, Grasela DM, Pasquinelli C. Preliminary study of two antiviral agents for hepatitis C genotype 1. N Engl J Med. 2012 Jan 19;366(3):216-24. doi: 10.1056/NEJMoa1104430.</citation>
+    <PMID>22256805</PMID>
+  </reference>
+  <reference>
+    <citation>Zeuzem S, Buti M, Ferenci P, Sperl J, Horsmans Y, Cianciara J, Ibranyi E, Weiland O, Noviello S, Brass C, Albrecht J. Efficacy of 24 weeks treatment with peginterferon alfa-2b plus ribavirin in patients with chronic hepatitis C infected with genotype 1 and low pretreatment viremia. J Hepatol. 2006 Jan;44(1):97-103. Epub 2005 Nov 7.</citation>
+    <PMID>16290907</PMID>
+  </reference>
+  <reference>
+    <citation>Kottilil S, Yan MY, Reitano KN, Zhang X, Lempicki R, Roby G, Daucher M, Yang J, Cortez KJ, Ghany M, Polis MA, Fauci AS. Human immunodeficiency virus and hepatitis C infections induce distinct immunologic imprints in peripheral mononuclear cells. Hepatology. 2009 Jul;50(1):34-45. doi: 10.1002/hep.23055.</citation>
+    <PMID>19551908</PMID>
+  </reference>
+  <verification_date>December 2014</verification_date>
+  <lastchanged_date>December 8, 2015</lastchanged_date>
+  <firstreceived_date>April 25, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Coinfection</keyword>
+  <keyword>HCV Genotype 1b</keyword>
+  <keyword>Interferon Free therapy</keyword>
+  <keyword>Liver Biopsy</keyword>
+  <keyword>Virological Response</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

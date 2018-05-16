@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="274">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01645969</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML25647</org_study_id>
+    <nct_id>NCT01645969</nct_id>
+  </id_info>
+  <brief_title>A Follow-Up Study of Patients With HBeAg Positive Chronic Hepatitis B Treated With Pegasys (Peginterferon Alfa-2a) in Study ML22265</brief_title>
+  <official_title>A Follow-up Study to Evaluate the One-year Post Treatment Effects of Peginterferon Alfa-2a (PEGASYS) in Patients With HBeAg Positive Chronic Hepatitis B From the Original Study ML 22265</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>China: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This multicenter, prospective, observational study will evaluate the one-year outcomes in
+      HBeAg positive chronic hepatitis B patients who had received Pegasys (peginterferon alfa-2a)
+      in Arm A of study ML22265. Data will be collected from each patient for up to one year
+      post-therapy.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2011</start_date>
+  <completion_date type="Actual">October 2012</completion_date>
+  <primary_completion_date type="Actual">October 2012</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Duration of response (HBeAg seroconversion/HBV DNA reduction/HBsAg loss/seroconversion) after end of treatment</measure>
+    <time_frame>1 year</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of duration of response with on-treatment response (HBeAg/HBV DNA/HBsAg/ALT)</measure>
+    <time_frame>1 year</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">65</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who received treatment and completed follow-up in study arm &quot;A&quot; of study ML22265
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who were randomized to study Arm A of ML22265 and were treated and completed
+             follow-up in the study, regardless of treatment response at any time point
+
+        Exclusion Criteria:
+
+          -  Patients unwilling to provide informed consent or abide by the requirements of the
+             study
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Changsha</city>
+        <zip>410008</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fu Zhou</city>
+        <zip>350005</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Guangzhou</city>
+        <zip>510515</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wuhan</city>
+        <zip>430030</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Xi'an</city>
+        <zip>710038</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>July 18, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

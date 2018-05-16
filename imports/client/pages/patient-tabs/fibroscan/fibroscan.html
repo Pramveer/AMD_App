@@ -1,0 +1,90 @@
+<template name="Fibroscan">
+
+    <div class="left-side-menu-div psAccordion">
+        <ul class="left-side-menu">
+             <!-- {{>AdvancedSearch}}   -->
+            <li><a href="{{pathFor 'Patient'}}">Diagnosis/Evaluation</a><span class="after-arrow"></span></li>
+            <!--<li><a href="{{pathFor 'HP'}}">H&P</a><span class="after-arrow"></span></li>-->
+            <li><a   href="{{pathFor 'PastHCVTreatment'}}">Past HCV Treatment</a><span class="after-arrow"></span></li>
+            <li class="hasSubMenu" data-rotate="close">
+                <a class="active" href="#">Labs</a><span class="submenu-arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                <ul class="sub-sidemenu submenuopen">
+                    <li><a href="{{pathFor 'HCC'}}">HCC </a><span class="after-arrow"></span></li>
+                    <li><a href="{{pathFor 'UrineScreen'}}">Urine Screen</a><span class="after-arrow"></span></li>
+                    <li><a href="{{pathFor 'Fibrosure'}}"> Fibrosure </a><span class="after-arrow"></span></li>
+                    <li><a href="{{pathFor 'LiverBiopsy'}}">Liver Biopsy</a><span class="after-arrow"></span></li>
+                    <li><a class="active" href="{{pathFor 'Fibroscan'}}">Fibroscan</a><span class="after-arrow"></span></li>
+                    <li><a href="{{pathFor 'CMP'}}">Chemistry</a><span class="after-arrow"></span></li>
+                    <li><a href="{{pathFor 'CBC'}}">CBC</a><span class="after-arrow"></span></li>
+                </ul>
+            </li>
+         <li><a  href="{{pathFor 'MedicationHistory'}}">Medication History</a><span class="after-arrow"></span></li>
+            <li><a  href="{{pathFor 'Imaging'}}">Imaging</a><span class="after-arrow"></span></li>
+               <li><a href="{{pathFor 'HerbalHistory'}}">Herbal Medication History</a><span class="after-arrow"></span></li>
+            <!--<li><a href="{{pathFor 'ProgressNotes'}}">Progress Notes</a><span class="after-arrow"></span></li>-->
+            <li><a href="{{pathFor 'SocialHistory'}}">Social History</a><span class="after-arrow"></span></li>
+            {{>ClinicalCalcList}}
+        </ul>
+    </div>
+
+
+      <div class="right-side-content">
+        <div class="patient-pager-button" id="patient-pager" style='display:block;'>
+            <div class="col-md-2" style="display:block;padding:5px;" id="desc_patient_count">
+                        <div class="efd-cell1 efd-totalPatiensIcon" style="width:50px;"></div>
+                        <div class="efd-cell2_subpopulaiton machineLearn-totalPatients">{{PatientCount}}</div>
+                </div>
+                <div class="col-md-3" style="display:block;padding:5px;" id="desc_patientid">
+                        <div class="efd-cell2_subpopulaiton machineLearn-totalPatients"><span style="color:grey;">Patient Id </span><span style="margin-left:10px;" class="fibroscan-patientid">{{PatientId}}</span></div>
+                </div>
+                <div class="patient-pagination">
+                    <i class="fa fa-angle-left pager-button"  id="filter-patient-previous" aria-hidden="true"></i>
+                    <div class="patient-row-number patient-row-fibroscan"> {{PatientRowNumber}} </div>
+                    <i class="fa fa-angle-right pager-button" id="filter-patient-next" aria-hidden="true"></i>
+                </div>
+        </div>
+        <!-- <h2>Fibroscan</h2> -->
+          {{#if isLoading}} {{> NewLoading}} {{else}}
+            {{#if isDataPresent }}
+                <div class="pin-labs-div pin-labs-fibro">
+                        <table class="table table-fibro"  data-pagination="true"
+        data-sort-stable="true">
+                            <thead>
+                            <tr>
+                                <th>TEST_NM
+                                </th>
+                                <th>VALUE_TXT
+                                </th>
+                                <th>REF_RNG_TXT
+                                </th>
+                                <th>RECED_DT
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {{#each getPatientLab}}
+                            <tr>
+                                <td>{{TEST_NM}}
+                                </td>
+                                <td>{{PercentToNormal VALUE_TXT}}
+                                </td>
+                                <td>{{REF_RNG_TXT}}
+                                </td>
+                                <td>{{RECED_DT}}
+                                </td>
+                            </tr>
+                            {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                {{else}}
+                    <div class="nodataFound">No data Available for this patient</div>
+                {{/if}}
+        {{/if}}
+
+        <br/>
+
+    </div>
+{{>MainFooter}}
+
+</template>

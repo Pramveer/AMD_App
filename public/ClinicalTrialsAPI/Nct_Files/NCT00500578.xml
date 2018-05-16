@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="8">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00500578</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ID03-0010</org_study_id>
+    <nct_id>NCT00500578</nct_id>
+  </id_info>
+  <brief_title>Intermittent Use of Aerosolized Ribavirin for Treatment of RSV</brief_title>
+  <official_title>A Randomized Study Evaluating Two Different Schedules of Aerosolized Ribavirin For Treatment of RSV Upper Respiratory Infections in Patients With Hematological Malignancies</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>M.D. Anderson Cancer Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>ICN Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>M.D. Anderson Cancer Center</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Primary Objectives:
+
+        1. To determine whether aerosolized ribavirin is effective when given at an intermittent
+           dose over 3 hours every 8 hours for therapy of RSV upper respiratory tract infection
+           (URI) and whether it can prevent progression to pneumonia.
+
+        2. To determine the effect of this regimen on persistence of viral shedding.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Ribavirin is the drug that is normally given to treat upper respiratory infections caused by
+      RSV. The drug is only effective when inhaled as an aerosol. This treatment requires the
+      patient to be in a tent and inhale the medication. The usual method for administering this
+      drug has been to inhale the medication continuously over 18 hours. In this study, the same
+      total dose of the medication will be used, however, treatment will be for 3 hours every 8
+      hours.
+
+      As part of your standard care, before treatment you will have blood drawn (around 2
+      teaspoons) for routine blood tests. You will have a washing from your throat and nose
+      collected. For this procedure, around 1 teaspoon of saline will be sprayed into each nostril
+      and you will blow your nose into a cup. You will have a swab of the nose and throat. You
+      will also have a chest x-ray to check on the status of the disease. Women who are able to
+      have children must have a negative blood or urine pregnancy test.
+
+      Before treatment, you will be randomly assigned (as in the toss of a coin) to one of two
+      groups. Participants in one group will receive treatment with ribavirin over 3 hours every 8
+      hours. Participants in the other group will receive treatment using the standard treatment
+      schedule, ribavirin over 18 hours every 24 hours.
+
+      For both groups, the drug will be administered as an aerosol using a face mask. This will
+      require you to be in a tent while you are receiving therapy. Treatment will last between 5
+      and 10 days. This will require hospitalization. In addition to ribavirin treatment, you will
+      also receive Xopenex inhalation therapy every 6 - 8 hours. Xopenex is a drug designed to
+      make breathing easier. We may need to use another breathing treatment, albuterol inhalation
+      therapy for one time if needed, directly after receiving ribavirin to make breathing easier.
+
+      Every 2-4 days during treatment you will have blood collected (around 2 teaspoons) for
+      routine tests. On Days 3 and 7 of treatment (+/- 2 days), you will have a repeat throat and
+      nose washings/swabs. The washings and swabs will then be repeated once a week for 2 weeks,
+      or until 2 consecutive cultures are negative, if that occurs sooner. If your doctor feels it
+      is necessary, you may have a repeat chest x-ray.
+
+      If at any time you develop signs of pneumonia, you will be removed from the study and will
+      be treated with the standard schedule of ribavirin by continuous inhalation and/or other
+      therapy for 18 hours a day. Also, if you develop any intolerable side effects, you will be
+      taken off the study and your doctor will discuss other treatment options with you.
+
+      This is an investigational study. Ribavirin is FDA approved and is commercially available.
+      However, the method of administration of ribavirin is investigational. Up to 50 patients
+      will participate in this study. All will be enrolled at M. D. Anderson.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2003</start_date>
+  <completion_date type="Actual">January 2009</completion_date>
+  <primary_completion_date type="Actual">January 2009</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Occurrences of Pneumonia</measure>
+    <time_frame>6 Years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Treatment failure defined as progression to pneumonia within 7 days of initial treatment with aerosolized ribavirin. Patients considered as a failure or to have an unfavorable response if there develop signs and symptoms of pneumonia during therapy either evidenced by chest-xray or clinically, meaning they did reach the primary endpoint.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">51</enrollment>
+  <condition>Hematological Malignancies</condition>
+  <arm_group>
+    <arm_group_label>1: Standard Schedule - Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Aerosolized Ribavirin 6 grams over 18 hours every 24 hours</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>2: Modified Schedule - Ribavirin</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Aerosolized Ribavirin 2 grams over 3 hours every 8 hours</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Arm 1 = 6 Grams Over 18 hours Every 24 Hours</description>
+    <arm_group_label>1: Standard Schedule - Ribavirin</arm_group_label>
+    <other_name>Virazole</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Arm 2 = 2 Grams Over 3 Hours Every 8 Hours.</description>
+    <arm_group_label>2: Modified Schedule - Ribavirin</arm_group_label>
+    <other_name>Virazole</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Patients with these underlying malignancies will be eligible for this study:
+             Autologous BMT patients, Allogeneic BMT patients, and patients with hematological
+             malignancy.
+
+          2. Patients must be at least 5 years of age.
+
+          3. Only patients with infection limited to the URT will be eligible for entry on study
+
+          4. Patients will be eligible for entry on study if a nasopharyngeal wash or throat swab
+             specimen is positive by rapid RSV antigen testing or by a positive culture for RSV.
+
+        Exclusion Criteria:
+
+          1. Patients with evidence of RSV LRTI as documented by a positive rapid RSV antigen
+             testing or by a positive culture for RSV from a nasopharyngeal wash or throat swab
+             AND new infiltrates on chest radiograph and/or abnormal blood gas determination
+
+          2. Patients with hypersensitivity to ribavirin or its components
+
+          3. Pregnant women. Participants must practice birth control during the study if they are
+             sexually active. If the participant is pregnant, she may not be enrolled on this
+             study. Mothers should refrain from breast-feeding during the study to avoid injury to
+             their children.
+
+          4. Patients with positive RSV by rapid testing or culture in bronchoalveolar lavage
+             regardless of the chest radiographic results.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>5 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Roy F. Chemaly, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>M.D. Anderson Cancer Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>U.T.M.D. Anderson Cancer Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.mdanderson.org</url>
+    <description>The University of Texas M.D.Anderson Cancer Center</description>
+  </link>
+  <verification_date>July 2012</verification_date>
+  <lastchanged_date>July 27, 2012</lastchanged_date>
+  <firstreceived_date>July 10, 2007</firstreceived_date>
+  <firstreceived_results_date>June 1, 2010</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hematological Malignancies</keyword>
+  <keyword>Respiratory Infection</keyword>
+  <keyword>Respiratory Syncytial Virus</keyword>
+  <keyword>RSV</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>Virazole</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Neoplasms</mesh_term>
+    <mesh_term>Respiratory Tract Infections</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

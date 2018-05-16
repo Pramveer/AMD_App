@@ -1,0 +1,17 @@
+<template name="topHeader">
+    <div class="search-logo-div">
+        <!--<div class="he-emr-textfld">
+            <form id="searchform">
+                <input type="text" class="searchinput" placeholder="PatientID / Genotype / Cirrhosis / Treatment" />
+                <a href="#" class="searchbutton">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </form>
+        </div>-->
+        <div class="header-logo">
+            <img src="/Logo.png" />
+        </div>
+        {{#if currentuser }} {{>LoggedInUser}} {{/if}}
+    </div>
+  
+</template>

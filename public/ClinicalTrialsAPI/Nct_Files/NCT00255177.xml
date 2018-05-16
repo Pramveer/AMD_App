@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="948">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00255177</url>
+  </required_header>
+  <id_info>
+    <org_study_id>VT003</org_study_id>
+    <secondary_id>Viral Genomix, Inc. (VGX)</secondary_id>
+    <secondary_id>450 Sentry Parkway</secondary_id>
+    <secondary_id>Blue Bell, PA 19422</secondary_id>
+    <secondary_id>C. Jo White, M.D.</secondary_id>
+    <nct_id>NCT00255177</nct_id>
+  </id_info>
+  <brief_title>Antiviral Activity and Safety of 3 Different Doses of Mifepristone in Hepatitis C Infected Patients</brief_title>
+  <official_title>A Randomized, Open-label Phase II Trial of the Anti-HCV Activity and Safety of VGX-410 (Mifepristone) at 3 Dose Levels in HCV Infected Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>VGX Pharmaceuticals, LLC</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>VGX Pharmaceuticals, LLC</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Hepatitis C virus (HCV) infects approximately 170 million people worldwide. The current
+      standard- of- care therapy of chronic HCV infection is a regimen of subcutaneously
+      administered (pegylated)-interferon-α and ribavirin for 24 weeks (for genotypes 2 and 3) to
+      48 weeks (for genotype 1). The sustained viral response rates (SVR) in patients infected
+      with genotypes 2 and 3 are ~80% but remain &lt;50% in patients infected with genotype 1. The
+      treatment is quite toxic with approximately 30% of patients experiencing adverse events
+      (i.e. depression, fever, anemia, fatigue) requiring dose reduction or discontinuation of
+      therapy. This regimen is contraindicated in women who are pregnant and in patients with
+      decompensated liver disease. The absence of acceptable therapies for many patients with HCV
+      infections makes new therapies desirable for this disease.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The 341-nucleotide 5' non-translated region is the most conserved part of the hepatitis C
+      virus (HCV) genome. It contains a highly structured internal ribosomal entry site (IRES)
+      that mediates cap-independent initiation of translation of the viral polyprotein by a
+      mechanism that is unprecedented in eukaryotes. The first step in translation initiation is
+      assembly of eukaryotic initiation factor (eIF) 3, eIF2, GTP, initiator tRNA and a 40S
+      ribosomal subunit into a 43S preinitiation complex (1, 2). The IRES contains sites that bind
+      independently with the eIF3 and 40S ribosomal subunit components of 43S complexes, and
+      structural determinants that ensure the correct spatial orientation of these binding sites
+      so that the 48S complex assembles precisely at the initiation codon. Since inhibiting this
+      early translation of viral protein should block HCV replication downstream, this early
+      critical step in replication is of great interest as a drug target. All genotypes of HCV use
+      the same pathway; this drug target should be effective for all HCV genotypes.
+
+      VGX-410 represents the first drug in a novel class of HCV IRES inhibitors under development.
+      VGX-410 is an orally active and bioavailable, small-molecule, organic drug. Because a
+      related formulation of mifepristone has been previously approved by the FDA for another
+      indication (medical abortion), there are pre-existing data from animal toxicity tests
+      showing the safety of this compound at very high doses (5 mg/kg for 6 months in rats and
+      macaques). In addition, chronic administration (up to 200 mg/day) of this compound for the
+      experimental treatment of a variety of malignant and non-malignant conditions has been well
+      tolerated in non-HCV-infected subjects for up to 1 year (3-6).
+
+      In cell culture tests, VGX-410 has been shown to be effective in inhibiting HCV replication
+      with the 50% and 90% effective antiviral concentrations (EC50 and EC90) of 2 and 10 μM,
+      respectively. Furthermore, VGX-410 was shown to act synergistically with interferon-a
+      (IFN-a), the most widely-used drug treatment option available today. When used in
+      combination with a low dose IFN-a at 1 IU/ml, EC90 of VGX-410 was reduced to 3 µM. Moreover,
+      since VGX-410 inhibits viral replication by blocking the cellular protein complex for HCV
+      IRES, there is reduced potential for viral mutation and resistance to this drug.
+
+      From these in vitro data, we would expect to observe 50 to 90% anti-HCV effects in humans at
+      serum drug concentrations of 2 to 10 μM, respectively. Moreover, we compiled the drug
+      concentration results from several previously-reported clinical data on the level of
+      steady-state concentrations in patients who took repeat daily doses of mifepristone (&gt;4
+      days). For instance, repeated oral administration of 100 and 200-mg mifepristone daily for 4
+      days achieved maximum plasma levels of 4.5 and 5.4 μM, respectively (9).
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2005</start_date>
+  <completion_date type="Actual">January 2008</completion_date>
+  <primary_completion_date type="Actual">September 2007</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Mean Log Change in Viral Load From Baseline (Day 1) to Day 28</measure>
+    <time_frame>Baseline (Day 1) to Day 28</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">44</enrollment>
+  <condition>Hepatitis C Virus Infection</condition>
+  <arm_group>
+    <arm_group_label>Placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>150 mg daily</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>300mg daily</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>300mg twice daily</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>VGX-410 (Mifepristone)</intervention_name>
+    <description>VGX-410 tablets taken daily or twice daily for 28 days</description>
+    <arm_group_label>150 mg daily</arm_group_label>
+    <arm_group_label>300mg daily</arm_group_label>
+    <arm_group_label>300mg twice daily</arm_group_label>
+    <other_name>Mifepristone</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Placebo for VGX-410 tablets taken daily or twice daily for 28 days</description>
+    <arm_group_label>Placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Hepatitis C infection for ≥ 1 year. Viral load at entry will be measured by the
+             Amplicor Hepatitis C Virus Test Version 2.0 (Roche Molecular Systems; Plesasanton,
+             CA) and genotyped by Trugene HCV 5'NC Genotyping kit (Visible Genetics; Toronto,
+             Canada) performed within 90 days prior to study entry by a lab(s) certified for the
+             assays.
+
+          -  Male or female ages 18-65 years, inclusive.
+
+          -  Plasma hepatitis C RNA of &gt;105 copies/mL (or equivalent international units)
+
+          -  Laboratory values: stable hepatic, renal, and hematological indices obtained within
+             30 days prior to study entry, as follows:
+
+               -  Absolute neutrophil count (ANC) &gt;= 750/mm³
+
+               -  Hemoglobin &gt;= 10.0 g/dL
+
+               -  Platelet count &gt;= 100,000/mm3
+
+               -  Creatinine &lt;= 2 x ULN
+
+               -  AST (SGOT), ALT (SGPT), and alkaline phosphatase &lt;= 3 x ULN
+
+               -  Total bilirubin &lt;= 3 x ULN
+
+               -  Albumin &gt;= 3 g/dL
+
+               -  Normal PT and PTT
+
+               -  Serum lipase &lt;= 1.5 x ULN
+
+               -  TSH within normal limits (0.5-6.0 mIU/L)
+
+               -  Morning plasma cortisol &gt;= 20 µg/dL
+
+               -  Normal fasting glucose
+
+               -  Urinalysis free of clinically significant abnormalities NOTE: Fasting is defined
+                  as no oral intake except water for at least 8 hours prior to the study visit.
+
+          -  Female subjects of reproductive potential (girls who have reached menarche or women
+             who have not been post-menopausal for at least 24 consecutive months, i.e., who have
+             had menses within the preceding 24 months or have not undergone surgical
+             sterilization [e.g., hysterectomy, bilateral oophorectomy, or salpingotomy]) must
+             have a negative spot urine pregnancy test result (with a sensitivity of at least 50
+             mIU/mL) performed at entry, before initiating study medication.
+
+          -  All subjects must agree not to participate in a conception process (e.g., active
+             attempt to become pregnant or to impregnate, donate sperm, or in vitro
+             fertilization). If participating in sexual activity that could lead to pregnancy, the
+             subject/partner must agree to use two reliable methods of contraception
+             simultaneously (condoms with a spermicidal agent; or a diaphragm or cervical cap with
+             spermicide) while on study drug and for 30 days after stopping the medication.
+
+          -  Female subjects, who are not of reproductive potential, are eligible without
+             requiring the use of contraception. Male subjects must use a condom with every sexual
+             act that could lead to pregnancy.
+
+        NOTE: Acceptable documentation of sterilization is either written or oral documentation
+        communicated by clinician or clinician's staff of one of the following: physician
+        report/letter: operative report or other source documentation in the patient record (a
+        laboratory report of azoospermia is required to document successful vasectomy); discharge
+        summary; laboratory report of azoospermia; or FSH measurement elevated into the menopausal
+        range as established by the reporting laboratory.
+
+          -  Karnofsky performance score &gt;= 80 within 30 days prior to study entry.
+
+          -  Ability and willingness of subject to give written informed consent.
+
+          -  Willingness to return for a follow-up visit on day 56.
+
+          -  Subjects taking any precautionary concomitant medications (see section 5.2.2) must be
+             on stable doses for &gt;8 weeks prior to study entry and have no plans to change
+             medications or doses for the duration of the study.
+
+        Exclusion Criteria:
+
+          -  Receipt of anti-hepatitis C therapy within the 4 weeks prior to study entry or intent
+             to initiate ant-hepatitis C therapy within 60 days after entry.
+
+          -  Clinical evidence of cirrhosis or decompensated liver failure.
+
+          -  Chronic or acute adrenal failure, history of active hepatitis B, HIV-1 infection,
+             porphyrias, known moderate to severe cirrhosis, hemorrhagic disorders, concurrent
+             anticoagulant therapy, any prior pituitary tumor, surgery, radiation treatment, or
+             pituitary failure.
+
+          -  Diabetes requiring treatment with oral hypoglycemics or insulin therapy.
+
+          -  Pregnancy within 90 days prior to study entry.
+
+          -  Breast-feeding.
+
+          -  Dysfunctional uterine bleeding within the 12 months prior to study entry.
+
+          -  Any current hormonal contraception or IUD use.
+
+          -  Use of drugs that are inhibitors or inducers of metabolism by the CYP 3A4 within 7
+             days of study entry.
+
+          -  Use of systemic corticosteroids or hormonal agents within 90 days prior to study
+             entry.
+
+          -  Use of any cytotoxic chemotherapy, immunomodulators or investigational therapy within
+             90 days prior to study entry.
+
+          -  Any vaccination within 30 days prior to study entry.
+
+          -  Allergy to mifepristone or its formulation.
+
+          -  Active drug or alcohol use or dependence that, in the opinion of the investigator,
+             would interfere with adherence to study requirement.
+
+          -  Weight &lt; 40 kg.
+
+          -  Any other condition thought by the investigator that may interfere with the patient's
+             ability to comply with the study protocol.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bruce Bacon, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>St. Louis University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pablo Tebas, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Pennsylvania</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>George Wu, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Connecticut</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Thomas Marbury, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Orlando Clinical Research Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University of Connecticut</name>
+      <address>
+        <city>Farmington</city>
+        <state>Connecticut</state>
+        <zip>06030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Orlando Clinical Research Center</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32809</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Louis University</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Kieft JS, Zhou K, Jubin R, Doudna JA. Mechanism of ribosome recruitment by hepatitis C IRES RNA. RNA. 2001 Feb;7(2):194-206.</citation>
+    <PMID>11233977</PMID>
+  </reference>
+  <verification_date>October 2009</verification_date>
+  <lastchanged_date>October 30, 2009</lastchanged_date>
+  <firstreceived_date>November 15, 2005</firstreceived_date>
+  <firstreceived_results_date>April 22, 2009</firstreceived_results_date>
+  <responsible_party>
+    <organization>VGX Pharmaceuticals, LLC</organization>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Virus Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Mifepristone</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

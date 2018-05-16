@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="578">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01132313</url>
+  </required_header>
+  <id_info>
+    <org_study_id>1241.21</org_study_id>
+    <secondary_id>2009-018197-66</secondary_id>
+    <nct_id>NCT01132313</nct_id>
+  </id_info>
+  <brief_title>Safety, Antiviral Effect and PK of BI 207127 + BI 201335 +/- RBV for 4 up to 40 Weeks in Patients With Chronic HCV Genotype 1 Infection</brief_title>
+  <official_title>Safety, Antiviral Effect and Pharmacokinetics of BI 207127 in Combination With BI 201335 and With or Without Ribavirin for 4, 16, 24, 28 or 40 Weeks in Patients With Chronic HCV Genotype 1 Infection (Randomized Phase Ib/II)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Boehringer Ingelheim</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Boehringer Ingelheim</source>
+  <oversight_info>
+    <authority>Australia: Dept of Health and Ageing Therapeutic Goods Admin</authority>
+    <authority>Austria: Medicines and Medical Devices Agency</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>New Zealand: Medsafe</authority>
+    <authority>Portugal: National Pharmacy and Medicines Institute</authority>
+    <authority>Romania: National Medicines Agency</authority>
+    <authority>Spain: Spanish Agency of Medicines</authority>
+    <authority>Switzerland: Swissmedic</authority>
+    <authority>United States: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The substances BI 201335 and BI 207127 are being developed for the treatment of chronic
+      hepatitis C virus infection. BI 201335 and BI 207127 work by preventing the virus from
+      replicating.
+
+      The currently available medications pegylated interferon alfa and ribavirin for hepatitis C
+      ca have considerable adverse events in patients and in many cases are not sufficiently
+      effective. This is particularly the case in treatment of patients infected with genotype 1
+      of HCV.
+
+      A combination therapy of these new substances without pegylated interferon alfa may be
+      associated with fewer adverse events that currently available (pegylated
+      interferon-alfa-based) medication and may also provide a treatment option to the large
+      number of patients with contraindications or intolerance to pegylated interferon alfa.
+
+      This clinical trial (1241.21) currently consists of 3 distinct studies: Part 1, Part 2 and
+      Part 3.
+
+      Part 1 (SOUND-C1) is a 2 armed study as described in experimental arms 1 and 2 below (actual
+      enrollment: 56 patients; randomized and treated: 32) Part 2 (SOUND-C2) is a 5 armed study as
+      described in experimental arms 3 to 7 below (actual enrollment: 465; randomized and treated:
+      362) Part 3 (SOUND-C3) includes 3 arms as described in experimental arms 8 to 10 below (83
+      patients randomized and treated)
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2010</start_date>
+  <completion_date type="Actual">October 2014</completion_date>
+  <primary_completion_date type="Actual">October 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Part 1 of the trial: Rapid virological response (RVR), defined as HCV RNA &lt;25IU/mL at Week 4 of treatment</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Part 2 of the trial: Sustained virological response (SVR), defined as HCV RNA &lt;25 IU/mL and undetectable at 12 weeks after end of treatment</measure>
+    <time_frame>up to 52 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Part 3 and 4: Sustained virological response (SVR) defined as HCV RNA &lt;25IU/mL and undetectable at 12 weeks after end of treatment</measure>
+    <time_frame>up to 36 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Part 1 and 2: Time to virological response, defined as the timepoint of the first measurement of plasma HCV RNA level &lt;25 IU/mL</measure>
+    <time_frame>up to 40 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Part 1 and2: Plasma HCV RNA level not detectable at Week 4</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Part 2: Sustained virological response at 24 weeks after end of treatment</measure>
+    <time_frame>up to 64 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Part 3 and 4: Plasma HCV RNA level &lt;25 IU/mL at week 4 and 12 of treatment</measure>
+    <time_frame>week 4 and 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Part 3 and 4: Sustained virological response (SVR) at 4 weeks after end of treatment</measure>
+    <time_frame>up to 28 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>12</number_of_arms>
+  <enrollment type="Actual">489</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>4 weeks of high dose TID BI 207127 and QD BI 201335 in combination with RBV, Part 1</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>4 weeks of low dose three times per day (TID) BI 207127 and once daily (QD) BI 201335 in combination with RBV, Part 1</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>16 weeks of TID BI 207127 and QD BI 201335 in combination with RBV, Part 2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>28 weeks of TID BI 207127 and QD BI 201335 in combination with RBV, Part 2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>5</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>40 weeks of TID BI 207127 and QD BI 201335 in combination with RBV, Part 2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>6</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>28 weeks of BID BI 207127 and QD BI 201335 in combination with RBV, Part 2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>7</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>28 weeks of TID BI 207127 and QD BI 201335 without RBV, Part 2</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>8</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>16 weeks of BID BI 207127 and QD BI 201335 in combination with RBV, Part 3</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>9</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>24 weeks of BID BI 207127 and QD BI 201335 in combination with RBV, Part 3</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>10</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>24 weeks of TID BI 207127 and QD BI 201335 in combination with RBV, Part 3</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>11</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>16 weeks of BID BI 207127 and QD BI 201335 in combination with RBV, Part 4</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>12</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>24 weeks of BID BI 207127 and QD BI 201335 in combination with RBV, Part 4</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>28 weeks, high dose, TID</description>
+    <arm_group_label>4</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>40 weeks, QD</description>
+    <arm_group_label>5</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>4 weeks, low dose TID</description>
+    <arm_group_label>1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>24 weeks, QD</description>
+    <arm_group_label>1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>16 weeks, according to label</description>
+    <arm_group_label>11</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>28 weeks, according to label</description>
+    <arm_group_label>4</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>28 weeks, according to label</description>
+    <arm_group_label>6</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>40 weeks, high dose, TID</description>
+    <arm_group_label>5</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>24 weeks, very high dose, BID</description>
+    <arm_group_label>9</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>16 weeks, standard dose, BID</description>
+    <arm_group_label>11</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>24 weeks, QD</description>
+    <arm_group_label>10</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>48 weeks, according to label</description>
+    <arm_group_label>2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>40 weeks, according to label</description>
+    <arm_group_label>5</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>16 weeks, high dose, TID</description>
+    <arm_group_label>3</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>28 weeks, high dose, TID</description>
+    <arm_group_label>7</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>28 weeks, QD</description>
+    <arm_group_label>6</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>16 weeks, QD</description>
+    <arm_group_label>11</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>24 weeks, according to label</description>
+    <arm_group_label>12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>24 weeks, QD</description>
+    <arm_group_label>12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>28 weeks, QD</description>
+    <arm_group_label>7</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>24 weeks, standard dose, BID</description>
+    <arm_group_label>12</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>24 weeks, QD</description>
+    <arm_group_label>9</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>16 weeks, QD</description>
+    <arm_group_label>3</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>16 weeks, high dose, BID</description>
+    <arm_group_label>8</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>24 weeks, QD</description>
+    <arm_group_label>2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>16 weeks, according to label</description>
+    <arm_group_label>3</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>16 weeks, according to label</description>
+    <arm_group_label>8</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207217</intervention_name>
+    <description>28 weeks, high dose BID</description>
+    <arm_group_label>6</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>16 weeks, QD</description>
+    <arm_group_label>8</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>24 weeks, high dose, TID</description>
+    <arm_group_label>10</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>48 weeks, according to label</description>
+    <arm_group_label>1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 207127</intervention_name>
+    <description>4 weeks, high dose, TID</description>
+    <arm_group_label>2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>BI 201335</intervention_name>
+    <description>28 weeks, QD</description>
+    <arm_group_label>4</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>24 weeks, according to label</description>
+    <arm_group_label>9</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>24 weeks, according to label</description>
+    <arm_group_label>10</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Chronic hepatitis C virus (HCV) infection of genotype (GT) 1
+
+          -  Parts 1-3:Treatment naive to Interferon -alfa (IFN), Pegylated interferon -alfa
+             (PegIFN), ribavirin (RBV), and any direct acting antiviral agent for chronic
+             hepatitis C
+
+          -  Part 4: Treatment experienced with confirmed prior virological failure to an approved
+             dose of PegIFN/RBV (null-response)
+
+          -  HCV RNA &gt;=10,000 IU/mL at screening
+
+          -  Liver biopsy within two years or fibroscan within six months prior to baseline
+
+          -  Liver biopsy within two years or fibroscan within 6 months prior to screening
+
+          -  Age 18-75 years
+
+        Exclusion criteria:
+
+          -  Hepatitis C virus (HCV) infection of mixed genotype
+
+          -  Evidence of liver disease due to causes other than chronic HCV infection
+
+          -  Positive ELISA for human immunodeficiency virus (HIV)
+
+          -  Hepatitis B virus (HBV) infection
+
+          -  Decompensated liver disease or history of decompensated liver disease
+
+          -  Active or suspected malignancy within the last 5 years
+
+          -  Ongoing or historical photosensitivity or recurrent rash
+
+          -  History of alcohol or drug abuse (except cannabis) within the past 12 months
+
+          -  Body mass index (BMI)I &lt;18 or &gt; 35 kg/m2
+
+          -  Usage of any investigational drugs within 30 days prior to enrolment, or 5
+             half-lives, whichever is longer; o the planned usage of an investigational drug
+             during the course of the current study
+
+          -  Known hypersensitivity to any ingredient of the study drugs
+
+          -  A condition that is defined as one which in the opinion of the investigator may
+             interfere with the patient's capability for participation in the trial or may
+             influence the results of the trial
+
+          -  Alpha fetoprotein &gt;100ng/mL at screening; if &gt;20ng/mL and &lt;=100ng/mL, patients can be
+             included if there is no evidence of liver cancer in an appropriate imaging study
+             within 6 months prior to randomisation
+
+          -  Total bilirubin &gt; 2 mg/dL with ratio of direct/indirect &gt; 1
+
+          -  AST or ALT &gt;5xULN
+
+          -  INR prolonged to &gt;1.7xULN
+
+          -  Requirement for chronic systemic corticosteroids
+
+          -  Received concomitant systemic antiviral, hematopoietic growth factor, or
+             immunomodulatory treatment within 30 days prior to enrolment or 5 half-lives,
+             whichever is longer
+
+          -  Received silymarin or glycyrrhizin or Sho-saiko-to within 30 days prior to enrolment
+
+          -  Contraindications pertaining to PegIFN or RBV
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Boehringer Ingelheim</last_name>
+    <role>Study Chair</role>
+    <affiliation>Boehringer Ingelheim</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>1241.21.0003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0011 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Palm Harbor</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0013 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Valparaiso</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0008 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0019 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Fayetteville</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0012 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Austin</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0010 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.0017 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.61002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Heidelberg</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.61001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Melbourne</city>
+        <state>Victoria</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.43003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Linz</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.43001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Wien</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.43002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Wien</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Clichy</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Grenoble cédex 9</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lyon</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Marseille</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33008 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.33006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Vandoeuvre Cedex</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49007 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Düsseldorf</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Esslingen</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Frankfurt am Main</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hamburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49009 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Hannover</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Leipzig</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.49008 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Mainz</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.64001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Auckland NZ</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.35103 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Aveiro</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.35104 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Coimbra</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.35101 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lisboa</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.35105 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Lisboa</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.35102 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Porto</city>
+        <country>Portugal</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.40001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.40002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.40003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bucharest</city>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34005 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34004 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Majadahonda-Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.34006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.41003 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Basel</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.41006 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Bern</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.41001 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>St. Gallen</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>1241.21.41002 Boehringer Ingelheim Investigational Site</name>
+      <address>
+        <city>Zürich</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Austria</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>New Zealand</country>
+    <country>Portugal</country>
+    <country>Romania</country>
+    <country>Spain</country>
+    <country>Switzerland</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2014</verification_date>
+  <lastchanged_date>November 5, 2014</lastchanged_date>
+  <firstreceived_date>May 3, 2010</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

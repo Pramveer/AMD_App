@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="42">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00536263</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05170</org_study_id>
+    <nct_id>NCT00536263</nct_id>
+  </id_info>
+  <brief_title>PegIntron Treatment of Chronic Hepatitis B e Antigen-Positive Patients (P05170/MK-4031-327)</brief_title>
+  <official_title>An Open-label, Randomized Study of PegIntron in the Treatment of HBeAg Positive Chronic Hepatitis B Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>China: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine the efficacy and safety of two dosages of
+      PegIntron for treating hepatitis B e antigen (HBeAg) positive chronic hepatitis B compared
+      with the approved dosage, which is PegIntron 1.0 microgram (mcg)/kg given once a week for 24
+      weeks. This study compares dosages of (1) 1.5 mcg/kg once a week for 24 weeks and (2) 1.5
+      mcg/kg once a week for 48 weeks with the approved dosage. All subjects are followed for 24
+      weeks after their treatment ends.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2007</start_date>
+  <completion_date type="Actual">November 2009</completion_date>
+  <primary_completion_date type="Actual">November 2009</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants With Hepatitis B Envelope Antigen (HBe or HBeAg) Loss</measure>
+    <time_frame>24 weeks after end of treatment (EOT)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBeAg Loss was tested by Abbott Microparticle Enzyme Immunoassay (MEIA)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HBeAg Loss</measure>
+    <time_frame>Up to Treatment Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBeAg Loss was tested by assay of Abbott MEIA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HBe Seroconversion</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBe seroconversion was defined as HBeAg Loss and Anti-HBeAg Positive. These were tested by assay of Abbott MEIA.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Hepatitis B Virus - Deoxyriboncleic Acid (HBV-DNA) &lt;20,000 IU/mL</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBV-DNA was tested by assay of Roche Cobas Taqman (the test
+lowest limit is 6 IU/mL)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HBV-DNA &lt; 200 IU/mL</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBV-DNA was tested by assay of Roche Cobas Taqman (the test lowest limit is 6 IU/mL)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With HBV-DNA Undetectable</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Undetectable HBV-DNA was defined as having a level &lt;6 IU/mL by polymerase chain reaction (PCR).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Biochemical Response</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Biochemical response was defined as alanine aminotransferase (ALT) normalization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Combined Response</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Combined response was defined as HBV DNA &lt;20,000 IU/mL and HBe seroconversion and alanine aminotransferase (ALT) normalization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hepatitis B Surface Antigen (HBsAg) Loss</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBsAg Loss was tested by assay of Abbott MEIA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hepatitis B Surface Antigen (HBs) Seroconversion</measure>
+    <time_frame>End of treatment (EOT) and 24 weeks after EOT</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HBs seroconversion was defined as having HBsAg Loss and Anti-HBs Positive</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in Liver Biopsy Score</measure>
+    <time_frame>Baseline to 24 weeks after end of treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Method for biopsy scoring was Knodell Scoring System (Histology Activity Index-HAI Score System):
+Score I (periportal +/- bridging necrosis): 0 (none) to 10 (multilobular necrosis).
+Score II (Intralobular degeneration and focal necrosis): 0 (none) to 4 (Marked [involvement of &gt;2/3 of lobules or nodules]).
+Score III (portal inflammation): 0 (none) to 4 (Marked [dense packing of
+inflammatory cells in &gt;2/3 of portal tracts]).
+Score IV (fibrosis): 0 (none) to 4 (cirrhosis).</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">671</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>PEG 1.0 mcg/kg weekly (QW) * 24 weeks</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>PegIntron 1.0 mcg/kg weekly (QW) * 24 weeks + 24 weeks follow-up</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG 1.5 mcg/kg QW * 24 wks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron 1.5 mcg/kg QW * 24 wks + 24 wks follow-up</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG 1.5 mcg/kg QW * 48 wks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron 1.5 mcg/kg QW * 48 wks + 24 wks follow-up</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon alpha-2b</intervention_name>
+    <description>1.0 mcg/kg subcutaneously (S.C.) QW for 24 weeks</description>
+    <arm_group_label>PEG 1.0 mcg/kg weekly (QW) * 24 weeks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon alpha-2b</intervention_name>
+    <description>1.5 mcg/kg S.C. QW for 24 weeks</description>
+    <arm_group_label>PEG 1.5 mcg/kg QW * 24 wks</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon alpha-2b</intervention_name>
+    <description>1.5 mcg/kg S.C. QW for 48 weeks</description>
+    <arm_group_label>PEG 1.5 mcg/kg QW * 48 wks</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults with chronic hepatitis B:
+
+               -  Serum hepatitis B surface antigen positive for at least 6 months
+
+               -  Serum hepatitis B e antigen positive
+
+               -  Serum negative for hepatitis B surface and e antibodies
+
+               -  Plasma hepatitis B virus deoxyribonucleic acid (DNA) level greater than 20,000
+                  IU/mL
+
+               -  Alanine aminotransferase (ALT) 2- to 10-times the upper limit of normal
+
+          -  Compensated liver disease with certain minimum hematological and serum biochemical
+             criteria
+
+        Exclusion Criteria:
+
+          -  Significant hepatic disease from an etiology other than hepatitis B virus
+
+          -  Antiviral treatment for hepatitis within previous 6 months
+
+          -  History of severe psychiatric disease, especially depression
+
+          -  Unstable or significant cardiovascular disease
+
+          -  Prolonged exposure to known hepatotoxins such as alcohol or drugs
+
+          -  Any condition that could interfere with the subject participating in and completing
+             the study
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>China</country>
+    <country>Malaysia</country>
+    <country>Singapore</country>
+    <country>Taiwan</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Cheng J, Wang Y, Hou J, Luo D, Xie Q, Ning Q, Ren H, Ding H, Sheng J, Wei L, Chen S, Fan X, Huang W, Pan C, Gao Z, Zhang J, Zhou B, Chen G, Wan M, Tang H, Wang G, Yang Y, Mohamed R, Guan R, Lee TH, Chang WH, Zhenfei H, Ye Z, Xu D. Peginterferon alfa-2b in the treatment of Chinese patients with HBeAg-positive chronic hepatitis B: a randomized trial. J Clin Virol. 2014 Dec;61(4):509-16. doi: 10.1016/j.jcv.2014.08.008. Epub 2014 Aug 18.</citation>
+    <PMID>25200354</PMID>
+  </results_reference>
+  <verification_date>February 2015</verification_date>
+  <lastchanged_date>February 25, 2015</lastchanged_date>
+  <firstreceived_date>September 26, 2007</firstreceived_date>
+  <firstreceived_results_date>November 23, 2010</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

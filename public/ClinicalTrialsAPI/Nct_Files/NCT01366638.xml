@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="87">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01366638</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR017935</org_study_id>
+    <secondary_id>TMC435HPC3010</secondary_id>
+    <nct_id>NCT01366638</nct_id>
+  </id_info>
+  <brief_title>A Study of TMC435 in Participants With Genotype 1 Hepatitis C Virus (HCV) Infection</brief_title>
+  <official_title>A Phase III, Open-Label Study in Japan to Assess the Efficacy and Safety of TMC435 as Part of a Treatment Regimen Including Peginterferon Alfa-2b and Ribavirin in Hepatitis C, Genotype 1 Infected Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen Pharmaceutical K.K.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Janssen Pharmaceutical K.K.</source>
+  <oversight_info>
+    <authority>Japan: Japan Pharmaceuticals And Medical Devices Evaluation Center</authority>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the efficacy and safety of TMC435 in combination
+      with peginterferon alfa-2b and ribavirin in chronic genotype 1 hepatitis C virus
+      (HCV)-infected participants who are treatment-naive or treatment-experienced (prior relapser
+      or non-responder to Interferon-based therapy) in Japan.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an open-label study (all people involved know the identity of the intervention) to
+      evaluate the efficacy and safety of TMC435 (also referred to as jnj-38733214-aaa) in
+      combination with the standard of care therapy (SoC: peginterferon [pegIFN] alfa-2b and
+      ribavirin) in adult, genotype 1 hepatitis C virus (HCV)-infected participants who are
+      treatment-naive (never received treatment for HCV), prior relapsers (relapsed after previous
+      interferon [IFN]-based therapy), or non-responders (failed to respond to previous IFN-based
+      therapy) in Japan. The study objective is to evaluate the efficacy, safety, and
+      pharmacokinetics of TMC435. A sufficient number of participants who are treatment-naive,
+      prior relapsers to treatment with IFN-based therapy, and prior non-responders to treatment
+      with IFN-based therapy will be enrolled and assigned to 1 of 3 panels (referred to as
+      treatment groups). Participants who are treatment-naive or prior relapsers to IFN-based
+      therapy will receive 12 weeks of treatment with TMC435 (100 mg) once daily with pegIFN
+      alfa-2b and ribavirin (PR) followed by an additional 12 or 24 weeks of treatment with PR.
+      Participants who are non-responders to IFN-based therapy will receive 12 weeks of treatment
+      with TMC435 (100 mg) once daily with PR followed by an additional 36 weeks of treatment with
+      PR. TMC435 is a 100-mg capsule and will be taken orally by mouth. The SoC treatment will
+      consist of Pegylated interferon (PegIFN alpha-2b) (1.5 mcg/kg) injected with a syringe
+      subcutaneously (under the skin) once weekly and ribavirin 200-mg capsules (daily dose:
+      600-1000 mg based on body weight) taken orally by mouth 2 times a day after meals for 24 or
+      48 weeks.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>May 2011</start_date>
+  <completion_date type="Actual">November 2012</completion_date>
+  <primary_completion_date type="Actual">November 2012</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The Percentage of Participants With a Sustained Virologic Response 12 Weeks After the Actual End of Treatment (SVR12)</measure>
+    <time_frame>Week 36 or 60</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group with an SVR12 defined as participants with undetectable plasma Hepatitis C virus (HCV) ribonucleic acid (RNA) at the end of treatment (Week 24 or 48) who also had undetectable plasma HCV RNA 12 weeks after the last dose of treatment (Week 36 or 60). NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Percentage of Participants With a Sustained Virologic Response 24 Weeks After the Actual End of Treatment (SVR24)</measure>
+    <time_frame>24 weeks after the last dose of treatment (Week 48 or 72)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group with a SVR24 defined as participants with undetectable plasma hepatitis C virus (HCV) ribonucleic acid (RNA) at the end of treatment and at 24 weeks after the last dose of treatment (Week 48 or 72). NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Percentage of Participants With Undetectable Plasma Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) During Treatment and at the End of Treatment</measure>
+    <time_frame>Weeks 4, 12, 24, 36, 48, 60, 72, and EOT (up to Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group with undetectable HCV RNA less than 1.2 log10 IU/mL during treatment and at end of treatment (EOT). NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Number of Participants With Viral Breakthrough</measure>
+    <time_frame>Up to 48 Weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the number of participants in each treatment group who experienced viral breakthrough during the TMC435 treatment period. Viral breakthrough is defined as a confirmed increase of greater than 1 log10 IU/mL in plasma hepatitis C virus (HCV) ribonucleic acid (RNA) level from the lowest level reached or a confirmed value of plasma HCV RNA of greater than 2.0 log10 IU/mL in participants whose plasma HCV RNA level had previously been reported below 1.2 log10 IU/mL detectable or undetectable. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Number of Participants Demonstrating Viral Relapse</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the number of participants in each treatment group who demonstrated viral relapse, defined as having undetectable plasma hepatitis C virus (HCV) ribonucleic acid (RNA) levels at end of treatment (EOT [Week 24 or 48]) and detectable HCV RNA during follow-up or detectable HCV RNA at the time points of an assessment of sustained virologic response (SVR). The number of participants analyzed in each treatment group below are those with undetectable HCV RNA levels at EOT and with at least one follow-up HCV RNA measurement. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Number of Participants With Abnormal Alanine Aminotransferase (ALT) Levels at Baseline Who Achieved Normal Limit of ALT at the End of Treatment (EOT)</measure>
+    <time_frame>Up to Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the number of participants in each treatment group with abnormal ALT levels at Baseline who achieved normalization of ALT levels defined as having an ALT value less than or equal to the Upper Limit of Normality (ie, 40 IU/mL) at EOT. At Baseline, 15 treatment-naïve participants, 13 prior relapsers, and 13 prior non-responders had abnormal ALT levels at Baseline. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Percentage of Participants Who Achieved a Greater Than or Equal to 2 log10 IU/mL Drop From Baseline in Plasma Hepatitis C Virus Ribonucleic Acid (HCV RNA) at Each Time Point During Treatment and Follow-up</measure>
+    <time_frame>Day 3, Day 7 and Weeks 2, 3, 4, 8, 12, 16, 20, 24, 28, 36, 48, 60, 72, EOT (up to Week 24 or 48), follow-up (FU) Week 4, 12, and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group with greater than or equal to 2 log10 IU/mL drop from baseline in plasma hepatitis C virus (HCV) ribonucleic acid (RNA) at each time point during treatment and post-treatment follow-up. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Percentage of Participants Who Met Response Guided Treatment (RGT) Criteria and Completed Treatment With Peginterferon Alpha-2b (PegIFNα-2b) and Ribavirin (RBV) at Week 24</measure>
+    <time_frame>Week 24 or 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants in each treatment group who met RGT criteria (ie, who had plasma levels of hepatitis C virus ribonucleic acid [HCV RNA] &lt;1.2 log10 IU/mL detectable/undetectable at Week 4 and &lt;1.2 log 10 IU/mL undetectable at Week 12) and completed treatment with PegIFNα-2b and RBV at Week 24. Participants in the TMC435 Treatment-Naïve and TMC435 Prior Relapser treatment groups not meeting RGT criteria continued treatment with PegIFNα-2a and RBV to Week 48 (does not apply to the TMC435 Non-responder treatment group because the specified treatment duration was 48 weeks and RGT criteria was not assessed at Week 24). NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The Area Under the Plasma Concentration-Time Curve (From 0 to 24 Hours) (AUC24h)</measure>
+    <time_frame>Overall (Up to Week 12)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the median (range) AUC24h values for TMC435 for all participants in each TMC435 treatment group who received TMC435 for up to 12 weeks. &quot;Overall&quot; is the median exposure estimate using all available data for each participant in the study. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Plasma Concentrations of TMC435</measure>
+    <time_frame>Overall (Up to Week 12)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the median (range) TMC435 predose plasma concentrations (C0h) and maximum concentration (Cmax) values for participants in each treatment group. &quot;Overall&quot; is the median exposure estimate using all available data for each participant in the study. NOTE: All outcome measures reported in this study are &quot;Exploratory;&quot; not &quot;Primary&quot; as indicated (refer to Limits and Caveats).</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">79</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Treatment-Naive: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 100 mg once daily with PegIFNa-2b and ribavirin (PR) for 12 weeks (Wks), followed by PR until Week 24 or Week 48. Treatment will be stopped at Week 24 in participants who achieve plasma hepatitis C virus (HCV) ribonucleic acid (RNA) levels &lt;1.2 log10 IU/mL detectable or undetectable at Week 4, and undetectable plasma HCV RNA levels at Week 12. All other participants will continue PR until Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prior Relapser: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 100 mg once daily with PegIFNa-2b and ribavirin (PR) for 12 weeks (Wks) followed by PR until Week 24. Treatment will be stopped at Week 24 in participants who achieve plasma hepatitis C virus (HCV) ribonucleic acid (RNA) levels &lt;1.2 log10 IU/mL detectable or undetectable at Week 4, and undetectable plasma HCV RNA levels at Week 12. All other participants will continue PR until Week 48.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Prior Non-Responder: TMC435 100 mg 12 Wks+PR 48</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive TMC435 100 mg once daily with PegIFNa-2b and ribavirin (PR) for 12 weeks (Wks) followed by PR until Week 48.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>TMC435</intervention_name>
+    <description>100 mg capsule taken by mouth once daily for 12 weeks</description>
+    <arm_group_label>Treatment-Naive: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Relapser: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Non-Responder: TMC435 100 mg 12 Wks+PR 48</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2b (pegIFN alfa-2b)</intervention_name>
+    <description>PegIFN alfa-2b will be supplied as a vial containing dried and frozen powder with 74,148 or 222 mcg pegIFN alpha-2b attached to 0.7 ml injection water (50, 100 or 150 mcg/0.5mL pegIFN alpha-2b) and will be administered according to the manufacturer's prescribing information as 1.5 mcg/kg once weekly injected subcutaneous (under the skin) for up to 24-48 weeks.</description>
+    <arm_group_label>Treatment-Naive: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Relapser: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Non-Responder: TMC435 100 mg 12 Wks+PR 48</arm_group_label>
+    <other_name>PEGINTRON</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (RBV)</intervention_name>
+    <description>The dose of RBV given will be based on body weight. If body weight is &gt; 80 kg the total daily dose of RBV will be 1000 mg, taken by mouth as 400 mg (2 capsules of 200 mg) after breakfast and 600 mg (3 capsules of 200 mg) after supper. If body weight is &gt; 60 kg to &lt;=80 kg the total daily dose will be 800 mg, taken by mouth as 400 mg (2 capsules of 200 mg per intake) after breakfast and supper. If body weight is &lt;=60 kg the total daily dose of RBV will be 600 mg, taken by mouth as 200 mg (1 capsule of 200 mg) after breakfast and 400 mg (2 capsules of 200 mg) after supper. Total duration of RBV will be 24-48 weeks.</description>
+    <arm_group_label>Treatment-Naive: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Relapser: TMC435 100 mg 12 Wks+PR 24/48</arm_group_label>
+    <arm_group_label>Prior Non-Responder: TMC435 100 mg 12 Wks+PR 48</arm_group_label>
+    <other_name>REBETOL</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient must have chronic genotype 1 HCV infection with HCV RNA level &gt;= 5.0 log10
+             IU/mL
+
+          -  Patient has never received treatment for HCV (treatment-naive), relapsed after
+             previous IFN-based therapy (prior relapser) or failed to respond to previous
+             IFN-based therapy (non-responder)
+
+          -  Patient must be willing to use contraceptive measures from the time of informed
+             consent to 6 months after last dose of study medication.
+
+        Exclusion Criteria:
+
+          -  Co-infection with any other HCV genotype or co-infection with the human
+             immunodeficiency virus (HIV)
+
+          -  Diagnosed with hepatic cirrhosis or hepatic failure
+
+          -  A medical condition which is a contraindication to peg-IFN or ribavirin therapy
+
+          -  History of, or any current medical condition, which could impact the safety of the
+             patient in the study
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen Pharmaceutical K.K. Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen Pharmaceutical K.K.</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Amagasaki</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ikeda</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kawasaki</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kumamoto</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Niigata</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ohmura</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Osaka</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sakai</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sapporo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Suita</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Tokyo</city>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <verification_date>April 2014</verification_date>
+  <lastchanged_date>April 10, 2014</lastchanged_date>
+  <firstreceived_date>June 2, 2011</firstreceived_date>
+  <firstreceived_results_date>October 17, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C, Chronic</keyword>
+  <keyword>TMC435</keyword>
+  <keyword>Hepatitis C</keyword>
+  <keyword>Hepatitis C virus</keyword>
+  <keyword>Interferon Alfa-2b</keyword>
+  <keyword>Ribavirin</keyword>
+  <keyword>Viral ribonucleic acid</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

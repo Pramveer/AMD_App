@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="481">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01054573</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CR016678</org_study_id>
+    <secondary_id>VX-TiDP24-C219</secondary_id>
+    <secondary_id>2009-012613-21</secondary_id>
+    <nct_id>NCT01054573</nct_id>
+  </id_info>
+  <brief_title>VX-950-TiDP24-C219: A Roll Over Trial for Patients in the Control Group of the C216 Study Who Received Telaprevir Placebo</brief_title>
+  <official_title>An Open-label, Single-arm, Roll-over Trial of Telaprevir in Combination With Pegylated Interferon Alfa-2a (Pegasys) and Ribavirin (Copegus) for Subjects From the Control Group of the VX- 950-TiDP24-C216 Trial Who Failed Therapy for Virologic Reasons</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Janssen Infectious Diseases BVBA</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Vertex Pharmaceuticals Incorporated</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Janssen Infectious Diseases BVBA</source>
+  <oversight_info>
+    <authority>Canada: Health Canada</authority>
+    <authority>Germany: Ethics Commission</authority>
+    <authority>Great Britain: Medicines and Healthcare Products Regulatory Agency</authority>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to provide access to telaprevir for patients from the control
+      group in the C216 study, who failed treatment for virologic reasons. Efficacy, safety and
+      tolerability of telaprevir in combination with standard treatment will be evaluated.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is an open-label (i.e all people involved know the identity of the intervention),
+      single-arm, roll-over trial of telaprevir in combination with pegylated interferon (Peg-IFN)
+      alfa-2a and ribavirin (RBV). The purpose of the trial is to provide access to telaprevir for
+      patients who were randomized to the control group in the VX-950-TiDP24-C216 trial (referred
+      to as C216 trial hereafter) and who failed therapy for virologic reasons. The efficacy,
+      safety, and tolerability of telaprevir in combination with Peg IFN alfa 2a and RBV will be
+      evaluated. In addition, amino acid changes from baseline in the HCV NS3 (i.e protein
+      associated with the hepatitis C virus) protease domain will be evaluated. The trial will
+      consist of a screening period of approximately 28 days, a 48-week treatment period, and a
+      24-week follow-up period. It is expected that approximately 120 patients could be eligible
+      for enrollment. Since the C216 trial is blinded until all patients reach Week 72 (or have
+      discontinued earlier), patients can only enter the current trial upon invitation. The
+      investigator will receive an invitation sent by the unblinded independent virology monitor
+      of the C216 trial for those patients of the C216 trial who were randomized to the control
+      group and who failed therapy for virologic reasons. Next to this invitation, the patient
+      will need to fulfill the inclusion and exclusion criteria of the current trial in order to
+      be eligible to participate. The screening visit for the current trial can only occur after
+      the patient completes all assessments in the C216 trial, including the Safety Follow-up
+      Visit. Patients must not enter this trial later than 80 weeks after their first dose in the
+      C216 trial. In the current trial, all patients will receive 12 weeks of telaprevir 750 mg
+      every 8 hours (q8h) in combination with Peg-IFN alfa-2a and RBV at standard doses, i.e., 180
+      microgram once weekly and 1,000 or 1,200 mg/day (weight based), respectively, followed by 36
+      weeks of Peg IFN alfa 2a and RBV at standard doses. Patients with hepatitis C virus RNA
+      levels &lt; 25 IU/mL undetectable at the end of treatment (Week 48 or having discontinued
+      earlier) will be followed for 24 weeks after the last dose of study medication to assess
+      sustained virologic response (SVR). Safety/tolerability assessments will be performed and
+      adverse events (AEs), regardless of severity, will be collected continuously until the
+      Safety Follow-up Visit, scheduled 4 weeks after the last dose of study medication.
+      Thereafter, only serious adverse events (SAEs) will be reported. All patients will receive
+      12 weeks of telaprevir 750 mg q8h (orally) in combination with Peg-IFN alfa-2a and RBV at
+      standard doses, i.e., 180 microgram once weekly (injection) and 1,000 or 1,200 mg/day
+      (weight-based) (orally), respectively, followed by 36 weeks of Peg IFN alfa-2a and RBV at
+      standard doses.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2010</start_date>
+  <completion_date type="Actual">May 2012</completion_date>
+  <primary_completion_date type="Actual">March 2012</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The Percentage of Participants Achieving a Sustained Virologic Response (SVR) 24 Weeks After the Last Dose of Study Drug (SVR24 Actual)</measure>
+    <time_frame>End of trial (24 weeks after last dose, administerd at 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants acheiving a SVR 24 weeks after the last dose of study drug defined as having plasma hepatitis C virus (HCV) ribonucleic acid (RNA) levels &lt; 25 IU/mL, target not detected at end of treatment (EOT) AND the participant did not relapse AND the participant completed the treatment; OR if the participant had plasma HCV RNA levels of &lt; 25 IU/mL, target not detected at EOT AND the participant did not relapse AND the participant prematurely discontinued at least one study medication, but never for the reason virologic failure.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The Percentage of Participants Achieving Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Values of Less Than 25 IU/ml, Target Not Detected at Different Time Points</measure>
+    <time_frame>Baseline, Weeks 4, 8, 12, 24, 36, and 48, and at the end of treatment (Week 48 or at time of early discontinuation)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants with undetectable hepatitis C virus (HCV) ribonucleic acid (RNA) levels of less than 25 IU/ml, target not detected at different time points during the study. Data was imputed for participants with missing values using the last observation carried forward (LOCF) method for missing values.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Met a Virologic Stopping Rule That Required Them to Permanently Discontinue Telaprevir and Continue Pegylated Interferon (Peg-IFN) and Ribavirin (RBV) at Week 4 or Week 8</measure>
+    <time_frame>Week 4, Week 8</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants at Week 4 or 8 who met a stopping rule defined as having a hepatitis C virus (HCV) ribonucleic acid (RNA) value &gt;100 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Met a Virologic Stopping Rule That Required Them to Permanently Discontinue All Study Drugs at Week 12, 24, or 36</measure>
+    <time_frame>Week 12 or Weeks 24 or 36</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants at Week 12, 24, and 36 who met a stopping rule. The stopping rule at Week 12 was having hepatitis C virus (HCV) ribonucleic acid (RNA) value of &gt;100 IU/mL and the stopping rule at Weeks 24 or 36 was having a HCV RNA value of &gt;=25 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Rapid Virologic Response (RVR)</measure>
+    <time_frame>Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants who had a rapid virologic response (RVR) (ie, those with undetectable hepatitis C virus [HCV] ribonucleic acid [RNA values of &lt;25 IU/mL, target not detected at Week 4 of treatment).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Extended Rapid Virologic Response (eRVR)</measure>
+    <time_frame>Weeks 4 and 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants who had a Extended Rapid Virologic Response (eRVR) (ie, those with undetectable hepatitis C virus [HCV] ribonucleic acid [RNA values of &lt;25 IU/mL, target not detected at at Weeks 4 and 12 of treatment).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Viral Breakthrough</measure>
+    <time_frame>Week 48 (Period After Telaprevir Intake) and Week 12 (Telaprevir Treatment Phase)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants with viral breakthrough defined as a confirmed increase &gt;1 log10 in hepatitis C virus (HCV) ribonucleic acid (RNA) level from the lowest level reached during the considered treatment phase up to the considered time point, if the lowest level reached is &gt; 25 IU/mL, or a confirmed value of HCV RNA &gt;100 IU/mL in participants whose HCV RNA had previously become &lt;25 IU/mL (detected or target not detected) during the considered treatment phase.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Relapsed During Follow-Up</measure>
+    <time_frame>During Follow-Up (24 weeks after the last dose of study drug, administerd at 48 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows the percentage of participants who relapsed (ie, those having confirmed detectable hepatitis C virus [HCV] ribonucleic acid [RNA] during the 24-week follow-up period after previous HCV RNA &lt;25 IU/mL, target not detected, at end of treatment).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Values Over Time</measure>
+    <time_frame>Baseline, Weeks 4, 8, 12, 24, 36, 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows plasma Hepatitis C virus (HCV) ribonucleic acid (RNA) values measured over time.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in Log 10 Plasma Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Level</measure>
+    <time_frame>Baseline, Weeks 4, 8, 12, 24, 36, and 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The table below shows change from baseline in log 10 plasma HCV RNA values measured over time.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">90</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Telaprevir + Standard Treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Telaprevir 750 mg orally (by mouth) every 8h for 12 weeks plus standard treatment. Standard treatment is 180 mcg subcutaneous (under the skin) injection pegylated interferon (Peg-IFN) alfa-2a and 1000-1200 mg twice daily ribavirin (RBV) for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Telaprevir</intervention_name>
+    <description>750 mg orally every 8 hours (q8h) for 12 weeks</description>
+    <arm_group_label>Telaprevir + Standard Treatment</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>pegylated interferon (Peg-IFN) alfa-2a</intervention_name>
+    <description>180 microgram (mcg) by subcutaneous injection once weekly for 48 weeks.</description>
+    <arm_group_label>Telaprevir + Standard Treatment</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (RBV)</intervention_name>
+    <description>1,000 or 1,200 mg/day (weight based) orally twice daily for 48 weeks.</description>
+    <arm_group_label>Telaprevir + Standard Treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patient from the control group of the C216 study who failed therapy for virologic
+             reasons
+
+          -  Patient must have completed all assessments in the C216 trial
+
+          -  Patient must be willing to use 2 effective methods of birth control for up to 7
+             months after last dose of study medication
+
+        Exclusion Criteria:
+
+          -  Patient received any direct acting anti-viral HCV therapy after discontinuation of
+             the C216 trial
+
+          -  Patient has history of decompensated liver disease
+
+          -  Patient has history of acute or chronic pancreatitis
+
+          -  Patient has condition that requires use of systemic corticosteroids
+
+          -  Patient who prematurely stopped medication for non-compliance or for whom it would be
+             unsafe to repeat treatment
+
+          -  Patient has history of decompensated liver disease or history of cirrhosis with
+             hepatocellular carcinoma
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Janssen Infectious Diseases BVBA Clinical Trial</last_name>
+    <role>Study Director</role>
+    <affiliation>Janssen Infectious Diseases BVBA</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Coronado</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bradenton</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Missouri</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Columbia</city>
+        <state>South Carolina</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Adelaide</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clayton</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Darlinghurst</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Perth</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brussels</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Gent</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Leuven</city>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Distrito Barao Geraldo-Campina</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Salvador</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sao Paulo</city>
+        <country>Brazil</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Clichy</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Créteil</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lille Cedex</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pessac</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Berlin</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Frankfurt</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hamburg</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hannover</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Köln</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>München</city>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Petah Tiqva</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Zefat</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nijmegen</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bialystok</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Czeladz</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Warszawa</city>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Juan</city>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Stockholm</city>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Zurich N/A</city>
+        <country>Switzerland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>London</city>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Belgium</country>
+    <country>Brazil</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Israel</country>
+    <country>Netherlands</country>
+    <country>Poland</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>Sweden</country>
+    <country>Switzerland</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <removed_countries>
+    <country>Argentina</country>
+    <country>Austria</country>
+  </removed_countries>
+  <verification_date>May 2013</verification_date>
+  <lastchanged_date>May 6, 2013</lastchanged_date>
+  <firstreceived_date>January 21, 2010</firstreceived_date>
+  <firstreceived_results_date>March 8, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C, Chronic</keyword>
+  <keyword>Telaprevir</keyword>
+  <keyword>Roll-over study</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

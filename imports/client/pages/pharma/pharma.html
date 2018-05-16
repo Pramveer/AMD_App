@@ -1,0 +1,71 @@
+<template name="Pharma">
+    <div class="content-wrapper">
+        {{#if isLoading}} {{> NewLoading}} {{else}}
+        <div class="container pagecontent AdvancePharma" id="AdvancePharma">
+            <div class="advancePharmaSubTabs active">
+                
+                <div class="advancePharmaSubTabs-links-wrapper payerToolSection">
+                    <ul class="advancePharmaSubTabs-links">
+                        <li class="SummaryTab active">
+                            <a href="#">
+                                <span class="tabname">Summary</span>
+                            </a>
+                        </li>
+                        <li class="CompetitorAnalysisTab">
+                            <a href="#">
+                                <span class="tabname">Competitor Analysis</span>
+                            </a>
+                        </li>
+                         <li class="PatientsJourneyTab">
+                            <a href="#">
+                                <span class="tabname">Patient Journey</span>
+                            </a>
+                        </li>
+                         <li class="ComorbidityAnalyticsTab">
+                            <a href="#">
+                                <span class="tabname">Comorbidity Analytics</span>
+                            </a>
+                        </li>
+                        <li class="MedicineCoOccuranceTab">
+                            <a href="#">
+                                <span class="tabname">Therapy Co-occurance</span>
+                            </a>
+                        </li>
+                        <li class="MedicineCostTab">
+                            <a href="#">
+                                <span class="tabname">Cost</span>
+                            </a>
+                        </li>
+                        <!--<li class="OtherMedicineCountTab">
+                            <a href="#">
+                                <span class="tabname">Other Medicines Count</span>
+                            </a>
+                        </li>-->
+                        <li class="AdvanceAnalyticsTab">
+                            <a href="#">
+                                <span class="tabname">Advance Analytics</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--<div id="MedicineCoOccuranceSection" class="templateSection">
+                {{>DrugOccurance}}
+            </div>
+            <div id="OtherMedicineCountSection" class="templateSection">
+                {{>OtherMedicineCount}}
+            </div>
+             <div id="AdvanceAnalyticsSection" class="templateSection">
+                {{>AdvanceAnalytics}}
+            </div>            -->
+        </div>
+
+        <div id="templateRenderSection">
+        </div>
+         {{/if}}
+    </div>
+
+    
+
+    {{>MainFooter}}
+</template>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="81">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00192647</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML17908</org_study_id>
+    <nct_id>NCT00192647</nct_id>
+  </id_info>
+  <brief_title>A Study of Induction Dosing With Peginterferon Alfa-2a (40KD) and Ribavirin in Participants With Chronic Hepatitis C (CHC) Genotype 1</brief_title>
+  <official_title>A Phase IV, Randomised, Multicentre, Efficacy and Safety Study Examining the Effect of Induction Dosing With the Combination of Peginterferon Alfa-2a and Ribavirin in Patients With Chronic Hepatitis C Infected With Hepatitis C Genotype 1</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will evaluate the addition of a higher-dose induction treatment period with
+      peginterferon alfa-2a (Pegasys) and ribavirin prior to standard-dose treatment with Pegasys
+      and ribavirin, compared to standard-dose treatment without induction dosing, in
+      treatment-naive participants with CHC, genotype 1. The anticipated time on study treatment
+      is 48 weeks, and the target sample size is 500 or more individuals.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2004</start_date>
+  <completion_date type="Actual">December 2008</completion_date>
+  <primary_completion_date type="Actual">December 2008</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants with sustained virologic response</measure>
+    <time_frame>24 weeks following completion of the 48-week treatment period</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with undetectable hepatitis C virus (HCV) ribonucleic acid (RNA)</measure>
+    <time_frame>Weeks 4, 8, 12, 24, and 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with at least a 2-log drop in HCV RNA or unquantifiable/undetectable HCV RNA</measure>
+    <time_frame>Weeks 4, 8, 12, and 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of adverse events</measure>
+    <time_frame>Up to approximately 12 months</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">896</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Induction Treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive 12 weeks of induction therapy with peginterferon alfa-2a (Pegasys), 360 micrograms (mcg) subcutaneous (SC) once weekly, plus ribavirin, 1000 or 1200 milligrams (mg) orally (PO) daily in divided doses. Thereafter, the dose of peginterferon alfa-2a will be reduced to 180 mcg SC once weekly and the ribavirin dose maintained for the remaining 36 weeks of treatment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard Treatment</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive 48 weeks of standard therapy with peginterferon alfa-2a (Pegasys), 180 mcg SC once weekly, plus ribavirin, 1000 or 1200 mg PO daily in divided doses.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2a</intervention_name>
+    <description>For induction, participants will receive 360 mcg SC once weekly for 12 weeks. The standard regimen will include 180 mcg SC once weekly for 36 or 48 weeks, depending upon treatment assignment.</description>
+    <arm_group_label>Induction Treatment</arm_group_label>
+    <arm_group_label>Standard Treatment</arm_group_label>
+    <other_name>Pegasys</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Participants will receive 1000 or 1200 mg PO daily in divided doses, with the dose determined using body weight, for 48 weeks.</description>
+    <arm_group_label>Induction Treatment</arm_group_label>
+    <arm_group_label>Standard Treatment</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adults 18 to 75 years of age
+
+          -  Diagnosis of chronic CHC, genotype 1
+
+          -  Chronic liver disease consistent with CHC infection per Australian Section 100
+             criteria
+
+          -  Compensated liver disease
+
+          -  Naive to interferon-based therapy for CHC infection
+
+        Exclusion Criteria:
+
+          -  Systemic antiviral, antineoplastic, or immunomodulatory treatment within 6 months of
+             study drug
+
+          -  Coinfection with active hepatitis A or B virus, or with human immunodeficiency virus
+             (HIV)
+
+          -  Chronic liver disease other than CHC infection
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Chair</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>1640</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Buenos Aires</city>
+        <zip>C1282AFE</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>La Plata</city>
+        <zip>B1902AVF</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Rosario</city>
+        <zip>2000</zip>
+        <country>Argentina</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Adelaide</city>
+        <zip>5000</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Adelaide</city>
+        <zip>5042</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bankstown</city>
+        <zip>2200</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Box Hill</city>
+        <zip>3128</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brisbane</city>
+        <zip>4029</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Cottontree</city>
+        <zip>4558</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Darlinghurst</city>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Douglas</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fitzroy</city>
+        <zip>3065</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Fremantle</city>
+        <zip>6160</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Geelong</city>
+        <zip>3220</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Greenslopes</city>
+        <zip>4120</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kingswood</city>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lismore</city>
+        <zip>2480</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Liverpool</city>
+        <zip>1871</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Liverpool</city>
+        <zip>2170</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <zip>3011</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <zip>3084</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <zip>3181</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melbourne</city>
+        <zip>3186</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miranda</city>
+        <zip>2228</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Nedlands</city>
+        <zip>6009</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New Lambton Heights</city>
+        <zip>2310</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Parkville</city>
+        <zip>3052</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Perth</city>
+        <zip>6001</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sydney</city>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sydney</city>
+        <zip>2050</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sydney</city>
+        <zip>2139</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Sydney</city>
+        <zip>2145</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Victoria</city>
+        <zip>3199</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Woden</city>
+        <zip>2606</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Wollongong</city>
+        <zip>2500</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Woolloongabba</city>
+        <zip>4102</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Calgary</city>
+        <state>Alberta</state>
+        <zip>T2N 4N1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T5H 4B9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 1M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Mississauga</city>
+        <state>Ontario</state>
+        <zip>L5M 2V8</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3T 1E2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Guadalajara</city>
+        <zip>44280</zip>
+        <country>Mexico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Guadalajara</city>
+        <zip>44650</zip>
+        <country>Mexico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Monterrey</city>
+        <zip>64460</zip>
+        <country>Mexico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Auckland</city>
+        <zip>100</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hamilton</city>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Riccarton, Christchurch</city>
+        <zip>8011</zip>
+        <country>New Zealand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bangkok</city>
+        <zip>10400</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bangkok</city>
+        <zip>10700</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chiang Mai</city>
+        <zip>50202</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Canada</country>
+    <country>Mexico</country>
+    <country>New Zealand</country>
+    <country>Thailand</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>September 13, 2005</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

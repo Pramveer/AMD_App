@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="48">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00588146</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2400-05</org_study_id>
+    <secondary_id>R01FD003076-01</secondary_id>
+    <nct_id>NCT00588146</nct_id>
+  </id_info>
+  <brief_title>Phase 2 Study of PEG-Intron in Hereditary Hemorrhagic Telangiectasia</brief_title>
+  <official_title>Phase 2 Study of PEG-Intron in Hereditary Hemorrhagic Telangiectasia</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Georgia Regents University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>St. Michael's Hospital, Toronto</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Schering-Plough</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Mayo Clinic</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to evaluate the safety and tolerability of pegylated interferon
+      alpha-2b (PEG-Intron) in patients with severe complications related to Hereditary
+      hemorrhagic telangiectasia (HHT).
+
+      Funding Source - FDA Office of Orphan Products Development (OOPD)
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The objective of this study is to evaluate the safety and tolerability of pegylated
+      interferon alpha-2b (PEG-Intron) in patients with severe complications related to Hereditary
+      Hemorrhagic Telangiectasia (HHT). Participants will be randomized to the treatment arm or
+      control arm and then crossed over to the alternate arm at 6 months for the remainder of the
+      12-month study. Study treatment will consist of weekly subcutaneous injections of pegylated
+      interferon alpha-2b (PEG-Intron), 1 microgram/kilogram/week. Adverse events as well as
+      monitoring and treatment of toxicities will be followed as stated in the protocol. Adverse
+      events will be graded according to the Modified NCI Common Toxicity Criteria. After every
+      five participants have completed one month of treatment, an independent data safety
+      monitoring board will review any adverse events.
+    </textblock>
+  </detailed_description>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Schering-Plough discontinued supplying study drug.
+  </why_stopped>
+  <start_date>January 2007</start_date>
+  <completion_date type="Actual">September 2011</completion_date>
+  <primary_completion_date type="Actual">September 2011</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Crossover Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Change in Hemoglobin</measure>
+    <time_frame>baseline, one year</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The hemoglobin level is expressed as the amount of hemoglobin in grams (gm) per deciliter (dL) of whole blood.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">10</enrollment>
+  <condition>Anemia</condition>
+  <condition>Liver Disease</condition>
+  <condition>Hypoxemia</condition>
+  <arm_group>
+    <arm_group_label>Pegylated Interferon Alpha2b, then Standard Care</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Weekly subcutaneous injection of pegylated interferon alpha2b 1 microgram/kg/week for 6 months, then standard care for 6 months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard Care, then Pegylated Interferon Alpha2b</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Standard care for 6 months, then weekly subcutaneous injection of pegylated interferon alpha2b 1 microgram/kg/week for 6 months.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pegylated Interferon Alpha2b</intervention_name>
+    <description>Weekly subcutaneous injection of 1 microgram/kg/week</description>
+    <arm_group_label>Pegylated Interferon Alpha2b, then Standard Care</arm_group_label>
+    <arm_group_label>Standard Care, then Pegylated Interferon Alpha2b</arm_group_label>
+    <other_name>PEG-Intron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard care</intervention_name>
+    <description>Standard care</description>
+    <arm_group_label>Pegylated Interferon Alpha2b, then Standard Care</arm_group_label>
+    <arm_group_label>Standard Care, then Pegylated Interferon Alpha2b</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Definite diagnosis of HHT by clinical criteria or genetic diagnosis. For the clinical
+             diagnosis, 3 of the 4 following criteria1 must be present:
+
+               1. Epistaxis: spontaneous, recurrent
+
+               2. Telangiectases: multiple at characteristic sites
+
+               3. Visceral lesions including telangiectases and/or arteriovenous malformations
+                  (AVM) (pulmonary, hepatic, gastrointestinal, cerebral, spinal)
+
+               4. Family history of a first degree relative with HHT
+
+          2. Transfusion-dependent anemia from HHT-related bleeding (epistaxis from nasal mucosal
+             telangiectases or gastrointestinal bleeding from gastrointestinal telangiectases)
+             defined as a hemoglobin (Hb) &lt; 9g/dL with transfusion of at least one unit of packed
+             red blood cells within the past 6 months or Hb &lt; 11g/dL in females or &lt; 13g/dL in
+             males with transfusion of at least 5 units of blood within the past 6 months.
+             Patients must be on a stable dose of iron or intolerant of iron. Patients must have
+             failed traditional treatment options.
+
+          3. Clinically stable outpatient
+
+          4. Able and willing to return for outpatient visits
+
+          5. Ability to perform subcutaneous injections
+
+          6. Adult (Age 18 - 70 years)
+
+          7. Presence of the following laboratory results at entry:
+
+               1. White blood cell count ≥ 2000/mm^3
+
+               2. Neutrophil count ≥ 1000/mm^3
+
+               3. Platelet count ≥ 80,000/mm^3
+
+               4. Thyroid stimulating hormone within normal limits (Minimal abnormalities of the
+                  sensitive thyroid stimulating hormone may be allowed provided that the free
+                  thyroxin is normal and the patient is clinically euthyroid)
+
+          8. Negative pregnancy test at enrollment, if applicable
+
+          9. If the participant is a sexually active woman of childbearing potential, evidence
+             that she is practicing adequate contraception during the treatment period. Adequate
+             contraception includes use of an intrauterine device, oral contraceptives,
+             progesterone implanted rods, medroxyprogesterone acetate, surgical sterilization,
+             barrier method (diaphragm + spermicide), a monogamous relationship with a male
+             partner who has had a vasectomy or is using a condom + spermicide or a birth control
+             method acceptable to the study physicians. Participants and/or their partners must
+             agree to continue the use of adequate contraception for at least 6 months following
+             completion of treatment.
+
+         10. Written informed consent specific for this protocol obtained prior to entry
+
+         11. Patients agree to take study medication as directed and follow all study related
+             procedures until the conclusion of their protocol participation
+
+         12. Hepatic involvement by HHT characterized by high output heart failure due to hepatic
+             vascular malformations (symptoms of heart failure including edema, ascites, S3
+             gallop, orthopnea, or jugular venous pressure &gt; 10 cm H_2O) plus cardiac index (CI)
+             measured at right heart catheterization &gt; 4.4 L/min/m^2. Patients must have failed
+             traditional treatment options.
+
+         13. Computed tomography scanning (CT) of the liver documenting vascular abnormalities
+             consistent with HHT
+
+         14. Child-Pugh category A
+
+         15. Diffuse pulmonary telangiectases or AVMs documented by pulmonary angiography not
+             amenable to treatment with embolization techniques. Patients must have failed
+             traditional treatment options.
+
+         16. Positive contrast echocardiography documenting right to left intrapulmonary shunt
+
+         17. Resting or exercise-induced hypoxemia defined as a partial pressure of oxygen (PaO_2)
+             &lt; 70 mmHg at rest or an oxygen saturation (SpO_2) &lt; 85% with exercise.
+
+        Exclusion Criteria:
+
+          1. Anemia from any other cause than that due to HHT-related bleeding
+
+          2. Hypersensitivity to PEG-Intron or any other component of the product
+
+          3. Decompensated liver disease
+
+               1. Chronic active Hepatitis B infection
+
+               2. Child-Pugh category B or C
+
+          4. History of severe psychiatric disease
+
+               1. Prior suicide attempt
+
+               2. Hospitalization for psychiatric disease
+
+               3. Period of disability due to a psychiatric disease
+
+               4. Current episode of moderate to severe depression not responsive to treatment
+
+          5. History of immunologically mediated disease
+
+               1. Inflammatory bowel disease
+
+               2. Idiopathic thrombocytopenic purpura
+
+               3. Systemic lupus erythematosus
+
+               4. Autoimmune hemolytic anemia
+
+               5. Scleroderma
+
+               6. Sarcoidosis
+
+               7. Multiple sclerosis
+
+               8. Severe psoriasis
+
+               9. Clinical evidence of rheumatoid arthritis
+
+              10. Autoimmune hepatitis
+
+          6. History of clinically significant cardiovascular disease
+
+               1. Positive stress test
+
+               2. Clinically significant arrhythmia
+
+               3. Congestive heart failure
+
+               4. Uncontrolled hypertension
+
+               5. Coronary artery bypass surgery within 24 weeks prior to entry
+
+               6. Angina pectoris or myocardial infarction within 1 year prior to entry
+
+          7. Seizure disorder uncontrolled by anticonvulsants (within the last 12 months)
+
+          8. History of thyroid disease poorly controlled on prescribed medications
+
+          9. History or evidence of retinopathy
+
+         10. Patients on chronic anticoagulation
+
+         11. History of chronic renal insufficiency (creatinine &gt; 2.5 mg/dL)
+
+         12. Patients who have received an investigational drug within 24 weeks of treatment
+             assignment
+
+         13. History or other evidence of severe illness or other comorbid condition which would
+             make the patient unsuitable for participation in a research protocol
+
+         14. Liver dysfunction from any other cause than that due to HHT (chronic active hepatitis
+             B infection, hepatitis C infection, alcoholic cirrhosis, etc.)
+
+         15. Cardiac index &lt; 4.4 L/min/m^2
+
+         16. Pulmonary AVMs with feeding arteries &gt; 3 mm in diameter amenable to embolization
+             techniques
+
+         17. Other pulmonary diseases causing hypoxemia.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Karen L Swanson, DO</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Mayo Clinic</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Mayo Clinic</name>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://clinicaltrials.mayo.edu</url>
+    <description>Mayo Clinic Clinical Trials</description>
+  </link>
+  <verification_date>February 2013</verification_date>
+  <lastchanged_date>February 19, 2013</lastchanged_date>
+  <firstreceived_date>December 26, 2007</firstreceived_date>
+  <firstreceived_results_date>December 20, 2012</firstreceived_results_date>
+  <responsible_party>
+    <name_title>Karen Swanson</name_title>
+    <organization>Mayo Clinic</organization>
+  </responsible_party>
+  <keyword>anemia</keyword>
+  <keyword>HHT</keyword>
+  <keyword>Liver disease</keyword>
+  <keyword>Hypoxemia</keyword>
+  <keyword>Iron deficiency anemia</keyword>
+  <keyword>Liver disease with high cardiac output</keyword>
+  <keyword>Diffuse pulmonary AVMs with hypoxemia</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Liver Diseases</mesh_term>
+    <mesh_term>Telangiectasia, Hereditary Hemorrhagic</mesh_term>
+    <mesh_term>Telangiectasis</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

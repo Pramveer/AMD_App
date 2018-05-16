@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="667">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01970904</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CDEB025A2222</org_study_id>
+    <secondary_id>2012-004185-17</secondary_id>
+    <nct_id>NCT01970904</nct_id>
+  </id_info>
+  <brief_title>Pharmacokinetics, Pharmacodynamics and Safety of DEB025 Plus Ribavirin in Chronic Hepatitis C Genotype 2 and 3 Treatment naïve Patients</brief_title>
+  <official_title>A Multicenter, Open-label, Randomized, 3-arm, Phase II Profiling Trial of Pharmacokinetics, Pharmacodynamics and Safety of DEB025/Alisporivir in Combination With Ribavirin Therapy in Chronic Hepatitis C Genotype 2 and 3 Treatment naïve Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Novartis Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Novartis</source>
+  <oversight_info>
+    <authority>Sweden: Medical Products Agency</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study will explore the relationship of different DEB025 doses in combination with RBV
+      to pharmacokinetic, pharmacodynamic (i.e. viral load reduction) and safety profiles in
+      chronic hepatitis C GT 2 and 3 treatment naïve patients.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>October 2013</start_date>
+  <completion_date type="Anticipated">March 2015</completion_date>
+  <primary_completion_date type="Anticipated">March 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Pharmacodynamics (PD)</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>changes in viral load among 3 treatment arms</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Safety</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>number of patients with changes in vital signs and lab vaules in 3 treatment arms</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>SVR12</measure>
+    <time_frame>12 weeks after the end of treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>number of patients who achieved SVR12 among 3 treatment arms</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">146</enrollment>
+  <condition>Hepatitis C, Liver Disease</condition>
+  <arm_group>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 200 mg BID and RBV</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 300mg BID and RBV</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm C</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 400 mg BID and RBV</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 200mg</intervention_name>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 200 mg BID and RBV</description>
+    <arm_group_label>Arm A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 300mg</intervention_name>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 300mg BID and RBV</description>
+    <arm_group_label>Arm B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 400mg</intervention_name>
+    <description>Dual-therapy with a response-guided treatment duration with DEB025 400mg BID and RBV</description>
+    <arm_group_label>Arm C</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Written informed consent must be obtained before any assessment is performed.
+
+          2. No previous treatment for Hepatitis C infection (i.e. HCV treatment-naïve)
+
+          3. Chronic hepatitis C (G2 or G3)virus infection diagnosed
+
+        Exclusion criteria:
+
+          1. Use of other investigational drugs at the time of enrollment, or within 30 days or 5
+             half-lives of that medication before enrollment.
+
+          2. History of hypersensitivity to any of the study drugs or to drugs of similar chemical
+             classes
+
+          3. HBsAg positive
+
+          4. HIV positive.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Novartis Pharmaceuticals</last_name>
+    <role>Study Director</role>
+    <affiliation>Novartis Pharmaceuticals</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Berlin</city>
+        <zip>10969</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Berlin</city>
+        <zip>13353</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Duesseldorf</city>
+        <zip>40225</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Freiburg</city>
+        <zip>79106</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20099</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Hannover</city>
+        <zip>30625</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Kiel</city>
+        <zip>24146</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Köln</city>
+        <zip>50937</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Muenchen</city>
+        <zip>81377</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Würzburg</city>
+        <zip>97080</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bialystok</city>
+        <zip>15-540</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Lublin</city>
+        <zip>20-079</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Warszawa</city>
+        <zip>01-201</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Göteborg</city>
+        <zip>416 85</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Luleå</city>
+        <zip>SE-971 80</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Lund</city>
+        <zip>221 85</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Malmo</city>
+        <zip>SE-205 02</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Stockholm</city>
+        <zip>141 86</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Umea</city>
+        <zip>901 85</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Frimley</city>
+        <state>Surrey</state>
+        <zip>GU16 7UJ</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Birmingham</city>
+        <zip>B15 2TT</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <zip>E1 1BB</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <zip>SE5 9RS</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Germany</country>
+    <country>Poland</country>
+    <country>Sweden</country>
+    <country>United Kingdom</country>
+  </location_countries>
+  <removed_countries>
+    <country>Italy</country>
+  </removed_countries>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 19, 2015</lastchanged_date>
+  <firstreceived_date>September 30, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic hepatitis C, DEB025, Alisporivir, ribavirin therapy, genotype 2/3 treatment naive patients.</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Liver Diseases</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

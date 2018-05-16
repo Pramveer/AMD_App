@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="252">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02201407</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML29062</org_study_id>
+    <nct_id>NCT02201407</nct_id>
+  </id_info>
+  <brief_title>An Open-Label, Multicenter, National Observational Study in Patients With Chronic Hepatitis B Receiving Therapy With PEGASYS (Peginterferon Alfa-2a 40kD) - The PRO B Study</brief_title>
+  <official_title>Peginterferon Alfa-2a (PEGASYS) in theRapy of Patients With chrOnic Hepatitis B (CHB) - PRO B</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Serbia: Agency for Drugs and Medicinal Devices</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This open-label, multicenter, national observational study will investigate the
+      effectiveness of standard of care treatment with PEGASYS in patients with chronic hepatitis
+      B (CHB). Patients who have never received any hepatitis B virus (HBV) treatment and patients
+      previously treated with nucleos(t)ide analogs are qualified for enrollment. The observation
+      period is 48 weeks (PEGASYS standard of care treatment) and for up to 24 weeks thereafter
+      (72 weeks in total).
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>December 2014</start_date>
+  <completion_date type="Anticipated">May 2016</completion_date>
+  <primary_completion_date type="Anticipated">May 2016</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Percentage of patients with HBeAg-positive CHB acheiving sustained immune control, defined as a combined response: post-treatment HBeAg seroconversion, and HBV levels &lt; 2,000 IU/ml, and ALT normalization</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of patients with HBeAg-negative CHB acheiving sustained immune control, defined as combined response: HBV DNA levels &lt; 2,000 IU/ml, and ALT normalization</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of adverse events</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with HBeAg-positive CHB acheiving combined response: post-treatment HBeAg seroconversion, and HBV levels &lt; 2,000 IU/ml, and ALT normalization</measure>
+    <time_frame>Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with HBeAg-negative CHB acheiving combined response: HBV DNA levels &lt; 2,000 IU/ml, and ALT normalization</measure>
+    <time_frame>Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of laboratory test abnormalities</measure>
+    <time_frame>Up to 72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">70</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients receiving treatment for chronic hepatitis B with PEGASYS according to
+        standard of care and in line with the current summary of product characteristics and local
+        labeling who have no contraindication to PEGASYS therapy as per the local label. Target
+        population are naïve subjects (who have never received any hepatitis B virus treatment)
+        and previously treated subjects with nucleos(t)ide analogs (NAs).
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male and female patients &gt;/= 18 years of age
+
+          -  Hepatitis B virus e Antigen (HBeAg) positive or HBeAg negative serologically proven
+             chronic hepatitis B (CHB) with or without cirrhosis (histologically verified at some
+             point in the past)
+
+          -  Baseline hepatitis B virus (HBV) DNA &gt;2,000 IU/ml
+
+          -  Elevated serum alanine aminotransferase (ALT) &gt; Upper Limit of Normal (ULN)
+
+          -  Signed written informed consent
+
+          -  Patients treated with previous nucleos(t)ide analogs (NAs) therapy are eligible for
+             this study
+
+        Exclusion Criteria:
+
+          -  Patients who have contraindications for peginterferon alfa-2a (PEGASYS®) in
+             accordance with the approved summary of product characteristics (e.g., severe
+             psychiatric diseases, immunological diseases, severe hepatic dysfunction or
+             decompensated cirrhosis of the liver severe retinopathy or thyroid dysfunction,
+             autoimmune hepatitis, history of severe pre-existing cardiac disease, or
+             hypersensitivity to the active substance, to alpha interferons, or to any of the
+             excipients)
+
+          -  Patients with ALT &gt; 10 x ULN or evidence of hepatocellular carcinoma
+
+          -  Patients with serological evidence of co-infection with hepatitis A virus, hepatitis
+             C, human immunodeficiency virus or hepatitis D virus
+
+          -  Patients with decompensated liver disease
+
+          -  Pregnant or breast-feeding women
+
+          -  A history of liver transplantation or planned for liver transplantation
+
+          -  Concomitant therapy with telbivudine (concomitant peginterferon alfa-2a therapy is
+             contraindicated according to telbivudine label)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Reference Study ID Number: ML29062 www.roche.com/about_roche/roche_worldwide.htm</last_name>
+    <phone>888-662-6728 (U.S. Only)</phone>
+    <email>global.rochegenentechtrials@roche.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <address>
+        <city>Belgrade</city>
+        <zip>11000</zip>
+        <country>Serbia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Belgrade</city>
+        <zip>11080</zip>
+        <country>Serbia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kragujevac</city>
+        <zip>34000</zip>
+        <country>Serbia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>NIS</city>
+        <zip>18000</zip>
+        <country>Serbia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Novi Sad</city>
+        <zip>21000</zip>
+        <country>Serbia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+  </location>
+  <location_countries>
+    <country>Serbia</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>July 22, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

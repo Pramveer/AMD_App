@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="31">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00705107</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04247</org_study_id>
+    <nct_id>NCT00705107</nct_id>
+  </id_info>
+  <brief_title>Adherence to Treatment With PegIntron Pen Plus Rebetol in Treatment-naïve Adult Patients With Hepatitis C in Romania (Study P04247)</brief_title>
+  <official_title>Evaluation of Adherence Rate in Patients Receiving PegIntron Pen / Rebetol for Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Romania: National Medicines Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Adherence to the prescribed treatment regimen with PegIntron and Rebetol affects the chance
+      of achieving a sustained virologic response in patients with hepatitis C. The objective of
+      this study is to evaluate the proportion of patients who complete treatment with PegIntron
+      pen and Rebetol while participating in a patient assistance program. The patient assistance
+      program can consist of prophylactic treatment (eg, with growth factors, psychiatric
+      medications) or other interventions (eg, psychotherapy, patient support groups, visiting
+      nurse, nurse telephone calls, educational literature).
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <start_date>November 2004</start_date>
+  <completion_date type="Actual">November 2007</completion_date>
+  <primary_completion_date type="Actual">November 2007</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Case-Only, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Number of Subjects Who Completed Treatment.</measure>
+    <time_frame>Assessed at the end of the 48-week treatment.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Average Length of Treatment.</measure>
+    <time_frame>Assessed at the end of treatment. The prescribed treatment duration was 48 weeks.</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">267</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>All Treated Patients</arm_group_label>
+    <description>All patients participating in the study</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIntron pen (peginterferon alfa-2b; SCH 54031)</intervention_name>
+    <description>PegIntron administered in accordance with approved labeling.</description>
+    <arm_group_label>All Treated Patients</arm_group_label>
+    <other_name>SCH 54031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Rebetol (ribavirin; SCH 18908)</intervention_name>
+    <description>Rebetol administered in accordance with approved labeling</description>
+    <arm_group_label>All Treated Patients</arm_group_label>
+    <other_name>SCH 18908</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Treatment-naïve adult patients with hepatitis C treated with PegIntron pen and Rebetol
+        receiving a patient assistance program at approximately 40 sites in Romania. Patient
+        assistance program can consist of prophylactic treatment (eg, with growth factors,
+        psychiatric medications) or other interventions (eg, psychotherapy, patient support
+        groups, visiting nurse, nurse telephone calls, educational literature).
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Treatment-naïve patients with hepatitis C
+
+          -  Patients treated with PegIntron pen and Rebetol
+
+          -  Patients receiving patient assistance program
+
+        Exclusion Criteria:
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>June 2015</verification_date>
+  <lastchanged_date>June 3, 2015</lastchanged_date>
+  <firstreceived_date>June 23, 2008</firstreceived_date>
+  <firstreceived_results_date>February 11, 2009</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

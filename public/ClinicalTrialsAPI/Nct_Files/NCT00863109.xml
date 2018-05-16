@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="135">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00863109</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P05278</org_study_id>
+    <secondary_id>MK-4031-336</secondary_id>
+    <nct_id>NCT00863109</nct_id>
+  </id_info>
+  <brief_title>Quality of Life During Treatment of Chronic Hepatitis C (P05278/MK-4031-336)</brief_title>
+  <acronym>VIDA</acronym>
+  <official_title>Evaluation of the Health-Related Quality of Life During Combined Treatment of Chronic Hepatitis Due to Hepatitis C Virus Under Habitual Clinical Practise Conditions.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Spain: Spanish Agency of Medicines</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this study is to evaluate the impact of chronic hepatitis C (CHC),
+      and the treatment thereof with peginterferon alpha-2b (PEG) and ribavirin (RBV) according to
+      standard clinical practice, on the health-related quality of life (HRQL) of a cohort of
+      participants throughout 72 weeks of follow-up. HRQL was assessed using the 36-Item
+      Short-Form Health Survey (SF-36) and the Chronic Liver Disease Questionnaire-Hepatitis C
+      Virus (CLDQ-HCV).
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      As widely shown in previous reports Hepatitis C Virus (HCV) patients commonly experience
+      fatigue, anxiety, and depression. These symptoms negatively affect patients' functional
+      health, ability to work, self-perceived health, HRQL and well-being. Psychosocial issues and
+      reduced HRQL are frequently experienced by HCV patients. HCV patients have more HRQL
+      impairment than the general population. There is some evidence that HCV patients who
+      experience greater fatigue, greater psychiatric symptoms, and poorer HRQL are more likely to
+      discontinue treatment prematurely, with a negative impact on virological response. In
+      addition to well-known side effects of interferon, one important determinant of HRQL during
+      anti-viral therapy for HCV is development of RBV-induced anemia. Treatment of anemia
+      improves HRQL, potentially impacting adherence to antiviral regimen and improving virologic
+      response. These issues emphasize the importance of investigating the physical and
+      psychosocial experiences and HRQL of HCV patients.
+
+      The sample size of the study must allow evaluating HRQL of HCV patients based on the SF-36
+      before PEG treatment and at each of the following study visits.
+
+      To be able to detect differences of or over 4.2 points in the vitality dimension between the
+      basal visit and following visits, estimating a standard deviation of 22 points, a
+      statistical power of 80%, and a level of significance of 0.05, 216 patients will be needed.
+      Considering a loss of follow up of 15%, a total of 238 patients are planned for this study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>April 2009</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Change From Baseline (BL) to Week 72 (WK72) in 36-Item Short-Form Health Survey (SF-36) Scores</measure>
+    <time_frame>Baseline, Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SF-36 is a generic 36-item questionnaire measuring health-related quality of life (HRQL) covering 2 summary measures: physical component summary (PCS) and mental component summary (MCS). The SF-36 consists of 8 subscales. The PCS is represented by 4 subscales: physical function, role limitations due to physical problems, pain, and general health perception. The MCS is represented by 4 subscales: vitality, social function, role limitations due to emotional problems, and mental health. Participants self-report on items in a subscale that have between 2-6 choices per item using Likert-type responses (e.g. none of the time, some of the time, etc.). Summations of item scores of the same subscale give the subscale scores, which are transformed into a range from 0 to 100; zero= worst HRQL, 100=best HRQL. PCS and MCS scores are constructed as a T-score with a mean of 50 and standard deviation of 10 and no minimum or maximum score; higher scores indicate better health status.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change From Baseline (BL) to Week 72 (WK72) in Chronic Liver Disease Questionnaire-Hepatitis C Virus (CLDQ-HCV)</measure>
+    <time_frame>Baseline, Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The CLDQ-HCV is a disease-specific questionnaire measuring HRQL that contains 29 items divided into 4 domains: emotional function (9 items), worry (6 items), systemic symptoms (8 items) and activity/energy (6 items). All items refer to the previous 2 weeks and are rated on a 7 point Likert scale, with 1 corresponding to the maximum frequency (&quot;all of the time&quot;) and 7 to the minimum (&quot;none of the time&quot;). Domain scores are the means of the items contained. A summary score is calculated by the mean of all domain scores (CLDQ-HCV Global). Higher scores indicate better health-related quality of life.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 72 (WK72) in SF-36 Scores Among Participants Who Completed Treatment and Participants Who Had Early End of Treatment (Subset Analysis)</measure>
+    <time_frame>Baseline, Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SF-36 is a generic 36-item questionnaire measuring health-related quality of life (HRQL) covering 2 summary measures: physical component summary (PCS) and mental component summary (MCS). The SF-36 consists of 8 subscales. The PCS is represented by 4 subscales: physical function, role limitations due to physical problems, pain, and general health perception. The MCS is represented by 4 subscales: vitality, social function, role limitations due to emotional problems, and mental health. Participants self-report on items in a subscale that have between 2-6 choices per item using Likert-type responses (e.g. none of the time, some of the time, etc.). Summations of item scores of the same subscale give the subscale scores, which are transformed into a range from 0 to 100; zero= worst HRQL, 100=best HRQL. PCS and MCS scores are constructed as a T-score with a mean of 50 and standard deviation of 10 and no minimum or maximum score; higher scores indicate better health status.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline to Week 72 (WK72) in CLDQ-HCV Scores Among Participants Who Completed Treatment and Participants Who Had Early End of Treatment (Subset Analysis)</measure>
+    <time_frame>Baseline, Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The CLDQ-HCV is a disease-specific questionnaire measuring quality of life that contains 29 items divided into 4 domains: emotional function (9 items), worry (6 items), systemic symptoms (8 items) and activity/energy (6 items). All items refer to the previous 2 weeks and are rated on a 7 point Likert scale, with 1 corresponding to the maximum frequency (&quot;all of the time&quot;) and 7 to the minimum (&quot;none of the time&quot;). Domain scores are the means of the items contained. A summary score is calculated by the mean of all domain scores (CLDQ-HCV Global). Higher scores indicate better health-related quality of life.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Minimal Clinically Important Difference (MCID) in SF-36 Scores</measure>
+    <time_frame>From Baseline Visit to Final Visit (up to 72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SF-36 is a 36-item questionnaire measuring HRQL covering 2 summary measures, PCS and MCS. The SF-36 consists of 8 subscales. PCS is represented by physical function, role limitations-physical, pain, and general health perception. MCS is represented by vitality, social function, role limitations-emotional, and mental health. Subscale items are summed and scaled from 0-100 to give subscale scores; 0= worst HRQL, 100=best HRQL. PCS and MCS summary scores are constructed as T-scores (mean =50, standard deviation=10) with no minimum or maximum score; higher scores indicate better health status. MCID was defined as the difference in questionnaire scores between baseline and final visits for those participants who had stated that their health status had changed at the end of the study (improved in one category of health status as perceived by themselves). The MCID was calculated for each subscale of the SF-36 and for PCS and MCS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>MCID in CLDQ-HCV Scores</measure>
+    <time_frame>From Baseline Visit to Final Visit (up to 72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The CLDQ-HCV is a disease-specific questionnaire measuring HRQL that contains 29 items divided into 4 domains: emotional function (9 items), worry (6 items), systemic symptoms (8 items) and activity/energy (6 items). All items refer to the previous 2 weeks and are rated on a 7 point Likert scale, with 1 corresponding to the maximum frequency (&quot;all of the time&quot;) and 7 to the minimum (&quot;none of the time&quot;). Domain scores are the means of the items contained. A summary score is calculated by the mean of all domain scores (CLDQ-HCV Global). Higher scores indicate better health-related quality of life. MCID was defined as the difference in questionnaire scores between baseline and final visits for those participants who had stated that their health status had changed at the end of the study (improved in one category of health status perceived by themselves). The MCID was calculated for each domain of the CLDQ-HCV and for the CLDQ-HCV summary score.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Were Compliant With Treatment According To Medication Count (Subset Analysis)</measure>
+    <time_frame>From Baseline Visit to Final Visit (up to 72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Compliance was calculated as the amount of dispensed medication minus the amount of medication returned by participants divided by amount of dispensed medication.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">133</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>Genotype 1</condition>
+  <condition>HCV-1</condition>
+  <arm_group>
+    <arm_group_label>PEG + RBV (Standard Clinical Practice)</arm_group_label>
+    <description>Participants receive peginterferon alfa-2b (PEG) and ribavirin (RBV) in combination therapy for 48 weeks according to standard clinical practice followed by 24 weeks of observation.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peginterferon alfa-2b (PEG)</intervention_name>
+    <description>Pegylated interferon alfa-2b was administered in accordance with the dosage and pattern prescribed by each participant's physician (standard clinical practice).</description>
+    <arm_group_label>PEG + RBV (Standard Clinical Practice)</arm_group_label>
+    <other_name>PegIntron</other_name>
+    <other_name>SCH 054031</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin (RBV)</intervention_name>
+    <description>Ribavirin was administered in accordance with the dosage and pattern prescribed by each participant's physician (standard clinical practice).</description>
+    <arm_group_label>PEG + RBV (Standard Clinical Practice)</arm_group_label>
+    <other_name>Rebetol</other_name>
+    <other_name>SCH 18908</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants with Chronic Hepatitis C, Genotype 1, no other co-infection and compensated
+        liver disease who receive PEG and RBV in combination therapy according to standard
+        clinical practice.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Participants diagnosed with chronic hepatitis C (CHC)
+
+          -  Participants with HCV genotype 1
+
+          -  Participants who, at the time of the study, are referred to the Hospital Pharmacy
+             Service to begin treatment with PEG and RBV for 48 weeks
+
+          -  Available to understand and to give Informed Consent
+
+        Exclusion Criteria:
+
+        - Participants co-infected with Human Immunodeficiency Virus (HIV) or Hepatitis B Virus
+        (HBV)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Spain</country>
+  </removed_countries>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 15, 2015</lastchanged_date>
+  <firstreceived_date>March 12, 2009</firstreceived_date>
+  <firstreceived_results_date>May 14, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

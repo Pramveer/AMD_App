@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="61">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02569710</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AL-335-604</org_study_id>
+    <nct_id>NCT02569710</nct_id>
+  </id_info>
+  <brief_title>A Study to Evaluate the Safety, Pharmacokinetics and Efficacy of the Combination of AL-335, ACH-3102, and Simeprevir</brief_title>
+  <official_title>A Randomized, Phase 2a, Open-Label Study to Evaluate the Safety, Pharmacokinetics and Efficacy of the Combination of AL-335, ACH-3102, and Simeprevir in Treatment-Naïve Subjects With Genotype 1 Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Alios Biopharma Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Alios Biopharma Inc.</source>
+  <oversight_info>
+    <authority>New Zealand: Medsafe</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This randomized, open-label study will assess the safety, pharmacokinetics and efficacy of
+      the orally administered combination of AL-335, ACH-3102, and simeprevir in treatment-naïve
+      subjects with chronic hepatitis C (CHC) infection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>October 2015</start_date>
+  <completion_date type="Anticipated">August 2016</completion_date>
+  <primary_completion_date type="Anticipated">February 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Safety Data: Composite number and frequency of treatment emergent adverse events, physical examination findings, abnormal vital signs, 12 lead ECG, echo and abnormal clinical laboratory results</measure>
+    <time_frame>From screening to the 24 week follow-up visit</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Tabulation of the number and frequency of treatment emergent adverse events, physical examination findings, abnormal vital signs, 12 lead ECG, echo and abnormal clinical laboratory results (including chemistry, hematology, and urine).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Cmax: AL-335, ACH-3102, and Simeprevir</measure>
+    <time_frame>From screening to the 24 week follow-up visit</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To evaluate the pharmacokinetics of AL-335 (and metabolites), ACH-3102 and simeprevir</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>AUC: AL-335, ACH-3102, and Simeprevir</measure>
+    <time_frame>From screening to the 24 week follow-up visit</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To evaluate the pharmacokinetics of AL-335 (and metabolites), ACH-3102 and simeprevir</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of Subjects with SVR 4 Weeks, SVR 6 Weeks, and SVR 8 Weeks After end of Study Drug Treatment</measure>
+    <time_frame>From screening to the 24 week follow-up visit</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To evaluate the percentage of subjects with GT1 CHC infection, treated with AL-335 in combination with ACH-3102 and simeprevir, with SVR 4 Weeks, SVR 6 Weeks, and SVR 8 Weeks after end of study drug treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Combination of AL-335, ACH-3102, and Simeprevir: effect on viral resistance profile after 4, 6, and 8 weeks administration</measure>
+    <time_frame>From screening to the 24 week follow-up visit</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To evaluate the viral resistance profile after 4, 6 and 8 weeks administration of AL-335 in combination with ACH-3102 and simeprevir.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>8-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AL-335, ACH-3102, and Simeprevir dosed in chronic Hepatitis C treatment-naïve subjects once daily for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>6-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AL-335, ACH-3102, and Simeprevir dosed in chronic hepatitis C treatment-naïve subjects once daily for 6 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>4-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>AL-335, ACH-3102, and Simeprevir dosed in chronic hepatitis C treatment-naïve subjects once daily for 4 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>AL-335</intervention_name>
+    <arm_group_label>8-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>6-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>4-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ACH-3102</intervention_name>
+    <arm_group_label>8-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>6-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>4-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Simeprevir</intervention_name>
+    <arm_group_label>8-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>6-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+    <arm_group_label>4-week Cohort: AL-335, Simeprevir and ACH-3102</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Subject has provided written consent.
+
+          2. In the investigator's opinion, the subject is able to understand and comply with
+             protocol requirements, instructions, and protocol stated restrictions and is likely
+             to complete the study as planned.
+
+          3. Male or female, 18-65 years of age.
+
+          4. Body mass index (BMI) 18-35 kg/m2, inclusive. The minimum weight is 50 kg. No more
+             than 25% of subjects may be enrolled with a BMI ≥30 kg/m2.
+
+          5. A female subject is eligible to participate in this study if she is of non
+             childbearing potential
+
+          6. If male, subject is surgically sterile or practicing specific forms of birth control
+             until 6 months after the end of administration of study medication.
+
+          7. Genotype 1a or 1b CHC with positive HCV antibody and a positive HCV RNA at screening
+             including documentation of CHC infection for at least 6 months. Genotype testing must
+             occur at screening visit.
+
+          8. Screening HCV RNA viral load ≥50,000 IU/mL.
+
+          9. No prior treatment for CHC
+
+         10. Fibroscan liver stiffness score must be ≤12.5 kPa to be eligible.
+
+         11. Subject is otherwise in good health as deemed by the investigator,
+
+         12. Willing to avoid prolonged sun exposure and use of tanning devices while taking
+             simeprevir and through 4 weeks of follow-up.
+
+        Exclusion Criteria:
+
+          1. Women of Child-Bearing Potential, Pregnant or nursing (lactating) females,
+
+          2. Clinically significant cardiovascular, respiratory, renal, gastrointestinal,
+             hematologic, neurologic, thyroid or any other medical illness or psychiatric
+             disorder.
+
+          3. History or other clinical evidence of significant or unstable cardiac disease (e.g.,
+             angina, congestive heart failure, myocardial infarction, diastolic dysfunction,
+             significant arrhythmia, coronary heart disease, and/or clinically significant ECG
+             abnormalities), moderate to severe valvular disease or uncontrolled hypertension at
+             screening.
+
+          4. Screening echocardiogram ejection fraction &lt;55% or any other echocardiographic
+             finding suggestive of clinically relevant cardiomyopathy.
+
+          5. Creatinine clearance of &lt;60 mL/min (Cockcroft-Gault).
+
+          6. Positive test for HAV IgM, HBsAg, or HIV Ab.
+
+          7. Abnormal screening laboratory results that are considered clinically significant by
+             the investigator.
+
+          8. History of clinical hepatic decompensation, e.g., variceal bleeding, spontaneous
+             bacterial peritonitis, ascites, hepatic encephalopathy or active jaundice (within
+             last year).
+
+          9. Clinically significant abnormal screening ECG findings (e.g., significantly abnormal
+             PR, QRS intervals or corrected QT interval (QTc) &gt;450 milliseconds for male subjects
+             and &gt;470 milliseconds for female subjects).
+
+         10. History or family history of prolonged QT syndrome (torsade de pointes) or sudden
+             cardiac death.
+
+         11. The subject has a positive pre-study drug screen, including methadone.
+
+         12. Laboratory abnormalities including:
+
+               -  Hematocrit &lt;34%
+
+               -  White blood cell counts &lt;3,500/mm3
+
+               -  Absolute neutrophil count &lt;1,000/mm3
+
+               -  Platelets ≤120,000/mm3
+
+               -  Glycosylated hemoglobin (HbA1C) &gt;7.5%
+
+               -  Prothrombin time ≥1.5 × upper limit of normal (ULN)
+
+               -  Albumin ≤3.5 g/dL, bilirubin ≥1.5 mg/dL at screening (subjects with documented
+                  Gilbert's disease allowed)
+
+               -  Serum alanine aminotransferase (ALT) concentration ≥5× ULN
+
+               -  CK &gt;1.5× ULN A single repeat laboratory evaluation is allowed for eligibility
+                  determination.
+
+         13. Any condition possibly affecting drug absorption (e.g., gastrectomy or other
+             significant gastrointestinal tract surgery, such as gastroenterostomy, small bowel
+             resection, or active enterostomy).
+
+         14. Clinically significant blood loss or elective blood donation of significant volume
+             (i.e., &gt;500 mL) within 60 days of first dose of study drug.
+
+         15. Evidence of clinically relevant active infection that would interfere with study
+             conduct or its interpretation.
+
+         16. History of regular alcohol intake &gt;10 standard drinks per week of alcohol for females
+             and &gt;15 standard drinks per week for males
+
+         17. The use of concomitant medications, including prescription, over the counter
+             medications, herbal medications, inducers or inhibitors of CYP450 enzymes or drug
+             transporters (including P-gp) within 14 days prior to the first dose of study
+             medication is excluded.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Chris Westland</last_name>
+    <phone>650-635-5553</phone>
+    <email>cwestlan@its.jnj.com</email>
+  </overall_contact>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 5, 2015</lastchanged_date>
+  <firstreceived_date>October 1, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Simeprevir</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

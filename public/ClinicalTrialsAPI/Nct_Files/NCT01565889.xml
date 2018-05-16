@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="63">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01565889</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P7977-1910</org_study_id>
+    <nct_id>NCT01565889</nct_id>
+  </id_info>
+  <brief_title>Part A: Drug Interaction Study of Sofosbuvir and Antiretroviral Therapy (ART) Combinations in HIV and Hepatitis C Virus (HCV) Co-infected Patients. Part B: Efficacy and Safety of Sofosbuvir for 12 Weeks in HIV/HCV Co-infected Patients.</brief_title>
+  <official_title>Part A: Drug Interaction Study Between GS-7977 and Antiretroviral Therapy (ARV) Combinations of Efavirenz, Tenofovir and Emtricitabine; Efavirenz, Zidovudine and Lamivudine; Atazanavir/Ritonavir, Tenofovir and Emtricitabine; Darunavir/Ritonavir, Tenofovir and Emtricitabine; Raltegravir, Tenofovir and Emtricitabine in Human Immunodeficiency Virus and Hepatitis C Virus (HIV/HCV) Co-infected Patients. Part B: A Phase 2, Open-Label Study to Investigate the Efficacy and Safety of GS-7977 With Peginterferon Alfa 2a and Ribavirin for 12 Weeks in Treatment-Naïve HIV/HCV Co-infected Patients.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study consists of 2 parts, Part A and Part B. Part A, the Phase 1 drug
+      interaction/early viral kinetic study, will evaluate the effect of selected antiretroviral
+      therapies on the safety, viral kinetics, and pharmacokinetics of sofosbuvir (GS-7977;
+      PSI-7977) and its metabolites in participants with HIV and hepatitis C virus (HCV)
+      coinfection. Part B, the Phase 2 treatment study, will investigate the efficacy and safety
+      of sofosbuvir, pegylated interferon alpha (PEG) and ribavirin (RBV) in participants with
+      HIV/HCV coinfection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2012</start_date>
+  <completion_date type="Actual">November 2013</completion_date>
+  <primary_completion_date type="Actual">August 2013</primary_completion_date>
+  <phase>Phase 1/Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Part A: Plasma Pharmacokinetics of SOF, EFV, Tenofovir (TFV), and FTC: AUCtau at Day 7</measure>
+    <time_frame>Pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 10, 12 hours postdose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>AUCtau: concentration of drug over time (area under the plasma concentration versus time curve over the dosing interval).
+Data for this outcome measure were collected for participants in Part A only.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Part A: Plasma Pharmacokinetics of SOF, EFV, TFV, and FTC: Cmax at Day 7</measure>
+    <time_frame>Pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 10, 12 hours postdose</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Cmax: maximum observed concentration of drug in plasma.
+Data for this outcome measure were collected for participants in Part A only.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Part B: Percentage of Participants With Sustained Virologic Response (SVR) at 12 Weeks After Discontinuation of Therapy (SVR12)</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as HCV RNA &lt; the lower limit of quantitation (LLOQ; ie, 25 IU/mL) at 12 weeks after stopping study treatment.
+Data for this outcome measure were collected for participants in Part B only.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Incidence of Adverse Events Leading to Permanent Discontinuation of Study Drug(s)</measure>
+    <time_frame>Up to 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The percentage of participants discontinuing any study drug due to an adverse event was summarized.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Part B: Percentage of Participants With Sustained Virologic Response at 4 and 24 Weeks After Discontinuation of Therapy (SVR4 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR4 and SVR24 was defined as HCV RNA &lt; LLOQ at 4 and 24 weeks following the last dose of study drug, respectively.
+Data for this outcome measure were collected for participants in Part B only.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Part B: Percentage of Participants Experiencing Viral Breakthrough or Viral Relapse</measure>
+    <time_frame>Posttreatment Weeks 4 and 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Viral breakthrough was defined as having confirmed detectable HCV RNA levels (HCV RNA &gt; LLOQ) on treatment after having previously had undetectable HCV RNA levels (HCV RNA &lt; LLOQ) while on treatment.
+Viral relapse was defined as having achieved undetectable HCV RNA levels (HCV RNA &lt; LLOQ) at end of treatment, but did not achieve an SVR.
+Data for this outcome measure were collected for participants in Part B only.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Part B: On-treatment HCV RNA</measure>
+    <time_frame>Up to 8 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data for this outcome measure were collected for participants in Part B only.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Part B: On-treatment HIV RNA</measure>
+    <time_frame>Up to 8 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Data for this outcome measure were collected for participants in Part B only.</description>
+  </other_outcome>
+  <number_of_arms>6</number_of_arms>
+  <enrollment type="Actual">52</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>HIV</condition>
+  <arm_group>
+    <arm_group_label>Part A: SOF+EFV/FTC/TDF (Cohort 1)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with a prestudy regimen of EFV/FTC/TDF will receive SOF+EFV/FTC/TDF FDC for 7 days, followed by EFV/FTC/TDF FDC (or EFV+FTC/TDF) for 7 days, coadministered once daily in the evening under fasting conditions.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part A: SOF+EFV+ZDV/3TC (Cohort 2)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with a prestudy regimen of EFV+ZDV/3TC will receive SOF+EFV+ZDV/3TC for 7 days followed by EFV+ZDV/3TC for 7 days. Sofosbuvir and EFV will be administered once daily in the evening under fasting conditions; ZDV/3TC will be administered twice daily, in the morning without regard to food and in the evening on an empty stomach.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part A: SOF+RTV+ATV+FTC/TDF (Cohort 3)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with a prestudy regimen of RTV+ATV+FTC/TDF will receive SOF+RTV+ATV+FTC/TDF for 7 days followed by RTV+ATV+FTC/TDF for 7 days coadministered once daily in the morning with food.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part A: SOF+RTV+DRV+FTC/TDF (Cohort 4)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with a prestudy regimen of RTV+DRV+FTC/TDF will receive SOF+RTV+DRV+FTC/TDF for 7 days followed by RTV+DRV+FTC/TDF for 7 days coadministered once daily in the morning with food.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part A: SOF+RAL+FTC/TDF (Cohort 5)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with a prestudy regimen of RAL+FTC/TDF will receive SOF+RAL+FTC/TDF for 7 days followed by RAL+FTC/TDF for 7 days. Sofosbuvir and FTC/TDF will be administered once daily in the morning with food; RAL will be administered twice daily, in the morning with food and in the evening without regard to food.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part B: SOF+PEG+RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants will receive SOF+PEG+RBV for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>SOF</intervention_name>
+    <description>Sofosbuvir (SOF) 400 mg (1 × 400 mg tablet or 2 × 200 mg tablets) administered orally once daily</description>
+    <arm_group_label>Part A: SOF+EFV/FTC/TDF (Cohort 1)</arm_group_label>
+    <arm_group_label>Part A: SOF+EFV+ZDV/3TC (Cohort 2)</arm_group_label>
+    <arm_group_label>Part A: SOF+RTV+ATV+FTC/TDF (Cohort 3)</arm_group_label>
+    <arm_group_label>Part A: SOF+RTV+DRV+FTC/TDF (Cohort 4)</arm_group_label>
+    <arm_group_label>Part A: SOF+RAL+FTC/TDF (Cohort 5)</arm_group_label>
+    <arm_group_label>Part B: SOF+PEG+RBV</arm_group_label>
+    <other_name>Sovaldi®</other_name>
+    <other_name>GS-7977</other_name>
+    <other_name>PSI-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>EFV/FTC/TDF</intervention_name>
+    <description>Efavirenz (EFV) 600 mg/emtricitabine (FTC) 200 mg/tenofovir disoproxil fumarate (TDF) 300 mg fixed-dose combination (FDC) tablet administered orally once daily</description>
+    <arm_group_label>Part A: SOF+EFV/FTC/TDF (Cohort 1)</arm_group_label>
+    <other_name>Atripla®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>EFV</intervention_name>
+    <description>Efavirenz (EFV) 600 mg tablet administered orally once daily</description>
+    <arm_group_label>Part A: SOF+EFV+ZDV/3TC (Cohort 2)</arm_group_label>
+    <other_name>Sustiva®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ZDV/3TC</intervention_name>
+    <description>Zidovudine (ZDV) 300 mg/lamivudine (3TC) 150 mg FDC tablet administered orally twice daily</description>
+    <arm_group_label>Part A: SOF+EFV+ZDV/3TC (Cohort 2)</arm_group_label>
+    <other_name>Combivir®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ATV</intervention_name>
+    <description>Atazanavir (ATV) 400 mg tablet administered orally once daily</description>
+    <arm_group_label>Part A: SOF+RTV+ATV+FTC/TDF (Cohort 3)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ritonavir</intervention_name>
+    <description>Ritonavir (RTV) 100 mg tablet administered orally once daily</description>
+    <arm_group_label>Part A: SOF+RTV+ATV+FTC/TDF (Cohort 3)</arm_group_label>
+    <arm_group_label>Part A: SOF+RTV+DRV+FTC/TDF (Cohort 4)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>FTC/TDF</intervention_name>
+    <description>FTC/TDF (200/300 mg) FDC tablet administered orally once daily</description>
+    <arm_group_label>Part A: SOF+RTV+ATV+FTC/TDF (Cohort 3)</arm_group_label>
+    <arm_group_label>Part A: SOF+RTV+DRV+FTC/TDF (Cohort 4)</arm_group_label>
+    <arm_group_label>Part A: SOF+RAL+FTC/TDF (Cohort 5)</arm_group_label>
+    <other_name>Truvada®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DRV</intervention_name>
+    <description>Darunavir (DRV) 800 mg (2 × 400 mg tablets) administered orally once daily</description>
+    <arm_group_label>Part A: SOF+RTV+DRV+FTC/TDF (Cohort 4)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RAL</intervention_name>
+    <description>Raltegravir (RAL) 400 mg administered administered orally twice daily</description>
+    <arm_group_label>Part A: SOF+RAL+FTC/TDF (Cohort 5)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG</intervention_name>
+    <description>Pegylated interferon alfa (PEG) 180 μg administered once weekly by subcutaneous injection</description>
+    <arm_group_label>Part B: SOF+PEG+RBV</arm_group_label>
+    <other_name>Pegasys®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>Ribavirin (RBV) tablets administered orally in a divided daily dose according to package insert weight-based dosing recommendations (&lt; 75kg = 1000 mg and ≥ 75 kg = 1200 mg)</description>
+    <arm_group_label>Part B: SOF+PEG+RBV</arm_group_label>
+    <other_name>Ribasphere®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Healthy according to medical history and physical examination with exception of HCV
+             and HIV diagnoses
+
+          -  Confirmation of Chronic HCV infection
+
+          -  Confirmation of Chronic HIV-1 infection
+
+          -  On a stable protocol approved HIV antiretroviral (ARV) regimen with undetectable
+             HIV-RNA
+
+          -  Agree to use two forms of highly effective contraception for the duration of the
+             study and 6 months after the last dose of study medication
+
+          -  Subjects must be naive to treatment for chronic HCV infection
+
+        Exclusion Criteria:
+
+          -  Known or suspected cirrhosis
+
+          -  History of any other clinically significant chronic liver disease
+
+          -  A history consistent with decompensated liver disease.
+
+          -  Use of any prohibited medications as defined by the protocol
+
+          -  Pregnant or nursing female or male with pregnant female partner
+
+          -  Contraindication to PEG or RBV therapy (for Part B)
+
+          -  Clinically relevant drug or alcohol abuse
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>21 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anuj Gaggar, MD/PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Fundacion de Investigacion de Diego</name>
+      <address>
+        <city>San Juan</city>
+        <zip>00927</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+  </location_countries>
+  <verification_date>September 2014</verification_date>
+  <lastchanged_date>September 25, 2014</lastchanged_date>
+  <firstreceived_date>March 27, 2012</firstreceived_date>
+  <firstreceived_results_date>August 28, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Emtricitabine</mesh_term>
+    <mesh_term>Ritonavir</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

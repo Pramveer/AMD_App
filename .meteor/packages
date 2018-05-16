@@ -1,0 +1,66 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base@1.0.4             # Packages every Meteor app needs to have
+mobile-experience@1.0.4       # Packages for a great mobile UX
+mongo@1.1.11                   # The database Meteor supports right now
+blaze-html-templates@1.0.4    # Compile .html files into Meteor Blaze views
+session@1.1.6                 # Client-side reactive dictionary for your app
+jquery@1.11.9                  # Helpful client-side library
+tracker@1.1.0                 # Meteor's client-side reactive programming library
+
+es5-shim@4.6.14                # ECMAScript 5 compatibility for older browsers.
+ecmascript@0.5.8              # Enable ECMAScript2015+ syntax in app code
+
+# autopublish           # Publish all data to the clients (for prototyping)
+# insecure              # Allow all DB writes from clients (for prototyping)
+iron:router
+fortawesome:fontawesome # For scalable vector icons, customizable via CSS, Retina friendly
+ numtel:mysql           # For Database connectivity with MySQL db
+# meteorhacks:npm
+# npm-container
+d3js:d3                 # Generate Bar, Pie, Multibar chart to represent visualize data
+emdagon:c3js            # Plug in for create easy way to generate D3 graphs
+usefulio:sync-methods   # Return response callback for server method call
+momentjs:moment         # Datetime utility plugin
+sewdn:masked-input      # Plug in for Masking input form value
+sergeyt:dimple
+email@1.1.17                   # For send email from application
+meteorhacks:ssr         # For complile email template server side
+#alethes:pages           # Pagination plugin
+#themeteorchef:jquery-validation #jQuery Validation for Meteor
+accounts-ui@1.1.9             # For Authintication in meteor with basic Accounts package
+alanning:roles          # For Role management with mongo
+#juliancwirko:s-alert    # Simple and fancy notifications for Meteor
+ovcharik:alertifyjs     #pretty browser dialogs and notifications
+aramk:rangeslider
+juliancwirko:s-alert
+juliancwirko:s-alert-bouncyflip
+reactive-var@1.0.10
+
+
+#kylemit:yui
+
+#meteorhacks:kadira
+standard-minifier-css
+standard-minifier-js
+shell-server
+jeremy:selectize
+#kadira:debug
+#meteorhacks:kadira-profiler
+#bootswatch:readable
+ground:minimax
+nunohvidal:lz-string
+#tomi:upload-jquery
+#tomi:upload-server
+http
+#meteorhacks:npm
+
+
+#npm-container
+#runisland:static-assets
+#edgee:slingshot
+okgrow:analytics

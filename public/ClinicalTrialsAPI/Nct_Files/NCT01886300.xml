@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="275">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01886300</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML27807</org_study_id>
+    <nct_id>NCT01886300</nct_id>
+  </id_info>
+  <brief_title>An Observational Study of Pegasys (Peginterferon Alfa-2a) in Patients With HBeAg-Positive Chronic Hepatitis B in Vietnam</brief_title>
+  <official_title>A Multicenter, Prospective, Observational, Non-Interventional Cohort Study Evaluating Sustained Response in Subjects With HBeAg Positive Chronic Hepatitis B Receiving Therapy With Pegasys (Peginterferon Alfa-2a) in Vietnam</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Vietnam: Ministry of Health - Department of Scientific Technology and Training</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This prospective, multicenter, observational study will evaluate the sustained response in
+      patients with HBeAg positive chronic hepatitis B who are treated with Pegasys according to
+      standard of care and in line with the current local labeling in routine clinical practice in
+      Vietnam. Eligible patients will be followed for the duration of their treatment and for up
+      to 2 years thereafter.
+    </textblock>
+  </brief_summary>
+  <overall_status>Terminated</overall_status>
+  <why_stopped>
+    Due to out-of-date design and non-compliance.
+  </why_stopped>
+  <start_date>September 2012</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Sustained off-treatment response rate (based on HBeAg seroconversion) at 6 months after the end of treatment</measure>
+    <time_frame>approximately 2.5 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sustained off-treatment response rate (based on HBeAg seroconversion) at 12 months after the end of treatment</measure>
+    <time_frame>approximately 2.5 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with suppression of HBV DNA to &lt; 2,000 IU/mL during the observation period</measure>
+    <time_frame>approximately 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of HBsAg clearance</measure>
+    <time_frame>approximately 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Incidence of normalization of serum ALT</measure>
+    <time_frame>approximately 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">16</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with HBeAg-positive chronic hepatitis B treated with Pegasys
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients, &gt;/= 18 years of age
+
+          -  HBeAg-positive serologically proven chronic hepatitis B with or without cirrhosis
+
+          -  Elevated serum ALT &gt; ULN (upper limit of normal) but &lt;/= 10 x ULN
+
+          -  Patients with no contra-indications to Pegasys therapy as detailed in the label
+
+          -  Written informed consent where local regulations allow or require it
+
+        Exclusion Criteria:
+
+          -  Patients should not receive concomitant therapy with telbivudine
+
+          -  Co-infection with hepatitis A, hepatitis B or HIV
+
+          -  Pregnant or breastfeeding women
+
+          -  Patients with depression/mental diseases
+
+          -  Neutrophil at baseline &gt; 90.000/mm3
+
+          -  Abnormal T4 or TSH
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Hanoi</city>
+        <country>Vietnam</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ho Chi Minh City</city>
+        <zip>District 5</zip>
+        <country>Vietnam</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hochiminh city</city>
+        <country>Vietnam</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Vietnam</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 2, 2015</lastchanged_date>
+  <firstreceived_date>June 21, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

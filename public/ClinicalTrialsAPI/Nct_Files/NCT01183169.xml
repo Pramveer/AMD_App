@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="126">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01183169</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CDEB025A2210</org_study_id>
+    <secondary_id>2010-020033-14</secondary_id>
+    <nct_id>NCT01183169</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of DEB025 Combined With Peg-IFN Alfa-2a and Ribavirin in Chronic Hepatitis C Genotype 1 Relapsers and Non-responders</brief_title>
+  <official_title>A Multicentre, Randomized, Double-blind, Placebo-controlled, Parallel-group Phase II Study on Efficacy and Safety of DEB025 Combined With Peg-IFN Alfa-2a and Ribavirin in Chronic Hepatitis C Genotype 1 Relapsers and Non-responders to Previous Peg-IFN Alfa-2 Plus Ribavirin Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Novartis Pharmaceuticals</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Novartis</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <authority>Belgium: Federal Agency for Medicinal Products and Health Products</authority>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Hungary: National Institute of Pharmacy</authority>
+    <authority>Italy: Ministry of Health</authority>
+    <authority>Poland: Office for Registration of Medicinal Products, Medical Devices and Biocidal Products</authority>
+    <authority>Romania: National Medicines Agency</authority>
+    <authority>Spain: Spanish Agency of Medicines</authority>
+    <authority>Taiwan: Department of Health</authority>
+    <authority>Turkey: Ministry of Health</authority>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is to investigate whether HCV GT1 patients with a history of non-response/relapse
+      to PegIFN + RBV benefit from treatment with triple therapy of DEB025 plus Peg-IFN and
+      ribavirin compared to triple treatment with placebo matching DEB025 plus Peg-IFN and
+      ribavirin
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2010</start_date>
+  <completion_date type="Actual">May 2013</completion_date>
+  <primary_completion_date type="Actual">May 2013</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>cEVR (complete early virologic response) i.e. HCV RNA &lt; 25 IU/mL (by Limit of Quantitation, LOQ) ; the primary efficacy comparison is between DEB025 active plus peg-IFNα2a once weekly + RBV BID and DEB025 placebo plus peg-IFNα2a once weekly + RBV BID</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>SVR12: sustained virologic response 12 weeks following cessation of therapy, defined as HCV RNA negative (by LOQ)</measure>
+    <time_frame>12 weeks post treatment</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>cEVR after 12 week triple therapy with 600 mg DEB025 daily plus peg-IFNα2a once weekly + RBV BID versus 800 mg daily plus peg-IFNα2a once weekly + RBV BID versus 400 mg BID plus peg-IFNα2a once weekly + RBV BID.</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Actual">459</enrollment>
+  <condition>Hepatitis C Chronic</condition>
+  <arm_group>
+    <arm_group_label>Treatment A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>DEB025 600 mg QD + peg-IFNα2a once weekly + RBV BID</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>DEB025 800 mg QD + peg-IFNα2a once weekly + RBV BID</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment C1</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Patients will change to active treatment if cEVR not reached), with delayed onset of DEB025 600 mg QD + PegIFN + RBV treatment due to non-response to placebo + PegIFN + RBV)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment C2</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Patients will change to active treatment if cEVR not reached), with delayed onset of DEB025 400 mg QD + PegIFN + RBV treatment due to non-response to placebo + PegIFN + RBV)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Treatment D</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>DEB025 400 mg BID + peg-IFNα2a once weekly + RBV BID</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 600 mg QD + PegIFN + RBV</intervention_name>
+    <description>DEB025 600 mg QD + peg-IFNα2a once weekly + RBV BID</description>
+    <arm_group_label>Treatment A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 800 mg QD + PegIFN + RBV</intervention_name>
+    <description>DEB025 800 mg QD + peg-IFNα2a once weekly + RBV BID</description>
+    <arm_group_label>Treatment B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>placebo + PegIFN + RBV</intervention_name>
+    <description>Patients will change to active treatment if cEVR not reached), with delayed onset of DEB025 600 mg QD + PegIFN + RBV treatment due to non-response to placebo + PegIFN + RBV)</description>
+    <arm_group_label>Treatment C1</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>placebo + PegIFN + RBV</intervention_name>
+    <description>Patients will change to active treatment if cEVR not reached), with delayed onset of DEB025 400 mg BID + PegIFN + RBV treatment due to non-response to placebo + PegIFN + RBV)</description>
+    <arm_group_label>Treatment C2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>DEB025 400 mg BID + PegIFN + RBV</intervention_name>
+    <description>DEB025 400 mg BID + peg-IFNα2a once weekly + RBV BID</description>
+    <arm_group_label>Treatment D</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+        Chronic hepatitis C G1 viral infection; Plasma HCV RNA level lower limit ≥ 1,000 IU/ml
+        assessed by qPCR (quantitative polymerase chain reaction) or equivalent at screening, no
+        upper limit; HCV genotype 1; Previous non-responders/relapsers to PegIFN + RBV after
+        treatment for at least 12 weeks.
+
+        Exclusion criteria:
+
+        Treatment with any anti-HCV drug (whether approved or investigational) within 3 months
+        prior to screening; Women of child-bearing potential (WOCBP), defined as all women
+        physiologically capable of becoming pregnant, UNLESS they are using a highly effective
+        contraception; Any other cause of relevant liver disease other than HCV; Other
+        protocol-defined inclusion/exclusion criteria may apply.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Novartis Pharmaceuticals</last_name>
+    <role>Study Director</role>
+    <affiliation>Novartis Pharmaceuticals</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Ventura</city>
+        <state>California</state>
+        <zip>93003</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bradenton</city>
+        <state>Florida</state>
+        <zip>34209</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32804</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33607</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96814</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96817</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Springfield</city>
+        <state>Illinois</state>
+        <zip>62703</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Topeka</city>
+        <state>Kansas</state>
+        <zip>66606</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Springfield</city>
+        <state>Massachusetts</state>
+        <zip>01107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Egg Harbor Twp</city>
+        <state>New Jersey</state>
+        <zip>08234</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Brooklyn</city>
+        <state>New York</state>
+        <zip>11230</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Arlington</city>
+        <state>Texas</state>
+        <zip>76012</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75246-2096</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Kingswood</city>
+        <state>New South Wales</state>
+        <zip>2747</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Kogarah</city>
+        <state>New South Wales</state>
+        <zip>2217</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Westmead</city>
+        <state>New South Wales</state>
+        <zip>2145</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Clayton</city>
+        <state>Victoria</state>
+        <zip>3168</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Fitzroy</city>
+        <state>Victoria</state>
+        <zip>3065</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bruxelles</city>
+        <zip>1070</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Nice Cedex 3</city>
+        <zip>06202</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Paris</city>
+        <zip>75006</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Berlin</city>
+        <zip>10969</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Frankfurt</city>
+        <zip>60590</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Freiburg</city>
+        <zip>79106</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20099</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Köln</city>
+        <zip>50937</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Leipzig</city>
+        <zip>04103</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bekescsaba</city>
+        <zip>H-5600</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1083</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1126</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Debrecen</city>
+        <zip>4032</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Kaposvár</city>
+        <zip>7400</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Szekesfehervar</city>
+        <zip>8000</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Antella - Bagno a Ripoli</city>
+        <state>FI</state>
+        <zip>50012</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Palermo</city>
+        <state>PA</state>
+        <zip>90127</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Padova</city>
+        <state>PD</state>
+        <zip>35128</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Parma</city>
+        <state>PR</state>
+        <zip>43100</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Roma</city>
+        <state>RM</state>
+        <zip>00161</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bologna</city>
+        <zip>40138</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bialystok</city>
+        <zip>15-540</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Lódz</city>
+        <zip>91-347</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Warszawa</city>
+        <zip>01-201</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>San Juan</city>
+        <zip>00909</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bucharest</city>
+        <state>District 1</state>
+        <zip>050526</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bucharest</city>
+        <state>District 3</state>
+        <zip>030317</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bucharest</city>
+        <zip>020125</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Bucharest</city>
+        <zip>021105</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Iasi</city>
+        <zip>700506</zip>
+        <country>Romania</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Sevilla</city>
+        <state>Andalucia</state>
+        <zip>41014</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalunya</state>
+        <zip>08003</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalunya</state>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Barcelona</city>
+        <state>Catalunya</state>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Majadahonda</city>
+        <state>Madrid</state>
+        <zip>28222</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28029</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Taipei</city>
+        <state>Taiwan, ROC</state>
+        <zip>112</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Kaohsiung</city>
+        <zip>807</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Keelung City</city>
+        <zip>20401</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Lin-Ko</city>
+        <zip>33305</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Niaosong Township</city>
+        <zip>83301</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Taipei</city>
+        <zip>10002</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Yun-Lin</city>
+        <zip>640</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Ankara</city>
+        <zip>06100</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Ankara</city>
+        <zip>06800</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Fatih / Istanbul</city>
+        <zip>34098</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Izmir</city>
+        <zip>35040</zip>
+        <country>Turkey</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <zip>E1 1BB</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <zip>NW3 2PR</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>London</city>
+        <zip>W2 1NY</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Novartis Investigative Site</name>
+      <address>
+        <city>Nottingham</city>
+        <zip>NG7 2UH</zip>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+    <country>Belgium</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Hungary</country>
+    <country>Italy</country>
+    <country>Poland</country>
+    <country>Puerto Rico</country>
+    <country>Romania</country>
+    <country>Spain</country>
+    <country>Taiwan</country>
+    <country>Turkey</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 19, 2015</lastchanged_date>
+  <firstreceived_date>August 16, 2010</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <keyword>chronic</keyword>
+  <keyword>controlled clinical trials</keyword>
+  <keyword>randomized</keyword>
+  <keyword>peginterferon alfa2a</keyword>
+  <keyword>ribavirin</keyword>
+  <keyword>cyclophilin inhibitor</keyword>
+  <keyword>DEB025</keyword>
+  <keyword>genotype 1</keyword>
+  <keyword>HCV</keyword>
+  <keyword>viral infection</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Glomerular Filtration Rate (GFR) Estimate by MDRD 4-Variable Equation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href='../tipTip.css' rel='stylesheet' type='text/css'>
+<link href='cal.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../vendors-min.js"></script>
+<script type="text/javascript" src="cal.js"></script>
+
+	
+</head>
+<body style="font-family:Lucida Grande,Verdana,sans-serif; font-size: 12px; color: #333; ">  
+<div class="inner"><h1 class="title">Glomerular Filtration Rate (GFR) Estimate by MDRD 4-Variable Equation</h1><div class="content"><div class="content-included">
+<div id="tool_bmi" class="tool tool-bmi">
+	
+	<div class="tool-container container-sex">
+		<h3>Sex:
+		<div class="tool-option">
+			<input type="radio" name="sex" value="1" id="sex_male" class="tool-check">
+			<label for="sex_male">Male</label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="sex" value="0.742" id="sex_female" class="tool-check">
+			<label for="sex_female">Female</label>
+		</div>
+		</h3>
+	</div>
+	
+	<div class="tool-container container-age">
+		<h3>Age <em>(years)</em>:</h3>
+		<input type="number" name="age" id="age" class="tool-input empty" title="Enter a Value" value="" min="0" step="1">
+	</div>
+	
+	<div class="tool-container container-race">
+		<h3>Black Race:
+		<div class="tool-option">
+			<input type="radio" name="race" value="1.212" id="race_black" class="tool-check">
+			<label for="race_black">Yes</label>
+		</div>
+		<div class="tool-option">
+			<input type="radio" name="race" value="1" id="race_no" class="tool-check">
+			<label for="race_no">No</label>
+		</div>
+		</h3>
+	</div>
+	
+	<div class="tool-container container-creatinine">
+		<h3>Serum Creatinine <em>(mg/dL)</em>:</h3>
+		<input type="number" name="creatinine" id="creatinine" class="tool-input empty" title="Enter a Value" value="" min="0" step="0.1">
+		<div class="tool-elem tool-elem-plus">+</div>
+	</div>
+	
+	<div class="tool-container container-result">
+		<div class="tool-result">
+			<span class="prefix">GFR:</span><span class="figure"></span><span class="units">mL/min/1.73 m<sup>2</sup></span></div>
+	</div>
+</div>
+
+<div class="content">
+<p><br></p>
+<h3 class="title">MDRD 4-variable GFR Equation</h3>
+<p>GFR in mL/min per 1.73 m<sup>2</sup> = 175 x SerumCr<sup>-1.154</sup> x age<sup>-0.203</sup> x 1.212 (if patient is black) x 0.742 (if female)</p>
+
+<p>Note: The original Modification of Diet in Renal Disease (MDRD) equation was based on 6 variables: age, sex, ethnicity, serum creatinine, urea, and albumin (often referred to as MDRD 6). Subsequently, the MDR was simplified to a 4-variable version (MDRD-4) that included age, sex, ethnicity, and serum creatinine. This 4-variable version was later reexpressed using serum creatinine values that were standardized to reference methods.  The equation shown here is the reexpressed 4-variable MDRD equation. </p>
+
+<p><strong>Sources</strong>: 
+</p><ul>
+<li>Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Modification of Diet in Renal Disease Study Group. Ann Intern Med. 1999;130:461-70.</li>
+<li>Levey AS, Coresh J, Greene T, et al. Using standardized serum creatinine values in the modification of diet in renal disease study equation for estimating glomerular filtration rate. Ann Intern Med. 2006;145:247-54.</li>
+</ul>
+
+</div></div></div></div>
+</body>
+</html>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="38">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00800748</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML19387</org_study_id>
+    <secondary_id>2005-003932-23</secondary_id>
+    <nct_id>NCT00800748</nct_id>
+  </id_info>
+  <brief_title>A Study of Combination Treatment With Peginterferon Alfa-2a (Pegasys) Plus Ribavirin (Copegus) in Participants With Chronic Hepatitis C</brief_title>
+  <official_title>An Open, Phase IV, Multicentric Study, Evaluating Safety and Efficacy of Ribavirin (Copegus®) and Peginterferon Alfa-2a (Pegasys®) Combination in Specific Groups</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Czech Republic: State Institute for Drug Control</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This 3 arm study will assess the safety and efficacy of combination treatment with
+      peginterferon alfa-2a + ribavirin in participants with chronic hepatitis C. Three groups of
+      participants will be studied; 1) those with elevated alanine transaminase (ALT) level, 2)
+      those with normal ALT level, and 3) those with human immunodeficiency virus (HIV)
+      co-infection. Participants with genotype 1, 4, 5 or 6 will receive peginterferon alfa-2a 180
+      micrograms (mcg) subcutaneous (SC) once weekly (qw) + ribavirin 1000-1200 milligrams (mg)
+      orally (PO) daily (dependent on body weight) for 48 weeks, those with genotype 2 or 3 will
+      receive peginterferon alfa-2a 180 mcg SC qw + ribavirin 800 mg PO daily for 24 weeks, and
+      all participants with HIV co-infection will receive peginterferon alfa-2a 180 mcg SC qw +
+      ribavirin 800 mg PO daily for 48 weeks. The anticipated time on study treatment is 48 weeks,
+      and the target sample size is 300 individuals.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2006</start_date>
+  <completion_date type="Actual">August 2010</completion_date>
+  <primary_completion_date type="Actual">August 2010</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Incidence of adverse events</measure>
+    <time_frame>up to approximately 3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with sustained viral response</measure>
+    <time_frame>24 weeks after the end of treatment (Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with viral response rate</measure>
+    <time_frame>Week 12 after the end of treatment (Week 48)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">373</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with genotype 1, 4, 5 or 6 will receive peginterferon alfa-2a 180 mcg SC qw + ribavirin 1000-1200 mg PO daily (dependent on body weight) for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with with genotype 2 or 3 will receive peginterferon alfa-2a 180 mcg SC qw + ribavirin 800 mg PO daily for 24 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group C</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with HIV co-infection will receive peginterferon alfa-2a 180 mcg SC qw + ribavirin 800 mg PO daily for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2a</intervention_name>
+    <description>Peginterferon alfa-2a will be administered at a dose of 180 mcg SC weekly for 48 weeks to participants with genotype 1, 2, 3, 4, 5, 6 and to particpants with HIV co-infection, or for 24 weeks to participants with genotype 2, and 3.</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_label>Group C</arm_group_label>
+    <other_name>Pegasys</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Ribavirin will be administered at a dose of 1000-1200 mg PO daily for 48 weeks to participants with genotype 1, 4, 5, 6 or 800mg po daily for 24 weeks to participants with genotype 2, and 3.</description>
+    <arm_group_label>Group A</arm_group_label>
+    <arm_group_label>Group B</arm_group_label>
+    <arm_group_label>Group C</arm_group_label>
+    <other_name>Copegus</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult participants, greater than or equal to (&gt;=) 18 years of age
+
+          -  Chronic hepatitis C, with detectable serum hepatitie C virus (HCV) ribonucleic acid
+             (RNA)
+
+          -  Scheduled for treatment with peginterferon alfa-2a
+
+          -  Compensated liver disease
+
+          -  Women in fertile age must be informed about obligation of using adequate
+             contraception during and 6 month post treatment with ribavirin (Copegus®)
+
+          -  Men with a sexual partner in fertile age must be informed about obligatory
+             contraception preventing pregnancy during the course of treatment with ribavirin
+             (Copegus®)as well as 6 months after treatment cessation
+
+          -  Female participants in the study must have a negative pregnancy test performed not
+             sooner than within 2 weeks preceding the planned inclusion to the study
+
+          -  Men with a sexual partner in fertile age must produce a negative result of the
+             partner's pregnancy test performed not sooner than within 2 weeks preceding the
+             planned partner's inclusion to the study
+
+        Exclusion Criteria:
+
+          -  Chronic liver disease other than chronic hepatitis C
+
+          -  Active hepatitis A virus or hepatitis B virus infection
+
+          -  Therapy with any systemic antiviral, antineoplastic or immunomodulatory treatment
+             less than or equal to (&lt;=) 6 months prior to first dose of study drug
+
+          -  Hemoglobin &lt;120 grams per liter (g/L) in female subjects or &lt;130 g/L in male subjects
+             (the result must not be older than 2 weeks prior to inclusion to the study)
+
+          -  The platelet count &lt;90 x 10^9/liter (the result must not be older than 2 weeks prior
+             to inclusion to the study
+
+          -  Neutrofils count &lt;1.5 x 10^9/liter (the result must not be older than 2 weeks prior
+             to inclusion to the study)
+
+          -  Subjects with increased risk of anaemia, or subjects, at risk of serious health
+             problems resulting from anaemia or decrease of hemoglobin (e.g., subjects with
+             serious cardiovascular or cerebrovascular disease)
+
+          -  History or presence of a serious mental disease, especially depression, which,
+             according to investigator's opinion, does not allow administration of peginterferon
+             alfa-2a (Pegasys®)
+
+          -  History or presence of a disease consequent to immunodeficiency (e.g., inflammatory
+             diseases of intestine, idiopathic thrombocytopenic purpura, systemic lupus
+             erythematodes, rheumatoid arthritis)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Beroun</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Brno</city>
+        <zip>62500</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ceska Lipa</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ceské Budejovice</city>
+        <zip>370 87</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chomutov</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Decin</city>
+        <zip>0</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Havirov</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Havlickuv Brod</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hradec Kralove</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Hradec Kralove</city>
+        <zip>500 12</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jablonec/nisou</city>
+        <zip>466 60</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jihlava</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Karlovy Vary</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kolin</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Liberec</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Melnik</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Most</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Olomouc</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Opava</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ostrava</city>
+        <zip>708 52</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pardubice</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Praha 2</city>
+        <zip>128 08</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Praha</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Praha</city>
+        <zip>00000</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Praha</city>
+        <zip>140 00</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Praha</city>
+        <zip>180 01</zip>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Prostejov</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Usti Nad Labem</city>
+        <country>Czech Republic</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Banska Bystrica</city>
+        <zip>957 17</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bratislava</city>
+        <zip>833 05</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bratislava</city>
+        <zip>851 07</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kosice</city>
+        <zip>040 01</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kosice</city>
+        <zip>04001</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Martin</city>
+        <zip>036 59</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Trencin</city>
+        <zip>911 07</zip>
+        <country>Slovakia</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Czech Republic</country>
+    <country>Slovakia</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>December 1, 2008</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

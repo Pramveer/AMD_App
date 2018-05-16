@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="34">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00457418</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04831</org_study_id>
+    <nct_id>NCT00457418</nct_id>
+  </id_info>
+  <brief_title>High-Dose PEG-Intron Pharmacokinetic Study in Patients With Melanoma (Study P04831 AM2)</brief_title>
+  <official_title>A Pharmacokinetic Study of PEG-Intron, Administered Weekly in Subjects With High-Risk Melanoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to establish the pharmacokinetics of PEG-Intron, administered
+      at a dose of 6 μg/kg/week for 8 weeks (induction treatment), followed by a dose of 3
+      μg/kg/week for up to 252 weeks (maintenance treatment), in patients with high risk melanoma.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>February 2007</start_date>
+  <completion_date type="Actual">July 2012</completion_date>
+  <primary_completion_date type="Actual">May 2008</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Pharmacokinetics Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Area Under the Curve (AUC) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>AUC was defined as the actual body exposure to drug after administration of a dose of the drug.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Maximum Serum Concentration (Cmax) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Cmax was defined as observed maximum plasma concentration.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Average Concentration Within the Dosing Interval (Cavg) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Cavg was defined as average plasma concentration.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Minimum Serum Concentration (Cmin) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Cmin was defined as observed minimum plasma concentration.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Observed Time to Achieve Cmax (Tmax) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Tmax was defined as time of maximum plasma concentration.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Apparent Clearance(CL/F) of PEG-Intron at 12 Weeks</measure>
+    <time_frame>Predose, and 24, 48, 72, 96, and 168 hours postdose at 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>CL/F was defined apparent clearance - the volume of plasma in the vascular compartment cleared of drug per unit of time and per kilogram of body weight by the processes of metabolism and excretion.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Experienced an Adverse Event (AE)</measure>
+    <time_frame>Entire study duration (up to 5 years)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse event (AE) was defined as any untoward medical occurrence or unfavorable and unintended sign in a subject administered a pharmaceutical product, biologic (at any dose), or medical device, whether or not considered related to the use of that product.</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">32</enrollment>
+  <condition>Melanoma</condition>
+  <arm_group>
+    <arm_group_label>PEG-Intron</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>6 ug/kg/week, SC (first 8 weeks)
+3 ug/kg/week, SC (252 weeks [weeks 9-260], maintenance)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PEG-Intron</intervention_name>
+    <arm_group_label>PEG-Intron</arm_group_label>
+    <other_name>SCH 054031</other_name>
+    <other_name>peginterferon alfa-2b</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Subjects at least 18 years of age, of either sex, and of any race.
+
+          -  Cytologically or histologically-confirmed melanoma, arising from a cutaneous or
+             unknown site of origin, at Stages IIB, IIC, IIIA, IIIB, IIIC according to the
+             American Joint Committee on Cancer (AJCC) 2001 guidelines.
+
+          -  Adequate hepatic, renal and bone marrow function within 4 weeks prior to initiation
+             of study treatment.
+
+          -  Subjects presenting with synchronous primary and regional melanoma must have had
+             adequate surgical margins surrounding the primary lesion.
+
+          -  Full lymphadenectomy must be performed within 90 days prior to initiation of study
+             treatment.
+
+          -  Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.
+
+          -  Give informed consent according to International Conference on Harmonisation - Good
+             Clinical Practice (ICH-GCP) and national/local policy.
+
+          -  Be able to adhere to dose and visit schedules.
+
+          -  Female subjects of childbearing potential must be using a medically accepted method
+             of birth control prior to Screening and agree to continue its use during the study or
+             be surgically sterilized.
+
+          -  Female subjects of childbearing potential must have a negative serum pregnancy test
+             at Screening.
+
+        Exclusion Criteria:
+
+          -  Female subjects who are pregnant, intend to become pregnant, or are breastfeeding.
+
+          -  Previous treatment with interferon alpha, chemotherapy or immunotherapy for melanoma.
+
+          -  Ocular melanoma, or melanoma of the mucous membranes.
+
+          -  Evidence of distant or non-regional lymph node metastases.
+
+          -  In-transit melanoma, even if the lesion has been resected.
+
+          -  Disease that cannot be completely surgically resected.
+
+          -  Lack of recovery from recent surgery.
+
+          -  Prior malignancy within the past 5 years, except surgically cured squamous cell
+             carcinoma of the skin, successfully resected early stage cutaneous melanoma, or
+             cervical carcinoma in situ.
+
+          -  Severe cardiovascular disease.
+
+          -  Thyroid dysfunction not responsive to therapy.
+
+          -  Uncontrolled diabetes mellitus (in the opinion of the investigator).
+
+          -  Active autoimmune disease.
+
+          -  Active and/or uncontrolled infection.
+
+          -  History of seropositivity for human immunodeficiency virus (HIV).
+
+          -  Pre-existing psychiatric condition.
+
+          -  Clinical diagnosis of substance abuse of one or more of the following drugs within
+             the following timeframes (excluding time spent in detoxification, hospitalization or
+             incarceration):
+
+               -  Alcohol, intravenous drug use, inhalational, psychotropics, narcotics, cocaine,
+                  prescription or over-the-counter drugs: within 1 year of the Screening visit.
+
+               -  Methadone, buprenorphine hydrochloride (HCl), and/or butorphanol tartrate:
+                  within 1 year of Screening visit, unless subject has drug screen negative for
+                  other (non-narcotic) drugs documented in the past year and repeated negative
+                  within 2 months of Screening visit.
+
+               -  Multi-drug abuse (2 or more substances in 16a and 16b): within 3 years of
+                  Screening visit.
+
+               -  Marijuana:
+
+                    -  If historic use is deemed excessive by the principal investigator (or
+                       medically qualified individual), or is interfering with the subject's life,
+                       then the subject is not eligible and should not be screened.
+
+                    -  If marijuana use is not deemed excessive by principal investigator and does
+                       not interfere with life, subject must discontinue any current use of
+                       marijuana prior to entry into study.
+
+          -  Medical condition requiring chronic systemic corticosteroids.
+
+          -  Known allergy to the drug substance or any of the excipients in the PEG-Intron
+             formulation.
+
+          -  Any situation or condition that, in the opinion of the investigator, may interfere
+             with optimal participation in the study.
+
+          -  Use of any investigational drugs within 30 days of study entry.
+
+          -  Participation in other clinical studies of investigational treatments.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>United States</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Daud AI, Xu C, Hwu WJ, Urbas P, Andrews S, Papadopoulos NE, Floren LC, Yver A, Deconti RC, Sondak VK. Pharmacokinetic/pharmacodynamic analysis of adjuvant pegylated interferon α-2b in patients with resected high-risk melanoma. Cancer Chemother Pharmacol. 2011 Mar;67(3):657-66. doi: 10.1007/s00280-010-1326-9. Epub 2010 May 28.</citation>
+    <PMID>20509027</PMID>
+  </results_reference>
+  <verification_date>February 2015</verification_date>
+  <lastchanged_date>February 12, 2015</lastchanged_date>
+  <firstreceived_date>April 5, 2007</firstreceived_date>
+  <firstreceived_results_date>May 28, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

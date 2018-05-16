@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="4">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00371761</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P04498</org_study_id>
+    <nct_id>NCT00371761</nct_id>
+  </id_info>
+  <brief_title>PegIntron Versus Adefovir in the Treatment of Chronic Hepatitis B (CHB) e Antigen Positive Patients in Taiwan (P04498/MK-4031-278)</brief_title>
+  <official_title>An Open-Label, Randomized, Comparative Study With PegIntron vs. Adefovir in the Treatment of Chronic Hepatitis B (CHB) e Antigen Positive Patients in Taiwan</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Taiwan: Department of Health</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is an open label, randomized, comparative, multi-center study. Subjects will be
+      screened within 2 weeks prior to study entry to establish eligibility. Subjects who meet all
+      the selection criteria will be randomly assigned 1:1 to (1) once-a-week, subcutaneous
+      Pegylated interferon alfa-2b (PegIntron) (1.5 mcg/kg body weight) or (2) oral adefovir 10 mg
+      daily. The treatment phase will be 24 weeks for PegIntron and 48 weeks for adefovir. All
+      subjects completing the assigned treatment phase will be followed up for an additional 48
+      weeks for PegIntron and 24 weeks for adefovir as observation phase. The primary objective is
+      to establish the efficacy profile of PegIntron. Secondary objectives are to compare the
+      efficacy profile of PegIntron with that of adefovir, compare efficacy of PegIntron in
+      lamivudine-naïve and lamivudine-experienced subjects, and to establish the safety profile of
+      PegIntron in treating patients with hepatitis B e antigen (HBeAg)-positive chronic hepatitis
+      B.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2006</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Number of Participants With a Combined Response Consisting of All Three Responses - (a) Serological Response, (b) Virological Response, and (c) Biochemical Response</measure>
+    <time_frame>At Week 72 [for Pegylated interferon alfa-2b (PegIntron), at 48 weeks post PegIntron treatment for up to 24 weeks; for Adefovir, at 24 weeks post adefovir treatment for up to 48 weeks]</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Serological response is defined as Loss of HBeAg (Hepatitis B e antigen) and Appearance of anti-HBe (Hepatitis B e antibodies); participant is HBeAg negative and anti-HBe positive.
+Virological response was defined as having &lt; 10^5 copies/mL of serum HBV DNA (Hepatitis B Virus Deoxyribonucleic Acid) by real-time PCR (Polymerase Chain Reaction).
+Biochemical response was defined as acheiving normal levels of ALT (Alanine Aminotransferase) level in Units/L.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">25</enrollment>
+  <condition>Hepatitis B, Chronic (CHB)</condition>
+  <arm_group>
+    <arm_group_label>PegIntron</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron, 1.5 micrograms/kg weekly, for up to 24 weeks followed by a 48-week observation phase</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Adefovir</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Adefovir, 10 mg daily, for up to 48 weeks followed by a 24-week observation phase</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Pegylated interferon alfa-2b (PegIntron)</intervention_name>
+    <description>Powder for injection in vials ( 100, and 120 microgram strengths), subcutaneous, dose of 1.5 micrograms/kg, weekly for up to 24 weeks</description>
+    <arm_group_label>PegIntron</arm_group_label>
+    <other_name>SCH 54031, Peg-Intron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Adefovir dipivoxil (adefovir)</intervention_name>
+    <description>10 mg adefovir dipivoxil (equivalent to 5.4.5 mg adefovir) tablets, oral, dose of 1 tablet per day for up to 48 weeks</description>
+    <arm_group_label>Adefovir</arm_group_label>
+    <other_name>Hepsera</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult male or female, 18 to 70 years of age.
+
+          -  Documented positive serum hepatitis B surface antigen (HBsAg) for a minimum of 6
+             months prior to randomization.
+
+          -  Hepatitis B virus (HBV) replication and hepatitis documented by:
+
+               -  Serum HBV DNA (Hepatitis B Virus Deoxyribonucleic acid) &gt;= 10^5 copies/mL within
+                  3 months prior to entry
+
+               -  Positive serum hepatitis B e antigen (HBeAg) within 3 months prior to entry
+
+               -  Documented presence of ALT (Alanine Aminotransferase) twice (1 month apart)
+                  within 3 months prior to entry (2 to 10 folds above the upper normal level)
+
+               -  Liver biopsy finding shows evidence of chronic hepatitis without liver
+                  cirrhosis, document acceptable if no anti-HBV treatment within 1 year prior to
+                  randomization
+
+               -  Naïve or exposed to lamivudine (3 months treatment-free interval prior to
+                  randomization)
+
+               -  Adequate renal function (creatinine within normal upper limit).
+
+          -  Compensated liver disease with certain minimum hematological and serum biochemical
+             criteria.
+
+          -  Thyroid stimulating hormone (TSH) and free T4 within normal ranges.
+
+          -  Negative antibody to hepatitis C and hepatitis D.
+
+          -  Negative antibody to human immunodeficiency virus.
+
+          -  Negative evidence for hepatocellular carcinoma by alfa-fetoprotein and ultrasound
+             within 1 month prior to randomization.
+
+        Exclusion Criteria:
+
+          -  Women who are pregnant or nursing.
+
+          -  Prior treatment for hepatitis with any interferon or adefovir, or other
+             investigational anti-virus agents.
+
+          -  Prior treatment for hepatitis with immunomodulatory drug within 2 years prior to
+             randomization.
+
+          -  Suspected hypersensitivity to interferon or adefovir.
+
+          -  Liver cirrhosis.
+
+          -  History of severe psychiatric disease, especially depression.
+
+          -  Concurrent malignancies (including hepatocellular carcinoma).
+
+          -  Unstable or significant cardiovascular diseases.
+
+          -  Prolonged exposure to known hepatotoxins.
+
+          -  History of thyroid disease poorly controlled on prescribed medication.
+
+          -  Poorly controlled diabetes mellitus.
+
+          -  Have suspected or confirmed significant hepatic disease from an etiology other than
+             HBV.
+
+          -  Severe renal disease or myeloid dysfunction.
+
+          -  History of organ transplantation other than cornea and hair transplant.
+
+          -  Any medical condition requiring chronic systemic administration of steroids.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Taiwan</country>
+  </removed_countries>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 7, 2015</lastchanged_date>
+  <firstreceived_date>August 31, 2006</firstreceived_date>
+  <firstreceived_results_date>July 15, 2010</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis B virus</keyword>
+  <keyword>Pegylated interferon alfa-2b (PegIntron)</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Adefovir</mesh_term>
+    <mesh_term>Adefovir dipivoxil</mesh_term>
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

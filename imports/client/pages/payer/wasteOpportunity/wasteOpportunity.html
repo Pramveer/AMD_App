@@ -1,0 +1,3185 @@
+<template name="PayerWasteOpportunity">
+	<!--Nisha 04/10/2017 changed the tooltip text and added where missing-->
+	{{#if isLoading}}
+	<div class="content-wrapper">
+		{{> NewLoading}}
+	</div>
+	{{else}}
+	<div class="content-wrapper" style="height: 100%;">
+		<div class="col-sm-12 wasteOppotunityContent" style="border-top: none !important;">
+
+
+			<!-- ================================
+					Navigation START
+			================================== -->
+			<!--<label class="switch">
+				<input id="showSelectedDataset" type="checkbox">
+				<div class="slider round"></div>
+			</label>-->
+			<!--<div class="wasteDataSwitch">
+				<span  class="active client" dataset="0">Client</span>
+				<span  class="benchmark" dataset="1">Benchmark</span>
+			</div>-->
+			<div class="col-sm-2" style="padding-left: 0px; ">
+				<nav class="nav-sidebar">
+					<ul class="nav tabs">
+						<li class="active js-wasteOppotunityNavLinks js-wasteOverview"><a href="#js-wasteOverviewTab" data-toggle="tab">OVERVIEW</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteIncompleteTreatment"><a href="#js-wasteIncompleteTreatment" data-toggle="tab">INCOMPLETE TREATMENT</a></li>
+						<!--<li class="js-wasteOppotunityNavLinks js-wasteDiscontinuedTreatment"><a href="#js-wasteDiscontinuedTreatment" data-toggle="tab">TREATMENT CHANGE</a></li>-->
+						<li class="js-wasteOppotunityNavLinks js-wasteSVR"><a href="#js-wasteSVRTab" data-toggle="tab">MISSING SVR12</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteReplaced"><a href="#js-wasteReplacedTab" data-toggle="tab">RELAPSED</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteRetreated"><a href="#js-wasteRetreatedTab" data-toggle="tab">RETREATED</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteMedicationDispensed"><a href="#js-wasteMedicationDispensed" data-toggle="tab">MISSING PRESCRIPTION</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteHcvRna"><a href="#js-wasteHcvRnaTab" data-toggle="tab">MISSING HCV RNA</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteNonFDACombinations"><a href="#js-wasteNonFDACombinations" data-toggle="tab">MEDICATION COMBINATIONS</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteTherapyDuration"><a href="#js-wasteTherapyDurationTab" data-toggle="tab">THERAPY DURATION</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteRegiment"><a href="#js-wasteRegimentTab" data-toggle="tab">INAPPROPRIATE REGIMENTS</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteProvider"><a href="#js-wasteProviderTab" data-toggle="tab">PROVIDERS</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteSafety"><a href="#js-wasteSafetyTab" data-toggle="tab">SAFETY</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteHepABTab"><a href="#js-wasteHepABTab" data-toggle="tab">HEPATITIS A AND B</a></li>
+						<li class="js-wasteOppotunityNavLinks js-wasteCostOpportuntiy"><a href="#js-wasteCostOpportuntiyTab" data-toggle="tab">COST OPPORTUNITY</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- ================================
+					Navigation END
+			================================== -->
+
+
+			<div class="col-sm-10 tab-content" style="border-left: 3px solid #eeeeee; height: 100%;">
+
+				<!-- ================================
+					Overview START
+				================================== -->
+
+				<div class="tab-pane active text-style wasteOppotunity-SectionWrapper" id="js-wasteOverviewTab">
+					<!-- Header Start-->
+					<div class="ws-header">
+						<div class="ws-selectedFilters" >
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<i id="waste-switch-overview" class="fa fa-toggle-off" title="Switch to Care Failure Chart" aria-hidden="true" style="font-size:18px;margin-left: 14px"></i>
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">Estimated Waste Opportunity</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - 
+										For calculating the estimate waste opportunity in a selected cohort we are considering patients with both FDA/NON-FDA Compliant and also Patients
+										without SVR12 data. <br/>
+										Here, One patient may fall in multiple waste categories.
+										<br/>
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<!-- Header End-->
+					
+					<!-- MAIN OVERVIEW SECTION START -->
+					<div id="wastOverviewMainScreen" class="row" >
+
+						<!-- INCOMPLETE TREATMENT SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteIncompleteTreatment">
+							<div class="wasteOppotunityBox" style="background: rgb(255, 136, 100);">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Patients with Incomplete Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with Change in Treatment (by Provider or Patient)</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													<!--The patient was prescribed drug X by a provider, and didn't complete the prescription, instead the patient was prescribed a different drug by the provider for a different path of therapy.<br/><br/>
+													The patient was prescribed drug X for number of weeks by a provider but the provider changed the prescription/therapy midway before completing the original prescribed therapy. <br/> <br/>-->
+													The patient was prescribed drug X for number of weeks by a provider but the patient did not take the prescription/therapy for that much of time from the pharmacy.<br/> <br/>
+										
+													<span class='boldfnt'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patients with incomplete treatment.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span id="discontinued-totalPatients" class="wb-header-value">0</span>
+									<span id="discontinued-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="discontinued-totalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- INCOMPLETE TREATMENT SECTION END -->
+
+						<!-- MISSING SVR12 SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteSVR">
+							<div class="wasteOppotunityBox" style="background: rgb(100, 148, 255);">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Patients with missing SVR12 Results 
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with missing SVR12 Results</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													Patients who completed the prescribed therapy but have no follow-up SVR12 results (HCV RNA test after the 12 weeks). <br/><br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span class="wb-header-value totalPatientsWithoutSvr12">0</span>
+									<span class="wb-header-value universePatientsWOSvr-percent">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span class="totalWithoutSvrTestCost" title="$0">0</span>
+								</div>-->
+							</div>
+						</div>
+						<!-- MISSING SVR12 SECTION END -->
+
+						<!-- RELAPSED SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteReplaced">
+							<div class="wasteOppotunityBox" style="background: rgb(174, 100, 255);">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Relapsed Patients
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patients</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt' style='color:#000;'>Definition</span> - 
+													Patient who completed therapy and achieved undetectable state but after some time the SVR has become detectable.
+													<br/><br/>
+													<span class='boldfnt' style='color:#000;'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the relapsed patients and the patients who have been relapsed after change in treatment.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span id="totalRelapsedPatients" class="wb-header-value">0</span>
+									<span id="totalRelapsed-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="totalRelapsedPatientsCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- RELAPSED SECTION END -->
+
+						<!-- RETREATED SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteRetreated">
+							<div class="wasteOppotunityBox" style="background: rgb(255, 100, 100);">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Retreated Patients
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip ">
+												<div class="wasteOpportunity-tooltipHead">Retreated Patients</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt' style='color:#000;'>Definition</span> - Patients who prescribed with another therapy for reasons of partial response or relapsed. 
+													<br/> <br/>
+													<span class='boldfnt' style='color:#000;'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the retreated patients.
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span class="wb-header-value retreatmentPatientsTotal">0</span>
+									<span id="retreatmentTotal-percent" class="wb-header-value"></span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="retreatmentPatientsTotalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- RETREATED SECTION END -->
+
+						<!-- MISSING PRESCRIPTION SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteMedicationDispensed">
+							<div class="wasteOppotunityBox" style="background: #795548;">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Missing Prescriptions Therapy
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead" >Missing Prescriptions Therapy</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt' style='color:#000;'>Definition</span> - Patients has a positive viral load but has not begun treatment.   <br/>
+													<br/> 
+													<span class='boldfnt' style='color:#000;'>Cost</span> - Total cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT) for patients with viral load and the cost for patients without having prescription refill.
+													<br/><br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span id="" class="wb-header-value noPrescriptionTotal">0</span>
+									<span id="noPrescriptionTotal-percent" class="wb-header-value">(0%)</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="noPrescriptionTotalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- MISSING PRESCRIPTION SECTION END -->
+
+						<!-- MISSING HCV RAN SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteHcvRna">
+							<div class="wasteOppotunityBox" style="background: rgb(255, 205, 100);">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Missing HCV RNA Test Prior to Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+												<div class="wasteOpportunity-tooltipHead">Missing HCV RNA Test Prior to Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient without HCV RNA test prior but with prescribed therapy. 
+													<br/><br/>
+													<span class='boldfnt'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patients without HCV RNA test prior the therapy. 
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span class="wb-header-value NoHCVRNAPatientsTotal">0</span>
+									<span id="NoHCVRNATotal-percent" class="wb-header-value">(0%)</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="NoHCVRNAPatientsTotalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- MISSING HCV RAN SECTION END -->
+
+						<!-- NON FDA APPROVED SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteNonFDACombinations">
+							<div class="wasteOppotunityBox" style="    background: #3f51b5;">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Non FDA Compliant Medications
+										<span class="wasteOpportunity-infoIcon wasteInfoTip"  style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_not_filling">
+												<div class="wasteOpportunity-tooltipHead">Non FDA Compliant Medications</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt' style='color:#000;'>Definition</span> -
+													Patient prescribed medication that are not compliant with FDA approved protocols.
+													<br/>
+													<br/>
+													<span class='boldfnt' style='color:#000;'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patients with non-compliant medication.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span class="wb-header-value waste-totalNonfdaCombosPatients">0</span>
+									<span id="" class="wb-header-value waste-totalNonfdaCombosPercent"></span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span class="waste-totalNonfdaCombosCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- NON FDA APPROVED SECTION END -->
+
+						<!-- THERAPY DURATION SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteTherapyDuration">
+							<div class="wasteOppotunityBox" style="background: #4caf50;">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Non-FDA Compliant Therapy Durations 
+										<span class="wasteOpportunity-infoIcon wasteInfoTip"  style="float:right;top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_not_filling">
+												<div class="wasteOpportunity-tooltipHead" >Non-FDA Compliant Therapy Durations </div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient with FDA approved therapy with Non-FDA approved therapy durations.
+													<br/><br/>
+													<span class='boldfnt'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patients with non-compliant treatment periods.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span id="" class="wb-header-value therapyDurationTotal">0</span>
+									<span id="therapyDurationTotal-percent" class="wb-header-value">(0%)</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="therapyDurationTotalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- THERAPY DURATION SECTION END -->
+
+						<!-- INAPPROPRIATE REGIMENT SECTION START -->
+						<div class="col-md-4 wasteOpportunity-Card" clickdata="js-wasteRegiment">
+							<div class="wasteOppotunityBox" style=" background: #9c27b0;">
+								<div class="wb-header" style="padding: 5px;">
+									<h5 class="wasteQuestion">
+										Inappropriate Regiments										 
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="float:right; top: 0;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_regement">
+												<div class="wasteOpportunity-tooltipHead">Inappropriate Regiments</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'  style='color:#000;'>Definition</span> - Patient prescribed therapy with dosage quantity that deviates from standard of care.  
+													<br/><br/><span class='boldfnt'  style='color:#000;'>Cost</span> - Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patient with non-standard regiments.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-overview-value">
+									<span class="wb-header-value regimenPatientsTotal">0</span>
+									<span id="regimenTotal-percent" class="wb-header-value">(0%)</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<!--<div class="wb-content">
+									<span>$</span>
+									<span id="regimenPatientsTotalCost" title="$0"> 0 </span>
+								</div>-->
+							</div>
+						</div>
+						<!-- INAPPROPRIATE REGIMENT SECTION END -->
+
+					</div>
+					<!-- MAIN OVERVIEW SECTION END -->
+
+
+					<!-- CARE FAILURE SECTION START -->
+					<div id="wastOverviewCureFailureChartScreen" style="display:none;">
+						<div class="col-lg-12 chartContainer">
+							<div class="boxContainerDashboard">
+
+								<div class="col-md-12 wasteOpportunity-Card">
+									<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 49px;">
+										<div class="wb-header">
+											<div class="wb-header-title">
+												<h5 class="wasteQuestion">
+													Types and Rates of Care Failure
+													<span class="wasteOpportunity-infoIcon wasteInfoTip">
+														<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+															<div class="wasteOpportunity-tooltipHead">Types and Rates of Care Failure</div>
+															<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+																<span class='boldfnt'>Definition</span> - 
+																This chart represents the four type of care failure:<br/>
+																1) Uncured Patients: Patients who are not cured based on SVR12 results.<br/>
+																2) Discontinued: Patients who did not complete the treatment.<br/>
+																3) Lost to follow Up: Patients who started the treatment but  did not go for viral load test at week 12<br/>
+																4) No Prescription: Patients who got positive viral  load but did not start treatment there after.<br/>
+																5) Regiments: Patients who falls under inappropriate regiments category. It means that the therapy provided to them is deviated from the standard of care.
+																6) No HCV RNA: Patient who doesn't have any HCV RNA test prior the therapy provided them.<br/>
+																7) Therapy Duration: Patients with therapy period less or more than standard of care.<br/>
+																<br/>
+																<span class='boldfnt'>Cost</span> - Cost is the sum of cost of all the patients who fall in one of the above conditions.
+																
+															</div>
+														</div>
+													</span>
+												</h5>
+											</div>
+										</div> 
+									</div>
+								</div>
+
+								<div class="panel-body">
+									<div id="treamentAvgCostSelection" class="" style="text-align: center;margin-top: -15px;margin-bottom: 5px;">
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="SVRNotAchieved" checked="checked"> Uncured Patients
+										&nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="Discontinued"> Discontinued  &nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="Followup"> Lost to follow up &nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="Notprescribed"> No Prescription &nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="Regiments"> Regiments &nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="HCVRNA"> No HCV RNA &nbsp;&nbsp;
+										<input type="radio" name="treamentAvgCostData" class="radioduration" value="TherapyDuration"> Therapy Duration  &nbsp;&nbsp;
+									</div>
+									<div id="divRateFailure" style="text-align: center;"></div>
+								</div>
+
+							</div>
+						</div>
+						
+						<!-- ==================================
+							 DATA OBSERVATION SECTION START 
+						=================================== -->
+						{{#if isClient}}
+							{{>DataObservation}}
+						{{else}}
+							<!--{{>DataObservation}}-->
+						{{/if}}
+						
+						<!-- ==================================
+							 DATA OBSERVATION SECTION END 
+						=================================== -->
+					</div>
+					<!-- CARE FAILURE SECTION END -->
+
+				</div>
+				<!-- ================================
+					Overview END
+				================================== -->
+
+
+				<!-- ================================
+					Subsection START
+				================================== -->
+				
+
+				<!-- INCOMPLETE TREATMENT START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteIncompleteTreatment" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span id="" class="wb-patient-value wastage-totalDiscontinuedPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="discontinued"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">INCOMPLETE TREATMENT</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - 
+										The patient was prescribed drug X for number of weeks by a provider but the patient did not take the prescription/therapy for that much of time from the pharmacy.<br/><br/>
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - Sum of therapy cost for all patients with change in treatment.
+										<br/>-->
+										The percentage of the patients have been calculated from the total patients with medication.
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with incomplete Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with Incomplete Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													The patient was prescribed drug X for number of weeks by a provider but the patient did not take the prescription/therapy for that much of time from the pharmacy.
+													<br/> <br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/><br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithDiscontinuedTreatment" class="wb-header-value">0</span>
+									<span id="patientsWithDiscontinuedTreatment-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithDiscontinuedTreatment-Cost"> 0 </span>-->
+								<span id="patientsWithIncompleteTreatment" class="wb-header-value">0</span>
+									<span id="patientsWithIncompleteTreatment-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients without Prescription Refill
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients without Prescription Refill</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This category represents the patients who took the drugs for less than the prescribed treatment period.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--This represents all the patients who are not cured over the treatment and still not going for the next treatment.-->
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> -
+													Total cost is the sum of the therapy cost of all the patients without prescription refill.
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNotFillingNextPrescription" class="wb-header-value">0</span>
+									<span id="patientsWithNotFillingNextPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNotFillingNextPrescription-Cost"> 0 </span>-->
+								<span id="patientsWithNotFillingNextPrescription" class="wb-header-value">0</span>
+									<span id="patientsWithNotFillingNextPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<!-- Discontinued Genotype Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Incomplete Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;float:right;margin-top:-8px;">
+											
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Incomplete Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the patients who have changed their treatment for each genotype.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+									
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="discontinuedData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-IncompleteTreatmentGenotypeChart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Discontinued Weeks Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card waste-patientinchangeintreatmentgeno">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 90%">
+									<h5 class="wasteQuestion">
+										Patients with Incomplete Treatment by Treatment Period
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_right" style="padding-left: 8px;right:-52px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Incomplete Treatment by Treatment Period</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the distribution of patients who changed their treatment over the treatment period.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="discontinuedData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-incompleteTreatmentdWeeksChart"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Missing prescriptin refills -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients without Prescription Refill
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Patients without Prescription Refill</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													<!-- This chart represents the distribution of patients based on prescription refill and treatment period. -->
+													This chart represents the distribution of patients who failed to refill their prescription.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="notFillingNextPrescriptionData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-withoutPrescriptionRefillingChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- INCOMPLETE TREATMENT END -->
+
+
+				<!-- TREATMENT CHANGE START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteDiscontinuedTreatment" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span id="" class="wb-patient-value wastage-totalDiscontinuedPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="treatmentChange"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">TREATMENT CHANGE</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - 
+										The patient was prescribed drug X by a provider, and didn't complete the prescription, instead the patient was prescribed a different drug by the provider for a different path of therapy.<br/><br/>
+										The patient was prescribed drug X for number of weeks by a provider but the provider changed the prescription/therapy midway before completing the original prescribed therapy. <br/> <br/>
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - Sum of therapy cost for all patients with change in treatment.
+										<br/>-->
+										The percentage of the patients have been calculated from the total patients with medication.
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with change in Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with change in Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													The patient was prescribed drug X by a provider, and didn't complete the prescription, instead the patient was prescribed a different drug by the provider for a different path of therapy.
+													<br/><br/>
+													The patient was prescribed drug X for number of weeks by a provider but the provider changed the prescription/therapy midway before completing the original prescribed therapy. 
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/><br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithDiscontinuedTreatment" class="wb-header-value">0</span>
+									<span id="patientsWithDiscontinuedTreatment-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithDiscontinuedTreatment-Cost"> 0 </span>-->
+								<span id="patientsWithTreatmentChange" class="wb-header-value">0</span>
+									<span id="patientsWithTreatmentChange-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Discontinued Genotype Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Change in Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;float:right;margin-top:-8px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Change in Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the patients who have changed their treatment for each genotype.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-treatmentChangeGenotypeChart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Discontinued Weeks Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card waste-patientinchangeintreatmentgeno">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%">
+									<h5 class="wasteQuestion">
+										Patients with Change in Treatment by Treatment Period
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_right" style="padding-left: 8px;right:-52px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Change in Treatment by Treatment Period</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the distribution of patients who changed their treatment over the treatment period.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of therapy cost for all patients who have changed their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-treatmentChangeWeeksChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- TREATMENT CHANGE END -->
+
+
+				<!-- MISSING SVR12 START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteSVRTab" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span id="" class="wb-patient-value totalPatientsWithoutSvr12">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="missingHCVRNA"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">MISSING SVR12</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - 
+										Patients who completed the prescribed therapy but have no follow-up SVR12 results (HCV RNA test after the 12 weeks). <br/>
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+										<br/>-->
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<!-- Missing SVR 12 and NO Medication -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%;">
+									<h5 class="wasteQuestion">
+										Patients with medication but missing SVR12 Results
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with medication but missing SVR12 Results</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													Patients who completed the prescribed therapy but have no follow-up SVR12 results (HCV RNA test after the 12 weeks).
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNoSVR12Treatment" class="wb-header-value">0</span>
+									<span id="patientsWithNoSVR12Treatment-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNoSVR12Treatment-Cost"> 0 </span>-->
+								<span id="patientsWithNoSVR12Treatment" class="wb-header-value">0</span>
+								<span id="patientsWithNoSVR12Treatment-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%;">
+									<h5 class="wasteQuestion">
+										Patients with missing SVR12 and missing Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Patients with missing SVR12 and missing Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													Patients who have not been prescribed and therapy and have no SVR12 results.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients regardless of medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNoSVR12Treatment" class="wb-header-value">0</span>
+									<span id="patientsWithNoSVR12Treatment-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNoSVR12Treatment-Cost"> 0 </span>-->
+								<span id="patientsWithNoSVR12AndNoTreatment" class="wb-header-value">0</span>
+								<span id="patientsWithNoSVR12AndNoTreatment-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with missing SVR12 Results
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Patients with missing SVR12 Results </div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This chart shows the distribution of patients with missing SVR12 results over genotypes.
+													<br/> 
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="patientsSVRNull"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-SVR12GenotypeDistributionChart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- SVR12 patients Distribution over Therapy chart -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Treatment Period Distribution 
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Treatment Period Distribution </div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This chart shows the number of patients with missing SVR12 results distributed over the Treatment Period.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost for patients who did not went for svr12 test after completing the therapy.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="patientsSVRNull"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-SVR12TherapyDistributionChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MISSING SVR12 END -->
+
+
+				<!-- RELAPSED START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteReplacedTab" style="overflow-y: auto">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value totalRelapsedPatients">1120</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="relapsed"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">RELAPSED</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - Patient who completed therapy and achieved undetectable state but after some time the SVR has become detectable.
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - Sum of the therapy cost for all relapsed patients.
+										<br/>-->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Relapsed Patients with No SVR12
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patients with No SVR12</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This count represents the number of Relapsed patients who did not go for the SVR12 test after completing the therapy or the
+													Provider didn't ask for it and relapsed(their viral load was increased after the therapy).
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for relapsed patients with no SVR12 results.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="relapsed-WithoutSVR" class="wb-header-value">0</span>
+									<span id="relapsed-WithoutSVRPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="relapsed-WithoutSVR" class="wb-header-value">0</span>
+									<span id="relapsed-WithoutSVRPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								<!--<span>$</span>
+								<span id="totalRelapsedWOSVRCost"> 0 </span>-->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Relapsed Patients with SVR12 Results
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patients with SVR12 Results</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - In this section we are showing the relapsed patients with SVR12 results available.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for relapsed patients with SVR12 results.
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="relapsed-WithSVR" class="wb-header-value">0</span>
+									<span id="relapsed-WithSVRPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="totalRelapsedWithSVRCost"> 0 </span>-->
+								<span id="relapsed-WithSVR" class="wb-header-value">0</span>
+									<span id="relapsed-WithSVRPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 100%;">
+									<h5 class="wasteQuestion">
+										Relapsed Patients with Change in Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patients with Change in Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> -
+													This field represents if the patient is relapsing with the change in treatment.
+													<br/>i.e. if the patient has taken multiple treatments and is relapsing on one of the treatment,
+													we say he is relapsing with change in treatment. 
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for relapsed patients who have changes their treatment.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="relapsed-treatmentChange" class="wb-header-value">0</span>
+									<span id="relapsed-treatmentChangePercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="relapsedtreatmentChangeCost"> 0 </span>-->
+								<span id="relapsed-treatmentChange" class="wb-header-value">0</span>
+									<span id="relapsed-treatmentChangePercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 100%;">
+									<h5 class="wasteQuestion">
+										Relapsed Patients with Completed Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip_regement">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patients with Completed Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> -  In this section we are showing the relapsed patients who have completed their treatment.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for relapsed patients who have completed their treatment.-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="relapsed-treatmentCompleted" class="wb-header-value">0</span>
+									<span id="relapsed-treatmentCompletedPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="relapsedtreatmentCompleteCost"> 0 </span>-->
+								<span id="relapsed-treatmentCompleted" class="wb-header-value">0</span>
+									<span id="relapsed-treatmentCompletedPercent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Relapsed Week Distribution Chart -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Relapsed Distribution By Treatment Period
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Relapsed Distribution By Treatment Period</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the distribution of treatment period for the relapsed patients.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for relapsed patients.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="patientsRelapsed"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RelapsedWeekDistributionChart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Relapsed Treatment Distribution Chart -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Relapsed Treatment Distribution
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Relapsed Treatment Distribution</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This chart represents the distribution of relapsed patients based on the treatment type (Naive/Experienced).
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> -  Total cost is the sum of the therapy cost for relapsed patients.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="patientsRelapsed"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RelapsedTreatmentDistributionChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- RELAPSED END -->
+
+
+				<!-- RETREATED START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteRetreatedTab" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value retreatmentPatientsTotal">1120</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="retreated"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+									<div class="wasteOpportunity-tooltipHead">RETREATED</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> -  Patients who prescribed with another therapy for reasons of; partial response or relapsed. 
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> -  Sum of the therapy cost for retreated patients.
+										<br/>-->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Retreated Patients
+										<span class="wasteOpportunity-infoIcon wasteInfoTip wasteRetreatedTabTooltip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip"  style="left: -100px;">
+												<div class="wasteOpportunity-tooltipHead">Retreated Patients</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> -  Patients who prescribed with another therapy for reasons of; partial response or relapsed. 
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> -  Sum of the therapy cost for retreated patients.-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithRetreatedPatients" class="wb-header-value">0</span>
+									<span id="patientsWithRetreatedPatients-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithRetreatedPatients-Cost"> 0 </span>-->
+								<span id="patientsWithRetreatedPatients" class="wb-header-value">0</span>
+								<span id="patientsWithRetreatedPatients-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Genotype  Distribution --> 
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Retreated Patients By Genotype
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 2px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Retreated Patients By Genotype</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the retreated patients for each genotype.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of all the patients with retreatment therapy cost. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="retreatedChartsData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RetreatedGenotypesChart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Therapy Weeks Distribution  -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Retreated Patients By Weeks
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 2px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Retreated Patients By Weeks</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This chart represents the  retreated patients distribution over the treatment period.
+													<br/><br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of all the patients with retreatment therapy cost. 
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="retreatedChartsData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RetreatedWeeksChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- RETREATED END -->
+
+
+				<!-- MISSING PRESCRIPTION START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteMedicationDispensed"  style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value" id="total-wastage-noPrescriptionAndNoRefill">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="noPrescriptionObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">MISSING PRESCRIPTION</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt' style='color:#000;'>No Refill</span> - This category represents the patients who took the drugs for less than the prescribed treatment period.   <br/>
+										
+										<span class='boldfnt'>No Prescription</span> - 
+										This represents all the patients who got positive viral load but did not start treatment there after.
+										<br/>
+										<!--<br/> 
+										<span class='boldfnt' style='color:#000;'>Cost</span> - Total cost of the lab test\s for patients with viral load.
+										<br/><br/> -->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 100%">
+									<h5 class="wasteQuestion">
+										Patients with Positive Viral Load but No Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Positive Viral lLad but No Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This represents all the patients who got positive viral  load but did not start treatment there after.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients regardless of medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - 
+													Total cost is the sum of the cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT) for patients with viral load. 
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNoPrescription" class="wb-header-value">0</span>
+									<span id="patientsWithNoPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNoPrescription-Cost"> 0 </span>-->
+								<span id="patientsWithNoPrescription" class="wb-header-value">0</span>
+								<span id="patientsWithNoPrescription-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%">
+									<h5 class="wasteQuestion">
+										Patients with No Viral Load and No Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with No Viral Load and No Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This represents all the patients who do not have any viral load and no treatment.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients regardless of medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - 
+													Total cost is the sum of the cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT) for patients with viral load. 
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNoPrescription" class="wb-header-value">0</span>
+									<span id="patientsWithNoPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNoPrescription-Cost"> 0 </span>-->
+								<span id="patientsWithNoPrescriptionNoViralLoad" class="wb-header-value">0</span>
+								<span id="patientsWithNoPrescriptionNoViralLoad-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<!--<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients without Prescription Refill
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients without Prescription Refill</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This category represents the patients who took the drugs for less than the prescribed treatment period.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="patientsWithNotFillingNextPrescription" class="wb-header-value">0</span>
+									<span id="patientsWithNotFillingNextPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>-->
+					
+					<!--<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients without Prescription Refill
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Patients without Prescription Refill</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the distribution of patients based on prescription refill and treatment period.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-withoutPrescriptionRefillingChart"></div>
+							</div>
+						</div>
+					</div>-->
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with No Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Patient with No Prescription </div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This chart shows the distribution of patients with No Prescription data over genotypes.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT) for patients with viral load. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="noPrescritionData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-NoPrescriptionGenotypeDistributionChart"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- MISSING PRESCRIPTION END -->
+
+
+				<!-- MISSING HCV RNA START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteHcvRnaTab" style="overflow-y:auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value" id="wastage-totalPatientsWithNullRNA">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="missingHCVRNA"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">MISSING HCV RNA</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - Patient without HCV RNA test prior but with prescribed therapy. 
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - Sum of the therapy cost for patients without HCV RNA test prior the therapy. -->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<!-- Missing HCV RNA Prior Treatment -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										No HCV RNA test prior to treatment.
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">HCV RNA test</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - In this section we have patient who doesn't have any HCV RNA test prior the therapy provided them.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that  doesn't have any HCV RNA test prior the therapy.
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNullRNA" class="wb-header-value">0</span>
+									<span id="patientsWithNullRNA-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNullRNA-Cost"> 0 </span>-->
+								<span id="patientsWithNullRNA" class="wb-header-value">0</span>
+									<span id="patientsWithNullRNA-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<!-- Missing HCV RNA and missing Prescription -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%;">
+									<h5 class="wasteQuestion">
+										No HCV RNA test and no treatment.
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">HCV RNA test</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - In this section we have patient who doesn't have any HCV RNA test and not been prescribed any medication.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients regardless of medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that  doesn't have any HCV RNA test prior the therapy.
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithNullRNA" class="wb-header-value">0</span>
+									<span id="patientsWithNullRNA-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithNullRNA-Cost"> 0 </span>-->
+								<span id="patientsWithNullRNAAndNoMedication" class="wb-header-value">0</span>
+									<span id="patientsWithNullRNAAndNoMedication-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+
+					<!--  HCV RNA Patients by Genotype -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patient with missing HCV RNA
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patient with missing HCV RNA</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient without HCV RNA test prior but with prescribed therapy.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Sum of the therapy cost for patients without HCV RNA test prior the therapy. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="nonHcvRnaData"  idiff = "gpatientIds"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-hcvRnaGenotypeDistribution"></div>
+							</div>
+						</div>
+					</div>
+					<!-- HCV RNA Relapsed patients -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Relapsed Patient with missing HCV RNA
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Relapsed Patient with missing HCV RNA</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient without HCV RNA test prior but with prescribed therapy and is relapsed in treatment.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Sum of the therapy cost for patients without HCV RNA test prior the therapy and relapsed in treatment. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="nonHcvRnaData"  idiff = "rpatientIds"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-hcvRnaRelapsedDistribution"></div>
+							</div>
+						</div>
+					</div>
+					<!-- HCV RNA Retreated patients -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Retreated Patient with missing HCV RNA
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Retreated Patient with missing HCV RNA</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient without HCV RNA test prior but with prescribed therapy and have been retreated.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Sum of the therapy cost for patients without HCV RNA test prior the therapy and is retreated. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="nonHcvRnaData"  idiff = "repatientIds"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-hcvRnaRetreatedDistribution"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MISSING HCV RNA END -->
+
+
+				<!-- MEDICATION COMBINATIONS START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteNonFDACombinations" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							 <span id="" class="wb-patient-value waste-totalNonfdaCombosPatients">0</span> 
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="inappropriateMedication"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">MEDICATION COMBINATIONS</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt' style='color:#000;'>Definition</span> -
+										Patient prescribed medication that are not compliant with FDA approved protocols.
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/>
+										<span class='boldfnt' style='color:#000;'>Cost</span> - Sum of all therapy cost of patients with non-compliant medication.-->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Non FDA Compliant Medications
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Non FDA Compliant Medications</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This field represents patients who were prescribed medication which is not compliant with the clinical protocols.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost of the patients prescribed with Non DA Compliant medications. 
+													<span class='formulaSection'></span> <br/><br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span class="wb-header-value waste-totalNonfdaCombosPatients">0</span>
+									<span id="" class="wb-header-value waste-totalNonfdaCombosPercent"></span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span  id="waste-totalNonfdaCombosCost-Menu" class=""> 0 </span>-->
+								<span class="wb-header-value waste-totalNonfdaCombosPatients">0</span>
+								<span id="" class="wb-header-value waste-totalNonfdaCombosPercent"></span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Non FDA combinations therapy Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 90%;">
+									<h5 class="wasteQuestion">
+										Patients with Non FDA Compliant Medications
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Non FDA Compliant Medications</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This field represents patients who were prescribed medication which is not compliant with the clinical protocols.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost of the patients prescribed with Non FDA Compliant medications. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="nonfdaCombosData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-NonFdaGenotypeDistribution"></div>
+							</div>
+						</div>
+					</div>
+					<span class="analyticsWaste"></span> 
+					<!-- Non FDA combinations therapy Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Non FDA Compliant Medications
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Non FDA Compliant Medications</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - This field represents patients who were prescribed medication which is not compliant with the clinical protocols.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of the therapy cost of the patients prescribed with Non DA Compliant medications. 
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="nonfdaCombosData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-NonFdaCombosDistribution"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MEDICATION COMBINATIONS END -->
+
+
+				<!-- THERAPY DURATION START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteTherapyDurationTab" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value therapyDurationTotal">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="nonFdaTherapyDuration"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">THERAPY DURATION</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> - Patient with FDA approved therapy with Non-FDA approved therapy durations.
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/>
+										<span class='boldfnt'>Cost</span> - Sum of all therapy cost for patients with non-compliant treatment periods.
+										<br/>-->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Non-FDA Compliant Therapy Durations
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Non-FDA Compliant Therapy Durations</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - Patient with FDA approved therapy with Non-FDA approved therapy durations.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Sum of all therapy cost for patients with non-compliant treatment periods.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithTherapyDuration" class="wb-header-value">0</span>
+									<span id="patientsWithTherapyDuration-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithTherapyDuration-Cost"> 0 </span>-->
+									<span id="patientsWithTherapyDuration" class="wb-header-value">0</span>
+									<span id="patientsWithTherapyDuration-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Genotype Distribution for Patients With Non FDA Compliant -->
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Non FDA Compliant
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Non FDA Compliant</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents patient count for each genoype who were not prescribed as per FDA compliant therapy period.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of all the patients with Non FDA Compliant therapy cost.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="therapyDurationData"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-TherapyNonFdaGenotypes"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- THERAPY DURATION END -->
+
+
+				<!-- INAPPROPRIATE REGIMENTS START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteRegimentTab" style="overflow-y: auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<!--<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value regimenPatientsTotal">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>-->
+
+							<!-- Showing all the patients insted of patients of a particular group. -->
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> &nbsp;/&nbsp;</span>
+							<span class="wb-patient-lable">Total Patients With Medication- </span>
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i id="overview-totalPatients" class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="inappropriateRegiment"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">INAPPROPRIATE REGIMENTS</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'  style='color:#000;'>Definition</span> - Patient prescribed therapy with dosage quantity that deviates from standard of care.  
+										<br/><br/>
+										The percentage of the patients have been calculated from the total patients with medication.
+										<!--<br/><span class='boldfnt'  style='color:#000;'>Cost</span> - Sum of therapy cost for patient with non-standard regiments.-->
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Inappropriate Regiments
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+												<div class="wasteOpportunity-tooltipHead">Inappropriate Regiments</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'  style='color:#000;'>Definition</span> - 
+													Patient prescribed therapy with dosage quantity that deviates from standard of care.  
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'  style='color:#000;'>Cost</span> - Sum of therapy cost for patient with non-standard regiments.-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="patientsWithInappropriateRegiments" class="wb-header-value">0</span>
+									<span id="patientsWithInappropriateRegiments-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="patientsWithInappropriateRegiments-Cost"> 0 </span>-->
+								<span id="patientsWithInappropriateRegiments" class="wb-header-value">0</span>
+									<span id="patientsWithInappropriateRegiments-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Drugs Distribution by Therapy -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 90%">
+									<h5 class="wasteQuestion">
+										Drugs with Inappropriate Regiments Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">  Drugs with Inappropriate Regiments Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the drug prescribed to number of patients that does not fulfill the FDA standards.
+													<br/>
+													<br/>
+													<!--<span class='boldfnt'>Cost</span> - The total cost is the sum of all the patients with inappropriate regiments therapy cost.
+													<br/>-->
+													<span class='boldfnt'>Improper Medication</span>  : This is the drug which was prescribed with dosage that is not compliant with standard dosage among all the drugs in the treatment.<br/>
+													<span class='boldfnt'>Dosage Quantity</span> : This is the number of times patient was prescribed the same medication with non FDA compliant dosage.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="regiments"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RegimentsDrugDistribution"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Cost For Inappropriate Regiments -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox waste-RegimentsDrugCosttooltip" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 90%">
+									<h5 class="wasteQuestion">
+										Cost for Drugs with Inappropriate Regiments Prescription
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;right:-42px;">
+												<div class="wasteOpportunity-tooltipHead">Cost for Drugs with Inappropriate Regiments Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents cost for each medication which was not given in FDA compliant dosage.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - The total cost is the sum of all the patients with inappropriate regiments therapy cost.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="regiments"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RegimentsDrugCost"></div>
+							</div>
+						</div>
+					</div>
+					<!-- medication Switch Distribution Chart-->
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Number of Medication changes (switches)
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Number of Medication changes (switches)</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the number of patients with the number of times they have switched the therapy.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost for patients who have switched medications.  
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="regiments"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-RegimentsMedicationSwitchChart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- INAPPROPRIATE REGIMENTS END -->
+
+
+				<!-- PROVIDERS START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteProviderTab" style="overflow-y:auto;">
+					<div class="ws-header">
+						<div class="ws-selectedFilters" style="width: 45%">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container" style="width: 55%">
+							<span class="wb-patient-lable">Total Providers - </span>
+							<span class="wb-patient-value wastage-totalProviders">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> / </span>
+							<span class="wb-patient-lable">Total Patients With Medication - </span>
+							<!--<span class="wb-patient-value wastage-totalPatients">0</span>-->
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+							<i class="fa fa-user" aria-hidden="true"></i> 
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">PROVIDERS</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> -  In this section we show number the providers that prescribed medication therapy to patients.
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Providers written prescriptions to patients but not collected SVR12 data
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Providers</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - In this section we are showing the number of providers that prescribed medication to number of patients
+													that have not done the SVR12 result.
+													<br/><br/>
+													The percentage of the provider have been calculated from the total providers who have written prescriptions to patients.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span id="universeProvidersWOSvr" class="wb-header-value">0</span>
+									<span id="providersWOSvr-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user-md" aria-hidden="true" title="Providers"></i>-->
+									<br/>										
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="totalProvidersWOSvrCostPatient"> 0 </span>-->
+								<span id="universeProvidersWOSvr" class="wb-header-value">0</span>
+									<span id="providersWOSvr-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user-md" aria-hidden="true" title="Providers"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients prescribed by providers but not collected SVR12 data
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Providers</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - In this section we are showing the number of patients that prescribed medication therapy by the providers but 
+													have not done the SVR12 result.
+													<br/><br/>
+													The percentage of the patients have been calculated from the total patients with medication.
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<!--<span class="wb-header-value totalPatientsWithoutSvr12">0</span>
+									<span class="wb-header-value universePatientsWOSvr-percent">0</span>
+									<i class="fa fa-user" aria-hidden="true" title="Patients"></i>-->
+								</div>
+							</div>
+							<div class="wb-content">
+								<!--<span>$</span>
+								<span id="totalProvidersWOSvrCost"> 0 </span>-->
+								<span class="wb-header-value totalPatientsWithoutSvr12">0</span>
+									<span class="wb-header-value universePatientsWOSvr-percent">0</span>
+									<i class="fa fa-user" aria-hidden="true" title="Patients"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Providers Distribution
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Providers Distribution</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart show the state wise distribution of providers that prescribed medications to patients but did not collected the SVR12 data.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="providerCharts" idiff="psvr12null"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-ProviderDistribution"></div>
+							</div>
+						</div>
+					</div>
+					<!--patients with genotype distribution-->
+					<!--<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Genotype Distribution
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Patients with Genotype Distribution</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart show the genotype wise distribution of patients that have been prescribed medications by providers but did not collected the SVR12 data.
+													<br/><br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-ProviderDistributionGenotype"></div>
+							</div>
+						</div>
+					</div>-->
+
+					<!-- Providers by Drug Distribution -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Drug Distribution
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Providers with Drug Distribution</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart shows the drug wise distribution of providers that  prescribed medications to patients but did not collected the SVR12 data.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="providerCharts" idiff="pdrugdistr"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-ProviderDrugDistribution"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Providers by Prescriptions with HCV RNA -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Non HCV RNA Prior Treatment
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Non HCV RNA Prior Treatment</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart shows the providers that prescribed medication to patients without any HCV RNA test prior treatment and also did not collected the SVR12 data.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="providerCharts" idiff="nonhcvpropatient"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-ProviderNoHCVRNAPriorTreatment"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Providers by Non FDA Complaint Prescriptions -->
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Non FDA Compliant Prescriptions
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Non FDA Compliant Prescriptions</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This charts shows the Non FDA Compliant prescriptions that have been prescribed by the providers to patients but did not collected the SVR12 data.
+													<br/>
+													<!--<br/>
+													<span class='boldfnt'>Cost</span> - Total cost is the sum of the therapy cost of all the patients that have not done the SVR12 result.
+													<br/>-->
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="providerCharts" idiff="nonfdaCompatient"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-ProviderNonFdaComplaintPrescription"></div>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+				<!-- PROVIDERS END -->
+
+				
+				<!-- SAFETY START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteSafetyTab" style="overflow-y: auto;">
+
+					<div class="">
+						<div class="col-md-12 customHeaderForWaste">
+							<h4 style="text-align: center;">
+								Safety (monitoring for treatment safety)								
+								<span class="wasteOpportunity-infoIcon wasteInfoTip" style="top: 1px;">
+									<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip">
+										<div class="wasteOpportunity-tooltipHead">Safety (monitoring for treatment safety)</div>
+										<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+											<span class='boldfnt'>Definition</span> - 
+											In this section we are showing patient count corresponsding to a lab test. It shows how many patients with medications have been gone through a particular lab test.
+											<br/>
+											Following baseline safety laboratory are recommended in the AASLD/IDSA guidance.
+											<br/>
+										</div>
+									</div>
+								</span>
+								<br/>
+								<span style="font-size: 13px;">Following baseline safety laboratory are recommended in the AASLD/IDSA guidance.</span>
+							</h4>
+						</div>
+
+
+						<div class="waste-table-Header" style="width: 100%;float: left;position: relative;">
+							
+							<div class="waste-table-column-header labTest">Test Names</div>
+							{{#if isClient}}
+							<div class="waste-table-column-header patientCount">Patient Count (N = 895)</div>
+							{{else}}
+							<div class="waste-table-column-header patientCount">Patient Count (N = 16258)</div>
+							{{/if}}
+						</div>
+
+						{{#each labtestStats}}
+						<div class="waste-table-row">
+							<div class="waste-table-column labTest">{{testName}}</div>
+							<div class="waste-table-column PatientCount">{{patientCount}} - ({{percent}}%)</div>
+						</div>
+						{{/each}}
+						
+					</div>
+						
+				</div>
+				<!-- SAFETY END -->
+
+
+				<!-- HEPATITIS A, and B START -->  
+				<!-- Right now we ahve Harcoded values for HEP A and HEP B patients. It needs to be dynamic and integrated with Cohort.-->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteHepABTab" style="overflow-y: auto; min-height: 500px;">
+
+					<div class="ws-header">
+						<div class="ws-selectedFilters" style="width: 35%;">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container" style="width: 65%;">
+
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span class="wb-patient-value wastage-totalPatients">0</span>
+
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span> / </span>
+							<span class="wb-patient-lable">Total Patients With Medication - </span>
+							<!--<span class="wb-patient-value wastage-totalPatients">0</span>-->
+
+							<span class="wb-patient-value wastage-totalPatientsWithMedication">0</span>
+
+							<i class="fa fa-user" aria-hidden="true"></i> 
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">Hepatitis A and B</div>
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+										<span class='boldfnt'>Definition</span> -  In this section we show patients with Hep A or Hep B.
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Total Patients with Hepatitis A
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Hepatitis A</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+														In this section we show total number the patients with Hepatitis A.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="hepATotalPatients" class="wb-header-value">0</span>
+								<span id="hepATotalPatients-percent" class="wb-header-value"></span>
+								<i class="fa fa-user" aria-hidden="true"></i>								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Total Patients with Hepatitis B
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Hepatitis B</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													In this section we show total number the patients with Hepatitis B.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="hepBTotalPatients" class="wb-header-value">0</span>
+								<span id="hepBTotalPatients-percent" class="wb-header-value"></span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Hepatitis A Vaccine
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Hepatitis A Vaccine</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													In this section we show number the patients who took vaccine for Hepatitis A.
+													<br/><br/>
+													The percentage has been calculated out of total patients with hepatitis A.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="uniquePatientsWithHepAVaccine" class="wb-header-value">0</span>
+								<span id="uniquePatientsWithHepAVaccine-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Hepatitis B Vaccine
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Hepatitis B Vaccine</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													In this section we show number the patients who took vaccine for Hepatitis B.
+													<br/><br/>
+													The percentage has been calculated out of total patients with hepatitis B.
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									
+								</div>
+							</div>
+							<div class="wb-content">
+								<span id="uniquePatientsWithHepBVaccine" class="wb-header-value">0</span>
+								<span id="uniquePatientsWithHepBVaccine-percent" class="wb-header-value">0</span>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					
+					<!--graph for Hepatitis A and B Graph -->	
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 90%">
+									<h5 class="wasteQuestion">
+										Genotype Distribution for Hepatitis A
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">  Genotype Distribution for Hepatitis A</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the genotype distribution for the Hepatitis A patients.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="hepAPatientIds"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-HepatitisAChart"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title"  style="width: 90%">
+									<h5 class="wasteQuestion">
+										Genotype Distribution for Hepatitis B
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead"> Genotype Distribution for Hepatitis B</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This chart represents the genotype distribution for the Hepatitis B patients.
+													<br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="wasteChartsData" diff="hepBPatientIds"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-HepatitisBChart"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- HEPATITIS A, and B END -->
+
+
+				<!-- COST OPPORTUNTIY START -->
+				<div class="tab-pane text-style wasteOppotunity-SectionWrapper" id="js-wasteCostOpportuntiyTab"  style="overflow-y: auto;">
+					
+					<div class="ws-header">
+						<div class="ws-selectedFilters">
+							<span> Genotype: </span> <span class="waste-genotype">All</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Treatment: </span> <span class="waste-treatment">Both</span>
+							<span class="wasteFilter-Space"></span>
+							<span> Cirrhosis: </span> <span class="waste-cirrhosis">Both</span>
+						</div>
+						<div class="ws-patient-container">
+							<span class="wb-patient-lable">Total Patients - </span>
+							<span id="waste-costOpportunityTotalWastePatients" class="wb-patient-value wastage-totalPatients" title="Total unique patients for waste opportunity." >0</span>
+							<span>/</span>
+							<span id="waste-costOpportunityTotalPatients" class="wb-patient-value wastage-totalPatients" title="Overall unique patients in selected cohort." >0</span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste" data="costopportunity"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+							<span class="wasteOpportunity-infoIcon wasteInfoTip">
+								<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right">
+									<div class="wasteOpportunity-tooltipHead">COST OPPORTUNTIY</div>
+									<!--<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">In this section we are showing the total unique patients who are being considered for contributing in waste opportuntiy. 
+										These patients may fall into one or more than one group of waste oportuntiy eg. Treatment Change, Missing SVR12, Missing HCV RAN, NON FDA Approved Treatment etc.  <br/>
+										<br/> 
+										<span class='boldfnt' style='color:#000;'>Cost</span> - We have considered therapy cost and labs cost to find out the total waste for these patients.. 
+										
+									</div>-->
+									<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">In this section , we display total unique patient that fall in INCOMPLETE TREATMENT, MISSING SVR12, RELAPSED, RETREATED, MISSING PRESCRIPTION, MISSING HCV RNA, MEDICATION COMBINATIONS, THERAPY DURATION and INAPPROPRIATE REGIMENTS categories.    <br/>
+										<br/> 
+										<span class='boldfnt' style='color:#000;'>Note:</span>- One patient can be a part of more than one category. We are counting them only once.
+										<br/>
+										These unique patients have been divided into two groups:
+										<br/>
+										&nbsp; &nbsp; Total Unique Patients with Medications.<br/>
+										&nbsp; &nbsp; Total Unique Patients without Medications.<br/>
+									</div>
+								</div>
+							</span>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients with Prescriptions
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients with Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This section shows the patients who have been precribed Medication and considered to be in waste opportunity.
+													<!--<br/><br/> 
+										            The percentage of the patients have been calculated from the total patients with medication.-->
+													<br/><br/>
+													<span class='boldfnt'>Cost</span> -
+													Sum of therapy cost for uncured patients and patients with missing SVR12 out of all the patients considered under waste.
+													<br/><br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<span id="uniquePatientsForWaste" class="wb-header-value">0</span>
+									<span id="uniquePatientsForWaste-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+							</div>
+							<!--<div class="wb-content">
+								<span>$</span>
+								<span id="uniquePatientsForWaste-Cost"> 0 </span>								
+							</div>-->
+							<div class="wb-content">
+								<div style="font-size:24px; margin-top:10px; float:left; width:50%;border-right: 1px dotted;">
+									<span>$</span>
+									<span id="uncuredWaste-Cost">0</span>
+									<div style="font-size: 12px;color: white;font-weight: normal;">Detectable SVR Post Therapy</div>
+								</div>
+								<div style="font-size:24px; margin-top:10px;  float:right; width:50%;">
+									<span>$</span>
+									<span id="missingSVR12Waste-Cost">0</span>
+									<div style="font-size: 12px;color: white;font-weight: normal;">Missing SVR12</div>
+								</div>								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 120px;">
+							<div class="wb-header">
+								<div class="wb-header-title">
+									<h5 class="wasteQuestion">
+										Patients without Prescriptions
+										<span class="wasteOpportunity-infoIcon wasteInfoTip">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" >
+												<div class="wasteOpportunity-tooltipHead">Patients without Prescription</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>Definition</span> - 
+													This section shows the patients who have not been precribed Medications and considered to be in waste.
+													<!--<br/><br/>
+													The percentage of the patients have been calculated from the total patients regardless of medication.-->
+													<br/><br/> 
+													<span class='boldfnt'>Cost</span> - 
+													Total cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT etc... ) for patients who have not been prescribed any medication.
+													<br/><br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+								<div class="wb-header-value-container">
+									<span id="uniquePatientsWithNoPrescription" class="wb-header-value">0</span>
+									<span id="uniquePatientsWithNoPrescription-percent" class="wb-header-value">0</span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="wb-content">
+								<span>$</span>
+								<span id="uniquePatientsWithNoPrescription-Cost"> 0 </span>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- Meds Records Data -->
+					<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 100%;">
+										<h5 class="wasteQuestion">
+											Clinical Appropriateness Categories -  Waste Break Down
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Clincal Appropriateness Categories -  Waste Break Down</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Clinical Appropriateness Categories distribution of the patients who have been precribed medication.
+														<br/><br/>
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-clincalCategories" style="width:930px;"></div>
+								</div>
+							</div>
+						</div>
+
+
+
+					<!-- LAB ANALYSIS CHART SECTION --> 
+					<div class="col-md-12 wasteOpportunity-Card">
+						<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+							<div class="wb-header">
+								<div class="wb-header-title" style="width: 100%;">
+									<h5 class="wasteQuestion">
+										Total Cost for Lab Results
+										<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+											<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+												<div class="wasteOpportunity-tooltipHead">Total Cost for Lab Results</div>
+												<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+													<span class='boldfnt'>N : </span> <span id="labCostUniquePatients"></span>
+													<br/>
+													<span class='boldfnt'>Total Cost : </span> <span id="labCostTotalCost"></span>
+													<br/><br/>
+													<span class='boldfnt'>Definition</span> - This chart represents labs data for all the patients who have not been prescribed any medication. 
+													<br/><br/>
+													Total cost of the lab tests (HCV RNA, CREATININE, BILIRUBIN, PLATELET COUNT etc... ) for patients who have not been prescribed any medication.
+													<br/><br/>
+												</div>
+											</div>
+										</span>
+									</h5>
+								</div>
+							</div>
+							<div class="wb-content wasteChartSection">
+								<div id="waste-labNameDistribution"></div>
+							</div>
+						</div>
+					</div>
+
+
+						<!-- Table for Waste Category -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<!--<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 100%;">
+										<h5 class="wasteQuestion">
+											Waste Category
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Waste Category</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Clinical Appropriateness Categories distribution of the patients who have been precribed Medication.
+														<br/><br/>
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+								</div>
+							
+							</div>-->
+								<!--<div class="wasteOppotunityBox" style="background: rgb(46, 126, 151); min-height: 49px;border-bottom: 1px dotted #e4e4e4" >
+									<div style="padding: 5px 5px 0px 5px; float:left; width:100%">
+										<div class="wb-header-title">
+											<h5 class="wasteQuestion">Waste Category</h5>
+										</div>
+									</div>
+								</div>
+								<div class="">
+									<div class="">
+										<div class="commonInfoTable"  style="height:371px;box-shadow: 0px 6px 16px 0px rgba(99, 99, 99, 0.85);">
+											<div class="wasteCategoryTable" style="max-height:345px;overflow-y: auto;" ></div>
+										</div>
+									</div>
+								</div>-->
+						</div>
+
+					<div class="col-md-6" style="padding: 0px;margin: 0px;">
+						
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Genotype distribution of patients with prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Genotype distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Genotype distribution of the patients who have been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="medRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-uniquePatientsForWasteGenotype"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Treatment Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Treatment distribution of patients with prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Treatment distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Treatment distribution of the patients who have been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="medRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-uniquePatientsForWasteTreatment"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cirrhosis Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Cirrhosis distribution of patients with prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Cirrhosis distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Cirrhosis distribution of the patients who have been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="medRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-uniquePatientsForWasteCirrhosis"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gender Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Gender distribution of patients with prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Gender distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Gender distribution of the patients who have been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="medRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-uniquePatientsForWasteGender"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+					<!-- Non Med Records Data -->
+					<div class="col-md-6" style="padding: 0px;margin: 0px;">
+						<!-- Genotype Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Genotype distribution of patients without prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Genotype distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the No Prescription distribution of the patients who have not been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="nonMedRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-nonPrescriptionForWasteGenotype"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Treatment Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Treatment distribution of patients without prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Treatment distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Treatment distribution of the patients who have not been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+								<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="nonMedRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-nonPrescriptionForWasteTreatment"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cirrhosis Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Cirrhosis distribution of patients without prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip tooltip-right" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Cirrhosis distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Cirrhosis distribution of the patients who have not been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="nonMedRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-nonPrescriptionForWasteCirrhosis"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Gender Distribution -->
+						<div class="col-md-12 wasteOpportunity-Card">
+							<div class="wasteOppotunityBox wasteMainChartBox" style="background: rgb(46, 126, 151);">
+								<div class="wb-header">
+									<div class="wb-header-title" style="width: 90%;">
+										<h5 class="wasteQuestion">
+											Gender distribution of patients without prescriptions
+											<span class="wasteOpportunity-infoIcon wasteInfoTip" style="left: 20px;">
+												<div class="wasteOpportunity-tooltip wasteInfoTip_tooltip  tooltip-right" style="padding-left: 8px;">
+													<div class="wasteOpportunity-tooltipHead">Gender distribution</div>
+													<div class="wasteOpportunity-tooltipBody" style="font-size: 13px;">
+														<span class='boldfnt'>Definition</span> - 
+														This chart shows the Cirrhosis distribution of the patients who have not been precribed Medication and considered to be in waste opportunity.
+													</div>
+												</div>
+											</span>
+										</h5>
+									</div>
+									<span  title="show patients" class="ecf-exportPatient globalexportPatientWaste globalexportPatientWasteChart" data="costopportunity" diff="nonMedRecObj"><i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+								</div>
+								<div class="wb-content wasteChartSection">
+									<div id="waste-nonPrescriptionForWasteGender"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<!-- COST OPPORTUNTIY END -->
+				 <!-- Popup for the patients Details-->
+					<div class="popup analyticsPatientsPopup" data-popup="analyticsPatientsPopup">
+						<div class="popup-inner">
+						<button type="button" class="close analytics_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+							<div class="analyticsPatientsPopup-header "></div>
+							<div class="analyticsPatientsPopup-container"> </div>
+							<!--div class="analyticsPatientsPopup-footer">
+								<button class="patientsPopup-closeBtn">Close</button>
+							</div-->	
+							<!--<div class="popup-close" data-popup-close="analyticsPatientsPopup" href="#" style="cursor:pointer;">x</div> -->
+					</div>
+				</div>
+        <!-- Popup end-->
+
+				<!-- ================================
+					Subsection End
+				==================================-->
+				
+			</div>
+		</div>
+	</div>
+	{{/if}}
+</template>

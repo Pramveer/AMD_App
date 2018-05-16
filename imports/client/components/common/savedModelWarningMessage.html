@@ -1,0 +1,18 @@
+<!-- Model saved Changes Warning -->
+<template name="SavedModelWarningMessage">
+<div class="popup" data-popup="loadWarningMessageTab" id="loadWarningMessageTab">
+    <div class="popup-inner">
+            <div class="modal-body popup-body" style="text-align:center;color:red;">                   
+                <div class="row">
+                    <div class="col-md-12">
+
+                    You have unsaved Changes in ( <span class='tabnames'></span> ). Do you want to save them?</div>
+
+                </div>
+                <button type="button" class="btn btn-default loadWarningMessageButtonStayTab warningMsgBtn">Yes</button>
+                <button type="button" class="btn btn-default continueUnsavedchangesTab warningMsgBtn">No</button>
+            </div>
+    </div>
+    {{ tabNames }}
+</div>
+</template>

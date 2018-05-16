@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="50">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01912495</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NL44825.078.13</org_study_id>
+    <nct_id>NCT01912495</nct_id>
+  </id_info>
+  <brief_title>Dutch Acute HCV in HIV Study (DAHHS)</brief_title>
+  <acronym>DAHHS</acronym>
+  <official_title>Efficacy of 12 Week Boceprevir in Addition to Standard of Care Therapy Consisting of Peginterferon-alpha-2b and Ribavirin for the Treatment of Acute HCV Genotype 1 in HIV Co-infected Patients. A Proof of Concept Feasibility Clinical Trial.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Erasmus Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Onze Lieve Vrouwe Gasthuis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>UMC Utrecht</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Medical Center Groningen</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Maastricht University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Rijnstate Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Slotervaart Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Radboud University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Erasmus Medical Center</source>
+  <oversight_info>
+    <authority>Netherlands: Medical Ethics Review Committee (METC)</authority>
+    <authority>Netherlands: The Central Committee on Research Involving Human Subjects (CCMO)</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Prospective open label proof of concept feasibility interventional clinical trial in which
+      60 acute HCV genotype 1 patients co-infected with HIV will receive 12 weeks of boceprevir in
+      addition to Standard Of Care Peginterferon + Ribavirin if they show a Rapid Viral Responds
+      at week 4.
+
+      The primary hypothesis of this study is that the subset of patients with a Rapid Viral
+      Responds after 4 weeks of triple therapy with boceprevir, peginterferon alpha-2b (P) and
+      ribavirin (RVR4) can be successfully treated with a shorter 12-week triple therapy regimen.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>August 2013</start_date>
+  <completion_date type="Anticipated">June 2015</completion_date>
+  <primary_completion_date type="Anticipated">March 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Viral Responds(SVR) 12 weeks of follow up after the end of all therapy for the Rapid Viral Response at week 4(RVR4) population.</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>SVR 12 weeks after the end of all therapy in the entire study population (with or without RVR4).</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>SVR 12 weeks after end of therapy in patients with already a RVR at week 1.</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>SVR 12 weeks after end of therapy in patients that started therapy ≤12weeks after the presumed HCV infection date versus those after 12 weeks.</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Alterations of biomarkers by therapy induced viral eradication: Viral sequencing, mutation analysis, gene expression analysis, and RNA analysis.</measure>
+    <time_frame>72 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety: Treatment related (serious) adverse events ((S)AE) and treatment discontinuation for (S)AE.</measure>
+    <time_frame>72 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">60</enrollment>
+  <condition>Hepatitis C</condition>
+  <condition>Human Immunodeficiency Virus</condition>
+  <arm_group>
+    <arm_group_label>Boceprevir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <arm_group_label>Boceprevir</arm_group_label>
+    <other_name>Victrelis</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          1. Documented recent HCV genotype 1 infection (≤26 weeks old at the time of the baseline
+             visit) according to definition mentioned below.
+
+          2. Plan to start a Standard Of Care therapy for acute HCV consisting of 24 weeks of
+             Peginterferon + Ribavirin. HCV RNA plasma viral load at screening &gt;1000 IU/ml.
+
+          3. A previously performed HCV RNA plasma measurement can be used for screening if &lt;4
+             weeks old.
+
+          4. On HAART at the time of screening.
+
+          5. Minimum age 18 years.
+
+        Exclusion Criteria:
+
+          1. Disallowed co-medication that cannot be stopped or replaced: Several potentially
+             life-threatening drug-drug interactions (DDI) are possible when boceprevir is
+             combined with other drugs. Therefore ALL co-medication, including over-the-counter
+             drugs should be checked for potential DDI with DDI table in the Dutch summary of
+             product characteristics (SPC, appendix A). If the co-medication is not mentioned in
+             the SPC DDI table, www.HCV-druginteractions.org should be used.
+
+          2. Contraindications for the use of full dose of peginterferon alpha-2b or ribavirin:
+             neutrophils &lt;0,75×109/l or thrombocytes &lt; 100.000×109/l or a Hb &lt;6.2mmol/L,
+             creatinine clearance &lt;50ml/min).
+
+          3. History of liver cirrhosis or &gt;F1 fibrosis on fibroscan. Inclusion of patients with a
+             chronic well-controlled HBV (HBV-DNA below the limit of detection) with tenofovir,
+             lamivudine or emtricitabine therapy is allowed if fibroscan excludes &gt;F1 fibrosis.
+             Fibroscan reports &lt;2 years old can be used for screening. Fibroscan is not required
+             for other patients at screening.
+
+          4. HAART was started &lt;4 weeks before baseline visit.
+
+          5. Inability to switch to a HAART regimen consisting of 2 nucleoside/tide reverse
+             transcriptase inhibitors + Raltegravir (Isentress®) 400mg BID or rilpivirine 25mg QD
+             or atazanavir (Reyataz®) 300mg QD + ritonavir (Norvir®) 100mg QD.
+
+          6. Patient that virologically failed HAART in the past
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bart Rijnders, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Erasmus MC</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Erasmus MC</name>
+      <address>
+        <city>Rotterdam</city>
+        <state>Zuid Holland</state>
+        <zip>3000CA</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>AMC</name>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>OLVG</name>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Slotervaart</name>
+      <address>
+        <city>Amsterdam</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Ziekenhuis Rijnstate</name>
+      <address>
+        <city>Arnhem</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UMCG</name>
+      <address>
+        <city>Groningen</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>MUMC</name>
+      <address>
+        <city>Maastricht</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Radboud UMCN</name>
+      <address>
+        <city>Nijmegen</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>UMCU</name>
+      <address>
+        <city>Utrecht</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>February 2015</verification_date>
+  <lastchanged_date>February 2, 2015</lastchanged_date>
+  <firstreceived_date>July 29, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Erasmus Medical Center</investigator_affiliation>
+    <investigator_full_name>Bart Rijnders</investigator_full_name>
+    <investigator_title>MD,PhD</investigator_title>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Acquired Immunodeficiency Syndrome</mesh_term>
+    <mesh_term>HIV Infections</mesh_term>
+    <mesh_term>Immunologic Deficiency Syndromes</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="124">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00539591</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MEL06</org_study_id>
+    <secondary_id>NCI-2011-01192</secondary_id>
+    <nct_id>NCT00539591</nct_id>
+  </id_info>
+  <brief_title>Phase II Study Incorporating Pegylated Interferon In the Treatment For Children With High-Risk Melanoma</brief_title>
+  <official_title>Phase II Study Incorporating Pegylated Interferon In the Treatment For Children With High-Risk Melanoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>St. Jude Children's Research Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Schering-Plough</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>St. Jude Children's Research Hospital</source>
+  <oversight_info>
+    <authority>United States: Institutional Review Board</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main goal of this study is to estimate the tumor response rate of temozolomide
+      administered in combination with peginterferon alfa-2b to pediatric patients with
+      unresectable Stage III, metastatic, or recurrent cutaneous melanoma.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This study is for children with malignant melanoma and high risk features (at high risk of
+      melanoma returning or spreading to other parts of the body) or who have recurrent disease.
+      The study has two treatment groups based on the stage of the disease. Patients with stage
+      IIC, IIIA or IIIB melanoma whose tumors have been removed by surgery will be treated in
+      study group A. These patients will receive 4 weeks of high dose interferon alfa-2b followed
+      by 48 weeks of peginterferon. Patients with stage IIIC or IV melanoma, stage III melanoma
+      that could not be removed by surgery and those with recurrent disease will be treated in
+      study group B. These patients will receive peginterferon alfa-2b and temozolomide.
+
+      Stratum A: Resected Stages IIC, IIIA, and IIIB patients
+
+      Induction therapy (weeks 1-4): Subjects will receive recombinant interferon alfa-2b 20
+      million units/m2 per day intravenously over 20-30 minutes on 5 consecutive days per week for
+      4 weeks. Subjects will receive peginterferon alfa-2b 1 mcg/kg/week subcutaneously for a
+      total of 48 weeks.
+
+      Stratum B: Resected Stage IIIC, unresectable Stage III, Stage IV, and recurrent patients
+
+      Stratum B is divided into 2 groups based on the presence (Stratum B1) or absence (Stratum
+      B2) of measurable disease. Subjects will receive 8 weekly doses of peginterferon alfa-2b 0.5
+      mcg/kg/dose subcutaneously in combination with temozolomide 75mg/m2/dose by mouth daily for
+      6 weeks followed by 2 week break. The duration of each treatment course will be 8 weeks.
+      Strata B2 (no measurable disease) will proceed with 7 courses as outlined.
+
+      Surgery interventions -Associated with both Strata A and B Surgery description: All subjects
+      with initial presentation of melanoma (T1-4) will be treated with primary wide local
+      excision with a minimum of 1cm margin (if anatomically feasible) surrounding the primary
+      lesion or biopsy scar. For lesions with Breslow's thickness of &gt; 1mm or &lt;or= with ulceration
+      or Clark's level IV/V, a 2 cm margin is preferred when anatomically feasible. Subjects with
+      sentinel lymph node(s) positive for disease, will undergo complete lymph node dissection of
+      the involved nodal basin.
+
+      Additional objectives include:
+
+        -  To assess the safety of temozolomide administered in combination with peginterferon
+           α-2b to pediatric patients with resected AJCC Stage IIIC, unresectable Stage III,
+           metastatic, or recurrent cutaneous melanoma (Stratum B).
+
+        -  To study the feasibility and safety of administering peginterferon α-2b weekly for 48
+           weeks following an initial induction phase with intravenous high dose interferon α-2b
+           for 4 weeks to pediatric patients with resected thick melanomas (&gt; 4mm) with
+           ulcerations (AJCC Stage IIC) and resected melanomas with regional lymph node metastases
+           (AJCC Stage IIIA and IIIB) (Stratum A).
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>October 2007</start_date>
+  <completion_date type="Anticipated">September 2018</completion_date>
+  <primary_completion_date type="Actual">June 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Tumor Response Rate</measure>
+    <time_frame>8 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Tumor response rate of stratum B1 participants was evaluated after 1 treatment course of temozolomide plus peginterferon alpha-2b. Complete response (CR) and partial response (PR) confirmed with repeated scan at least 4 weeks apart following completion of course 1 therapy. CR defined as disappearance of all target and non-target lesions with no new lesions detected. If available, no disease must be detected by immunocytology or serum tumor markers. PR defined as at least 30% decrease in disease measurement compared to disease measurement at study entry with no new lesions detected. Progressive disease (PD) defined as at least 20% increase in the disease measurement compared to the smallest disease measurement recorded since start of treatment, or appearance of one or more new lesions. Stable disease defined as neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD compared to smallest disease measurement since start of treatment.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Who Experience Toxicity at or Above the Target Toxicity for Strata B1 and B2</measure>
+    <time_frame>52 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The objective was to assess the safety of temozolomide administered in combination with peginterferon a-2b in Stratum B participants.
+Accrual was suspended any time during therapy if 2 or more of 6, 4 or more of 12, 6 or more of 18, 8 or more of 24, 10 or more of 30 participants experienced target toxicity defined as:
+Grade 4 non-hematologic (non-hem) toxicity that does not resolve to ≤grade 1 within 2 weeks from the time next dose is due and is determined to be probably or definitely related to protocol therapy
+Grade 4 non-hem toxicity that is NOT constitutional symptoms (fever, chills, fatigue and/or pain)
+Grade 3 elevations in creatinine or BUN that are determined to be probably or definitely related to protocol therapy
+Grade 4 cardiopulmonary toxicity that is determined to be probably or definitely related to protocol therapy
+Grade 4 mood alteration (suicidal ideation; danger to self or others)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of Patients Who Experience Toxicity at or Above the Target Toxicity for Stratum A Patients</measure>
+    <time_frame>52 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The objective was to study the feasibility and safety of administering peginterferon a-2b weekly for 48 weeks following the initial induction phase to Stratum A participants.
+Accrual was suspended during the 48-week course if 2 or more of 6, 4 or more of 12, 6 or more of 18, 8 or more of 24, 10 or more of 30 participants experienced target toxicity defined as:
+Grade 4 non-hematologic (non-hem) toxicity that does not resolve to ≤grade 1 within 2 weeks from the time next dose is due and is determined to be probably or definitely related to protocol therapy
+Grade 4 non-hem toxicity that is NOT constitutional symptoms (fever, chills, fatigue and/or pain)
+Grade 3 elevations in creatinine or BUN that are determined to be probably or definitely related to protocol therapy
+Grade 4 cardiopulmonary toxicity that is determined to be probably or definitely related to protocol therapy
+Grade 4 mood alteration (suicidal ideation; danger to self or others)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Event-free Survival of Group A Participants</measure>
+    <time_frame>3 years from diagnosis</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">29</enrollment>
+  <condition>Malignant Melanoma</condition>
+  <arm_group>
+    <arm_group_label>Temozolomide/peginterferon alfa-2b</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Stratum B: Resected Stage IIIC, unresectable Stage III, Stage IV, and recurrent patients
+Stratum B is divided into 2 groups based on the presence (Stratum B1) or absence (Stratum B2) of measurable disease. Subjects will receive 8 weekly doses of peginterferon alfa-2b 0.5 mcg/kg/dose subcutaneously (SQ) in combination with temozolomide 75mg/m2/dose by mouth (PO) daily for 6 weeks followed by 2 week break. The duration of each treatment course will be 8 weeks. Strata B2 (no measurable disease) will proceed with 7 courses as outlined.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Peginterferon alfa-2b/non-pegylated interferon alfa-2b</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Stratum A: Resected Stages IIC, IIIA, and IIIB patients will receive recombinant interferon alfa-2b 20 million units/m2/day intravenously (IV) 5 consecutive days per week for 4 weeks followed by peginterferon alfa-2b 1mcg/kg subcutaneously (SQ) once a week for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Peginterferon alfa-2b</intervention_name>
+    <description>Given either IV or SQ. Therapeutic drug class: interferon.</description>
+    <arm_group_label>Temozolomide/peginterferon alfa-2b</arm_group_label>
+    <arm_group_label>Peginterferon alfa-2b/non-pegylated interferon alfa-2b</arm_group_label>
+    <other_name>PEG-Intron(R)</other_name>
+    <other_name>pegylated interferon alfa-2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Temozolomide</intervention_name>
+    <description>Given PO. Therapeutic drug class: antineoplastic agent.</description>
+    <arm_group_label>Temozolomide/peginterferon alfa-2b</arm_group_label>
+    <arm_group_label>Peginterferon alfa-2b/non-pegylated interferon alfa-2b</arm_group_label>
+    <other_name>Temodar(R), SCH 52365</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Recombinant interferon alfa-2b</intervention_name>
+    <description>Given IV. Therapeutic drug classes: antineoplastic agent, immunomodulatory agent, interferon</description>
+    <arm_group_label>Peginterferon alfa-2b/non-pegylated interferon alfa-2b</arm_group_label>
+    <other_name>Intron®</other_name>
+    <other_name>non-pegylated interferon alfa-2b</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  AJCC stage IIC, III, IV or recurrent cutaneous melanoma
+
+          -  Adequate bone marrow function
+
+          -  Age less than or equal to 21 years of age at diagnosis
+
+          -  Adequate liver and kidney function
+
+        Exclusion Criteria:
+
+          -  Prior Therapy with dacarbazine or temozolomide
+
+          -  Patients who have uncontrolled infection
+
+          -  Patients with autoimmune hepatitis
+
+          -  Patients who have a history of depression or other psychiatric diseases requiring
+             hospitalization
+
+          -  Patients taking systemic corticosteroids including oral steroids (i.e. prednisone,
+             dexamethasone) or topical steroid creams/ointments. Steroid containing inhalers,
+             steroid replacement for adrenal insufficiency and steroid premedication for
+             prevention of transfusion or imaging contrast-agent related allergic reaction will be
+             permitted.
+
+          -  Patients with hypersensitivity reaction to non-pegylated interferon α-2b are not
+             eligible for study
+
+          -  Patients with diabetes mellitus not adequately controlled with medication
+
+          -  Patients with hypo- or hyperthyroidism not adequately controlled with medication.
+
+          -  Patients with a history of myocardial infarction, severe or unstable angina, or
+             severe peripheral vascular disease.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>21 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Alberto Pappo, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>St. Jude Children's Research Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Rady Children's Hospital</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92123</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>St. Jude Children's Research Hospital</name>
+      <address>
+        <city>Memphis</city>
+        <state>Tennessee</state>
+        <zip>38105</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Children's Cancer Hospital at UT M.D. Anderson Cancer Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://www.stjude.org</url>
+    <description>St. Jude Children's Research Hospital</description>
+  </link>
+  <link>
+    <url>http://www.stjude.org/protocols</url>
+    <description>Clinical Trials Open at St. Jude</description>
+  </link>
+  <verification_date>July 2015</verification_date>
+  <lastchanged_date>August 4, 2015</lastchanged_date>
+  <firstreceived_date>October 2, 2007</firstreceived_date>
+  <firstreceived_results_date>September 10, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Cutaneous Melanoma</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Melanoma</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Temozolomide</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

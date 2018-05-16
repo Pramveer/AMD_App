@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="497">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00987337</url>
+  </required_header>
+  <id_info>
+    <org_study_id>A8121014</org_study_id>
+    <nct_id>NCT00987337</nct_id>
+  </id_info>
+  <brief_title>Filibuvir In Treatment Naive Hepatitis C Virus (HCV) Genotype 1 Subjects</brief_title>
+  <acronym>FITNESS</acronym>
+  <official_title>A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study To Evaluate The Safety And Efficacy Of Filibuvir Plus Pegylated Interferon Alfa-2a And Ribavirin In Treatment-Naive, HCV Genotype 1 Infected Subjects</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Pfizer</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Pfizer</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective for this study is to determine if the addition of filibuvir to a
+      standard regimen of peginterferon/ribavirin (pegIFN/RBV) significantly increases the
+      proportion of subjects who achieve a sustained viral response (SVR) compared to
+      peginterferon/ribavirin (pegIFN/RBV) therapy alone.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>November 2009</start_date>
+  <completion_date type="Actual">January 2012</completion_date>
+  <primary_completion_date type="Actual">January 2012</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants With Sustained Viral Response (SVR) at Week 72</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>For participants who received filibuvir, had undetectable HCV RNA from Week 4 through 24 and discontinued therapy at Week 24, SVR was defined as undetectable plasma HCV RNA levels (&lt;15 IU/mL) at both Week 24 (End of Treatment [EOT]) and Week 72, regardless of the HCV RNA levels between Week 24 and 72. For participants who received filibuvir, had detectable HCV RNA at Week 4 or later and discontinued therapy at Week 48 or who received placebo, SVR was defined as undetectable plasma HCV RNA levels (&lt;15 IU/mL) at both Week 48 (EOT) and Week 72, regardless of the HCV RNA levels between Week 48 and 72.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Undetectable Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) at Week 4, 12, 24 and 48</measure>
+    <time_frame>Week 4, 12, 24, 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants with undetectable HCV RNA at Week 4 (rapid viral response [RVR]), Week 12 (early viral response [EVR]), Week 24 and Week 48 were summarized. Undetectable HCV RNA was defined as plasma HCV RNA levels &lt;15 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Viral Response at 12 Weeks Following Completion of Therapy (SVR12)</measure>
+    <time_frame>12 weeks after completion of therapy (Week 36 or 60)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A participant was considered to have achieved SVR12 if the plasma HCV RNA levels were &lt;15 IU/mL at both the end of treatment (Week 24 or 48, depending on the time of therapy discontinuation based on HCV RNA levels during therapy) and 12 weeks following the completion of therapy (Week 36 for participants who ended therapy at Week 24; Week 60 for participants who ended therapy at Week 48). Overall percentage of participants with SVR12 was summarized.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Sustained Viral Response at 24 Weeks Following Completion of Therapy (SVR24)</measure>
+    <time_frame>24 weeks after completion of therapy (Week 48 or 72)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR24 was summarized only for those participants who received filibuvir, had undetectable HCV RNA from Week 4 through 24 and discontinued therapy at Week 24 and all participants who received placebo for 48 weeks. A participant was considered to have achieved SVR24 if the plasma HCV RNA levels were &lt;15 IU/mL at both the end of treatment (Week 24 for filibuvir participants who ended therapy at Week 24 and Week 48 for participants who received placebo) and 24 weeks following the completion of therapy (Week 48 for filibuvir participants who ended therapy at Week 24; Week 72 for placebo participants who ended therapy at Week 48).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Breakthrough Viremia</measure>
+    <time_frame>Baseline up to Week 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A participant was considered to have breakthrough viremia if there was a &gt;2 log10 increase from nadir in HCV RNA concentration while on treatment or HCV RNA that became undetectable with treatment but then became persistently detectable (2 or more consecutive viral RNA measurements &gt;1000 IU/mL) again during treatment. Overall percentage of participants with breakthrough viremia was summarized.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With Relapsed Response</measure>
+    <time_frame>Week 24 or Week 48 up to Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A participant was considered to have relapsed response if the plasma HCV RNA levels were undetectable at end of treatment (Week 24 or 48, depending on the time of therapy discontinuation based on HCV RNA levels during therapy) but detectable (&gt;=15 IU/mL) during the off-treatment follow-up period up to Week 72. Overall percentage of participants with relapsed response was summarized.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change From Baseline in Plasma Log10 Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) at Week 4, 12 and 24</measure>
+    <time_frame>Baseline, Week 4, 12, 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Plasma HCV RNA levels were measured using the Roche COBAS TaqMan assay (limit of detection: 15 IU/mL). Baseline value calculated as the average of the screening and Day 1 pre-dose measurements.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Adverse Events (AEs) by Severity (All Causality)</measure>
+    <time_frame>Baseline up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE was any untoward medical occurrence attributed to study drug in a participant who received study drug. A serious AE (SAE) was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Adverse events were graded as mild (did not interfere with participant's usual function), moderate (interfered to some extent with participant's usual function) or severe (interfered significantly with participant's usual function). The most severe grade was used in case of multiple occurrences of the same event.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Relationship to Study Drug (Any Therapy)</measure>
+    <time_frame>Baseline up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE was any untoward medical occurrence attributed to study drug in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to Week 72 that were absent before treatment or that worsened relative to pretreatment state. All causality AEs included SAEs as well as non-serious AEs, without regard to relationship to the study drug, which occurred during the trial. Treatment-related were events considered related to study drug by the investigator. Number of participants with treatment related TEAEs and all causality TEAEs were summarized.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants Who Discontinued Study Due to Adverse Events (AEs)</measure>
+    <time_frame>Baseline up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE was any untoward medical occurrence attributed to study drug in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Dose Reduction or Temporary Discontinuation Due to Adverse Events (AEs)</measure>
+    <time_frame>Baseline up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An AE was any untoward medical occurrence attributed to study drug in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Laboratory Test Abnormalities by Severity</measure>
+    <time_frame>Baseline up to Week 72</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Number of participants with laboratory abnormalities by Division of Auto Immune Disease Syndrome (DAIDS) grade of 4; 3 or 4; 2, 3 or 4 was summarized. Abnormal laboratory values refers to a DAIDS grade greater than 0, where grade 1= mild, grade 2= moderate, grade 3= severe and grade 4 = potentially life-threatening.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Plasma Concentration of Filibuvir, Pegylated Interferon and Ribavirin</measure>
+    <time_frame>Week 0 (pre-dose), Week 2, 4, 8, 12, 16, 20, 24, 48 (only for those participants who received treatment till Week 48) post-dose</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">288</enrollment>
+  <condition>Hepatitis</condition>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Arm A</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Filibuvir 300 mg BID + pegIFN/RBV x 24 weeks (subjects with undetectable HCV RNA at week 4)
+- or - Filibuvir 300 mg BID + pegIFN/RBV x 24 weeks followed by pegIFN/RBV x 24 weeks (subjects with detectable HCV RNA at week 4)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Filibuvir 600 mg BID + pegIFN/RBV x 24 weeks (subjects with undetectable HCV RNA at week 4)
+- or - Filibuvir 600 mg BID + pegIFN/RBV x 24 weeks followed by pegIFN/RBV x 24 weeks (subjects with detectable HCV RNA at week 4)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm C</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Placebo + pegIFN/RBV x 24 weeks followed by pegIFN/RBV x 24 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Filibuvir</intervention_name>
+    <description>300 mg BID</description>
+    <arm_group_label>Arm A</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Filibuvir</intervention_name>
+    <description>600 mg BID</description>
+    <arm_group_label>Arm B</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>BID</description>
+    <arm_group_label>Arm C</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Male or female subjects at least 18 years of age.
+
+          -  HCV seropositive.
+
+          -  HCV RNA &gt;10,000 IU/mL at screening.
+
+          -  HCV Genotype 1. Subjects infected with a non-genotype 1 strain or mixed genotypes are
+             not eligible.
+
+          -  Treatment naïve (no prior treatment with IFN alfa +/ RBV regimens or investigational
+             anti-HCV agents).
+
+          -  Liver biopsy within two years (24 months) of Screening with non-cirrhotic fibrosis
+             classification. For those subjects with liver biopsy outside of the time window or
+             for those subjects with no history of liver biopsy, a biopsy must be performed prior
+             to randomization.
+
+          -  Ultrasound within 6 months of Screening for 1) those subjects with bridging fibrosis
+             or 2) those subjects with AFP &gt;50 and &lt;100 ng/mL with no evidence of hepatocellular
+             carcinoma. For those subjects with an ultrasound conducted outside the 6-month time
+             window, an ultrasound must be performed prior to randomization.
+
+        Exclusion Criteria:
+
+          -  Co-infection with either HIV or HBV.
+
+          -  Evidence of severe or decompensated liver disease.
+
+          -  Subjects with liver disease unrelated to HCV infection.
+
+          -  Pre-existing medical condition that makes the subject unsuitable for treatment with
+             pegIFN/RBV therapy per product labeling.
+
+          -  Laboratory abnormality at Screening that makes the subject unsuitable for treatment
+             with pegIFN/RBV therapy per product labeling.
+
+          -  Abnormal ECG suggestive of clinically significant cardiac disease or QTc&gt;450msec.
+
+          -  History of organ transplant.
+
+          -  Contraindicated medications being taken by the subject at the time of randomization
+             that must be continued during the study period, including potent CYP3A4 inhibitors,
+             sensitive CYP3A4 substrates, CYP3A4 substrates with narrow therapeutic range and
+             CYP3A4 inducers.
+
+          -  Active alcohol or substance abuse sufficient, in the Investigator's judgment, to
+             prevent adherence to study medication and/or follow up.
+
+          -  Pregnant or nursing females.
+
+          -  Males whose female partner is pregnant.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Pfizer CT.gov Call Center</last_name>
+    <role>Study Director</role>
+    <affiliation>Pfizer</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Anaheim</city>
+        <state>California</state>
+        <zip>92801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Anaheim</city>
+        <state>California</state>
+        <zip>92802</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Coronado</city>
+        <state>California</state>
+        <zip>92118</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>La Jolla</city>
+        <state>California</state>
+        <zip>92037</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Mather</city>
+        <state>California</state>
+        <zip>95655</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Sacramento</city>
+        <state>California</state>
+        <zip>95814</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Sacramento</city>
+        <state>California</state>
+        <zip>95817</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92123</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Englewood</city>
+        <state>Colorado</state>
+        <zip>80113</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>DeLand</city>
+        <state>Florida</state>
+        <zip>32720</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32207</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32209</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Orlando</city>
+        <state>Florida</state>
+        <zip>32809</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>South Miami</city>
+        <state>Florida</state>
+        <zip>33143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Winter Park</city>
+        <state>Florida</state>
+        <zip>32789</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114-2622</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10021</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>22713</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19141</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78234</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84132</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23249</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Bruxelles</city>
+        <zip>1020</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Bruxelles</city>
+        <zip>1200</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Edegem</city>
+        <zip>2650</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Gent</city>
+        <zip>9000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Haine St. Paul</city>
+        <zip>7100</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Leuven</city>
+        <zip>3000</zip>
+        <country>Belgium</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T5H 3V9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T5H 4B9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Edmonton</city>
+        <state>Alberta</state>
+        <zip>T6G 2B7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V5Z 1M9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Vancouver</city>
+        <state>British Columbia</state>
+        <zip>V6Z2C7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Halifax</city>
+        <state>Nova Scotia</state>
+        <zip>B3H 1V7</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Halifax</city>
+        <state>Nova Scotia</state>
+        <zip>B3H 2Y9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H2L 4P9</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H2X 2P4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3A 1A1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Clichy</city>
+        <zip>92110</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Creteil cedex</city>
+        <zip>94010</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Marseille cedex 8</city>
+        <zip>13285</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Paris Cedex 12</city>
+        <zip>75571</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Pessac Cedex</city>
+        <zip>33604</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Rennes cedex 9</city>
+        <zip>35033</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Vandoeuvre Les Nancy Cedex</city>
+        <zip>54511</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Berlin</city>
+        <zip>12157</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Bonn</city>
+        <zip>53105</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Duesseldorf</city>
+        <zip>40237</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20099</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Hamburg</city>
+        <zip>20246</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Kiel</city>
+        <zip>24146</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Koeln</city>
+        <zip>50937</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Bekescsaba</city>
+        <zip>5600</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Budapest</city>
+        <zip>1126</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Debrecen</city>
+        <zip>4032</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Gyula</city>
+        <zip>5700</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Kaposvar</city>
+        <zip>7400</zip>
+        <country>Hungary</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <zip>110-744</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <zip>120-752</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Seoul</city>
+        <zip>135-710</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Rio Piedras</city>
+        <zip>00927</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Majadahonda</city>
+        <state>Madrid</state>
+        <zip>28220</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08003</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Cordoba</city>
+        <zip>14004</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28006</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28029</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28034</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Pfizer Investigational Site</name>
+      <address>
+        <city>Sevilla</city>
+        <zip>41014</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Belgium</country>
+    <country>Canada</country>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Hungary</country>
+    <country>Korea, Republic of</country>
+    <country>Puerto Rico</country>
+    <country>Spain</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://trialinfoemail.pfizer.com/pages/landing.aspx?StudyID=A8121014&amp;StudyName=Filibuvir%20In%20Treatment%20Naive%20Hepatitis%20C%20Virus%20%28HCV%29%20Genotype%201%20Subjects</url>
+    <description>To obtain contact information for a study center near you, click here.</description>
+  </link>
+  <verification_date>December 2013</verification_date>
+  <lastchanged_date>December 10, 2013</lastchanged_date>
+  <firstreceived_date>September 29, 2009</firstreceived_date>
+  <firstreceived_results_date>December 10, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C Polymerase Inhibitor PF-00868554 Filibuvir</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

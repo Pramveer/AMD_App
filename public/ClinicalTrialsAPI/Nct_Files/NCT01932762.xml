@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="291">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01932762</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5172-047</org_study_id>
+    <secondary_id>2013-002169-21</secondary_id>
+    <nct_id>NCT01932762</nct_id>
+  </id_info>
+  <brief_title>Efficacy and Safety of Combination Grazoprevir (MK-5172) + Elbasvir (MK-8742) + Ribavirin (RBV) in Genotype 2 Hepatitis C Infection (MK-5172-047)</brief_title>
+  <official_title>A Phase II Clinical Trial to Study the Efficacy and Safety of a Combination Regimen of MK-5172 and MK-8742 With Ribavirin (RBV) in Subjects With Chronic Hepatitis C Genotype 2 Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a multi-site, open-label trial evaluating the safety and efficacy of 100 mg of
+      grazoprevir (MK-5172) (a second-generation protease inhibitor) used in combination with/or
+      without 50 mg of elbasvir (MK-8742) (an NS54A inhibitor) and/or ribavirin (RBV) in treating
+      non-cirrhotic treatment-naïve (TN) participants with chronic genotype (GT) 2, 4, 5, and 6
+      hepatitis C infection.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2013</start_date>
+  <completion_date type="Actual">December 2014</completion_date>
+  <primary_completion_date type="Actual">December 2014</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Achieving Sustained Virologic Response 12 Weeks After The End of Study Therapy (SVR12)</measure>
+    <time_frame>From Treatment Week (TW) 1 to Follow-up Week (FW) 12 (up to 24 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants with Adverse Events (AEs), Serious AEs (SAEs), Drug-Related AE, Drug-Related SAE, or Discontinuation Due to AE</measure>
+    <time_frame>From TW1 through FW 24 (up to 36 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to First Achievement of Undetectable HCV RNA</measure>
+    <time_frame>From TW1 through FW 24 (up to 36 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Undetectable HCV RNA</measure>
+    <time_frame>From TW 1 through TW 12 (up to 12 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving HCV RNA &lt;25 IU/mL</measure>
+    <time_frame>From TW 1 through TW 12 (up to 12 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving SVR4</measure>
+    <time_frame>From TW1 through FW 4 (up to 16 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving SVR24</measure>
+    <time_frame>From TW1 through FW 24 (up to 36 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">98</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Part A: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During Part A of the study, GT2 participants will receive 100 mg grazoprevir + 50 mg elbasvir + standard weight-based dosing of RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part B: Grazoprevir + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During Part B of the study, GT2 participants will receive 100 mg grazoprevir + standard weight-based dosing of RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During Part B of the study, GT4/GT5/GT6 participants will receive 100 mg grazoprevir + 50 mg elbasvir + standard weight-based dosing of RBV for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>During Part B of the study, GT4/GT5/GT6 participants will receive 100 mg grazoprevir + 50 mg elbasvir for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Grazoprevir</intervention_name>
+    <description>100 mg every day (QD) orally</description>
+    <arm_group_label>Part A: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Elbasvir</intervention_name>
+    <description>50 mg QD orally</description>
+    <arm_group_label>Part A: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Administered twice daily (BID) orally at a total daily dose of 800 mg to 1400 mg based on participant's weight on Day 1</description>
+    <arm_group_label>Part A: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + RBV</arm_group_label>
+    <arm_group_label>Part B: Grazoprevir + Elbasvir + RBV</arm_group_label>
+    <other_name>Rebetol™</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        Parts A and B: -Body weight ≥50 kg (111 lbs) and ≤ 125 kg (275 lbs) -Has absence of
+        cirrhosis -Agrees to use two acceptable methods of birth control from at least 2 weeks
+        prior to Day 1 and continue until at least 6 months after last dose of study drug, or
+        longer if dictated by local regulations (for female subject who is of childbearing
+        potential or male subject with female sexual partner who is of childbearing potential).
+        Part A only: -Has chronic HCV GT2 infection Part B only: -Has chronic HCV GT2, GT4, GT5,
+        or GT6 infection
+
+        Exclusion Criteria:
+
+        Parts A and B:
+
+        -Is not treatment naïve (participant has had previous treatment with any interferon, RBV,
+        approved or experimental direct acting antiviral(s), or other investigational therapies
+        for HCV) -Is determined to be coinfected with hepatitis B virus (HBsAg positive) or HIV
+        -Has evidence of, or is under evaluation for, hepatocellular carcinoma (HCC) -Has a
+        clinical diagnosis of substance abuse including the following specified drugs within
+        specified timeframes: Alcohol, intravenous drugs, inhalational, psychotropics, narcotics,
+        cocaine use, prescription or over-the-counter drugs (within 1 year of the screening
+        visit), is receiving opiate agonist substitution therapy (within 1 year of screening
+        visit), or excessive historic marijuana use -Has evidence of active or suspected
+        malignancy, or a history of malignancy, within the last 5 years -Female participant who is
+        pregnant, lactating, expecting to conceive or donate eggs, or is of childbearing potential
+        and unwilling to commit to two methods of birth control throughout treatment and after the
+        completion of all treatment, or male participant who is planning to impregnate or provide
+        sperm donation or has a female sexual partner of childbearing potential and is unwilling
+        to commit to using a two methods of birth control throughout treatment and after the
+        completion of all treatment -Has evidence or history of chronic hepatitis not caused by
+        HCV, including but not limited to nonalcoholic steatohepatitis (NASH), drug-induced
+        hepatitis, and autoimmune hepatitis. -Has uncontrolled diabetes (documented HbA1c &gt;8.5%)
+
+        Part A only:
+
+        -Has non GT2 HCV infection
+
+        Part B only:
+
+        -Has HCV infection with a genotype other than GT2, GT4, GT5 or GT6
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Australia</country>
+    <country>Belgium</country>
+    <country>France</country>
+    <country>Israel</country>
+    <country>Spain</country>
+    <country>United Kingdom</country>
+    <country>United States</country>
+  </removed_countries>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 9, 2015</lastchanged_date>
+  <firstreceived_date>August 27, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

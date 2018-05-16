@@ -1,0 +1,199 @@
+<template name="svrtrendml">
+	 <div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+   <a class="breadcrumb-item" href="../Efficacy">Analytics</a>
+  
+  <span class="breadcrumb-item active">Treatment Efficacy</span> 
+</nav>
+        </div>
+	{{> AnalyticsSubtabs data="SvrTrend"}} 
+	<!--{{> MachineLearningSubtabs data="SvrTrend"}}-->
+	
+	{{#if isLoading}}
+    <div class="content-wrapper">
+    	{{> NewLoading}}
+    </div> 
+    {{else}}
+	<div class="utilization-div" style="float:left;padding:0">
+
+		<div class="col-md-12"  style="padding-top:10px;">
+			<div class="ml-subTabsTitle">Viral Load Distribution
+				<span class="macLearningsubTabs-infoIcon mlInfoTip" >
+           			<div class="analytics-tooltip mlInfoTip_tooltip" >
+            			<div class="analytics-tooltipHead">
+            				Viral Load Distribution
+            			</div>
+            		<div class="analytics-tooltipBody" style="font-size: 13px;">
+						
+             			<span class="boldfnt">Definition</span> - This charts represent viral load distribution for all the test results in 2 stages. <br><br>
+             				 1) Distribution of results for the tests done before starting the treatment.<br><br>
+              				 2) Distribution of results for the tests done after the treatment ends.<br><br>
+            		</div>
+           		</div>
+          </span>
+		</div>
+		<div class="col-md-6">
+			<div class="panel boxshadow_borderline" style="width:100%;">
+				<div class="panel-heading">
+					<h3 class="containertitle " style="text-align: center;font-size: 13px ! important;">Viral Load <span style="color:#F04823">before</span> starting Treatment</h3>
+					 <i class="fa fa-line-chart togglechart" data='viraloadbefore' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+					 <span class="macLearningsubTabs-infoIcon mlInfoTip" style="float:right;">
+							<div class="analytics-tooltip mlInfoTip_tooltip tooltip-right" >
+								<div class="analytics-tooltipHead">
+								Viral Load before starting Treatment
+								</div>
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									<span class="boldfnt">N : </span> <span id='before-treatment-N'></span> (<span id='before-treatment-PerN'></span>) Over 
+                      <span id='before-treatment-TotalN'></span> Patients with Medications and Viral Load.<br> <span id='viralload-before-TotalN'></span> Viral Load test data are considered over <span class='viralload-TotalN'></span> total Viral Load test data.
+       <br> <br>
+									<span class="boldfnt">Definition</span> - This charts represents viral load distribution of results for the tests done before starting the treatment.  
+								</div>
+							</div>
+					</span> 
+
+				</div>
+
+				<div class="panel-body">
+					<div id="SVRBeforeTreatment" style="height: 260px"></div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="col-md-4">
+			<div class="panel boxshadow_borderline" style="width:100%;">
+				<div class="panel-heading">
+					<h3 class="containertitle " style="text-align: center;font-size: 13px ! important;">Viral Load <span style="color:#F04823">during</span> consumption</h3>
+
+				</div>
+
+				<div class="panel-body">
+					<div id="SVRDuringTreatment" style="height: 260px"></div>
+				</div>
+			</div>
+		</div>-->
+		<div class="col-md-6">
+			<div class="panel boxshadow_borderline" style="width:100%;">
+				<div class="panel-heading">
+					<h3 class="containertitle " style="text-align: center;font-size: 13px ! important;">Viral Load <span style="color:#F04823">after </span>ending Treatment</h3>
+					<i class="fa fa-line-chart togglechart" data='viraloadafter' aria-hidden="true" title="compare" style="float:left;cursor:pointer;margin-left:10px;"></i>
+					<span class="macLearningsubTabs-infoIcon mlInfoTip" style="float:right;">
+							<div class="analytics-tooltip mlInfoTip_tooltip tooltip-right" >
+								<div class="analytics-tooltipHead">
+								Viral Load after ending Treatment
+								</div>
+								<div class="analytics-tooltipBody" style="font-size: 13px;">
+									<span class="boldfnt">N : </span> <span id='after-treatment-N'></span> (<span id='after-treatment-PerN'></span>) Over 
+                      <span id='after-treatment-TotalN'></span> Patients with Medications and Viral Load. <br> <span id='viralload-after-TotalN'></span> Viral Load test data are considered over <span class='viralload-TotalN'></span> total Viral Load test data.
+       <br> <br>
+									<span class="boldfnt">Definition</span> - This charts represents viral load distribution of results for the tests done after ending the treatment.  
+								</div>
+							</div>
+					</span> 
+				</div>
+
+				<div class="panel-body">
+					<div id="SVRAfterTreatment" style="height: 260px"></div>
+				</div>
+			</div>
+		</div>
+               
+        </div>
+		
+		<div class="ml-subTabsTitle" style="padding-top:15px;">Viral Load Over Time 
+			<span class="macLearningsubTabs-infoIcon mlInfoTip custmtopandleft">
+				<div class="analytics-tooltip mlInfoTip_tooltip">
+					<div class="analytics-tooltipBody" style="font-size: 13px;">
+					 <span class="boldfnt">N : </span> <span id='unique-VL-N'></span> (<span id='unique-VL-PerN'></span>) Over 
+                      <span id='unique-VL-TotalN'></span> Patients with Medications and Viral Load. 
+					  <br>Total <span id='total-VL-N'></span> Viral Load test data are considered.  
+                      <br> <br>
+						<b> Baseline: </b> pre-treatment baseline evaluation,
+						consideration of drug-drug interactions, evaluation of treatment response during and after therapy, and monitoring for safety. <br/>
+						<b>Viral Load: </b> Mathematical Log of Mean Viral Load per Week. <br>
+						<table cellpadding="2"><tr><td><i> Viral Load = &nbsp;</i></td><td><i>X<sub> 1</sub>+X <sub>2</sub>&nbsp;<span style="position:relative;display:inline-block;top:-5px">.....</span>+X <sub>n</sub></i><br/>
+						-----------------<br/>
+						<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n</i></td></tr></table>
+					</div>
+				</div>
+			</span>
+		</div>
+		<div class="fullwidth_navigation" style="width:calc(100% - 20px); margin: 0 10px 20px">
+			<div class="ful_nav_search" style="width:100%">
+				<div id='divWeekResponse' style="float:left;width: 78%;">
+					<!-- Mofied By Yuvraj 14 feb 17 -  Medication Dropdown  is not required. -->
+					<!--<div class="selecopitionhide Analytics_typeofdrug treatmentEfficacyDropdown">
+						<div style="float:left">Medications</div>
+
+						<select id="example" name="example" multiple="multiple">
+							{{#each getMedication}}
+                                <option value="{{medicinename}}">{{medicinename}}</option> 
+                            {{/each}}   
+						</select>
+
+					</div>-->
+					<label style = "font-weight : normal;float: left;">Therapy Period :</label> &nbsp; &nbsp;
+					<!--<input type="radio" name="duration" class="radioduration" value="all" checked="checked"> All Weeks &nbsp;&nbsp;&nbsp;-->
+					<input type="radio" name="duration" class="radioduration" value="0-8" checked="checked"> 0 - 8 Weeks &nbsp;&nbsp;&nbsp;
+					<input type="radio" name="duration" class="radioduration" value="9-12"> 9 - 12 Weeks &nbsp;&nbsp;&nbsp;
+					<input type="radio" name="duration" class="radioduration" value="13-24"> 13 - 24 Weeks &nbsp;&nbsp;&nbsp;
+					<input type="radio" name="duration" class="radioduration" value="25-48"> 25 - 48 Weeks &nbsp;&nbsp;&nbsp;
+				</div>
+				<div class="treatedApplyUniFiltersPJ"></div>
+				
+				<!-- Mofied By Yuvraj 14 feb 17 -  GO button is not required. -->
+				<!--<div class="goButtonWrapper">
+					<span class="treatedApplyUniFiltersPJ  js-analytics-applyDateFilters" style="padding: 5px 11px; cursor: pointer;">
+						GO
+					</span>
+				</div>
+
+				<div class="goButtonWrapper clearButton">
+					<span class="treatedApplyUniFiltersClear js-analytics-applyDateFilters" style="padding: 5px 11px; cursor: pointer;">
+						CLEAR
+					</span>
+				</div>-->
+
+				<div class="treatmentEfficacyPatietn" style="float: right; margin-right: 20px;">
+                    <span style="font-size: 20px;"><i class="fa fa-users" aria-hidden="true"></i></span>
+                    <span class="totalTreatmentEfficacyPatietnsPerDrug" style="margin-left: 12px;font-weight: bold;">0</span>
+                </div>
+			</div>
+		</div>
+		
+		<div id="ViralLoadOvertime" style="width: 100%; float:left; padding: 0px; border-bottom:1px solid #ccc;min-height: 480px;">
+			
+			<div class="col-md-12 mlSubTabsChartSectionWrap" id="OMedicineCount" style="padding-top:10px;padding-left:10px">
+				<div class="boxshadow_borderline inline-block">
+					<div id="treatmentEfficacyViralLoadSyncCharts">
+						<div class="pharma_patientsjourney_title SvrTrentChartTitle"></div>
+						<div id="pharma_patientsjourney">
+							<div class="providerNoDataFound">Please Select Medications</div>
+						</div>
+						<div class="pharma_svrTrendByPatient_title SvrTrentChartTitle"></div>
+						<div id="pharma_svrTrendByPatient">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+            <div class="efd-cell2_subpopulaiton ecf-showPatient"><a href="#" class="globalshowPatienttreatmentefficacy js-showPateintsList"></a></div>
+            <div class="efd-cell2_subpopulaiton ecf-exportPatient treatmentProirityexportPatient globalexportPatienttreatmentefficacy"><a href="#"></a></div>
+        </div>
+
+		<div class="mlPatientsDetailWrapper" style="border:none;">
+			<div class="popup analyticsPatientsPopup treatmentEfficacyPList" data-popup="analyticsPatientsPopup">
+				<div class="popup-inner">
+					<button type="button" class="close mlTabs_closebtn" style="margin-top:5px;margin-right:10px"><span aria-hidden="true">×</span></button>
+					<div class="analyticsPatientsPopup-header"></div>
+					<div class="analyticsPatientsPopup-container"></div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	{{/if}}
+	{{>MainFooter}}
+	
+</template>

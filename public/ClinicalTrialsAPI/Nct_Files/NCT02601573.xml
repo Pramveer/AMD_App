@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="56">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02601573</url>
+  </required_header>
+  <id_info>
+    <org_study_id>5172-083</org_study_id>
+    <secondary_id>2015-003187-37</secondary_id>
+    <nct_id>NCT02601573</nct_id>
+  </id_info>
+  <brief_title>Elbasvir/Grazoprevir (EBR/GZR) and Sofosbuvir (SOF) With and Without Ribavirin (RBV) in Cirrhotic Subjects With Chronic HCV GT3 Infection</brief_title>
+  <official_title>A Phase II, Randomized, Open-Label Clinical Trial to Study the Efficacy and Safety of the Combination Regimen of Elbasvir/Grazoprevir (EBR/GZR) and Sofosbuvir (SOF) With and Without Ribavirin (RBV) in Cirrhotic Subjects With Chronic HCV GT3 Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United Kingdom: Medicines and Healthcare Products Regulatory Agency</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized, multi-site, open-label trial of the co-administration of a fixed-dose
+      combination (FDC) of elbasvir (50 mg)/grazoprevir (100 mg) (EBR/GZR) and 400 mg of
+      sofosbuvir (SOF), with and without ribavirin (RBV), in treatment-naïve (TN) and
+      treatment-experienced (TE) subjects with chronic Hepatitis C Virus (HCV) Genotype 3 (GT3)
+      infection with compensated cirrhosis.
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>December 2015</start_date>
+  <completion_date type="Anticipated">December 2016</completion_date>
+  <primary_completion_date type="Anticipated">September 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants achieving SVR12 (Sustained Virologic Response 12 weeks after the end of all study therapy)</measure>
+    <time_frame>Up to 28 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants experiencing an adverse event (AE)</measure>
+    <time_frame>Up to 18 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Number of participants discontinuing from study therapy due to an AE</measure>
+    <time_frame>Up to 16 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants achieving SVR24 (Sustained Virologic Response 24 weeks after the end of all study therapy)</measure>
+    <time_frame>Up to 40 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>5</number_of_arms>
+  <enrollment type="Anticipated">125</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Arm 1: HCV GT3 TN EBG/GZR+SOF+RBV 8 Weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>TN HCV GT3 participants will take 1 fixed-dose combination (FDC) tablet containing EBR 50 mg+GZR 100 mg and 1 tablet containing SOF 400 mg once-daily (q.d.) with RBV (200 mg capsules; weight-based dosing) twice-daily (b.i.d.) for 8 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 2: HCV GT3 TN EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>TN HCV GT3 participants will take 1 FDC tablet containing EBR 50 mg+GZR 100 mg and 1 tablet containing SOF 400 mg q.d. for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 3: HCV GT3 TE EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>TE HCV GT3 participants will take 1 FDC tablet containing EBR 50 mg+GZR 100 mg and 1 tablet containing SOF 400 mg q.d. for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 4: HCV GT3 TE EBG/GZR+SOF+RBV 12 Weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>TE HCV GT3 participants will take 1 FDC tablet containing EBR 50 mg+GZR 100 mg and 1 tablet containing SOF 400 mg q.d. with RBV (200 mg capsules; weight-based dosing) b.i.d. for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm 5: HCV GT3 TE EBG/GZR+SOF 16 Weeks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>TE HCV GT3 participants will take 1 FDC tablet containing EBR 50 mg+GZR 100 mg and 1 tablet containing SOF 400 mg q.d. for 16 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Grazoprevir</intervention_name>
+    <description>GZR 100 mg provided in a FDC tablet also containing EBR 50 mg (MK-5172A) taken q.d. by mouth in the morning.</description>
+    <arm_group_label>Arm 1: HCV GT3 TN EBG/GZR+SOF+RBV 8 Weeks</arm_group_label>
+    <arm_group_label>Arm 2: HCV GT3 TN EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 3: HCV GT3 TE EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 4: HCV GT3 TE EBG/GZR+SOF+RBV 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 5: HCV GT3 TE EBG/GZR+SOF 16 Weeks</arm_group_label>
+    <other_name>MK-5172A</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Elbasvir</intervention_name>
+    <description>EBR 50 mg provided in a FDC tablet also containing GZR 100 mg (MK-5172A) taken q.d. by mouth in the morning.</description>
+    <arm_group_label>Arm 1: HCV GT3 TN EBG/GZR+SOF+RBV 8 Weeks</arm_group_label>
+    <arm_group_label>Arm 2: HCV GT3 TN EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 3: HCV GT3 TE EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 4: HCV GT3 TE EBG/GZR+SOF+RBV 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 5: HCV GT3 TE EBG/GZR+SOF 16 Weeks</arm_group_label>
+    <other_name>MK-5172A</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>RBV 200 mg capsules taken b.i.d. (morning and evening) by mouth at a total daily dose of 800 mg to 1400 mg based on participant body weight.</description>
+    <arm_group_label>Arm 1: HCV GT3 TN EBG/GZR+SOF+RBV 8 Weeks</arm_group_label>
+    <arm_group_label>Arm 4: HCV GT3 TE EBG/GZR+SOF+RBV 12 Weeks</arm_group_label>
+    <other_name>Rebetol®</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <description>SOF 400 mg tablet taken q.d. by mouth in the morning with food.</description>
+    <arm_group_label>Arm 1: HCV GT3 TN EBG/GZR+SOF+RBV 8 Weeks</arm_group_label>
+    <arm_group_label>Arm 2: HCV GT3 TN EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 3: HCV GT3 TE EBG/GZR+SOF 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 4: HCV GT3 TE EBG/GZR+SOF+RBV 12 Weeks</arm_group_label>
+    <arm_group_label>Arm 5: HCV GT3 TE EBG/GZR+SOF 16 Weeks</arm_group_label>
+    <other_name>Sovaldi®, Harvoni®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  has HCV RNA (&gt;= 10,000 IU/mL in peripheral blood) at screening
+
+          -  has documented HCV GT3 (with no evidence of non-typeable or mixed GT infection)
+
+          -  has compensated cirrhosis of the liver
+
+          -  has liver imaging within 6 months of Day 1 with no evidence of hepatocellular
+             carcinoma (HCC)
+
+          -  is either HCV TN or TE (i.e., has documented prior virologic failure or intolerance
+             to peg-interferon/ribavirin)
+
+          -  is otherwise healthy as determined by medical history, physical examination,
+             electrocardiogram (ECG), and clinical laboratory measurements
+
+          -  has compensated cirrhosis of the liver
+
+          -  is TN or TE (i.e., documented prior virologic failure or intolerance to
+             peg-interferon/ribavirin)
+
+          -  is not of reproductive potential, or agrees to not impregnate a partner or become
+             pregnant for at least 2 weeks prior to the first dose of study drug, and for 7 months
+             after the final dose of study drug (or longer if dictated by local regulations)
+
+        Exclusion Criteria:
+
+          -  has previously received one or more doses of a direct-acting antiviral (DAA)
+
+          -  has evidence of decompensated liver disease
+
+          -  is coinfected with hepatitis B (hepatitis B surface antigen [HBsAg] positive)
+
+          -  has a recent (within 5 years) history of malignancy or is under evaluation for HCC or
+             other suspected malignancy
+
+          -  is currently or has participated (within past 30 days) in a study with an
+             investigational compound
+
+          -  has clinically-relevant drug or alcohol abuse within the past 12 months of screening
+
+          -  is a female and is pregnant or breast-feeding
+
+          -  is a male whose female partner is/are pregnant
+
+          -  has any of the following:
+
+          -  organ transplants
+
+          -  poor venous access
+
+          -  history of gastric surgery or malabsorption disorder
+
+          -  current or history of clinically significant cardiac abnormalities or dysfunction
+
+          -  chronic pulmonary disease
+
+          -  hemoglobinopathy
+
+          -  history of hospitalization within 3 months prior to enrollment
+
+          -  medical or surgical condition that may result in need for hospitalization during the
+             course of the study
+
+          -  any condition requiring, or likely to require, chronic systemic administration of
+             corticosteroids, tumor necrosis factor (TNF) antagonists, or other immunosuppresant
+             drugs during the course of the study
+
+          -  any condition, prestudy laboratory or ECG abnormality, or history of any illness,
+             which could confound results of the study or pose additional risks in administering
+             study drugs in the opinion of the investigator
+
+          -  has a life-threatening serious AE (SAE) during the screening period
+
+          -  has evidence of history of chronic hepatitis not caused by HCV
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Toll Free Number</last_name>
+    <phone>1-888-577-8839</phone>
+  </overall_contact>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 10, 2015</lastchanged_date>
+  <firstreceived_date>November 9, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

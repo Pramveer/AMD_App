@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="844">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02293941</url>
+  </required_header>
+  <id_info>
+    <org_study_id>JKB122</org_study_id>
+    <nct_id>NCT02293941</nct_id>
+    <nct_alias>NCT02149368</nct_alias>
+  </id_info>
+  <brief_title>Liver Test Study of Using JKB-122 in HCV-Positive Patients</brief_title>
+  <acronym>JKB122</acronym>
+  <official_title>A Phase 2, Randomized, Multiple-dose, Double-blind, Placebo-controlled Study of JKB-122 to Assess Liver Tests (ALT and AST) in HCV-positive Subjects Who Have Been Nonresponsive to Prior Interferon Based Therapies (Pegylated or Standard) Either Alone or in Combination With Ribavirin</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>TaiwanJ Pharmaceuticals Co., Ltd</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>TaiwanJ Pharmaceuticals Co., Ltd</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Taiwan : Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The primary objective of this study is to assess changes in alanine aminotransferase (ALT)
+      in hepatitis C virus (HCV)-infected subjects given daily doses of JKB-122 for 3 months who
+      have been nonresponsive to, intolerable to, or relapsed from prior interferon-based
+      therapies (pegylated or standard) either alone or in combination with ribavirin or other
+      anti-HCV therapies including direct-acting anti-viral agents.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>May 2014</start_date>
+  <completion_date type="Anticipated">April 2018</completion_date>
+  <primary_completion_date type="Anticipated">August 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>ALT</measure>
+    <time_frame>baseline and 12 weeks</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>To assess changes in ALT in HCV-infected subjects given daily doses of JKB-122</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pharmacokinetic analysis (plasma concentration of JKB-122)</measure>
+    <time_frame>Day 1, 29, 57, 78</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>plasma concentration of JKB-122 will be measured for exploration of exposure/response relationships in all subjects of each dose group at Stage 1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical laboratory tests (Includes hematology, coagulation, and serum chemistry.)</measure>
+    <time_frame>Screening, Day 1, 15, 29, 57, 85 and 30 days after EOS</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Includes hematology, coagulation, and serum chemistry.</description>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Anticipated">148</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>JKB-122 5mg</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>JKB-122 15 mg</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>JKB-122 35 mg</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>placebo</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>JKB-122</intervention_name>
+    <description>Participants were randomized to receive JKB-122 5mg/15mg/35mg/placebo for 12 weeks</description>
+    <arm_group_label>JKB-122 5mg</arm_group_label>
+    <arm_group_label>JKB-122 15 mg</arm_group_label>
+    <arm_group_label>JKB-122 35 mg</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo</intervention_name>
+    <description>Participants were randomized to receive JKB-122 5mg/15mg/35mg/placebo for 12 weeks</description>
+    <arm_group_label>placebo</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Is HCV positive (documented by HCV RNA testing at Screening). Chronic hepatitis C is
+             defined as a) Positive for anti-HCV antibody, HCV RNA, or an HCV genotype at least 6
+             months before screening, and positive for HCV RNA and anti-HCV antibody at the time
+             of screening; or b) Positive for anti-HCV antibody and HCV RNA at the time of
+             screening with a liver biopsy consistent with chronic HCV infection (or a liver
+             biopsy performed before enrollment with evidence of CHC disease, such as the presence
+             of fibrosis), according to &quot;Guidance for Industry. Chronic Hepatitis C Virus
+             Infection: Developing Direct-Acting Antiviral Agents for Treatment&quot;.
+
+          -  Has previous results from HCV genotype testing. If previous results are not
+             available, such testing should be performed at Screening.
+
+          -  Has had a liver biopsy or Fibroscan™ within 3 years and the severity of hepatic
+             dysfunction is limited to the following:
+
+               -  Metavir Stage 0 to stage 3 fibrosis (according to liver biopsy) or Fibroscan™
+                  results
+
+               -  ALT and AST values not exceeding 5 x ULN (Baseline value for each parameter will
+                  be calculated as the average of 3 values obtained 7 days apart
+
+               -  Normal total bilirubin, and prothrombin time/INR values
+
+          -  Has elevated liver test results (ALT) at least 1.5 x ULN and not exceeding 5 x ULN
+             (Baseline value for each parameter will be calculated as the average of 3 values
+             obtained 7 days apart
+
+          -  Is refractory or null responder, intolerable, relapser, or partial responder.
+
+               -  Null responder is defined as less than a 2 log10 IU/mL reduction in HCV RNA
+                  after 12 weeks of treatment with standard or Peg Interferon/ribavirin or other
+                  anti-HCV therapies;
+
+               -  Relapser is defined as HCV RNA undetectable (or negative, per site's definition)
+                  at the end stage of treatment with a standard or pegylated interferon-based
+                  regimen or other anti-HCV therapies, but HCV RNA detectable during
+                  post-treatment follow-up;
+
+               -  The intolerable is defined as HCV patients who cannot tolerate the side effects
+                  of previous interferon-based therapies or other anti-HCV therapies, or who were
+                  not suitable for interferon-based therapies or other anti-HCV therapies;
+
+               -  Partial responder is defined as achieved more than 2 log10 IU/mL reduction in
+                  HCV RNA by Week 12 (± 1 week) during a prior pegIFN/RBV treatment course or
+                  other anti-HCV therapies but failed to achieve HCV RNA undetectable at the end
+                  stage of treatment.
+
+        Exclusion Criteria:
+
+          1. Has history of allergy to JKB-122 or related compounds
+
+          2. Has human immunodeficiency virus (HIV) or is hepatitis B positive
+
+          3. Is with a current diagnosis of cirrhosis, both compensated and uncompensated
+             Child-Pugh A, B or C
+
+          4. Has positive urine drug screen at Screening
+
+          5. Is currently consuming greater than 30 g of alcohol per day (eg, 2 highballs with 1
+             shot each, or 2 beers) or has consumed greater than 2 glasses of alcohol per day
+             within 3 months prior to the first screening visit (Day -28)
+
+          6. Is being treated with any prescription narcotic drug (including transdermal delivery
+             systems)
+
+          7. Has a known or suspected central nervous system disorder that may predispose to
+             seizures or lower the seizure threshold
+
+          8. Has unstable and uncontrollable hypertension (&gt;180/110 mmHg)
+
+          9. Has received other therapies for HCV infection (interferon, pegylated interferon,
+             ribavirin, or others) in the last 4 weeks prior to the first screening visit (Day
+             -28)
+
+         10. Requires concomitant use of or treatment with opioids or other excluded drugs such as
+             hepatotoxic medications
+
+         11. Has received other investigational agents within 30 days prior to the first screening
+             visit (Day -28)
+
+         12. Has a disease that would require chronic use of prescription corticosteroids
+
+         13. Has either autoimmune or genetic liver disease
+
+         14. May be chronically or latently infected with microbial agents other than HCV
+
+         15. Has impaired renal function
+
+         16. Has BMI&gt; 30 or BMI &lt;18
+
+         17. If female, pregnant or lactating
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Joanna Hung, MS</last_name>
+    <phone>+88636587721</phone>
+    <phone_ext>303</phone_ext>
+    <email>joannahung@taiwanj.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Changhua Christian Hospital</name>
+      <address>
+        <city>Changhua</city>
+        <zip>500</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fang-Ju Lin</last_name>
+      <email>62820@cch.org.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Wei-Wen Su, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Shun-Sheng Wu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kun-Ching Chou, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yen-Chih Lin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kai-Lun Shih, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chuan-San Fan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yu-Chun Hsu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chia-Wei Yang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hsu-Heng Yen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pei-Yuan Su, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Chia-Yi Christian Hospital</name>
+      <address>
+        <city>Chiayi</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chi-Y Chen, MD</last_name>
+      <phone>886-5-2765041</phone>
+      <phone_ext>2536</phone_ext>
+      <email>5137ccy@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Chi-Yi Chen, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chu-Kuang Chou, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Li-Jen Chang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Po-Yueh Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation</name>
+      <address>
+        <city>Chiayi</city>
+        <zip>622</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yi-Ling Yeh</last_name>
+      <email>tinayeh10@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Kuo-Chih Tseng</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chih-Wei Tseng</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital, Yun-Lin Branch</name>
+      <address>
+        <city>Douliou</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shih-Jer Hsu, MD</last_name>
+      <phone>+886-5-5323911</phone>
+      <phone_ext>2200</phone_ext>
+      <email>shihjer.hsu@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Shih-Jer Hsu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chen-Hua Liu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaohsiung Medical University Chung-Ho Memorial Hospital</name>
+      <address>
+        <city>Kaohsiung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Wan-Long Chuang, MD, PhD</last_name>
+      <phone>+886-7-3121101</phone>
+      <phone_ext>7475</phone_ext>
+      <email>waloch@kmu.edu.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Wan-Long Chuang, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ming-Lung Yu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jee-Fu Huang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chia-Yen Dai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ming-Lun Yeh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>China Medical University Hospital</name>
+      <address>
+        <city>Taichung</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cheng-Yuan Peng, MD</last_name>
+      <phone>+886-4-22052121</phone>
+      <phone_ext>2264</phone_ext>
+      <email>cypeng@mail.cmuh.org.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Cheng-Yuan Peng, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ching-Shiang Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sheng-Hung Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hseuh-Chou Lai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wen-Pang Su, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Taichung Veterans General Hospital</name>
+      <address>
+        <city>Taichung</city>
+        <zip>407</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Nicky Chung</last_name>
+      <phone>886-4-23592525</phone>
+      <phone_ext>3319</phone_ext>
+      <email>nicky1005@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Sheng-Shun Yang, MD.PhD.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hong-Zen Yeh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Teng-Yu Lee, MD.PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>I-Ta Lu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Chi Mei Medical Center - Liouying Branch</name>
+      <address>
+        <city>Tainan</city>
+        <zip>736</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jyh-Jou Chen, MD</last_name>
+      <phone>886-6-6226999</phone>
+      <phone_ext>72008</phone_ext>
+      <email>jjchen@mail.chimei.org.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Jyh-Jou Chen, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Szu-Jen Wang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pei-Lun Lee, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hung-Da Tung, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National Cheng Kung University (NCKU) Hospital</name>
+      <address>
+        <city>Tainan</city>
+        <zip>704</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Su-Erb Lin</last_name>
+      <phone>886-6-2353535</phone>
+      <phone_ext>3587</phone_ext>
+      <email>ncku3587@yahoo.com.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Ting-Tsung Chang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yen-Cheng Chiu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hung-Chih Chiu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>I-Chin Wu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pin-Nan Cheng, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cathay General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <zip>280</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pei-Jung Lin</last_name>
+      <email>rhonda0928@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Sien-Sing Yang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jui-Ting Hu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Han-Yu Chang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ruei-Hsin Chang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yi-Wen Huang, MD.PhD.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>National Taiwan University Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chen-Hua Liu, MD</last_name>
+      <phone>+886-2-23123456</phone>
+      <phone_ext>63572</phone_ext>
+      <email>jacque_liu@mail2000.com.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Chen-Hua Liu, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chun-Jen Liu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hung-Chih Yang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Tung-Hung Su, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Taipei Veterans General Hospital</name>
+      <address>
+        <city>Taipei</city>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Yi-Hsiang Huang, MD, PhD</last_name>
+      <phone>886-2-28712121</phone>
+      <phone_ext>3055</phone_ext>
+      <email>yhhuang@vghtpe.gov.tw</email>
+    </contact>
+    <investigator>
+      <last_name>Yi-Hsiang Huang, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yuan-Jen Wang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chien-Wei Su, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Keng-Hsin Lan, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>September 2015</verification_date>
+  <lastchanged_date>September 21, 2015</lastchanged_date>
+  <firstreceived_date>November 13, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>liver inflammation</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

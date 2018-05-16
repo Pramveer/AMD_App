@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="791">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02582671</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P15-702</org_study_id>
+    <nct_id>NCT02582671</nct_id>
+  </id_info>
+  <brief_title>The Effectiveness of ABT-450/r - Ombitasvir, + Dasabuvir, ± Ribavirin in Patients With Chronic Hepatitis C -An Observational Study in Ireland</brief_title>
+  <acronym>REACH</acronym>
+  <official_title>Real World Evidence of the Effectiveness of ABT-450/r - Ombitasvir, + Dasabuvir, ± Ribavirin in Patients With Chronic Hepatitis C -An Observational Study in Ireland</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AbbVie</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>AbbVie</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>Ireland: Medical Ethics Research Committee</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study seeks to determine the effectiveness of the interferon-free ABBVIE REGIMEN ± RBV
+      in chronic hepatitis C virus infected participants across Ireland.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>November 2015</start_date>
+  <completion_date type="Anticipated">December 2017</completion_date>
+  <primary_completion_date type="Anticipated">December 2017</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Percentage of participants achieving 12 Week sustained virologic response (SVR12)</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 is defined as hepatitis C virus ribonucleic acid (HCV RNA) level less than 50 IU/mL 12 weeks (i.e. at least 70 days) after the last actual dose of the ABBVIE REGIMEN.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients with virological response at end of treatment (EOT)</measure>
+    <time_frame>End of Treatment 12 or 24 week treatment regimen</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virological response is defined as hepatitis C virus ribonucleic acid (HCV RNA) levels less then 50 IU/mL at EoT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants with relapse at end of treatment (EoT)</measure>
+    <time_frame>End of Treatment 12 or 24 week treatment regimen</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Relapse is defined as hepatitis C virus ribonucleic acid (HCV RNA) levels less than 50 IU/mL at EoT followed by HCV RNA greater than or equal to 50 IU/mL.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of participants who experienced breakthrough.</measure>
+    <time_frame>Throughout the study for approximately 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Breakthrough is defined as at least one documented hepatitis C virus ribonucleic acid (HCV RNA) levels less than 50 IU/mL followed by HCV RNA greater than or equal to 50 IU/mL during treatment.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of patients meeting any of the non-response categories of 12 Week sustained virologic response (SVR12)</measure>
+    <time_frame>12 weeks after last dose of study drug</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The SVR12 non-response categories are on-treatment virologic failure, failure to suppress, relapse, premature study drug discontinuation with no on-treatment virologic failure, missing SVR12 data, and/or none of the above criteria.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Chronic Hepatitis C</arm_group_label>
+    <description>Participants with chronic hepatitis C who are being treated with the AbbVie Regimen +/- Ribavarin.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with chronic hepatitis C who are being prescribed the AbbVie Regimen +/-
+        Ribavarin.
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Treatment-naïve or -experienced participants with confirmed CHC, genotype 1,
+             receiving combination therapy with the interferon-free ABBVIE REGIMEN ± RBV according
+             to standard of care and in line with the current local label
+
+          -  If RBV is co-administered with the ABBVIE REGIMEN, it has been prescribed in line
+             with the current local label
+
+          -  Participants must not be participating or intending to participate in a concurrent
+             interventional therapeutic trial
+
+        Exclusion Criteria: None
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>99 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Michelle Costello-Smith, MD</last_name>
+    <role>Study Director</role>
+    <affiliation>Medical Director</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gemma M Gormley, BS</last_name>
+    <phone>00 353 1 4287936</phone>
+    <email>gemma.gormley@abbvie.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Marie O'Meara, BS Pharm</last_name>
+    <phone>00 353 1 4287934</phone>
+    <email>marie.omeara@abbvie.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144388</name>
+      <address>
+        <city>Dublin 4</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 144388, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144389</name>
+      <address>
+        <city>Dublin 4</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Withdrawn</status>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144390</name>
+      <address>
+        <city>Dublin 7</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 144390, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 144391</name>
+      <address>
+        <city>Dublin 8</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 144391, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Site Reference ID/Investigator# 147072</name>
+      <address>
+        <city>Dublin 9</city>
+        <country>Ireland</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <investigator>
+      <last_name>Site Reference ID/Investigator# 147072, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Ireland</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 13, 2015</lastchanged_date>
+  <firstreceived_date>October 20, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Real World Effectiveness</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>No</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

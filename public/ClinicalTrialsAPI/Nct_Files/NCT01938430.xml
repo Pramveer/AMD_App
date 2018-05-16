@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="126">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01938430</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GS-US-337-0123</org_study_id>
+    <nct_id>NCT01938430</nct_id>
+  </id_info>
+  <brief_title>Ledipasvir/Sofosbuvir Fixed-Dose Combination + Ribavirin in Subjects With Chronic HCV With Advanced Liver Disease or Post-Liver Transplant</brief_title>
+  <official_title>A Phase 2, Multicenter, Open-Label Study to Investigate the Safety and Efficacy of Sofosbuvir/Ledipasvir Fixed-Dose Combination + Ribavirin Administered in Subjects Infected With Chronic HCV Who Have Advanced Liver Disease or Are Post-Liver Transplant</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Gilead Sciences</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Gilead Sciences</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate ledipasvir/sofosbuvir (LDV/SOF) fixed-dose
+      combination (FDC) in participants with chronic genotype 1 or 4 hepatitis C virus (HCV)
+      infection. Participants will be randomized to receive 12 or 24 weeks of dosing with the
+      LDV/SOF FDC tablet+ribavirin (RBV).
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>September 2013</start_date>
+  <completion_date type="Actual">March 2015</completion_date>
+  <primary_completion_date type="Actual">January 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR12), defined as HCV RNA &lt; lower limit of quantitation (LLOQ) 12 weeks after last dose of study drug</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Proportion of participants who discontinue study drug due to an adverse event</measure>
+    <time_frame>Baseline to Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with sustained virologic response (SVR) at 2, 4, 8 and 24 weeks after discontinuation of therapy (SVR2, SVR4, SVR8 and SVR24)</measure>
+    <time_frame>Posttreatment Weeks 2, 4, 8, and 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants who have HCV RNA &lt; LLOQ by visit while on treatment</measure>
+    <time_frame>Weeks 1, 2, 4, 6, 8, and 12</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV RNA levels and change from Day 1 through Week 8</measure>
+    <time_frame>Baseline to Weeks 1, 2, 4, 6, and 8</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with virologic failure</measure>
+    <time_frame>Baseline to Posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in model for end-stage liver disease (MELD) and Child-Pugh-Turcotte (CPT) scores</measure>
+    <time_frame>Baseline through posttreatment Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Proportion of participants with post-transplant virologic response</measure>
+    <time_frame>Posttreatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>For those participants who have a liver transplant while on study, the proportion of participants with post-transplant virologic response (PTVR, defined as HCV RNA &lt; LLOQ at 12 weeks post-transplant) will be summarized for participants in the Full Analysis Set (FAS) who have HCV RNA &lt; LLOQ at their last observed HCV RNA prior to transplant.</description>
+  </secondary_outcome>
+  <number_of_arms>7</number_of_arms>
+  <enrollment type="Actual">339</enrollment>
+  <condition>Chronic HCV Infection</condition>
+  <arm_group>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort A, advanced liver disease Group 1. Participants with cirrhosis and moderate hepatic impairment (CPT Class B) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort A, advanced liver disease Group 2. Participants with cirrhosis and severe hepatic impairment (CPT Class C) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 3. Participants without cirrhosis (fibrosis stage F0-F3) and with no evidence of hepatic decompensation will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 4. Participants with cirrhosis and mild hepatic impairment (CPT Class A) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 5. Participants with cirrhosis and moderate hepatic impairment (CPT Class B) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 6. Participants with cirrhosis and severe hepatic impairment (CPT Class C) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group 7</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cohort B, post-transplant Group 7. Participants with aggressive recurrent disease after transplant with evidence of cholestasis (fibrosing cholestatic hepatitis [FCH]) will be randomized to receive either 12 or 24 weeks of LDV/SOF plus RBV.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>LDV/SOF</intervention_name>
+    <description>LDV 400 mg/SOF 90 mg FDC tablet administered orally once daily</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_label>Group 7</arm_group_label>
+    <other_name>Harvoni®</other_name>
+    <other_name>GS-5885/GS-7977</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>RBV</intervention_name>
+    <description>RBV administered as 200 mg tablets (up to 1000-1200 mg) in a divided daily dose</description>
+    <arm_group_label>Group 1</arm_group_label>
+    <arm_group_label>Group 2</arm_group_label>
+    <arm_group_label>Group 3</arm_group_label>
+    <arm_group_label>Group 4</arm_group_label>
+    <arm_group_label>Group 5</arm_group_label>
+    <arm_group_label>Group 6</arm_group_label>
+    <arm_group_label>Group 7</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Able to provide written informed consent
+
+          -  Chronic genotype 1 or 4 HCV infection
+
+          -  Normal ECG
+
+          -  Negative serum pregnancy test for female subjects
+
+          -  Male subjects and female subjects of childbearing potential must agree to use
+             contraception
+
+          -  Able to comply with the dosing instructions for study drug and able to complete the
+             study schedule of assessments, including all required post treatment visits
+
+        Exclusion Criteria:
+
+          -  Serious or active medical or psychiatric illness
+
+          -  HIV or hepatitis B viral (HBV) infection
+
+          -  Stomach disorder that could interfere with the absorption of the study drug
+
+          -  Treated with an anti-HCV medication in the last 30 days
+
+          -  Any prior exposure to an HCV nonstructural protein (NS)5a-specific inhibitor
+
+          -  Use of human granulocyte-macrophage colony-stimulating factor (GM-CSF), epoetin alfa
+             or other therapeutic hematopoietic agents within 2 weeks of screening
+
+          -  History of clinically significant medical condition associated with other chronic
+             liver disease
+
+          -  Active spontaneous bacterial peritonitis at screening
+
+          -  Females who are breastfeeding
+
+          -  Infection requiring systemic antibiotics
+
+          -  Participated in a clinical study with an investigational drug or biologic within the
+             last 30 days
+
+          -  Active or history (last 6 months) of drug or alcohol abuse
+
+          -  History of organ transplant other than liver or kidney
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jill Denning</last_name>
+    <role>Study Director</role>
+    <affiliation>Gilead Sciences</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <zip>85054</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94143</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Washington</city>
+        <state>District of Columbia</state>
+        <zip>20007</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32224</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Indianapolis</city>
+        <state>Indiana</state>
+        <zip>46202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Kansas City</city>
+        <state>Kansas</state>
+        <zip>66160</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lutherville</city>
+        <state>Maryland</state>
+        <zip>21093</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55455</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Rochester</city>
+        <state>Minnesota</state>
+        <zip>55905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>St. Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27599</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97239</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75246</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Murray</city>
+        <state>Utah</state>
+        <zip>84107</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23219</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 4, 2015</lastchanged_date>
+  <firstreceived_date>September 5, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Liver Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

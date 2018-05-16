@@ -1,0 +1,52 @@
+<template name="MachineLearning">
+
+    {{> AnalyticsSubtabs data="machine"}}
+
+    {{#if isLoading}}
+    <div class="content-wrapper">
+        {{> NewLoading}}
+    </div>
+    {{else}}
+    <!-- Header for ML sub tabs -->
+    <div class="macLearningsubTabs ">
+        <ul class="au-header macLearningsubTabs-links">
+            <li class="active">
+                <a href="#" sequence="1">Disease Prediction</a>
+            </li>
+            <li>
+                <a href="#" sequence="2">Survival Rate</a>
+            </li>
+            <li>
+                <a href="#" sequence="3">Priority of Treatment</a>
+            </li>
+            <li>
+                <a href="#" sequence="4">Cost burden</a>
+            </li>
+            <li>
+                <a href="#" sequence="5">Risk Distribution</a>
+            </li>
+            {{#if isCirrhoticPopulation}}
+                <li>
+                    <a href="#" sequence="6">Progression Model</a>
+                </li>
+            {{/if}}
+             <li>
+               <a href="#" sequence="7">Treatment Efficacy</a>
+            </li>
+            <li>
+                <a href="#" sequence="8">Comorbidity</a>
+            </li>
+            <li>
+                <a href="#" sequence="9">Co-Infections</a>
+            </li>
+
+        </ul>
+    </div>
+    <!-- Header End for ML sub tabs -->
+
+    <div id="mlSubtabsRenderSection" class="">
+        {{>DiseaseProgression}}
+    </div>
+
+    {{>MainFooter}} {{/if}}
+</template>

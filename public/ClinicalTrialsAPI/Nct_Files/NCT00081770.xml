@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="23">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00081770</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P03471</org_study_id>
+    <secondary_id>2552898</secondary_id>
+    <nct_id>NCT00081770</nct_id>
+  </id_info>
+  <brief_title>Peginterferon Dose Evaluations for Previously Untreated Subjects With Chronic Hepatitis C Infected With Genotype 1 (Study P03471)</brief_title>
+  <official_title>Comparison of PEG-Intron 1.5µg/kg/wk Plus REBETOL vs PEG-Intron 1µg/kg/wk Plus REBETOL vs PEGASYS 180µg/wk Plus COPEGUS in Previously Untreated Adult Subjects With Chronic Hepatitis C Infected With Genotype 1</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective is to compare the safety and efficacy of the following three treatment
+      regimens in previously untreated adult subjects with chronic hepatitis C infected with
+      Genotype 1: (1) PegIntron 1.5 µg/kg/wk in combination with weight based REBETOL (800-1400
+      mg/day); (2) PegIntron 1µg/kg/wk in combination with weight based REBETOL (800-1400 mg/day);
+      and (3) PEGASYS 180 µg/wk plus COPEGUS 1000-1200 mg/day.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PegIntron Dose will be administered once weekly subcutaneously on the same day of the week:
+
+      Screening 2 Weight 40-50 kg Volume to Inject (mL) 0.22; Screening 2 Weight 51-60 kg Volume
+      to Inject (mL) 0.28; Screening 2 Weight 61-75 kg Volume to Inject (mL) 0.33; Screening 2
+      Weight 76-85 kg Volume to Inject (mL) 0.41; Screening 2 Weight 86-104 kg Volume to Inject
+      (mL) 0.48; Screening 2 Weight 105-125 kg Volume to Inject (mL) 0.58 from two vials
+
+      REBETOL Dosage (for Use With PegIntron):
+
+      Screening 2 Weight 40-65 kg Daily Dose 800 mg; Screening 2 Weight &gt;65-85 kg Daily Dose 1000
+      mg; Screening 2 Weight &gt;85-105 kg Daily Dose 1200 mg; Screening 2 Weight &gt;105-125 kg Daily
+      Dose 1400 mg
+
+      The PEGASYS dose of 1 mL (180 µg) will be administered once weekly subcutaneously on the
+      same day of the week
+
+      COPEGUS Dosage (for Use With PEGASYS):
+
+      Screening 2 Weight &lt;75 kg Daily Dose 1000 mg; Screening 2 Weight &gt; or = 75 kg Daily Dose
+      1200mg
+
+      NOTE: Double Blind for PegIntron; Open Label for REBETOL, PEGASYS and COPEGUS
+
+      NOTE: REBETOL is the Schering-Plough brand name for ribavirin. COPEGUS is the Hoffman-La
+      Roche brand name for ribavirin.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>March 2004</start_date>
+  <completion_date type="Actual">November 2007</completion_date>
+  <primary_completion_date type="Actual">November 2007</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response (SVR) Rate</measure>
+    <time_frame>Assessed at the end of a 24-week post-treatment follow-up</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR rate is the percentage of participants with undetectable hepatitis C virus ribonucleic acid (HCV-RNA) at the end of the 24-week post-treatment follow-up.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mean Change From Baseline in the Log Viral Load at Treatment Week 4</measure>
+    <time_frame>Assessed at Baseline and Treatment Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The difference between viral load levels in the blood at the start of the study and Treatment Week 4, expressed in terms of a logarithmic scale with base 10, and averaged for all the participants in each treatment group.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Virologic Response Rate at Treatment Week 12</measure>
+    <time_frame>Assessed at Treatment Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Percentage of participants with undetectable hepatitis C RNA (HCV-RNA) at Treatment Week 12</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean Change From Baseline in the Log Viral Load at Treatment Week 2</measure>
+    <time_frame>Assessed at Baseline and Treatment Week 2</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The difference between viral load levels in the blood at the start of the study and Treatment Week 2, expressed in terms of a logarithmic scale with base 10, and averaged for all the participants in each treatment group.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">4469</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>PegIntron 1.5 ug/kg/wk plus REBETOL</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron (peginterferon alfa-2b; SCH 54031) 1.5 ug/kg/week in combination with weight-based REBETOL (ribavirin; SCH 18908) 800-1400 mg/day administered for 48 weeks with 24-week post-treatment follow-up</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PegIntron 1.0 ug/kg/wk plus REBETOL</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron (peginterferon alfa-2b; SCH 54031) 1.0 ug/kg/week in combination with weight-based REBETOL (ribavirin; SCH 18908) 800-1400 mg/day administered for 48 weeks with 24-week post-treatment follow-up</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEGASYS 180 ug/wk Plus COPEGUS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>PEGASYS (peginterferon alfa-2a) 180 ug/week plus COPEGUS (ribavirin) 1000-1200 mg/day administered for 48 weeks with 24-week post-treatment follow-up</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIntron (peginterferon alfa-2b; SCH 54031)</intervention_name>
+    <description>1.5 ug/kg/week subcutaneously (SC) for 48 weeks</description>
+    <arm_group_label>PegIntron 1.5 ug/kg/wk plus REBETOL</arm_group_label>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PegIntron (peginterferon alfa-2b; SCH 54031)</intervention_name>
+    <description>1.0 ug/kg/week SC for 48 weeks</description>
+    <arm_group_label>PegIntron 1.0 ug/kg/wk plus REBETOL</arm_group_label>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>REBETOL (ribavirin; SCH 18908)</intervention_name>
+    <description>weight based dose 800-1400 mg/day orally (PO) for 48 weeks</description>
+    <arm_group_label>PegIntron 1.5 ug/kg/wk plus REBETOL</arm_group_label>
+    <arm_group_label>PegIntron 1.0 ug/kg/wk plus REBETOL</arm_group_label>
+    <other_name>REBETOL [the Schering-Plough brand name for ribavirin]</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PEGASYS (peginterferon alfa-2a)</intervention_name>
+    <description>180 ug/week SC administered for 48 weeks</description>
+    <arm_group_label>PEGASYS 180 ug/wk Plus COPEGUS</arm_group_label>
+    <other_name>PEGASYS</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>COPEGUS (ribavirin)</intervention_name>
+    <description>1000-1200 mg/day PO for 48 weeks</description>
+    <arm_group_label>PEGASYS 180 ug/wk Plus COPEGUS</arm_group_label>
+    <other_name>COPEGUS [the Hoffman-La Roche brand name for ribavirin]</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        INCLUSION CRITERIA:
+
+          -  Previously untreated adults with chronic hepatitis C (hepatitis C virus ribonucleic
+             acid [HCV RNA] quantitative polymerase chain reaction [qPCR] plasma positive)
+
+          -  Individuals with HCV genotype 1 (mixed 1a/1b is acceptable)
+
+          -  Compensated liver disease
+
+          -  Pretreatment liver biopsy slides available
+
+          -  Adults aged 18-70
+
+          -  Individuals weighing 88-275 pounds (40-125 kg)
+
+          -  Free from substance abuse for past 2 years
+
+          -  Those suffering from diabetes and/or hypertension must have normal eye exams and
+             retinal photographs (these will be done as part of the study before hepatitis C
+             treatment is given)
+
+          -  Patients and partners of patients willing to use adequate contraception during the
+             course of the study
+
+          -  Hematology laboratory results of:
+
+               -  Hemoglobin (HGB) ≥ 12 g/dL for females or ≥ 13g/dL for males
+
+               -  White Blood Cell Count (WBC) ≥ 3,000/mm^3
+
+               -  Neutrophils ≥ 1,500/mm^3
+
+               -  Platelets ≥ 80,000/mm^3
+
+          -  Chemistry laboratory results of:
+
+               -  Normal Thyroid Stimulating Hormone (TSH), albumin, creatinine, and direct
+                  bilirubin
+
+               -  Antinuclear antibody (ANA) ≤ 1:320
+
+               -  Fasting Glucose 70-140 mg/dL Note: If glucose levels are between 116-140 mg/dL
+                  or an individual has diabetes, glycosylated hemoglobin [HbA1C] must be ≤ 8.5%
+
+        EXCLUSION CRITERIA:
+
+          -  Previous hepatitis C treatment
+
+          -  Pregnant women or partners of pregnant women
+
+          -  Patients or partners of patients who intend to become pregnant any time during the 48
+             weeks
+
+          -  Women who are breastfeeding
+
+          -  Individuals with liver disease not caused by hepatitis C
+
+          -  Individuals infected with the hepatitis B virus and/or human immunodeficiency virus
+             (HIV)
+
+          -  Patients with a history of liver cancer (hepatocellular carcinoma)
+
+          -  Known blood disorders such as hemoglobinopathy, coagulopathy, or glucose-6-phosphate
+             dehydrogenase [G6PD] deficiency
+
+          -  Body organ transplant
+
+          -  Any known or suspected cancer within the past 5 years
+
+          -  Individuals who currently use epoetin [EPO], granulocyte colony stimulating factor
+             [G-CSF] and/or granulocyte monocyte colony stimulating factor [GM-CSF]
+
+          -  Those having a history of or active clinical gout
+
+          -  Individuals who have chronic pulmonary disease
+
+          -  Individuals who have a medical condition that would likely require systemic steroids
+
+          -  Those with a history of central nervous system (CNS trauma) or seizure disorders
+
+          -  Current or previous use of lithium or antipsychotic drugs
+
+          -  Individuals who currently have or show signs of moderate to severe depression or
+             history of significant psychiatric disorders
+
+          -  Patients with clinically significant electrocardiogram (ECG) abnormalities
+
+          -  Individuals with serious heart problems such as those who have had a heart attack,
+             uncontrolled high blood pressure, or other heart problems
+
+          -  Patients that weigh &gt; 231-275 pounds (105-125 kg) AND have a body mass index (BMI) &gt;
+             30 AND have 3 or more of the risk factors below: (a) Strong family history of
+             coronary heart disease (CHD) which includes 2 or more first-degree relatives with CHD
+             or family history of early CHD at age &lt; 55 for male relatives or &lt; 65 for female
+             relatives (b) Individuals with abnormal total cholesterol and/or sub fractions
+             (uncontrolled hypercholesterolemia) (c) Diabetes (d) Hypertension (e) Smoking
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>United States</country>
+  </removed_countries>
+  <results_reference>
+    <citation>McHutchison JG, Lawitz EJ, Shiffman ML, Muir AJ, Galler GW, McCone J, Nyberg LM, Lee WM, Ghalib RH, Schiff ER, Galati JS, Bacon BR, Davis MN, Mukhopadhyay P, Koury K, Noviello S, Pedicone LD, Brass CA, Albrecht JK, Sulkowski MS; IDEAL Study Team. Peginterferon alfa-2b or alfa-2a with ribavirin for treatment of hepatitis C infection. N Engl J Med. 2009 Aug 6;361(6):580-93. doi: 10.1056/NEJMoa0808010. Epub 2009 Jul 22. Erratum in: N Engl J Med. 2009 Sep 3;361(10):1027.</citation>
+    <PMID>19625712</PMID>
+  </results_reference>
+  <verification_date>March 2015</verification_date>
+  <lastchanged_date>March 31, 2015</lastchanged_date>
+  <firstreceived_date>April 20, 2004</firstreceived_date>
+  <firstreceived_results_date>November 3, 2008</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

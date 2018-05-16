@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="21">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00302081</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P03548</org_study_id>
+    <nct_id>NCT00302081</nct_id>
+  </id_info>
+  <brief_title>Three Regimens of PegIntron Plus Ribavirin in Previously Untreated Chronic Hepatitis C, Genotype 2 or 3 (Study P03548)</brief_title>
+  <official_title>Comparison of Three Regimens of PEG-Intron and Ribavirin in the Treatment of Chronic Hepatitis C, Genotype 2 or 3, in Previously Untreated Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Integrated Therapeutics Group</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Germany: Federal Institute for Drugs and Medical Devices</authority>
+    <authority>Israel: Ministry of Health</authority>
+    <authority>India: Drugs Controller General of India</authority>
+    <authority>Poland: Ministry of Health</authority>
+    <authority>Indonesia: National Agency for Drug and Food Control</authority>
+    <authority>Singapore: Health Sciences Authority</authority>
+    <authority>Malaysia: Ministry of Health</authority>
+    <authority>Thailand: Thai Drug Control Division, Food and Drug Administration, Ministry of Public Health</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a randomized, open-label, multinational study designed to evaluate the &quot;standard&quot;
+      regimen, PegIntron 1.5 µg/kg subcutaneously once weekly plus ribavirin 800-1200 mg daily
+      [Arm PEG2b 1.5/R (24 weeks)], compared to a lower dose regimen, PegIntron 1.0 µg/kg
+      subcutaneously once weekly plus ribavirin 800-1200 mg daily [Arm PEG2b 1.0/R (24 weeks)],
+      using a 24 week treatment duration for both arms. Additionally, the study examined the
+      efficacy of reduced treatment duration: PegIntron 1.5 µg/kg subcutaneously once weekly plus
+      ribavirin 800-1200 mg for 16 weeks [Arm PEG2b 1.5/R (16 weeks)] .
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a randomized, open-label, multinational study designed to evaluate the &quot;standard&quot;
+      regimen, PegIntron 1.5 µg/kg subcutaneously once weekly plus ribavirin 800-1200 mg daily
+      [Arm PEG2b 1.5/R (24 weeks)], compared to a lower dose regimen, PegIntron 1.0 µg/kg
+      subcutaneously once weekly plus ribavirin 800-1200 mg daily [Arm PEG2b 1.0/R (24 weeks)],
+      using a 24 week treatment duration for both arms. Additionally, the study examined the
+      efficacy of reduced treatment duration: PegIntron 1.5 µg/kg subcutaneously once weekly plus
+      ribavirin 800-1200 mg for 16 weeks [Arm PEG2b 1.5/R (16 weeks)].
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>August 2003</start_date>
+  <completion_date type="Actual">April 2008</completion_date>
+  <primary_completion_date type="Actual">April 2008</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>The Number of Participants Who Achieve a Sustained Virologic Response (SVR)</measure>
+    <time_frame>24-week treatment duration for Arms [Peg2b 1.5/R(24 weeks)] and [PEG2b 1.0/R(24 weeks]); 16-week treatment duration for Arm [PEG2b 1.5/R(16 weeks]. Follow-up of 24 weeks for each arm.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A sustained virologic response is defined as undetectable hepatitis C virus ribonucleic acid [HCV-RNA] 24 weeks post-treatment. Serum HCV-RNA is measured by HCV-PCR in local laboratories. HCV-RNA below the limit of detection is considered undetectable.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Virologic Response Rates at the End of Therapy. Biochemical Responses as Determined by ALT and AST Levels at the End of Treatment and at the End of Follow up.</measure>
+    <time_frame>End of treatment: 24 weeks for arms [PEG2b 1.5/R (24 weeks)] and [PEG2b 1.0/R (24 weeks)]; 16 weeks for arm [PEG2b 1.5/R (16 weeks)]. Follow-up of 24 weeks for each arm.</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Virologic response is defined as undetectable hepatitis C virus ribonucleic acid (HCV-RNA) in the serum. A blood test is used to measure the level of ALT and AST. ALT response was defined as ALT&lt;40 IU/L (international units per liter).
+This was not a prespecified key secondary outcome.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">696</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>PEG2b 1.5/R (24 weeks)</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>PegIntron (peginterferon alfa-2b; SCH 54031) 1.5 mcg/kg QW SC plus ribavirin (SCH 18908) 800-1200 mg daily for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG 2b 1.0/R (24 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron (peginterferon alfa-2b; SCH 54031) 1.0 mcg/kg QW SC plus ribavirin (SCH 18908) 800-1200 mg/day for 24 weeks</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PEG2b 1.5/R (16 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>PegIntron (peginterferon alfa-2b; SCH 54031) 1.5 mcg/kg QW SC plus ribavirin (SCH 18908) 800-1200 mg/day for 16 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>1.5 mcg/kg QW SC for 24 weeks</description>
+    <arm_group_label>PEG2b 1.5/R (24 weeks)</arm_group_label>
+    <other_name>PegIntron (SCH 54031)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>1.0 mcg/kg QW SC for 24 weeks</description>
+    <arm_group_label>PEG 2b 1.0/R (24 weeks)</arm_group_label>
+    <other_name>PegIntron (SCH 54031)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>peginterferon alfa-2b (SCH 54031)</intervention_name>
+    <description>1.5 mcg/kg QW SC for 16 weeks</description>
+    <arm_group_label>PEG2b 1.5/R (16 weeks)</arm_group_label>
+    <other_name>PegIntron (SCH 54031)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (SCH 18908)</intervention_name>
+    <description>800-1200 mg daily for 24 weeks</description>
+    <arm_group_label>PEG2b 1.5/R (24 weeks)</arm_group_label>
+    <arm_group_label>PEG 2b 1.0/R (24 weeks)</arm_group_label>
+    <other_name>REBETOL (SCH 18908)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin (SCH 18908)</intervention_name>
+    <description>800-1200 mg daily for 16 weeks</description>
+    <arm_group_label>PEG2b 1.5/R (16 weeks)</arm_group_label>
+    <other_name>REBETOL (SCH 18908)</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        The subject must meet ALL of the criteria listed below for entry into the study:
+
+          -  Hemoglobin &gt;= 11 g/dL (females); &gt;= 12 g/dL (males)
+
+          -  Platelet count &gt;= 100,000/mm^3
+
+          -  Neutrophil count &gt;= 1,500/mm^3
+
+          -  Adult male or female chronic hepatitis C (CHC) patients (HCV-RNA-positive in serum)
+             with compensated liver disease (Child-Pugh Score &lt;7) and indication for treatment
+             according on current consensus guidelines (1. NIH Consensus Conference on the
+             Management of Hepatitis C, 2002; 2. German Consensus Conference on Hepatitis B and C,
+             published in Z Gastro 2004; 42 (8): 677-730).
+
+          -  &gt;= 18 to =&lt; 70 years of age
+
+          -  At least one abnormal ALT value in the last year
+
+          -  HCV genotype 2 or 3
+
+          -  Not previously treated with any interferon or ribavirin alone or in combination
+
+          -  TSH level must be within normal limits
+
+          -  At the Screen Visit, glucose must be 70-140 mg/dL. Results between 116-140 mg/dL
+             require repeat fasting glucose to be less than140 mg/dL and HbA1C less than or equal
+             to 8.5%. HbA1C must be less than or equal to 8.5% in diabetic subjects (whether on
+             medication or diet controlled).
+
+          -  Female subjects cannot be pregnant or breastfeeding and must be either
+             postmenopausal, surgically sterile or using 2 methods of birth control. While
+             abstinence from sexual activity is the only certain method to prevent pregnancy,
+             female patients of childbearing potential who are or who anticipate the possibility
+             of becoming sexually active with a male partner must use a combination of the
+             following 2 methods: (1)contraceptive pill or IUD or depot hormonal preparation
+             (ring, injection implant); and (2) a barrier method of contraception such as
+             diaphragm, sponge with spermicide, condom, or a method of birth control considered
+             acceptable by the study physician. Contraceptive measures will be reviewed with
+             female subjects at each visit. Dual methods of contraception must be used for 6
+             months after treatment discontinuation.
+
+          -  Sexually active male subjects must be practicing acceptable methods of contraception
+             (vasectomy, use of condom plus spermicide, monogamous relationship with a female
+             partner who practices an acceptable method of contraception) during the treatment
+             period and for 7 months after stopping treatment
+
+          -  Subjects must be willing to give written informed consent and able to adhere to
+             dosing and visit schedules.
+
+          -  Confirmation by the principal investigator or a sub-investigator that sexually active
+             females of childbearing potential are practicing adequate contraception.
+
+          -  A serum pregnancy test obtained at Screen Visit prior to the initiation of treatment
+             must be negative
+
+          -  Confirmation by the principal investigator or a sub-investigator that sexually active
+             male subjects are practicing a method of contraception considered acceptable
+             (vasectomy, condom plus spermicide, plus relationship with a female partner who
+             practices an acceptable method of contraception). Contraception must be used during
+             the treatment period and for seven months (or 6 months, according to local label)
+             after the completion of therapy, including condom use by male subjects with pregnant
+             partners.
+
+          -  For subjects with a history of hypertension or diabetes, written clearance from an
+             ophthalmologist has to be obtained prior to treatment start
+
+        Exclusion Criteria:
+
+          -  Patients younger than 18 years
+
+          -  Patients older than 70 years of age.
+
+          -  Positive Anti-HIV antibodies
+
+          -  Positive HBsAg antibodies
+
+          -  Patients with severe renal dysfunction or creatinine clearance &lt; 50 mL/min must not
+             be treated with PEG-Intron -Rebetol
+
+          -  Pregnant women, women who plan to become pregnant, male subjects whose partner wants
+             to become pregnant, and breastfeeding women.
+
+          -  Suspected hypersensitivity to any interferon or ribavirin product.
+
+          -  Subject has used any investigational product within 30 days prior to enrollment
+
+          -  Subject is participating in any other clinical study
+
+          -  Any cause of liver disease other than chronic hepatitis C, including but not limited
+             to:
+
+               -  Hemochromatosis
+
+               -  Alpha-1 antitrypsin deficiency
+
+               -  Wilson's disease
+
+               -  Autoimmune hepatitis
+
+               -  Alcoholic liver disease
+
+               -  Non-alcoholic steatohepatitis (NASH)
+
+               -  Drug-related liver disease
+
+          -  Active malignant disease or suspicion or history of malignant disease within five
+             previous years (except for adequately treated basal cell carcinoma)
+
+          -  Known coagulation diseases such as hemophilia; hemoglobin diseases (e.g. thalassemia)
+
+          -  Known G6PD deficiency
+
+          -  Evidence of advanced liver disease such as history or presence of ascites, bleeding
+             varices, or hepatic encephalopathy.
+
+          -  Subjects with organ transplants, except for corneal or hair transplant.
+
+          -  Any known preexisting medical condition that could interfere with the subject's
+             participation in and completion of study, such as:
+
+               -  Preexisting psychiatric condition, especially moderate to severe depression, or
+                  a history of severe psychiatric disorder, such as psychosis, suicidal ideation,
+                  or suicide attempts. Severe depression includes the following: hospitalization
+                  for depression; electroconvulsive therapy for depression; or depression causing
+                  a prolonged absence from work or significantly altering daily functions.
+                  Subjects with mild depression may be considered for entry into the study
+                  provided that a pre-treatment assessment demonstrates that the subject's
+                  emotional status is clinically stable, in which case a management plan must be
+                  formulated for the subject; this management plan will become a part of the
+                  subject's medical record.
+
+               -  Craniocerebral trauma which is not a concussion or active seizure disorders
+                  requiring medication.
+
+               -  Clinically significant ECG abnormalities and/or cardiovascular dysfunction
+                  within 6 previous months (e.g., angina, congestive heart failure, recent
+                  myocardial infarction, or significant arrhythmia).
+
+               -  Chronic lung disease (e.g., chronic obstructive lung disease)
+
+               -  Poorly controlled diabetes mellitus
+
+               -  Immune-mediated disease (e.g., inflammatory bowel disease [Crohn's disease,
+                  ulcerative colitis], idiopathic thrombocytopenic purpura, systemic lupus
+                  erythematosus, autoimmune hemolytic anemia, scleroderma, severe psoriasis)
+
+               -  Clinical gout
+
+          -  Subject is or was a substance abuser, such as alcohol (80 gm/day or more), methadone,
+             IV, oral or inhaled drugs. To be considered for inclusion into the protocol, the
+             subject must have abstained and agree to abstain from using any of the above for at
+             least 6 months. Subjects treated with buprenorphine (Subutex) who have been stable
+             for 6 months may be included
+
+          -  Any other condition that, in the investigator's opinion, could determine that
+             subject's participation in the study is not indicated or could interfere with the
+             subject's participation in and completion of study.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>India</country>
+    <country>Indonesia</country>
+    <country>Israel</country>
+    <country>Poland</country>
+    <country>Singapore</country>
+    <country>Thailand</country>
+  </removed_countries>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 7, 2015</lastchanged_date>
+  <firstreceived_date>March 10, 2006</firstreceived_date>
+  <firstreceived_results_date>April 29, 2009</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C, Chronic</keyword>
+  <keyword>Genotype 2 and Genotype 3</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

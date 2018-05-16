@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="58">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01056523</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Ribavirin-002</org_study_id>
+    <nct_id>NCT01056523</nct_id>
+  </id_info>
+  <brief_title>Use of Ribavirin and Low Dose Ara-C to Treat Acute Myeloid Leukemia</brief_title>
+  <official_title>A Phase I/II Study of Ribavirin and Low-dose Cytarabine Arabinoside (Ara-C) in Acute Myeloid Leukemia (AML) M4 and M5 Subtypes, and AML With High eIF4E Expression</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Jewish General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Leukemia and Lymphoma Society</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Jewish General Hospital</source>
+  <oversight_info>
+    <authority>Canada: Health Canada</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to determine the maximum tolerated dose of ribavirin, when given
+      in combination with low-dose ara-C and to determine if it is safe and well-tolerated in
+      patients with acute myeloid leukemia.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Primary Objectives
+
+      In the Phase I portion of this study, we will determine the maximum tolerated dose and
+      recommended phase II dose (RP2D) of ribavirin and low-dose ara-C. The primary objective of
+      the Phase II portion of the study is to determine the overall response rate, including the
+      complete remission (CR), complete remission with incomplete blood count recovery (CRi),
+      partial remission (PR) or blast response (BR), to therapy with ribavirin and low dose ara-C
+      at the RP2D.
+
+      STUDY DESIGN AND DURATION
+
+      This is a multicentre, open-label, single arm Phase I/II study of oral ribavirin and
+      low-dose ara-C for patients with AML M4/M5 or AML with high expression of eIF4E, who have
+      relapsed or refractory disease, or who are not suitable candidates for induction
+      chemotherapy. This study will determine the recommended phase II dose and will evaluate
+      efficacy. Correlative studies will be included to assess relevant molecular targets.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2010</start_date>
+  <completion_date type="Actual">January 2015</completion_date>
+  <primary_completion_date type="Actual">January 2015</primary_completion_date>
+  <phase>Phase 1/Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Recommended phase II dose of ribavirin when given in combination with low-dose ara-C</measure>
+    <time_frame>6-9 months</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Maximum tolerated dose</measure>
+    <time_frame>6-9 months</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Overall response rate (complete remission (CR), complete remission with incomplete blood count recovery (CRi), partial remission (PR) or blast response (BR))</measure>
+    <time_frame>2-3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Time to response</measure>
+    <time_frame>2-3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Duration of response</measure>
+    <time_frame>2-3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to relapse</measure>
+    <time_frame>2-3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>One year and overall survival</measure>
+    <time_frame>1-4 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Hematological Improvement</measure>
+    <time_frame>6 months - 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety and tolerability of ribavirin and low dose ara-C</measure>
+    <time_frame>2 years</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between expression and activity of eIF4E and response</measure>
+    <time_frame>6months - 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Effect of ribavirin and low dose ara-C on the activity of eIF4E related pathways.</measure>
+    <time_frame>6 months- 2 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">30</enrollment>
+  <condition>Acute Myeloid Leukemia</condition>
+  <arm_group>
+    <arm_group_label>Ribavirin-Cytarabine</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Dose level 1 = 1000 mg po BID/ Dose level 2 = 1400 mg po BID/ Dose level 3 = 1800 mg po BID</description>
+    <arm_group_label>Ribavirin-Cytarabine</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Cytarabine arabinoside</intervention_name>
+    <description>Previous cohorts at 20 mg bid days 1 to 10 of every 28 day cycle. Dosage modified to 10 mg bid days 1 to 10 of every 28 day cycle for more recent cohorts.</description>
+    <arm_group_label>Ribavirin-Cytarabine</arm_group_label>
+    <other_name>Ara-C</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  The following patients with acute myeloid leukemia (AML) are eligible:
+
+               -  De novo AML M4 or M5 FAB subtype or high eIF4E.
+
+               -  Secondary AML after a myelodysplastic syndrome (MDS) or a myeloproliferative
+                  disorder (not chronic myelogenous leukemia), if M4 or M5 FAB subtype or high
+                  eIF4E.
+
+               -  Therapy-related AML if M4 or M5 FAB subtype or high eIF4E.
+
+               -  CML blast crisis if they have failed imatinib and at least one other tyrosine
+                  kinase inhibitor.
+
+          -  All patients must have failed primary therapy (defined as two induction
+             chemotherapies), have relapsed, or are not suitable candidates for intensive
+             induction chemotherapy.
+
+          -  Patients who have a dry aspirate or extramedullary disease only are eligible for this
+             study if they have a pre-treatment marrow or tissue biopsy demonstrating AML M4 or M5
+             subtype or high eIF4E expression.
+
+          -  ECOG performance status 0, 1, 2 or 3.
+
+          -  Life expectancy &gt; 4 weeks.
+
+          -  Age is &gt; 18 years.
+
+          -  Female patients of childbearing potential must have a negative serum (beta-HCG)
+             pregnancy test within 14 days of starting protocol and must not be breastfeeding. Men
+             and women of childbearing potential must agree to use an effective means of
+             contraception throughout the study and for at least 30 days after completion of
+             protocol.
+
+          -  Adequate renal and hepatic function: serum creatinine &lt; 1.5 x ULN; AST or ALT &lt; 2.5 x
+             ULN (or &lt; 5 x ULN if liver involvement with leukemia); serum bilirubin &lt; 1.5 x ULN.
+
+          -  Provide written consent after the investigational nature, study design, risks and
+             benefits of the study have been explained.
+
+          -  Accessible for treatment and follow up.
+
+        Exclusion Criteria:
+
+          -  Uncontrolled central nervous system involvement by AML.
+
+          -  Active cardiovascular disease as defined by New York Heart Association (NYHA) class
+             III-IV categorization.
+
+          -  Intercurrent illness or medical condition precluding safe administration of the
+             planned protocol treatment or required follow-up.
+
+          -  Received any previous therapy for AML within 28 days prior to the study entry. Hydrea
+             is permitted for the treatment of leukocytosis but must be stopped within 7 days of
+             starting low dose ara-C and ribavirin.
+
+          -  Female patients who are pregnant or breastfeeding.
+
+          -  Concurrent treatment with other anti-cancer therapy.
+
+          -  Known infection with HIV.
+
+          -  History of other malignancy. Subjects who have been disease-free for 2 year or
+             subjects with a history of completely resected non-melanoma skin cancer or
+             successfully treated in situ carcinoma are eligible.
+
+          -  FAB AML M1, 2, 6, 7 will be excluded if they do not have high eIF4E expression. AML
+             M3 is always excluded.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Sarit Assouline, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Jewish General Hospital, McGill University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Katherine Borden, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Université de Montréal</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Jewish General Hospital</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H3T 1E2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Assouline S, Culjkovic B, Cocolakis E, Rousseau C, Beslu N, Amri A, Caplan S, Leber B, Roy DC, Miller WH Jr, Borden KL. Molecular targeting of the oncogene eIF4E in acute myeloid leukemia (AML): a proof-of-principle clinical trial with ribavirin. Blood. 2009 Jul 9;114(2):257-60. doi: 10.1182/blood-2009-02-205153. Epub 2009 May 11.</citation>
+    <PMID>19433856</PMID>
+  </reference>
+  <reference>
+    <citation>Kentsis A, Topisirovic I, Culjkovic B, Shao L, Borden KL. Ribavirin suppresses eIF4E-mediated oncogenic transformation by physical mimicry of the 7-methyl guanosine mRNA cap. Proc Natl Acad Sci U S A. 2004 Dec 28;101(52):18105-10. Epub 2004 Dec 15.</citation>
+    <PMID>15601771</PMID>
+  </reference>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 1, 2015</lastchanged_date>
+  <firstreceived_date>January 25, 2010</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Jewish General Hospital</investigator_affiliation>
+    <investigator_full_name>Sarit Assouline</investigator_full_name>
+    <investigator_title>Principal Investigator</investigator_title>
+  </responsible_party>
+  <keyword>AML</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Myeloid</mesh_term>
+    <mesh_term>Leukemia, Myeloid, Acute</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Cytarabine</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

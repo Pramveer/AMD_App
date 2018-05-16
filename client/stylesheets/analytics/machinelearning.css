@@ -1,0 +1,263 @@
+g.x.axis line {
+    display: none;
+}
+
+#analyticsChart {
+    background-repeat: no-repeat;
+    background-position: 242px 27px;
+}
+
+#arc_label_text_APRITwo,
+#arc_label_text_APRIOne {
+    display: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+#causalFactorsChart .axis text,
+#analyticsChart .axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.analyticsChartLegend {
+    position: absolute;
+    right: 6%;
+    width: 200px;
+    /*bottom: -7%;*/
+}
+
+.analyticsChartLegend-Label {
+    width: 145px;
+    background: #3cbca9;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10%;
+    border-radius: 3px;
+}
+
+.analyticsChartLegend-Ncount {
+    font-size: 16px;
+    text-align: center;
+    font-family: arial;
+    width: 100%;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+
+/*----- Tab Links -----*/
+
+.safetydrugTabs {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.safetydrugTab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.safetydrugTab-links li {
+    float: left;
+    list-style: none;
+    background-image: url('tabs-icon.png');
+    background-repeat: no-repeat;
+    background-position: -57px -5px;
+    background-color: #A5A7AA;
+    width: 125px;
+}
+
+.safetydrugTab-links li:last-child {
+    background-color: transparent !important;
+}
+
+.safetydrugTab-links a {
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: transparent;
+    font-size: 15px;
+    color: #646465;
+    transition: all linear 0.15s;
+    text-align: left;
+    text-shadow: 1px 1px 1px #DADADA;
+    width: 100%;
+}
+
+.safetydrugTab-links a:hover {
+    background: transparent;
+    text-decoration: none;
+}
+
+.safetydrugTabs li.active a,
+.safetydrugTabs li.active a:hover {
+    background: transparent;
+    color: #4EAEF1;
+    text-shadow: 1px 1px 1px #112533;
+}
+
+.safetydrugTabs li.active {
+    background-position: -57px -51px !important;
+}
+
+
+/*----- Content of Tabs -----*/
+
+.safetydrugTab-content {
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.safetydrugTab {
+    display: none;
+}
+
+.safetydrugTab.active {
+    display: block;
+}
+
+.defaultMessage {
+    width: 100%;
+    background: #fff;
+    font-size: 20px;
+    text-align: center;
+    color: #999;
+}
+
+.ml-title {
+    text-align: center;
+    font-size: 28px;
+    margin-left: 15%;
+    position: absolute;
+    color: #e05454;
+    font-weight: bold;
+}
+
+.macLearningsubTabs-links {
+    border-bottom: 1px dotted #ececec;
+    text-align: center;
+}
+
+.macLearningsubTabs-infoIcon {
+    font-size: 14px;
+    background-position: 38%;
+    background-image: url(pinscriptive_v5-ICONS.png);
+    height: 20px;
+    width: 53px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.macLearningsubTabs-questIcon {
+    font-size: 14px;
+    background-position: 38%;
+    background-image: url(/quest-icon.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#causalFactorsChart .c3-axis-y {
+    visibility: hidden !important;
+}
+
+#causalFactorsChart .c3-axis-x .tick line {
+    visibility: hidden;
+}
+
+#causalFactorsChart .c3-event-rect {
+    fill: #F4FBFF;
+    stroke: #F4FBFF;
+}
+
+#causalFactorsChart .c3-axis-y-label {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    fill: #333;
+}
+
+#causalFactorsChart g.c3-axis.c3-axis-x .tick text {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    fill: #333;
+}
+
+#causalFactorsChart .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: start;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#SVRBeforeTreatment .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#SVRDuringTreatment .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}
+
+#SVRAfterTreatment .c3-chart .c3-chart-texts .c3-chart-text .c3-texts .c3-text {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    fill: rgb(68, 68, 68) !important;
+    opacity: 0.8;
+}

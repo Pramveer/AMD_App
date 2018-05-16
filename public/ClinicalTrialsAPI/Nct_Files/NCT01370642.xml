@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="194">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01370642</url>
+  </required_header>
+  <id_info>
+    <org_study_id>7009-043</org_study_id>
+    <nct_id>NCT01370642</nct_id>
+  </id_info>
+  <brief_title>Vaniprevir Administered With Pegylated-interferon and Ribavirin in Japanese Treatment-Naïve Chronic Hepatitis C Participants (MK-7009-043)</brief_title>
+  <official_title>A Phase III Randomized, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Efficacy of MK-7009 When Administered Concomitantly With Peginterferon Alfa-2b and Ribavirin in Japanese Treatment-Naïve Patients With Chronic Hepatitis C Infection</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Japan: Pharmaceuticals and Medical Devices Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to evaluate the safety, tolerability, and efficacy of
+      vaniprevir given in combination with pegylated interferon alfa-2b (peg-IFN) and ribavirin
+      (RBV) versus treatment with peg-IFN and RBV alone in Japanese treatment-naïve participants
+      with chronic hepatitis C (CHC) genotype (GT)1. The primary efficacy hypothesis is that the
+      percentage of participants achieving sustained virologic response 24 weeks after completion
+      of all study therapy (SVR24) in at least one of the vaniprevir arms is superior to the
+      percentage of participants achieving SVR24 in the control arm.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>June 2011</start_date>
+  <completion_date type="Actual">March 2014</completion_date>
+  <primary_completion_date type="Actual">July 2013</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Participants Achieving Sustained Virologic Response 24 Weeks After Completion of All Study Therapy (SVR24)</measure>
+    <time_frame>24 weeks after 24 or 48 weeks of study therapy (up to 72 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR24 was defined as having an undetectable HCV RNA level 24 weeks after completion of all study therapy.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants With One or More Tier 1 Adverse Events (AEs) During the Study</measure>
+    <time_frame>From Day 1 (post-dose) through completion of Week 24 Follow-up (up to 72 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse experience was defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of the product, whether or not considered related to the use of the product. Any worsening (i.e., any clinically significant adverse change in frequency and/or intensity) of a preexisting condition which is temporally associated with the use of the product, was also an adverse experience. For this study, safety parameters or AEs of special interest that were identified a priori constituted &quot;Tier 1&quot; safety endpoints that were subject to inferential testing for statistical significance. Tier 1 AEs on this study included serious rash, anemia (anemia plus haemoglobin decreased), neutropenia (neutropenia plus neutrophil count decreased), bilirubin increased and gastrointestinal adverse (GI) experiences (vomiting, nausea, and diarrhea).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Participants Who Discontinued Study Drug Due to an AE</measure>
+    <time_frame>From Day 1 (post-dose) through completion of Week 24 Follow-up (up to 72 weeks)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>An adverse experience was defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of the product, whether or not considered related to the use of the product. Any worsening (i.e., any clinically significant adverse change in frequency and/or intensity) of a preexisting condition which is temporally associated with the use of the product, was also an adverse experience.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving SVR12</measure>
+    <time_frame>12 weeks after 24 or 48 weeks of study therapy (up to 60 weeks)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as having an undetectable HCV RNA level 12 weeks after completion of all study therapy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Rapid Virologic Response (RVR)</measure>
+    <time_frame>At Week 4</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>RVR was defined as having an undetectable HCV RNA level at Week 4.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Complete Early Virologic Response (cEVR)</measure>
+    <time_frame>At Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>cEVR was defined as having an undetectable HCV RNA level at Week 12.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Achieving Undetectable HCV RNA at the End of Treatment (EOT)</measure>
+    <time_frame>At Week 24 or 48</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants were assessed for undetectable HCV RNA levels at the end of all study therapy.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Least Squares (LS) Mean Change From Baseline in HCV RNA (Log 10)</measure>
+    <time_frame>Baseline, Week 2, Week 4, Week 8, Week 12, Week 24</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HCV RNA levels were assessed at baseline (BL) and during treatment weeks 2, 4, 8, 12, and 24 using the Roche TaqMan HCV assay, and transformed to Log 10 values. HCV RNA values below the limit of reliable quantification (LoQ) or the limit of detection (LoD) at any time point were handled as follows (imputations done for computational purposes): values below the LoQ but above the LoD were imputed with the LoQ minus 0.1; values below the LoD were imputed with the value of 0 Log IU/mL. HCV RNA levels below the LoD were considered &quot;undetectable&quot;.</description>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">294</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Vaniprevir 12 Week Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants on this arm receive 12 weeks of vaniprevir (300 mg twice daily) and then 12 weeks of placebo to vaniprevir along with 24 weeks of treatment with peg-IFN and RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Vaniprevir 24 Week Arm</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants on this arm receive 24 weeks of vaniprevir (300 mg twice daily) along with 24 weeks of treatment with peg-IFN and RBV.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Control Arm</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Participants on this arm receive 24 weeks of treatment with placebo to vaniprevir along with 48 weeks of treatment with peg-IFN and RBV.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>vaniprevir</intervention_name>
+    <description>Capsules containing 150 mg vaniprevir, orally, two in the morning and two in the evening for 12 or 24 weeks</description>
+    <arm_group_label>Vaniprevir 12 Week Arm</arm_group_label>
+    <arm_group_label>Vaniprevir 24 Week Arm</arm_group_label>
+    <other_name>MK-7009</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo to vaniprevir</intervention_name>
+    <description>Placebo to vaniprevir, capsules, orally, twice daily for 12 weeks or 24 weeks</description>
+    <arm_group_label>Vaniprevir 12 Week Arm</arm_group_label>
+    <arm_group_label>Control Arm</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>Peg-IFN</intervention_name>
+    <description>Peg-IFN 1.5 μg/kg once per week, subcutaneously (SC) for 24 or 48 weeks</description>
+    <arm_group_label>Vaniprevir 12 Week Arm</arm_group_label>
+    <arm_group_label>Vaniprevir 24 Week Arm</arm_group_label>
+    <arm_group_label>Control Arm</arm_group_label>
+    <other_name>PegIntron</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ribavirin</intervention_name>
+    <description>Capsules containing 200 mg RBV orally, 3 to 5 capsules, dosage based on the participant's weight (600 mg/day to 1000 mg/day), for 24 or 48 weeks</description>
+    <arm_group_label>Vaniprevir 12 Week Arm</arm_group_label>
+    <arm_group_label>Vaniprevir 24 Week Arm</arm_group_label>
+    <arm_group_label>Control Arm</arm_group_label>
+    <other_name>REBETOL®</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion criteria:
+
+          -  Japanese participant diagnosed with compensated CHC GT 1
+
+          -  Absence of ascites, bleeding esophageal varices, hepatic encephalopathy, or other
+             signs or symptoms of advanced liver disease.
+
+          -  IFN treatment naive
+
+          -  No evidence of cirrhosis
+
+        Exclusion criteria:
+
+          -  Co-infection with human immunodeficiency virus (HIV)
+
+          -  Positive hepatitis B surface antigen or other evidence of active hepatitis B
+             infection
+
+          -  Any other condition that is contraindicated or for which caution is required for
+             treatment with peg-IFN or RBV
+
+          -  Any condition or pre-study laboratory abnormality, or history of any illness, that,
+             in the opinion of the investigator, might confound the results of the study or pose
+             additional risk in administering the study drugs, peg-IFN and RBV, to the
+             participant.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Medical Director</last_name>
+    <role>Study Director</role>
+    <affiliation>Merck Sharp &amp; Dohme Corp.</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>Japan</country>
+  </removed_countries>
+  <results_reference>
+    <citation>Hayashi N, Nakamuta M, Takehara T, Kumada H, Takase A, Howe AY, Ludmerer SW, Mobashery N. Vaniprevir plus peginterferon alfa-2b and ribavirin in treatment-naive Japanese patients with hepatitis C virus genotype 1 infection: a randomized phase III study. J Gastroenterol. 2015 Sep 25. [Epub ahead of print]</citation>
+    <PMID>26403160</PMID>
+  </results_reference>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 1, 2015</lastchanged_date>
+  <firstreceived_date>June 8, 2011</firstreceived_date>
+  <firstreceived_results_date>September 26, 2014</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

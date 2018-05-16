@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="736">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00196664</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2004-004102-24</org_study_id>
+    <secondary_id>ANRS HC18 PAROPEG</secondary_id>
+    <nct_id>NCT00196664</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Paroxetine in the Prevention of Depressive Syndrome in Patients With Chronic Hepatitis C Treated by PEG-Interferon Alfa Plus Ribavirin</brief_title>
+  <official_title>Assessment of the Efficacy of Paroxetine in the Prevention of Depressive Syndrome in Patients With Chronic Hepatitis C Treated by PEG-Interferon Alfa Plus Ribavirin. Multicentric, Double-Blinded, Randomized Study. ANRS HC18 Paropeg</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>French National Agency for Research on AIDS and Viral Hepatitis</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>French National Agency for Research on AIDS and Viral Hepatitis</source>
+  <oversight_info>
+    <authority>France: Afssaps - Agence française de sécurité sanitaire des produits de santé (Saint-Denis)</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Depression is a common side effect of interferon in the treatment of chronic hepatitis C.
+      The aim of this study is to assess the efficacy and safety of paroxetine, an antidepressant
+      agent, in the prevention of depression induced by PEG-interferon given for the treatment of
+      chronic hepatitis C.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of this study is to assess the efficacy and safety of paroxetine, an antidepressant
+      agent, in the prevention of depression induced by PEG-interferon given for the treatment of
+      chronic hepatitis C. This is a comparative study including two groups of patients randomly
+      allocated : one with paroxetine and the other with the placebo. The rate of depression will
+      be compared between the 2 groups
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>October 2005</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double-Blind, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Incidence of depression based on MINI International Neuropsychiatric Interview (MINI, DSM IV)from D0 to W74</measure>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Evolution of depression score (MADRS and BDI scales) to W74,Quality of life (HQL questionnaire), Fatigue, Compliance to PEG-interferon and ribavirin, Virological response at W74 ,Safety</measure>
+  </secondary_outcome>
+  <enrollment type="Anticipated">144</enrollment>
+  <condition>Chronic Hepatitis C</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Paroxetine</intervention_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+        - Chronic hepatitis C which should be treated by PEG-interferon alfa and ribavirin with no
+        contra-indication to anti-viral treatment
+
+        Exclusion Criteria:
+
+          -  Allergy to paroxetine
+
+          -  Current antidepressant treatment
+
+          -  Depression diagnosed by the MINI International Neuropsychiatric Interview (MINI, DSM
+             IV)
+
+          -  History of bipolar syndrome
+
+          -  History of psychotic syndrome
+
+          -  Treatment by triptan, carbamazepine, millepertuis, methadone, oral anticoagulation
+
+          -  Renal insufficiency
+
+          -  HIV infection
+
+          -  Breath feeding
+
+          -  Contra-indication to PEG-interferon and or ribavirin
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jean Pierre Bronowicki, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Service d'Hépato-gastroenterologie, CHU de Nancy, Vandoeuvre France</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Faiez Zannad, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>C.I.C Nancy France</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Service d'Hépato-gastroentérologie CHU de Nancy</name>
+      <address>
+        <city>Vandoeuvre</city>
+        <zip>54500</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>May 2009</verification_date>
+  <lastchanged_date>May 12, 2009</lastchanged_date>
+  <firstreceived_date>September 13, 2005</firstreceived_date>
+  <keyword>Chronic Hepatitis C</keyword>
+  <keyword>Paroxetine</keyword>
+  <keyword>Depression</keyword>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Paroxetine</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

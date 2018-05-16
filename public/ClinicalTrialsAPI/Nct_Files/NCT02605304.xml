@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="117">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02605304</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ACTG A5348</org_study_id>
+    <secondary_id>UM1AI068636</secondary_id>
+    <nct_id>NCT02605304</nct_id>
+  </id_info>
+  <brief_title>12 Weeks of Ledipasvir (LDV)/Sofosbuvir (SOF) With Weight-based Ribavirin vs. 24 Weeks of LDV/SOF</brief_title>
+  <official_title>Phase II Trial of Retreatment Strategies for Difficult-to-Treat Hepatitis C Virus (HCV)-Infected Individuals Who Have Failed Prior Direct Acting Antiviral (DAA)-Based Regimens</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AIDS Clinical Trials Group</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>AIDS Clinical Trials Group</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People who are infected with Hepatitis C Virus (HCV) have a great chance of being cured of
+      the infection when they are treated with sofosbuvir. However, in some instances, treatment
+      with sofosbuvir-containing therapy does not work. It is not known if treating people with
+      sofosbuvir again (retreatment) after it did not work the first time will work. There is an
+      important need to understand retreatment options in those instances. This study is being
+      done to see if two different regimens, ledipasvir with sofosbuvir and ribavirin for 12 weeks
+      (Group A) and ledipasvir with sofosbuvir for 24 weeks (Group B) are well tolerated in
+      HCV-infected persons where previous treatment with sofosbuvir failed. This study will also
+      look at the safety of each regimen and how well the combination treatment of
+      ledipasvir/sofosbuvir works in people who have cirrhosis (scarring of the liver) or HIV.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      There is a pressing need to understand appropriate retreatment options for HCV-infected
+      patients who fail direct acting antiviral (DAA)-based regimens. To date, over 100,000
+      prescriptions have been written for SOF. Recent data indicate that the SOF-based treatment
+      defined as SOF/RBV, SOF/pegylated-interferon (PEG)/RBV or SOF/simeprevir (SIM) +/- RBV have
+      led to SVR4 in 70-92% of HCV genotype (GT) 1 patients, depending on the regimen used and
+      presence of cirrhosis. Thus, there are a growing number of individuals who have failed
+      SOF-based regimens and are in need of a retreatment strategy, the majority of which are
+      anticipated to be HCV GT1, given the US distribution of genotypes. There are no data to
+      inform retreatment strategies for HIV-infected individuals with SOF failure, who have
+      traditionally represented a harder to treat group and are impacted by DAA-ARV interactions.
+
+      This study is a phase II retreatment study of HCV GT1 HIV coinfected patients who have
+      previous virologic failure on a SOF-based regimen. SOF-failures represent a challenging
+      group to retreat as they have already failed one potent regimen, and in many cases may have
+      failed prior regimens as well. This study will provide much needed pilot data evaluating
+      retreatment strategies of LDV/SOF for prior SOF-failures in HIV/HCV coinfection, including
+      those with cirrhosis.
+
+      Participants in the study will be randomized to one of two treatment groups: 12 weeks of
+      LDV/SOF with weight-based RBV or 24 weeks of LDV/SOF alone. The participants will be
+      followed for an additional 24 weeks after completion of study treatment. The first 15
+      participants on ARV regimens with a HIV PI/r with tenofovir will be required to participate
+      in the PK component in order to participate in the study. These first 15 participants on
+      PI/r with tenofovir who enroll to the study will undergo semi-intensive PK sampling
+      (pre-dose, hour 1 and hour 4) at weeks 0 and 4 for quantification of tenofovir in plasma.
+      After the first 15 participants have enrolled, subsequent participants taking HIV PI/r with
+      tenofovir may opt out of the PK evaluations but still participate in the study.
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date>November 2015</start_date>
+  <completion_date type="Anticipated">May 2017</completion_date>
+  <primary_completion_date type="Anticipated">February 2017</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained virologic response 12 weeks after HCV antiviral therapy (SVR12)</measure>
+    <time_frame>At 12 weeks after treatment discontinuation</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of Grade 3 or higher AE, serious AE (SAE), or AE reported as the reason for permanent discontinuation of study treatment</measure>
+    <time_frame>From study treatment initiation to 30 days after study treatment discontinuation</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Renal toxicity</measure>
+    <time_frame>From study entry to study completion (Week 36 in Arm A, Week 48 in Arm B)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response at 4 weeks after treatment discontinuation (SVR4)</measure>
+    <time_frame>At 4 weeks after treatment discontinuation</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained Virologic Response at 24 weeks after treatment discontinuation (SVR24)</measure>
+    <time_frame>At 24 weeks after treatment discontinuation</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV RNA &lt;LLOQ (lower limit of quantification)</measure>
+    <time_frame>At 1, 2, 4, 8, 12 (and 16, 20, 24 in Arm B) weeks of treatment, and at 4, 12 and 24 weeks after treatment discontinuation</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HIV-1 RNA &gt; 50 copies/mL</measure>
+    <time_frame>Entry; at 4, 12 (and 24 in Arm B) weeks of treatment, and at 4 weeks after treatment discontinuation</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">40</enrollment>
+  <condition>HIV-1 Infection</condition>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Arm A: LDV/SOP + RBV (12 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment followed by 24 weeks post-treatment follow-up</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B: LDV/SOF (24 weeks)</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Treatment followed by 24 weeks post-treatment follow-up</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ledipasvir/sofosbuvir</intervention_name>
+    <description>Participants will receive one fixed dose tablet of LDV 90 mg/SOF 400 mg orally per day.</description>
+    <arm_group_label>Arm A: LDV/SOP + RBV (12 weeks)</arm_group_label>
+    <arm_group_label>Arm B: LDV/SOF (24 weeks)</arm_group_label>
+    <other_name>LDV/SOF</other_name>
+    <other_name>Harvoni</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Based on weight at entry- For weight &lt;75 kg, participants will receive one 1000 mg tablet orally per day. For weight &gt;75 kg: participants will receive one 1200mg tablet orally per day.</description>
+    <arm_group_label>Arm A: LDV/SOP + RBV (12 weeks)</arm_group_label>
+    <other_name>RBV</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Provide written and informed consent
+
+          -  Documentation of non-cirrhotic or cirrhotic status
+
+          -  HIV-1 infection
+
+          -  HCV GT-1 within 12 months prior to study entry
+
+          -  Prior virologic treatment failure with SOF-containing regimen (SOF/RBV, SOF/PEG/RBV,
+             and SOF/SIM).
+
+          -  Body mass index (BMI) ≥ 18 kg/m2 within 42 days prior to study entry
+
+          -  Certain laboratory values obtained within 42 days prior to study entry
+
+          -  Hemoglobin ≥ 12.0 g/dL for male, ≥11.0 g/dL for female participants
+
+          -  Aspartate aminotransferase (AST) (SGOT) and Alanine aminotransferase (ALT) (SGOT) &lt;
+             10 x ULN
+
+          -  Willing and able to provide written informed consent
+
+          -  Female participants of reproductive potential must have a negative serum pregnancy
+             test with a sensitivity of at least 25 mIU/mL performed at screening and within 48
+             hours prior to study entry.
+
+          -  Agreement to use at least two reliable forms of contraceptive simultaneously for
+             duration of study and for 6 months afterward
+
+          -  Compliance with the dosing instructions and study schedule of assessments
+
+        Exclusion Criteria:
+
+          -  Receipt of any investigational drug or device within 60 days prior to study entry
+
+          -  Prior exposure to a DAA other than SOF and SIM
+
+          -  Chronic liver disease of a non-HCV etiology
+
+          -  Presence of active or acute AIDS-defining opportunistic infections within 42 days
+             prior to study entry
+
+          -  Active, serious infection (other than HIV-1 or HCV) requiring parenteral antibiotics,
+             antivirals, or antifungals within 42 days prior to study entry
+
+          -  Hepatitis B virus (HBV) infection (defined as HBsAg positive) within 42 days prior to
+             study entry
+
+          -  History of clinically significant hemoglobinopathy
+
+          -  Chronic current use of systemically administered immunosuppressive agents
+
+          -  History of solid organ transplantation
+
+          -  Current or prior history of clinical hepatic decompensation
+
+          -  History of a gastrointestinal disorder (or postoperative condition) that could
+             interfere with the absorption of the study drug
+
+          -  History of significant or symptomatic pulmonary disease, cardiac disease, or
+             porphyria that in the opinion of the investigator would interfere with the study
+
+          -  History of difficulty with blood collection and/or poor venous access for the
+             purposes of phlebotomy
+
+          -  Active drug or alcohol use or dependence
+
+          -  Use of any prohibited concomitant medications per the LDV/SOF product labeling,
+             within 42 days prior to study entry
+
+          -  Known hypersensitivity to RBV, SOF, LDV, their metabolites, or formulation excipients
+             or any other contraindication to the use of RBV, SOF or LDV
+
+          -  Currently receiving zidovudine (ZDV), didanosine (ddI), stavudine (d4T) or tipranavir
+
+          -  Acute HIV infection defined as the phase immediately following infection during which
+             anti-HIV antibodies are undetectable
+
+          -  Known hepatocellular carcinoma.
+
+          -  Breastfeeding or pregnancy
+
+          -  A male participant with a pregnant female partner
+
+          -  Receipt of colony stimulating agents, including but not limited to erythropoietin,
+             within 42 days prior to study entry
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Annie Luetkemeyer, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of California, San Francisco HIV/AIDS CRS</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Jennifer J. Kiser, PharmD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Colorado, Denver</affiliation>
+  </overall_official>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 12, 2015</lastchanged_date>
+  <firstreceived_date>November 12, 2015</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

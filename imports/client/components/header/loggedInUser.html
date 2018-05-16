@@ -1,0 +1,218 @@
+<template name='LoggedInUser'>
+    <div class="user-info-setting">
+        <div class="user-info-div">
+            <div class="hed-user-icon "><img src="{{userIcon}}"/></div>
+            <div class="hed-user-name">
+                <span class="hun-username">{{username}} <i class="fa fa-chevron-down" aria-hidden="true" id="js-show-myaccount"></i></span>
+                <span class="hun-myact">My account</span>
+            </div>
+
+            <div class="user-control-div" style="display:none">
+
+                <div class="ucd-user-img-name">
+                    <div class="hed-user-icon "><img src="{{userIcon}}"/></div>
+                    <div class="hed-user-name">
+                        <span class="hun-username">{{username}}  <i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                        <span class="hun-myact">My account</span>
+                    </div>
+                </div>
+        <div class="mypo_notificaton " style="display:none;">
+                <span>Information updated successfully</span>
+            </div>
+            <div class="mypo_warn_notificaton redcolor" style="display:none;">
+                <span></span>
+            </div>
+                <div class="ucd-details">
+                    <div class="ucd-labelbox">Organization</div>
+                    <div class="ucd-detailbox">{{AccountInfo.organization}}</div>
+                </div>
+
+                <div class="ucd-details">
+                    <div class="ucd-labelbox">User Name</div>
+                    <div class="ucd-detailbox">{{username}} </div>
+                </div>
+
+                <div class="change-password">
+                    <input type="password" name='txtOldPass' id="txtOldPass" placeholder="Old Password" />
+                    <input type="password" name='txtNewPass' id="txtNewPass" placeholder="New Password" />
+                    <input type="text" name="txtEmail" id="txtEmail" value="{{AccountInfo.email}}" />
+                </div>
+
+                <div class="ucd-save-close-btn">
+                    <a href="#" class="ucd-save-btn mypo_save_btn">Save</a>
+                    <a href="#" class="ucd-close-btn mypo_close_btn" id="js-close-myaccount">Close</a>
+                </div>
+            </div>
+
+        </div>
+        {{#if IsAdminOrSuperuser role}}
+        <div class="admin-setting-div js-open-admin">
+            <div class="admin-setting-icon"><i class="fa fa-cog" aria-hidden="true"></i></div>
+            <a href="#" class="a-admin_btn myacc-link-color admin-setting-lbl "
+               > Administrator </a>
+            <!-- <div class="admin-setting-lbl">Administrator</div> -->
+        </div>
+
+<!-- <span class="user_admin_btn"> <a href="#" class="a-admin_btn myacc-link-color"
+   data-toggle="modal" data-target="#hadmin_popup"> Administrator </a></span>       -->
+
+        <div class="hadmin_popup" id="hadmin_popup">
+            <div class="popup_blk_bg"></div>
+            <div class="modal-content popup-modal" style="background-color: transparent;">
+                <div class="modal-header popup-header">
+                    <button type="button" class="close hadmin_closebtn"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">User Management</h4>
+                </div>
+                <div class="modal-body popup-body" style="height: inherit !important;">
+                    <iframe id="adminframe" src="" style="width: 100%; min-height: 400px"></iframe>
+                </div>
+                <div class="modal-footer popup-footers">
+                    <button type="button" class="btn btn-default hadmin_closebtn">Close</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div class="popupbox hadmin_popup" id="js-modal-user-management">
+            <div class="ha_blk_bg"></div>
+            <div class="popupbox-header">
+                <span>User Management</span>
+                <i class="modal-close">Close</i>
+            </div>
+            <div class="popupbox-content">
+                <div>
+                    <iframe id="adminframe" src="" style="width: 100%; min-height: 400px"></iframe>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- <div class="hadmin_popup" style="display:none" id="js-modal-user-management">
+            <div class="ha_blk_bg"></div>
+            <div class="modal-content ha_contnt_box">
+                <div class="modal-header">
+                    <button type="button" class="close hadmin_closebtn"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">User Management</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe id="adminframe" src="" style="width: 100%; min-height: 400px"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default hadmin_closebtn">Close</button>
+                </div>
+            </div>
+        </div> -->
+
+
+<!--
+        <div class="hadmin_popup" style="display:none" id="js-modal-user-management">
+            <div class="ha_blk_bg"></div>
+            <div class="modal-content ha_contnt_box">
+                <div class="modal-header">
+                    <button type="button" class="close hadmin_closebtn"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">User Management</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe id="adminframe" src="" style="width: 100%; min-height: 400px"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default hadmin_closebtn">Close</button>
+                </div>
+            </div>
+        </div>-->
+
+
+        {{/if}}
+        <div class="logout-div js-logout">
+            <div class="admin-setting-icon"><i class="fa fa-power-off" aria-hidden="true"></i></div>
+
+<a href="#" class="a-logout admin-setting-lbl"> Logout </a>
+
+            <!-- <div class="admin-setting-lbl">Logout</div> -->
+        </div>
+         {{#if isPrimaryCarePhysicianRole}}
+        <div class="logout-div needhelp-div" style="width:85px !important">
+            <div style="text-align:right"> <img src="/needhelp.png"  class="needhelp" style="height: 36px;width: 40px;float:right;cursor:pointer;margin-top: -5px;margin-right: 15px;"> </div>
+            <a href="#" class="admin-setting-lbl needhelp" style="white-space: nowrap;"> Need Help </a>
+        </div>
+        <div class="logout-div usermanual-div">
+            <div style="text-align:right"> <img src="/usermanual.png"  class="usermanual" style="height: 36px;width: 40px;float:right;cursor:pointer;margin-top: -5px;margin-right: -12px;"> </div>
+            <a href="#" class="admin-setting-lbl usermanual" style="white-space: nowrap;"> User Manual </a>
+        </div>
+        {{else}}
+        <!-- Added by Arvind on 04-May-2017, to display pcp model related icon for payer or other user also -->
+          {{#if isAuthorized 'assessmenttool'}}
+        <div class="logout-div needhelp-div" style="width:85px !important;display:none;">
+            <div style="text-align:right"> <img src="/needhelp.png"  class="needhelp" style="height: 36px;width: 40px;float:right;cursor:pointer;margin-top: -5px;margin-right: 15px;"> </div>
+            <a href="#" class="admin-setting-lbl needhelp" style="white-space: nowrap;"> Need Help </a>
+        </div>
+        <div class="logout-div usermanual-div" style="display:none;">
+            <div style="text-align:right"> <img src="/usermanual.png"  class="usermanual" style="height: 36px;width: 40px;float:right;cursor:pointer;margin-top: -5px;margin-right: -12px;"> </div>
+            <a href="#" class="admin-setting-lbl usermanual" style="white-space: nowrap;"> User Manual </a>
+        </div>
+        {{/if}}
+        {{/if}}
+    </div>
+</template>
+
+<template name='oldLoggedInUser'>
+    <div class="loginAdmin" style="float: right; margin-top:8px ">
+        <span> {{username}}</span> <span class="logout_btn" sytle="color:#F00; font-weight:bold;"> - <a href="#" class="a-logout myacc-link-color"> Logout </a></span>
+        <span class="myacc_btn"> <a href="#" class="a-myacc_btn myacc-link-color"> My Account </a></span> {{#if IsAdmin role}}
+        <span class="user_admin_btn"> <a href="#" class="a-admin_btn myacc-link-color" data-toggle="modal" data-target="#hadmin_popup"> Administrator </a></span>        {{/if}}
+    </div>
+    <div class="hadmin_popup">
+        <div class="ha_blk_bg"></div>
+        <div class="modal-content ha_contnt_box">
+            <div class="modal-header">
+                <button type="button" class="close hadmin_closebtn"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">User Management</h4>
+            </div>
+            <div class="modal-body">
+                <iframe id="adminframe" src="" style="width: 100%; min-height: 400px"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default hadmin_closebtn">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="myact_popup">
+        <div class="mypo_div">
+            <div class="myact_popup_header">
+                <div class="MyAccHeader_Left">Account Info</div>
+                <div class="MyAccountCloseIcon"><img src="myAccCloseIcon.png" /></div>
+            </div>
+            <div class="mypo_notificaton " style="display:none;">
+                <span>Information updated successfully</span>
+            </div>
+            <div class="mypo_warn_notificaton redcolor" style="display:none;">
+                <span></span>
+            </div>
+            <div class="myact_popup_innerContainer">
+                <div class="mypo_lebtxtfld">
+                    <label> Organization </label>
+                    <input type="text" class="mypo_txtfld" value="{{AccountInfo.organization}}" disabled="disable">
+                </div>
+                <div class="mypo_lebtxtfld">
+                    <label> User Name </label>
+                    <input type="text" class="mypo_txtfld" name="txtUser" value="{{AccountInfo.username}}" disabled="disable">
+                </div>
+                <div class="mypo_lebtxtfld">
+                    <label> Old Password </label>
+                    <input type="password" name='txtOldPass' id="txtOldPass" class="mypo_txtfld">
+                </div>
+                <div class="mypo_lebtxtfld">
+                    <label> New Password </label>
+                    <input type="password" name='txtNewPass' id="txtNewPass" class="mypo_txtfld">
+                </div>
+                <div class="mypo_lebtxtfld">
+                    <label> E-Mail </label>
+                    <input type="text" name="txtEmail" id="txtEmail" value="{{AccountInfo.email}}" class="mypo_txtfld">
+                </div>
+                <div class="mypo_lebtxtfld buttonsContainer">
+                    <input type="button" class="mypo_save_btn" value="Save" />
+                    <input type="button" class="mypo_close_btn" value="Close" />
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

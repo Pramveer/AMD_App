@@ -1,0 +1,224 @@
+.relativeWeightsContainer {
+    border-right: 1px solid #e1e1e1;
+    height: 530px;
+}
+
+.relativeWeightSectionHeader {
+    height: 50px;
+    padding: 20px 0px;
+}
+
+.relativeWeight {
+    padding: 15px 10px 15px 0px!important;
+    margin: 0px;
+    height: 100px;
+}
+
+.weightAdjustform {
+    background: white;
+}
+
+.weightAdjustformInner {
+    padding: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.sliderOutput {
+    margin: 7px auto;
+    text-align: center;
+    width: 100%;
+    color: #f04823;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.weightSlidersLabelSection {
+    margin: 12px 0px !important;
+}
+
+.weightSliderDivision {
+    background: none;
+    box-shadow: none;
+    margin-top: 0px;
+    height: 8px !important;
+    padding-bottom: 2px;
+    opacity: 0.6;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.weightSliderContainer {
+    width: 90%;
+}
+
+.weightslidspan0 {}
+
+.WeightSliderDiv {
+    float: left;
+    width: 80%;
+    position: relative;
+    margin-left: 4px;
+}
+
+.weightslidspan100 {
+    width: 10%;
+    margin-top: 0px;
+    margin-right: -5px;
+    float: right;
+    color: #333;
+}
+
+.weightslidspan0 {
+    width: 10%;
+    float: left;
+    padding-right: 4px;
+    color: #333;
+}
+
+.cardIcon {
+    outline: none;
+}
+
+.relativeWeightsInfoIcon {
+    float: right !important;
+    padding: 3px 6px;
+    font-size: 14px;
+    position: initial !important;
+    background-position: 38%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 24px;
+    width: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.relativeWeightTooltip {
+    float: right !important;
+    padding: 3px 6px;
+    font-size: 14px;
+    position: initial !important;
+    background-position: 38%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 24px;
+    width: 47px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.weightSlidersLabelSection label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #333;
+}
+
+.valueAnalysisSection {
+    padding: 15px 10px 15px 0px!important;
+    margin: 0px;
+    height: 100px;
+}
+
+.exportPatientsSection {
+    padding: 15px 10px 15px 0px!important;
+    margin: 0px;
+}
+
+.exportPatientsWrapper {
+    background: #fff;
+    height: 37px;
+    width: 90%;
+    text-align: right;
+    font-size: 13px;
+    color: #555;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+
+.exportPatientsIcon {
+    background-position: 48.5%;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 27px;
+    width: 35px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.exportPatientsButton {
+    background: #fff;
+    color: #555;
+    float: left;
+    padding-left: 15px;
+}
+
+.unTreatedProbabilityDiv {
+    float: left;
+    width: 80%;
+    position: relative;
+    margin-left: 4px;
+}
+
+.patientSliderContainer {
+    width: 90%;
+}
+
+.unTreatedPatSliderCount {
+    margin: 7px auto;
+    width: 100%;
+    color: #f04823;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.unTreatedpatientCountIcon.fa.fa-user {
+    width: 10%;
+    float: left;
+    padding-right: 4px;
+    color: #999;
+}
+
+
+/* Weights slider warning msg */
+
+#uniWeightsZeroWarningMsgBox .popup-inner {
+    height: 30%;
+    width: 50%;
+    top: 50%;
+}
+
+.uniWeightsZeroWarningBtn {
+    margin-top: 25px;
+    width: 100px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #999;
+    border-radius: 0px;
+}
+
+.relativeWeightsWarning {
+    height: 100px;
+    padding: 35px;
+    font-size: 14px;
+    width: 100%;
+    color: red;
+    border-bottom: 1px solid #cacaca;
+}
+
+#uniWeightsMoveWarningMsgBox .popup-inner {
+    height: 30%;
+    width: 50%;
+    top: 50%;
+}
+
+.uniWeightsMoveWarningBtn {
+    margin-top: 25px;
+    width: 100px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #999;
+    border-radius: 0px;
+}

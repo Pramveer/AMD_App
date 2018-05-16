@@ -1,0 +1,111 @@
+.tool {
+		position: relative;
+		width: 100%;
+		margin-top: 10px;
+	}
+	
+	.tool-option label,
+	.tool-option input {
+		display: inline;
+	}
+	
+	.tool-container h3 {
+	}
+	
+	.tool-option {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 13px;
+		font-weight: bold;
+		color: #000;
+		width: 100%;
+		position: relative;
+		background: #efefef;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 2px #eee;
+		border-radius: 20px;
+		
+		width: 60%;
+		top: -50px;
+		float: right;
+		clear: both;
+		
+		padding-left: 10px;
+	}
+	
+	.tool-option:hover {
+		box-shadow: 1px 1px 2px #666;
+		background: #fff;
+		cursor: pointer;
+	}
+	
+	.tool-option .points {
+		background: #eee;
+		border-radius: 10px;
+		padding: 5px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+	
+	.tool-option.selected  {
+		background: #fff;
+	}
+	
+	.tool-option.selected .points {
+		background: rgb(255,222,70);
+	}
+	
+	.tool-container {
+		position: relative;
+		padding: 6px 10px;
+		padding-top: 25px;
+		height: 105px;
+		
+		border-top: 2px dotted #ccc;
+	}
+	
+	.tool-container.container-encephalopathy {
+		border-top: 2px solid #ccc;
+	}
+	
+	.tool-elem,
+	.tool-result {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	.tool-result {
+		background: rgb(255,222,70);
+		border-radius: 20px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		position: relative;
+	}
+	
+	.tool-result .figure {
+	
+		border-radius: 15px;
+		padding: 10px;
+		text-shadow: #fff 0px 0px 1px;
+		
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		
+		background: rgb(255,222,70);
+	}	
+	
+	.tool-result .class {
+	
+	}
+	.content-included h3 {
+    font-size: 13px;
+    font-family: Arial,Verdana,sans-serif;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 15px;
+}

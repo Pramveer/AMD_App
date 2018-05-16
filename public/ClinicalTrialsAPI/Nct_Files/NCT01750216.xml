@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="285">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01750216</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ML28344</org_study_id>
+    <nct_id>NCT01750216</nct_id>
+  </id_info>
+  <brief_title>An Observational Study of Pegasys (Peginterferon Alfa-2a) and Copegus (Ribavirin) on Predictive Values of RVR on Sustained Virological Response in Different Stages of Liver Fibrosis in Treatment-Naïve Patients With Chronic Hepatitis C Genotype 1</brief_title>
+  <official_title>An Observational Study of Peginterferon-alfa-2a (Pegasys) and Ribavirin (Copegus) on Predictive Values of RVR on Sustained Virological Response (SVR) in Different Stage of Liver Fibrosis in Treatment-naïve Patients With Genotype 1 Chronic Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Hoffmann-La Roche</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Hoffmann-La Roche</source>
+  <oversight_info>
+    <authority>Poland: Office for Registration of Medicinal Products, Medical Devices and Biocidal Products</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This observational study will evaluate the predictive value of rapid virological response
+      (RVR) and early virological response (EVR) on sustained virological response (SVR) by stage
+      of liver fibrosis in treatment-naïve patients with chronic hepatitis C genotype 1 initiated
+      on treatment with Pegasys (peginterferon alfa-2a) and Copegus (ribavirin). Patients will be
+      followed for 48 weeks of treatment and up to 24 weeks of follow-up.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>July 2012</start_date>
+  <completion_date type="Actual">January 2015</completion_date>
+  <primary_completion_date type="Actual">January 2015</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Observational</study_type>
+  <study_design>Observational Model: Cohort, Time Perspective: Prospective</study_design>
+  <primary_outcome>
+    <measure>Sustained virological response (SVR) rate, in relation to rapid virological response (RVR) in different stages of liver fibrosis in treatment-naïve patients with chronic hepatitis C genotype 1</measure>
+    <time_frame>approximately 3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Safety: Incidence of adverse events</measure>
+    <time_frame>approximately 3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sustained virological response (SVR) rate, in relation to early virological response (EVR) in different stages of liver fibrosis in treatment naïve patients with chronic hepatitis C genotype 1</measure>
+    <time_frame>approximately 3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Response rates (RVR, EVR, SVR) according to host/virus/treatment-related factors in different stages of liver fibrosis (F&gt;/=3 and &lt;/=3)</measure>
+    <time_frame>approximately 3 years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Actual">196</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Treatment-naïve patients with chronic hepatitis C genotype 1 initiated on treatment with
+        Pegasys and Copegus
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult patients, &gt;/= 18 years of age
+
+          -  Chronic hepatitis C genotype 1
+
+          -  Treatment-naïve, i.e. have not been previously treated with pegylated interferon,
+             standard interferon and ribavirin
+
+          -  Confirmed serum positive HCV RNA
+
+          -  Liver fibrosis confirmed histologically or by fibroscan up to 24 months before
+             treatment
+
+        Exclusion Criteria:
+
+          -  Any contraindications according to the Summary of Product Characteristics for Pegasys
+             or Copegus
+
+          -  Co-infection with hepatitis B or HIV
+
+          -  Post-transplant patients
+
+          -  End stage renal disease (creatinine clearance &lt; 15 ml/min)
+
+          -  Patients treated with immunotherapy
+
+          -  Pregnant women and male partners of women who are pregnant
+
+          -  Female patients of childbearing potential and male patients with female partners of
+             childbearing potential who are unable or unwilling to use effective and continuous
+             contraception during the treatment and for 4 months (females) and 7 months (males)
+             thereafter
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Clinical Trials</last_name>
+    <role>Study Director</role>
+    <affiliation>Hoffmann-La Roche</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <address>
+        <city>Bydgoszcz</city>
+        <zip>85-030</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Bytom</city>
+        <zip>41-902</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Chorzow</city>
+        <zip>41-500</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Ciechanow</city>
+        <zip>06-400</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Debica</city>
+        <zip>39-200</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Katowice</city>
+        <zip>40-752</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Koszalin</city>
+        <zip>75-581</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lancut</city>
+        <zip>37-100</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Lodz</city>
+        <zip>91-357</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Mielec</city>
+        <zip>39-300</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Pulawy</city>
+        <zip>24-100</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Radom</city>
+        <zip>26-600</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Walbrzych</city>
+        <zip>58-300</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <address>
+        <city>Warszawa</city>
+        <zip>04-141</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Poland</country>
+  </location_countries>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 1, 2015</lastchanged_date>
+  <firstreceived_date>December 12, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,1836 @@
+.popupInnerArc .background {
+    fill: #292929;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popupInnerArc .Adherence {
+    fill: #3CB878;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popupInnerArc .Efficacy {
+    fill: #448CCB;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popupInnerArc .Utilization {
+    fill: #D9841E;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popupInnerArc .nArc {
+    fill: #608033;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popupInnerArc .CostArc {
+    fill: #0076A3;
+    stroke-width: 0px;
+    opacity: 1.0 !important;
+}
+
+.popover-content .valueChartChangeAxisCombo .form-select {
+    width: 100px;
+    display: inline !important;
+}
+
+.popover-content .valueChartChangeAxisCombo .form-select select {
+    width: 71%;
+    height: 30px;
+    margin: 5px 0px;
+    border: 0;
+    background: #ececec url(selectTrigger.png) no-repeat;
+    background-size: 18px;
+    background-position: right 2px center;
+    font-family: 'Arial';
+    padding: 5px;
+    -webkit-appearance: none;
+    text-align: left;
+}
+
+.dimpleMapsContainer {
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.popover-content .valueChartChangeAxisCombo {
+    position: absolute;
+    z-index: 99999999;
+    top: 390px;
+    padding: 10px 5px 10px 5px;
+    background: #ffffff;
+    right: 5px;
+    width: 190px;
+    border-left: 1px solid #ececec;
+}
+
+.popover-content .valueChartChangeAxisCombo b {
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+#valueChartDialogBox .valueChartPopulation {
+    top: 4%;
+}
+
+#valueChartDialogBox .valueChartChangeAxisCombo .form-select {
+    width: 100px;
+    display: inline !important;
+}
+
+#valueChartDialogBox .valueChartChangeAxisCombo .form-select select {
+    width: 71%;
+    height: 30px;
+    margin: 5px 0px;
+    border: 0;
+    background: #ffffff url(selectTrigger.png) no-repeat;
+    background-size: 18px;
+    background-position: right 2px center;
+    font-family: 'Arial';
+    padding: 5px;
+    -webkit-appearance: none;
+    text-align: left;
+    border-bottom: 1px solid #ef4823;
+}
+
+#valueChartDialogBox .valueChartChangeAxisCombo {
+    position: absolute;
+    z-index: 99999999;
+    top: 390px;
+    padding: 10px 5px 10px 5px;
+    background: #fff;
+    right: 5px;
+    width: 190px;
+    border-left: 1px solid #ececec;
+}
+
+#valueChartDialogBox .valueChartChangeAxisCombo b {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+}
+
+.drugNameDisplay0 {
+    /*fill: #019bfe;*/
+    fill: #000000;
+}
+
+.drugNameDisplay1 {
+    /*fill: #FE01D8;*/
+    fill: #000000;
+}
+
+.drugNameDisplay2 {
+    /*fill: #0C3E04;*/
+    fill: #000000;
+}
+
+.drugNameDisplay3 {
+    /*fill: #FE7101;*/
+    fill: #000000;
+}
+
+.drugNameDisplay4 {
+    /*fill: #000000;*/
+    fill: #000000;
+}
+
+.drugNameDisplay5 {
+    /*fill: #F70228;*/
+    fill: #000000;
+}
+
+.drugNameDisplay6 {
+    /*fill: #D64D4F;*/
+    fill: #000000;
+}
+
+.drugNameDisplay7 {
+    /*fill: #800000;*/
+    fill: #000000;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+.dimple-selectedmadication {
+    display: none;
+}
+
+.progress-meter .background {
+    fill: #002157;
+    opacity: 0;
+    stroke: transparent;
+}
+
+.progress-meter .adherence {
+    fill: #002157;
+    stroke-width: 0px;
+}
+
+.progress-meter .safety {
+    fill: #002157;
+}
+
+.progress-meter.selected .background {
+    fill: #002157;
+    /*opacity : .5;
+  stroke: #ffcc00;*/
+}
+
+.progress-meter.selected {
+    /*stroke : #ffcc00 !important;
+	stroke-width:4 !important;*/
+}
+
+.progress-meter.selected text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    fill: #f6ff00;
+    stroke: black !important;
+    stroke-width: 0 !important;
+}
+
+.progress-meter text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    fill: #f6ff00;
+    stroke: black !important;
+    stroke-width: 0 !important;
+}
+
+.progress-meter.Adherence.selected text {
+    fill: #ffffff;
+}
+
+.progress-meter.Adherence text {
+    fill: #ffffff;
+}
+
+.dimple-axis .tick {
+    display: none;
+}
+
+.TotalValueWraper .popover {
+    top: -243px !important;
+    left: -1075px !important;
+    /*left: -910px !important;*/ /* Commented after removing confidence index*/
+    /*left: -1000px !important;*/
+}
+
+.TotalValueWraperZoomBtn .popover {
+    left: -1175px !important;
+}
+
+.TotalValueWraper .arrow {
+    left: 101% !important;
+    top: 48% !important;
+    -ms-transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
+}
+
+.valueChartPopulation_Prev {
+    height: 130px;
+    z-index: 9;
+}
+
+.valueChartPopulation_All {
+    height: 175px;
+    display: none;
+    z-index: 9;
+}
+
+.valueChartPopulation {
+    width: 190px;
+    position: absolute;
+    top: 9%;
+    right: 5px;
+    font-family: Arial;
+    font-size: 13px;
+    border: 1px solid #ffffff;
+    padding: 5px 0px 5px 5px;
+    background: #ffffff;
+    z-index: 9;
+    border-left: 1px solid #ececec;
+}
+
+.valueChartPopulation p {
+    color: #444;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.valueChartPopulation table td {
+    border: none !important;
+}
+
+.valueChartPopulation td {
+    padding: 1px;
+    text-align: right;
+}
+
+.valueChartPopulation .populationTitle {
+    color: #444;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.valueChartPopulation .populationValue {
+    color: #e05454;
+    text-align: left;
+    opacity: 1.0 !important;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.valueChartPopulation .moreChartPopulationLink {
+    text-decoration: underline;
+    color: blue;
+    padding-right: 3%;
+    bottom: 5px;
+    position: absolute;
+    right: 3px;
+}
+
+.valueChartPopulation .moreChartPopulationLink:hover {
+    cursor: pointer;
+}
+
+.valueChartLegend {
+    position: absolute;
+    top: 35%;
+    right: 1px;
+    z-index: 1;
+}
+
+.valueChartLegend img {
+    /*width: 144px;
+	height: 180px;*/
+}
+
+.TotalValueWraper>.popover {
+    max-width: 1100px !important;
+    height: 550px;
+    width: 1000px;
+}
+
+
+/*.drugitem.TotalValueWraper > .popover {
+    max-width: 1100px !important;
+    height: 550px;
+    width: 1000px;
+}
+.riskWrapper .popover{
+    max-width: 500px !important;
+}
+.draug_div {
+    width: 100%;
+    float: left;
+}
+
+.draug_tbl {
+    width: 100%;
+    display: table;
+}
+
+.draug_row {
+    display: table-row;
+    vertical-align: middle;
+}
+
+.draug_cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fullcircle {
+    animation: pulse 5s infinite;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.halfcircle_org {}
+
+.halfcircle_blu {}
+
+.orange-circle {
+    background: #f74118;
+}
+
+.blue-circle {
+    background: #18344a;
+}
+
+.gray-circle {
+    background: #bdbabd;
+}
+
+.draug_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f74118;
+}
+
+.draug_footer {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.foot_left {
+    border-right: 1px solid #ccc;
+    padding: 8px !important;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.foot_left h3 {
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.orangetext {
+    color: #f74118;
+}
+
+.bluetext {
+    color: #18344a;
+}
+
+.foot_right {
+    vertical-align: middle;
+    border-left: 1px solid #ccc;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.half-right {
+    background-image: linear-gradient( right, #f74118, #f74118 50.0%, #bdbabd 50.0%);
+    background-image: -webkit-linear-gradient( right, #f74118, #f74118 50.0%, #bdbabd 50.0%);
+    background-image: -moz-linear-gradient( right, #f74118, #f74118 50.0%, #bdbabd 50.0%);
+    background-image: -o-linear-gradient( right, #f74118, #f74118 50.0%, #bdbabd 50.0%);
+    background-image: -ms-linear-gradient( right, #f74118, #f74118 50.0%, #bdbabd 50.0%);
+}
+
+.half-left {
+    background-image: linear-gradient( left, #18344a, #18344a 50.0%, #bdbabd 50.0%);
+    background-image: -webkit-linear-gradient( left, #18344a, #18344a 50.0%, #bdbabd 50.0%);
+    background-image: -moz-linear-gradient( left, #18344a, #18344a 50.0%, #bdbabd 50.0%);
+    background-image: -o-linear-gradient( left, #18344a, #18344a 50.0%, #bdbabd 50.0%);
+    background-image: -ms-linear-gradient( left, #18344a, #18344a 50.0%, #bdbabd 50.0%);
+}*/
+
+
+/*Fix gray line in drugs page*/
+
+
+/*.drugtitle h2 {}
+
+.liquidFillGaugeText {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.liquidFillGaugeText:hover {
+    cursor: pointer;
+}
+.text-center circle:hover {
+    cursor: pointer;
+}
+.copyrightfoot {}
+
+.row.drugtitle.page1 span,
+.row.drugtitle.page2 span {
+    clear: both;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 30px;
+    float: left;
+    position: absolute;
+    left: 18px;
+}
+
+.popover.bottom {
+    padding: 0px !important;
+    max-width: auto !important;
+}
+
+.drugitem > .popover {
+    max-width: 500px !important
+}
+
+.boldfnt {
+    font-weight: bold;
+}
+
+.fltlft {
+    float: left;
+}
+
+.fullwid {
+    width: 100%
+}
+
+.drugs-bubble {
+    font-size: 13px;
+}
+
+.drugitem > svg {
+    cursor: pointer;
+}
+
+h3.popover-title > i.popoverTogle {
+    cursor: pointer;
+}*/
+
+
+/* Fixed drug inspection popup design with new changes */
+
+
+/*.posreltive {
+    position: relative;
+}
+
+.posabs {
+    background: #fff;
+    position: absolute;
+    left: 0px;
+    top: -135px;
+    width: 168px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 1px solid #ccc;
+    z-index: 1031;
+    color: #fff;
+}
+
+.poab_title {
+    padding: 3px 0;
+    text-align: center;
+    background: #0c2230;
+    width: 100%;
+    float: left;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.poab_dec {
+    width: 100%;
+    padding: 2px 0 0 0;
+    text-align: center;
+    background: #fff;
+    float: left;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.poab_dec h1 {
+    font-size: 11px;
+    margin: 3px 0 8px;
+    color: #000;
+}
+
+.poab_dec span {
+    color: #000;
+    font-size: 12px;
+    margin: 4px 0;
+    font-weight: bold;
+    width: auto;
+    margin-top: 10px auto;
+}
+
+.poab_dec p {
+    color: #000;
+    margin-bottom: 0px !important;
+}
+
+.poab_dec p span {
+    padding: 4px 8px;
+    color: #548235;
+}
+
+.poab_dec button {
+    background: #285F87;
+    padding: 2px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 2px 0;
+}
+
+.poab_sign {
+    color: #000;
+    position: relative;
+    top: -9px;
+    left: 3px;
+    font-size: 15px;
+}
+
+.poab_ltusknw {
+    margin: -19px 1px 4px 7px;
+    width: 155px;
+    float: left;
+    background: #eaeaea;
+    color: #000;
+    padding: 2px 10px;
+    font-size: 11px;
+}
+
+
+/* css for the API links on footer */
+
+
+/*.apiLinksWrapper {
+    padding: 5px;
+    text-align: center;
+}
+
+.apiLinksSpan {
+    text-overflow: clip;
+    color: #337ab7;
+    width: 18%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-left: 12%;
+}
+
+.apiLinksSpan:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}*/
+
+
+/* css for HR LR sections*/
+
+.hrTitleTip {
+    top: 40px;
+    left: 0px;
+    height: 20px;
+    width: 100px;
+    background-color: #f7f7f7;
+    color: #000000;
+    border-radius: 5px;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.lrTitleTip {
+    top: 40px;
+    left: 60px;
+    height: 20px;
+    width: 100px;
+    background-color: #f7f7f7;
+    color: #000000;
+    border-radius: 5px;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.hrTitle:hover .hrTitleTip {
+    opacity: 1;
+}
+
+.lrTitle:hover .lrTitleTip {
+    opacity: 1;
+}
+
+*/
+/* Title Tip For Capsules */
+
+
+/*.RiskCapsules:hover span.capsulesTooltip {
+    display: block;
+}
+
+
+.trCapsule:hover .capsulesTooltip {
+    display: block;
+}
+
+.rweCapsule:hover .capsulesTooltip {
+    display: block;
+}
+
+.DICapsule:hover .capsulesTooltip {
+    display: block;
+}
+
+.CICapsule:hover .capsulesTooltip {
+    display: block;
+}
+
+
+.capsulesTooltip:hover .capsulesTooltip{
+    display: none;
+}
+.capsulesTooltip {
+  top: 32px;
+  font-size: 13px;
+  left: -40px;
+  z-index: 1;
+  padding: 8px;
+  width: 120px;
+  background-color:#f7f7f7;
+  color: #000000;
+  border-radius:5px;
+  display: none;
+  position:absolute;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:  opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition:  opacity 0.5s;
+  transition:  opacity 0.5s;
+}
+
+.RWEBox{
+    background-image: url("line.png");
+    background-repeat: no-repeat;
+    /* background-position: right; */
+
+background-position: 100% 0px;
+
+}
+.rweCount {
+    box-shadow: 1px 1px 1px 1px #DADADA;
+    background: #CFCFCF;
+    text-align: center;
+    color: #5A5D68;
+    width: 85px;
+    padding: 6px;
+    height: 70px;
+    text-shadow: 1px 1px 0px #fff;
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: 1px solid #EFEFEF;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.59) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.59) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.59) 130%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#96000000', GradientType=1);
+}
+.rweCount h1 {
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 18px;
+}
+.rweCount p {
+    font-size: 12px;
+    color: #353534;
+}
+.totalPatientsCount {
+    font-weight: bold;
+    background: rgb(212, 231, 243);
+    padding: 5px;
+}
+.rewRiskName {
+    font-size: 14px;
+    color: #2290E7;
+    padding: 5px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #DFEFFB;
+}
+.rweImage {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    height: 42px;
+}
+.verticalGradient {
+    float: right;
+    background: blue;
+    width: 1px;
+}
+.riskWrapper {
+    padding: 0px !important;
+    margin: -18px !important;
+}
+
+/*.safetybtn{
+    position: relative;
+    width: 27px;
+	text-decoration:none;
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 0px !important;
+	line-height:1.4px;
+	height: auto;
+	display:inline-block;
+	text-align:center;
+	background-color:Orange;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 0px;
+}
+
+
+.smallBtnHrLr{
+	padding:1px 9px !important;
+}
+.safetybtn.red{
+	background-color:#E53C38;
+	border-top-left-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+}
+.safetybtn.grey{
+    background-color:#EFE4B0;
+    color: #444;
+}
+F0F0F0
+
+.safetybtn.red:hover{
+	background-color:#ea6360;
+    text-decoration: none;
+}
+.safetybtn.orange{
+	background-color:#FF8A3C;
+	border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    color: #444;
+}
+
+.safetybtn.orange:hover{
+	background-color:#ffa163;
+    text-decoration: none;
+}
+.safetybtn.pill{
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  margin-right: -3px;
+}
+
+.safetybtn.trCapsule {
+    background-color: #194d6e;
+    border-top-left-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    border-right: 1px solid #042940;
+}
+.safetybtn.trCapsule:hover {
+    color: #ffffff;
+}
+.safetybtn.rweCapsule {
+    background-color: #20628b;
+    border-left: 1px solid #297AAD !important;
+    border-right: 1px solid #05588C;
+}
+.safetybtn.rweCapsule:hover {
+    color: #ffffff;
+}
+.safetybtn.diCapsule {
+    background-color: #afdbda;
+    color: #000000;
+    border-right: 1px solid #3B8886;
+    border-left: 1px solid #C5EFEE !important;
+}
+.safetybtn.diCapsule:hover {
+    color: #000000;
+}
+.safetybtn.ciCapsule {
+    background-color: #359adb;
+    border-left: 1px solid #60B7EF !important;
+    border-right: 1px solid #217BB5;
+}
+.safetybtn.ciCapsule:hover {
+    color: #ffffff;
+}
+.safetybtn.crCapsule {
+    background-color: #3baaf2;
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    border-left: 1px solid #70BFF3 !important;
+}
+.safetybtn.crCapsule:hover {
+    color: #ffffff;
+}
+
+
+.riskWrapper > .safetybtn.round:not(:first-child):not(:last-child), .riskWrapper > .safetybtn.pill:not(:first-child):not(:last-child){
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.riskWrapper > .safetybtn.round:first-child, .riskWrapper > .safetybtn.pill:first-child{
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.riskWrapper > .safetybtn.round:last-child, .riskWrapper > .safetybtn.pill:last-child{
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}*/
+
+/*
+.riskWrapper .safetybtn + .safetybtn{
+	border-left: 1px solid rgba(0, 0, 0, .1);
+	margin-left:-1px;
+}*/
+.lr-hr-Frame {
+    border: none;
+    width: 100%;
+}
+
+/* end of css for HR LR sections*/
+
+/* css for gauge meter */
+.gaugeMeter img {}
+
+/* end of Gauge Meter */
+
+/* Tooptip Css for MedicationInfo */
+
+/*
+.DrugPage a.drugtooltip {outline:none; }
+.DrugPage a.drugtooltip strong {line-height:30px;}
+.DrugPage a.drugtooltip:hover {text-decoration:none;}
+.DrugPage a.drugtooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+}
+.DrugPage a.drugtooltip:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;
+}*/
+
+/*CSS3 extras*/
+
+/*.DrugPage a.drugtooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+.DrugPage{
+    float: right;
+}
+.drugtooltip img{
+    height: 16px;
+    width: 16px;
+    margin-top: 5px;
+}*/
+
+/* CSS for Safety falg Tooltip New Design */
+
+/*.drugitem svg {
+    cursor: pointer;
+}
+.formulaSection {
+    font-size: 12px;
+    font-style: italic;
+}
+.riskWrapperContainer .safetyCount {
+    color: #1c7dcb;
+    position: absolute;
+    margin-top: -9%;
+    margin-left: -15%;
+    height: 18px;
+    width: 40px;
+    background: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.safetyCount:hover .safetyFlagtooltip {
+    opacity: 1;
+    cursor: default;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+       -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+         -o-transform: translateY(0px);
+            transform: translateY(0px);
+}
+.valueInfoIcon{
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+}
+.valueInfoIcon img{
+    width: 16px;
+    height: 16px;
+    margin-right: 11px;
+}
+.valueInfoIcon:hover .safetyFlagtooltip {
+    opacity: 1;
+    cursor: default;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+       -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+         -o-transform: translateY(0px);
+            transform: translateY(0px);
+}
+.safetyFlag {
+    position: relative;
+    cursor: default;
+    top: 15px;
+    left: 30px;
+    width: 20px;
+}
+.safetyRiskPopupMessage{
+    text-align: left;
+    padding: 8px;
+}
+
+.safetyRiskPopupHeader{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    background: #f7f7f7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.safetyFlagMoreInfo{
+        width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+.safetyFlagTitleLink{
+     font-weight: 400 !Important;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #3389CA;
+    text-decoration: underline;
+}
+
+ .safetyFlagKeywords{
+     padding: 8px 6px;
+     font-weight: 600;
+    color: #555;
+    text-align: left;
+    font-size: 14px;
+ }
+
+ a[title].safetyFlagtooltip {
+    width:45px;
+    height:90px;
+}
+
+.safetyFlagtooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.has-tooltip {
+    z-index: 1;
+    color: #555;
+    font-size: 16px;
+    display: block;
+    padding: 0px 10px;
+    position: relative;
+    -webkit-transform: translateZ(0); /* webkit flicker fix */
+-webkit-font-smoothing: antialiased;
+
+/* webkit text rendering fix */
+
+}
+.has-tooltip img {
+    width: 16px;
+    height: 16px;
+}
+.has-tooltip .safetyFlagtooltip {
+    background: #fff;
+    top: 15px;
+    color: #555;
+    display: block;
+    left: -165px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 350px;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+.has-tooltip .safetyFlagtooltip:before {
+    display: block;
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-bottom: solid #DE6F6F 12px;
+    top: -12px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+.has-tooltip .safetyFlagtooltip:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-bottom: solid #fff 10px;
+    top: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+.safetyFlag:hover .safetyFlagtooltip {
+    opacity: 1;
+    cursor: default;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.safetyFlag img {
+    height: 20px;
+}
+.safetyFlag img:hover {
+    cursor: pointer;
+}
+*/
+/* End Of Safety flag style */
+
+/* Start of styling for Gauge Meter */
+.dial {
+    background-color: #FFF;
+    overflow: hidden;
+}
+.gauge {
+    border-radius: 100%;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: rotate(0deg);
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3px;
+    cursor: pointer;
+}
+.meter {
+    margin: 0px;
+    padding: 0;
+}
+.meter>li {
+    width: 29px;
+    height: 30px;
+    list-style-type: none;
+    position: absolute;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 0px;
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transition-property: -webkit-transform;
+    pointer-events: none;
+}
+.meter .low {
+    transform: rotate(0deg);
+    /* W3C */
+    -webkit-transform: rotate(0deg);
+    /* Safari & Chrome */
+    -moz-transform: rotate(0deg);
+    /* Firefox */
+    -ms-transform: rotate(0deg);
+    /* Internet Explorer */
+    -o-transform: rotate(0deg);
+    /* Opera */
+    z-index: 8;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6600+0,b7df2d+100 */
+    background: #ff6600;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff6600 0%, #b7df2d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff6600 0%, #b7df2d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff6600 0%, #b7df2d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#b7df2d', GradientType=1);
+    /* IE6-9 */
+}
+.meter .normal {
+    /* transform: rotate(47deg); */
+    /* W3C */
+    -webkit-transform: rotate(47deg);
+    /* Safari & Chrome */
+    -moz-transform: rotate(47deg);
+    /* Firefox */
+    -ms-transform: rotate(47deg);
+    /* Internet Explorer */
+    -o-transform: rotate(47deg);
+    /* Opera */
+    z-index: 7;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7df2d+0,008000+100 */
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7df2d+0,008000+100 */
+    background: #b7df2d;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7df2d+0,b7df2d+41,008000+100 */
+    background: #b7df2d;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #b7df2d 0%, #b7df2d 41%, #008000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #b7df2d 0%, #b7df2d 41%, #008000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #b7df2d 0%, #b7df2d 41%, #008000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7df2d', endColorstr='#008000', GradientType=1);
+    /* IE6-9 */
+}
+.meter .high {
+    transform: rotate(90deg);
+    /* W3C */
+    -webkit-transform: rotate(90deg);
+    /* Safari & Chrome */
+    -moz-transform: rotate(90deg);
+    /* Firefox */
+    -ms-transform: rotate(90deg);
+    /* Internet Explorer */
+    -o-transform: rotate(90deg);
+    /* Opera */
+    z-index: 6;
+    background-color: #058201;
+}
+.adial,
+.adial .inner {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+    border-radius: 100%;
+    border-color: purple;
+    z-index: 10;
+    /* background-color: #D61717; */
+    transition-property: -webkit-transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transform: rotate(0deg);
+    /* W3C */
+    -webkit-transform: rotate(0deg);
+    /* Safari & Chrome */
+    -moz-transform: rotate(0deg);
+    /* Firefox */
+    -ms-transform: rotate(0deg);
+    /* Internet Explorer */
+    -o-transform: rotate(0deg);
+    /* Opera */
+}
+
+/*
+.dial .gaugearrow
+{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 18px;
+    left: 4px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 16px solid red;
+    -webkit-transform: rotate(-88deg);/* Safari & Chrome */
+-moz-transform: rotate(88deg);
+
+/* Firefox */
+-ms-transform: rotate(88deg);
+
+/* Internet Explorer */
+-o-transform: rotate(88deg);
+
+/* Opera */
+
+}
+.gauge .value {
+    font-family: 'Josefin Slab',
+    serif;
+    font-size: 14px;
+    color: #1C7DCB;
+    position: absolute;
+    top: 41px;
+    z-index: 11;
+    font-weight: bold;
+    width: 60px;
+}
+
+/* End of gauge meter */
+
+/* Safety Capsules */
+.safetybtn.rweCapsule {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.safetybtn.DICapsule {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.safetybtn.CICapsule {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+#valueDefinationImg {
+    width: 100px;
+    height: 100px;
+    margin: 0 35%;
+}
+.safetyRiskDICIPopup {
+    width: 400px;
+    padding: 25px;
+    text-shadow: 1px 1px 1px white;
+    background: #fff;
+    border: 1px solid #E3E4E4;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #E8E7E7;
+    color: #8e8f92;
+    border: 1px solid #ef4722;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.safetyRiskDICIPopup {
+    position: relative;
+}
+*/ .optimalPointForValueZone {
+    position: absolute;
+    top: 0px;
+    right: 32px;
+}
+
+/*.DrugSortingDropdown{
+    position: absolute;
+    width: 170px;
+    background: #999;
+    height: 40px;
+    color: #fff;
+    z-index: 2;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding-top: 8px;
+    margin: -11px -16px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+
+.DrugSortingDropdownHeading {
+    margin-bottom: 2px;
+    float: left;
+    margin-left: 4px;
+    color: #fff;
+    margin: 5px;
+}
+
+.SortDrugPageBy {
+    cursor: pointer;
+}
+
+.SortDrugPageBy:hover {
+    text-decoration: underline;
+}
+
+.SortingImageDiv{
+    float: left;
+    padding-top: 18px;
+
+}
+.sortingImg{
+    float: left;
+
+}
+
+.warningdivcritical{
+    background-color:yellow;
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 11;
+    padding: 0px 15px;
+    padding-top:10px;
+    -webkit-box-shadow: 0 8px 6px -6px #999999;
+    -moz-box-shadow: 0 8px 6px -6px #999999;
+    box-shadow: 0 8px 6px -6px #999999;
+}
+
+.apri_tooltip{
+    display: none;
+    width: 250px;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    z-index: 1;
+    text-align: justify;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+
+#APRIMessage{
+  position: absolute;
+    left: 4%;
+    height: 40px;
+}
+
+.DrugPageContent{
+  padding: 2px 16px 0px 30px;
+}
+
+.DrugPageHeader{
+  padding: 0px !important;
+  color: #164664;
+}
+
+.DrugHeading{
+    padding: 20px 0px 0px 0px;
+    font-weight: 600;
+    height: 70px;
+    background: #bbe5ff;
+    background: -moz-linear-gradient(top,  #bbe5ff 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(top,  #bbe5ff 0%,#ffffff 100%);
+    background: linear-gradient(to bottom,  #bbe5ff 0%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbe5ff', endColorstr='#ffffff',GradientType=0 );
+ }
+
+.cost-scale-symbol{width: 65px;float: left;text-align: right;}
+
+
+.riskWrapperContainer{
+    margin-top: 15px;
+}*/
+.providerNoDataFound {
+    width: 100%;
+    float: left;
+    margin: 21px auto;
+    text-align: center;
+    height: 200px;
+    color: #ef4823;
+    padding: 80px 10px;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+.blink_me:hover {
+    animation: null;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/***************************CSS for COST Column (PAID   and    COPAY)****************/
+.paidCost {
+    width: 170px;
+    background: white;
+    float: left;
+}
+.copayCost {
+    width: 170px;
+    background: white;
+    float: left;
+}
+
+/* Added on 08-DEC-2016 for increase relative value chart width*/
+.TotalValueWraper .popover.bottom>.arrow {
+    display: none;
+}
+.TotalValueWraper>.popover {
+    max-width: 1303px !important;
+    height: 550px;
+    width: 1280px;
+    /*width: 1240px;*/
+}
+
+/*END 08-DEC Changes */
+
+/*Subtabs*/
+.providerSubtabs-links {
+    border-bottom: 1px dotted #ececec;
+    text-align: center;
+}
+.providerSubtabInfo {
+    float: right;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+/*.providerSubtabs-links li a {
+    height: 60px;
+    padding-top: 18px !important;
+}*/
+
+
+/*Risk Condition Flag*/
+.cpRiskCondition{
+    color: #2e7e97;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header_main_search_btn i{
+  font-size: 15px;
+  width: 50px;
+  border: none !important;
+  background: white;
+  color: #ee4118;
+}
+
+.uploadButton{
+  width: 150px;
+  padding: 5px 0;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  background: #ee4118 !important;
+}
+.deleteUploadedFile{
+  width: 16px;
+  height: 18px;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  box-shadow: 1px 1px 1px 0px grey;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+}
+.backBtnResponders{
+  width: 150px;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  box-shadow: 1px 1px 1px 0px grey;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  display: none;
+  cursor:pointer;
+  float:right;
+}
+
+.backButtonCss{
+  width: 150px;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  cursor:pointer;
+  float:right;
+}
+.highcharts-button-box{
+  width: 150px;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  cursor:pointer;
+  float:right;
+}
+.highcharts-drillup-button{
+  width: 150px;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #ee4118 !important;
+  text-align: center;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0px grey;
+  cursor:pointer;
+  float:right;
+}
+.highcharts-drillup-button rect{
+    box-shadow: 1px 1px 1px 0px grey;
+}
+.highcharts-drillup-button text{
+  fill:white !important;
+  color:white !important;
+}
+
+
+/*Relative weights Dropdown*/
+
+/* Some og the styling of weight slider section is written in Payer tab's Stylesheet. */
+
+.accordianContentWrapper{
+    padding: 10px 18px;
+}
+
+button.weightsAccordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    float: left;
+}
+
+button.weightsAccordion.active, button.weightsAccordion:hover {
+    background-color: #2e7e97;
+    color: #FFF;
+}
+
+button.weightsAccordion:after {
+    content: '\002B';
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+button.weightsAccordion.active:after {
+    content: "\2212";
+    color: #FFF;
+}
+
+div.accordianPanel {
+    padding: 0px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid rgb(46, 126, 151);
+    border-radius: 0px;
+}
+
+.provider-relativeWeights-section .relativeWeight{
+    padding: 15px 10px 15px 0px!important;
+    /*padding: 0px 10px 0px 0px!important;*/
+    margin: 0px;
+    height: 120px;
+    /*height: 70px;*/
+}
+
+
+
+/*Range Sliders Overriding*/
+
+.provider-relativeWeights-section .rangeslider,
+.provider-relativeWeights-section .rangeslider__fill {
+    height: 6px !important;
+}
+
+.provider-relativeWeights-section .rangeslider--horizontal {
+    height: 6px;
+    width: 100%;
+}
+
+.provider-relativeWeights-section .rangeslider__fill {
+    background: #f04823;
+    position: absolute;
+    top: 0;
+}
+
+.provider-relativeWeights-section .rangeslider--horizontal .rangeslider__handle {
+    top: -5px;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+}
+
+.provider-relativeWeights-section .rangeslider__handle {
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    position: absolute;
+    background-size: 100%;
+    background-image: none;
+    box-shadow: none;
+    -moz-border-radius: 0% !important;
+    -webkit-border-radius: 0% !important;
+    border-radius: 0% !important;
+    top: -4.5px;
+}
+
+.provider-relativeWeights-section .rangeslider__handle:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi�pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.13)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* ------- Range Slider End ----*/
+
+
+/* Best Drug Score */
+
+.bestDrugScore{
+    background: rgba(22, 170, 216, 0.73);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
+    float: left;
+}
+
+.drugScore{
+    background: rgb(245, 245, 245);
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    font-size: 16px;
+    float: left;
+    border: 6px solid rgb(46, 126, 151);
+}

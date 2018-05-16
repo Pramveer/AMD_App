@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="36">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01641926</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P08450</org_study_id>
+    <secondary_id>MK-4031-376</secondary_id>
+    <nct_id>NCT01641926</nct_id>
+  </id_info>
+  <brief_title>A Study of the Safety and Efficacy of PEG-Intron™ Versus PEGASYS™ in Participants With Chronic Hepatitis B (P08450)</brief_title>
+  <official_title>A Multicenter Open-label Study to Evaluate the Safety and Efficacy of PEG-Intron™ Versus PEGASYS™ in Subjects With HBeAg Positive Chronic Hepatitis B and HBeAg Negative Chronic Hepatitis B Protocol No. MK-4031-376-00 (Also Known as SCH 054031, P08450)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Merck Sharp &amp; Dohme Corp.</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Merck Sharp &amp; Dohme Corp.</source>
+  <oversight_info>
+    <authority>Australia: Department of Health and Ageing Therapeutic Goods Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is being done to compare the safety and efficacy of PEG-Intron™ to that of
+      PEGASYS™ in participants with chronic hepatitis B (hepatitis B envelope antigen [HBeAg]
+      positive or negative) who have not previously been treated with interferon.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>November 2012</start_date>
+  <completion_date type="Anticipated">February 2016</completion_date>
+  <primary_completion_date type="Anticipated">February 2016</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of HBeAg(+) participants achieving HBeAg seroconversion at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of HBeAg(-) participants achieving hepatitis B virus (HBV) deoxyribonucleic acid (DNA) levels &lt;2000 IU/mL at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of HBeAg(+) participants achieving HBV DNA &lt;2000 IU/mL at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of HBeAg(+) participants achieving alanine aminotransferase (ALT) normalization at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of HBeAg(+) participants achieving the combined response of HBeAg seroconversion and HBV DNA &lt;2000 IU/mL at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of HBeAg(-) participants achieving ALT normalization at 24 weeks post-treatment</measure>
+    <time_frame>Week 72</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>4</number_of_arms>
+  <enrollment type="Actual">402</enrollment>
+  <condition>Hepatitis B, Chronic</condition>
+  <arm_group>
+    <arm_group_label>Arm A HBeAg(+) PEG-Intron</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>HBeAG-positive participants received 1.5 mcg/kg/wk PEG-Intron for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B HBeAg(+) PEGASYS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>HBeAG-positive participants received 180 mcg/kg/wk PEGASYS for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm A HBeAg(-) PEG-Intron</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>HBeAG-negative participants received 1.5 mcg/kg/wk PEG-Intron for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Arm B HBeAG(-) PEGASYS</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>HBeAG-negative participants received 180 mcg/kg/wk PEGASYS for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PEG-Intron™</intervention_name>
+    <description>PEG-Intron subcutaneously (SC) once weekly for a total of 48 weeks</description>
+    <arm_group_label>Arm A HBeAg(+) PEG-Intron</arm_group_label>
+    <arm_group_label>Arm A HBeAg(-) PEG-Intron</arm_group_label>
+    <other_name>SCH 054031</other_name>
+    <other_name>Pegylated interferon alfa-2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Biological</intervention_type>
+    <intervention_name>PEGASYS™</intervention_name>
+    <description>PEGASYS subcutaneously (SC) once weekly for a total of 48 weeks</description>
+    <arm_group_label>Arm B HBeAg(+) PEGASYS</arm_group_label>
+    <arm_group_label>Arm B HBeAG(-) PEGASYS</arm_group_label>
+    <other_name>Pegylated interferon alfa-2a</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Key Inclusion Criteria for All Participants:
+
+          -  Must be able to adhere to dose and visit schedules
+
+          -  ≥ 40 kg
+
+          -  Hepatitis B surface antigen (HBsAg) positive for at least 6 months
+
+          -  Anti-HBs negative
+
+          -  Female participants of childbearing potential must agree to use an acceptable
+
+        method of contraception from at least 2 weeks prior to Day 1 and continue until at least 1
+        month after last dose of study drug
+
+        Inclusion Criteria for HBeAg(+) participants:
+
+          -  HBeAg(+)
+
+          -  Anti-HBe(-)
+
+        Inclusion Criteria for HBeAg(-) participants:
+
+          -  HBeAg(-)
+
+          -  Anti-HBe(+)
+
+        Key Exclusion Criteria:
+
+        - Co-infection with the human immunodeficiency virus (HIV) or hepatitis C or
+
+        hepatitis D virus
+
+          -  Prior treatment with interferon for hepatitis B
+
+          -  Use of nucleoside/nucleotide analogues within 6 months of the screening visit or at
+             any time during the study
+
+          -  Use of any investigational drug within 30 days of the screening visit
+
+          -  Prior treatment with herbal remedies with known hepatotoxicity. All herbal remedies
+             used for hepatitis B treatment must be discontinued before Day 1
+
+          -  Evidence of decompensated liver disease including, but not limited to, a history or
+             presence of clinical ascites, bleeding varices, or hepatic encephalopathy
+
+          -  Diabetic and/or hypertensive with clinically significant ocular examination findings
+
+          -  History of stroke or transient ischemic attack
+
+          -  Immunologically mediated disease (e.g., inflammatory bowel disease [Crohn's disease,
+             ulcerative colitis], celiac disease, rheumatoid arthritis, idiopathic
+             thrombocytopenic purpura, systemic lupus erythematosus, autoimmune hemolytic anemia,
+             scleroderma, sarcoidosis, severe psoriasis requiring oral or injected treatment, or
+             symptomatic thyroid disorder)
+
+          -  Chronic pulmonary disease (e.g., chronic obstructive pulmonary disease, interstitial
+             lung disease, pulmonary fibrosis, sarcoidosis)
+
+          -  Current or history of any clinically significant cardiac abnormalities/dysfunction
+
+          -  Any medical condition requiring, or likely to require, chronic systemic
+             administration of corticosteroids during the course of the trial
+
+          -  Myelodysplastic syndromes
+
+          -  Organ transplants (including hematopoietic stem cell transplants) other than cornea
+             and hair
+
+          -  Pregnant or nursing, or intending to become pregnant during the trial period
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <removed_countries>
+    <country>Australia</country>
+    <country>Colombia</country>
+    <country>Hong Kong</country>
+    <country>Korea, Republic of</country>
+    <country>Malaysia</country>
+    <country>Mexico</country>
+    <country>Peru</country>
+    <country>Philippines</country>
+    <country>Singapore</country>
+    <country>Taiwan</country>
+    <country>Thailand</country>
+  </removed_countries>
+  <verification_date>November 2015</verification_date>
+  <lastchanged_date>November 26, 2015</lastchanged_date>
+  <firstreceived_date>July 11, 2012</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis B</mesh_term>
+    <mesh_term>Hepatitis B, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Interferons</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="85">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00621296</url>
+  </required_header>
+  <id_info>
+    <org_study_id>G060-A7</org_study_id>
+    <nct_id>NCT00621296</nct_id>
+  </id_info>
+  <brief_title>Safety and Efficacy of MP-424 to Treat Chronic Hepatitis C</brief_title>
+  <official_title>Phase II Study of MP-424 in Patients With (Genotype 1b) Hepatitis C</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Mitsubishi Tanabe Pharma Corporation</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Vertex Pharmaceuticals Incorporated</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Mitsubishi Tanabe Pharma Corporation</source>
+  <oversight_info>
+    <authority>Japan: Ministry of Health, Labor and Welfare</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to assess the efficacy and safety after administration of
+      MP-424 to patients with chronic hepatitis C.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2008</start_date>
+  <completion_date type="Actual">February 2009</completion_date>
+  <primary_completion_date type="Actual">February 2009</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Undetectable HCV RNA at 24 Weeks After Completion of Drug Administration</measure>
+    <time_frame>24 Weeks After Completion of Drug Administration (dosing period is 24 Weeks) or drug withdrawal. The subjects were assessed at 24 weeks following the last dose of study drug.</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Actual">15</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>MP-424</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>MP-424 (Telaprevir)</intervention_name>
+    <description>Three tablets of MP-424 250mg tablet at a time, every 8 hours, 24 weeks administration (dose in a day: 2250 mg)</description>
+    <arm_group_label>MP-424</arm_group_label>
+    <other_name>Telaprevir</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients diagnosed with genotype 1b chronic hepatitis C
+
+          -  Patients naive to the concomitant medications with interferon
+
+        Exclusion Criteria:
+
+          -  Patients diagnosed with decompensated cirrhosis
+
+          -  Patients diagnosed with positive HBs antigen in the test
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Fumitaka Suzuki, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Department of Hepatology, Toranomon Hospital</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Toranomon Hospital</name>
+      <address>
+        <city>Kawasaki City</city>
+        <state>Takatsu-ku</state>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <results_reference>
+    <citation>Toyota J, Ozeki I, Karino Y, Asahina Y, Izumi N, Takahashi S, Kawakami Y, Chayama K, Kamiya N, Aoki K, Yamada I, Suzuki Y, Suzuki F, Kumada H. Virological response and safety of 24-week telaprevir alone in Japanese patients infected with hepatitis C virus subtype 1b. J Viral Hepat. 2013 Mar;20(3):167-73. doi: 10.1111/j.1365-2893.2012.01640.x. Epub 2012 Jul 13.</citation>
+    <PMID>23383655</PMID>
+  </results_reference>
+  <verification_date>April 2014</verification_date>
+  <lastchanged_date>April 16, 2014</lastchanged_date>
+  <firstreceived_date>February 12, 2008</firstreceived_date>
+  <firstreceived_results_date>September 19, 2012</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Chronic Hepatitis C</keyword>
+  <keyword>Protease Inhibitor</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

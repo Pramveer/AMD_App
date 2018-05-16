@@ -1,0 +1,64 @@
+<template name='PARequest'>
+    <div class="hltrecr_left">
+        <form action="#">
+            <div class="textfldboxs ">
+                <div class="textflddiv {{isFormValid person.fname}} dvGenotype">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Patient First Name</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" id="patient-fname" name="request[patient][first_name]" class="hltrec_txtfld" placeholder="Enter Information" value="{{person.fname}}" />
+                    </div>
+                </div>
+                <div class="textflddiv {{isFormValid person.lname}} dvViralLoad">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Patient Last Name</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" id="patient-lname" name="request[patient][last_name]" class="hltrec_txtfld" placeholder="Enter Information" value="{{person.lname}}" />
+                    </div>
+                </div>
+                <div class="textflddiv {{isFormValid person.Birthday}} dvETOHLevel" style="margin-bottom: 0px;">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Patient Date of Birth</Label>
+                    </div>
+                    <div class="box-fld">
+                        <input type="text" id="patient-dob" name="request[patient][date_of_birth]" class="hltrec_txtfld" placeholder="Enter Information"  value="{{person.Birthday}}"/>
+                    </div>
+                </div>
+                <div class="textflddiv  dvViralLoad">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Patient State</Label>
+                    </div>
+                    <div class="box-fld">
+                        <select id="state" name="request[state]" class="hltrec_txtfld">
+                            <option>Select a state</option>
+                            {{#each BindStates}}
+                            <option value="{{Abbreviation}}">{{State}}</option>
+                            {{/each}}
+                        </select>
+                        <!-- <input type="text" id="txtViralLoad" class="hltrec_txtfld" value="" placeholder="Select a state" /> -->
+                    </div>
+                </div>
+                <div class="textflddiv dvViralLoad">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Drug </Label>
+                    </div>
+                    <div class="box-fld pa-searchform">
+                        <input type="hidden" id="drug-search" name="request[prescription][drug_id]" class="hltrec_txtfld" />
+                    </div>
+                </div>
+                <div class="textflddiv dvViralLoad">
+                    <div class="box-title">
+                        <Label><span class="highlight">*</span> Form </Label>
+                    </div>
+                    <div class="box-fld pa-searchform">
+                        <input type="hidden" id="form-search" name="request[form_id]" class="hltrec_txtfld" />
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="start-request" class="btn btn-primary strt-req">Start Request</button>
+            <div class="clsRequire"><span>*</span> Required Fields</div>
+        </form>
+    </div>
+</template>

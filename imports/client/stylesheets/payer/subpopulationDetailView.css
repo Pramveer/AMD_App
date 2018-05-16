@@ -1,0 +1,1782 @@
+/*Subpopulation Detail View*/
+
+.subpopulationDetailView {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #717171;
+    margin-bottom: 15px;
+}
+
+.subpopulationDetailViewLeft {
+    background: #f9f9f9;
+    height: 100%;
+    padding-top: 10px;
+    float: left;
+}
+
+.subpopulationDetailViewRight {
+    background: #F9F9F9;
+    height: 100%;
+    float: left;
+    padding: 0px !important;
+}
+
+.subPopulationCategoriesWrapper {
+    max-height: 400px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 1px 1px #e1e1e1;
+}
+
+.subpopulationValueChartContainer {
+    float: left;
+}
+
+.subpopulationRelativeValueChart {
+    height: 220px;
+}
+
+.subpopulationDetailViewLeft .sortBy {
+    margin: 6px -24px !important;
+}
+
+.subpopulationDetailViewLeft .subPopulationList-SortCombWrapper {
+    margin: 0px !important;
+    box-shadow: none !important;
+}
+
+.subpopulationDetailViewLeft .subPopulationList-SortCombo {
+    margin-left: 26px !important;
+}
+
+.sortBy {
+    color: #626363;
+    position: absolute;
+    margin: 6px -8px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.subPopulationList-SortCombWrapper {
+    background: #f1f1f1;
+    border-radius: 2px;
+    padding: 5px 0px 5px 32px;
+    margin: 4px 4px 6px -14px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.subPopulationList-SortCombo {
+    width: 83%;
+    margin-left: 44px;
+    border: 1px solid #dedddd;
+    border-radius: 2px;
+    height: 28px;
+    padding: 6px;
+    color: #2cc185;
+    font-size: 13px;
+}
+
+.subPopulationCategoriesContainer {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.subPopulationCategoriesContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.subPopulationCategoriesContainer::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+.subPopulationCategoriesContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #111;
+}
+
+.subPopulationCategoriesItem {
+    height: 40px;
+    margin: 1px 0px;
+    border-radius: 3px;
+    padding: 10px;
+    background: #C4DF9B;
+    font-weight: 400;
+    color: #156B48;
+    cursor: pointer;
+}
+
+.subPopulationCategoriesItem:hover {
+    background: #a5c17a;
+}
+
+.subPopulationCategoriesContainer.active {
+    background: #53771D !important;
+    color: #fff !important;
+}
+
+.subpopulationRelativeValueChart-title {
+    font-size: 14px;
+}
+
+.SubPopulationSectionInfo {}
+
+.SubPopulationGroupContainer {}
+
+.SubPopulationGroupTitle {
+    width: 50%;
+    display: inline-block;
+    margin: 0px !important;
+}
+
+.subpopulationDetailView .payerComparisonTable {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.SubPopulationSectionTitle {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.SubPopulationGroupInfo {
+    width: 75%;
+    float: left;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid red;*/
+}
+
+.subcategoryInfo-PatientCategory {
+    color: #444;
+    font-size: 14px;
+    text-align: right;
+    width: 49% !important;
+    display: inline-block;
+}
+
+.subcategoryInfo-PatientCount {
+    float: left;
+    margin: 0;
+    width: 25%;
+    text-align: right;
+}
+
+.SubPopulationGroupPatientIcon {
+    padding: 25px 24px;
+    font-size: 14px;
+    background-position: 24%;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 30px;
+    width: 36px !important;
+    background-repeat: no-repeat;
+}
+
+.thisCategoryPatients {
+    font-size: 24px;
+    font-weight: 600;
+    color: #777;
+    font-family: sans-serif;
+}
+
+.totalFilteredPatients {
+    color: #333;
+}
+
+.subpopulationExpansesContainer {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subpopulationExpansesInfo {
+    height: 220px;
+}
+
+.SubpopulationExpansesChart {
+    padding: 10px;
+}
+
+.subpopulationQualityIndicatorsContainer {
+    float: left;
+}
+
+.subpopulationSectionContainer {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    background: #fff;
+    padding-bottom: 0px;
+    border-bottom: 1px solid red;
+}
+
+.subpopulationQualityIndicatorsInfo {}
+
+.subpopulationQualityIndicatorsTitle {}
+
+.indicatorsContainer {
+    height: 100%;
+}
+
+.subPopulationQualityIndicator span {
+    line-height: 9;
+    color: #636160;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subpopulationDrugInfoInfo {}
+
+.subpopulationDrugInfoTitle {
+    color: #444;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 0px;
+    width: 60%;
+    float: left;
+}
+
+.subpopulationDrugInfoTitle span {
+    color: #333;
+    font-weight: normal;
+}
+
+.dccContainer {
+    float: right;
+    background: #fff;
+    height: 35px;
+    width: 150px;
+    text-align: right;
+    font-size: 11px;
+    color: #111;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+    padding: 9px 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+.drugComparisonIcon {
+    background-position: 59%;
+    background-image: url('pinscriptive_v5-ICONS.png');
+    height: 29px;
+    width: 35px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+    float: left;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(-90deg);
+}
+
+.drugComparisonSection {
+    background: #fff;
+    color: #111;
+    float: left;
+    font-size: 12px;
+}
+
+.subpopulationDrugInfoTable {
+    width: 100%;
+    float: left;
+}
+
+.drugInfoTableHeader {
+    font-size: 13px !important;
+}
+
+
+/*Quality Indicators Subpopulation*/
+
+.subpopulationIndicators {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    margin-left: 15px;
+    width: 45% !important;
+    padding: 20px 10px;
+    margin-top: 15px;
+}
+
+.subpopulationIndicatorLabel {
+    color: #333;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.subpopulationIndicatorValue {
+    font-weight: bold;
+    color: #383735;
+}
+
+.subIndicatorIcon img {
+    height: 30px;
+}
+
+.subIndicatorIcon {
+    float: right;
+    padding: 5px;
+    width: 30%;
+}
+
+.subAdheIndicatorIconParent {
+    padding: 5px;
+    float: left;
+    width: 70%;
+}
+
+.subpopulationSafetyIndicator {
+    text-decoration: underline;
+    cursor: pointer;
+    width: 70% !important;
+    padding: 14px;
+    float: left;
+}
+
+.spRelativeValuePositionImg {
+    padding-top: 0px;
+    position: absolute;
+    left: 11%;
+    bottom: 0px;
+    height: 25px;
+}
+
+.spRelativeValueUtilizationImg {
+    height: 24px;
+    position: absolute;
+    left: 70%;
+    bottom: 0px;
+}
+
+.subPopulationListTable.active {
+    background: #0d2332 !important;
+    color: #fff;
+    /*padding: 7px !important;*/
+}
+
+
+/*Safe Drug Option - Complication Rate Popup View*/
+
+
+/* Inner */
+
+.popup-inner {
+    max-width: 100%;
+    width: 75%;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    background: #fff;
+    border-radius: 3px !important;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999 !important;
+    shape-rendering: crispEdges;
+}
+
+
+/*End Complication Rate View*/
+
+.c3-legend-background {
+    word-wrap: break-word;
+    stroke: none !important;
+    fill: transparent !important;
+}
+
+
+/*Section */
+
+.payerToolSection {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*for hospitalization chart*/
+
+.hospitalizationChart g.c3-axis.c3-axis-x .tick {
+    font-size: 9px !important;
+}
+
+.hospitalizationChart g.c3-axis.c3-axis-x path.domain {
+    visibility: hidden;
+    stroke: #999;
+}
+
+.hospitalizationChart g.c3-axis.c3-axis-y path.domain {
+    stroke: #999;
+    visibility: hidden;
+}
+
+.hospitalizationChart g.c3-axis text {
+    fill: #333;
+}
+
+
+/*.hospitalizationChart .c3 path, .c3 line{
+ stroke:#999 !important;
+}*/
+
+.hospitalizationChart g.c3-axis.c3-axis-y text {
+    font-size: 10px !important;
+    fill: #102330;
+}
+
+
+/*for Rxchart*/
+
+.rxcostchart {
+    position: relative !important;
+}
+
+.rxcostchart g.c3-axis.c3-axis-x .tick {
+    font-size: 10px !important;
+}
+
+.rxcostchart g.c3-axis.c3-axis-x path.domain {
+    visibility: visible !important;
+    stroke: #999;
+}
+
+.rxcostchart g.c3-axis.c3-axis-y path.domain {
+    stroke: #999;
+}
+
+.rxcostchart g.c3-axis text {
+    fill: #333;
+}
+
+.rxcostchart g.c3-axis.c3-axis-x text {
+    font-size: 10px !important;
+}
+
+
+/*.hospitalizationChart .c3 path, .c3 line{
+ stroke:#999 !important;
+}*/
+
+.rxcostchart g.c3-axis.c3-axis-y text {
+    font-size: 12px !important;
+    fill: #102330;
+}
+
+.rxcostchart .safetyChart-x-axis .tick {
+    font-size: 10px !important;
+}
+
+.rxcostchart g.c3-axis.c3-axis-y .tick line text {
+    display: none;
+}
+
+.treatedlistDetailView {
+    display: none;
+}
+
+.valueGapBarChart .axis .tick text {
+    font-size: 12px !important;
+}
+
+.subpopulationDrugInfoInfoDetailLinkView .advPayerRingText {
+    right: 50px !important;
+}
+
+.subpopulationDrugInfoInfoDetailLinkView .treatedSafetyPopup {}
+
+.subpopulationDrugInfoInfoDetailLinkView .treatedSafetyPopup .rxcostchart {}
+
+.subpopulationDrugInfoInfoDetailLinkView .treatedSafetyPopup .rxcostchartLabel {}
+
+.subpopulationDrugInfoInfoDetailLinkView .treatedSafetyPopup .popover.left>.arrow {}
+
+.treatedSafetyPopup {}
+
+.spTableArrowRight {
+    background-position: 70%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 18px;
+    width: 40px;
+    background-repeat: no-repeat;
+}
+
+.spTableDrugName {
+    padding: 0px 10px;
+    float: left;
+    font-size: 13px;
+    color: #111;
+    font-weight: bold;
+}
+
+.drugComparisonSVGWrapper g.c3-axis.c3-axis-x .tick {
+    font-size: 10px;
+    font-weight: normal;
+    fill: #333;
+}
+
+.drugComparisonSVGWrapper g.c3-axis.c3-axis-x path.domain {
+    visibility: visible;
+    stroke: #999;
+}
+
+.drugComparisonSVGWrapper g.c3-axis.c3-axis-y .tick {
+    font-size: 10px;
+    font-weight: normal;
+    fill: #333;
+}
+
+.drugComparisonSVGWrapper g.c3-axis.c3-axis-y path.domain {
+    visibility: visible;
+    stroke: #999;
+}
+
+.drugComparisonSVGWrapper .c3-axis-y-label {
+    fill: #333;
+}
+
+
+/*Clinical Tria Section*/
+
+.spClinicalTrialSectionContainer {
+    width: 600px;
+    background: #ffffff;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    border: 1px solid #e9e9e9;
+    z-index: 5;
+    margin-top: -30px;
+    box-shadow: 1px 0px 6px 1px #111;
+}
+
+.spClinicalTrialsSection {
+    background: white;
+    color: #444;
+    font-size: 12px;
+    width: 30%;
+    float: right;
+    text-align: left;
+    border-left: 1px solid #e9e9e9;
+    padding: 0px 3px 0px 8px;
+    margin: 0px;
+}
+
+.spClinicalTrialsSection-Title {
+    padding: 5px 10px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.spClinicalTrialsContent {
+    width: 70%;
+    background-color: transparent;
+    padding: 3px;
+    max-height: 270px;
+    overflow: auto;
+}
+
+.lr-hr-moreInfo {
+    background-color: #fff;
+    border: 1px solid #ef4722;
+    border-radius: 2px;
+    color: #ef4722;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 3px;
+}
+
+.lr-hr-moreInfoIcon {
+    background-position: 14%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    height: 18px;
+    width: 24px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.riskSection {
+    cursor: pointer;
+    padding: 10px 10px;
+    color: #ef4722;
+    background: #fff;
+}
+
+.riskSection:hover {
+    cursor: pointer;
+    padding: 10px 10px;
+    background: #ea7156;
+    color: #fff;
+}
+
+.riskSection.isActive {
+    cursor: pointer;
+    padding: 10px 10px;
+    background: #ef4722;
+    color: #fff;
+}
+
+.comparisonChartBody {
+    display: none;
+}
+
+.comparisonChartBody tspan {
+    font-size: 10px;
+}
+
+.spClinicalTrialsSection .popover-title {
+    min-width: 270px;
+    max-width: 350px;
+    color: #000;
+}
+
+.seperateDrugSection {
+    padding: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.seperateDrugSection .safetyRiskDICIPopup {
+    width: 100%;
+    padding: 0px;
+    text-shadow: none;
+    background: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #8e8f92;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 0px;
+    margin: 2px;
+    border-radius: 0px;
+    text-align: justify;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.spClinicalULTabs {
+    padding: 0px;
+    list-style: none;
+}
+
+.SPList-totalPatients {
+    color: #132533;
+    background-position: 24%;
+    background-image: url('/pinscriptive_v5-ICONS.png');
+    width: 70px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 49px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.SPList-footerLabels {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -4px;
+}
+
+.spClinicalULTab {
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 3px 3px;
+    cursor: pointer;
+    background: #0c6a82;
+}
+
+.spClinicalULTab a {
+    color: #ffffff;
+}
+
+.spClinicalULTab.activeDrug {
+    background: #ef4722 !important;
+}
+
+.seperateDrugSection.activeDrug {
+    display: block;
+}
+
+.subPopulationListTitle {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.treatedcardValueGapSaving,
+.treatingcardValueGapSaving,
+.untreatedcardValueGapSaving {
+    padding: 15px 0px 10px 0px !important;
+}
+
+.treatedSafetyPopup .popover,
+.treatingSafetyPopup .popover,
+.untreatedSafetyPopup .popover {
+    max-width: 700px;
+}
+
+.treatedSafetyPopup .popover svg .c3-axis g.tick text,
+.treatingSafetyPopup .popover svg .c3-axis g.tick text,
+.untreatedSafetyPopup .popover svg .c3-axis g.tick text {
+    font-size: 10px;
+    fill: #333;
+}
+
+.SubpopulationBubbles {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.SubpopulationBubbles span,
+.SpValueScoreContainer span {
+    color: #111;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 1px;
+    font-weight: bold;
+}
+
+.SubpopulationBubbles .bubble {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.SubpopulationBubbles canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bubbleFooter {
+    color: #333;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.SpValueScoreContainer {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.SpValueScoreContainer .vsCircle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background: #efefef;
+    border-radius: 50%;
+}
+
+.spUtilizationslider {
+    width: 85%;
+    height: 7px;
+    margin: 5px auto;
+}
+
+.spCostslider {
+    width: 85%;
+    height: 7px;
+    margin: 5px auto;
+}
+
+.spUtilizationslider .ui-widget-header {
+    background: #ef4722;
+}
+
+.subpopulationDrugInfoTable .ui-widget.ui-widget-content {
+    border: none;
+}
+
+.subpopulationDrugInfoTable .ui-widget-content {
+    border: 1px solid #ddd;
+    background: #efefef;
+    color: #333;
+}
+
+.subpopulationDrugInfoTable .ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 10px;
+}
+
+.subpopulationDrugInfoTable .ui-corner-all,
+.subpopulationDrugInfoTable .ui-corner-bottom,
+.subpopulationDrugInfoTable .ui-corner-left,
+.subpopulationDrugInfoTable .ui-corner-bl {
+    border-bottom-left-radius: 10px;
+}
+
+.subpopulationDrugInfoTable .ui-corner-all,
+.subpopulationDrugInfoTable .ui-corner-top,
+.subpopulationDrugInfoTable .ui-corner-right,
+.subpopulationDrugInfoTable .ui-corner-tr {
+    border-top-right-radius: 10px;
+}
+
+.subpopulationDrugInfoTable .ui-corner-all,
+.subpopulationDrugInfoTable .ui-corner-top,
+.subpopulationDrugInfoTable .ui-corner-left,
+.subpopulationDrugInfoTable .ui-corner-tl {
+    border-top-left-radius: 10px;
+}
+
+.subpopulationDrugInfoTable .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1em;
+    height: 1em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.hospitalizationChart g.c3-axis.c3-axis-y path.domain {
+    visibility: hidden;
+}
+
+.hospitalizationChart g.c3-axis.c3-axis-x path.domain {
+    visibility: hidden;
+}
+
+
+/*Safety Charts*/
+
+.x.axis path {
+    display: block !Important;
+}
+
+.safetyChart-x-axis .tick {
+    fill: #333;
+}
+
+.safetyChart-y-axis .tick {
+    visibility: hidden
+}
+
+.safetyChart-x-axis path,
+.safetyChart-y-axis path {
+    fill: none;
+    stroke: #999;
+    visibility: hidden;
+    shape-rendering: crispEdges;
+}
+
+.hospitalizationChart {
+    padding: 0px !important;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.hospitalizationChartLabel {
+    padding-left: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #444;
+}
+
+.rxcostchart {
+    padding: 0px !important;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.rxCostChartLabel {
+    padding-left: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #444;
+}
+
+.hospitalizationTooltip {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.hospitalizationTooltip:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.rxCostChartTooltip {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.rxCostChartTooltip:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.rxAddiCostLabel {
+    float: right;
+    color: #333;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.rxAddiCostValue {
+    float: right;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+
+/*Safety Charts End*/
+
+.HighRiskPopup li {
+    color: #8e8f92;
+}
+
+.costReset {
+    background-image: url('/reset.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 6px;
+}
+
+.noHospitalizationData {
+    color: #aaaeaf;
+    position: relative;
+    width: 100%;
+    left: 23%;
+    top: 32%;
+    font-size: 12px;
+}
+
+.noCostData {
+    color: #aaaeaf;
+    position: relative;
+    width: 100%;
+    left: 32%;
+    top: 32%;
+    font-size: 12px;
+}
+
+.drugInfoTableBody {
+    position: relative;
+    background: #fff;
+}
+
+
+/*.comparisonTableRow {
+    display: inline-block;
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 20px;
+    width: 100%;
+}*/
+
+
+/*Added By Jayesh 14th March 2017 for payer details*/
+
+.comparisonTableRow {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-left: 10px solid #ddd;
+    margin-top: 0px;
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.comparisonTableRow.phs-table-row {
+    border: 1px solid #f04823;
+    border-left: 10px solid #f04823;
+}
+
+.comparisonTableRow.ims-table-row {
+    border: 1px solid #ddd;
+    border-left: 10px solid #ddd;
+}
+
+.spCostslider .ui-widget-header {
+    background: #ef4722;
+}
+
+.spUtilizationslider .ui-widget-header {
+    background: #ef4722;
+}
+
+
+/*Subpopiulation saffety indicator */
+
+.spSafetyPopoverData {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+}
+
+.spSafetyTH {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #efefef;
+    padding: 10px 0px;
+}
+
+.spSafetyTHColumn-popup {
+    width: 13.33%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a2a2a2;
+}
+
+.spSafetyTHColumn {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a2a2a2;
+}
+
+.spSafetyRow {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+    border-bottom: 1px solid #efefef;
+    color: #636363;
+}
+
+.spSafetyTbColumn-popup {
+    width: 13.33%;
+    float: left;
+    color: black;
+}
+
+.spSafetyTbColumn {
+    width: 33.33%;
+    float: left;
+    color: black;
+}
+
+.spSafetyTF {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    padding: 5px 0px;
+}
+
+.spSafetyTfColumn-popup {
+    width: 13.33%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #737373;
+}
+
+.spSafetyTfColumn {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #737373;
+}
+
+.spHospitaizationCount {
+    cursor: pointer;
+    text-decoration: underline;
+    color: skyblue;
+}
+
+.ourRecommendationsLink {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    font-size: 13px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.recommendationsPopup .popup-inner {
+    width: 95%;
+    height: 96%;
+    top: 50%;
+}
+
+/*.recommendationsPopup .recommendationsTitle {
+    text-align: center;
+    padding: 11px 2px 13px 2px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 8%;
+    border-bottom: 1px solid #e1e1e1;
+}*/
+
+.recommendationsTitle {
+    text-align: center;
+    padding: 11px 2px 13px 2px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 8%;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+
+/*.recommendationsPopup .recommendationsHeader {
+    background: rgba(171, 174, 175, 0.11);
+    float: left;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-bottom: 1px solid #ee4724;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}*/
+
+
+.recommendationsHeader {
+    background: rgba(171, 174, 175, 0.11);
+    float: left;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-bottom: 1px solid #ee4724;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+/*.recommendationsPopup .recommendedProf {
+    width: 100%;
+    float: left;
+    margin: 2px 0px;
+    border-bottom: 1px solid #e1e1e1;
+}*/
+
+.recommendedProf {
+    width: 100%;
+    float: left;
+    margin: 2px 0px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*
+#recommendationsPopup .recommendedProf:hover{
+    background: #e6e6e6;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+} */
+
+/*.recommendationsPopup .recommendations-ApplyBtn {
+    float: right;
+    padding: 8px 4px;
+    margin: 9px 141px 0px 0px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f11b1b;
+    border-color: #e61111;
+    position: relative;
+    right: 0;
+    top: 0;
+}*/
+
+.recommendations-ApplyBtn {
+    float: right;
+    padding: 8px 4px;
+    margin: 9px 141px 0px 0px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f11b1b;
+    border-color: #e61111;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.recommendedProfImpacts .increased {
+    background-image: url(/6.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    background-size: 15px;
+    margin: 0 auto;
+    background-position: 0px 1px;
+    padding-left: 18px;
+}
+
+.recommendedProfImpacts .decreased {
+    background-image: url(/da.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    background-size: 15px;
+    margin: 0 auto;
+    background-position: 0px 1px;
+    padding-left: 18px;
+}
+
+.recommendedDrugInfo {
+    float: right;
+    margin-right: -14px;
+    padding: 3px 6px;
+    font-size: 14px;
+    position: relative !important;
+    background-position: 100%;
+    background-image: url(/pinscriptive_v5-ICONS.png);
+    height: 20px;
+    width: 47px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.subpopulationIndicators .recommendedDrugInfo {
+    float: right;
+    margin-right: 0px;
+    padding: 3px 6px;
+    font-size: 13px;
+    /*position: relative !important;*/
+    background-position: 38%;
+    background-image: url(/pinscriptive_v4_icons.png);
+    height: 20px;
+    width: 47px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.recommendedDrugInfo:hover .mlInfoTip_tooltip {
+    visibility: visible;
+}
+
+.recommendedProf-Text {
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.recommendationsTitle-Filters {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*Subpopulation Detail View  End*/
+
+
+/*Profile Recommentation design */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.pro_box_1 {
+    float: left;
+    margin: 10px 0px;
+    background-color: #006394;
+    padding: 20px;
+    color: #ffffff;
+    width: calc(33.3% - 14px);
+    min-height: 374px;
+}
+
+.pro_box_2 {
+    float: left;
+    margin: 10px 21px;
+    background-color: #004b6f;
+    padding: 20px;
+    color: #ffffff;
+    width: calc(33.3% - 14px);
+    min-height: 374px;
+}
+
+.pro_box_3 {
+    float: left;
+    margin: 10px 0;
+    background-color: #0092d0;
+    padding: 20px;
+    color: #ffffff;
+    width: calc(33.3% - 14px);
+    min-height: 374px;
+}
+
+
+/*.profile_type_1 {
+    width: calc(100% + 40px);
+    float: left;
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.profile_type_2 {
+    width: calc(100% + 40px);
+    float: left;
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.profile_type_3 {
+    width: calc(100% + 40px);
+    float: left;
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+} */
+
+.rec_profile_type {
+    width: calc(100% + 40px);
+    float: left;
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px 20px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.pro_name {
+    width: auto;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.pro_set {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+    position: relative;
+}
+
+.pro_set_label {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    left: 20px;
+    position: absolute;
+    top: 2px;
+}
+
+.profile_desc {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pro_desc_text {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    /*height: 82px;*/
+    margin-bottom: 12px;
+}
+
+.esac_box {
+    float: left;
+    width: 100%;
+    padding: 5px 0 0;
+    background: transparent;
+}
+
+
+/*.esac_1 {
+    float: left;
+    width: 100%;
+    padding: 20px 0 0;
+    background: transparent;
+}
+
+.esac_2 {
+    float: left;
+    width: 100%;
+    padding: 20px 0 0;
+    background: transparent;
+}
+
+.esac_3 {
+    float: left;
+    width: 100%;
+    padding: 20px 0 0;
+    background: transparent;
+}
+*/
+
+
+/*.all_impact_1 {
+    float: left;
+    width: calc(50% - 30px);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 20px 20px;
+    height: 45px;
+}
+
+.all_impact_1:nth-child(even) {
+    margin-left: 0;
+}
+
+.all_impact_2 {
+    float: left;
+    width: calc(50% - 30px);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 20px 20px;
+    height: 45px;
+}
+
+.all_impact_2:nth-child(even) {
+    margin-left: 0;
+}
+
+.all_impact_3 {
+    float: left;
+    width: calc(50% - 30px);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 20px 20px;
+    height: 45px;
+}
+
+.all_impact_3:nth-child(even) {
+    margin-left: 0;
+}
+*/
+
+.all_impact_box {
+    float: left;
+    width: calc(50% - 30px);
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 20px 10px;
+    height: 45px;
+}
+
+.all_impact_box:nth-child(even) {
+    margin-left: 0;
+}
+
+.expand_recommendation {
+    float: right;
+    padding: 4px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+.all_impact span {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.saving_type_1 {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+    padding: 20px 13px;
+    box-sizing: border-box;
+}
+
+.saving_type_2 {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+    padding: 20px 13px;
+    box-sizing: border-box;
+}
+
+.saving_type_3 {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+    padding: 20px 13px;
+    box-sizing: border-box;
+}
+
+.m_info {
+    float: right;
+    width: 27px;
+    height: 27px;
+    background: url(../tooltip_icon1.png) no-repeat;
+}
+
+.all_impact_1 {
+    height: 104px;
+}
+
+.all_impact_2 {
+    height: 104px;
+}
+
+.all_impact_3 {
+    height: 104px;
+}
+
+.recommendedProfWrapper {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+}
+
+.goButtonWrapper-recomm {
+    float: right;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    margin: 29px 0 0px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.goButtonWrapper-recomm span {
+    color: #fff !important;
+    background-color: #f11b1b !important;
+    border-color: #e61111 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.recommendationsContainer {
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    overflow-y: none;
+}
+
+.treatedRecommendations-Lists {
+    float: left;
+}
+
+.all_impact_1 span {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.all_impact_2 span {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.all_impact_3 span {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.safetyTitles {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul.nav.nav-tabs.tabviewcustm li a {
+    width: auto;
+    float: left;
+    padding: 5px 6px;
+    color: #fff;
+}
+
+ul.nav.nav-tabs.tabviewcustm li.active a {
+    color: #000;
+}
+
+ul.nav.nav-tabs.tabviewcustm li:hover a {
+    color: #000;
+}
+
+.profdesc_title {
+    width: 120px;
+    float: left;
+}
+
+.profdesc_desc {
+    width: calc(100% - 120px);
+    float: left;
+    margin-bottom: 5px;
+}
+
+.safetytitle_halfwidth {
+    width: 50%;
+    float: left;
+    margin-top: 6px;
+}
+
+.safetytitle_fullwidth {
+    width: 100%;
+    float: left;
+}
+
+.increased {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: url(../6_white.png) no-repeat scroll 0% 2px;
+    background-size: 15px;
+    margin: 0;
+}
+
+.decreased {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: url(../da_white.png) no-repeat scroll 0% 2px;
+    background-size: 15px;
+    margin: 0;
+}
+
+.object_fullwidth {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.object_fullwidth span {
+    width: auto;
+    display: inline-block;
+    float: none;
+    margin-top: -7px;
+    position: relative;
+    top: -5px;
+}
+
+.sf_fixheight_width {
+    width: 26px;
+    height: 27px;
+    clear: both;
+    margin: 0 auto;
+}
+
+/*.recommendationsPopup .recommendations-ApplyBtn {
+    float: right;
+    padding: 2px 15px;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f11b1b;
+    border: 1px solid #f11b1b;
+    position: relative;
+    right: 0;
+    top: 0;
+}*/
+
+.recommendations-ApplyBtn {
+    float: right;
+    padding: 2px 15px;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f11b1b;
+    border: 1px solid #f11b1b;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.recommendedDrugInfo_abs {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.analytics-tooltip-right_zero:after {
+    left: 93%;
+}
+
+.analytics-tooltip-right_zero {
+    right: 0;
+}

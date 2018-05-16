@@ -1,0 +1,115 @@
+USE `IMS_LRX_AmbEMR_Dataset`;
+DROP procedure IF EXISTS `AddUpdatePTRiskBenefitsData`;
+
+DELIMITER $$
+USE `IMS_LRX_AmbEMR_Dataset`$$
+CREATE DEFINER=`root`@`%` PROCEDURE `AddUpdatePTRiskBenefitsData`(
+IN ptUSERNAME VARCHAR(50),
+IN ptMEDICATION VARCHAR(255),
+IN ptSOCIAL_BENIFITS TINYINT(3),
+IN ptRISK1 TINYINT(3),
+IN ptRISK2 TINYINT(3),
+IN ptRISK3 TINYINT(3),
+IN ptRISK4 TINYINT(3),
+IN ptRISK5 TINYINT(3),
+IN ptRISK6 TINYINT(3),
+IN ptRISK7 TINYINT(3),
+IN ptRISK8 TINYINT(3),
+IN ptRISK9 TINYINT(3),
+IN ptRISK10 TINYINT(3),
+IN ptRISK11 TINYINT(3) ,
+IN ptRISK12 TINYINT(3),
+IN ptRISK13 TINYINT(3),
+IN ptRISK14 TINYINT(3),
+IN ptFlag VARCHAR(50)
+)
+BEGIN
+/*
+Insert & Update PT risk & social benefits data from user,
+
+ptFlag VARCHAR(50) - this parameter for identify update if ptFlag is 'Risk', then it will be update Risk data and 
+					 if ptFlag is 'Benefits', then it will be update social benefits data.
+
+call AddUpdatePTRiskBenefitsData(18181044);
+
+Author		Date 		 Comments
+Jayesh 		02/14/2017   Intial - Insert & Update PT risk & social benefits data 
+Jayesh 		03/03/2017   Implemented - individual update of risk & social benefits data 
+
+*/
+
+IF EXISTS( SELECT 1 FROM PT_RISK_BENEFITS WHERE USERNAME = ptUSERNAME AND MEDICATION = ptMEDICATION LIMIT 1)
+THEN
+IF (ptFlag = 'Risk' ) THEN
+
+-- update record
+UPDATE PT_RISK_BENEFITS
+SET
+
+RISK1= ptRISK1,
+RISK2= ptRISK2,
+RISK3= ptRISK3,
+RISK4= ptRISK4,
+RISK5= ptRISK5,
+RISK6= ptRISK6,
+RISK7= ptRISK7,
+RISK8= ptRISK8,
+RISK9= ptRISK9,
+RISK10= ptRISK10,
+RISK11= ptRISK11,
+RISK12= ptRISK12,
+RISK13= ptRISK13,
+RISK14 = ptRISK14 WHERE USERNAME = ptUSERNAME AND MEDICATION = ptMEDICATION;
+
+ELSEIF (ptFlag = 'Benefits' ) THEN
+
+-- update record
+UPDATE PT_RISK_BENEFITS
+SET
+SOCIAL_BENIFITS= ptSOCIAL_BENIFITS  WHERE USERNAME = ptUSERNAME AND MEDICATION = ptMEDICATION;
+END IF;
+
+
+ELSE
+
+IF (ptFlag = 'Risk' ) THEN
+
+INSERT INTO PT_RISK_BENEFITS
+(USERNAME,
+MEDICATION,
+RISK1,
+RISK2,
+RISK3,
+RISK4,
+RISK5,
+RISK6,
+RISK7,
+RISK8,
+RISK9,
+RISK10,
+RISK11,
+RISK12,
+RISK13,
+RISK14)
+VALUES(ptUSERNAME, ptMEDICATION, ptRISK1, ptRISK2, ptRISK3, ptRISK4, ptRISK5, ptRISK6, ptRISK7, ptRISK8, ptRISK9, ptRISK10, ptRISK11, ptRISK12, ptRISK13, ptRISK14);
+
+ELSEIF (ptFlag = 'Benefits' ) THEN
+
+INSERT INTO PT_RISK_BENEFITS
+(USERNAME,
+MEDICATION,
+SOCIAL_BENIFITS)
+VALUES(ptUSERNAME, ptMEDICATION, ptSOCIAL_BENIFITS);
+
+
+END IF;
+
+
+END IF;
+
+
+
+END$$
+
+DELIMITER ;
+

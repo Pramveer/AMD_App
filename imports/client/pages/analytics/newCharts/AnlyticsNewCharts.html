@@ -1,0 +1,84 @@
+<template name="AnlyticsNewCharts">
+    <div class="breadcrumb-fulldiv">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="Efficacy">Analytics</a>
+            
+            <span class="breadcrumb-item active">New Charts</span> 
+        </nav>
+    </div>
+    <!--{{> AnalyticsSubtabs data="charts"}}-->
+
+
+
+    {{#if isLoading}}
+      <div class="content-wrapper">
+        {{> NewLoading}}
+      </div>
+    {{else}}
+
+        {{#if noDataFound}}
+            <div class="providerNoDataFound">No data found.</div>
+        {{else}}
+
+            <div class="ps-section">
+                <div class="efficacy-div">
+                    <!-- <div class="efd-maintitle">Adherence Rate - Medication Possession Ratio</div> -->
+                    <div class="ml-subTabsTitle">Observed and Estimated Starts</div>
+                    
+                </div> 
+            </div>
+
+            <!-- Main Content 
+            ====================-->
+            <div>
+                <!--<h3> Main Content goes here.</h3>-->
+                <div class="panel" style="width:98%;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Observed and Estimated Starts  Distribution by Payer Mix</h3>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                                <!--<div class="analytics-tooltipHead">Retreated Distribution</div>-->
+                                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                                    <span class="boldfnt">Definition</span> - Observed and Estimated Starts  Distribution by Payer Mix
+                                                    <br> <br>
+                                                </div>
+                                            </div>
+                            </span>
+                        </div>
+
+                        <div class="panel-body">
+                            <div id="newChartPayerMix" style="height: 500px"></div>
+                    </div>
+                </div>
+            </div>
+
+             <div>
+                <!--<h3> Main Content goes here.</h3>-->
+                <div class="panel" style="width:98%;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title containertitle " style="display: inline-block;font-size: 20px ! important;">Types and Rates of Care Failure</h3>
+                            <span class="macLearningsubTabs-infoIcon mlInfoTip">
+                                            <div class="analytics-tooltip mlInfoTip_tooltip">
+                                                <!--<div class="analytics-tooltipHead">Retreated Distribution</div>-->
+                                                <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                                    <span class="boldfnt">Definition</span> - Types and Rates of Care Failure
+                                                    <br> <br>
+                                                </div>
+                                            </div>
+                            </span>
+                        </div>
+
+                        <div class="panel-body">
+                            <div id="divRateFailure" style="height: 500px"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Main Content 
+            ==================== End-->
+
+        {{/if}}  <!--  End Of No Data Found If Block  -->
+    {{/if}} <!--  End Of Main If Block  -->
+    {{>MainFooter}}
+</template>

@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search_results count="31">
+  <query>Ombitasvir+Paritaprevir+Ritonavir</query>
+<!-- Additional study fields may be added over time -->  <study rank="1">
+    <nct_id>NCT02615145</nct_id>
+    <title>Real World Evidence of the Effectiveness of Paritaprevir/r - Ombitasvir, ± Dasabuvir, ± Ribavirin in Patients With Chronic Hepatitis C - An Observational Study in Germany (LIFE-C)</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C</condition>
+    </conditions>
+    <interventions/>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>1000</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+      <study_design>Time Perspective: Prospective</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>P15-398</other_id>
+    </other_ids>
+    <first_received>November 24, 2015</first_received>
+    <start_date>December 2015</start_date>
+    <completion_date>April 2018</completion_date>
+    <last_updated>December 18, 2015</last_updated>
+    <last_verified>December 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>LIFE-C</acronym>
+    <primary_completion_date>April 2018</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants with Sustained Virologic Response (SVR12)</outcome_measure>
+      <outcome_measure>Patient Support Program (PSP) Utilization and Satisfaction Assessment</outcome_measure>
+      <outcome_measure>Usage Pattern of Treatment Regimen</outcome_measure>
+      <outcome_measure>Adherence of Participants Per Questionnaire</outcome_measure>
+      <outcome_measure>Change of Participant Activation with the Patient Activation Measure (PAM-13) Questionnaire.</outcome_measure>
+      <outcome_measure>Percentage of Participants with Relapse or Reinfection</outcome_measure>
+      <outcome_measure>Change in Functional Assessment of Chronic Illness Therapy- Fatigue (FACIT-F) Scale</outcome_measure>
+      <outcome_measure>Change in Participants Workability Measured with the Work Productivity and Activity Impairment (WPAI):Hepatitis C Questionnaire</outcome_measure>
+      <outcome_measure>Change in Participants Burden of Suffering Measured with The Pictorial Representation of Illness and Self-Measure (PRISM) tool</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Germany</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02615145</url>
+  </study>
+  <study rank="2">
+    <nct_id>NCT02609659</nct_id>
+    <title>Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir With Low-Dose Ribavirin QD in Subjects With Genotype 1a Chronic Hepatitis C Virus Infection</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir/paritaprevir/ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>100</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M15-582</other_id>
+    </other_ids>
+    <first_received>November 18, 2015</first_received>
+    <start_date>October 2015</start_date>
+    <completion_date>October 2016</completion_date>
+    <last_updated>November 18, 2015</last_updated>
+    <last_verified>November 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>GEODE II</acronym>
+    <primary_completion_date>October 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants Achieving a 12-week Sustained Virologic Response (SVR12) Post-treatment</outcome_measure>
+      <outcome_measure>Number of Participants with Hemoglobin less than 10 g/dL</outcome_measure>
+      <outcome_measure>Percentage of Participants with On-treatment Virologic Failure.</outcome_measure>
+      <outcome_measure>Percentage of Participants with Post-treatment Relapse</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>Florida</state>
+      <state>Georgia</state>
+      <state>Maryland</state>
+      <state>New York</state>
+      <state>North Carolina</state>
+      <state>Texas</state>
+      <state>Wisconsin</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02609659</url>
+  </study>
+  <study rank="3">
+    <nct_id>NCT02582632</nct_id>
+    <title>A Study to Evaluate Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir in Treatment-Naïve Hepatitis C Virus Genotype 1b-Infected Adults</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C Infection</condition>
+      <condition>Hepatitis C Virus</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir/Paritaprevir/Ritonavir</intervention>
+      <intervention type="Drug">dasabuvir</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>160</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M15-684</other_id>
+      <other_id>2015-003370-33</other_id>
+    </other_ids>
+    <first_received>October 20, 2015</first_received>
+    <start_date>November 2015</start_date>
+    <completion_date>February 2017</completion_date>
+    <last_updated>October 20, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>November 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants who achieve sustained virologic response 12 weeks post-treatment (SVR12)</outcome_measure>
+      <outcome_measure>Percentage of participants with virologic failure during treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with post-treatment relapse</outcome_measure>
+      <outcome_measure>Percentage of female participants who achieve sustained virologic response 12 (SVR12) weeks post-treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with low baseline viral load who achieve sustained virologic response 12 (SVR12) weeks post-treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02582632</url>
+  </study>
+  <study rank="4">
+    <nct_id>NCT02504099</nct_id>
+    <title>A Study to Evaluate the Safety and Efficacy of Ombitasvir/Paritaprevir/r With or Without Dasabuvir and With or Without Ribavirin in Chronic Hepatitis C Virus Genotype 1 or 4 Infected Adults With Successfully Treated Early Stage Hepatocellular Carcinoma</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir/Paritaprevir/Ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>60</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-726</other_id>
+      <other_id>2015-001049-10</other_id>
+    </other_ids>
+    <first_received>July 20, 2015</first_received>
+    <start_date>July 2015</start_date>
+    <completion_date>March 2020</completion_date>
+    <last_updated>October 16, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>September 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment</outcome_measure>
+      <outcome_measure>The percentage of participants with long term clinical outcomes from treatment through 3 years of follow-up.</outcome_measure>
+      <outcome_measure>The percentage of participants with recurrent HCV infection post liver transplant out of all participants with liver transplant during the study.</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+      <country>Canada</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>Florida</state>
+      <state>Illinois</state>
+      <state>New York</state>
+      <state>Pennsylvania</state>
+      <state>Texas</state>
+      <state>Utah</state>
+      <state>Washington</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02504099</url>
+  </study>
+  <study rank="5">
+    <nct_id>NCT02399345</nct_id>
+    <title>Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir Co-Administered With Sofosbuvir With and Without Ribavirin in Treatment-Naive HCV Genotype 1-Infected Adults</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Virus (HCV Infection Genotype 1)</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ombitasvir/paritaprevir/ritonavir</intervention>
+      <intervention type="Drug">dasabuvir</intervention>
+      <intervention type="Drug">sofosbuvir (SOF)</intervention>
+      <intervention type="Drug">Ribavirin (RBV)</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>10</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M15-310</other_id>
+      <other_id>2014-005280-32</other_id>
+    </other_ids>
+    <first_received>March 23, 2015</first_received>
+    <start_date>March 2015</start_date>
+    <completion_date>November 2015</completion_date>
+    <last_updated>November 18, 2015</last_updated>
+    <last_verified>November 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>November 2015</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of subjects achieving a 12-week sustained virologic response</outcome_measure>
+      <outcome_measure>Percentage of subjects with on-treatment virologic failure</outcome_measure>
+      <outcome_measure>Percentage of subjects with post-treatment relapse</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Canada</country>
+      <country>Australia</country>
+      <country>New Zealand</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02399345</url>
+  </study>
+  <study rank="6">
+    <nct_id>NCT02442284</nct_id>
+    <title>A Study to Evaluate the Safety and Efficacy of Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir With or Without Ribavirin in US Veterans With Genotype 1 Chronic Hepatitis C Virus Infection</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C</condition>
+      <condition>Cirrhosis</condition>
+      <condition>Hepatitis C Virus</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir</intervention>
+      <intervention type="Drug">Paritaprevir</intervention>
+      <intervention type="Drug">Ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>100</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-251</other_id>
+    </other_ids>
+    <first_received>May 11, 2015</first_received>
+    <start_date>May 2015</start_date>
+    <completion_date>November 2016</completion_date>
+    <last_updated>November 23, 2015</last_updated>
+    <last_verified>November 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>August 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants with Sustained Virologic Response 12 weeks post-treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with virologic failure during treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with virologic relapse post-treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with Sustained Virologic Response 12 weeks post-treatment among participants with ongoing psychiatric disorders</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+      <country>Puerto Rico</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>California</state>
+      <state>Connecticut</state>
+      <state>Florida</state>
+      <state>Iowa</state>
+      <state>Massachusetts</state>
+      <state>New York</state>
+      <state>North Carolina</state>
+      <state>Virginia</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02442284</url>
+  </study>
+  <study rank="7">
+    <nct_id>NCT01672983</nct_id>
+    <title>A Study to Evaluate ABT-450 With Ritonavir (ABT-450/r) and ABT-267 in Japanese Adults With Chronic Hepatitis C Virus Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/ritonavir, ABT-267</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 2</phase>
+    </phases>
+    <enrollment>110</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M12-536</other_id>
+    </other_ids>
+    <first_received>July 27, 2012</first_received>
+    <start_date>July 2012</start_date>
+    <completion_date>May 2014</completion_date>
+    <last_updated>October 27, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>October 27, 2015</firstreceived_results_date>
+    <primary_completion_date>May 2014</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 24 Weeks After Treatment (SVR24)</outcome_measure>
+      <outcome_measure>Number of Participants With Adverse Events (AEs)</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment (SVR12)</outcome_measure>
+      <outcome_measure>Percentage of Participants With End of Treatment (EOT) Response</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01672983</url>
+  </study>
+  <study rank="8">
+    <nct_id>NCT02219477</nct_id>
+    <title>A Study to Evaluate the Safety and Efficacy of Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir With Ribavirin in Adults With Genotype 1 and Ombitasvir/Paritaprevir/Ritonavir With Ribavirin in Adults With Genotype 4 Chronic Hepatitis C Virus Infection and Decompensated Cirrhosis</title>
+    <recruitment open="N">Active, not recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C</condition>
+      <condition>Decompensated Cirrhosis</condition>
+      <condition>Hepatitis C Virus</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/ritonavir/ABT-267</intervention>
+      <intervention type="Drug">ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>60</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-227</other_id>
+      <other_id>2014-001477-13</other_id>
+    </other_ids>
+    <first_received>August 15, 2014</first_received>
+    <start_date>November 2014</start_date>
+    <completion_date>February 2017</completion_date>
+    <last_updated>October 16, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>TURQUOISE-CPB</acronym>
+    <primary_completion_date>June 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants with Sustained Virologic Response 12 weeks post-treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with virologic failure during treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with virologic relapse post-treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with improvement in laboratory parameters associated with hepatic function</outcome_measure>
+      <outcome_measure>Percentage of Genotype 4 participants with Sustained Virologic Response 12 weeks post-treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+      <country>Canada</country>
+      <country>Germany</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>Colorado</state>
+      <state>Louisiana</state>
+      <state>Michigan</state>
+      <state>North Carolina</state>
+      <state>Pennsylvania</state>
+      <state>Texas</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02219477</url>
+  </study>
+  <study rank="9">
+    <nct_id>NCT02487199</nct_id>
+    <title>Ombitasvir/Paritaprevir/Ritonavir With or Without Dasabuvir in Adults With Genotype 1a or Genotype 4 Chronic Hepatitis C Virus (HCV) Infection, With Severe Kidney Impairment or End Stage Kidney Disease</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>HCV</condition>
+      <condition>Genotype 1a</condition>
+      <condition>Genotype 4</condition>
+      <condition>Chronic Kidney Disease</condition>
+      <condition>Hepatitis C</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir/Paritaprevir/Ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>40</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M15-461</other_id>
+      <other_id>2015-002012-33</other_id>
+    </other_ids>
+    <first_received>June 29, 2015</first_received>
+    <start_date>September 2015</start_date>
+    <completion_date>August 2016</completion_date>
+    <last_updated>October 20, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>May 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants with SVR12 in each arm</outcome_measure>
+      <outcome_measure>Number of participants with Adverse Events</outcome_measure>
+      <outcome_measure>Percentage of participants with on-treatment virologic failure in each treatment</outcome_measure>
+      <outcome_measure>Percentage of participants with post-treatment relapse within 12 weeks following end of treatment in each arm</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Australia</country>
+      <country>New Zealand</country>
+      <country>Spain</country>
+      <country>United Kingdom</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02487199</url>
+  </study>
+  <study rank="10">
+    <nct_id>NCT02498015</nct_id>
+    <title>A Phase IV Trial of Paritaprevir/Ritonavir, Ombitasvir, Dasabuvir for Chronic Hepatitis C Genotype 1 Virus Infection</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C, Chronic</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">&quot;3D&quot; regimen</intervention>
+      <intervention type="Drug">&quot;3D&quot; regimen with ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>Kirby Institute</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 4</phase>
+    </phases>
+    <enrollment>100</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>VHCRP1405</other_id>
+    </other_ids>
+    <first_received>June 26, 2015</first_received>
+    <start_date>November 2015</start_date>
+    <completion_date>October 2018</completion_date>
+    <last_updated>July 12, 2015</last_updated>
+    <last_verified>July 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>D3FEAT</acronym>
+    <primary_completion_date>July 2018</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>The proportion of participants with undetectable HCV RNA at 12 weeks post end of treatment (SVR12)</outcome_measure>
+      <outcome_measure>The proportion of participants with undetectable HCV RNA at 2 weeks following the initiation of treatment - week 2</outcome_measure>
+      <outcome_measure>The proportion of participants with undetectable HCV RNA at 4 weeks following the initiation of treatment - week 4</outcome_measure>
+      <outcome_measure>The proportion of participants with undetectable HCV RNA at the end of treatment - week 12</outcome_measure>
+      <outcome_measure>The proportion of participants with undetectable HCV RNA at 24 weeks post end of treatment (SVR24)</outcome_measure>
+      <outcome_measure>Treatment adherence</outcome_measure>
+      <outcome_measure>Association between adherence and response to treatment</outcome_measure>
+      <outcome_measure>Safety and tolerability (number and type of adverse events and serious adverse events)</outcome_measure>
+      <outcome_measure>Change in injecting drug use and injecting risk behaviour</outcome_measure>
+      <outcome_measure>Change in mental health</outcome_measure>
+      <outcome_measure>Change in health-related quality of life Questionnaire</outcome_measure>
+      <outcome_measure>Impact of mixed HCV infection on treatment response</outcome_measure>
+      <outcome_measure>Change in opioid substitution therapy</outcome_measure>
+      <outcome_measure>HCV reinfection rate</outcome_measure>
+      <outcome_measure>Emergence of viral resistance-associated variants (RAVs)</outcome_measure>
+      <outcome_measure>Utility of HCV core antigen testing as a simple method for HCV monitoring</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Australia</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02498015</url>
+  </study>
+  <study rank="11">
+    <nct_id>NCT02207088</nct_id>
+    <title>Ombitasvir/ABT-450/Ritonavir and Dasabuvir With or Without Ribavirin in HCV Genotype 1-Infected Adults With Chronic Kidney Disease</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C</condition>
+      <condition>Hepatitis C Virus</condition>
+      <condition>Compensated Cirrhosis</condition>
+      <condition>Severe Renal Impairment</condition>
+      <condition>End-stage Renal Disease</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ombitasvir/paritaprevir/ritonavir</intervention>
+      <intervention type="Drug">dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>70</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-226</other_id>
+      <other_id>2014-001527-77</other_id>
+    </other_ids>
+    <first_received>July 31, 2014</first_received>
+    <start_date>September 2014</start_date>
+    <completion_date>December 2016</completion_date>
+    <last_updated>October 16, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>December 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of subjects with Sustained Virologic Response 12 weeks post-treatment</outcome_measure>
+      <outcome_measure>Percentage of subjects with on-treatment virologic failure</outcome_measure>
+      <outcome_measure>Percentage of subjects with post-treatment relapse</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>Arizona</state>
+      <state>California</state>
+      <state>Florida</state>
+      <state>Maryland</state>
+      <state>New York</state>
+      <state>North Carolina</state>
+      <state>Pennsylvania</state>
+      <state>Texas</state>
+      <state>Washington</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02207088</url>
+  </study>
+  <study rank="12">
+    <nct_id>NCT01685203</nct_id>
+    <title>A Study to Evaluate the Safety and Effect of Co-administration of ABT-450 With Ritonavir (ABT-450/r) and ABT-267 in Adults With Chronic Hepatitis C Virus Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Hepatitis C, Chronic</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r</intervention>
+      <intervention type="Drug">ABT-267</intervention>
+      <intervention type="Drug">Ribavirin (RBV)</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 2</phase>
+    </phases>
+    <enrollment>316</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-393</other_id>
+      <other_id>2011-005762-38</other_id>
+    </other_ids>
+    <first_received>September 12, 2012</first_received>
+    <start_date>August 2012</start_date>
+    <completion_date>February 2015</completion_date>
+    <last_updated>August 3, 2015</last_updated>
+    <last_verified>August 2015</last_verified>
+    <firstreceived_results_date>June 9, 2015</firstreceived_results_date>
+    <acronym>PEARL-I</acronym>
+    <primary_completion_date>June 2014</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants in Each Treatment Group With Sustained Virologic Response 12 Weeks Post-treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants in Each Treatment Group With Sustained Virologic Response 24 Weeks Post-treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants in Each Treatment Group With On-treatment Virologic Failure.</outcome_measure>
+      <outcome_measure>Percentage of Participants in Each Treatment Group With Post-treatment Virologic Relapse.</outcome_measure>
+      <outcome_measure>Percentage of Participants in Each Treatment Group With Treatment-emergent Adverse Events</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01685203</url>
+  </study>
+  <study rank="13">
+    <nct_id>NCT02442271</nct_id>
+    <title>A Study to Evaluate the Efficacy and Safety of Three Experimental Drugs in Adults With Hepatitis C Virus Infection, Who Are Either Treatment-naive or Treatment-experienced in Brazil</title>
+    <recruitment open="N">Active, not recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ombitasvir/Paritaprevir/Ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>220</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-225</other_id>
+    </other_ids>
+    <first_received>May 11, 2015</first_received>
+    <start_date>April 2015</start_date>
+    <completion_date>October 2016</completion_date>
+    <last_updated>December 10, 2015</last_updated>
+    <last_verified>December 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>May 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants achieving sustained virologic response SVR12</outcome_measure>
+      <outcome_measure>Percentage of participants achieving SVR12</outcome_measure>
+      <outcome_measure>Change in general health-related quality of life using the HCV-Patient Related Outcome (HCV PRO) scores</outcome_measure>
+      <outcome_measure>Change in general health-related quality of life using the SF36V2 Physical Component Summary (PCS) scores</outcome_measure>
+      <outcome_measure>Change in general health-related quality of life using the SF36V2 Mental Component Summary (MCS) scores</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Brazil</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02442271</url>
+  </study>
+  <study rank="14">
+    <nct_id>NCT02634008</nct_id>
+    <title>Treatment of Recently Acquired Genotype 1 Hepatitis C With the 3D Regimen</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C, Acute</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Paritaprevir/ritonavir/ombitasvir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>Kirby Institute</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 4</phase>
+    </phases>
+    <enrollment>60</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>VHCRP1502</other_id>
+    </other_ids>
+    <first_received>December 9, 2015</first_received>
+    <start_date>January 2016</start_date>
+    <completion_date>April 2019</completion_date>
+    <last_updated>December 14, 2015</last_updated>
+    <last_verified>December 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>TARGET3D</acronym>
+    <primary_completion_date>April 2017</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Proportion of treated subjects (intention-to-treat (ITT) population) demonstrating undetectable hepatitis C virus (HCV) RNA at 12 weeks following treatment (SVR 12).</outcome_measure>
+      <outcome_measure>The proportion of treated subjects overall with ETR, SVR4 and SVR24 defined as undetectable HCV RNA at end of therapy, 4 weeks and 24 weeks post therapy, respectively.</outcome_measure>
+      <outcome_measure>Comparison of ETR, SVR4, SVR12 and SVR24 between those receiving 8 weeks treatment and those receiving 6 weeks treatment.</outcome_measure>
+      <outcome_measure>Comparison of adherence between those receiving 8 weeks treatment and those receiving 6 weeks treatment</outcome_measure>
+      <outcome_measure>Proportion with early treatment discontinuation</outcome_measure>
+      <outcome_measure>Proportion with adverse events (including serious adverse events)</outcome_measure>
+      <outcome_measure>Changes in laboratory parameters, including liver function tests (ALT, AST) and haematological indices (haemoglobin, neutrophil count, platelet count)</outcome_measure>
+      <outcome_measure>Emergence of resistance associated variants (RAVs)</outcome_measure>
+      <outcome_measure>HCV reinfection rate</outcome_measure>
+      <outcome_measure>Changes in sexual and injecting drug use behaviour at SVR 12 and end of follow up</outcome_measure>
+      <outcome_measure>Serum cytokine and ISG expression at baseline and week 4</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Australia</country>
+      <country>New Zealand</country>
+      <country>United Kingdom</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02634008</url>
+  </study>
+  <study rank="15">
+    <nct_id>NCT01674725</nct_id>
+    <title>A Study to Evaluate the Safety and Effect of the Experimental Drugs ABT-450/Ritonavir/ABT-267 (ABT-450/r/ABT-267) and ABT-333 in Subjects With Chronic Hepatitis C</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>187</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-389</other_id>
+      <other_id>2011-005740-95</other_id>
+    </other_ids>
+    <first_received>July 27, 2012</first_received>
+    <start_date>August 2012</start_date>
+    <completion_date>October 2014</completion_date>
+    <last_updated>October 13, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <acronym>PEARL-II</acronym>
+    <primary_completion_date>January 2014</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Primary Analyses</outcome_measure>
+      <outcome_measure>Percentage of Participants With Hemoglobin Decrease to Below the Lower Limit of Normal (LLN) At End of Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Secondary Analyses</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01674725</url>
+  </study>
+  <study rank="16">
+    <nct_id>NCT01704755</nct_id>
+    <title>A Study to Evaluate the Safety and Efficacy of ABT-450/Ritonavir/ABT-267; (ABT-267 Also Known as Ombitasvir) and ABT-333 (Also Known as Dasabuvir) Coadministered With Ribavirin (RBV) in Hepatitis C Virus (HCV) Genotype 1-infected Adults With Compensated Cirrhosis</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+      <condition>Compensated Cirrhosis</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin (RBV)</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>381</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-099</other_id>
+      <other_id>2012-003088-23</other_id>
+    </other_ids>
+    <first_received>September 28, 2012</first_received>
+    <start_date>October 2012</start_date>
+    <completion_date>September 2014</completion_date>
+    <last_updated>September 24, 2015</last_updated>
+    <last_verified>September 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <acronym>TURQUOISE-II</acronym>
+    <primary_completion_date>January 2014</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks Post-treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks Post-treatment in the 24-week Arm Compared to the 12-week Arm</outcome_measure>
+      <outcome_measure>Percentage of Participants in Each Arm With On-treatment Virologic Failure During the Treatment Period</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01704755</url>
+  </study>
+  <study rank="17">
+    <nct_id>NCT02023099</nct_id>
+    <title>Study to Evaluate the Efficacy and Safety of ABT-450/Ritonavir/ABT-267 (ABT-450/r/ABT-267) in Japanese Adults With Subgenotype 1b Chronic Hepatitis C Virus (HCV) Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">Placebo</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>363</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor)</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-004</other_id>
+    </other_ids>
+    <first_received>December 23, 2013</first_received>
+    <start_date>December 2013</start_date>
+    <completion_date>October 2015</completion_date>
+    <last_updated>October 27, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>October 27, 2015</firstreceived_results_date>
+    <acronym>GIFT I</acronym>
+    <primary_completion_date>October 2014</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Non-cirrhotic Treatment-naive Participants Who Are Eligible for Interferon (IFN)-Based Therapy and Who Have High Viral Load in the DB Active Treatment Group With a Sustained Virologic Response 12 Weeks Post-treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants in the Active Treatment Group With On-treatment Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants in the Active Treatment Group With Post-treatment Relapse</outcome_measure>
+      <outcome_measure>Percentage of Participants in the Active Treatment Group With Sustained Virologic Response 12 Weeks Post-treatment Within Different Subpopulations</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Japan</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02023099</url>
+  </study>
+  <study rank="18">
+    <nct_id>NCT01939197</nct_id>
+    <title>A Two Part, Open-label Study to Evaluate the Safety and Effectiveness of ABT-450/r/ABT-267 or ABT-450/r/ABT-267 and ABT-333 Given With or Without a Drug Called Ribavirin in People With Both Hepatitis C Virus Genotype 1 or 4 Infection and Human Immunodeficiency Virus, Type 1 Infection</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C Virus Infection</condition>
+      <condition>Human Immunodeficiency Virus Infection</condition>
+      <condition>Chronic Hepatitis C</condition>
+      <condition>Compensated Cirrhosis and Non-cirrhotics</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">ABT-333</intervention>
+      <intervention type="Drug">Ribavirin (RBV)</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>320</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-004</other_id>
+      <other_id>2012-005143-24</other_id>
+    </other_ids>
+    <first_received>September 6, 2013</first_received>
+    <start_date>August 2013</start_date>
+    <completion_date>September 2016</completion_date>
+    <last_updated>October 3, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>TURQUOISE-I</acronym>
+    <primary_completion_date>July 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of subjects in genotype 1 Analysis Group 1 in Part 2 achieving sustained virologic response 12 weeks post-treatment (SVR12) compared to the historical SVR12 rate for sofosbuvir plus ribavirin as reported in the PHOTON-1 study</outcome_measure>
+      <outcome_measure>The percentage of subjects in genotype 1 Analysis Group 2 of Part 2 achieving sustained virologic response 12 weeks post-treatment (SVR12) compared to the historical rate for sofosbuvir plus ribavirin</outcome_measure>
+      <outcome_measure>The percentage of Part 1a subjects achieving sustained virologic response 12 weeks post-treatment (SVR12) in the 24-week treatment group compared to the 12-week treatment group using Fisher's exact test</outcome_measure>
+      <outcome_measure>The percentage of subjects of Part 1b subjects achieving sustained virologic response 12 weeks post-treatment (SVR12) in the darunavir once-daily arm compared to the darunavir twice-daily arm using Fisher's exact test</outcome_measure>
+      <outcome_measure>The percentage of Part 1b subjects achieving sustained virologic response 12 weeks post-treatment (SVR12)</outcome_measure>
+      <outcome_measure>The percentage of Part 2 GT 1b cirrhotic subjects achieving sustained virologic response 12 weeks post-treatment (SVR12) in Arm F (without ribavirin) compared to Arm G (with ribavirin) using Fisher's exact test</outcome_measure>
+      <outcome_measure>The percentage of genotype 4 subjects in Part 2 achieving sustained virologic response 12 weeks post-treatment (SVR12) by arm and overall</outcome_measure>
+      <outcome_measure>Percentage of subjects with on treatment Hepatitis C Virus virologic failure during the Treatment Period for each arm in Part 1, set of all subjects in Part 1b, the genotype 1 Analysis Group 1 and 2 in Part 2, the GT4 Analysis Group by arm and overall</outcome_measure>
+      <outcome_measure>The percentage of subjects with Hepatitis C Virus post-treatment relapse (analyses performed as described for secondary endpoint 7).</outcome_measure>
+      <outcome_measure>Percentage of subjects with plasma HIV-1 RNA suppression at end of treatment and 12 weeks post-treatment (analyses performed as described for secondary endpoint 7) and comparison of the darunavir once-daily and twice-daily arms in Part 1b</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+      <country>Canada</country>
+      <country>Australia</country>
+      <country>France</country>
+      <country>Germany</country>
+      <country>Italy</country>
+      <country>New Zealand</country>
+      <country>Puerto Rico</country>
+      <country>Russian Federation</country>
+      <country>Spain</country>
+      <country>United Kingdom</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>Alabama</state>
+      <state>Arizona</state>
+      <state>California</state>
+      <state>Colorado</state>
+      <state>Connecticut</state>
+      <state>District of Columbia</state>
+      <state>Florida</state>
+      <state>Illinois</state>
+      <state>Maryland</state>
+      <state>Michigan</state>
+      <state>New Jersey</state>
+      <state>New York</state>
+      <state>North Carolina</state>
+      <state>Oklahoma</state>
+      <state>Texas</state>
+      <state>Virginia</state>
+      <state>Washington</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT01939197</url>
+  </study>
+  <study rank="19">
+    <nct_id>NCT02486406</nct_id>
+    <title>A Study to Evaluate Treatment of Hepatitis C Virus Infection in Pediatric Subjects</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ombitasvir</intervention>
+      <intervention type="Drug">paritaprevir</intervention>
+      <intervention type="Drug">ritonavir</intervention>
+      <intervention type="Drug">dasabuvir</intervention>
+      <intervention type="Drug">ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Child</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>186</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-748</other_id>
+      <other_id>2015-000111-41</other_id>
+    </other_ids>
+    <first_received>June 17, 2015</first_received>
+    <start_date>October 2015</start_date>
+    <completion_date>January 2023</completion_date>
+    <last_updated>October 16, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>ZIRCON</acronym>
+    <primary_completion_date>September 2019</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Part1: Maximum plasma concentration (Cmax) of OBV</outcome_measure>
+      <outcome_measure>Part 1: Maximum plasma concentration (Cmax) of PTV</outcome_measure>
+      <outcome_measure>Part 1: Maximum plasma concentration (Cmax) of DSV</outcome_measure>
+      <outcome_measure>Part 1: Maximum plasma concentration (Cmax) of RTV</outcome_measure>
+      <outcome_measure>Part 1: concentration of drug in blood plasma against time [Area under the curve (AUC)] of OBV</outcome_measure>
+      <outcome_measure>Part 1: concentration of drug in blood plasma against time [Area under the curve (AUC)] of PTV</outcome_measure>
+      <outcome_measure>Part 1: concentration of drug in blood plasma against time [Area under the curve (AUC)] of DSV</outcome_measure>
+      <outcome_measure>Part 1: concentration of drug in blood plasma against time [Area under the curve (AUC)] of RTV</outcome_measure>
+      <outcome_measure>Part 1: Lowest plasma concentration (Ctrough) of OBV</outcome_measure>
+      <outcome_measure>Part 1: Lowest plasma concentration (Ctrough) of PTV</outcome_measure>
+      <outcome_measure>Part 1: Lowest plasma concentration (Ctrough) of DSV</outcome_measure>
+      <outcome_measure>Part 1: Lowest plasma concentration (Ctrough) of RTV</outcome_measure>
+      <outcome_measure>Part 2: Percentage of treatment-naïve participants with sustained virologic response 24 weeks after the last actual dose of study drug (SVR24)</outcome_measure>
+      <outcome_measure>Part 3: Percentage of participants who relapse out of participants who achieved sustained virologic response (SVR) in Part 1 or Part 2 of the study.</outcome_measure>
+      <outcome_measure>Part 3: Percentage of participants who have new HCV infection</outcome_measure>
+      <outcome_measure>Part 1: Percentage of participants achieving sustained virologic response 12 weeks after the last actual dose of study drug (SVR12)</outcome_measure>
+      <outcome_measure>Part 1: Percentage of participants achieving SVR24</outcome_measure>
+      <outcome_measure>Part 2: Percentage of treatment-naive participants achieving SVR12</outcome_measure>
+      <outcome_measure>Part 2: Percentage of participants with Alanine aminotransferase (ALT) normalization during treatment</outcome_measure>
+      <outcome_measure>Part 3: Assess the impact of OBV, PTV, RTV with or without DSV and with or without RBV on height</outcome_measure>
+      <outcome_measure>Part 3: Assess the impact of OBV, PTV, RTV with or without DSV and with or without RBV on waist circumference</outcome_measure>
+      <outcome_measure>Part 3: Assess the impact of OBV, PTV, RTV with or without DSV and with or without RBV on tanner staging</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>United States</country>
+    </unique_countries>
+    <unique_states country="United States">
+      <state>California</state>
+      <state>Colorado</state>
+      <state>Florida</state>
+      <state>Indiana</state>
+      <state>Louisiana</state>
+      <state>Massachusetts</state>
+      <state>New York</state>
+      <state>Pennsylvania</state>
+      <state>Texas</state>
+    </unique_states>
+    <url>https://ClinicalTrials.gov/show/NCT02486406</url>
+  </study>
+  <study rank="20">
+    <nct_id>NCT01911845</nct_id>
+    <title>An Open-label, Single Arm, Phase 2 Study to Evaluate ABT-450/r/ABT-267 and ABT-333 With Ribavirin (RBV) in Adults With Genotype 1 HCV Infection Taking Methadone or Buprenorphine</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+      <condition>Chronic Hepatitis C</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">ABT-333</intervention>
+      <intervention type="Drug">Ribavirin (RBV)</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 2</phase>
+    </phases>
+    <enrollment>38</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-103</other_id>
+    </other_ids>
+    <first_received>May 13, 2013</first_received>
+    <start_date>April 2013</start_date>
+    <completion_date>September 2014</completion_date>
+    <last_updated>September 16, 2015</last_updated>
+    <last_verified>August 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <primary_completion_date>December 2013</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks Post-treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse Post-treatment</outcome_measure>
+      <outcome_measure>Area Under the Plasma Concentration-time Curve (AUC) for ABT-450, Ritonavir, ABT-267, ABT-333, ABT-333 M1 Metabolite, and Ribavirin</outcome_measure>
+      <outcome_measure>Maximum Plasma Concentration (Cmax) for ABT-450, Ritonavir, ABT-267, ABT-333, ABT-333 M1 Metabolite, and Ribavirin</outcome_measure>
+      <outcome_measure>Time to Maximum Plasma Concentration (Tmax) for ABT-450, Ritonavir, ABT-267, ABT-333, ABT-333 M1 Metabolite, and Ribavirin</outcome_measure>
+      <outcome_measure>Plasma Trough Concentration (Ctrough) for ABT-450, Ritonavir, ABT-267, ABT-333, ABT-333 M1 Metabolite, and Ribavirin</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01911845</url>
+  </study>
+  <study rank="21">
+    <nct_id>NCT01715415</nct_id>
+    <title>A Study to Evaluate Chronic Hepatitis C Infection in Treatment Experienced Adults</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+      <intervention type="Drug">Placebo for ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">Placebo for ABT-333</intervention>
+      <intervention type="Drug">Placebo for ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>395</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Double Blind (Subject, Investigator)</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-098</other_id>
+      <other_id>2012-002035-29</other_id>
+    </other_ids>
+    <first_received>October 25, 2012</first_received>
+    <start_date>November 2012</start_date>
+    <completion_date>October 2014</completion_date>
+    <last_updated>October 23, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <primary_completion_date>November 2013</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Normalization of Alanine Aminotransferase (ALT) at Final Treatment Visit During the Double-Blind Treatment Period</outcome_measure>
+      <outcome_measure>Percentage of HCV Genotype 1a-infected Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of HCV Genotype 1b-infected Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With On-treatment Virologic Failure During the Double-blind Treatment Period: ABT-450/r/ABT-267 and ABT-333, Plus RBV Arm</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment: ABT-450/r/ABT-267 and ABT-333, Plus RBV Arm</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01715415</url>
+  </study>
+  <study rank="22">
+    <nct_id>NCT01767116</nct_id>
+    <title>A Study to Evaluate Chronic Hepatitis C Infection in Adults With Genotype 1b Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+      <intervention type="Drug">Placebo for ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>419</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Double Blind (Subject, Investigator)</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-961</other_id>
+      <other_id>2012-003687-52</other_id>
+    </other_ids>
+    <first_received>November 30, 2012</first_received>
+    <start_date>December 2012</start_date>
+    <completion_date>August 2014</completion_date>
+    <last_updated>August 19, 2015</last_updated>
+    <last_verified>August 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <acronym>PEARL-III</acronym>
+    <primary_completion_date>December 2013</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Noninferiority Analyses of Each Treatment Arm Compared to Historical Rate</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Noninferiority Analysis of ABT-450/r/ABT-267 and ABT-333, Plus Placebo RBV Compared With ABT-450/r/ABT-267 and ABT-333, Plus RBV</outcome_measure>
+      <outcome_measure>Percentage of Participants With Hemoglobin Decrease to Below the Lower Limit of Normal (LLN) At End of Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Superiority Analyses of Each Treatment Arm Compared to Historical Rate</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01767116</url>
+  </study>
+  <study rank="23">
+    <nct_id>NCT02581163</nct_id>
+    <title>Effectiveness of Paritaprevir/Ritonavir - Ombitasvir, +/- Dasabuvir, +/- Ribavirin in Patients With Chronic Hepatitis C - An Observational Study in Belgium</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C, Genotype 1 or 4</condition>
+    </conditions>
+    <interventions/>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>440</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+      <study_design>Time Perspective: Prospective</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>P15-650</other_id>
+    </other_ids>
+    <first_received>October 19, 2015</first_received>
+    <start_date>October 2015</start_date>
+    <completion_date>September 2018</completion_date>
+    <last_updated>October 19, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>September 2018</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of participants achieving sustained virological response at week 12 (SVR12)</outcome_measure>
+      <outcome_measure>Percentage of participants with virological response.</outcome_measure>
+      <outcome_measure>Percentage of participants who relapse</outcome_measure>
+      <outcome_measure>Percentage of participants who achieved breakthrough</outcome_measure>
+      <outcome_measure>Percentage of patients meeting On-treatment virologic failure</outcome_measure>
+      <outcome_measure>Percentage of patients meeting relapse</outcome_measure>
+      <outcome_measure>Percentage of patients meeting Premature study drug discontinuation with no on-treatment virologic failure</outcome_measure>
+      <outcome_measure>Percentage of patients missing SVR12 data and/or none of the above criteria</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>Belgium</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02581163</url>
+  </study>
+  <study rank="24">
+    <nct_id>NCT01833533</nct_id>
+    <title>A Study to Evaluate Chronic Hepatitis C Infection in Adults With Genotype 1a Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+      <intervention type="Drug">Placebo for Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>305</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Double Blind (Subject, Investigator)</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M14-002</other_id>
+      <other_id>2012-005522-29</other_id>
+    </other_ids>
+    <first_received>February 27, 2013</first_received>
+    <start_date>March 2013</start_date>
+    <completion_date>September 2014</completion_date>
+    <last_updated>September 4, 2015</last_updated>
+    <last_verified>September 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <acronym>PEARL-IV</acronym>
+    <primary_completion_date>December 2013</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Primary Analyses</outcome_measure>
+      <outcome_measure>Percentage of Participants With Hemoglobin Decrease to Below the Lower Limit of Normal (LLN) At End of Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment; Secondary Analyses</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Failure During Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01833533</url>
+  </study>
+  <study rank="25">
+    <nct_id>NCT01716585</nct_id>
+    <title>A Study to Evaluate Chronic Hepatitis C Infection</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>Has Results</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267, ABT-333</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+      <intervention type="Drug">Placebo for ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">Placebo for ABT-333</intervention>
+      <intervention type="Drug">Placebo for ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie (prior sponsor, Abbott)</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>636</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Double Blind (Subject, Investigator)</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M11-646</other_id>
+      <other_id>2012-002019-25</other_id>
+    </other_ids>
+    <first_received>October 18, 2012</first_received>
+    <start_date>November 2012</start_date>
+    <completion_date>October 2014</completion_date>
+    <last_updated>October 9, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>December 23, 2014</firstreceived_results_date>
+    <primary_completion_date>October 2013</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With Normalization of Alanine Aminotransferase (ALT) at Final Treatment Visit During the Double-Blind Treatment Period</outcome_measure>
+      <outcome_measure>Percentage of HCV Genotype 1a-infected Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of HCV Genotype 1b-infected Participants With Sustained Virologic Response 12 Weeks After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants With On-treatment Virologic Failure During the Double-blind Treatment Period: ABT-450/r/ABT-267 and ABT-333, Plus RBV Arm</outcome_measure>
+      <outcome_measure>Percentage of Participants With Virologic Relapse After Treatment: ABT-450/r/ABT-267 and ABT-333, Plus RBV Arm</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT01716585</url>
+  </study>
+  <study rank="26">
+    <nct_id>NCT02534870</nct_id>
+    <title>Pharmacokinetics and Safety of the Co-administration of ABT-450/Ritonavir/ABT-267 (ABT-450/r/ABT-267) and ABT-333 in Healthy Chinese Subjects</title>
+    <recruitment open="N">Completed</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Healthy Volunteer</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ABT-450/r/ABT-267</intervention>
+      <intervention type="Drug">ABT-333</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 1</phase>
+    </phases>
+    <enrollment>18</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Endpoint Classification: Pharmacokinetics Study</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>M13-769</other_id>
+    </other_ids>
+    <first_received>August 26, 2015</first_received>
+    <start_date>September 2015</start_date>
+    <completion_date>September 2015</completion_date>
+    <last_updated>October 15, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>September 2015</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Maximum Plasma Concentration (Cmax) of ABT-450</outcome_measure>
+      <outcome_measure>Maximum Plasma Concentration (Cmax) of ABT-267</outcome_measure>
+      <outcome_measure>Maximum Plasma Concentration (Cmax) of ABT-333</outcome_measure>
+      <outcome_measure>Maximum Plasma Concentration (Cmax) of Ritonavir</outcome_measure>
+      <outcome_measure>Time to Maximum Plasma Concentration (Tmax) of ABT-450</outcome_measure>
+      <outcome_measure>Time to Maximum Plasma Concentration (Tmax) of ABT-267</outcome_measure>
+      <outcome_measure>Time to Maximum Plasma Concentration (Tmax) of ABT-333</outcome_measure>
+      <outcome_measure>Time to Maximum Plasma Concentration (Tmax) of Ritonavir</outcome_measure>
+      <outcome_measure>Trough Concentration (Ctrough) of ABT-450</outcome_measure>
+      <outcome_measure>Trough Concentration (Ctrough) of ABT-267</outcome_measure>
+      <outcome_measure>Trough Concentration (Ctrough) of ABT-333</outcome_measure>
+      <outcome_measure>Trough Concentration (Ctrough) of Ritonavir</outcome_measure>
+      <outcome_measure>Area Under the Plasma Concentration-time Curve From 0 to 24 Hours (AUC24) Post-dose of ABT-450</outcome_measure>
+      <outcome_measure>Area Under the Plasma Concentration-time Curve From 0 to 24 Hours (AUC24) Post-dose of Ritonavir</outcome_measure>
+      <outcome_measure>Area Under the Plasma Concentration-time Curve From 0 to 24 Hours (AUC24) Post-dose of ABT-267</outcome_measure>
+      <outcome_measure>Area Under the Plasma Concentration-time Curve From 0 to 12 Hours (AUC12) Post-dose of ABT-333</outcome_measure>
+      <outcome_measure>Number of participants with adverse events</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>China</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02534870</url>
+  </study>
+  <study rank="27">
+    <nct_id>NCT02555943</nct_id>
+    <title>DAAs Treatment for Chronic HCV/HBV Co-infection Patients(DASCO)</title>
+    <recruitment open="Y">Recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Infection</condition>
+      <condition>HBV Coinfection</condition>
+      <condition>Hepatitis B Reactivation</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Ledipasvir/Sofosbuvir</intervention>
+      <intervention type="Drug">Sofosbuvir and Daclatasvir</intervention>
+      <intervention type="Drug">Ombitasvir, Paritaprevir, Ritonavir, Dasabuvir</intervention>
+      <intervention type="Drug">Entecavir</intervention>
+      <intervention type="Drug">Tenofovir disoproxil</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>Humanity &amp; Healthy GI and Liver Centre</lead_sponsor>
+      <collaborator>Beijing 302 Hospital</collaborator>
+      <collaborator>Nanfang Hospital of Southern Medical University</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 2</phase>
+      <phase>Phase 3</phase>
+    </phases>
+    <enrollment>32</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>H&amp;H_DASCO</other_id>
+    </other_ids>
+    <first_received>September 20, 2015</first_received>
+    <start_date>February 2015</start_date>
+    <completion_date>December 2015</completion_date>
+    <last_updated>September 20, 2015</last_updated>
+    <last_verified>September 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <acronym>DASCO</acronym>
+    <primary_completion_date>December 2015</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Proportion of participants who experience virological breakthrough</outcome_measure>
+      <outcome_measure>Proportion of participants who experience virological rebound</outcome_measure>
+      <outcome_measure>Proportion of participant who experience biochemical rebound</outcome_measure>
+    </outcome_measures>
+    <unique_countries>
+      <country>China</country>
+    </unique_countries>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02555943</url>
+  </study>
+  <study rank="28">
+    <nct_id>NCT02629172</nct_id>
+    <title>Drug Use-results Survey in Patients Infected With Hepatitis C Virus Genotype 1</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Chronic Hepatitis C Virus</condition>
+    </conditions>
+    <interventions/>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Child</age_group>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>3000</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+      <study_design>Time Perspective: Prospective</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>P15-336</other_id>
+    </other_ids>
+    <first_received>December 10, 2015</first_received>
+    <start_date>December 2015</start_date>
+    <completion_date>February 2019</completion_date>
+    <last_updated>December 10, 2015</last_updated>
+    <last_verified>December 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>February 2019</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of Participants with Sustained Virologic Response (SVR12)</outcome_measure>
+      <outcome_measure>Percentage of Participants with Sustained Virologic Response (SVR24)</outcome_measure>
+      <outcome_measure>Percentage of Participants with Virologic Failure After Treatment</outcome_measure>
+      <outcome_measure>Percentage of Participants with Virologic Failure During Treatment</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02629172</url>
+  </study>
+  <study rank="29">
+    <nct_id>NCT02461745</nct_id>
+    <title>Real World Study: Genotype 1 Chronic HCV Treatment and Evaluation of Real World SVR and PROs</title>
+    <recruitment open="N">Enrolling by invitation</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C, Chronic</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">ombitasvir, paritaprevir/r, dasabuvir + ribavirin</intervention>
+      <intervention type="Drug">ombitasvir, paritaprevir/r, dasabuvir</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>Kaiser Permanente</lead_sponsor>
+      <collaborator>AbbVie</collaborator>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 4</phase>
+    </phases>
+    <enrollment>100</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Endpoint Classification: Safety/Efficacy Study</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>KPSC IRB 10568</other_id>
+    </other_ids>
+    <first_received>May 31, 2015</first_received>
+    <start_date>June 2015</start_date>
+    <completion_date>June 2016</completion_date>
+    <last_updated>May 31, 2015</last_updated>
+    <last_verified>May 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>June 2016</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Percentage of subjects achieving sustained virological response (SVR) at Week 12</outcome_measure>
+      <outcome_measure>Percentage of subjects achieving sustained virological response (SVR) at Week 4</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02461745</url>
+  </study>
+  <study rank="30">
+    <nct_id>NCT02581020</nct_id>
+    <title>The Durability of Response and Persistence of Resistance to AbbVie's 2 Direct-acting Antiviral Agent (2D) Therapy in Japanese Subjects</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C Virus</condition>
+    </conditions>
+    <interventions/>
+    <sponsors>
+      <lead_sponsor>AbbVie</lead_sponsor>
+    </sponsors>
+    <gender>Both</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>436</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>P15-349</other_id>
+    </other_ids>
+    <first_received>October 19, 2015</first_received>
+    <start_date>October 2015</start_date>
+    <completion_date>June 2020</completion_date>
+    <last_updated>October 19, 2015</last_updated>
+    <last_verified>October 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>June 2020</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Hepatitis C virus ribonucleic acid (HCV RNA) levels</outcome_measure>
+      <outcome_measure>Number of participants with serious adverse events (SAEs)</outcome_measure>
+      <outcome_measure>Percentage of participants with hepatocellular carcinoma</outcome_measure>
+      <outcome_measure>Number of Participants With Resistance-Associated Variants and Phenotypic Resistance to Paritaprevir in Non-structural Viral Protein 3 (NS3)</outcome_measure>
+      <outcome_measure>Number of Participants With Resistance-Associated Variants and Phenotypic Resistance to Ombitasvir in Non-structural Viral Protein 5A (NS5A)</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02581020</url>
+  </study>
+  <study rank="31">
+    <nct_id>NCT02460133</nct_id>
+    <title>Understanding HCV Reinfection Rates in an Incarcerated Population After Cure With Interferon Free HCV Treatment</title>
+    <recruitment open="Y">Not yet recruiting</recruitment>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Hepatitis C Virus</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Paritaprevir</intervention>
+      <intervention type="Drug">Ritonavir</intervention>
+      <intervention type="Drug">Dasabuvir</intervention>
+      <intervention type="Drug">Ombitasvir</intervention>
+      <intervention type="Drug">Ribavirin</intervention>
+    </interventions>
+    <sponsors>
+      <lead_sponsor>Nova Scotia Health Authority</lead_sponsor>
+      <collaborator>PEI Provincial Correction Centre</collaborator>
+    </sponsors>
+    <gender>Male</gender>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Senior</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 4</phase>
+    </phases>
+    <enrollment>60</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Intervention Model: Single Group Assignment</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+      <study_design>Masking: Open Label</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>SAIL-001</other_id>
+    </other_ids>
+    <first_received>May 22, 2015</first_received>
+    <start_date>July 2015</start_date>
+    <completion_date>January 2018</completion_date>
+    <last_updated>May 29, 2015</last_updated>
+    <last_verified>May 2015</last_verified>
+    <firstreceived_results_date>No Study Results Posted</firstreceived_results_date>
+    <primary_completion_date>October 2017</primary_completion_date>
+    <outcome_measures>
+      <outcome_measure>Re-infection rate in individuals treated with DAA therapy</outcome_measure>
+      <outcome_measure>Percentage of subjects with sustained virologic response at 12 weeks post treatment</outcome_measure>
+      <outcome_measure>Change in fibrosis measured by transient elastography</outcome_measure>
+      <outcome_measure>Global and HCV-specific T cell function before and after treatment with DAA therapy.</outcome_measure>
+      <outcome_measure>Global and HCV-specific B cell function before and after treatment with DAA therapy.</outcome_measure>
+      <outcome_measure>Global and HCV-specific NK cell function before and after treatment with DAA therapy.</outcome_measure>
+    </outcome_measures>
+    <unique_countries/>
+    <unique_states country="United States"/>
+    <url>https://ClinicalTrials.gov/show/NCT02460133</url>
+  </study>
+</search_results>

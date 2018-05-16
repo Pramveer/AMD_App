@@ -1,0 +1,262 @@
+<template name="AdvanceAnalytics">
+	<!--Nisha 02/28/2017 modified the page commented out "analytics-tooltipHead" to remove the heading-->
+    {{> PharmaSubTabs data="advanceAnalytics"}}
+       <div class="breadcrumb-fulldiv">
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="Summary">Pharma</a>
+  
+  <span class="breadcrumb-item active">Viral Load</span> 
+</nav>
+        </div>
+ 
+    <div class="row" style="max-height:1800px;margin-top:40px;">
+
+        <div class="col-lg-12 mlSubTabsChartSectionMask loadingwheelMask">
+             <div class="chart_loader payer_loader">Loading...</div>
+        </div>
+         <div class="col-lg-12 mlSubTabsChartSectionWrap" style="text-align:center;display:none;min-height: 100px;">
+           <!-- Compare Button -->
+            <!--<div class="js-comparativeEngine ce_CompareButton " style=""><img src="/compare-icon.png"><span class="tooltiptext">Compare</span> 
+            </div>-->
+            
+            <div id="genotypegraphcontainers" class="col-lg-12" style="padding-top:30px;text-align: center;"></div>
+            <div id="PescribedDistributioncontainers" class="col-lg-12" style="padding-top:30px;text-align: center;"></div>
+            
+            <div class="col-md-12" id="OMedicineCount" style="padding-top:45px;">
+                <div id="pharmanotes" style="color:red !important;padding-left:15px"></div>
+            </div>
+            <!--<div class="col-md-12" id="OMedicineCountRelapsed" style="padding-top:45px;">
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Genotype</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Genotype
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                   This chart shows the count of patients who replapsed with the treatment.
+                                   Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                   then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedGeno" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Race</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Race
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                This chart shows the count of patients who replapsed with the treatment.
+                                Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedRace" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12" id="OMedicineCountCirrGend" style="padding-top:45px;">
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Cirrhosis</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Cirrhosis
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                This chart shows the count of patients who replapsed with the treatment.
+                                Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedCirrhosis" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Gender</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Gender
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                This chart shows the count of patients who replapsed with the treatment.
+                                Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedGender" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Age</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Age
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                This chart shows the count of patients who replapsed with the treatment.
+                                Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedAge" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Relapsed Patients Distributed by Fibrosis</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Relapsed Patients Distributed by Fibrosis
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                This chart shows the count of patients who replapsed with the treatment.
+                                Relapsed patients are the ones who had high Viral Load before starting the treatment,
+                                then during the treatment their Viral Load decreased and after end of the treatment, it increased again.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRelapsedFibrosis" style="width:550px;height:260px;"></div>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Remission of Patients Distributed By Genotype</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Remission of Patients Distributed By Genotype
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                 This chart shows the count of patients who got remission during the treatment.
+                                 Remitted patients are the ones who had virad load after starting the treatment and their viral load was undetectable before
+                                 the treatment ends.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRemmittedGenotype" style="width:550px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">  Remission of Patients Distributed By Medication</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Remission of Patients Distributed By Medication
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                 This chart shows the count of patients who got remission during the treatment.
+                                 Remitted patients are the ones who had virad load after starting the treatment and their viral load was undetectable before
+                                 the treatment ends.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRemmittedMedication"></div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-md-12">
+                <div class="panel boxshadow_borderline" style="width:98%;">
+                  <div class="panel-heading">
+                                            <h3 class="panel-title containertitle" style="display: inline-block;">Remission of Patients Distributed By Treatment Period</h3>
+                                             <span class="macLearningsubTabs-infoIcon mlInfoTip" >
+                            <div class="analytics-tooltip mlInfoTip_tooltip" >
+                              <div class="analytics-tooltipHead">
+                              Remission of Patients Distributed By Treatment Period
+                              </div>
+                              <div class="analytics-tooltipBody" style="font-size: 13px;">
+                                 This chart shows the count of patients who got remission during the treatment.
+                                 Remitted patients are the ones who had virad load after starting the treatment and their viral load was undetectable before
+                                 the treatment ends.
+                                </div>
+
+                            </div>
+                          </span>
+
+                                        </div>
+
+                  <div class="panel-body">
+                    <div id="pharmaTreatmentRemmittedTreatmentPeriod" style="width:1100px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+        </div>
+    </div>
+{{ >MainFooter}}
+</template>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="20">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02103439</url>
+  </required_header>
+  <id_info>
+    <org_study_id>BCD-016-4</org_study_id>
+    <nct_id>NCT02103439</nct_id>
+  </id_info>
+  <brief_title>An Open-label Randomized Multicenter Phase III Clinical Study Comparing Safety and Efficacy of Algeron (Cepeginterferon Alfa-2b) and and PegIntron (Peginterferon Alfa-2b) in Combination With Ribavirin as Combined Treatment of Chronic Hepatitis C in Human Immunodeficiency Virus-1 Infected Patients</brief_title>
+  <official_title>Multicenter Open-label Randomized, Comparative Clinical Study to Evaluate Efficacy and Safety of Algeron (Cepeginterferon Alfa-2b, CJSC &quot;BIOCAD&quot;, Russia) With Ribavirin Compared to PegIntron (Peginterferon Alfa-2b, Schering-Plough Labo N.V., Belgium) With Ribavirin in Treatment of Chronic Hepatitis C in Human Immunodeficiency Virus-1 Infected Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Biocad</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Biocad</source>
+  <oversight_info>
+    <authority>Russia: Ministry of Health of the Russian Federation</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to demonstrate the noninferiority of Algeron in combination with
+      ribavirin compared to PegIntron in combination with ribavirin in treatment of chronic
+      hepatitis C in Human Immunodeficiency Virus-1 infected patients
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The course of treatment in both groups shall be 12 weeks, and efficacy analysis, i.e. rate
+      of rapid (after the 4th week) and early (after the 12th week) virologic response will be
+      based on polymerase chain reaction data. For patients with treatment failure after the 12th
+      week the antiviral therapy shall be discontinued. All patients who require further
+      anti-viral treatment will receive a combination treatment with Algeron / PegIntron and
+      ribavirin for another 36 weeks. Sustained virologic response will be assessed 24 weeks after
+      last dose of study treatment.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>September 2013</start_date>
+  <completion_date type="Anticipated">December 2015</completion_date>
+  <primary_completion_date type="Actual">July 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Early Virological Response</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of randomized patients achieving early virologic response - negative polymerase chain reaction result for Hepatitis C Virus ribonucleic acid (&lt; 15 IU/ml) or ≥ 2log10 decrease of viral load after 12 weeks of study treatment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Early Virological Response in Patients With Different Hepatitis C Virus Genotypes</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of randomized patients with different Hepatitis C Virus (HCV) genotypes achieving early virologic response - negative polymerase chain reaction result for HCV ribonucleic acid (&lt; 15 IU/ml) or ≥ 2log10 decrease of viral load after 12 weeks of study treatment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of randomized patients achieving rapid virologic response - negative polymerase chain reaction result for Hepatitis C Virus ribonucleic acid (&lt; 15 IU/ml) after 4 weeks of treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response in Patients With Different Hepatitis C Virus Genotypes</measure>
+    <time_frame>4 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of randomized patients with different Hepatitis C Virus (HCV) genotypes achieving rapid virological response - negative polymerase chain reaction result for HCV ribonucleic acid (&lt; 15 IU/ml) after 4 weeks of treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Viral Breakthrough</measure>
+    <time_frame>screening data and at 4 or 12 weeks of treatment.</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of patients in each groups with level of Hepatitis C Virus ribonucleic acid &gt; 15 IU/ml after Hepatitis C Virus ribonucleic acid was not present or Hepatitis C Virus ribonucleic acid was increased by more than 1log10 from baseline at 4 or 12 weeks of treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Biochemical Response</measure>
+    <time_frame>12 weeks</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Proportion of patients in each group with alanine aminotransferase level ≤ upper normal limit after 12 weeks of therapy</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">140</enrollment>
+  <condition>Hepatitis</condition>
+  <condition>Hepatitis C</condition>
+  <condition>Hepatitis C/ Human Immunodeficiency Virus Coinfection</condition>
+  <arm_group>
+    <arm_group_label>Algeron</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Algeron at a dose of 1.5 µg/kg of body weight subcutaneously, once a week, and Rebetol, orally, at a daily dose of 800 mg (for body weight &lt;65 kg), 1,000 mg (for body weight 65 - 85 kg), 1,200 mg (for body weight 86 - 105 kg) or 1,400 mg (for body weight &gt; 105 kg)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PegIntron</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>PegIntron at a dose of 1.5 µg/kg of body weight subcutaneously, once a week, and Rebetol, orally, at a daily dose of 800 mg (for body weight &lt;65 kg), 1,000 mg (for body weight 65 - 85 kg), 1,200 mg (for body weight 86 - 105 kg) or 1,400 mg (for body weight &gt; 105 kg).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Algeron</intervention_name>
+    <description>1.5 µg/kg of body weight subcutaneously, once a week</description>
+    <arm_group_label>Algeron</arm_group_label>
+    <other_name>Cepeginterferon alfa-2b</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>PegIntron</intervention_name>
+    <description>1.5 µg/kg of body weight subcutaneously, once a week</description>
+    <arm_group_label>PegIntron</arm_group_label>
+    <other_name>peginterferon alfa-2b</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Signed Informed Consent Form.
+
+          -  Chronic hepatitis C (genotypes 1а, 1b, 2, 3, 4) confirmed by positive result of
+             hepatitis C virus ribonucleic acid during &gt; 6 months before screening visit or
+             accompanied with increase in alanine aminotransferase (ALT) level &gt; 6 months before
+             screening visit.
+
+          -  Confirmed Human Immunodeficiency Virus-1 infection based on enzyme-linked
+             immunosorbent assay and immune blotting results.
+
+          -  Clinically sustained phase of Human Immunodeficiency Virus-1 infection with absence
+             of active opportunistic Human Immunodeficiency Virus-associated diseases for at least
+             30 calendar days before inclusion in the study.
+
+          -  Level of CD4+-lymphocytes is not less than 500 cells/mm3 for patients not requiring
+             highly active antiretroviral therapy and which will not be assigned to antiretroviral
+             therapy during the study period.
+
+          -  For patients receiving sustained highly active antiretroviral therapy for not less
+             than 12 weeks and planning to continue comply with this treatment regimen during the
+             following 24 weeks, level of CD4+-lymphocytes ≥300 cells/mm3, Human Immunodeficiency
+             Virus ribonucleic acid ≤50 copies/ml.
+
+          -  Men and women aged 18 to 70 inclusively.
+
+          -  Body mass index in the range of 18 - 30 kg/m2 inclusively .
+
+          -  Preserved protein-synthetizing liver function (International Normalized Ratio &lt; 1.7,
+             albumin &gt; 35 g/l).
+
+          -  Absence of signs of hepatic encephalopathy and ascites according to clinical
+             examination and ultrasound examination.
+
+          -  Patients with preserved child-bearing potential and their partners agree to use
+             barrier method of contraception during the whole period of therapy and during 7
+             months after the treatment completion.
+
+          -  Documentary confirmed results of liver elastography (fibroscan) during last year
+             before enrollment in the study or patient agreement to undergo this examination
+             during screening.
+
+        Exclusion Criteria:
+
+          -  Intolerance of alfa-interferons, ribavirin or any components of tested drug product
+             based on medical history.
+
+          -  Presence of hepatitis B, A, E markers.
+
+          -  Presence of documentary confirmed clinically significant concurrent liver diseases
+             (alcoholic liver cirrhosis, drug-induced liver cirrhosis, autoimmune hepatitis,
+             hemochromatosis, Wilson's disease, non-alcoholic steatohepatitis, biliary cirrhosis
+             etc.).
+
+          -  Past history of Hepatitis C Virus treatment with interferon alfa or pegylated
+             interferon alfa.
+
+          -  For patients receiving sustained highly active antiretroviral therapy - presence of
+             nevirapine, stavudine, zidovudine, didanosine in treatment regimen.
+
+          -  Use of injectable and non-injectable interferons alfa/ interferon inducers for any
+             indication (except for hepatitis C), radiotherapy, cytotoxic chemotherapy for one
+             month prior to inclusion in the study.
+
+          -  Cholestic hepatitis (level of direct bilirubin, alkaline phosphatase, gamma
+             glutamyltransferase, exceeding upper normal limit in &gt; 5 times).
+
+          -  Decompensated liver cirrhosis confirmed with results of laboratory analyses
+             (Child-Pugh class B, C) or ultrasound examination.
+
+          -  Any documentary confirmed autoimmune diseases (such as Crohn's disease, ulcerative
+             colitis, systemic lupus erythematosus, idiopathic thrombocytopenic purpura,
+             scleroderma, autoimmune hemolytic anemia, severe psoriasis).
+
+          -  Deviations of hematologic (hemoglobin less than lower normal limit; neutrophils &lt; 1.5
+             x 10^9/l; thrombocytes &lt; 90 x 10^9/ l) and biochemical (creatinine level &gt; 1.5 times
+             higher upper normal limit, ALT is &gt; 10 times higher upper normal limit) parameters.
+
+          -  Documentary confirmed diagnosis of hemoglobinopathy (for example, thalassemia,
+             sickle-cell anemia).
+
+          -  Severe depression, schizophrenia, any other mental disorders which according to the
+             investigator are contraindications for antiviral treatment.
+
+          -  Epilepsy and/or central nervous system disorder.
+
+          -  Disorder of thyroid function (level of thyroid stimulating hormone out of the normal
+             range).
+
+          -  Documentary confirmed or suspected hepatocellular carcinoma based on the results of
+             alfa-fetoprotein (AFP) assay ≥ upper normal limit.
+
+          -  Antinuclear antibodies (ANA) titer measured at screening is not less than 1:640 or
+             documentary confirmed signs of autoimmune hepatitis based on the results of biopsy.
+
+          -  Documentary confirmed malignant neoplasms.
+
+          -  Documentary confirmed lung diseases associated with respiratory failure.
+
+          -  Treatment of Human Immunodeficiency Virus-1 with immunotherapeutic vaccines within 90
+             days prior to screening.
+
+          -  Necessity in assignment of antimycobacterial therapy.
+
+          -  Pregnancy, lactation period.
+
+          -  Documentary confirmed retinopathy (for example, cytomegalovirus retinitis, macular
+             degeneration).
+
+          -  Severe concurrent diseases (for example, severe arterial hypertension, sever coronary
+             heart disease, heart failure, decompensated diabetes mellitus and other) which are
+             contraindications for antiviral therapy according to the investigator opinion.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gregory Moshkovich, M.D.</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Institution of Nizhny Novgorod region &quot;Regional Center for Prevention and Control of AIDS and other infectious diseases&quot;</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Firaya Nagimova, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Public Healthcare Institution National Center for the Prevention and Control of AIDS and other infectious diseases of the Ministry of Health of the Republic of Tatarstan</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Oleg Kozyrev, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Healthcare Institution &quot;Volgograd Regional Center for the Prevention and Control of AIDS and infectious diseases&quot;</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Andrey Shuldyakov, M.D., PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Budgetary Higher Vocational Education Institution V.I. Razumovsky Saratov State University of medicine</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Vadim Rassokhin, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Healthcare Institution Center for the Prevention and Control of AIDS and infectious diseases of the city, St.Petersburg CityHealth Department</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Lidia Sklar, M.D., PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>State Budgetary Higher Vocational Education Institution Pacific State Medical University, Ministry of Health of the Russian Federation</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>State Public Healthcare Institution National Center for the Prevention and Control of AIDS and other infectious diseases of the Ministry of Health of the Republic of Tatarstan</name>
+      <address>
+        <city>Kazan</city>
+        <state>Republic of Tatarstan</state>
+        <zip>420097</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>State Institution of Nizhny Novgorod region &quot;Regional Center for Prevention and Control of AIDS and other infectious diseases&quot;</name>
+      <address>
+        <city>Nizhny Novgorod</city>
+        <zip>603005</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>State Healthcare Institution Center for the Prevention and Control of AIDS and infectious diseases of the city, St.Petersburg CityHealth Department</name>
+      <address>
+        <city>Sankt-Petersburg</city>
+        <zip>190103</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>State Budgetary Higher Vocational Education Institution V.I. Razumovsky Saratov State University of medicine</name>
+      <address>
+        <city>Saratov</city>
+        <zip>410012</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>State Budgetary Higher Vocational Education Institution Pacific State Medical University, Ministry of Health of the Russian Federation</name>
+      <address>
+        <city>Vladivostok</city>
+        <zip>690002</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>State Healthcare Institution &quot;Volgograd Regional Center for the Prevention and Control of AIDS and infectious diseases&quot;</name>
+      <address>
+        <city>Volgograd</city>
+        <zip>400040</zip>
+        <country>Russian Federation</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Russian Federation</country>
+  </location_countries>
+  <verification_date>July 2015</verification_date>
+  <lastchanged_date>July 22, 2015</lastchanged_date>
+  <firstreceived_date>April 1, 2014</firstreceived_date>
+  <firstreceived_results_date>May 21, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Hepatitis C</keyword>
+  <keyword>Cepeginterferon alfa</keyword>
+  <keyword>Peginterferon</keyword>
+  <keyword>Treatment</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Acquired Immunodeficiency Syndrome</mesh_term>
+    <mesh_term>Coinfection</mesh_term>
+    <mesh_term>HIV Infections</mesh_term>
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+    <mesh_term>Immunologic Deficiency Syndromes</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2b</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

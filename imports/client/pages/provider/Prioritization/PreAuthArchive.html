@@ -1,0 +1,118 @@
+<template name="PreAuthArchive">
+    <!-- Pram(10th Feb 17) Made the header items same as on RWE under Pharma tab -->
+    <div class="btngroup">
+        <div class="macLearningsubTabs" style="float: left;">
+            <!--Jayesh 03/06/2017 Updated FDA Labels-->
+            <ul class="rweb-list" style="display: none">
+                <li class="withFDACompliant js-providerSubtabs-links">
+                    <a href="#" data="withFDACompliant">FDA Approved Therapy
+                    </a>
+                </li>
+                <li class="withoutFDACompliant js-providerSubtabs-links">
+                    <a href="#" data="withoutFDACompliant">FDA Not Approved Therapy
+                </a>
+                </li>
+                <li class="allMedsData js-providerSubtabs-links">
+                    <a href="#" data="allMedsData">All Therapy
+                </a>
+                </li>
+                <!--<li class="preAuthorization">
+                    <a href="{{pathFor 'Provider/PreAuthorization'}}" data="preAuthorization">Pre Authorization
+                </a>
+                </li>
+                <li class="active preAuthorization">
+                    <a href="{{pathFor 'Provider/PreAuthArchive'}}" data="PreAuthArchive">Pre Authorization - Archive
+                </a>
+                </li>-->
+              
+            </ul>
+            <div class="cpbackbtn" style='margin-top: 0px;'>
+                            <a href="{{pathFor 'Provider'}}" class="compareDrugbackbtn"><span class="compareDrugbackbtnIcon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>back</a>
+            </div>
+        </div>
+         <!-- Nisha(02/13/2017) Made the icon changes  changes  -->
+        <div class="pro_rightsideimg" title="Pre Authorization Form">
+            <img src="/preauth.jpg">
+        </div>
+        <!-- Jayesh (02/17/2017) add P & T model Button  -->
+        <!--<div class="ptModelButton" title="P & T Model">
+            <img src="/ptmodel.png">
+        </div>-->
+    </div>
+ <div class="ful_nav_search" style="padding-bottom:30px;padding-top:30px;padding-left:20px;width:800px !important;">
+        <div class="boxContainer survialrate-dateFiltersSection">
+            Patient Name: &nbsp;&nbsp;&nbsp;
+            <input id="PatientName" type="text" />
+                      &nbsp;&nbsp;&nbsp;
+            <input type="button" id="btnSearch" class="analytics-applyDateFilters" value="GO" />
+        </div>
+    </div>
+
+     {{#if isLoading}} {{> NewLoading}} {{else}}
+    <!--<div class="search-result-title">
+        Search Result <span> <i class="fa fa-users" aria-hidden="true"></i> {{PatientCount}} Results</span>
+    </div>-->
+    {{#each PreauthorizationFormData}}
+     <div class="pdl-content paginationPreAuthArchive">
+        <ul class="pdl-list {{Paging hcv_id}}">
+    <div class="search-emr-div search_result">
+        <div class="sed-emrnumber darkblue-background"><div>{{hcv_id}}</div></div>
+        <div class="sed-emrdetails">
+            <div class="sed-fulldiv">
+                 <div class="sed-widthof270">
+                    <div class="sed-labelbox">Patient Name</div>
+                    <div class="sed-detailbox">{{hcv_PATIENTNAME}}</div>
+                </div>
+                <div class="sed-widthof270">
+                    <div class="sed-labelbox">DOB</div>
+                    <div class="sed-detailbox">{{maskedDate hcv_DOB}}</div>
+                </div>
+                <div class="sed-widthof270">
+                    <div class="sed-labelbox">Genotype</div>
+                    <div class="sed-detailbox">{{hcv_GENOTYPE}}</div>
+                </div>
+
+            </div>
+            <div class="sed-fulldiv">
+                 <div class="sed-widthof270">
+                    <div class="sed-labelbox" style="width:150px !important">Hepatitis C infection</div>
+                    <div class="sed-detailbox" style="width:120px !important">{{maskedData hcv_ChronicHepa}}</div>
+                </div>
+                <div class="sed-widthof270">
+                    <div class="sed-labelbox">Liver Transplant</div>
+                    <div class="sed-detailbox">{{maskedData hcv_LiverTransplantFlag}}</div>
+                </div>
+            </div>
+            <div class="sed-fulldiv">
+              <div class="sed-widthof270">
+                  <!--Nisha 02/13/2017 modified the Width for alignment-->
+                    <div class="sed-labelbox" style="width:70px !important">Attached Files</div>
+                    <div class="sed-detailbox" style="list-style:none;">{{{ UploadFilesShow attachments}}}</div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </ul>
+    </div>
+      {{/each}}
+
+     {{#if isPreauthorizationFormDataEmpty}}
+     {{#if isHavePaging PreauthorizationFormData.length}}
+        <div class="preauthorizationformdata pdlf-pagination">
+            <ul class="pdlf-pagination-list">
+                <li class="disable pgpa-prevpa"><i class="fa fa-angle-left" aria-hidden="true"></i></li>
+                {{#each PaginationPages}} {{#if isPageFirst pageno }}
+                <li class="pgpa{{pageno}} active numpg">{{pageno}}</li>
+                {{else}}
+                <li class="pgpa{{pageno}} numpg">{{pageno}}</li>
+                {{/if}} {{/each}}
+                <!-- <li class="active pg1">1</li>
+                <li class="pg2">2</li> -->
+
+                <li class='pgpa-nextpa'><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        {{/if}} {{/if}}
+
+    {{/if}}
+</template>

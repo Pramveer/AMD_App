@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>MELD Calculator (for ages 12 and older) - Clinical Calculators - Hepatitis C Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href='../tipTip.css' rel='stylesheet' type='text/css'>
+    <link href='cal.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../vendors-min.js"></script>
+    <script type="text/javascript" src="cal.js"></script>
+
+
+</head>
+
+<body>
+    <div class="meld-content" style="padding:10px">
+        <h1 class="title">Model For End-Stage Liver Disease (MELD) for ages 12 and older.</h1>
+        <p>The Model for End Stage Liver Disease (MELD) &nbsp;predicts survival for patients with advanced liver disease.</p>
+        <p style="background: #c9e0c9;padding-top: 15px;padding-bottom: 15px;padding-right: 5px;padding-left: 10px;">The United Network for Organ Sharing (UNOS) made a policy change regarding a revision in the MELD scoring system on January 11, 2016 that is related to transplant listing. The new MELD scores are calculated first by determining the traditional
+            MELD score as an initial score (MELD<sub>(i)</sub>); if the initial MELD<sub>(i)</sub> scores is 12 or greater, the score is adjusted by incorporating the serum sodium value.</p>
+
+        <div class="content-included">
+            <div id="tool_meld" class="tool tool-meld">
+
+                <h2>MELD</h2>
+                <div class="tool-container container-bilirubin">
+                    <div class="tool-elem tool-elem-log">3.78 log<sub>e</sub></div>
+                    <h3>Serum Bilirubin <em>(mg/dL)</em>:</h3>
+                    <input type="number" name="bilirubin" id="bilirubin" class="tool-input empty" value="">
+                    <div class="tool-elem tool-elem-plus">+</div>
+                </div>
+                <div class="tool-container container-inr">
+                    <div class="tool-elem tool-elem-log">11.20 log<sub>e</sub></div>
+                    <h3>INR (International Normalized Ratio):</h3>
+                    <input type="number" name="inr" id="inr" class="tool-input empty" title="Enter a Value" value="">
+                    <div class="tool-elem tool-elem-plus">+</div>
+                </div>
+                <div class="tool-container container-creatinine">
+                    <div class="tool-elem tool-elem-log">9.57 log<sub>e</sub></div>
+                    <h3>Serum Creatinine <em>(mg/dL)</em>:</h3>
+                    <input type="number" name="creatinine" id="creatinine" max="4" class="tool-input empty" title="Enter a Value" value="">
+                    <div class="tool-elem tool-elem-plus">+</div>
+                </div>
+                <div class="tool-container container-dialysis">
+                    <h3>Did the patient have dialysis at least twice in the past week, <span class="hidden-xs"><br></span>or received 24 hours of CVVHD within the prior week?
+                        <div class="tool-option">
+                            <input type="radio" name="dialysis" value="1" id="dialysis_1" class="tool-check">
+                            <label for="dialysis_1">Yes</label>
+                        </div>
+                        <div class="tool-option">
+                            <input type="radio" name="dialysis" value="0" id="dialysis_0" class="tool-check">
+                            <label for="dialysis_0">No</label>
+                        </div>
+                    </h3>
+                </div>
+                <div class="tool-container container-constant">
+                    <div class="tool-elem tool-elem-log"></div>
+                    <h3>Constant for Liver Disease Ediology</h3>
+                    <input disabled="disabled" type="number" name="constant" id="constant" class="tool-input empty" title="This is constant" value="6.43">
+                    <div class="tool-elem tool-elem-plus">=</div>
+                </div>
+
+
+
+                <div class="tool-container container-sodium">
+                    <h3>Serum Sodium <em>(mmol/L)</em>:</h3>
+
+                    <input type="number" name="sodium" id="sodium" class="tool-input empty" title="Enter a Value" value="">
+
+                </div>
+
+                <div class="result-meld container-result-meld">
+
+                    <span class="info not-used">MELD<sub>(i)</sub> score less than 12 do not require Serum Sodium correction.</span>
+
+                    <span class="info used" style="display: none;"><span class="glyphicon glyphicon-warning-sign"></span> MELD<sub>(i)</sub> scores of 12 or higher corrected for Serum Sodium level.</span>
+
+                    <input type="hidden" name="meld" id="meld" value="0" class="tool-input empty">
+
+                    <div class="score">MELD<sub>(i)</sub> score: <span class="figure"></span><span class="units"></span></div>
+                </div>
+
+                <div class="result-meld-na inactive">
+                    <div class="tool-elem tool-elem-meld">MELD Score: </div>
+                    <div class="tool-result-na"><span class="figure"></span><span class="units"></span></div>
+                </div>
+
+                <div class="tool-result-interpretation">
+                    <h3><span class="class" style="float: right;"></span>Interpretation:</h3>
+                </div>
+            </div>
+
+            <div class="section section-table">
+                <h3 class="title">3-Month Mortality Based on MELD Scores</h3>
+                <div class="content">
+                    <p>The estimated 3-month mortality is based on the MELD score highlighted in yellow above.
+
+                    </p>
+                    <table class="mortality-probability">
+                        <thead>
+                            <tr>
+                                <th>MELD Score</th>
+                                <th>Mortality Probability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>40</td>
+                                <td>71.3% mortality</td>
+                            </tr>
+                            <tr>
+                                <td>30-39</td>
+                                <td>52.6% mortality</td>
+                            </tr>
+                            <tr>
+                                <td>20-29</td>
+                                <td>19.6% mortality</td>
+                            </tr>
+                            <tr>
+                                <td>10-19</td>
+                                <td>6.0% mortality</td>
+                            </tr>
+                            <tr>
+                                <td>9 or less</td>
+                                <td>1.9% mortality</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="section section-formulas">
+                <h3 class="title">Formulas and Notes</h3>
+                <div class="content">
+
+                    <p>MELD<sub>(i)</sub> = round<sup>1</sup>[ 0.378 * log<sub>e</sub>(bilirubin)) + (1.120*log<sub>e</sub>(INR)) + (0.957*log<sub>e</sub>(creatinine)) + 0.643 ] * 10</p>
+                    <p><small><sup>1</sup> rounded to the tenth decimal place.</small></p>
+
+                    <p>MELD = MELD<sub>(i)</sub> + 1.32 * (137-Na) - [0.033*MELD<sub>(i)</sub>*(137-Na)]</p>
+
+                    <p>
+                        <u>Notes</u></p>
+                    <ul>
+                        <li>
+                            This version of the MELD calculator includes United Network for Organ Sharing (UNOS) modifications of the original model.</li>
+                        <li>The MELD utlizes log scale calculations and thus any value less than 1 is automatically given a lower limit value of 1 to prevent generating a negative score.</li>
+                        <li>The lower limit of Serum Sodium (Na) is capped at 125, and the upper limit is capped at 137.</li>
+                        <li>The upper limit of serum creatinine is capped at 4; in addition, if the patient had dialysis at least twice in the past week, the value for serum creatinine will be automatically adjusted to 4.0.</li>
+                        <li>The maximum MELD score is 40.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section section-sources">
+                <h3 class="title">Sources</h3>
+                <div class="content">
+                    Kamath PS, Kim WR; Advanced Liver Disease Study Group. The model for end-stage liver disease (MELD). Hepatology. 2007;45:797-805.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

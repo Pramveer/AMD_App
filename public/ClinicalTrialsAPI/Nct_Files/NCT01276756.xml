@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="431">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01276756</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RAIL001</org_study_id>
+    <nct_id>NCT01276756</nct_id>
+  </id_info>
+  <brief_title>Efficacy of Nitazoxanide in the Treatment of Chronic Hepatitis C Virus (HCV)</brief_title>
+  <official_title>Randomized Study for the Assessment of Nitazoxanide in the Treatment of Chronic Hepatitis C Genotype 4</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cairo University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Egyptian Railway Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cairo University</source>
+  <oversight_info>
+    <authority>Egypt: Ministry of Health and Population</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic hepatitis C has become an endemic disease in Egypt with a rising prevalence
+      (genotype 4), worldwide it also poses a significant health burden. To date standard of care
+      treatment (pegylated interferon and ribavirin) give modest results with a sustained
+      virological response (SVR) of about 50%. Several pharmaceutical and herbal agents have been
+      used with an aim to improve current results. Recent reports have suggested an increased SVR
+      with the addition of Nitazoxanide to standard of care. The results are preliminary and need
+      to be confirmed. This is a randomized trial to assess the efficacy of nitazoxanide added to
+      standard of care compared to standard of care alone.
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date>December 2010</start_date>
+  <completion_date type="Actual">November 2012</completion_date>
+  <primary_completion_date type="Actual">November 2012</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Single Blind (Outcomes Assessor), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained Virologic Response</measure>
+    <time_frame>180 days (+- 7 days) after the end of treatment. (48 weeks for Group A, 52 weeks for Group B, or after the last dose of treatment for patients who stopped prematurely).</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>sustained virological response is defined as a negative HCV PCR at 180 days after the end of treatment (End of treatment being at 48 weeks for Group A, 52 weeks for Group B). For any patient who stopped treatment prematurely (e.g. due to adverse events) SVR was defined as a negative HCV PCR (polymerase chain reaction) at 180 days after the last dose of all medications (interferon, ribavirin and nitazoxanide)</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Rapid Virological Response</measure>
+    <time_frame>28 - 33 days after start of Pegylated interferon and ribavirin</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A rapid virologic response is defined as a negative HCV PCR 4 weeks after treatment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Early Virological Response</measure>
+    <time_frame>90 ± 7 days from the start of pegylated interferon and ribavirin</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A complete early virologic response is defined as a negative HCV PCR 90 days after the start of pegylated interferon.
+A partial early virologic response is defined as a decrease of 2 or more log in HCV PCR at 90 days after the start of pegylated interferon</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>End-of-treatment Response</measure>
+    <time_frame>48 weeks +- 7 days after starting pegylated interferon and ribavirin</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>An end-of-treatment response is defined as a negative HCV PCR at 48 weeks after the start of pegylated interferon and ribavirin</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Safety of Nitazoxanide (Number of Participants Experiencing Adverse Events)</measure>
+    <time_frame>throughout the period of treatment and up to 90 days after end of triple therapy</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The occurence of adverse events that could be linked temporally and reasonably to the administration of the tested drug.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Chronic Hepatitis c</condition>
+  <arm_group>
+    <arm_group_label>Standard of care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Group A: comprises 50 treatment-naive chronic hepatitis c patients who will receive the standard of care treatment: peginterferon Alfa 2a 160 ug once weekly and weight-based ribavirin 1000 or 1200 mg/day (based on body weight &lt; 75 kg or ≥ 75 kg, respectively) in divided doses for 48 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Triple therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Group B: comprises 50 treatment-naive chronic HCV patients who will receive oral Nitazoxanide 500 mg twice daily for 4 weeks (lead-in phase) followed by triple therapy, nitazoxanide 500 mg twice daily plus peginterferon alfa-2a (160ug once weekly) and weight-based ribavirin 1000-1200 mg daily (based on body weight &lt; 75 kg or ≥ 75 kg, respectively) in divided doses for 48 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pegylated interferon alfa-2a</intervention_name>
+    <description>Pegylated interferon 160ug once weekly 48 weeks</description>
+    <arm_group_label>Standard of care</arm_group_label>
+    <arm_group_label>Triple therapy</arm_group_label>
+    <other_name>Reiferon retard</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Nitazoxanide</intervention_name>
+    <description>Nitazoxanide 500mg twice daily 4 weeks lead-in followed by triple therapy 48 weeks</description>
+    <arm_group_label>Triple therapy</arm_group_label>
+    <other_name>Xerovirin-C</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Ribavirin (&gt; 75kg:1200 mg, &lt;75kg:1000mg daily)48 weeks</description>
+    <arm_group_label>Standard of care</arm_group_label>
+    <arm_group_label>Triple therapy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Adult (male or female), 18 to 65 years of age, with chronic HCV infection
+
+          -  BMI &lt; 35
+
+          -  Liver biopsy showing chronic hepatitis with significant fibrosis using Ishak scoring
+             system
+
+          -  Compensated liver disease; serum bilirubin &lt; 1.5 mg/dl, INR (international normalized
+             ratio) no more than 1.5, serum albumin &gt; 3.4, platelet count &gt; 75,000 mm, and no
+             evidence of hepatic decompensation (hepatic encephalopathy or ascites)
+
+          -  Acceptable hematological and biochemical indices (hemoglobin 13g/dl for men and 12
+             g/dl for women; neutrophil count 1500/mm3 or more and serum creatinine &lt; 1.5 mg/dl
+
+          -  Patients must be serum hepatitis B surface antigen (HBsAg) negative
+
+          -  Negative Antinuclear Antibodies (ANA) or titer of &lt; 1:160
+
+          -  Serum positive for anti-HCV antibodies and HCV-RNA
+
+          -  Abdominal Ultrasound obtained within 3 months prior to entry in the study
+
+          -  Electrocardiogram for men aged &gt; 40 years and for women aged &gt; 50 years
+
+          -  Normal fundus examination
+
+          -  Ensure strict measures to avoid conception for both male and female participants by
+             using a proper contraception measure all throughout the course of treatment and six
+             months later
+
+          -  Female patients must not breast feed during therapy
+
+        Exclusion Criteria:
+
+          -  Patients who previously received interferon
+
+          -  HgbA1c &gt; 7.5 (glycoslylated haemoglobin)or history of diabetes mellitus
+
+          -  BMI &gt; 34
+
+          -  Women who are pregnant or breast-feeding
+
+          -  Males whose female partners are either pregnant or of child-bearing potential or not
+             using birth control and are sexually active
+
+          -  Other causes of liver disease including autoimmune hepatitis
+
+          -  Transplant recipients receiving immune suppression therapy
+
+          -  Screening tests positive for anti-HAV IgM Ab, HBsAg, anti-HBc IgM Ab or anti-HIV Ab
+
+          -  Decompensated cirrhosis, history of variceal bleeding, ascites, hepatic
+             encephalopathy, CTP score &gt; 6 (Child-Turcot-Pugh) or MELD score &gt; 8
+
+          -  Absolute neutrophil count &lt; 1500 cells/mm3; platelet count &lt; 135,000 cells/mm3;
+             hemoglobin &lt; 12 g/dL for women and &lt; 13 g/dL for men; or serum creatinine
+             concentration ≥ 1.5 times ULN (upper limit of normal)
+
+          -  Hypothyroidism or hyperthyroidism not effectively treated with medication
+
+          -  Alcohol consumption of &gt; 40 grams per day or an alcohol use pattern that will
+             interfere with the study
+
+          -  History or other clinical evidence of significant or unstable cardiac disease
+
+          -  History or other clinical evidence of chronic pulmonary disease associated with
+             functional impairment
+
+          -  Serious or severe bacterial infection(s)
+
+          -  History of severe or uncontrolled psychiatric disease, including severe depression,
+             history of suicidal ideation, suicidal attempts or psychosis requiring medication
+             and/or hospitalization
+
+          -  History of uncontrolled severe seizure disorder
+
+          -  History of immunologically mediated disease requiring more than intermittent
+             anti-inflammatory medications for management or that requires frequent or prolonged
+             use of corticosteroids
+
+          -  Patients with clinically significant retinal abnormalities
+
+          -  History of hypersensitivity or intolerance to nitazoxanide or any of the excipients
+             comprising the nitazoxanide tablets, peginterferon alfa-2a injectable solution or
+             ribavirin tablets
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>65 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hany M Shehab, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Cairo University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Cairo University</name>
+      <address>
+        <city>Cairo</city>
+        <country>Egypt</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Egypt</country>
+  </location_countries>
+  <verification_date>March 2013</verification_date>
+  <lastchanged_date>March 19, 2013</lastchanged_date>
+  <firstreceived_date>January 12, 2011</firstreceived_date>
+  <firstreceived_results_date>January 30, 2013</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Cairo University</investigator_affiliation>
+    <investigator_full_name>Hany Shehab</investigator_full_name>
+    <investigator_title>Dr</investigator_title>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis A</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+    <mesh_term>Hepatitis, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Nitazoxanide</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

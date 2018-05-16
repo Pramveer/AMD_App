@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="341">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01227967</url>
+  </required_header>
+  <id_info>
+    <org_study_id>10-I-0210</org_study_id>
+    <secondary_id>10-I-0210</secondary_id>
+    <secondary_id>IRC003</secondary_id>
+    <nct_id>NCT01227967</nct_id>
+  </id_info>
+  <brief_title>Comparing the Efficacy, Safety, and Tolerability of Combination Antivirals (Amantadine, Ribavirin, Oseltamivir) Versus Oseltamivir for the Treatment of Influenza in Adults at Risk for Complications</brief_title>
+  <acronym>IRC003</acronym>
+  <official_title>A Randomized Double-Blind Phase 2 Study Comparing the Efficacy, Safety, and Tolerability of Combination Antivirals (Amantadine, Ribavirin, Oseltamivir Versus Oseltamivir for the Treatment of Influenza in Adults at Risk for Complications</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>National Institute of Allergy and Infectious Diseases (NIAID)</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Seasonal influenza is responsible for many hospitalizations and deaths each year, despite
+      effective antiviral treatments. Some individuals have medical conditions such as heart or
+      lung diseases that make them particularly at risk of severe influenza infections that may
+      result in hospitalization or death. Oseltamivir (Tamiflu) is used most often to treat flu,
+      but there are still many hospitalizations, complications, and deaths even with treatment.
+      This study will evaluate the use of combination antivirals (amantadine, oseltamivir, and
+      ribavirin) compared to oseltamivir alone in the treatment of influenza in an at-risk
+      population.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Seasonal influenza is responsible for approximately 226,000 excess hospitalizations annually
+      and despite effective antivirals causes significant morbidity and mortality (estimated
+      24,000-50,000 deaths each year in the United States alone). The influenza virus that emerged
+      in 2009 (A/California/07/2009 H1N1) caused fewer deaths (12,000 flu-related deaths in the
+      U.S) but in contrast to seasonal flu, nearly 90 percent of the deaths with the 2009 H1N1
+      occurred among people younger than 65 years of age. The CDC has defined an at-risk
+      population that is responsible for the majority of hospitalization and morbidity associated
+      with influenza. This study will evaluate the use of combination antivirals as compared to
+      oseltamivir alone in the treatment of influenza in an at-risk population.
+
+      Subjects who meet the CDC definition for being at-risk and that present with an
+      influenza-like illness will be screened for the study. Those subjects with a confirmatory
+      test for influenza (rapid antigen or PCR) will be randomized in a 1:1 manner to receive a
+      blinded study treatment consisting of either the combination of amantadine, oseltamivir, and
+      ribavirin or oseltamivir alone for 5 days. Clinical, virologic, and laboratory assessments
+      on Days 1, 3, 7, 14, and 28 will be used for both safety and efficacy analysis.
+
+      Objectives:
+
+      - To evaluate the effectiveness of combined treatment with oseltamivir, amantadine, and
+      ribavirin compared with oseltamivir alone for at-risk individuals with confirmed influenza
+      infection.
+
+      Eligibility:
+
+      - Individuals at least 18 years of age who have one or more medical conditions that may
+      cause complications from influenza, and have developed an influenza-like illness.
+
+      Design:
+
+        -  Participants will be screened with a physical examination and medical history, along
+           with blood tests and throat swabs to confirm influenza infection.
+
+        -  Eligible participants will be randomly assigned to take either oseltamivir alone (the
+           current standard treatment for influenza) or to take oseltamivir, amantadine, and
+           ribavirin. Participants will have additional blood samples and throat swabs taken at
+           the start of the study, and will be shown how to complete a study diary at home.
+
+        -  Participants will receive a study medication kit containing the medication to take at
+           home twice a day for 5 days.
+
+        -  Participants will return, with the medication kit, to the clinic on days 1 (the first
+           day after the start of the study), 3, 7, 14, and 28. The first visit may take 2 to 3
+           hours, but each subsequent visit should take approximately 1 to 2 hours. Additional
+           blood samples and throat swabs will be taken at these visits.
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date>September 2010</start_date>
+  <completion_date type="Anticipated">September 2016</completion_date>
+  <primary_completion_date type="Anticipated">September 2016</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Investigator), Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Evaluate the reproducibility of virologic samples, comparison between culture and PCR, and the impact of missing data between randomized groups.</measure>
+    <time_frame>First 50 subjects</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The specific measure used for the primary endpoint will be determined by a pilot study of the first 50 subjects randomized which will evaluate the reproducibility of virologic samples, comparison between culture and PCR, and the impact of missing data between randomized groups.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">1200</enrollment>
+  <condition>Influenza</condition>
+  <arm_group>
+    <arm_group_label>Combination Therapy</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Amantadine, Ribavirin, Oseltamivir</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Oseltamivir monotherapy</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Oseltamivir</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Amantadine, Ribavirin, Oseltamivir</intervention_name>
+    <description>One capsule of Oseltamivir 75 mg x 2 - Total dose: 150 mg/day for 5 days; Three capsules of Ribavirin 200 mg for total of 600 mg x 2 - Total dose: 1200 mg/day for 5 days; One capsule of Amantadine 100 mg x 2 Total dose: 200 mg/day for 5 days</description>
+    <arm_group_label>Combination Therapy</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Oseltamivir</intervention_name>
+    <description>75 mg x 2 Total dose: 150 mg/day for 5 days</description>
+    <arm_group_label>Oseltamivir monotherapy</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        -  INCLUSION CRITERIA:
+
+        Enrollment (Screening)
+
+          1. Signed informed consent prior to initiation of any study procedures
+
+          2. Age greater than or equal to 18 years of age
+
+          3. Presence of an underlying medical condition(s) that may increase risk of
+             complications from influenza
+
+          4. History of an influenza-like illness defined as:
+
+               -  One or more respiratory symptom (cough, sore throat, or nasal symptoms) AND
+
+               -  Either
+
+               -  Fever (subjective or documented &gt;38 degrees C) OR
+
+               -  1 or more constitutional symptom (headache, malaise, myalgia, sweats/chills or
+                  fatigue)
+
+          5. Onset of illness no more than 96 hours before screening defined as when the subject
+             experienced at least one respiratory symptom, constitutional symptom, or fever
+
+          6. Willingness to have samples stored
+
+        Randomization
+
+          1. Signed informed consent
+
+          2. Age greater than or equal to 18 years of age
+
+          3. Presence of a medical condition(s) that have been associated with increased risk of
+             complications from influenza
+
+               -  Age 65 years of age or older
+
+               -  Asthma
+
+               -  Neurological and neuro-developmental conditions (including disorders of the
+                  brain, spinal cord, peripheral nerve, and muscle such as cerebral palsy,
+                  epilepsy [seizure disorders], stroke, moderate to severe developmental delay,
+                  muscular dystrophy, or spinal cord injury) [though still able to provide
+                  informed consent per inclusion criteria #1]
+
+               -  Chronic lung disease (such as COPD and cystic fibrosis)
+
+               -  Heart disease (such as congenital heart disease, congestive heart failure, and
+                  coronary artery disease)
+
+               -  Blood disorders (excluding genetic causes of anemia, as noted in the exclusion
+                  criteria)
+
+               -  Endocrine disorders (such as diabetes mellitus)
+
+               -  Kidney disorders
+
+               -  Liver disorders
+
+               -  Metabolic disorders (such as inherited metabolic disorders and mitochondrial
+                  disorders)
+
+               -  Weakened immune system due to disease or medication (such as people with
+                  HIV/AIDS, or cancer, chronic steroids or other medications causing immune
+                  suppression)
+
+               -  BMI ≥ 40
+
+          4. Onset of illness no more than 96 hours before screening defined as when the subject
+             experienced at least one respiratory symptom, constitutional symptom, or fever
+
+          5. Positive test for influenza (either rapid antigen or PCR)
+
+             - Results from influenza testing obtained for clinical indications within 12 hours
+             before screening/enrollment may be used if available. Randomization may proceed in
+             cases of discrepant results (one positive and one negative)
+
+          6. One of the following to avoid pregnancy:
+
+               -  Females who are able to become pregnant (i.e., are not postmenopausal, have not
+                  undergone surgical sterilization, and are sexually active with men) must agree
+                  to use at least 2 effective forms of contraception from the date of informed
+                  consent through 6 months after the last dose of study drug. At least one of the
+                  methods of contraception should be a barrier method
+
+               -  Males who have not undergone surgical sterilization and are sexually active with
+                  women must agree to use condoms plus have a partner use at least one additional
+                  effective form of contraception from the date of informed consent through 6
+                  months after the last dose of study drug
+
+          7. Willingness to have samples stored
+
+        EXCLUSION CRITERIA:
+
+        (for Enrollment or Randomization)
+
+          1. Women who are pregnant or breast-feeding, and men whose female partner(s) is pregnant
+
+          2. Inability to take oral medication or a history of gastrointestinal malabsorption that
+             would preclude the use of oral medication.
+
+          3. Hemoglobin &lt; 10 g/dL
+
+          4. WBC &lt; 1.5 times 10(9)/L
+
+          5. Neutrophils &lt; 0.75 x 10(9)/L
+
+          6. Platelets &lt; 50 x 10(9)/L
+
+          7. History of genetic hemoglobinopathy (e.g., thalassemia major or sickle cell anemia)
+             or autoimmune hemolytic anemia
+
+          8. Received more than 2 doses of any antiviral influenza medications since onset of
+             influenza symptoms
+
+          9. Received stavudine (d4T), didanosine (ddI), zidovudine (AZT), or azathioprine within
+             30 days prior to study entry
+
+         10. Creatinine clearance less than 50 mL/min (estimated by the Cockcroft-Gault equation
+             using serum creatinine)
+
+         11. History of autoimmune hepatitis
+
+         12. Uncompensated liver disease (defined as AST &gt; 3 times site upper limit of normal
+             (ULN), ALT &gt; 3 times ULN, or Direct Bilirubin &gt; 2 times ULN)
+
+         13. Clinical signs of end-stage liver disease including jaundice, coagulopathy, portal
+             hypertension, esophageal varices, ascites, peripheral edema, gastrointestinal
+             bleeding, or encephalopathy
+
+         14. Chronic liver disease categorized as Child-Pugh class C (Child-Pugh score 10-15)
+
+         15. Known hypersensitivity to rimantadine, amantadine, ribavirin, oseltamivir, peramivir,
+             or zanamivir
+
+         16. Received live attenuated virus vaccine (influenza or other) within 3 weeks prior to
+             study entry
+
+         17. Use of any investigational drug within 30 days or 5 half-lives (whichever is longer)
+             prior to study entry
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Beigel, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Leidos Biomedical Research, Inc. in support of Clinical Research Section, LIR, NIAID, Natinal Institutes of Health</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>John Treanor, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Rochester, School of Medicine and Dentistry</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Patient Recruitment and Public Liaison Office</last_name>
+    <phone>(800) 411-1222</phone>
+    <email>prpl@mail.cc.nih.gov</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>TTY</last_name>
+    <phone>1-866-411-1010</phone>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Simon Williamson Clinic</name>
+      <address>
+        <city>Birmingham</city>
+        <state>Alabama</state>
+        <zip>35211</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Thomas Lenzmeier Family Practice</name>
+      <address>
+        <city>Glendale</city>
+        <state>Arizona</state>
+        <zip>85308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Meghan Caldron</last_name>
+      <phone>623-295-1711</phone>
+      <email>mcaldron@crastudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>WCCT Global LLC</name>
+      <address>
+        <city>Costa Mesa</city>
+        <state>California</state>
+        <zip>92626</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Advanced Rx Clinical Research</name>
+      <address>
+        <city>Garden Grove</city>
+        <state>California</state>
+        <zip>92843</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Dianne Huynh</last_name>
+      <phone>714-554-8080</phone>
+      <email>dlhuynh@advancedrxclinicalresearch.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Torrance Clinical Research Institute, Inc.</name>
+      <address>
+        <city>Lomita</city>
+        <state>California</state>
+        <zip>90717</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Southern California</name>
+      <address>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip>90033</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luis M. Mendez, BS</last_name>
+      <phone>323-343-8283</phone>
+      <email>lmendez@usc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of California at San Diego</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jill Kunkell, RN</last_name>
+      <phone>619-543-8080</phone>
+      <email>jkunkell@ucsd.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Westlake Medical Research (CA)</name>
+      <address>
+        <city>Thousand Oaks</city>
+        <state>California</state>
+        <zip>91360</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Los Angeles BioMedical Research Institute</name>
+      <address>
+        <city>Torrance</city>
+        <state>California</state>
+        <zip>90502</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Terminated</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Colorado</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Florida</name>
+      <address>
+        <city>Gainesville</city>
+        <state>Florida</state>
+        <zip>32610</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ashley Babinski</last_name>
+      <phone>352-213-9924</phone>
+      <email>babina@shands.ufl.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Best Quality Research Inc.</name>
+      <address>
+        <city>Hialeah</city>
+        <state>Florida</state>
+        <zip>33016</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Consulting Center</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33125</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>San Marcus Research Clinic, Inc.</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33015</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Suncoast Research Group, LLC</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33135</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carolina Ramirez</last_name>
+      <phone>305-631-6704</phone>
+      <email>eramirez@suncoastresearch.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Miami</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>DMI Research, Inc.</name>
+      <address>
+        <city>Pinellas Park</city>
+        <state>Florida</state>
+        <zip>33782</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern University</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Sneeze, Wheeze &amp; Itch Associates, LLC</name>
+      <address>
+        <city>Normal</city>
+        <state>Illinois</state>
+        <zip>61761</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Ridge Family Practice</name>
+      <address>
+        <city>Council Bluffs</city>
+        <state>Iowa</state>
+        <zip>51503</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kylie Scheideler</last_name>
+      <phone>712-352-0423</phone>
+      <email>kyliescheideler@crastudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Iowa</name>
+      <address>
+        <city>Iowa City</city>
+        <state>Iowa</state>
+        <zip>52246</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Patricia Winokur</last_name>
+      <phone>319-384-1735</phone>
+      <email>patricia-winokur@uiowa.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Research Integrity, LLC</name>
+      <address>
+        <city>Owensboro</city>
+        <state>Kentucky</state>
+        <zip>42303</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Horizon Research Group, of Opelousas, LLC</name>
+      <address>
+        <city>Eunice</city>
+        <state>Louisiana</state>
+        <zip>70535</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rachael Boudreaux</last_name>
+      <phone>337-457-8841</phone>
+      <email>rachael@horizonresearchgroup.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centex Studies Inc. - Dr. Seep</name>
+      <address>
+        <city>Lake Charles</city>
+        <state>Louisiana</state>
+        <zip>70601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Louis Charles</last_name>
+      <phone>337-244-6374</phone>
+      <email>lcharles@centexstudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>NIH Clinical Center</name>
+      <address>
+        <city>Bethesda</city>
+        <state>Maryland</state>
+        <zip>20892</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Boston Medical Center</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02111</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Brigham and Women's Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Siddharth Parmar, M.D.</last_name>
+      <phone>617-525-8466</phone>
+      <email>sparmar@partners.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Massachusetts General Hospital</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Josalyn Cho</last_name>
+      <phone>617-726-1721</phone>
+      <email>jlcho@partners.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>UMass Medical School</name>
+      <address>
+        <city>Worcester</city>
+        <state>Massachusetts</state>
+        <zip>01655</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Celia Hartigan, RN</last_name>
+      <phone>508-856-2800</phone>
+      <email>celia.hartigan@umassmed.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Henry Ford Health Systems</name>
+      <address>
+        <city>Detroit</city>
+        <state>Michigan</state>
+        <zip>48202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Bronson Methodist Hospital</name>
+      <address>
+        <city>Kalamazoo</city>
+        <state>Michigan</state>
+        <zip>49007</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gail Massey, RN, BS, CCRP</last_name>
+      <phone>269-341-8774</phone>
+      <email>masseyg@bronsonhg.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>West Florissant Internists</name>
+      <address>
+        <city>Bridgeton</city>
+        <state>Missouri</state>
+        <zip>63044</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Advantage/ Skyline Medical Center</name>
+      <address>
+        <city>Elkhorn</city>
+        <state>Nebraska</state>
+        <zip>68022</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>William Patrick Fitzgibbons, M.D.</last_name>
+      <phone>402-393-2727</phone>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Prairie Fields Family Medicine</name>
+      <address>
+        <city>Freemont</city>
+        <state>Nebraska</state>
+        <zip>68025</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shayla Addison</last_name>
+      <phone>402-753-6034</phone>
+      <email>shaylaaddison@crastudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Southwest Family Physicians</name>
+      <address>
+        <city>Omaha</city>
+        <state>Nebraska</state>
+        <zip>68124</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jan Mitchell</last_name>
+      <phone>402-505-4497</phone>
+      <email>JanMitchell@crastudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>New Jersey Medical School</name>
+      <address>
+        <city>Newark</city>
+        <state>New Jersey</state>
+        <zip>07103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>James J. Peters, VA Medical Center</name>
+      <address>
+        <city>Bronx</city>
+        <state>New York</state>
+        <zip>10468</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Icahn School of Medicine at Mount Sinai</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Judith Aberg, MD</last_name>
+      <phone>212-824-7714</phone>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Rochester Medical Center</name>
+      <address>
+        <city>Rochester</city>
+        <state>New York</state>
+        <zip>14642</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of North Carolina-Chapel Hill</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27514</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cheryl Marcus</last_name>
+      <phone>919-843-8761</phone>
+      <email>cjm@med.unc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Duke University</name>
+      <address>
+        <city>Durham</city>
+        <state>North Carolina</state>
+        <zip>27710</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cameron Wolfe, MD</last_name>
+      <phone>919-970-3885</phone>
+      <email>cameron.wolfe@duke.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Panuto</name>
+      <address>
+        <city>Middleburg Heights</city>
+        <state>Ohio</state>
+        <zip>44130</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Amie Demming</last_name>
+      <phone>440-340-9010</phone>
+      <email>ademming@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pennsylvania</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joseph Quinn</last_name>
+      <phone>215-349-8092</phone>
+      <email>joseph.quinn@uphs.upenn.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Pittsburgh</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Health Concepts</name>
+      <address>
+        <city>Rapid City</city>
+        <state>South Dakota</state>
+        <zip>57702</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Marty Beasley</last_name>
+      <phone>605-348-4141</phone>
+      <email>healthconcepts104@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Bart</name>
+      <address>
+        <city>Columbia</city>
+        <state>Tennessee</state>
+        <zip>38401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Beverly Harris</last_name>
+      <phone>931-255-0177</phone>
+      <email>bharris@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Slandzicki</name>
+      <address>
+        <city>Franklin</city>
+        <state>Tennessee</state>
+        <zip>37064</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Debra Adamson</last_name>
+      <phone>615-577-4017</phone>
+      <email>dadamson@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Hoppers</name>
+      <address>
+        <city>Jackson</city>
+        <state>Tennessee</state>
+        <zip>38305</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Amy Arnold</last_name>
+      <phone>731-431-5027</phone>
+      <email>aarnold@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Holston Medical Group</name>
+      <address>
+        <city>Kingsport</city>
+        <state>Tennessee</state>
+        <zip>37660</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Rowe</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37211</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ashley Adamson</last_name>
+      <phone>615-693-9742</phone>
+      <email>aadamson@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Clinical Research Solutions - Dr. Dar</name>
+      <address>
+        <city>Smyrna</city>
+        <state>Tennessee</state>
+        <zip>37167</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ashley Adamson</last_name>
+      <phone>615-577-4017</phone>
+      <email>aadamson@crssites.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Texas Tech Amarillo</name>
+      <address>
+        <city>Amarillo</city>
+        <state>Texas</state>
+        <zip>79106</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joann Urben</last_name>
+      <phone>806-354-5582</phone>
+      <email>joann.urben@ttuhsc.edu</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>3rd Coast Research Associates</name>
+      <address>
+        <city>Corpus Christi</city>
+        <state>Texas</state>
+        <zip>78413</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Winnie, M.D.</last_name>
+      <phone>361-288-4668</phone>
+      <email>mwinnie@3cra.net</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Centex Studies Inc. - Dr. Pouzar</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77062</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Shruti Konda</last_name>
+      <phone>281-282-0808</phone>
+      <email>skonda@centexstudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Pioneer Research Solutions, Inc.</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77098</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>University of Texas at Houston</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Texas Tech HSC</name>
+      <address>
+        <city>Lubbock</city>
+        <state>Texas</state>
+        <zip>79430</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Centex Studies Inc. - Dr. Garcia</name>
+      <address>
+        <city>Pharr</city>
+        <state>Texas</state>
+        <zip>78577</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Norma Sanchez</last_name>
+      <phone>956-342-2626</phone>
+      <email>nsanchez@centexstudies.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Bandera Family Healthcare Research</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78249</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Endeavor Clinical Trials</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78229</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Diego Ceniceros</last_name>
+      <phone>210-949-0807</phone>
+      <email>dceniceros@endeavorct.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Virginia Commonwealth University</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23298</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Medico Platense</name>
+      <address>
+        <city>La Plata</city>
+        <state>Buenos Aires</state>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Houssay</name>
+      <address>
+        <city>Vicente Lopez</city>
+        <state>Provincia de Buenos Aires</state>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Centro de Educación Médica e Investigaciónes Clínicas (CEMIC)</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Fundación del Centro de Estudios Infectológicos (FUNCEI)</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General de Agudos J. M. Ramos Mejía</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Italiano de Buenos Aires</name>
+      <address>
+        <city>Buenos Aires</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Rawson</name>
+      <address>
+        <city>Cordoba</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Centralizado de Asistencia e Investigación Clínica Integral (CAICI)</name>
+      <address>
+        <city>Santa Fe</city>
+        <country>Argentina</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Holdsworth House Med Practice</name>
+      <address>
+        <city>Darlinghurst</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Taylor Square Private Clinic</name>
+      <address>
+        <city>Darlinghurst</city>
+        <state>New South Wales</state>
+        <zip>2010</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Westmead Hospital</name>
+      <address>
+        <city>Westmead</city>
+        <state>New South Wales</state>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Brisbane</name>
+      <address>
+        <city>Herston</city>
+        <state>Queensland</state>
+        <zip>4029</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Northside Clinic</name>
+      <address>
+        <city>Fitzroy North</city>
+        <state>Victoria</state>
+        <zip>3068</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>The Alfred Hospital</name>
+      <address>
+        <city>Melbourne</city>
+        <state>Victoria</state>
+        <zip>3004</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Melbourne Hospital</name>
+      <address>
+        <city>Parkville</city>
+        <state>Victoria</state>
+        <zip>3052</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Nacional de Ciencias Médicas y Nutrición (INCMN) Salvador Zubirán</name>
+      <address>
+        <city>México City</city>
+        <country>Mexico</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Francisco Astudillo, MD</last_name>
+      <phone>(52-55) 5487-0900</phone>
+      <phone_ext>2420</phone_ext>
+    </contact>
+    <contact_backup>
+      <last_name>Itzel Cruz, MD</last_name>
+      <phone>(52-55) 5487-0900</phone>
+      <phone_ext>2420</phone_ext>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General y de Alta Especialidad &quot;Dr. Manuel GEA Gonzalez&quot;</name>
+      <address>
+        <city>Tlalpan</city>
+        <country>Mexico</country>
+      </address>
+    </facility>
+    <status>Completed</status>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Nacional de Enfermedades Respiratorias (INER)</name>
+      <address>
+        <city>Tlalpan</city>
+        <country>Mexico</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Javier Romo Garcia, MD</last_name>
+      <phone>52 (55) 5487-1700</phone>
+      <phone_ext>5295</phone_ext>
+    </contact>
+    <contact_backup>
+      <last_name>Roberto Sanchez, MD</last_name>
+      <phone>52 (55) 5487-1700</phone>
+      <phone_ext>5295</phone_ext>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Siriraj Hospital, Mahidol University</name>
+      <address>
+        <city>Bangkoknoi</city>
+        <state>Bangkok</state>
+        <zip>10700</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Winai Ratanasuwan, MD</last_name>
+      <phone>+66-24-197-388</phone>
+      <email>srwrt@mahidol.ac.th</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>HIV-NAT, The Thai Red Cross AIDS</name>
+      <address>
+        <city>Patumwan</city>
+        <state>Bangkok</state>
+        <zip>10330</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anchalee Avihingsanon</last_name>
+      <phone>+66-26-523-040</phone>
+      <phone_ext>107</phone_ext>
+      <email>anchalee.a@hivnat.org</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Srinagarind Hospital, Khon Kaen University</name>
+      <address>
+        <city>Muang</city>
+        <state>Khon Kaen</state>
+        <zip>40002</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ploenchan Chetchotisakd, MD</last_name>
+      <phone>+66-43-363-168</phone>
+      <email>ploencha@kku.ac.th</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Bamrasnaradura Infectious Diseases Institute</name>
+      <address>
+        <city>Muang</city>
+        <state>Nonthaburi</state>
+        <zip>11000</zip>
+        <country>Thailand</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Weerawat Manosuthi</last_name>
+      <phone>+66-25-903-632</phone>
+      <email>drweerawat@hotmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Argentina</country>
+    <country>Australia</country>
+    <country>Mexico</country>
+    <country>Thailand</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_2010-I-0210.html</url>
+    <description>NIH Clinical Center Detailed Web Page</description>
+  </link>
+  <reference>
+    <citation>Thompson WW, Shay DK, Weintraub E, Brammer L, Cox N, Anderson LJ, Fukuda K. Mortality associated with influenza and respiratory syncytial virus in the United States. JAMA. 2003 Jan 8;289(2):179-86.</citation>
+    <PMID>12517228</PMID>
+  </reference>
+  <reference>
+    <citation>Monto AS. Vaccines and antiviral drugs in pandemic preparedness. Emerg Infect Dis. 2006 Jan;12(1):55-60.</citation>
+    <PMID>16494718</PMID>
+  </reference>
+  <reference>
+    <citation>Moscona A. Oseltamivir resistance--disabling our influenza defenses. N Engl J Med. 2005 Dec 22;353(25):2633-6.</citation>
+    <PMID>16371626</PMID>
+  </reference>
+  <verification_date>December 2015</verification_date>
+  <lastchanged_date>December 2, 2015</lastchanged_date>
+  <firstreceived_date>October 22, 2010</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Adaptive Design</keyword>
+  <keyword>At Risk</keyword>
+  <keyword>H1N1</keyword>
+  <keyword>Synergy</keyword>
+  <keyword>TCAD</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Influenza, Human</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Amantadine</mesh_term>
+    <mesh_term>Oseltamivir</mesh_term>
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

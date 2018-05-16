@@ -1,0 +1,360 @@
+<template name="Payer">
+	<div class="content-wrapper ">
+		{{> SavedModelWarningMessage}}
+		<div class="container pagecontent AdvancePayer" id="AdvancePayer" style="padding-top: 10px;">
+			<!--	<div class="advancePayerSubTabs active">
+				<div class="advancePayerSubTabs-links-wrapper payerToolSection">
+	                <ul class="advancePayerSubTabs-links">
+	                    <li class="TreatedTab active">
+	                        <a href="#">
+	                            <span class="tabname">Treated Patients</span>
+	                            <span class="advPayerheaderCount treatedHeaderCount">3170</span>
+	                        </a>
+	                    </li>
+						<li class="TreatingTab">
+	                        <a href="#">
+	                            <span class="tabname">Treating Patients</span>
+	                            <span class="advPayerheaderCount treatingHeaderCount">2200</span>
+	                        </a>
+	                    </li>
+	                    <li class="UnTreatedTab">
+	                        <a href="#">
+	                            <span class="tabname">UnTreated Patients</span>
+	                            <span class="advPayerheaderCount untreatedHeaderCount">5470</span>
+	                        </a>
+	                    </li>
+	                </ul>
+	                <div class="AddNewDrugButtonWrapper" data-toggle="modal" data-target="#configNewDrugModal">
+	             		<div class="AddNewDrugIcon"></div>
+	             		<div class="AddNewDrugButton configNewDrug" >
+		             		New Drug
+		             	</div>
+	             	</div>
+	             	{{#if isModelPresent }}
+		             	<div class="AddNewDrugButtonWrapper loadSavedModel">
+							 <div class="ModelDrugIcon"></div>
+		             		<div class="AddNewDrugButton" >
+			             		Models
+			             	</div>
+		             	</div>
+					{{/if}}
+	            </div>
+            </div>     -->
+			<div id="TreatedPatientsSection" class="templateSection">
+				{{>TreatedPatients}}
+			</div>
+			<!--<div id="TreatingPatientsSection" class="templateSection">
+				{{>TreatingPatients}}
+            </div>
+			<div id="UnTreatedPatientsSection" class="templateSection">
+				{{>UnTreatedPatients}}
+            </div>-->
+		</div>
+	</div>
+
+
+	<div id="valueChartDialogBox" style="background: #fff; display:none;" title="Relative Value for XXXXXXXX">
+		<div style='width:900px;margin-top: 20px;'>
+			<span style='width:790px;height:500px;z-index:9; position:relative;' class='dimpleMapsContainer'></span>
+			<span style='width:100px;height:60px;position:absolute;top: 5px;right: 23%;opacity:0.5;z-index:1;'>
+				<img width='100px' height='60px' src='/optimal-position.png'/>
+			</span>
+			<span class='valueChartPopulation_Prev valueChartPopulation'>
+				<p>Sub Population Information</p>
+				<table>
+						<tr><td class='populationTitle'>Genotype:</td><td class='populationValue GenotypeCik'>1a</td></tr>
+						<tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue CirrhosisCik'>No</td></tr>
+						<tr><td class='populationTitle'>Treatment: </td><td class='populationValue TreatmentCik'>12 week</td></tr>
+						<tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainer' class='populationValue TotalNCik'>8</td></tr>
+				</table>
+				<!-- <span class='moreChartPopulationLink'>more</span> -->
+			</span>
+			<span class='valueChartPopulation_All valueChartPopulation'>
+				<p>Sub Population Information</p>
+				<table>
+						<tr><td class='populationTitle'>Genotype:</td><td class='populationValue GenotypeCik'>1a</td></tr>
+						<tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue CirrhosisCik'>No</td></tr>
+						<tr><td class='populationTitle'>Treatment: </td><td class='populationValue TreatmentCik'>12 week</td></tr>
+						<tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainer' class='populationValue TotalNCik'>8</td></tr>
+				</table>
+				<span class='moreChartPopulationLink'>less</span>
+			</span>
+			<span class='valueChartChangeAxisCombo'>
+				<b>X-axis </b><div class='form-select'><select class='changeXAxis'>
+							<option value='Cost'>Cost</option>
+							<option value='Efficacy'>Efficacy</option>
+							<option value='Utilization'>Utilization</option>
+							<option value='Adherence'>Adherence</option>
+						  </select></div>
+				<br />
+				<b>Y-axis </b><div class='form-select'><select class='changeYAxis'>
+							<option value='Efficacy'>Efficacy</option>
+							<option value='Cost'>Cost</option>
+							<option value='Utilization'>Utilization</option>
+							<option value='Adherence'>Adherence</option>
+						  </select></div>
+			</span>
+			<span class='valueChartLegend'>
+				 <img src='/rvChartLegendPayer.png'/>
+			</span>
+		</div>
+	</div>
+
+	<!-- Config new Drug popup -->
+	<div class="configNewDrugPopup">
+		<div class="modal fade" id="configNewDrugModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="gridSystemModalLabel">Configure New Drug</h4>
+					</div>
+					<div class="modal-body cnfgDrug-body">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="form-group">
+									<label for="drug name" class="control-label"><span style="color:red;">* </span> Drug name</label>
+									<input type="text" class="form-control" id="newdrugname" name="drug name" value="" required="" title="Enter drug name" placeholder="Enter drug name">
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+									<label for="cost " class="control-label"><span style="color:red;">* </span>Cost</label>
+									<input type="number" class="form-control" id="newcost" name="cost" value="" required="" title="Enter cost  " placeholder="$  ">
+								</div>
+
+							</div>
+							<div class="col-md-3">
+
+								<div class="form-group">
+									<label for="efficacy" class="control-label"><span style="color:red;">* </span>Efficacy</label>
+									<input type="number" class="form-control" id="newefficacy" name="efficacy" value="" required="" title="Enter efficacy" placeholder="%">
+								</div>
+							</div>
+							<!--<div class="col-md-2">
+									<div class="form-group">
+										<label for="safety" class="control-label"><span style="color:red;">* </span>Safety</label>
+										<input type="text" class="form-control" id="newsafety" name="safety" value="" required="" title="safety" placeholder="%">
+									</div>
+							</div>-->
+							<div class="col-md-3">
+								<div class="form-group">
+									<label for="adherence" class="control-label"><span style="color:red;">* </span>Adherence</label>
+									<input type="number" class="form-control" id="newadherence" name="adherence" value="" required="" title="Enter adherence"
+									    placeholder="%">
+								</div>
+							</div>
+
+
+						</div>
+						<hr class="hrstyle">
+
+						<div class="row ">
+							<div class="col-md-5 hcv">
+								<div class="hcvtitle">Choose HCV Subpopulation</div>
+								<div class="form-group">
+									<label for="genotype" class="control-label"><span style="color:red;">* </span>Genotype</label>
+									<select id="newselectGenotype" name="selectgenotype" class="form-control">
+						<option value="" disabled selected style="display: none;">Select </option>
+						  {{#each getGenotypeList}}
+							<option value="{{hcv_genotype}}">{{hcv_genotype}}</option>
+						  {{/each}}
+						</select>
+								</div>
+
+								<div class="form-group">
+									<label for="cirrhosis" class="control-label"><span style="color:red;">* </span> Cirrhosis</label>
+									<div class="radio">
+										<label class="radio-inline">
+								<input type="radio" class="cirrhosisoptradio" name="cirrhosisoptradio" value="Yes">With
+							</label>
+										<label class="radio-inline">
+								<input type="radio" class="cirrhosisoptradio" name="cirrhosisoptradio" value="No">Without
+							</label>
+									</div>
+								</div>
+
+								<div class="form-group treatmentcnfg">
+									<label for="treatment" class="control-label"><span style="color:red;">* </span> Treatment</label>
+									<div class="radio">
+										<label class="radio-inline">
+								<input type="radio" class="treatmentoptradio" name="treatmentoptradio" value="Naive">Naive
+							</label>
+										<label class="radio-inline">
+								<input type="radio" class="treatmentoptradio" name="treatmentoptradio" value="Experienced">Experienced
+							</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="treatment Period" class="control-label"><span style="color:red;">* </span> Treatment Period(In Weeks)</label>
+									<input type="number" class="form-control" id="newtreatmentPeriod" name="treatment Period" min="0" value="" required="" title="Enter treatment Period"
+									    placeholder="treatment Period">
+								</div>
+
+							</div>
+
+							<div class="col-md-1 arrowRight"><i class="fa fa-arrow-circle-right selectDragToCetagoryType" aria-hidden="true"></i> </div>
+
+							<div class="col-md-6 targetHcv">
+								<div class="tragetSubpopulation">Target HCV Subpopulation</div>
+
+								<table class="table table-striped table-condensed">
+									<thead>
+										<tr>
+											<th>Genotype</th>
+											<th>Cirrhosis</th>
+											<th>Treatment</th>
+											<th>Period</th>
+										</tr>
+									</thead>
+									<tbody class="selectedDragToCetagoryType">
+
+									</tbody>
+								</table>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<input type="hidden" id="selectedDragToCetagoryTypeDataArray" value="" />
+						<button type="button" class="btn btn-labeled btn-success selectedDragToCetagoryTypeButton">
+					<!-- <span class="btn-label"><i class="fa fa-check" aria-hidden="true"></i></span> -->Go</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+	</div>
+	<!-- Sub Population chart popup -->
+	<div class="popup" data-popup="subpopulationChartsPopup" id="subpopulationChartsPopup">
+		<div class="popup-inner">
+
+			<div class="subpopulationChartsPopup-header">Test Popup</div>
+			<div class="subpopulationChartsPopup-message" style="display:none;">Click bars to view sub type details</div>
+			<div style="width:100%; float:left;">
+				<div class="subpopulationChartsPopup-title"></div>
+
+				<div class="subpopulationChartsPopup-back" style="display:none;">
+					<div>Back</div>
+				</div>
+			</div>
+			<div id="subpopulationChartsPopup-container"></div>
+			<div class="subpopulationChartsPopup-footer"></div>
+
+			<!--<div data-popup-close="subpopulationChartsPopup" class="subpopulationChartsPopup-close" href="#" style="cursor:pointer;">Close</div> -->
+
+			<div id="popupclose" class="popup-close" data-popup-close="subpopulationChartsPopup" href="#" style="cursor:pointer;">x</div>
+		</div>
+	</div>
+
+	<!-- Relative Value Zoom chart popup -->
+	<div class="popup" data-popup="relativeValueZoomChartsPopup" id="relativeValueZoomChartsPopup">
+		<div class="popup-inner">
+
+			<div class="subpopulationChartsPopup-header">Test Popup</div>
+			<div class="subpopulationChartsPopup-message" style="display:none;">Click bars to view sub type details</div>
+			<div style="width:100%; float:left;">
+				<div class="subpopulationChartsPopup-title"></div>
+
+				<div class="subpopulationChartsPopup-back" style="display:none;">
+					<div>Back</div>
+				</div>
+			</div>
+			<div id="relativeValueZoomChartsPopup-container"></div>
+			<div class="subpopulationChartsPopup-footer"></div>
+
+			<!--<div data-popup-close="subpopulationChartsPopup" class="subpopulationChartsPopup-close" href="#" style="cursor:pointer;">Close</div> -->
+
+			<div id="popupclose" class="popup-close" data-popup-close="relativeValueZoomChartsPopup" href="#" style="cursor:pointer;">x</div>
+		</div>
+	</div>
+
+	<!--  END Relative Value Zoom chart popup -->
+
+	<!-- Load warning message popup -->
+	<div class="popup" data-popup="loadWarningMessage" id="loadWarningMessage">
+		<div class="popup-inner">
+			<!-- <div class="subpopulationChartsPopup-header">List of Saved Models</div> -->
+			<!-- <div class="row" id="listSavedModelList-Header"></div> -->
+			<div class="modal-body popup-body" style="text-align:center;color:red;">
+				<div class="row payerModelPopup" id="loadWarningMessageContent">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 
+	 * @author: Pramveer
+	 * @date: 13 Apr 17
+	 * @desc: Warning msg box for the zero value of universe relative weights
+	-->
+	<div class="popup" data-popup="uniWeightsZeroWarningMsgBox" id="uniWeightsZeroWarningMsgBox">
+		<div class="popup-inner">
+			<div class="modal-body popup-body" style="text-align:center;color:red;">
+				<div class="row payerModelPopup" id="uniWeightsZeroWarningMsgBox-Content">
+					<div class="col-md-12 relativeWeightsWarning">
+						All the weights cannot be zero. You have to select atleast one slider with more the 0 value. 
+					</div>
+					<button type="button"  tabname='treated' class="btn btn-default uniWeightsZeroWarningBtn js-uniWeightsZeroWarningBtn">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Load warning message popup -->
+	<div class="popup" data-popup="WarningMsgForCurrentModel" id="WarningMsgForCurrentModel">
+		<div class="popup-inner">
+			<!-- <div class="subpopulationChartsPopup-header">List of Saved Models</div> -->
+			<!-- <div class="row" id="listSavedModelList-Header"></div> -->
+			<div class="modal-body popup-body" style="text-align:center;color:red;">
+				<div class="row" id="WarningMsgCurrentModelContent">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="safety_popup" id="safety_popup" style="display:none">
+		<div class="popup_blk_bg"></div>
+		<div class="modal-content popup-modal" style="background-color: transparent;">
+			<div class="modal-header popup-header">
+				<button type="button" class="close safety_closebtn"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Safety</h4>
+			</div>
+			<div class="modal-body popup-body">
+			</div>
+			<div class="modal-footer popup-footer">
+				<button type="button" class="btn btn-default safety_closebtn">Close</button>
+			</div>
+		</div>
+	</div>
+	<!-- Load existing models popup -->
+	<div class="popup" data-popup="loadExistingModels" id="loadExistingModels">
+		<div class="popup-inner">
+			<div class="LoadModelHeader">List of Saved Models</div>
+			<div class="" id="listSavedModelList-Header"></div>
+			<div id="listSavedModelList-loadingMask">
+				<div class="chart_loader_overlay payer_loader_overlay"></div>
+				<div class="chart_loader payer_loader">Loading...</div>
+			</div>
+			<div class="" id="listSavedModelList"></div>
+			<div class="" id="listSavedModelList-Footer"></div>
+			<div class="popup-close" data-popup-close="loadExistingModels" href="#" style="cursor:pointer;">x</div>
+		</div>
+	</div>
+
+	<!-- Compare Models -->
+	<div class="popup" data-popup="comparePayerModelsUI" id="comparePayerModelsUI">
+		<div class="popup-inner">
+			<div id="comparePayerModelsContainer"></div>
+			<!-- <div class="popup-close" data-popup-close="comparePayerModelsUI" href="#" style="cursor:pointer;">x</div> -->
+		</div>
+	</div>
+
+	{{>MainFooter}}
+</template>

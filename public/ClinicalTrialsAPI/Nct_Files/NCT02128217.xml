@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="64">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02128217</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ACTG A5327</org_study_id>
+    <secondary_id>UM1AI068636</secondary_id>
+    <nct_id>NCT02128217</nct_id>
+  </id_info>
+  <brief_title>Sofosbuvir-Containing Regimens Without Interferon For Treatment of Acute Hepatitis C Virus (HCV) Infection</brief_title>
+  <acronym>SWIFT-C</acronym>
+  <official_title>Sofosbuvir-Containing Regimens Without Interferon For Treatment of Acute HCV in HIV-1 Infected Individuals (SWIFT-C)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>AIDS Clinical Trials Group</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Institute of Allergy and Infectious Diseases (NIAID)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>AIDS Clinical Trials Group</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      People who are recently infected with HCV have a great chance of being cured of the
+      infection when they are treated with a combination of two drugs within the first 6 months of
+      being infected. This study is being done to see if a combination of two new drugs in one
+      pill can replace the old drugs to provide a safer, more effective, and better tolerated
+      treatment for new HCV infection. The names of the new drugs are ledipasvir (LDV) and
+      sofosbuvir (SOF), and they will replace pegylated-interferon alfa (PEG-IFN, a drug given as
+      a weekly injection under the skin). The fixed-dose combination of LDV and SOF (LDV/SOF) has
+      been approved by the Food and Drug Administration (FDA).
+
+      This study started with participants in Group 1 receiving SOF in combination with RBV, a
+      drug also approved by the FDA, for 12 weeks. There were a total of 17 participants in Group
+      1 and all completed treatment. All participants were monitored for safety and viral response
+      while on treatment. After completing treatment, all participants were evaluated for a
+      treatment response after the end of treatment.
+
+      If the treatment response in Group 1 was high enough, the study design allowed for the
+      possibility to decrease the length of therapy for Group 2 to 8 weeks, using the same
+      treatment. However, this did not occur. Combined with the fact that a new and more effective
+      treatment for chronic HCV has been approved since the study started, Group 2 will now
+      receive 8 weeks of LDV/SOF instead of 12 or 8 weeks of SOF with RBV.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>April 2014</start_date>
+  <completion_date type="Anticipated">November 2016</completion_date>
+  <primary_completion_date type="Anticipated">November 2016</primary_completion_date>
+  <phase>Phase 1</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>SVR12 defined as HCV RNA undetectable (&lt;LLOQ TND) of the assay at 12 weeks after date of last dose of study treatment.</measure>
+    <time_frame>At 12 weeks after date of last dose of study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The 12 week measurement will be the measurement obtained closest to 84 days (i.e. 12*7 days), within the window 79 to 112 days inclusive. If a participant has no HCV RNA measurement within this window, then the participant will be considered as having detectable HCV RNA at 12 weeks unless the preceding and subsequent HCV RNA measurements are both undetectable (&lt;LLOQ TND).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Occurrence of a Grade ≥ 2 adverse event (AE: diagnosis, sign, symptom or laboratory abnormality), Serious AE according to ICH criteria, or treatment-limiting AE (ie, an AE reported as the reason for permanent discontinuation of study treatment)</measure>
+    <time_frame>From initiation of study treatment to 28 days after last dose of study treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Any event occurring after initiation of study treatment through to 28 days after date of last dose of study treatment will be included (except that an event that is ongoing at the same grade from before start of study treatment will be excluded).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>HCV RNA undetectable during study treatment</measure>
+    <time_frame>1, 2, 4, 8 and, for the 12-week regimen, 12 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HCV RNA undetectable is defined as an HCV RNA measurement less than the assay lower limit of quantification, target not detected. If there is no measurement at a scheduled time, then the participant will be considered as having detectable HCV RNA at that time, unless both the preceding and succeeding measurements are undetectable.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV RNA undetectable after end of study treatment</measure>
+    <time_frame>2, 4, 8 and 24 weeks after last dose of study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HCV RNA undetectable is defined as an HCV RNA measurement less than the assay lower limit of quantification, target not detected. If there is no measurement at a scheduled time, then the participant will be considered as having detectable HCV RNA at that time, unless both the preceding and succeeding measurements are undetectable. This outcome measure is generally referred to as SVR2, SVR4, SVR8 and SVR where SVR means sustained virologic response.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>HCV virologic relapse</measure>
+    <time_frame>From end of study treatment through to 24 weeks after end of study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>HCV RNA undetectable at end-of-treatment but HCV RNA quantifiable during follow-up with subsequent confirmation as quantifiable</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Development of SOF or LDV-associated resistance mutations</measure>
+    <time_frame>Any time from start of study treatment to 24 weeks after end of study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The set of mutations to be considered will be defined at the time of analysis based on information from other studies available at that time.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Occurrence of each type of adverse event</measure>
+    <time_frame>Any time from start of treatment to 24 weeks after end of treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>The adverse events to be considered are those used to define the safety primary outcome measure</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in HIV-1 RNA from last measurement prior to start of study treatment</measure>
+    <time_frame>4 and 12 weeks after start of study treatment (4 and 8 weeks after for the 8-week regimen</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>For participants on ART at study entry, these will be categorized as changes from &lt;50 copies/mL to ≥50 copies/mL, or vice versa; for participants not on ART at study entry, quantitative change in log10 HIV-1 RNA will be considered.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Change in CD4+ cell count from last measurement prior to start of study treatment.</measure>
+    <time_frame>12 weeks after start of study treatment (8 weeks after for the 8-week regimen)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported adherence to SOF</measure>
+    <time_frame>1, 2, 4, 8 and, for 12-week regimen only, 12 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>whether or not a participant reports having taken all doses of SOF</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported adherence to RBV</measure>
+    <time_frame>1, 2, 4, 8 and, for 12-week regimen only, 12 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>whether or not a participant reports having taken all doses of RBV</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adherence as measured by SOF pill count</measure>
+    <time_frame>1, 2, 4, 8 and, for 12-week regimen only, 12 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Proportion of expected SOF doses taken</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adherence as measured by RBV pill count</measure>
+    <time_frame>1, 2, 4, 8 and, for 12-week regimen only, 12 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Proportion of expected RBV doses taken</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Self-reported adherence to LDV/SOF</measure>
+    <time_frame>1, 2, 4, and 8, for 8-week regimen only, 8 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>whether or not a participant reports having taken all doses of LDV/SOF</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Adherence as measured by LDV/SOF pill count</measure>
+    <time_frame>1, 2, 4, and 8, for 8-week regimen only, 8 weeks after starting study treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Proportion of expected LDV/SOF doses taken</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>HIV-1 Infection</condition>
+  <condition>Hepatitis</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1: SOF+weight-based RBV for 12 wks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Follow-up will occur 24 weeks after the end of treatment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2: LDV/SOF for 8 wks</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Follow-up will occur 24 weeks after the end of treatment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>Participants will receive weight-based RBV orally, 2 times a day, every morning and every evening, with food. Weight under 75 kg, 600 mg (3 tablets) morning and 400 mg (2 tablets) evening. Weight over 75 kg, 600 mg (3 tablets) morning and 600 mg (3 tablets) evening. The dose of RBV will be based on subject's weight at entry. Changes in weight after entry do not require a change in dose. Doses will only be changed for toxicity management.</description>
+    <arm_group_label>Cohort 1: SOF+weight-based RBV for 12 wks</arm_group_label>
+    <other_name>RBV</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <description>Participants will receive one 400 mg tablet of sofosbuvir orally every morning with food.</description>
+    <arm_group_label>Cohort 1: SOF+weight-based RBV for 12 wks</arm_group_label>
+    <other_name>SOF</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ledipasvir/Sofosbuvir</intervention_name>
+    <description>Participants will receive one daily fixed-dose combination tablet orally every morning of 90 mg of LDV and 400 mg of SOF.</description>
+    <arm_group_label>Cohort 2: LDV/SOF for 8 wks</arm_group_label>
+    <other_name>LDV/SOF</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        A5327 Eligibility Criteria (Cohort 1 and Cohort 2)
+
+        Step 1 inclusion criteria for both cohorts (Cohort 1 and Cohort 2)
+
+          -  HIV-1 infection, documented by any licensed rapid HIV test or HIV enzyme or
+             chemiluminescence immunoassay (E/CIA) test kit at any time prior to study entry and
+             confirmed by a licensed Western blot or a second antibody test by a method other than
+             the initial rapid HIV and/or E/CIA, or by HIV-1 p24 antigen, or plasma HIV-1 RNA
+             viral load. [NOTE: The term &quot;licensed&quot; refers to a FDA-approved kit, which is
+             required for all IND studies.] WHO (World Health Organization) and CDC (Centers for
+             Disease Control and Prevention) guidelines mandate that confirmation of the initial
+             test result must use a test that is different from the one used for the initial
+             assessment. A reactive initial rapid test should be confirmed by either another type
+             of rapid assay or an E/CIA that is based on a different antigen preparation and/or
+             different test principle (e.g., indirect versus competitive), or a Western blot or a
+             plasma HIV-1 RNA viral load.
+
+          -  A documented confirmation of acute HCV infection within 6 months prior to A5327 entry
+             or HCV reinfection as described below:
+
+               1. Acute HCV infection will be defined as meeting one of the following criteria and
+                  exclusion of other causes of acute hepatitis:
+
+                    -  New (&lt;24 weeks prior to initial A5327 entry) ALT elevation to ≥5X upper
+                       limit of normal (ULN) OR &gt;250 U/L in patients with documented normal ALT in
+                       the preceding 12 months or ≥10X ULN OR &gt;500 U/L in patients with abnormal
+                       or no measured ALT baseline in the preceding 12 months with detectable HCV
+                       RNA excluding those with any prior positive anti-HCV. OR
+
+                    -  Detectable HCV RNA with prior negative anti-HCV Ab or undetectable HCV RNA
+                       within the preceding 6 months.
+
+               2. Acute HCV reinfection will be defined by documentation of clearance of prior
+                  infection (as evidenced by positive anti-HCV Ab) either spontaneously or after
+                  treatment with two negative HCV RNA a minimum of 6 months apart AND meeting one
+                  of the following criteria in addition to exclusion of other causes of acute
+                  hepatitis:
+
+                    -  New (&lt;24 weeks prior to initial A5327 entry) ALT elevation to ≥5X ULN OR
+                       &gt;250 U/L in patients with documented normal ALT in the preceding 12 months
+                       or ≥10X ULN OR &gt;500 U/L in patients with abnormal or no measured ALT
+                       baseline in the preceding 12 months with detectable HCV RNA. OR
+
+                    -  Positive HCV RNA with prior negative HCV RNA within the preceding 6 months.
+
+          -  HCV RNA confirmed to be detectable &gt;12 weeks after first laboratory evidence of acute
+             HCV and still within the &lt;24 week from first laboratory evidence of acute HCV
+             infection window. First laboratory evidence of infection is defined as date of first
+             elevated liver enzymes or date of first serologic evidence of HCV seroconversion
+             and/or viremia (whichever occurs first). [NOTE: If the screening visit occurs less
+             than 12 weeks from the first laboratory evidence of infection, then the participant
+             will require a pre-entry study visit to confirm detectable HCV RNA at least 12 weeks
+             from the first laboratory evidence of infection have passed. It is optimal for this
+             pre-entry visit to occur as close as possible to 12 weeks from first laboratory
+             evidence to ensure timely treatment. Potential participants who enter screening but
+             who have an undetectable HCV RNA (&lt;LLOQ TND) at the pre-entry visit (when required)
+             will have exhibited evidence of possible spontaneous clearance and will not meet the
+             entry criteria.]
+
+          -  Body mass index (BMI) ≥ 18 kg/m2
+
+          -  Screening electrocardiogram (ECG) without clinically significant abnormalities as
+             determined by the investigator.
+
+          -  Willing and able to provide written informed consent.
+
+          -  Men and women age ≥ 18 years.
+
+          -  All participants must agree not to participate in a conception process (eg, active
+             attempt to become pregnant or to impregnate, sperm donation, in vitro fertilization).
+             [NOTE: Female candidates who are pregnant or breastfeeding are not eligible. A male
+             candidate who has a pregnant female partner is not eligible for the study.]
+
+          -  When participating in sexual activity that could lead to pregnancy, all participants
+             must agree to use at least two reliable forms of contraceptive simultaneously while
+             receiving protocol-specified medications, and for 6 months after stopping the
+             medications. Such methods include:
+
+               -  Condoms (male or female) with or without a spermicidal agent
+
+               -  Diaphragm or cervical cap with spermicide
+
+               -  Intrauterine device (IUD)
+
+               -  Tubal ligation
+
+               -  Hormone-based contraceptive (except those containing drospirenone)
+
+        [NOTE: Providers and participants should be advised that not all contraceptive choices
+        listed above can prevent HIV transmission and that some may actually increase the risk of
+        HIV acquisition. Study participants who are sexually active with HIV-1 negative or unknown
+        HIV-1 serostatus partners should be advised that they need to consider effective
+        strategies for reducing the risk of HIV transmission, as well as meeting the requirement
+        for effective contraception during their participation in the study. Study participants
+        should discuss contraceptive choices and HIV risk reduction methods with their health care
+        provider.]
+
+          -  Participants who are not of reproductive potential (women who have been
+             post-menopausal for at least 24 consecutive months or have undergone hysterectomy
+             and/or bilateral oophorectomy or salpingectomy or men who have documented azoospermia
+             or undergone vasectomy) are eligible without requiring the use of contraceptives.
+             Acceptable documentation of sterilization and menopause is specified below.
+
+               -  Written or oral documentation communicated by clinician or clinician's staff of
+                  one of the following:
+
+               -  Physician report/letter
+
+               -  Operative report or other source documentation in the patient record (a
+                  laboratory report of azoospermia is required to document successful vasectomy)
+
+               -  Discharge summary
+
+               -  Follicle stimulating hormone-release factor (FSH) measurement elevated into the
+                  menopausal range as established by the reporting laboratory.
+
+          -  Intention to comply with the dosing instructions for study drug administration and
+             able to complete the study schedule of assessments.
+
+        Step 1 inclusion criteria for Cohort 1 only
+
+          -  HIV-1 ARV therapy should fall into one of the following criteria:
+
+               1. ARV untreated, for example due to (1) lack of indication per provider (CD4
+                  T-cell count &gt;500 cells/mm3) or (2) decision by provider and participant to
+                  defer ARV therapy during the study drug dosing period (8 or 12 weeks), or (3)
+                  elite controller (CD4+ &gt;200 cells/mm3). OR
+
+               2. On a stable, protocol-approved (ddI, d4T, ZDV excluded), ARV regimen for &gt;8
+                  weeks prior to screening with a CD4 T-cell count &gt;200 cells/mm3 and a documented
+                  plasma HIV-1 RNA level &lt;50 copies/mL or &lt;LLOQ of local assay if LLOQ is &gt;50
+                  copies/mL by any laboratory that has a Clinical Laboratory Improvement
+                  Amendments (CLIA) certification or its equivalent ≥ 8 weeks preceding the A5327
+                  screening visit. HIV-1 RNA levels should be within 1 year of the screening
+                  visit. Screening HIV-1 RNA must be &lt; 50 copies/mL as measured by any local
+                  laboratory using an FDA-approved assay.
+
+          -  Candidates must have the following laboratory parameters within 10-42 days prior to
+             study entry:
+
+               1. Hemoglobin ≥ 12 g/dL for male, ≥11 g/dL for female participants
+
+               2. International normalized ratio (INR) ≤1.5 x ULN unless participant has known
+                  hemophilia or is stable on an anticoagulant regimen affecting INR
+
+               3. Albumin ≥ 3 g/dL
+
+               4. Creatinine clearance (CrCl) ≥ 60 mL/min, as calculated by the Cockcroft-Gault
+                  equation (refer to section 6.3.5 for calculator utility link)
+
+          -  Female participants of reproductive potential (defined as women who have not been
+             post-menopausal for at least 24 consecutive months, ie, who have had menses within
+             the preceding 24 months, or women who have not undergone surgical sterilization,
+             specifically hysterectomy and/or bilateral oophorectomy or bilateral salpingectomy)
+             must have a negative serum pregnancy test with a sensitivity of at least 25 mIU/mL
+             performed during screening, within 48 hours prior to study entry.
+
+        Step 1 inclusion criteria for Cohort 2 only
+
+          -  HCV genotype 1a, 1b, or 4 infection with source documentation from a CLIA-approved
+             laboratory (or its equivalent). [NOTE: Those with mixed 1a/b genotype will be
+             classified as 1a.]
+
+          -  HIV-1 ARV therapy should fall into one of the following criteria:
+
+               1. ARV untreated, for example due to (1) lack of indication per provider (CD4
+                  T-cell count &gt;500 cells/mm3) or (2) decision by provider and participant to
+                  defer ARV therapy during the study drug dosing period (8 or 12 weeks), or (3)
+                  elite controller (CD4+ &gt;200 cells/mm3). OR
+
+               2. On a stable, protocol-approved ARV regimen (the following ARVs are not allowed:
+                  ddI, d4T, and TPV/r) for &gt;8 weeks prior to screening with a CD4 T-cell count
+                  &gt;200 cells/mm3 and a documented plasma HIV-1 RNA level &lt;50 copies/mL or &lt;LLOQ of
+                  local assay if LLOQ is &gt;50 copies/mL by any laboratory that has a Clinical
+                  Laboratory Improvement Amendments (CLIA) certification or its equivalent ≥ 8
+                  weeks preceding the A5327 screening visit. HIV-1 RNA levels should be within 1
+                  year of the screening visit. Screening HIV-1 RNA must be &lt;50 copies/mL as
+                  measured by any local laboratory using an FDA-approved assay.
+
+          -  Candidates must have the following laboratory parameters within 10-42 days prior to
+             study entry:
+
+               1. Hemoglobin ≥9 g/dL for male and female participants
+
+               2. International normalized ratio (INR) ≤1.5 x ULN unless participant has known
+                  hemophilia or is stable on an anticoagulant regimen affecting INR
+
+               3. Albumin ≥3 g/dL
+
+               4. Creatinine clearance (CrCl) ≥60 mL/min, as calculated by the Cockcroft-Gault
+                  equation (refer to section 6.3.5 for calculator utility link)
+
+          -  Female participants of reproductive potential (defined as women who have not been
+             post-menopausal for at least 24 consecutive months, ie, who have had menses within
+             the preceding 24 months, or women who have not undergone surgical sterilization,
+             specifically hysterectomy and/or bilateral oophorectomy or bilateral salpingectomy)
+             must have a negative serum or urine pregnancy test within 48 hours prior to study
+             entry by any laboratory or clinic that has a CLIA certificate or its equivalent, or
+             is using a point-of-care (POC)/CLIA-waived test. The serum, urine or POC pregnancy
+             test must have a sensitivity of at least 25 mIU/mL.
+
+        Step 1 exclusion criteria for both cohorts (Cohort 1 and Cohort 2)
+
+          -  Received investigational drug or device within 60 days prior to study entry.
+
+          -  Chronic liver disease of a non-HCV etiology (eg, hemochromatosis, Wilson's disease,
+             α1 antitrypsin deficiency, primary sclerosing cholangitis).
+
+          -  Presence of active or acute AIDS-defining opportunistic infections within 30 days
+             prior to study entry. [NOTE: A list of AIDS-defining opportunistic infections as
+             defined by the CDC, can be found in Appendix B of the following document:
+             http://www.cdc.gov/mmwr/preview/mmwrhtml/00018871.htm]
+
+          -  Active, serious infection (other than HIV-1 or HCV) requiring parenteral antibiotics,
+             antivirals, or antifungals within 30 days prior to study entry.
+
+          -  Infection with hepatitis B virus (HBV) defined as HBsAg positive.
+
+          -  Evidence of acute hepatitis A infection defined as HAV IGM positive.
+
+          -  Chronic use of systemically administered immunosuppressive agents (eg, prednisone
+             equivalent &gt; 10 mg/day).
+
+          -  History of solid organ transplantation.
+
+          -  Current or prior history of clinical hepatic decompensation (eg, ascites,
+             encephalopathy or variceal hemorrhage).
+
+          -  History of a gastrointestinal disorder (or post operative condition) that could
+             interfere with the absorption of the study drug.
+
+          -  History of significant or symptomatic pulmonary disease, cardiac disease, or
+             porphyria.
+
+          -  History of difficulty with blood collection and/or poor venous access for the
+             purposes of phlebotomy.
+
+          -  History of clinically significant illness or any other major medical disorder that
+             may interfere with participant treatment, assessment, or compliance with study
+             requirements, which may include active drug or alcohol use or dependence.
+
+          -  Use of any prohibited concomitant medications within 30 days prior to study entry.
+
+          -  Acute HIV infection defined as the phase immediately following infection during which
+             anti-HIV antibodies are undetectable. [NOTE: Participants with early infection,
+             defined as within the first 6 months of infection and with a positive HIV antibody,
+             should be discussed with the A5327 protocol core team. These participants may be
+             considered for inclusion in the study on a case by case basis with the specific
+             documented approval of the protocol chairs.]
+
+        Step 1 exclusion criteria for Cohort 1 only
+
+          -  Prior exposure to a direct-acting antiviral (DAA) targeting the HCV NS5B polymerase.
+             [NOTE: DAAs include but are not limited to: mericitabine, ABT-333, ABT-072,
+             BI-207127, BMS-791325, VX-222, tegobuvir, IDX719, setrobuvir, GS-9669, VX-135.]
+
+          -  History of clinically significant hemoglobinopathy (eg, sickle cell disease,
+             thalassemia).
+
+          -  Known hypersensitivity to RBV, SOF, its metabolites, or formulation excipients or any
+             other contraindication to the use of RBV or SOF.
+
+          -  Currently receiving ZDV, ddI, or d4T.
+
+        Step 1 Exclusion criteria for Cohort 2 only
+
+          -  Any preceding attempt at HCV treatment during this acute HCV infection episode, ie,
+             24 weeks prior to entry.
+
+          -  Known hypersensitivity to SOF or LDV, the metabolites, or formulation excipients or
+             any other contraindication to the use of SOF or LDV.
+
+          -  Currently receiving TPV/r, ddI, d4T or amiodarone.
+
+          -  Pregnancy or Breastfeeding.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Raymond T Chung, M.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Massachusetts General Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Susanna Naggie, M.D.</last_name>
+    <role>Study Chair</role>
+    <affiliation>Duke University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>701 University of California, San Diego AntiViral Research Center CRS</name>
+      <address>
+        <city>San Diego</city>
+        <state>California</state>
+        <zip>92103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jill Kunkel</last_name>
+      <phone>619-543-8080</phone>
+      <phone_ext>263</phone_ext>
+      <email>jkunkel@ucsd.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Constance A. Benson, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>801 University of California, San Francisco HIV/AIDS CRS</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jay Dwyer, RN</last_name>
+      <phone>415-514-0550</phone>
+      <phone_ext>354</phone_ext>
+      <email>jdwyer@php.ucsf.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Diane V. Havlir, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>6101 University of Colorado Hospital CRS</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80262</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mary G Ray, RN, MSN</last_name>
+      <phone>303-724-0712</phone>
+      <email>graham.ray@uchsc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Thomas B Campbell, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>5802 The Ponce de Leon Center CRS</name>
+      <address>
+        <city>Atlanta</city>
+        <state>Georgia</state>
+        <zip>30308</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ericka Patrick, RN, MSN</last_name>
+      <phone>404-616-6313</phone>
+      <email>erpatri@emory.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Carlos del Rio, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>2701 Northwestern University CRS</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Baiba Berzins, MPH</last_name>
+      <phone>312-695-5012</phone>
+      <email>baiba@northwestern.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Babafemi Taiwo, MBBS, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>201 Johns Hopkins University CRS</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21205</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ilene Wiggins, RN</last_name>
+      <phone>410-955-2898</phone>
+      <email>imp@jhmi.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Charles Flexner, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>101 Massachusetts General Hospital (MGH) CRS</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Teri Flynn, RN, ANP, MSN</last_name>
+      <phone>617-724-0072</phone>
+      <email>tflynn@partners.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rajesh Gandhi, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>107 Brigham and Women's Hosp. ACTG CRS</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cheryl Keenan, RN</last_name>
+      <phone>617-732-5635</phone>
+    </contact>
+    <investigator>
+      <last_name>Paul E. Sax, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>2101 Washington University Therapeutics (WT) CRS</name>
+      <address>
+        <city>St. Louis</city>
+        <state>Missouri</state>
+        <zip>63110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michael Klebert, RN, PhD, CANP</last_name>
+      <phone>314-454-0058</phone>
+      <email>mklebert@im.wustl.edu</email>
+    </contact>
+    <investigator>
+      <last_name>David Clifford, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>7803 Weill Cornell Upton CRS</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10065</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Valery Hughes, FNP</last_name>
+      <phone>212-746-4393</phone>
+      <email>vah9001@med.cornell.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Marshall J. Glesby, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>7804 Weill Cornell Chelsea CRS</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10010</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Todd Stroberg, R.N., B.S.N.</last_name>
+      <phone>212-746-4177</phone>
+      <email>tstrober@med.cornell.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Timothy Wilkin, MD, MPH</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>3201 Chapel Hill CRS</name>
+      <address>
+        <city>Chapel Hill</city>
+        <state>North Carolina</state>
+        <zip>27516</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Susan Pedersen, RN, BSN</last_name>
+      <phone>919-966-6712</phone>
+    </contact>
+    <investigator>
+      <last_name>David A. Wohl, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>2401 Cincinnati CRS</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45267-0405</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tammy Miller, RN</last_name>
+      <phone>513-584-8373</phone>
+    </contact>
+    <investigator>
+      <last_name>Carl Fichtenbaum, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>6201 Penn Therapeutics CRS</name>
+      <address>
+        <city>Philadelphia</city>
+        <state>Pennsylvania</state>
+        <zip>19104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joseph Quinn, RN</last_name>
+      <phone>215-349-8091</phone>
+      <email>joseph.quinn@uphs.upenn.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Pablo Tebas, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>2951 The Miriam Hospital (TMH) ACTG CRS</name>
+      <address>
+        <city>Providence</city>
+        <state>Rhode Island</state>
+        <zip>02906</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pamela Poethke, RN</last_name>
+      <phone>401-793-4396</phone>
+      <email>ppoethke@lifespan.org</email>
+    </contact>
+    <investigator>
+      <last_name>Karen T. Tashima, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>31443 Trinity Health and Wellness Center CRS</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75208</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michelle Mba, MPH</last_name>
+      <phone>972-807-7370</phone>
+      <phone_ext>4420</phone_ext>
+      <email>michelle.mba@aidsarms.org</email>
+    </contact>
+    <investigator>
+      <last_name>Roger Bedimo, MD, MS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>31473 Houston AIDS Research Team (HART) CRS</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Maria Martinez, BS</last_name>
+      <phone>713-500-6718</phone>
+      <email>maria.l.martinez@uth.tmc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Roberto C. Arduino, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>5401 Puerto Rico AIDS Clinical Trials Unit CRS</name>
+      <address>
+        <city>San Juan</city>
+        <zip>00931</zip>
+        <country>Puerto Rico</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sylvia I. Davila Nieves, M.S.</last_name>
+      <phone>787-767-9192</phone>
+      <email>sylvia.davila@upr.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Jorge L Santana-Bagur, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Puerto Rico</country>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>https://actgnetwork.org/</url>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 5, 2015</lastchanged_date>
+  <firstreceived_date>April 29, 2014</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,117 @@
+<template name="PayerRelativeValueChart">
+	<div class='payer-relativeValue-chartSection'>
+    <div id="relativeValue-chartSection-{{generateDynamicId}}" style="float:left;"></div>
+    <div class="x-AxisValuesWrap" style="width:900px">
+        <div class="x-AxisMinVal" id='x-AxisMinVal-{{generateDynamicId}}'></div>
+        <div class="x-AxisMaxVal" id='x-AxisMaxVal-{{generateDynamicId}}'></div>
+    </div>
+    <div class="y-AxisMaxVal" id='y-AxisMaxVal-{{generateDynamicId}}'></div>
+    <div class="y-AxisMinVal" id='y-AxisMinVal-{{generateDynamicId}}'></div>
+	</div>
+
+    <!--<span style="width:100px;height:60px;position:absolute;top: 5px;right: 23%;opacity:0.5;z-index:1;">
+				<img width="100px" height="60px" src="/optimal-position.png">
+			</span>
+			<span class="valueChartPopulation_Prev valueChartPopulation">
+				<p>Sub Population Information</p>
+				<table>
+						<tr><td class="populationTitle">Genotype:</td><td class="populationValue GenotypeCik">1a</td></tr>
+						<tr><td class="populationTitle">Cirrhosis: </td><td class="populationValue CirrhosisCik">No</td></tr>
+						<tr><td class="populationTitle">Treatment: </td><td class="populationValue TreatmentCik">Naive</td></tr>
+						<tr><td class="populationTitle">Total (N): </td><td id="TotalNContainer" class="populationValue TotalNCik">106</td></tr>
+				</table>
+				
+			</span>
+			<span class="valueChartPopulation_All valueChartPopulation">
+				<p>Sub Population Information</p>
+				<table>
+						<tr><td class="populationTitle">Genotype:</td><td class="populationValue GenotypeCik">1a</td></tr>
+						<tr><td class="populationTitle">Cirrhosis: </td><td class="populationValue CirrhosisCik">No</td></tr>
+						<tr><td class="populationTitle">Treatment: </td><td class="populationValue TreatmentCik">Naive</td></tr>
+						<tr><td class="populationTitle">Total (N): </td><td id="TotalNContainer" class="populationValue TotalNCik">8</td></tr>
+				</table>
+				<span class="moreChartPopulationLink">less</span>
+			</span>
+			<span class="valueChartChangeAxisCombo" style="">
+				<b>X-axis </b><div class="form-select"><select class="changeXAxis">
+							<option value="Cost">Cost</option>
+							<option value="Efficacy">Efficacy</option>
+							<option value="Utilization">Utilization</option>
+							<option value="Adherence">Adherence</option>
+						  </select></div>
+				<br> 
+				<b>Y-axis </b><div class="form-select"><select class="changeYAxis"> 
+							<option value="Efficacy">Efficacy</option>
+							<option value="Cost">Cost</option>
+							<option value="Utilization">Utilization</option>
+							<option value="Adherence">Adherence</option>
+						  </select></div>
+			</span>
+			<span class="valueChartLegend" style="">
+				 <img src="/rvChartLegendPayer.png">
+			</span>
+-->
+
+<div class="payer-relative-right-section" id='payer-relative-right-section-{{generateDynamicId}}' style="display:none">
+
+                                        <span style='width:100px;height:60px;position:absolute;top: 50px;right: 24%;opacity:0.5;z-index:1;'>
+											<img width='100px' height='60px' src='/optimal-position.png'/></span>
+                                     <span class='valueChartPopulation_Prev valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                       
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue relativeValueChart_Genotype'></td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue relativeValueChart_Cirrhosis'></td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue relativeValueChart_Treatment'></td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainer-{{generateDynamicId}}' class='populationValue'></td></tr>
+
+                                        </table>
+                                    
+                                     
+                                     </span>
+                                     <!--<span class='valueChartPopulation_All valueChartPopulation'>
+                                         <p>Sub Population Information</p>
+                                         {{#with getPopulationData}}
+                                         <table>
+                                                <tr><td class='populationTitle'>Genotype:</td><td class='populationValue'>{{PopulationData_Genotype}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Cirrhosis: </td><td class='populationValue'>{{PopulationData_Cirrhosis}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Treatment: </td><td class='populationValue'>{{PopulationData_Treatment}}</td></tr>
+
+                                                <tr><td class='populationTitle'>Total (N): </td><td id='TotalNContainerAll' class='populationValue'>{{PopulationData_ViralLoad}}</td></tr>
+
+                                        </table>
+                                        {{/with}}
+                                  
+                                     </span>-->
+                                     <span class='valueChartPhsDrug'>
+                                         <span class='outerRing'>
+                                         </span>
+                                         <span class='phsDrug'>
+                                             Customer Drug
+                                         </span>
+                                     </span>
+                                     <span class='valueChartChangeAxisCombo'>
+                                         <b>X-axis </b><div class='form-select'><select class='changeXAxis'>
+                                                    <option value='Cost'>Cost</option>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                        <br />
+                                        <b>Y-axis </b><div class='form-select'><select class='changeYAxis'>
+                                                    <option value='Efficacy'>Efficacy</option>
+                                                    <option value='Cost'>Cost</option>
+                                                    <option value='Utilization'>Utilization</option>
+                                                    <option value='Adherence'>Adherence</option>
+                                                  </select></div>
+                                     </span>
+                                     <span class='valueChartLegend'>
+                                         <img src='/rvChartLegendPayer.png'/>
+                                     </span>
+									 </div>
+</template>

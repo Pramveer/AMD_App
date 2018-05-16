@@ -1,0 +1,391 @@
+<template name="AdvancedSearch">
+   <div class="hasSubMenu advancedSearch" data-rotate="close" style="list-style: none;">
+              <!-- <a href="#">Search</a><span class="submenu-arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i></span> -->
+              <ul class="sub-sidemenu" style='display:block;'>
+                  <li class="hasSubMenu" data-rotate="close">
+                      <div class="searchboxfulldiv">
+                          <ul class="searchboxlisting">
+                                <li class="active"><a data-toggle="tab" href="#basicsearchdiv">Basic Search</a></li>
+                                <li><a data-toggle="tab" href="#advancesearchdiv">Advance Search</a></li>
+                          </ul>
+
+                          <div class="tab-content">
+                              <div id="basicsearchdiv" class="tab-pane fade in active">
+                                    <button class="accordionlist">GenoType</button>
+                                    <div class="panellist">
+                                        {{#each getGenotypeList}}
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkGenoType{{this}}"  name="chkGenoType" value="{{this}}">
+                                            <label for="chkGenoType{{this}}">{{this}}</label>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    <button class="accordionlist">Treatment</button>
+                                    <div class="panellist">
+                                      <!--  <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkTreatmentAll" name="chkTreatment" value="all">
+                                            <label for="chkTreatmentAll">All</label>
+                                        </div>-->
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkNaive" name="chkTreatment" value="naive">
+                                            <label for="chkNaive">Naive</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkExperienced" name="chkTreatment" value="experienced">
+                                            <label for="chkExperienced">Experienced</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Cirrhosis</button>
+                                    <div class="panellist">
+                                      <!--  <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkCirrhosisAll" name="chkCirrhosis" value="all">
+                                            <label for="chkCirrhosisAll">All</label>
+                                        </div>-->
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkCirrhosisYes" name="chkCirrhosis" value="Yes">
+                                            <label for="chkCirrhosisYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkCirrhosisNo" name="chkCirrhosis" value="No">
+                                            <label for="chkCirrhosisNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist insurancePayer">Insurance Plan</button>
+                                        <div class="panellist insurancePayer">
+                                          <div class="checkbox">
+                                              <input type="radio" class="search-checkbox-btn" id="chkInsurancePlanAll"  name="chkInsurancePlan" value="all" checked>
+                                              <label for="chkInsurancePlanAll">ALL</label>
+                                          </div>
+                                            {{#each getInsuranceList}}
+                                            <div class="checkbox">
+                                                <input type="radio" class="search-checkbox-btn" id="chkInsurancePlan{{ filterInsurance claims_insurancePlan_value}}"  name="chkInsurancePlan" value="{{claims_insurancePlan}}">
+                                                <label for="chkInsurancePlan{{claims_insurancePlan_value}}">{{claims_insurancePlan}}</label>
+                                            </div>
+                                            {{/each}}
+                                        </div>
+                                        <button class="accordionlist pharmaMedicationAdvanced advFilters-medicationFilterButton">Medication</button>
+                                            <div class="panellist pharmaMedicationAdvanced advFilters-medicationFilterSection">
+                                              <!--<div class="checkbox">
+                                                  <input type="radio" class="search-checkbox-btn" id="chkMedicationAll"  name="chkMedication" value="all">
+                                                  <label for="chkMedicationAll">ALL</label>
+                                              </div>-->
+                                                {{#each getMedication}}
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="search-checkbox-btn" id="chkMedication{{name}}{{drugId}}"  name="chkMedication" value="{{name}}">
+                                                    <label for="chkMedication{{name}}{{drugId}}">{{name}}</label>
+                                                    {{#with getMedicationComboData name drugId}}
+                                                        {{#if isCombo}}
+                                                            <div class="advFilters-showMedsComboIcon js-advFilters-showMedsComboIcon"></div>
+                                                            <div class="advFilters-medsCombinationSection" ishidden="true">
+                                                                 {{#each comboData}}
+                                                                    <div class="checkbox medsInnerComboCheckBox">
+                                                                        <input type="checkbox" class="search-checkbox-btn" id="chkMedication{{name}}{{drugId}}"  name="chkMedication" value="{{name}}">
+                                                                         <label for="chkMedication{{name}}{{drugId}}">{{name}}</label>
+                                                                    </div>
+                                                                 {{/each}}
+                                                            </div>
+                                                        {{else}}
+                                                        
+                                                        {{/if}}
+                                                    {{/with}}
+                                                </div>
+                                                {{/each}}
+                                            </div>
+
+                                    <button class="accordionlist pharmaMedicationAdvanced advFilters-medicationFilterButton">Preacting Antivirals</button>
+                                    <div class="panellist pharmaMedicationAdvanced advFilters-medicationFilterSection">
+                                        {{#each getPreactingAntvirals}}
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkPreactingAntivirals{{name}}{{drugId}}"  name="chkPreactingAntivirals" value="{{name}}">
+                                            <label for="chkPreactingAntivirals{{name}}{{drugId}}">{{name}}</label>
+                                            {{#with getPreactingComboData name drugId}}
+                                                {{#if isCombo}}
+                                                    <div class="advFilters-showMedsComboIcon js-advFilters-showMedsComboIcon"></div>
+                                                    <div class="advFilters-medsCombinationSection" ishidden="true">
+                                                            {{#each comboData}}
+                                                            <div class="checkbox medsInnerComboCheckBox">
+                                                                <input type="checkbox" class="search-checkbox-btn" id="chkPreactingAntivirals{{name}}{{drugId}}"  name="chkPreactingAntivirals" value="{{name}}">
+                                                                    <label for="chkPreactingAntivirals{{name}}{{drugId}}">{{name}}</label>
+                                                            </div>
+                                                            {{/each}}
+                                                    </div>
+                                                {{else}}
+                                                
+                                                {{/if}}
+                                            {{/with}}
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    <!-- <button class="accordionlist pharmaTreatmentN">Patient Count</button>
+                                            <div class="panellist pharmaTreatmentN">
+                                              <div class="checkbox">
+                                                  <input type="text" class="search-checkbox-btn" id="chkTreatmentN"  name="chkTreatmentN" value="10">
+                                                  <label for="chkTreatmentN">N = </label>
+                                              </div>
+                                            </div> -->
+                                   <button class="accordionlist chkTreatmentTime">Time Filter</button>
+                                                    <div class="panellist chkTreatmentTime">
+                                                      <div class="checkbox">
+                                                          <input type="text" class="search-checkbox-btn" id="chkTreatmentTime"  name="chkTreatmentTime" style="width:168px;" value="01/01/2015 - 01/31/2015">
+                                                          <label for="chkTreatmentTime">Duration</label>
+                                                      </div>
+                                                    </div>
+                                </div>
+                                <div id="advancesearchdiv" class="tab-pane fade">
+                                    <button class="accordionlist">ETOH Level</button>
+                                    <div class="panellist">
+                                       <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkEtoh050" name="chkEtoh" value="0-50">
+                                            <label for="chkEtoh050">0-50 mg/dL</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkEtoh51299" name="chkEtoh" value="51-299">
+                                            <label for="chkEtoh51299">51-299 mg/dL</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkEtoh300500" name="chkEtoh" value="300-500">
+                                            <label for="chkEtoh300500">300-500 mg/dL</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">APRI</button>
+                                    <div class="panellist">
+                                       <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAprilessthan0.5" name="chkApri" value="<0.5">
+                                            <label for="chkAprilessthan0.5">less than 0.5</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkApri0.5to1" name="chkApri" value="0.5-1">
+                                            <label for="chkApri0.5to1">0.5-1</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkApri1to1.5" name="chkApri" value="1-1.5">
+                                            <label for="chkApri1to1.5">1-1.5</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkApri1.5ormore" name="chkApri" value="1.5+">
+                                            <label for="chkApri1.5ormore">1.5 or more</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Viral Load</button>
+                                    <div class="panellist">
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkViralLoad3ormore" name="chkViralLoad" value="3+">
+                                            <label for="chkViralLoad3ormore">3 million or more</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkViralLoad23" name="chkViralLoad" value="2-3">
+                                            <label for="chkViralLoad23">2-3 million</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkViralLoad12" name="chkViralLoad" value="1-2">
+                                            <label for="chkViralLoad12">1-2 million</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkViralLoadlessthan1" name="chkViralLoad" value="<1">
+                                            <label for="chkViralLoadlessthan1">less than or equal to 1 million</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Age</button>
+                                    <div class="panellist">
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAge017" name="chkAge" value="0-17">
+                                            <label for="chkAge017">0-17</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAge1834" name="chkAge" value="18-34">
+                                            <label for="chkAge1834">18-34</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAge3550" name="chkAge" value="35-50">
+                                            <label for="chkAge3550">35-50</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAge5169" name="chkAge" value="51-69">
+                                            <label for="chkAge5169">51-69</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAge70" name="chkAge" value="70+">
+                                            <label for="chkAge70">70+</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Body Weight</button>
+                                    <div class="panellist">
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkWeight099" name="chkWeight" value="0-99">
+                                            <label for="chkWeight099">0-99</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkWeight100199" name="chkWeight" value="100-199">
+                                            <label for="chkWeight100199">100-199</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkWeight200299" name="chkWeight" value="200-299">
+                                            <label for="chkWeight200299">200-299</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkWeight300399" name="chkWeight" value="300-399">
+                                            <label for="chkWeight300399">300-399</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkWeight400499" name="chkWeight" value="400-499">
+                                            <label for="chkWeight400499">400-499</label>
+                                        </div>
+                                    </div>
+                                     <button class="accordionlist">Ethnicity</button>
+                                    <div class="panellist">
+                                          {{#each getEthnicityList}}
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkEthnicity{{this}}"  name="chkEthnicity" value="{{this}}">
+                                            <label for="chkEthnicity{{this}}">{{this}}</label>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    <button class="accordionlist">Alcohol</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAlcoholYes" name="chkAlcohol" value="Yes">
+                                            <label for="chkAlcoholYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkAlcoholNo" name="chkAlcohol" value="No">
+                                            <label for="chkAlcoholNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Renal Failure</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkRenalFailureYes" name="chkRenalFailure" value="Yes">
+                                            <label for="chkRenalFailureYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkRenalFailureNo" name="chkRenalFailure" value="No">
+                                            <label for="chkRenalFailureNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Mental Health</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMentalHealthYes" name="chkMentalHealth" value="Yes">
+                                            <label for="chkMentalHealthYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMentalHealthNo" name="chkMentalHealth" value="No">
+                                            <label for="chkMentalHealthNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">HIV</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkHivYes" name="chkHIV" value="Yes">
+                                            <label for="chkHivYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkHivNo" name="chkHIV" value="No">
+                                            <label for="chkHivNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Meld Score</button>
+                                    <div class="panellist">
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMeld40ormore" name="chkMeld" value="40+">
+                                            <label for="chkMeld40ormore">40 or more</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMeld3039" name="chkMeld" value="30-39">
+                                            <label for="chkMeld3039">30-39</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMeld2029" name="chkMeld" value="20-29">
+                                            <label for="chkMeld2029">20-29</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMeld1019" name="chkMeld" value="10-19">
+                                            <label for="chkMeld1019">10-19</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkMeldlessthan9" name="chkMeld" value="<9">
+                                            <label for="chkMeldlessthan9">less than or equal to 9</label>
+                                        </div>
+                                    </div>
+                                     <button class="accordionlist">Liver Assessment</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkLiverAssessmentYes" name="chkLiverAssessment" value="Yes">
+                                            <label for="chkLiverAssessmentYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkLiverAssessmentNo" name="chkLiverAssessment" value="No">
+                                            <label for="chkLiverAssessmentNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Fibrosure</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkFibrosureYes" name="chkFibrosure" value="Yes">
+                                            <label for="chkFibrosureYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkFibrosureNo" name="chkFibrosure" value="No">
+                                            <label for="chkFibrosureNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Liver Biopsy</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkLiverBiopsyYes" name="chkLiverBiopsy" value="Yes">
+                                            <label for="chkLiverBiopsyYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkLiverBiopsyNo" name="chkLiverBiopsy" value="No">
+                                            <label for="chkLiverBiopsyNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Fibroscan</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkFibroscanYes" name="chkFibroscan" value="Yes">
+                                            <label for="chkFibroscanYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkFibroscanNo" name="chkFibroscan" value="No">
+                                            <label for="chkFibroscanNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">HCC</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkHCCYes" name="chkHCC" value="Yes">
+                                            <label for="chkHCCYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkHCCNo" name="chkHCC" value="No">
+                                            <label for="chkHCCNo">No</label>
+                                        </div>
+                                    </div>
+                                    <button class="accordionlist">Chemistry</button>
+                                    <div class="panellist">
+                                         <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkChemistryYes" name="chkChemistry" value="Yes">
+                                            <label for="chkChemistryYes">Yes</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="search-checkbox-btn" id="chkChemistryNo" name="chkChemistry" value="No">
+                                            <label for="chkChemistryNo">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+            <div style = "display:inline-block;margin-bottom: 10px;">
+                <div class="ApplyFilterbtn">
+                    <span class="ApplyFiltersbtnIcon"></span>Apply
+                </div>
+                <div class="resetFilterbtn">
+                    <span class="resetFIlters"></span>Reset
+                </div>
+          </div>
+          </div>
+
+</template>

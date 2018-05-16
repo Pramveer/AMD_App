@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="33">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01925183</url>
+  </required_header>
+  <id_info>
+    <org_study_id>HIVCOBOC-RGT</org_study_id>
+    <secondary_id>2012-005591-33</secondary_id>
+    <nct_id>NCT01925183</nct_id>
+  </id_info>
+  <brief_title>Individualized Triple-therapy Using Boceprevir in HIV-positive Patients With Hepatitis C</brief_title>
+  <acronym>HIVCOBOC-RGT</acronym>
+  <official_title>Response-guided Triple-therapy Using Boceprevir in Combination With PEGIFN/RBV in HIV/HCV-coinfected Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Markus Peck-Radosavljevic</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Medical University of Vienna</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Medical University of Vienna</source>
+  <oversight_info>
+    <authority>Austria: Austrian Medicines and Medical Devices Agency</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Response-guided triple-therapy with boceprevir (BOC) in combination with pegylated
+      interferon (PEGIFN) and ribavirin (RBV) is the current standard of care for HIV-negative
+      patients infected with hepatitis C genotype (HCV-GT) 1. In contrast, in HIV-positive
+      patients, a fixed treatment duration of 48 weeks is used.
+
+      The aim of this study is to assess efficacy and safety of response-guided triple-therapy
+      with BOC in combination with PEGIFN and RBV in HIV-positive patients. Thus, treatment
+      duration will be individualized based on HCV-RNA negativity at treatment week 8 (W8). All
+      patients will receive 4 weeks of PEGIFN/RBV lead-in. Patients with undetectable HCV-RNA at
+      W8 will be treated with 24 weeks of BOC/PEGIFN/RBV triple-therapy resulting in a total
+      treatment duration of 28 weeks, while patients with detectable HCV-RNA at W8 will receive 44
+      weeks of BOC/PEGIFN/RBV triple-therapy and a total treatment duration of 48 weeks.
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date>August 2013</start_date>
+  <primary_completion_date type="Anticipated">May 2015</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Single Group Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Sustained virologic response (SVR12)</measure>
+    <time_frame>Follow-up week 12 (FU12)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Defined as HCV-RNA negativity by a sensitive assay</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adverse events (AEs) and severe adverse events (SAEs)</measure>
+    <time_frame>Baseline (BL) to Follow-up week 12 (FU12)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Sustained virologic response (SVR24)</measure>
+    <time_frame>Follow-up week 24 (FU24)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Defined as HCV-RNA negativity by a sensitive assay</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anemia</measure>
+    <time_frame>Baseline (BL) to follow-up at week 12 (FU12)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Grade I: Hb male &lt;12/dL, female &lt;11g/dL; Grade II: Hb &lt;10g/dL; Grade III: Hb &lt;8g/dL; Grade IV: Hb &lt;7g/dL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Thrombocytopenia</measure>
+    <time_frame>Baseline (BL) to follow-up 12 (FU12)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Grade I: Platelets &lt;150 G/L; Grade II: Platelets &lt;100 G/L; Grade III: Platelets &lt;50 G/L; Grade IV: Platelets &lt;20 G/L</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Neutropenia</measure>
+    <time_frame>Baseline (BL) to follow-up week 12 (FU12)</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Grade I: absolute neutrophil count (ANC) &lt;1000/µL; Grade II: ANC &lt;750/µL; Grade III: ANC &lt;500/µL; Grade IV: ANC &lt;200/µL</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Erythropoietin (EPO) and granulocyte colony-stimulating factor (G-CSF) analogues use</measure>
+    <time_frame>Baseline (BL) to follow-up week 12 (FU12)</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatment discontinuation due to AEs</measure>
+    <time_frame>Baseline (BL) to treatment week 28*/treatment week 48**</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>* Patients with undetectable HCV-RNA levels at treatment week 8 (W8).
+** Patients with detectable HCV-RNA levels at treatment week 8 (W8).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Drop-outs</measure>
+    <time_frame>Baseline (BL) to follow-up week 12 (FU12)</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Hepatitis C, Chronic</condition>
+  <condition>HIV</condition>
+  <arm_group>
+    <arm_group_label>28 weeks of treatment duration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All patients will receive 4 weeks of PEGIFN/RBV lead-in. Patients with undetectable HCV-RNA at treatment week 8 will be treated with 24 weeks of BOC/PEGIFN/RBV triple-therapy resulting in a total treatment duration of 28 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>48 weeks of treatment duration</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>All patients will receive 4 weeks of PEGIFN/RBV lead-in. Patients with detectable HCV-RNA at treatment week 8 will receive 44 weeks of BOC/PEGIFN/RBV triple-therapy and a total treatment duration of 48 weeks</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Pegylated interferon alpha-2a</intervention_name>
+    <description>180mcg once weekly; subcutaneous injection</description>
+    <arm_group_label>28 weeks of treatment duration</arm_group_label>
+    <arm_group_label>48 weeks of treatment duration</arm_group_label>
+    <other_name>Pegasys®, Roche</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <description>600mg two times daily (BID) (e.g. 3x200mg at 6am, 3x200mg at 6pm) in patients ≥75kg body weight; 2x200mg at 6am and 3x200mg at 6pm in patients &lt;75kg; orally</description>
+    <arm_group_label>28 weeks of treatment duration</arm_group_label>
+    <arm_group_label>48 weeks of treatment duration</arm_group_label>
+    <other_name>Copegus®, Roche</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Boceprevir</intervention_name>
+    <description>800mg three times daily (TID) (e.g. 4x200mg at 6am, 4x200mg at 2pm, 4x200mg at 10pm); orally</description>
+    <arm_group_label>28 weeks of treatment duration</arm_group_label>
+    <arm_group_label>48 weeks of treatment duration</arm_group_label>
+    <other_name>Victrelis®, MSD</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Confirmed HIV infection (anti-HIV1/2 antibody positive).
+
+          -  Chronic HCV infection (anti-HCV positive, HCV-RNA detectable for &gt;6 months).
+
+          -  HCV-GT 1 infection.
+
+          -  Age ≥18 years and ≤65 years.
+
+          -  No prior treatment with BOC/PEGIFN/RBV.
+
+          -  CD4+ cell count &gt;200 cells/µL.
+
+          -  Stable antiretroviral therapy (ART) including tenofovir/emtricitabine (Truvada®,
+             Gilead) and raltegravir (Isentress®, MSD) with HIV-RNA &lt;50 copies/mL.
+
+          -  Valid result on transient elastography or liver biopsy within 6 months prior to
+             enrollment.
+
+          -  Female patients of childbearing potential must agree to use an effective
+             contraceptive during treatment and for 4 months after treatment has been concluded.
+
+          -  Male patients or their female partners must agree to use an effective contraceptive
+             during treatment and for 7 months after treatment has been concluded.
+
+        Exclusion Criteria:
+
+          -  HCV-GT other than HCV-GT 1.
+
+          -  Cirrhotic patients (as defined by METAVIR F4 in liver biopsy or liver stiffness &gt;12.3
+             kPa) with decompensated liver disease (Child-Pugh stage B/C).
+
+          -  Chronic liver diseases other than hepatitis C virus infection (hepatitis B virus
+             infection: HBsAg positivity, nonalcoholic steatohepatitis, autoimmune hepatitis,
+             primary biliary cirrhosis, hemochromatosis, Wilson's disease, alpha-1 antitrypsin
+             deficiency, cystic fibrosis).
+
+          -  Significant cardiac disease (ejection fraction &lt;40% at echocardiography).
+
+          -  Significant pulmonary disease (COPD stage GOLD III/IV).
+
+          -  Significant renal disease (serum creatinine &gt;1.5 mg/dL).
+
+          -  Subjects taking medication(s) that is/are highly dependent on CYP3A4/5 for clearance,
+             and for which elevated plasma concentrations are associated with serious and/or
+             life-threatening events such as but not limited to, orally administered midazolam,
+             pimozide, amiodarone, flecainide, propafenone, quinidine, and ergot derivatives
+             (dihydroergotamine, ergonovine, ergotamine, methylergonovine).
+
+          -  Contraindications for boceprevir (Victrelis®, MSD), pegylated interferon alpha-2a
+             (Pegasys®, Roche) or ribavirin (Copegus®, Roche), as listed in section 4.3 of the
+             respective summary of product characteristics (SmPCs).
+
+          -  Ongoing alcohol abuse (average daily alcohol consumption &gt;50g).
+
+          -  Ongoing illicit drug abuse.
+
+          -  Unwillingness to give written informed consent.
+
+          -  Pregnancy and breastfeeding.
+
+          -  Women wishing to become pregnant.
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>64 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Markus Peck-Radosavljevic, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Division of Gastroenterology and Hepatology, Department of Internal Medicine III, Medical University of Vienna</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Mattias Mandorfer, MD</last_name>
+    <phone>+43 1 40400</phone>
+    <phone_ext>4744</phone_ext>
+    <email>mattias.mandorfer@meduniwien.ac.at</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Division of Gastroenterology and Hepatology, Department of Internal Medicine III, Medical University of Vienna</name>
+      <address>
+        <city>Vienna</city>
+        <zip>1090</zip>
+        <country>Austria</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <investigator>
+      <last_name>Markus Peck-Radosavljevic, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+  </location_countries>
+  <verification_date>August 2013</verification_date>
+  <lastchanged_date>August 16, 2013</lastchanged_date>
+  <firstreceived_date>August 15, 2013</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor-Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Vienna</investigator_affiliation>
+    <investigator_full_name>Markus Peck-Radosavljevic</investigator_full_name>
+    <investigator_title>Vice-chairman of the Division of Gastroenterology and Hepatology</investigator_title>
+  </responsible_party>
+  <keyword>Boceprevir</keyword>
+  <keyword>HIV/HCV-coinfection</keyword>
+  <keyword>HIV/HCV coinfection</keyword>
+  <keyword>HIV/HCV</keyword>
+  <keyword>Response-guided therapy</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+    <mesh_term>Hepatitis C, Chronic</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Interferon-alpha</mesh_term>
+    <mesh_term>Peginterferon alfa-2a</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

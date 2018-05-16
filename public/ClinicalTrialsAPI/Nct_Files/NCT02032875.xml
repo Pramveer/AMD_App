@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="70">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 13, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02032875</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AI444-215</org_study_id>
+    <nct_id>NCT02032875</nct_id>
+  </id_info>
+  <brief_title>Phase III Daclatasvir, Sofosbuvir, and Ribavirin in Cirrhotic Participants and Participants Post-liver Transplant</brief_title>
+  <acronym>ALLY 1</acronym>
+  <official_title>A Phase 3 Evaluation of Daclatasvir, Sofosbuvir, and Ribavirin in Genotype 1-6 Chronic Hepatitis C Infection Subjects With Cirrhosis Who May Require Future Liver Transplant and Subjects Post-Liver Transplant</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bristol-Myers Squibb</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Bristol-Myers Squibb</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This trial is open to participants with cirrhosis due to chronic hepatitis C virus (HCV),
+      and to participants who have already received a liver transplant for chronic HCV. All
+      subjects will be treated with Daclatasvir and Sofosbuvir for 12 weeks. Under certain
+      conditions, the treatment duration may be extended for cirrhotic participants . The study
+      will test how well this combination of investigational drugs works to treat chronic HCV.
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>March 2014</start_date>
+  <completion_date type="Anticipated">January 2016</completion_date>
+  <primary_completion_date type="Actual">November 2014</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Non-Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment</study_design>
+  <primary_outcome>
+    <measure>Percentage of Genotype-1 Infected Cirrhotic Participants With Sustained Virologic Response at Post-treatment Week 12 (SVR12)</measure>
+    <time_frame>Post-treatment follow-up Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C Virus (HCV) RNA levels to be &lt; lower limit of quantitation i.e., 25 IU/mL target detected or target not detected, at post-treatment Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory. For participants who missed the follow-up Week 12 visit, SVR12 was imputed using the next and closest available HCV RNA measurement after the follow-up Week 12 window.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Percentage of Genotype-1 Infected Post-liver Transplanted Participants With Sustained Virologic Response at Post-treatment Week 12 (SVR12)</measure>
+    <time_frame>Post-treatment follow-up Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C Virus (HCV) RNA levels to be &lt; lower limit of quantitation i.e., 25 IU/mL target detected or target not detected, at post-treatment Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory. For participants who missed the follow-up Week 12 visit, SVR12 was imputed using the next and closest available HCV RNA measurement after the follow-up Week 12 window.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieved Sustained Virologic Response at Post-treatment Week 12 (SVR12) for All Genotypes and Genotypes 2, 3, 4, 6</measure>
+    <time_frame>Post-treatment follow-up Week 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>SVR12 was defined as hepatitis C Virus (HCV) RNA levels to be &lt; lower limit of quantitation i.e., 25 IU/mL target detected or target not detected, at post-treatment Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory. For participants who missed the follow-up Week 12 visit, SVR12 was imputed using the next and closest available HCV RNA measurement after the follow-up Week 12 window.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieve Hepatitis C Virus RNA Levels to be &lt; Lower Limit of Quantitation Target Detected or Target Not Detected at Each of the Following Weeks: 1, 2, 4, 6, 8, 12, End of Treatment; Follow Up Weeks 4, 8 and 12</measure>
+    <time_frame>Week 1, 2, 4, 6, 8, 12, End of treatment, Follow-up Week 4, 8, and 12</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who responded to treatment were assessed using proportion of subjects with hepatitis C Virus RNA levels to be &lt; lower limit of quantitation i.e., 25 IU/mL target detected or target not detected, at each visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants Who Achieve Hepatitis C Virus RNA Levels to be &lt; Lower Limit of Quantitation Target Not Detected at Each of the Following Weeks: 1, 2, 4, 6, 8, 12, End of Treatment</measure>
+    <time_frame>Week 1, 2, 4, 6, 8, 12, End of treatment</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants who responded to treatment were assessed using proportion of subjects with hepatitis C Virus RNA levels to be &lt; lower limit of quantitation i.e., 25 IU/mL target not detected, at each on-treatment visit.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Percentage of Participants With CC or Non-CC Genotype Who Achieved Sustained Virologic Response at 12 Weeks After the Last Dose of Study Drug (SVR12)</measure>
+    <time_frame>Week 12 (Follow-up period)</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Participants categorized into 2 genotypes (CC and non-CC) based on single nucleotide polymorphism in the IL28B gene were assessed for SVR12, defined as response in which hepatitis C virus RNA levels be &lt;lower limit of quantitation ie, 25 IU/mL or below target detected or target not detected at follow-up Week 12. HCV RNA levels were measured by the Roche COBAS® TaqMan® HCV Test version 2.0 from the central laboratory. For participants who missed the follow-up Week 12 visit, SVR12 was imputed using the next and closest available HCV RNA measurement after the follow-up Week 12 window.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Serious Adverse Events (SAEs), Discontinuations Due to Adverse Events (AEs), AEs Leading to Interruption, Treatment-related AEs/SAEs, Grade 3 to 4 AEs/SAEs, and Who Died During Treatment Period</measure>
+    <time_frame>From start of study treatment up to 7 days post last dose of study treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>AE was defined as any new unfavorable symptom, sign, or disease or worsening of a pre-existing condition that does not has a causal relationship with treatment. SAE was defined as a medical event that at any dose resulted in death, persistent or significant disability/incapacity, or drug dependency/abuse; was life-threatening, an important medical event, or a congenital anomaly/birth defect; or required or prolonged hospitalization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of Participants With Treatment Emergent Grade 3-4 Laboratory Abnormalities</measure>
+    <time_frame>From start of study treatment up to 7 days post last dose of study treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+    <description>Grade 3-4 laboratory abnormalities were defined as: Hemoglobin as 6.50-7.4 g/dL for grade 3 and/or &lt; 6.5 g/dL for grade 4, Platelet count as 25*10^9-50*10^9 /L for grade 3 and/or &lt; 25.000*10^9 /L for grade 4, International normalized ratio as 2.1-3.0*upper limit of normal (ULN) &gt; 3.0*ULN for grade 3 and/or &gt; 3.0*ULN for grade 4, Leukocytes as 1.0*10^9-1.5*10^9/L for grade 3 and/or &lt;1.0*10^9/L for grade 4, Lymphocytes (Absolute) as 0.350*109-0.499*10^9 /L for grade 3 and/or &lt; 0.350*10^9 /L for grade 4, Alanine aminotransferase as 5.1-10.0*ULN for grade 3 and/or &gt; 10.0*ULN for grade 4, Aspartate aminotransferase as 5.1-10.0*ULN for grade 3 and/or &gt; 10.0*ULN for grade 4, Alkaline phosphatase as 5.1-10.0*ULN for grade 3 and/or &gt; 10.0*ULN for grade 4, Bilirubin (Total) as 2.6-5.0*ULN for grade 3 and/or &gt; 5.0*ULN for grade 4, Albumin as &lt; 20 g/L, Lipase (Total) as 3.1-5.0*ULN for grade 3 and/or &gt; 5.0*ULN for grade 4, and Creatinine as 1.9-3.4*ULN for grade 3 and/or ≥ 3.5*ULN for grade 4.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">116</enrollment>
+  <condition>Hepatitis C</condition>
+  <arm_group>
+    <arm_group_label>Post-liver Transplant Cohort</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Participants with liver transplant to receive daclatasvir 60 mg, sofosbuvir 400 mg, and ribavirin (dose based on hemoglobin level) tablets orally once daily for 12 weeks.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cirrhotic Cohort</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Cirrhotic subjects who undergo transplant while on study treatment may enter an additional Treatment Extension period (≥3 months Post-Transplant) to receive daclatasvir 60 mg, sofosbuvir 400 mg, and ribavirin (dose based on hemoglobin level) tablets orally once daily for 12 weeks.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Daclatasvir</intervention_name>
+    <arm_group_label>Post-liver Transplant Cohort</arm_group_label>
+    <arm_group_label>Cirrhotic Cohort</arm_group_label>
+    <other_name>BMS-790052</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sofosbuvir</intervention_name>
+    <arm_group_label>Post-liver Transplant Cohort</arm_group_label>
+    <arm_group_label>Cirrhotic Cohort</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Ribavirin</intervention_name>
+    <arm_group_label>Post-liver Transplant Cohort</arm_group_label>
+    <arm_group_label>Cirrhotic Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        For more information regarding BMS clinical trial participation, please visit
+        www.BMSStudyConnect.com
+
+        Inclusion Criteria:
+
+          -  Participants must be able to understand and agree to comply with the prescribed
+             dosing regimens and procedures, report for regularly scheduled study visits, and
+             reliably communicate with study personnel about adverse events and concomitant
+             medications
+
+          -  Participants chronically infected with hepatitis C virus (HCV) Genotype 1, 2, 3, 4,
+             5, or 6 with HCV RNA viral load of ≥10,000 IU/mL at screening
+
+          -  Participants may be treatment-naïve or treatment-experienced
+
+          -  Cirrhotic participants must have cirrhosis confirmed by biopsy, Fibroscan or
+             fibrotest and Aspartate aminotransferase platelet ratio index (APRI) criteria as
+             outlined in the protocol
+
+          -  Post-transplant participants must be at least 3 months post-transplant with no
+             evidence of moderate or severe rejection
+
+        Exclusion Criteria:
+
+          -  History of multi-organ transplant, with the exception of dual transplantation of the
+             liver/kidney, is prohibited
+
+          -  Current or known history of cancer (with the following exceptions: In situ carcinoma
+             of the cervix, adequately treated basal or squamous cell carcinoma of the skin, or
+             hepatocellular carcinoma within Milan criteria for transplantation) within 5 years
+             prior to screening
+
+          -  Evidence of an ongoing medical condition contributing to chronic liver disease other
+             than HCV (such as, but not limited to: hemochromatosis, autoimmune hepatitis,
+             metabolic liver disease, alcoholic liver disease, or toxin exposures)
+
+          -  History of HIV infection or chronic hepatitis B virus (HBV) as documented by HBV
+             serologies (e.g., HBsAg-seropositive). Participants with resolved HBV infection may
+             participate (e.g., HBcAb-seropositive with concurrent HBsAg-seronegative)
+
+          -  Active hospitalization for decompensated liver disease
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bristol-Myers Squibb</last_name>
+    <role>Study Director</role>
+    <affiliation>Bristol-Myers Squibb</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Of Miami Schiff Center For Liver Diseases</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>University Of Michigan Health System</name>
+      <address>
+        <city>Ann Arbor</city>
+        <state>Michigan</state>
+        <zip>48109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Baylor St. Luke'S Medical Center</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>American Research Corporation</name>
+      <address>
+        <city>San Antonio</city>
+        <state>Texas</state>
+        <zip>78215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Harborview Medical Center</name>
+      <address>
+        <city>Seattle</city>
+        <state>Washington</state>
+        <zip>98104</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <link>
+    <url>http://ctr.bms.com/ctd/start.do</url>
+    <description>BMS Clinical Trial Information</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/studyconnect/Pages/home.aspx</url>
+    <description>BMS clinical trial educational resource</description>
+  </link>
+  <link>
+    <url>http://www.bms.com/clinical_trials/Pages/Investigator_Inquiry_form.aspx</url>
+    <description>Investigator Inquiry form</description>
+  </link>
+  <link>
+    <url>http://www.fda.gov/MEDWATCH/safety.htm</url>
+    <description>FDA Safety Alerts and Recalls</description>
+  </link>
+  <verification_date>October 2015</verification_date>
+  <lastchanged_date>October 20, 2015</lastchanged_date>
+  <firstreceived_date>January 9, 2014</firstreceived_date>
+  <firstreceived_results_date>August 18, 2015</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Hepatitis</mesh_term>
+    <mesh_term>Hepatitis C</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Ribavirin</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>
