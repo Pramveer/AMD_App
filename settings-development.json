@@ -1,0 +1,15 @@
+{
+    "public": {
+
+    },
+    "private": {
+        "DevDb": {
+            "host": "analytics-poc.rds.notalvision.com",
+            "port": 3306,
+            "user": "dbadmin",
+            "password": "AyZ6CYuS923v",
+            "serverId": 3381,
+            "database": "RWE_AMD_PATIENTS"
+        }
+    }
+}
