@@ -1,4 +1,5 @@
 import './dashboard.html';
+import '../../components/sidebars/patientsidebar.js';
 
 Template.Dashboard.onCreated(function() {
 
@@ -112,7 +113,7 @@ var dataFibrosis = [{name: 'Anti-HCV Therapy',data: [{mydata: 'Anti1', y: 45},{m
   renderHCVmultilinechart(multilinechart,data3);
   renderMarketChart(market,data4);
   renderBubbleChart(bubble,data5);
-  renderBarChart(barchart,payerdata);
+  // renderBarChart(barchart,payerdata);
   renderBarChart1(barchart1,payerdata);
   renderPayerchart(payerchart);
   rendergenotypebarchart(genotypebar,payerdata);
