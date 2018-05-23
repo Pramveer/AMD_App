@@ -1,5 +1,3 @@
-import './custom';
-import './helpers';
 import './3DstocChartJS.js';
 import './app.min.js';
 import './bootstrap.min.js';

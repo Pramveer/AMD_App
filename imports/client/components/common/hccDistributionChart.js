@@ -1,6 +1,5 @@
 import { Template } from 'meteor/templating';
 import { Meteor } from 'meteor/meteor';
-import * as analyticsLib from '../../pages/analytics/analyticsLib.js';
 import './hccDistributionChart.html';
 
 let primaryData = {},

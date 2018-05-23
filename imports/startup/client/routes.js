@@ -11,13 +11,13 @@ import {
 import '../../client/pages/dashboard';
 
 Router.configure({
-    layoutTemplate: 'dashboardLayout'
+    // layoutTemplate: 'dashboardLayout'
 });
 
 Router.configure({
     // we use the  appBody template to define the layout for the entire app
-    layoutTemplate: 'main',
-    loadingTemplate: 'Loading'
+    //layoutTemplate: 'main',
+    //loadingTemplate: 'Loading'
 });
 
 
@@ -82,6 +82,11 @@ Router.PatientId = '';
 
 // Make Dashboard Tab as Default tab.
 
+Router.route('/', function () {
+    this.render('Dashboard');
+  });
+
+/*
 Router.route('/#', {
     layoutTemplate: 'dashboardLayout',
     template: 'Dashboard',
@@ -120,7 +125,7 @@ Router.route('/#', {
         }
         //Router.go('/dashboard');
 });
-
+*/
 
 // Make Patient Tab as Default tab.
 
