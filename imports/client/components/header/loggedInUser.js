@@ -50,7 +50,7 @@ Template.LoggedInUser.events({
             var email = ['nisha@binaryrepublik.com', 'arvind.mepani@binaryrepublik.com'];
             var mailFields = {
                 to: email,
-                subject: 'Pinscriptive : PCP Model',
+                subject: 'AmdApp : PCP Model',
                 type: 5, // For  sending out PCP problems
                 problem: $("#txtproblem").val()
             };

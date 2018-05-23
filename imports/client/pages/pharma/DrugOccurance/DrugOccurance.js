@@ -7,14 +7,14 @@ let pharmaData = [];
 let dummyMedication = [];
 
 Template.DrugOccurance.onCreated(function() {
-    // pharmaData = Pinscriptive['pharma']['drugfulldata'];
+    // pharmaData = AmdApp['pharma']['drugfulldata'];
     //var self = this;
     pharmaLib.showChartLoading();
     //let params = {};
     //check for existing filterif any
     // if (pharmaLib.isSessionFilterSet()) {
     //     params = pharmaLib.getFormattedParamsSession();
-    // } else if (Pinscriptive.Filters) {
+    // } else if (AmdApp.Filters) {
     //     params = pharmaLib.getCurrentPopulationFilters();
     // } else {
     //     params = pharmaLib.getFormattedParamsSession();
@@ -1037,10 +1037,10 @@ let DrawChartsCirrhosisSuccess = ({ dataSuccessRate }) => {
 Template.DrugOccurance.fetchAndRenderData = () => {
     let params = {};
     let medicine = '';
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         //Praveen 02/20/2017 changed function to reference from common.js pharmaLib.getCurrentPopulationFilters()
         params = getCurrentPopulationFilters();
-        medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'all';
+        medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'all';
     } else {
         medicine = 'all';
     }
@@ -1071,7 +1071,7 @@ Template.DrugOccurance.fetchAndRenderData = () => {
                     let finalUnCompressedResult = JSON.parse(stringifyResult);
                     //  pharmaData = result.pharmaData;
                     // console.log(result.pharmaData1);
-                    // Pinscriptive['pharma']['drugfulldata'] = pharmaData;
+                    // AmdApp['pharma']['drugfulldata'] = pharmaData;
                     pharmaLib.hideChartLoading();
                     //render charts
                     //let medicine = $("#pharma-medicationDO").val();

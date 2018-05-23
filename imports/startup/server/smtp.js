@@ -8,7 +8,7 @@
     //     };
 
     var smtp = {
-        username: 'accounts@pinscriptive.com',
+        username: 'accounts@AmdApp.com',
         password: 'BigData1',
         server: 'secure.emailsrvr.com',
         port: 465

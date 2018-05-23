@@ -268,8 +268,8 @@ let DrawCharts = ({
     //     data: competitorAnalysisYearlyData
     // });
     let medicine = '';
-    if (Pinscriptive.Filters) {
-        medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+    if (AmdApp.Filters) {
+        medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
     } else {
         medicine = 'ALL';
     }
@@ -451,7 +451,7 @@ function GenerateYearlyPerformanceChart({
 // Nisha 03/03/2017 modified for Geo Location Distribution
 function GetMapData(datayear) {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     params.Year = datayear;
@@ -985,7 +985,7 @@ function getDrugFilteredData(medicine, genotypeval, cirrhosisval, treatmentval) 
 Template.CompetitorAnalysis.fetchAndRenderData = (dbparams, templateObj) => {
     //get data for Competitor Analysis tabs
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     pharmaLib.showChartLoading();

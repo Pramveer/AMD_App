@@ -140,7 +140,7 @@ function DrawGeoLocationByGenotype(drugName, zipCode) {
     $('#geoPopulationSection').prev().append('<div id="geomapUtilizationReset" title="Reset" class="utilizationReset" drugName="' + drugName + '" style="visibility: visible;left: 2%; top: 8px;" ></div>');
     $('#geomapUtilizationReset').click(function() {
         var drugName = $(this).attr('drugName');
-        var tempdata = _.groupBy(Pinscriptive['DrugByGenotype'], 'medication');
+        var tempdata = _.groupBy(AmdApp['DrugByGenotype'], 'medication');
         var data = tempdata[drugName];
         var zipCode = _.uniq(_.pluck(data, 'zipcode'));
         $('#geomapUtilizationReset').remove();

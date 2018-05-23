@@ -16,7 +16,7 @@ Template.Dashboard.onCreated(function() {
     this.loading = new ReactiveVar(true);
     let category_id = Session.get('category_id');
     // Get Preserved Data.
-    treatedPatientsData = Pinscriptive['dashboard']['treatedPatients'];
+    treatedPatientsData = AmdApp['dashboard']['treatedPatients'];
 
     if (!treatedPatientsData) {
         this.autorun(() => {
@@ -33,9 +33,9 @@ Template.Dashboard.onCreated(function() {
                     treatedPatientsData = resulting_object;
                     // added by jayesh 2th may 2017 for medicaiton dropdown 
                     medicationList.set(treatedPatientsData.MarketShareOverMonthsChartData.singleMedicationList);
-                    Pinscriptive['DrugByGenotype'] = []; //results['DrugByGenotype'];
+                    AmdApp['DrugByGenotype'] = []; //results['DrugByGenotype'];
                     // Preserved Data.
-                    Pinscriptive['dashboard']['treatedPatients'] = treatedPatientsData;
+                    AmdApp['dashboard']['treatedPatients'] = treatedPatientsData;
                     //fetchPrescriptionData(self);
                     self.loading.set(false);
                     //comparison button is removed
@@ -58,7 +58,7 @@ Template.Dashboard.rendered = () => {
     Session.set('Mprob', '');
     $(".head-emr-details").hide();
 
-    if (Pinscriptive.dashboard.phsData) {
+    if (AmdApp.dashboard.phsData) {
         //SHOW COMPARE ICON ON SECTIONS
         $('.togglechart').show();
     }
@@ -255,12 +255,12 @@ let fetchSecondaryDataset = () => {
     Meteor.call('getPatientsDataForCustomer', null, (error, results) => {
         if (error || (results.length < 0)) {
             console.log('No data fetched for the sub population');
-            Pinscriptive.dashboard.phsData = null;
+            AmdApp.dashboard.phsData = null;
             return;
         } else {
             let decompressed_object = LZString.decompress(results);
             decompressed_object = JSON.parse(decompressed_object);
-            Pinscriptive.dashboard.phsData = decompressed_object;
+            AmdApp.dashboard.phsData = decompressed_object;
             //TODO SHOW COMPARE ICON ON SECTIONS
             $('.togglechart').show();
         }
@@ -293,8 +293,8 @@ let plotComparisionDataCharts = (plottingData, diffplottingData) => {
 
     prepareDomForComparisionCharts(plottingData);
 
-    let baseIMSData = Pinscriptive.dashboard.treatedPatients;
-    let basePHSData = Pinscriptive.dashboard.phsData;
+    let baseIMSData = AmdApp.dashboard.treatedPatients;
+    let basePHSData = AmdApp.dashboard.phsData;
 
     let imsContainer = '#imsDataViewSection',
         phsContainer = '#phsDataViewSection';
@@ -790,7 +790,7 @@ let renderChartsRetreatmentGenotype = (chartData, chartObj, compareData) => {
 
     if (compareData != 'compare'){
 
-        $('#retreated-distribution-N').html(getHTMLCustomTextN(chartData.patientLength,Pinscriptive.dashboard.treatedPatients.totalpatientsMedication,'Patients with Medication are retreated'))
+        $('#retreated-distribution-N').html(getHTMLCustomTextN(chartData.patientLength,AmdApp.dashboard.treatedPatients.totalpatientsMedication,'Patients with Medication are retreated'))
     }
     let data = chartData.data;
 
@@ -1888,7 +1888,7 @@ function renderInsuranceDistributionChart(data, chartObj, compareData) {
     // $('#tPDiseasePrediction').html("Disease Progression Chart.");
     let container = chartObj ? chartObj.chartContainer : "#tPInsurancePlan";
     if (compareData != 'compare')
-        $('#insuranceDistriChart').html(getHTMLCustomTextN(data.total, Pinscriptive.dashboard.treatedPatients.totalpatients, 'Patients'));
+        $('#insuranceDistriChart').html(getHTMLCustomTextN(data.total, AmdApp.dashboard.treatedPatients.totalpatients, 'Patients'));
     //Praveen 03/22/2017 Added check for no data found and refractoring code
     if(data && data.total == 0){
       $(container).html('<div class="nodataFound">No Data Found</div>');
@@ -3116,7 +3116,7 @@ function getFiltersData(filtersArray) {
         let decompressed_object = LZString.decompress(response);
 
         let resulting_object = JSON.parse(decompressed_object);
-        Pinscriptive.dashboard.treatedPatients = resulting_object;
+        AmdApp.dashboard.treatedPatients = resulting_object;
         treatedPatientsData = resulting_object;
         // added by jayesh 2th may 2017 for medicaiton dropdown 
         medicationList.set(treatedPatientsData.MarketShareOverMonthsChartData.singleMedicationList);
@@ -3174,9 +3174,9 @@ let renderHighBarChart = (container, data, key, label, lvalue, compareData) => {
 
     if (compareData != 'compare') {
         if (label == 'SVR12' || label == 'IS_COMPLETED' || label == 'medication') {
-            $('#threapy-' + key.toLowerCase() + '-N').html(getHTMLTextN(data.total, Pinscriptive.dashboard.treatedPatients.totalpatientsMedication));
+            $('#threapy-' + key.toLowerCase() + '-N').html(getHTMLTextN(data.total, AmdApp.dashboard.treatedPatients.totalpatientsMedication));
         } else if (key == 'Insurance') {
-            $('#threapy-' + key.toLowerCase() + '-N').html(getHTMLCustomTextN(data.total, Pinscriptive.dashboard.treatedPatients.totalpatients, " Patients"));
+            $('#threapy-' + key.toLowerCase() + '-N').html(getHTMLCustomTextN(data.total, AmdApp.dashboard.treatedPatients.totalpatients, " Patients"));
         } else
             $('#threapy-' + key.toLowerCase() + '-N').html(commaSeperatedNumber(data.total)+' Patients');
         //$('#threapy-' + key.toLowerCase() + '-N').html(commaSeperatedNumber(data.total));
@@ -3517,7 +3517,7 @@ let renderPayerMixobservedChart = (container, data, key, compareData) => {
     //set patient count  
     if (compareData != 'compare') {
         getHTMLCustomTextN
-        $('#payer-mix-N').html(getHTMLCustomTextN(data.total, Pinscriptive.dashboard.treatedPatients.totalpatients, 'Patients'));
+        $('#payer-mix-N').html(getHTMLCustomTextN(data.total, AmdApp.dashboard.treatedPatients.totalpatients, 'Patients'));
         //$('#payer-mix-N').html(commaSeperatedNumber(data.total));
     }
 
@@ -3813,7 +3813,7 @@ let renderPredictionCountChart = (container, baseData, isCompared) => {
 
     let prescriptionCountData = baseData.AllPrescriptions;
     let totalCount = 0;
-    let patientCount = Pinscriptive.dashboard.treatedPatients.totalpatientsMedication;
+    let patientCount = AmdApp.dashboard.treatedPatients.totalpatientsMedication;
     if (prescriptionCountData.length > 0) {
         totalCount = prescriptionCountData[0].TotalPrescription;
     }
@@ -3898,7 +3898,7 @@ let renderPredictionCountChart = (container, baseData, isCompared) => {
 let renderIngredientCostChart = (container, baseData, isCompared) => {
     let prescriptionCountDataIng = baseData.AllIngredient;
     let totalCountIng = 0;
-    let patientCount  = Pinscriptive.dashboard.treatedPatients.totalpatientsMedication;
+    let patientCount  = AmdApp.dashboard.treatedPatients.totalpatientsMedication;
     for (let i = 0; i < prescriptionCountDataIng.length; i++) {
         totalCountIng += prescriptionCountDataIng[i].PrescriptionCount;
     }
@@ -3979,7 +3979,7 @@ let renderIngredientCostChart = (container, baseData, isCompared) => {
 let renderCostRxBubbleChart = (container, data, isCompared) => {
 
     let totalCount = 0;
-    let patientCount = Pinscriptive.dashboard.treatedPatients.totalpatientsMedication;
+    let patientCount = AmdApp.dashboard.treatedPatients.totalpatientsMedication;
     for (let i = 0; i < data.length; i++) {
         totalCount += data[i]['x'];
     }
@@ -4111,7 +4111,7 @@ let renderHighBarChartPrescription = (container, data, isCompared) => {
 
     //set value of N
     if (!isCompared)
-        $('#ingr-costprescription-N').html(getHTMLCustomTextN(Pinscriptive.dashboard.treatedPatients.totalpatientsMedication,data.total,' of Total Prescriptions',' of Patient'));
+        $('#ingr-costprescription-N').html(getHTMLCustomTextN(AmdApp.dashboard.treatedPatients.totalpatientsMedication,data.total,' of Total Prescriptions',' of Patient'));
 
     //check for no data
     if (data.total == 0) {
@@ -4543,7 +4543,7 @@ function getFiltersDataClient(filtersArray) {
         else{
             let decompressed_object = LZString.decompress(response);
             let resulting_object = JSON.parse(decompressed_object);
-            Pinscriptive.dashboard.phsData = resulting_object;
+            AmdApp.dashboard.phsData = resulting_object;
             dashUtils.hideChartMask();
         }
     });
@@ -4557,7 +4557,7 @@ function getFiltersDataClient(filtersArray) {
 let renderHCVIncidenceChart = (container, chartData, isCompareView) => {
     container = container.replace('#', '');
     if(!isCompareView) {
-        $('#hepCIncidenceChart-N').html(commaSeperatedNumber(Pinscriptive.dashboard.treatedPatients.totalpatients) +' Patients' );
+        $('#hepCIncidenceChart-N').html(commaSeperatedNumber(AmdApp.dashboard.treatedPatients.totalpatients) +' Patients' );
     }
 
     Highcharts.chart(container, {
@@ -4625,7 +4625,7 @@ let renderHCVEstimationChart = (container, chartDataObj, isCompareView) => {
         stats = chartDataObj.stats;
 
     if(!isCompareView) {
-        let totalPatients = Pinscriptive.dashboard.treatedPatients.totalpatients;
+        let totalPatients = AmdApp.dashboard.treatedPatients.totalpatients;
         let hcvRnaPats =  stats ? stats.hcvRnaPats : 0,
             hcvMedsPats = stats ? stats.antiHcvMeds : 0;
 
@@ -4696,7 +4696,7 @@ let renderHCVPrevelenceChart = (container, dataObj, label, isCompareView ) => {
     container = container.replace('#', '');
 
     if(!isCompareView) {
-        $('#hcvPrevelenceChart-N').html(commaSeperatedNumber(Pinscriptive.dashboard.treatedPatients.totalpatients) +' Patients' );
+        $('#hcvPrevelenceChart-N').html(commaSeperatedNumber(AmdApp.dashboard.treatedPatients.totalpatients) +' Patients' );
     }
 
     let xAxisLabel = label ? label : 'Age';

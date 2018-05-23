@@ -879,7 +879,7 @@ export function renderNewRelativeValueChart(options) {
 
 function calculateSize(minimum, maximum, populationSize, totalCount, previousAllocatedSize) {
     var diffrenceInSize = 12 / (totalCount - 2);
-    //    Pinscriptive.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
+    //    AmdApp.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
     return previousAllocatedSize + diffrenceInSize;
 }
 

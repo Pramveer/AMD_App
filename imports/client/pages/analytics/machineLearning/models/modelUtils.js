@@ -29,7 +29,7 @@ export function hideChartLoading() {
 }
 
 export function renderPatientsList(data, parentContainer, showLabsFirst) {
-    let params = Pinscriptive['Filters'];
+    let params = AmdApp['Filters'];
 
     let geno = params.genotypes ? params.genotypes.replace(/\'/g, "") : 'All';
     let treat = params.treatment ? (params.treatment.replace(/\'/g, "") != 'naive,experienced' ? upperCaseFirstModel(params.treatment.replace(/\'/g, "")) : 'All') : 'All';
@@ -845,7 +845,7 @@ let upperCaseFirstModel = (str) => {
 }
 
 export function renderDecisionTreeLabels(patientLength) {
-    let params = Pinscriptive['Filters'];
+    let params = AmdApp['Filters'];
 
     let geno = params.genotypes ? params.genotypes.replace(/\'/g, "") : 'All';
     let treat = params.treatment ? (params.treatment.replace(/\'/g, "") != 'naive,experienced' ? upperCaseFirstModel(params.treatment.replace(/\'/g, "")) : 'All') : 'All';

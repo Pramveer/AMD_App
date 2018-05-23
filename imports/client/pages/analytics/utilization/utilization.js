@@ -15,7 +15,7 @@ let uniqPatients = 0;
 let totPatients = 0;
 
 let UtlizationDrugsData = null;
-Pinscriptive.Utilization = {};
+AmdApp.Utilization = {};
 var DRUG_LIMIT = 10;
 /*var pieColors = [{
     strokeColor: '#7B7A6D',
@@ -174,8 +174,8 @@ Template.Utilization.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseOrigData = Pinscriptive.Utilization.realData;
-        let baseCompData = Pinscriptive.Utilization.compData;
+        let baseOrigData = AmdApp.Utilization.realData;
+        let baseCompData = AmdApp.Utilization.compData;
          if(value == 'compareutilization'){
             primaryData = prepareDataforChart(baseOrigData.drugsData);
             secondaryData = prepareDataforChart(baseCompData.drugsData);
@@ -735,13 +735,13 @@ let executeUtilizationRender = (params, tempateObj) => {
         if (error) {
             tempateObj.loading.set(false);
             tempateObj.noData.set(true);
-            Pinscriptive.Utilization.realData = null;
+            AmdApp.Utilization.realData = null;
         } else {
             //allDrugsData = result.drugsData;
             let decompressed_object = LZString.decompress(result);
             result = JSON.parse(decompressed_object);
-            Pinscriptive['DrugByGenotype'] = result.getDrugByGenotype;
-            Pinscriptive.Utilization.realData = result;
+            AmdApp['DrugByGenotype'] = result.getDrugByGenotype;
+            AmdApp.Utilization.realData = result;
             tempateObj.loading.set(false);
             tempateObj.noData.set(false);
             // self.loading.set(false);
@@ -765,11 +765,11 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getUtilizationTabData', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.Utilization.compData = null;
+            AmdApp.Utilization.compData = null;
         } else {
             result = LZString.decompress(result);
             result = JSON.parse(result);
-            Pinscriptive.Utilization.compData = result;
+            AmdApp.Utilization.compData = result;
             $('.togglechart').show();
         }
     });
@@ -934,8 +934,8 @@ let prepareDataforChart = (baseData) =>{
 let renderComparisonGenotypeChart = (medicationName) =>{
     let primaryData = [];
     let secondaryData = [];
-    let baseOrigData = Pinscriptive.Utilization.realData;
-    let baseCompData = Pinscriptive.Utilization.compData;
+    let baseOrigData = AmdApp.Utilization.realData;
+    let baseCompData = AmdApp.Utilization.compData;
     primaryData = prepareDatabyGenotype(filterDataBasedOnMedication(baseOrigData.patientDataUtilization,medicationName));
     secondaryData = prepareDatabyGenotype(filterDataBasedOnMedication(baseCompData.patientDataUtilization,medicationName));
     let primaryContainer = 'prim_genotypeDistribution';

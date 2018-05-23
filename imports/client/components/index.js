@@ -1,7 +1,7 @@
 import './common';
 import './graph';
 import './header';
-import './pinsapp';
+import './amdapp';
 import './loading';
 import './footer';
 import './mainfooter';

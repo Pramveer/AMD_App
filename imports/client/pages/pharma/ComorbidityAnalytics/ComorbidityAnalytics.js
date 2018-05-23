@@ -16,7 +16,7 @@ Template.ComorbidityAnalytics.onCreated(function() {
     // // First Check weather session filter are set or not then apply filter accordingly
     // if (pharmaLib.isSessionFilterSet()) {
     //     params = pharmaLib.getFormattedParamsSession();
-    // } else if (Pinscriptive.Filters) {
+    // } else if (AmdApp.Filters) {
     //     params = pharmaLib.getCurrentPopulationFilters();
     // } else {
     //     params = pharmaLib.getFormattedParamsSession();
@@ -77,8 +77,8 @@ let DrawComorbidityChart = ({ data }) => {
 
     let filtereddrug = [];
     let medicine = '';
-    if (Pinscriptive.Filters) {
-        medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+    if (AmdApp.Filters) {
+        medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
     }
 
 
@@ -487,7 +487,7 @@ let renderTableGenotypeCount = ({ genotypeTableData }) => {
 Template.ComorbidityAnalytics.fetchAndRenderData = () => {
     let params = {};
     //check for advanced filters cohort criteria
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         //Praveen 02/20/2017 changed function to reference from common.js pharmaLib.getCurrentPopulationFilters()
         params = getCurrentPopulationFilters();
     }

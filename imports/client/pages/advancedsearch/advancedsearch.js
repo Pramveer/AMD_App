@@ -69,10 +69,10 @@ Template.AdvancedSearch.rendered = function() {
     //       closeNav();
     // });
 
-    if (Pinscriptive['Filters'] != null) {
-        setFilterHeader(Pinscriptive['Filters']);
+    if (AmdApp['Filters'] != null) {
+        setFilterHeader(AmdApp['Filters']);
     }
-    setSelectedFilters(Pinscriptive['Filters']);
+    setSelectedFilters(AmdApp['Filters']);
 
     //Praveen 02/22/2017 changed '01/07/2010' to new Date('01/07/2010')
     //Modified By Praveen 03/24/2017 date changed to 01/01/2013 to current date
@@ -696,7 +696,7 @@ function executeApplyButtonClick(e, template, triggerData) {
     params['timeFilter'] = duration;
     params['database'] = database;
     params['isCustomerDataset'] = isCustomerDataset();
-    Pinscriptive['Filters'] = params;
+    AmdApp['Filters'] = params;
     $('.validation-inspection').hide();
 
     if ((triggerData == 'update') && (params.genotypes)) {
@@ -743,7 +743,7 @@ function executeApplyButtonClick(e, template, triggerData) {
                     }
                     $('.searchPatientCountHeader').html(results[0].Patient_Count);
                     params['totalcount'] = results[0].Patient_Count;
-                    Pinscriptive['Filters']['patientCountTab'] = results[0].Patient_Count;
+                    AmdApp['Filters']['patientCountTab'] = results[0].Patient_Count;
                 }
 
                 $('.advanceSearchClickable').css({
@@ -761,7 +761,7 @@ function executeApplyButtonClick(e, template, triggerData) {
                 localStorage.removeItem("AllDrugsName");
                 localStorage.removeItem("AllDrugsData");
                 //console.log(results);
-                Pinscriptive['SelectedPatient'] = results;
+                AmdApp['SelectedPatient'] = results;
                 $("#filter_desc").show();
                 setFilterHeader(params);
 
@@ -918,7 +918,7 @@ function executeApplyButtonClick(e, template, triggerData) {
                 });
                 Router['PatientId'] = '';
                 localStorage.PatientID = null;
-                Pinscriptive['SelectedPatient'] = [];
+                AmdApp['SelectedPatient'] = [];
                 Router.go('/Patient');
                 setFilterHeader(params);
                 window.clearTimeout(notificationPopupDelay);

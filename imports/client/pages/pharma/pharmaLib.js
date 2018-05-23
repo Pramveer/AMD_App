@@ -15,8 +15,8 @@ export function prepareDomForPharmaPatients(dataObj, medicinename) {
     //     cirr = Session.get('pharmaCirrhosis') && Session.get('pharmaCirrhosis') != '' ? upperCaseFirstModel(Session.get('pharmaCirrhosis')) : 'All';
     // }
     // else
-    if (Pinscriptive.Filters) {
-        let params = Pinscriptive['Filters'];
+    if (AmdApp.Filters) {
+        let params = AmdApp['Filters'];
 
         geno = params.genotypes ? params.genotypes.replace(/\'/g, "") : 'All';
         treat = params.treatment ? (params.treatment.replace(/\'/g, "") != 'naive,experienced' ? upperCaseFirstModel(params.treatment.replace(/\'/g, "")) : 'All') : 'All';
@@ -227,7 +227,7 @@ export function setPharmaHeaderTabData() {
 
     //Praveen 02/20/2017 show sub menu icon on pharma
     $('.pharmasubmenu_Btn').show();
-    if (!Pinscriptive.Filters) {
+    if (!AmdApp.Filters) {
         // $('#desc_cirrhosis_pharma').find('.efd-cell2_subpopulaiton').html('ALL');
         // $('#desc_treatment_pharma').find('.efd-cell2_subpopulaiton').html('ALL');
         // $('#desc_genotype_pharma').find('.efd-cell2_subpopulaiton').html('ALL');
@@ -332,7 +332,7 @@ export let handleMultiGenoCombo = (ele) => {
 
         try {
 
-            let filters = Pinscriptive.Filters,
+            let filters = AmdApp.Filters,
                 othersFilters = {
                     age: filters.age || [],
                     alcohol: getArrFromFormattedStr(filters.alcohol),
@@ -353,7 +353,7 @@ export let handleMultiGenoCombo = (ele) => {
                     weight: filters.weight || [],
                     topN: filters.topPatient
                 };
-            ////If Pinscriptive.Filters doesn't have treatment and cirrhosis selection then set explicitly all
+            ////If AmdApp.Filters doesn't have treatment and cirrhosis selection then set explicitly all
             // filters.cirrhosis = filters.cirrhosis ? filters.cirrhosis : "'Yes','No'";
             // filters.treatment = filters.treatment ? filters.treatment : "'naive','experienced'";
 

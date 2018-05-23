@@ -12,7 +12,7 @@ let filteredData = [];
 let filtered = '';
 let suspectedCirrhosisData = [];
 let marketViewData = [];
-Pinscriptive.RiskDistribution = {}; //set data for comparison and other values
+AmdApp.RiskDistribution = {}; //set data for comparison and other values
 Template.RiskDistribution.onCreated(function() {
     let self = this;
     this.loading = new ReactiveVar(true);
@@ -90,7 +90,7 @@ Template.RiskDistribution.events({
     },
     'change #ddlMedicationMarketShare': (event) => {
         let value = $(event.currentTarget).val();
-        renderMarketShareOverMonthsChart('markerShareOverMonthsChart', Pinscriptive.RiskDistribution.realData.MarketShareOverMonthsChartData, value);
+        renderMarketShareOverMonthsChart('markerShareOverMonthsChart', AmdApp.RiskDistribution.realData.MarketShareOverMonthsChartData, value);
     },
     'click .globalshowPatientriskdistribution': function(event, template) {
         $('.riskdistributionPList-listMask').hide();
@@ -168,10 +168,10 @@ Template.RiskDistribution.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseRealData = Pinscriptive.RiskDistribution.realData;
-        let baseCompData = Pinscriptive.RiskDistribution.compData;
-        let baseRealDataQA = Pinscriptive.RiskDistribution.realDataQA;
-        let baseCompDataQA = Pinscriptive.RiskDistribution.compDataQA;
+        let baseRealData = AmdApp.RiskDistribution.realData;
+        let baseCompData = AmdApp.RiskDistribution.compData;
+        let baseRealDataQA = AmdApp.RiskDistribution.realDataQA;
+        let baseCompDataQA = AmdApp.RiskDistribution.compDataQA;
 
         if (value == 'MarketShareOverMonthsChartData') {
             primaryData = baseRealData.MarketShareOverMonthsChartData;
@@ -1188,7 +1188,7 @@ let executeRiskDistributionRender = (params, templateObj) => {
     Meteor.call('getMarketViewChartData', params, (error, result) => {
         if (error) {
             templateObj.loading.set(false);
-            Pinscriptive.RiskDistribution.realData = null;
+            AmdApp.RiskDistribution.realData = null;
         } else {
             // Nisha 03/30/2017 for generating the getPrescriptionCountData method for the  Prescription Count and ingredient Cost Charts and other new charts 
             Meteor.call('getPrescriptionCountData', params, (err, PrescriptionData) => {
@@ -1203,8 +1203,8 @@ let executeRiskDistributionRender = (params, templateObj) => {
                     let decompressed_object = LZString.decompress(result);
                     marketViewData = JSON.parse(decompressed_object);
 
-                    Pinscriptive.RiskDistribution.realDataQA = result_PrescriptionData;
-                    Pinscriptive.RiskDistribution.realData = marketViewData;
+                    AmdApp.RiskDistribution.realDataQA = result_PrescriptionData;
+                    AmdApp.RiskDistribution.realData = marketViewData;
                     // console.log('result_PrescriptionData');
                     // console.log(result_PrescriptionData);
                     // //set the coinfection data
@@ -1625,18 +1625,18 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getMarketViewChartData', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.RiskDistribution.compData = null;
+            AmdApp.RiskDistribution.compData = null;
         } else {
             let decompressed_object = LZString.decompress(result);
             marketViewData = JSON.parse(decompressed_object);
-            Pinscriptive.RiskDistribution.compData = marketViewData;
+            AmdApp.RiskDistribution.compData = marketViewData;
             Meteor.call('getPrescriptionCountData', params, function(error1, result1) {
                 if (error1) {
-                    Pinscriptive.RiskDistribution.compDataQA = null;
+                    AmdApp.RiskDistribution.compDataQA = null;
                 } else {
                     let decompressed_objectPrescriptionData = LZString.decompress(result1);
                     result1 = JSON.parse(decompressed_objectPrescriptionData);
-                    Pinscriptive.RiskDistribution.compDataQA = result1;
+                    AmdApp.RiskDistribution.compDataQA = result1;
                     $('.togglechartComparison').show();
                 }
             });

@@ -787,7 +787,7 @@ function calculateSize(minimum, maximum, populationSize, totalCount, previousAll
 
     var diffrenceInSize = 12 / (totalCount - 2);
 
-    //    Pinscriptive.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
+    //    AmdApp.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
     return previousAllocatedSize + diffrenceInSize;
 
 

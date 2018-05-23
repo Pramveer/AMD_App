@@ -30,16 +30,16 @@ Template.RWEBenchmark.onCreated(function() {
     var category_id = 1; //Session.get('category_id');
     var currPatient = Session.get('selectedPatientData');
     Session.set('selectedPage', 'pharma');
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
         Patientdata = getCurrentPopulationFilters();
         Session.set('selectedfilters', Patientdata); // Nisha 02/10/2017 for relative value cohort selection
     }
 
-    // var Patientdata = Pinscriptive['Filters'];
+    // var Patientdata = AmdApp['Filters'];
 
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
         params = getCurrentPopulationFilters();
     }
@@ -51,7 +51,7 @@ Template.RWEBenchmark.onCreated(function() {
 
         // let subtab = Session.get('rwebenchmark_subtab');
         let params = {};
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
             params = getCurrentPopulationFilters();
         }
@@ -1744,7 +1744,7 @@ Template.RWEBenchmark.helpers({
         // PopulationData['PopulationData_Cirrhosis'] = Patientdata[0]['CIRRHOSIS'];
         // PopulationData['PopulationData_Ethnicity'] = Patientdata[0]['ETHNITY_1_DESC'];
 
-        // var Patientdata = Pinscriptive['Filters'];
+        // var Patientdata = AmdApp['Filters'];
         // PopulationData['PopulationData_Genotype'] = Patientdata['genotypes'] === null ? '' : Patientdata['genotypes'].replace(/'/g, '');
         // PopulationData['PopulationData_ViralLoad'] = Patientdata['viralLoad'] === null ? '' : Patientdata['viralLoad'];
         // PopulationData['PopulationData_Treatment'] = Patientdata['treatment'] === null ? 'ALL' : Patientdata['treatment'].replace(/'/g, '');
@@ -1847,7 +1847,7 @@ Template.RWEBenchmark.events({
         // Added By Yuvraj 6th March 17
 
       let params = {};
-            if (Pinscriptive.Filters) {
+            if (AmdApp.Filters) {
                 params = getCurrentPopulationFilters();
             }
 
@@ -1866,7 +1866,7 @@ Template.RWEBenchmark.events({
             console.log("Render FDA Comliant Data.");
 
             // let params = {};
-            // if (Pinscriptive.Filters) {
+            // if (AmdApp.Filters) {
             //     //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
             //     params = getCurrentPopulationFilters();
             // }
@@ -1907,7 +1907,7 @@ Template.RWEBenchmark.events({
             console.log("Render Without FDA Comliant Data.");
              // yuvraj 6th March (Defined it above the if statement)
             // let params = {};
-            // if (Pinscriptive.Filters) {
+            // if (AmdApp.Filters) {
             //     //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
             //     params = getCurrentPopulationFilters();
             // }
@@ -1944,7 +1944,7 @@ Template.RWEBenchmark.events({
             console.log("Render All Drugs Data.");
              // yuvraj 6th March (Defined it above the if statement)
             // let params = {};
-            // if (Pinscriptive.Filters) {
+            // if (AmdApp.Filters) {
             //     //Praveen 02/20/12017 changed pharmaLib.getCurrentPopulationFilters() to getCurrentPopulationFilters() from common.js
             //     params = getCurrentPopulationFilters();
             // }
@@ -1984,7 +1984,7 @@ Template.RWEBenchmark.events({
         // $("#overlay").show();
     },
     'click .pathForAnalyticsbyDrug': function(e) {
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             var param = $(e.currentTarget).attr('param');
             localStorage.setItem('AnalyticsParam', param.toLowerCase());
             window.location = 'javascript:Router.go("Analytics/Efficacy");';
@@ -2007,7 +2007,7 @@ Template.RWEBenchmark.events({
 
     // Added By Yuvraj 20th Feb 2017
     'click .pathForEfficacybyDrug': function(e) {
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             var param = $(e.currentTarget).attr('param');
             localStorage.setItem('AnalyticsParam', param.toLowerCase());
             window.location = 'javascript:Router.go("Analytics/Efficacy");';
@@ -2028,7 +2028,7 @@ Template.RWEBenchmark.events({
         };
     },
     'click .pathForAdherencebyDrug': function(e) {
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             var param = $(e.currentTarget).attr('param');
             localStorage.setItem('AnalyticsParam', param.toLowerCase());
             window.location = 'javascript:Router.go("Analytics/Adherence");';
@@ -2049,7 +2049,7 @@ Template.RWEBenchmark.events({
         }
     },
     'click .pathForUtilizationbyDrug': function(e) {
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             var param = $(e.currentTarget).attr('param');
             localStorage.setItem('AnalyticsParam', param.toLowerCase());
             window.location = 'javascript:Router.go("Analytics/Utilization");';
@@ -2337,7 +2337,7 @@ Template.RWEBenchmark.events({
         var eleArr = event.currentTarget.id.split('_');
         var drugsToTabStr = '';
         for (i = 0; i < drugsToTab.length; i++) {
-            Pinscriptive.drugsToTab += drugsToTab[i] + '+';
+            AmdApp.drugsToTab += drugsToTab[i] + '+';
         }
         localStorage.setItem('drugsToTab', drugsToTabStr);
         var temp = DrugName.split(' (');
@@ -2827,7 +2827,7 @@ function calculateSize(minimum, maximum, populationSize, totalCount, previousAll
 
     var diffrenceInSize = 12 / (totalCount - 2);
 
-    //    Pinscriptive.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
+    //    AmdApp.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
     return previousAllocatedSize + diffrenceInSize;
 
 
@@ -3926,8 +3926,8 @@ function executeAtRender(me) {
     Session.set("selectedPatientData", me.data.Patientdata);
     //console.log("TotalN:"+localStorage.totalSubPopulation);
     $('#patientCount').text(localStorage.totalSubPopulation);
-    Pinscriptive.drugsToTab = '';
-    Pinscriptive.PrevioulyAllocatedSize = 0;
+    AmdApp.drugsToTab = '';
+    AmdApp.PrevioulyAllocatedSize = 0;
     // Hide the Compare button on load
     $(".js-compare-btn").hide();
 
@@ -4341,7 +4341,7 @@ function getDrugAbbr(drugName) {
 
 // function setFilterHeader() {
 //
-//     var params = Pinscriptive['Filters'];
+//     var params = AmdApp['Filters'];
 //     if (params != null) {
 //         $('#desc_cirrhosis').show();
 //         $('#desc_cirrhosis').find('.efd-cell2_subpopulaiton').html(params['cirrhosis'] != null ? params['cirrhosis'].replace(/'/g, '').toString() : 'ALL');

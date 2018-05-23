@@ -396,7 +396,7 @@ Template.TreatedPatients.events({
              * @desc:removed years field from filters 
              */
             //treatedTenureSelect[0].selectize.setValue(parseInt(ListOfYear[0].year));
-            headerparams['genotypes'] = Pinscriptive.Filters.genotypes;
+            headerparams['genotypes'] = AmdApp.Filters.genotypes;
 
             headerparams['cirrhosis'] = cirrhosis != null ? cirrhosis.toUpperCase() : 'All';
             headerparams['treatment'] = treat != null ? treat.toUpperCase() : 'All';

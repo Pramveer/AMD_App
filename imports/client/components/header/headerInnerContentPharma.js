@@ -6,7 +6,7 @@ Template.HeaderInnerContentPharma.onCreated(function() {
 
 });
 Template.HeaderInnerContentPharma.onRendered(function() {
-    let data = Pinscriptive.Filters;
+    let data = AmdApp.Filters;
     setPayerHeaderTabData(data);
     setFilterHeader(data);
 });

@@ -16,7 +16,7 @@ let dummyMedication = [];
 let pharmaDataTotalCount = [];
 
 Template.Pharma.onCreated(function() {
-    // if (!Pinscriptive.Filters) {
+    // if (!AmdApp.Filters) {
     //     Session.set('pharmaTreatment', 'all');
     //     Session.set('pharmaCirrhosis', 'all');
     //     Session.set('pharmaGenotype', '');
@@ -39,7 +39,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         pharmaData = result.pharmaData;
-        //         Pinscriptive['pharma']['drugfulldata'] = pharmaData;
+        //         AmdApp['pharma']['drugfulldata'] = pharmaData;
         //         setTimeout(function() {
         //             self.loading.set(false);
         //             renderFirstTab();
@@ -54,7 +54,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         // console.log(result);
-        //         Pinscriptive['pharma']['drugviralscoreanalysisdata'] = result.pharmaAnalysisData;
+        //         AmdApp['pharma']['drugviralscoreanalysisdata'] = result.pharmaAnalysisData;
         //         self.loading.set(false);
         //     }
         // });
@@ -65,7 +65,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         // console.log(result);
-        //         Pinscriptive['pharma']['pharmaCompetitorAnalysisData'] = result.pharmaCompetitorAnalysisData;
+        //         AmdApp['pharma']['pharmaCompetitorAnalysisData'] = result.pharmaCompetitorAnalysisData;
         //         self.loading.set(false);
         //     }
         // });
@@ -76,7 +76,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         // console.log(result);
-        //         Pinscriptive['pharma']['getPharmaCompetitorAnalysisYearlyData'] = result.pharmaCompetitorAnalysisYearlyData;
+        //         AmdApp['pharma']['getPharmaCompetitorAnalysisYearlyData'] = result.pharmaCompetitorAnalysisYearlyData;
         //         self.loading.set(false);
         //     }
         // });
@@ -87,7 +87,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         // console.log(result);
-        //         Pinscriptive['pharma']['pharmaComorbidity'] = result.pharmaComorbidity;
+        //         AmdApp['pharma']['pharmaComorbidity'] = result.pharmaComorbidity;
         //         self.loading.set(false);
         //     }
         // });
@@ -98,7 +98,7 @@ Template.Pharma.onCreated(function() {
         //         self.noData.set(true);
         //     } else {
         //         // console.log(result);
-        //         Pinscriptive['pharma']['PatientsJourney'] = result.PatientsJourney;
+        //         AmdApp['pharma']['PatientsJourney'] = result.PatientsJourney;
         //         self.loading.set(false);
         //     }
         // });
@@ -109,7 +109,7 @@ Template.Pharma.onCreated(function() {
         //         self.loading.set(false);
         //         self.noData.set(true);
         //     } else {
-        //         Pinscriptive['pharma']['PatientsCost'] = results;
+        //         AmdApp['pharma']['PatientsCost'] = results;
         //         self.loading.set(false);
         //     }
         // });

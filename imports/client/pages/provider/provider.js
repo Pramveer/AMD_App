@@ -38,7 +38,7 @@ Template.Provider.onCreated(function() {
     var category_id = 1; //Session.get('category_id');
     var currPatient = Session.get('selectedPatientData');
     Session.set('selectedPage', 'provider');
-    var Patientdata = Pinscriptive['Filters'];
+    var Patientdata = AmdApp['Filters'];
 
     //hide div
     if(isPrimaryCarePhysician()){
@@ -51,7 +51,7 @@ Template.Provider.onCreated(function() {
 
         // let subtab = Session.get('provider_subtab');
 
-        //let params = Pinscriptive['Filters'];
+        //let params = AmdApp['Filters'];
         let params = getCurrentPopulationFilters();
         let subtab = Session.get('provider_subtab');
 
@@ -1785,7 +1785,7 @@ $(".pdl-drugscore").show();
         // PopulationData['PopulationData_Cirrhosis'] = Patientdata[0]['CIRRHOSIS'];
         // PopulationData['PopulationData_Ethnicity'] = Patientdata[0]['ETHNITY_1_DESC'];
 
-        // var Patientdata = Pinscriptive['Filters'];
+        // var Patientdata = AmdApp['Filters'];
         // PopulationData['PopulationData_Genotype'] = Patientdata['genotypes'] === null ? '' : Patientdata['genotypes'].replace(/'/g, '');
         // PopulationData['PopulationData_ViralLoad'] = Patientdata['viralLoad'] === null ? '' : Patientdata['viralLoad'];
         // PopulationData['PopulationData_Treatment'] = Patientdata['treatment'] === null ? 'ALL' : Patientdata['treatment'].replace(/'/g, '');
@@ -1901,7 +1901,7 @@ Template.Provider.events({
         if (tabData == "withFDACompliant") {
             console.log("Render FDA Comliant Data.");
 
-            //let params = Pinscriptive['Filters'];
+            //let params = AmdApp['Filters'];
             // let params = getCurrentPopulationFilters();  // yuvraj 6th March (Defined it above the if statement)
             params['fdaCompliant'] = "yes";
 
@@ -1937,7 +1937,7 @@ Template.Provider.events({
 
         } else if (tabData == "withoutFDACompliant") {
             console.log("Render Without FDA Comliant Data.");
-            //let params = Pinscriptive['Filters'];
+            //let params = AmdApp['Filters'];
             // let params = getCurrentPopulationFilters();  // yuvraj 6th March (Defined it above the if statement)
             params['fdaCompliant'] = "no";
 
@@ -1974,7 +1974,7 @@ Template.Provider.events({
         } else if (tabData == "allMedsData") {
             console.log("Render All Drugs Data.");
 
-            //let params = Pinscriptive['Filters'];
+            //let params = AmdApp['Filters'];
             // let params = getCurrentPopulationFilters();  // yuvraj 6th March (Defined it above the if statement)
             params['fdaCompliant'] = "all";
 
@@ -2321,7 +2321,7 @@ Template.Provider.events({
         var eleArr = event.currentTarget.id.split('_');
         var drugsToTabStr = '';
         for (i = 0; i < drugsToTab.length; i++) {
-            Pinscriptive.drugsToTab += drugsToTab[i] + '+';
+            AmdApp.drugsToTab += drugsToTab[i] + '+';
         }
         localStorage.setItem('drugsToTab', drugsToTabStr);
         var temp = DrugName.split(' (');
@@ -2898,7 +2898,7 @@ function calculateSize(minimum, maximum, populationSize, totalCount, previousAll
 
     var diffrenceInSize = 12 / (totalCount - 2);
 
-    //    Pinscriptive.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
+    //    AmdApp.PrevioulyAllocatedSize = previousAllocatedSize + diffrenceInSize;
     return previousAllocatedSize + diffrenceInSize;
 
 
@@ -4195,8 +4195,8 @@ function executeAtRender(me) {
     Session.set("selectedPatientData", me.data.Patientdata);
     //console.log("TotalN:"+localStorage.totalSubPopulation);
     $('#patientCount').text(localStorage.totalSubPopulation);
-    Pinscriptive.drugsToTab = '';
-    Pinscriptive.PrevioulyAllocatedSize = 0;
+    AmdApp.drugsToTab = '';
+    AmdApp.PrevioulyAllocatedSize = 0;
     // Hide the Compare button on load
     $(".js-compare-btn").hide();
     // OLD code for setting cohhort menu for Provider tab
@@ -4595,7 +4595,7 @@ function getDrugAbbr(drugName) {
 
 function setFilterHeader() {
 
-    var params = Pinscriptive['Filters'];
+    var params = AmdApp['Filters'];
     if (params != null) {
         $('#desc_cirrhosis').show();
         $('#desc_cirrhosis').find('.efd-cell2_subpopulaiton').html(params['cirrhosis'] != null ? params['cirrhosis'].replace(/'/g, '').toString() : 'ALL');

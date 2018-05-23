@@ -25,7 +25,7 @@ Template.AnalyticsPatientDetails.events({
         if(data && data['data'] == 'refresh'){
              //event for global search filter
             template.loading.set(true);
-            let params = Pinscriptive['Filters'];
+            let params = AmdApp['Filters'];
             params['fdaCompliant'] = "all";
             Meteor.call('getProviderPageData', params, function(error, result) {
                 if (error) {

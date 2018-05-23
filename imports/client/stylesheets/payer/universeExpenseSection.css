@@ -25,7 +25,7 @@
 
 .universeTotalPatientsIcon {
     background-position-y: 135px;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 30px;
     width: 40px;
     background-position-x: 1248px;
@@ -230,7 +230,7 @@
 
 .indicatePositiveValue {
     /*  background-position-y: 82px;
-    background-image: url('pinscriptive_v5-ICONS.png');*/
+    background-image: url('AmdApp_v5-ICONS.png');*/
     background-image: url('/6.png');
     background-repeat: no-repeat;
     height: 30px;
@@ -242,7 +242,7 @@
 
 .indicateNegativeValue {
     /*  background-position-y: 82px;
-   background-image: url('pinscriptive_v5-ICONS.png');*/
+   background-image: url('AmdApp_v5-ICONS.png');*/
     background-image: url('/5.png');
     background-repeat: no-repeat;
     height: 30px;
@@ -351,7 +351,7 @@
 
 .universeObservedValueIcon {
     background-position-y: 143px;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 45px;
     width: 45px;
     background-position-x: 1589px;
@@ -359,7 +359,7 @@
 
 .universeBestValueIcon {
     background-position-y: 143px;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 45px;
     width: 45px;
     background-position-x: 1536px;
@@ -367,7 +367,7 @@
 
 .universeValueGapIcon {
     background-position-y: 146px;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 54px;
     width: 54px;
     background-position-x: 1480px;

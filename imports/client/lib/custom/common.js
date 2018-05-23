@@ -417,7 +417,7 @@ isFloat = (n) => {
 }
 
 getCurrentPopulationFilters = () => {
-    let filters = Pinscriptive.Filters,
+    let filters = AmdApp.Filters,
         othersFilters = {
             age: getArrFromFormattedStr(filters == undefined ? '' : filters.age), //filters.age || [],
             alcohol: getArrFromFormattedStr(filters == undefined ? '' : filters.alcohol),
@@ -507,7 +507,7 @@ setMedicationInfoInCohort = () => {
     //Nisha 05/17/2017 initialising the variable
     let displayHtml = '',
         tootTipData = '';
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         let medications = getCurrentPopulationFilters().medicationArray;
 
         if (medications.length != 0) {
@@ -562,7 +562,7 @@ setInsurancePlanInHeader = (planType) => {
  * Added: Arvind 10-Feb-2017
  * Issue :Redudant code for setting or updating cohort menu
  * Description : Single method to set cohort menu for active tab
- * Depends: This method depends on global object `Pinscriptive.Filters`
+ * Depends: This method depends on global object `AmdApp.Filters`
  */
 
 setCohortHeaderMenu = ({
@@ -574,7 +574,7 @@ setCohortHeaderMenu = ({
 
         setFilterHeaderForPatientProvider({
             tabName: tabName,
-            params: Pinscriptive.Filters
+            params: AmdApp.Filters
         });
         //let insurance = planType ? planType : currentCohortFilters.planType;
         let displayHtml = '',
@@ -593,8 +593,8 @@ setCohortHeaderMenu = ({
         //     contents: '<div></div>'
         // });
         // $('#desc_plan_payer').find('.efd-cell2_subpopulaiton').tooltip('option', 'content', tootTipData);
-        //console.log(Pinscriptive.Filters);
-        if (Pinscriptive.Filters) {
+        //console.log(AmdApp.Filters);
+        if (AmdApp.Filters) {
             let currentCohortFilters = getCurrentPopulationFilters();
             let medications = currentCohortFilters.medicationArray;
 
@@ -621,7 +621,7 @@ setCohortHeaderMenu = ({
             $('.header-medicationInfo .ecf-Medication').tooltip('option', 'content', tootTipData);
         }
     } catch (e) {
-        console.log("Error in global `Pinscriptive.Filters`");
+        console.log("Error in global `AmdApp.Filters`");
         //console.log(e);
     }
 };

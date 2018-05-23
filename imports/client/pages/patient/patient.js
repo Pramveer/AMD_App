@@ -51,7 +51,7 @@ Template.Patient.rendered = function() {
     // $('.mutliSelect input[type="checkbox"]').on('click', function(e) {
     //     handleMultiGenoCombo(e.target);
     // });
-    let patientcount = patientCount == void 0 ? (Pinscriptive['Filters'] != undefined ? Pinscriptive['Filters']['patientCountTab'] : 0) : patientCount.get();
+    let patientcount = patientCount == void 0 ? (AmdApp['Filters'] != undefined ? AmdApp['Filters']['patientCountTab'] : 0) : patientCount.get();
     if (patientcount > 0) {
         $('.advanceSearchClickable').css({ 'opacity': '1', 'pointer-events': 'all' });
     } else {
@@ -82,12 +82,12 @@ Template.Patient.events({
                         patientRowNo--;
                     break;
                 case 'filter-patient-next':
-                    let patientcount = patientCount == void 0 ? (Pinscriptive['Filters'] != undefined ? Pinscriptive['Filters']['patientCountTab'] : 0) : patientCount.get();
+                    let patientcount = patientCount == void 0 ? (AmdApp['Filters'] != undefined ? AmdApp['Filters']['patientCountTab'] : 0) : patientCount.get();
                     if (patientRowNo <= parseInt(patientcount))
                         patientRowNo++;
                     break;
             }
-            //let params = Pinscriptive['Filters'];
+            //let params = AmdApp['Filters'];
             let params = getCurrentPopulationFilters();
             params.patientCount = true;
 
@@ -128,7 +128,7 @@ Template.Patient.events({
                         localStorage.removeItem("provider_relative_weights");
                         
                         //console.log(results);
-                        Pinscriptive['SelectedPatient'] = results;
+                        AmdApp['SelectedPatient'] = results;
                         Router.go('/Patient/' + patientID);
                     }
                 });
@@ -180,11 +180,11 @@ Template.Patient.destroyed = function() {
 //Helper method for HealthRecord Template to dispay record based on value from json object
 Template.Patient.helpers({
     'PatientCount': function() {
-        return patientCount == void 0 ? (Pinscriptive['Filters'] != undefined ? Pinscriptive['Filters']['patientCountTab'] : 0) : patientCount.get();
+        return patientCount == void 0 ? (AmdApp['Filters'] != undefined ? AmdApp['Filters']['patientCountTab'] : 0) : patientCount.get();
     },
     'genotypeNullTooltip': function() {
         patientCount.get();
-        return Pinscriptive.Filters ? Pinscriptive.Filters.genotypes ? "Patients with missing genotype are excluded." : "" : "";
+        return AmdApp.Filters ? AmdApp.Filters.genotypes ? "Patients with missing genotype are excluded." : "" : "";
     },
     'PatientRowNumber': function() {
         return patientRowNo;

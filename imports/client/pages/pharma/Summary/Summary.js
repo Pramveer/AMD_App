@@ -39,8 +39,8 @@ Template.Summary.rendered = () => {
 Template.Summary.events({
     'click .js-showPateintsList': function(event, template) {
         let medicine = '';
-        if (Pinscriptive.Filters) {
-            medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+        if (AmdApp.Filters) {
+            medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
         }
         pharmaLib.prepareDomForPharmaPatients(pharmaDataTotalCount, medicine);
         $('.pharmaPatientsPopup').show();
@@ -107,8 +107,8 @@ function BindTotalValues(pharmaDataTotalCount) {
         //Added :13-FEB-2017 Arvind,sigle method to set patient count on cohort menu
         setCohortPatientCount({ patientCount: pharmaDataTotalCount });
         //$('#totalPatients').html(commaSeperatedNumber(pharmaDataTotalCount.length));
-        if (Pinscriptive.Filters) {
-            let medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+        if (AmdApp.Filters) {
+            let medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
             // $('#medicinalPatientsCount').html(convertFirstLetterCaps(medicine) + " Medications");
             // $('#medication-info-name').html(convertFirstLetterCaps(medicine) + " Medications");
             $('#medicinalPatientsCount').html(convertFirstLetterCaps("Medications"));
@@ -626,7 +626,7 @@ function renderPharmaChartsAge(pharmaDataAge, total_patients) {
 //                 pharmaLib.hideChartLoading();
 //             } else {
 //                 pharmaData = result.pharmaData;
-//                 // Pinscriptive['pharma']['drugfulldata'] = pharmaData;
+//                 // AmdApp['pharma']['drugfulldata'] = pharmaData;
 //                 //console.log(result);
 //                 //Session.set('pharmapatienttotal',result.totalPatients);
 //                 $('#totalPatients').html(commaSeperatedNumber(result.totalPatients));
@@ -643,7 +643,7 @@ function renderPharmaChartsAge(pharmaDataAge, total_patients) {
 Template.Summary.fetchAndRenderData = () => {
     let params = {};
 
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     pharmaLib.showChartLoading();

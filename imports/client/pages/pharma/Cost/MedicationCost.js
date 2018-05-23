@@ -28,7 +28,7 @@ Template.MedicationCost.onCreated(function() {
     // // First Check weather session filter are set or not then apply filter accordingly
     // if (pharmaLib.isSessionFilterSet()) {
     //     params = pharmaLib.getFormattedParamsSession();
-    // } else if (Pinscriptive.Filters) {
+    // } else if (AmdApp.Filters) {
     //     params = pharmaLib.getCurrentPopulationFilters();
     // } else {
     //     params = pharmaLib.getFormattedParamsSession();
@@ -1683,7 +1683,7 @@ let CreateCostTable = () => {
     // console.log(Session.get('CostType'));
     // console.log(Session.get('CostDrillDown'));
     params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters();
     }
     GenoType = Session.get('GenoType');
@@ -2096,7 +2096,7 @@ Template.MedicationCost.fetchAndRenderData = () => {
     // console.log("*** Pharma Sumaary ***")
     // console.log(dbparams);
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     pharmaLib.showChartLoading();

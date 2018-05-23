@@ -10,7 +10,7 @@ Template.MachineLearning.onCreated(function () {
 
     this.autorun(function () {
 
-        let params = Pinscriptive['Filters'];
+        let params = AmdApp['Filters'];
         params['fdaCompliant'] = "all";
 
 
@@ -20,7 +20,7 @@ Template.MachineLearning.onCreated(function () {
                 self.noData.set(true);
             } else {
                 pharmaData = result.pharmaData;
-                Pinscriptive['pharma']['drugfulldata'] = pharmaData;
+                AmdApp['pharma']['drugfulldata'] = pharmaData;
             }
         });
 
@@ -29,7 +29,7 @@ Template.MachineLearning.onCreated(function () {
                 self.loading.set(false);
                 self.noData.set(true);
             } else {
-                Pinscriptive['pharma']['pharmaComorbidity'] = result.pharmaComorbidity;
+                AmdApp['pharma']['pharmaComorbidity'] = result.pharmaComorbidity;
 
             }
         });
@@ -40,7 +40,7 @@ Template.MachineLearning.onCreated(function () {
                 self.noData.set(true);
             } else {
                 //console.log(result.PatientsJourney);
-                Pinscriptive['pharma']['PatientsJourney'] = result.PatientsJourney;
+                AmdApp['pharma']['PatientsJourney'] = result.PatientsJourney;
 
             }
         });

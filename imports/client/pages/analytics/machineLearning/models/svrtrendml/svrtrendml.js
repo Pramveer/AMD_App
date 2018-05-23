@@ -14,7 +14,7 @@ let TherapyData = [];
 let chartMedication = [];
 let allMedicationData = [];
 let medicationProfile = '';
-Pinscriptive.TreatmentEfficacy = {};
+AmdApp.TreatmentEfficacy = {};
 
 Template.svrtrendml.onCreated(function() {
     // Distinct Medications Available
@@ -160,10 +160,10 @@ Template.svrtrendml.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseOrigData = Pinscriptive.TreatmentEfficacy.realData;
-        let baseCompData = Pinscriptive.TreatmentEfficacy.compData;
-        let baseOrigDataQA = Pinscriptive.TreatmentEfficacy.realDataQA;
-        let baseCompDataQA = Pinscriptive.TreatmentEfficacy.compDataQA;
+        let baseOrigData = AmdApp.TreatmentEfficacy.realData;
+        let baseCompData = AmdApp.TreatmentEfficacy.compData;
+        let baseOrigDataQA = AmdApp.TreatmentEfficacy.realDataQA;
+        let baseCompDataQA = AmdApp.TreatmentEfficacy.compDataQA;
         if (value == 'viraloadbefore') {
             primaryData = baseOrigDataQA.pharmaAnalysisData;
             secondaryData = baseCompDataQA.pharmaAnalysisData;
@@ -192,7 +192,7 @@ let executeTreamentEfficacyData = (params, tempateObj) => {
         if (error) {
             tempateObj.loading.set(false);
             tempateObj.noData.set(true);
-            Pinscriptive.TreatmentEfficacy.realData = null;
+            AmdApp.TreatmentEfficacy.realData = null;
         } else {
             analyticsPatientsJourney = JSON.parse(result);
             var uniquepatients = _.uniq(_.pluck(analyticsPatientsJourney, 'PATIENT_ID_SYNTH')).length;
@@ -200,13 +200,13 @@ let executeTreamentEfficacyData = (params, tempateObj) => {
             //Praveen 02/20/2017 commmon cohort
             // setCohortPatientCount({ patientCount: _.uniq(uniquepatients).length });
             //meteor call to fetch viral score data from server
-            Pinscriptive.TreatmentEfficacy.realData = analyticsPatientsJourney;
+            AmdApp.TreatmentEfficacy.realData = analyticsPatientsJourney;
             Meteor.call('getTreatmentEfficacyViralScoreAnalysisData', params, function(error1, result1) {
 
                 if (error1) {
                     tempateObj.loading.set(false);
                     tempateObj.noData.set(true);
-                    Pinscriptive.TreatmentEfficacy.realDataQA = null;
+                    AmdApp.TreatmentEfficacy.realDataQA = null;
                 } else {
                     Template.svrtrendml.__helpers.get('getMedication').call();
                     //console.log(result);
@@ -243,7 +243,7 @@ let executeTreamentEfficacyData = (params, tempateObj) => {
                         $("#viralload-before-TotalN").text(commaSeperatedNumber(resulting_object_result.pharmaAnalysisData.AllBeforeStartCount));
                         $("#viralload-after-TotalN").text(commaSeperatedNumber(resulting_object_result.pharmaAnalysisData.AllAfterStartCount));
                         setCohortPatientCount({ patientCount: commaSeperatedNumber(resulting_object_result.pharmaAnalysisData.BaseDataCount) });
-                        Pinscriptive.TreatmentEfficacy.realDataQA = resulting_object_result;
+                        AmdApp.TreatmentEfficacy.realDataQA = resulting_object_result;
                     }, 100);
 
                 }
@@ -944,16 +944,16 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getTreatmentEfficacyDataAnalytics', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.TreatmentEfficacy.compData = null;
+            AmdApp.TreatmentEfficacy.compData = null;
         } else {
             result = JSON.parse(result);
-            Pinscriptive.TreatmentEfficacy.compData = result;
+            AmdApp.TreatmentEfficacy.compData = result;
             Meteor.call('getTreatmentEfficacyViralScoreAnalysisData', params, function(error1, result1) {
                 if (error1) {
-                    Pinscriptive.TreatmentEfficacy.compDataQA = null;
+                    AmdApp.TreatmentEfficacy.compDataQA = null;
                 } else {
                     result1 = JSON.parse(result1);
-                    Pinscriptive.TreatmentEfficacy.compDataQA = result1;
+                    AmdApp.TreatmentEfficacy.compDataQA = result1;
                     $('.togglechart').show();
                 }
             });

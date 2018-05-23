@@ -420,7 +420,7 @@ Template.Payer.events({
             category_id = parseInt(mixedTabName.replace(tabName, '')),
             drugid = canvasId.split('_')[1];
 
-        Pinscriptive['payer']['safetyTabInfo'] = {
+        AmdApp['payer']['safetyTabInfo'] = {
             canvasId: canvasId,
             tabName: tabName,
             category_id: category_id,

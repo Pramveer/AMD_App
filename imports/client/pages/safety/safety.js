@@ -1907,7 +1907,7 @@ function assignEventToBackPharmaLink() {
 
 //function to render link back to payer tab
 function renderBackLinkToPayer() {
-    var payerTabInfo = Pinscriptive['payer']['safetyTabInfo'];
+    var payerTabInfo = AmdApp['payer']['safetyTabInfo'];
 
     //if is rendered from safety tab
     if (payerTabInfo) {

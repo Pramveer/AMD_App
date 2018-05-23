@@ -7,7 +7,7 @@ let pharmaData = [];
 let dummyMedication = [];
 
 Template.OtherMedicineCount.onCreated(function () {
-    pharmaData = Pinscriptive['pharma']['drugfulldata'];
+    pharmaData = AmdApp['pharma']['drugfulldata'];
 });
 
 Template.OtherMedicineCount.rendered = function () {
@@ -101,7 +101,7 @@ Template.OtherMedicineCount.helpers({
 
 // funtion for applying filters
 function getCurrentPopulationFilters() {
-    let filters = Pinscriptive.Filters,
+    let filters = AmdApp.Filters,
         othersFilters = {
             age: filters.age || [],
             alcohol: getArrFromFormattedStr(filters.alcohol),

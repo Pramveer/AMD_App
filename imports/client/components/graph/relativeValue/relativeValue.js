@@ -547,7 +547,7 @@ function appendAxisValues(axisObj) {
 
 function setSubPopulationInfo() {
     // Nisha 02/10/2017 Added the condition for setting values in popup 
-    var params = Pinscriptive['Filters'];
+    var params = AmdApp['Filters'];
 
     if (params) {
         $('.relativeValueChart_Genotype').html(params['genotypes'] != null ? params['genotypes'].replace(/'/g, '').toString() : 'ALL');

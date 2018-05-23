@@ -13,7 +13,7 @@ let analyticsPJData = {};
 let viralLoadData = {};
 let retreatedPatientData = {};
 //Add new property to existing global variable
-Pinscriptive.patientsJourney = {};
+AmdApp.patientsJourney = {};
 Template.AnalyticsPatientsJourney.onCreated(function() {
     let self = this;
     this.loading = new ReactiveVar(true);
@@ -67,8 +67,8 @@ Template.AnalyticsPatientsJourney.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseOrigData = Pinscriptive.patientsJourney.origData;
-        let baseCompData = Pinscriptive.patientsJourney.compData;
+        let baseOrigData = AmdApp.patientsJourney.origData;
+        let baseCompData = AmdApp.patientsJourney.compData;
 
         if (value === 'undetectedSVRDuringTreatment') {
             primaryData = baseOrigData.patientsJourney;
@@ -368,13 +368,13 @@ let executePatientJourneyRender = (params, tempateObj) => {
         if (error) {
             console.log(error);
             mlSubTabsUtil.hideChartLoading();
-            Pinscriptive.patientsJourney.origData = null;
+            AmdApp.patientsJourney.origData = null;
         } else {
 
             response = JSON.parse(response);
             analyticsPJData = response;
-            // set original data (default switch data) to global pinscriptive variable
-            Pinscriptive.patientsJourney.origData = analyticsPJData;
+            // set original data (default switch data) to global AmdApp variable
+            AmdApp.patientsJourney.origData = analyticsPJData;
             //console.log(response);
 
             //set patient count on header
@@ -947,10 +947,10 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getTreatmentEfficacyDataAnalytics', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.patientsJourney.compData = null;
+            AmdApp.patientsJourney.compData = null;
         } else {
             result = JSON.parse(result);
-            Pinscriptive.patientsJourney.compData = result;
+            AmdApp.patientsJourney.compData = result;
             $('.togglechart').show();
             console.log("**patientJourney Secondary method received with data **");
         }

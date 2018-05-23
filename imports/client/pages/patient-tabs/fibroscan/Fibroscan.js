@@ -64,7 +64,7 @@ Template.Fibroscan.events({
                         patientRowNo--;
                     break;
                 case 'filter-patient-next':
-                    let patientcount = patientCount == void 0 ? (Pinscriptive['Filters'] != undefined ? Pinscriptive['Filters']['patientCountTab'] : 0) : patientCount.get();
+                    let patientcount = patientCount == void 0 ? (AmdApp['Filters'] != undefined ? AmdApp['Filters']['patientCountTab'] : 0) : patientCount.get();
                     if (patientRowNo <= parseInt(patientcount))
                         patientRowNo++;
                     break;
@@ -104,7 +104,7 @@ Template.Fibroscan.events({
                         localStorage.removeItem("AllDrugsName");
                         localStorage.removeItem("AllDrugsData");
                         //console.log(results);
-                        Pinscriptive['SelectedPatient'] = results;
+                        AmdApp['SelectedPatient'] = results;
                         Router.go('/Fibroscan');
                     }
                 });
@@ -122,7 +122,7 @@ Template.Fibroscan.helpers({
     'isDataPresent': () => FibroscanLabsData.length > 0 ? true : false,
 
     'PatientCount': function() {
-        return patientCount == void 0 ? Pinscriptive['Filters']['patientCountTab'] : patientCount.get();
+        return patientCount == void 0 ? AmdApp['Filters']['patientCountTab'] : patientCount.get();
     },
     'PatientRowNumber': function() {
         return patientRowNo;

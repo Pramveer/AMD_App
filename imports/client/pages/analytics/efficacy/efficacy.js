@@ -628,7 +628,7 @@ let executeEfficacyRender = (params, tempateObj) => {
             let decompressed_object = LZString.decompress(result);
             result = JSON.parse(decompressed_object);
 
-            Pinscriptive['MedicationSVR'] = result.PatientsJourney;
+            AmdApp['MedicationSVR'] = result.PatientsJourney;
             primaryData.efficacyData = result;
             tempateObj.loading.set(false);
             tempateObj.noData.set(false);
@@ -1332,7 +1332,7 @@ function renderDrilldownChart(chartContainer) {
     let primaryfilterData = [],
         secondaryfilterData = [];
 
-    let analyticsParams = Pinscriptive['Filters'];
+    let analyticsParams = AmdApp['Filters'];
     // console.log(analyticsParams.genotypes);
 
     var selectedGenotypes = [];

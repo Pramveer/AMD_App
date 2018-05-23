@@ -113,8 +113,8 @@ export function getDrugByGenotype(params, callback) {
             return;
         } else {
             analyticsPatientsData['DrugGenotypeData'] = result;
-            if (Pinscriptive['DrugByGenotype'] == null)
-                Pinscriptive['DrugByGenotype'] = result;
+            if (AmdApp['DrugByGenotype'] == null)
+                AmdApp['DrugByGenotype'] = result;
             if (callback) {
                 callback(true);
             }
@@ -797,9 +797,9 @@ function renderAdherenceTherapyDisributionChart(container, medication) {
 // Render Overall SVR Trend chart
 function renderMedcationSVRTrendChart(container, medication, genoTypes) {
     //   console.log('Medication SVR');
-    //  console.log(Pinscriptive['MedicationSVR']);
+    //  console.log(AmdApp['MedicationSVR']);
     $(container).empty();
-    let filteredSRVData = Pinscriptive['MedicationSVR'];
+    let filteredSRVData = AmdApp['MedicationSVR'];
 
     filteredSRVData = filteredSRVData.filter(function(a) {
         return a.MEDICATION == medication;
@@ -1142,9 +1142,9 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 // Render the SVR Box Chart
 // function renderMedcationSVRBoxChart(container, medication, genoTypes) {
 //     //   console.log('Medication SVR');
-//     //  console.log(Pinscriptive['MedicationSVR']);
+//     //  console.log(AmdApp['MedicationSVR']);
 //     $(container).empty();
-//     let filteredSRVData = Pinscriptive['MedicationSVR'];
+//     let filteredSRVData = AmdApp['MedicationSVR'];
 //     filteredSRVData = filteredSRVData.filter(function (a) {
 //         return a.MEDICATION == medication;
 //     });
@@ -1292,9 +1292,9 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 // export function prepareEfficacyPopup(data, dataObj) {
 //     console.log(dataObj);
 
-//     // let params = Pinscriptive['Filters'];
+//     // let params = AmdApp['Filters'];
 //     let params = {};
-//     if (Pinscriptive.Filters) {
+//     if (AmdApp.Filters) {
 //         params = pharmaLib.getCurrentPopulationFilters();
 //     }
 
@@ -1314,7 +1314,7 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 //     $('.analyticsPatientsPopup-container').empty();
 
 //     if (analyticsPatientsData['DrugGenotypeData'] == null)
-//         analyticsPatientsData['DrugGenotypeData'] = Pinscriptive['DrugByGenotype'];
+//         analyticsPatientsData['DrugGenotypeData'] = AmdApp['DrugByGenotype'];
 
 //     analyticsPatientsData['DrugGenotypePreparedData'] = prepareDrugGenotype(_.groupBy(analyticsPatientsData['DrugGenotypeData'], 'genotype'), dataObj.medicationInfo.Medication);
 
@@ -1349,7 +1349,7 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 
 //        <div class="col-md-12">
 //         `
-//     let filteredSRVData = Pinscriptive['MedicationSVR'];
+//     let filteredSRVData = AmdApp['MedicationSVR'];
 
 //     filteredSRVData = filteredSRVData.filter(function(a) {
 //         return a.MEDICATION == dataObj.medicationInfo.Medication;
@@ -1504,10 +1504,10 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 //         renderEfficacyChartsFOrPopup(parientData, dataObj.medicationInfo.Medication);
 
 //         $('.radioduration').on('change', function() {
-//             // analyticsParams = Pinscriptive['Filters'];
+//             // analyticsParams = AmdApp['Filters'];
 
 //             let analyticsParams = {};
-//             if (Pinscriptive.Filters) {
+//             if (AmdApp.Filters) {
 //                 analyticsParams = pharmaLib.getCurrentPopulationFilters();
 //             }
 
@@ -1562,7 +1562,7 @@ function renderMedcationSVRTrendChart(container, medication, genoTypes) {
 // function renderSVRCharts(medication, rangeval) {
 //     container = 'ap_AggregateSVRChart';
 //     $(container).empty();
-//     let filteredSRVData = Pinscriptive['MedicationSVR'];
+//     let filteredSRVData = AmdApp['MedicationSVR'];
 
 //     var pramgeno = [];
 //     if (analyticsParams.genotypes != null) {
@@ -1742,11 +1742,11 @@ function renderEfficacyChartsFOrPopup(patientsData, medication) {
     let container = '';
     let modifiedData = [];
 
-    // analyticsParams = Pinscriptive['Filters'];
+    // analyticsParams = AmdApp['Filters'];
     // console.log(analyticsParams.genotypes);
 
     let analyticsParams = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         // Nisha 02/23/2017 Modified to change the reference of getCurrentPopulationFilters function call
         analyticsParams = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
@@ -1816,11 +1816,11 @@ function renderEfficacyChartsFOrPopup(patientsData, medication) {
 //     $('.analyticsPatientsPopup').html(MainHtml);
 //     $('.analyticsPatientsPopup-container').empty();
 //     if (analyticsPatientsData['DrugGenotypeData'] == null)
-//         analyticsPatientsData['DrugGenotypeData'] = Pinscriptive['DrugByGenotype'];
+//         analyticsPatientsData['DrugGenotypeData'] = AmdApp['DrugByGenotype'];
 //     analyticsPatientsData['DrugGenotypePreparedData'] = prepareDrugGenotype(_.groupBy(analyticsPatientsData['DrugGenotypeData'], 'genotype'), dataObj.medicationInfo.Medication);
 //     let headerHtml = '<div class="ecf-labelText">Drug Name: </div>' +
 //         '<div class="ecf-valueText">' + dataObj.medicationInfo.Medication + ' (' + dataObj.medicationInfo.treatmentPeriod + 'W)</div>';
-//     // console.log(Pinscriptive['DrugByGenotype']);
+//     // console.log(AmdApp['DrugByGenotype']);
 //     let patientsHtml = `<div style="width: 100%;float: left;position: relative;">`;
 //     if (dataObj.subTab == 'efficacy') {
 //         patientsHtml += `<div class="subpopDetail costBurdenSection col-md-12" style="float: left; margin-bottom: 10px;border: 1px solid #efefef;padding: 10px;"></div>`;
@@ -1835,7 +1835,7 @@ function renderEfficacyChartsFOrPopup(patientsData, medication) {
 //         return i.PatientID == Router.PatientId
 //     });
 //     */
-//     var patientData = Pinscriptive['SelectedPatient'];
+//     var patientData = AmdApp['SelectedPatient'];
 //     if (dataObj.subTab == 'utilization') {
 //         innerHtml = '<div class="ecf-utilizationContainer mlPatientsDetailWrapper">';
 //         $('.analyticsPatientsPopup-container').addClass('groupUtilizationPopup');
@@ -2176,7 +2176,7 @@ function renderEfficacyChartsFOrPopup(patientsData, medication) {
 //     }, 50);
 // }
 // export function prepareAdherencePopup(data, dataObj) {
-//     let params = Pinscriptive['Filters'];
+//     let params = AmdApp['Filters'];
 
 //     let geno = params.genotypes ? params.genotypes.replace(/\'/g, "") : 'All';
 //     let treat = params.treatment ? (params.treatment.replace(/\'/g, "") != 'naive,experienced' ? upperCaseFirst(params.treatment.replace(/\'/g, "")) : 'All') : 'All';
@@ -2335,9 +2335,9 @@ function DrawGeoLocationByGenotype(drugName, zipCode) {
         //     genotypeFilter.MEDICATION = dataObj.medicationInfo.Medication;
         //   genotypeFilter.treatmentPeriod = dataObj.medicationInfo.treatmentPeriod;
         // added treatment period filtering.
-        //  let genotypeFilterData = _.where( Pinscriptive['DrugByGenotype'],genotypeFilter);
+        //  let genotypeFilterData = _.where( AmdApp['DrugByGenotype'],genotypeFilter);
         //var tempdata = _.groupBy(genotypeFilterData, 'MEDICATION');
-        var data = Pinscriptive['TempDrugByGenotypeFilterData'];
+        var data = AmdApp['TempDrugByGenotypeFilterData'];
         var zipCode = _.uniq(_.pluck(data, 'zipcode'));
         $('#geomapUtilizationReset').remove();
         DrawGeoLocationByGenotype(drugName, zipCode);
@@ -2682,9 +2682,9 @@ function PopulationUtilizationChart(containerName, chartData, sizeParams, filter
 
 export function prepareUtilizationPopup(data, dataObj) {
 
-    // let params = Pinscriptive['Filters'];
+    // let params = AmdApp['Filters'];
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         // Nisha 02/23/2017 Modified to change the reference of getCurrentPopulationFilters function call
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
@@ -2901,7 +2901,7 @@ export function prepareUtilizationPopup(data, dataObj) {
 
                 //Bind Data for genotype distribution for population health view.
                 //Get All data related to medication with all genotype.
-                analyticsPatientsData['DrugGenotypeData'] = Pinscriptive['DrugByGenotype'];
+                analyticsPatientsData['DrugGenotypeData'] = AmdApp['DrugByGenotype'];
                 //prepare filters for medicaiton and treatmentPeriod
                 let genotypeFilter = {};
                 genotypeFilter.MEDICATION = dataObj.medicationInfo.Medication;
@@ -2915,7 +2915,7 @@ export function prepareUtilizationPopup(data, dataObj) {
                 genotypeUtilizationChart('#genotypeUtilization', analyticsPatientsData['DrugGenotypePreparedData'], dataObj.medicationInfo.Medication, null);
                 renderLocationMapChart('genotypeGeoLocationMap', tempdata[dataObj.medicationInfo.Medication], null);
                 //Update data for refresh funcatinality
-                Pinscriptive['TempDrugByGenotypeFilterData'] = tempdata[dataObj.medicationInfo.Medication];
+                AmdApp['TempDrugByGenotypeFilterData'] = tempdata[dataObj.medicationInfo.Medication];
             }
             $(this).attr('title', title);
         });
@@ -4548,9 +4548,9 @@ export function exportPatientsData(obj, fileName, data) {
 
 //function to prepare dom for show patients data
 export function prepareDomForShowPatients(subTab) {
-    // let params = Pinscriptive['Filters'];
+    // let params = AmdApp['Filters'];
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         // Nisha 02/23/2017 Modified to change the reference of getCurrentPopulationFilters function call
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }

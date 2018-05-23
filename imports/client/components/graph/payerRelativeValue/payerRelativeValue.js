@@ -593,7 +593,7 @@ function appendAxisValues(axisObj) {
 }
 
 function setSubPopulationInfo(subPopulationInfo) {
-    var params = subPopulationInfo ? subPopulationInfo : Pinscriptive['Filters'];
+    var params = subPopulationInfo ? subPopulationInfo : AmdApp['Filters'];
     $('.relativeValueChart_Genotype').html(params['genotypes'] != null ? params['genotypes'].replace(/'/g, '').toString() : 'ALL');
     $('.relativeValueChart_Treatment').html(params['treatment'] != null ? params['treatment'].replace(/'/g, '').toString() : 'ALL');
     $('.relativeValueChart_Cirrhosis').html(params['cirrhosis'] != null ? params['cirrhosis'].replace(/'/g, '').toString() : 'ALL');

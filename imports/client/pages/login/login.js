@@ -73,7 +73,7 @@ Template.login.submitLogin = function () {
             } else {
                 document.getElementById("anim_loading_theme").style.visibility = "hidden";
                 document.getElementById("overlay").style.display = "none";
-                alertify.alert('Pinscriptive Login', 'Please enter correct username/password');
+                alertify.alert('AmdApp Login', 'Please enter correct username/password');
                 console.log(err);
             }
 
@@ -81,7 +81,7 @@ Template.login.submitLogin = function () {
 
         });
     } else {
-        alertify.alert('Pinscriptive Login', 'Please fill both fields');
+        alertify.alert('AmdApp Login', 'Please fill both fields');
         //alert('please fill both fields');
     }
 };
@@ -121,7 +121,7 @@ Template.login.events({
                 } else {
                     document.getElementById("anim_loading_theme").style.visibility = "hidden";
                     document.getElementById("overlay").style.display = "none";
-                    alertify.alert('Pinscriptive Login', 'Please enter correct username/password');
+                    alertify.alert('AmdApp Login', 'Please enter correct username/password');
                     console.log(err);
                 }
 
@@ -129,7 +129,7 @@ Template.login.events({
 
             });
         } else {
-            alertify.alert('Pinscriptive Login', 'Please fill both fields');
+            alertify.alert('AmdApp Login', 'Please fill both fields');
             //alert('please fill both fields');
         }
 
@@ -193,7 +193,7 @@ Template.login.events({
 
                         var mailFields = {
                             to: email,
-                            subject: 'Pinscriptive : Account Recovery',
+                            subject: 'AmdApp : Account Recovery',
                             type: modeType, // For Forgotpass template
                             username: result.response[0][0].username,
                             password: result.response[0][0].userpass

@@ -14,7 +14,7 @@ Template.Analytics.onCreated(function() {
     var category_id = Session.get('category_id');
     this.autorun(function() {
 
-        let params = Pinscriptive['Filters'];
+        let params = AmdApp['Filters'];
         params['fdaCompliant'] = "yes";
         // Meteor.call('getProviderPageData', params, function(error, result) {
         //     if (error) {
@@ -47,7 +47,7 @@ Template.Analytics.onCreated(function() {
 
         // });
         // updated logic for null objects
-        /* if (typeof Pinscriptive['DrugByGenotype'] !== 'undefined' && Pinscriptive['DrugByGenotype'].length > 0) {
+        /* if (typeof AmdApp['DrugByGenotype'] !== 'undefined' && AmdApp['DrugByGenotype'].length > 0) {
             //solved analytics tab keep loading issue
             self.loading.set(false);
             renderFirstTab();
@@ -117,7 +117,7 @@ Template.Analytics.events({
         if (data && data['data'] == 'refresh') {
             //event for global search filter
             template.loading.set(true);
-            let params = Pinscriptive['Filters'];
+            let params = AmdApp['Filters'];
             params['fdaCompliant'] = "all";
             Meteor.call('getProviderPageData', params, function(error, result) {
                 if (error) {

@@ -80,7 +80,7 @@ Template.MarketOverview.events({
 
 let plotPrepareChartData = () => {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     console.log('1');
@@ -396,7 +396,7 @@ function GenerateYearlyPerformanceChart({
 // Nisha 04/04/2017 modified for Geo Location Distribution
 function GetMapDataPerMedicine(datayear, smeds) {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     params.Year = datayear;
@@ -432,7 +432,7 @@ function GetMapDataPerMedicine(datayear, smeds) {
 // Nisha 04/04/2017 modified for Geo Location Distribution
 function GetMapData(datayear) {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     params.Year = datayear;
@@ -1503,7 +1503,7 @@ let renderHighBarChartPrescription = (container, data) => {
 Template.MarketOverview.fetchAndRenderData = (dbparams, templateObj) => {
     //get data for Competitor Analysis tabs
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     pharmaLib.showChartLoading();

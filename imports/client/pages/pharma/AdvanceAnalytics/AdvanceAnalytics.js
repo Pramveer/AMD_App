@@ -47,8 +47,8 @@ function DrawViralScoreCharts(AdvanceAnalyticsData) {
     $("#pharmanotes").empty();
     $('#pharma-medicationAA').selectize();
     // var medicine =  $("#pharma-medicationAA").val();
-    if (Pinscriptive.Filters) {
-        medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+    if (AmdApp.Filters) {
+        medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
     } else {
         medicine = '';
     }
@@ -493,7 +493,7 @@ let renderWeeklyCharts = (reporttype, container, color1, ChartData) => {
     */
 let renderPrescriptionDuration = (reporttype, duration, container, parentcontainer, parentdiv) => {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); //pharmaLib.getCurrentPopulationFilters();
     }
 
@@ -619,8 +619,8 @@ Template.AdvanceAnalytics.helpers({
 //     $("#pharmanotes").empty();
 //     $('#pharma-medicationAA').selectize();
 //     // var medicine =  $("#pharma-medicationAA").val();
-//     if (Pinscriptive.Filters) {
-//         medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+//     if (AmdApp.Filters) {
+//         medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
 //     } else {
 //         medicine = '';
 //     }
@@ -1250,7 +1250,7 @@ function loadingDropdown() {
 Template.AdvanceAnalytics.fetchAndRenderData = () => {
 
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); //pharmaLib.getCurrentPopulationFilters();
     }
     pharmaLib.showChartLoading();
@@ -1272,7 +1272,7 @@ Template.AdvanceAnalytics.fetchAndRenderData = () => {
             //$('.searchPatientCountHeaderPharma').html(resulting_object.pharmaPatientLength);
             //Added :14-FEB-2017 Arvind,sigle method to set patient count on cohort menu
             setCohortPatientCount({ patientCount: resulting_object.pharmaPatientLength });
-            //Pinscriptive['pharma']['drugfulldata'] = pharmaData;//set data into pinscriptive folder
+            //AmdApp['pharma']['drugfulldata'] = pharmaData;//set data into AmdApp folder
 
             //meteor call to fetch viral score data from server
             Meteor.call('getPharmaViralScoreAnalysisData', params, function(error1, result) {

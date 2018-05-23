@@ -248,8 +248,8 @@ let DrawComorbidityChart = ({
 
     let filtereddrug = [];
     let medicine = '';
-    if (Pinscriptive.Filters) {
-        medicine = Pinscriptive.Filters.medication ? Pinscriptive.Filters.medication.replace(/'/g, '').toString() : 'ALL';
+    if (AmdApp.Filters) {
+        medicine = AmdApp.Filters.medication ? AmdApp.Filters.medication.replace(/'/g, '').toString() : 'ALL';
     }
 
 

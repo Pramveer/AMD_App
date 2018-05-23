@@ -168,7 +168,7 @@ Template.PatientsJourney.executePatientsJourneyRender = (flag) => {
 
     params = {};
     let medication = '';
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         pharmaLib.showChartLoading();
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
         // console.log('params.medication');
@@ -954,7 +954,7 @@ let filterDataOnSelectedWeeks = (dataPJ, maxvalue) => {
 
 // funciton to get the filtered data
 // function getCurrentPopulationFilters() {
-//     let filters = Pinscriptive.Filters,
+//     let filters = AmdApp.Filters,
 //         othersFilters = {
 //             age: filters.age || [],
 //             alcohol: getArrFromFormattedStr(filters.alcohol),

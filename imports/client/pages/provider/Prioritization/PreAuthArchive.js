@@ -14,7 +14,7 @@ Template.PreAuthArchive.onCreated(function() {
     this.loading = new ReactiveVar(true);
     this.noData = new ReactiveVar(false);
 
-    var Patientdata = Pinscriptive['Filters'];
+    var Patientdata = AmdApp['Filters'];
     this.autorun(function() {
 
         let params = {

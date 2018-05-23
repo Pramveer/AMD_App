@@ -1014,7 +1014,7 @@ Template.screeningEvaulationTool.events({
     //         var email = ['nisha@binaryrepublik.com', 'arvind.mepani@binaryrepublik.com'];
     //         var mailFields = {
     //             to: email,
-    //             subject: 'Pinscriptive : PCP Model',
+    //             subject: 'AmdApp : PCP Model',
     //             type: 5, // For  sending out PCP problems
     //             problem: $("#txtproblem").val()
     //         };
@@ -5293,17 +5293,17 @@ let updatePatientScreenIVData = (patientDetails) => {
 let determineTreatmentPlan = (patientDetails) => {
     //console.log('Primary Care Object Detail');
     //console.log(patientDetails);
-    // if(Pinscriptive.Filters)
+    // if(AmdApp.Filters)
     // {
-    //     Pinscriptive.Filters.genotypes = "'" + patientDetails.genotype + "'";
-    //     Pinscriptive.Filters.cirrhosis = "'" + patientDetails.cirrhosis + "'";
-    //     Pinscriptive.Filters.treatment = "'" + patientDetails.treatment + "'";
+    //     AmdApp.Filters.genotypes = "'" + patientDetails.genotype + "'";
+    //     AmdApp.Filters.cirrhosis = "'" + patientDetails.cirrhosis + "'";
+    //     AmdApp.Filters.treatment = "'" + patientDetails.treatment + "'";
     // }
     // else{
-    //     Pinscriptive.Filters ={};
-    //     Pinscriptive.Filters.genotypes = "'" + patientDetails.genotype + "'";
-    //     Pinscriptive.Filters.cirrhosis = "'" + patientDetails.cirrhosis + "'";
-    //     Pinscriptive.Filters.treatment = "'" + patientDetails.treatment + "'";
+    //     AmdApp.Filters ={};
+    //     AmdApp.Filters.genotypes = "'" + patientDetails.genotype + "'";
+    //     AmdApp.Filters.cirrhosis = "'" + patientDetails.cirrhosis + "'";
+    //     AmdApp.Filters.treatment = "'" + patientDetails.treatment + "'";
     // }
     // Router.go('/provider');
     $('.resetFilterbtn').trigger('click');

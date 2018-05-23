@@ -2670,11 +2670,11 @@ selectedData = (id) => {
     //     return Patient.PATIENT_ID_SYNTH == id;
     // });
     let patient = null;
-    if (Pinscriptive['SelectedPatient'] != null)
-        patient = Pinscriptive['SelectedPatient'].filter(function(Patient) {
+    if (AmdApp['SelectedPatient'] != null)
+        patient = AmdApp['SelectedPatient'].filter(function(Patient) {
             return Patient.PATIENT_ID_SYNTH == id;
         });
-    // var patient = Pinscriptive['SelectedPatient'];
+    // var patient = AmdApp['SelectedPatient'];
     return patient;
     //PatientDataList.reactive();
 }

@@ -6,7 +6,7 @@ Template.HeaderInnerContentAnalytics.onCreated(function () {
 
 });
 Template.HeaderInnerContentAnalytics.onRendered(function () {
-	let data = Pinscriptive.Filters;
+	let data = AmdApp.Filters;
 	setPayerHeaderTabData(data);
 	setFilterHeader(data);
 	$('.advancedSearchChange').html('Search');

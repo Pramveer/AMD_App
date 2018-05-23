@@ -8,7 +8,7 @@ import './qualityindicator.html';
 import * as analyticsLib from '../analyticsLib.js';
 
 
-Pinscriptive.qualityIndicattor = {};
+AmdApp.qualityIndicattor = {};
 Template.QualityIndicator.onCreated(function() {
     var self = this;
     this.loading = new ReactiveVar(false);
@@ -141,10 +141,10 @@ Template.QualityIndicator.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseOrigData = Pinscriptive.qualityIndicattor.origData;
-        let baseCompData = Pinscriptive.qualityIndicattor.compData;
-        let baseOrigDataQA = Pinscriptive.qualityIndicattor.origDataQA;
-        let baseCompDataQA = Pinscriptive.qualityIndicattor.compDataQA;
+        let baseOrigData = AmdApp.qualityIndicattor.origData;
+        let baseCompData = AmdApp.qualityIndicattor.compData;
+        let baseOrigDataQA = AmdApp.qualityIndicattor.origDataQA;
+        let baseCompDataQA = AmdApp.qualityIndicattor.compDataQA;
         if(value == 'svr23Cured'){
             primaryData = baseOrigData.chartsData;
             secondaryData = baseCompData.chartsData;
@@ -219,7 +219,7 @@ let GenerateQualityIndictorChart = (container, chartData,isCompared) => {
     
     let totalCured = _.pluck(chartData.DataArray,'totalpatients').sum();
     if(!isCompared){
-        $('#SVR12-Cured-N').html(getHTMLTextN(totalCured,Pinscriptive.qualityIndicattor.origData.totalUniquePatientsMedications));
+        $('#SVR12-Cured-N').html(getHTMLTextN(totalCured,AmdApp.qualityIndicattor.origData.totalUniquePatientsMedications));
     }
     Highcharts.chart(container, {
         chart: {
@@ -288,7 +288,7 @@ let executeQualityIndicatorRender = (params, tempateObj) => {
         if (error) {
             tempateObj.loading.set(false);
             tempateObj.noData.set(true);
-            Pinscriptive.qualityIndicattor.origData = null;
+            AmdApp.qualityIndicattor.origData = null;
         } else {
             // Meteor.call('getQualityViralScoreAnalysisData', params, function(errors, results) {
             //     if (errors) {
@@ -318,14 +318,14 @@ let executeQualityIndicatorRender = (params, tempateObj) => {
             ComparisonPatientData = result; //JSON.parse(LZString.decompress(results));
             //let chartData =  JSON.parse(LZString.decompress(results));
             //console.log('reTreadtedPatients ',reTreatedPatientData);
-            Pinscriptive.qualityIndicattor.origData = result;
+            AmdApp.qualityIndicattor.origData = result;
             params.showPreactingAntivirals = false;
             Meteor.call('getQATabData', params, function(error1, result1) {
                 //console.log('First call fethed');
                 if (error1) {
                     tempateObj.loading.set(false);
                     tempateObj.noData.set(true);
-                    Pinscriptive.qualityIndicattor.origDataQA = null;
+                    AmdApp.qualityIndicattor.origDataQA = null;
                 } else {
 
                     tempateObj.loading.set(false);
@@ -333,7 +333,7 @@ let executeQualityIndicatorRender = (params, tempateObj) => {
 
                     result1 = LZString.decompress(result1);
                     result1 = JSON.parse(result1);
-                    Pinscriptive.qualityIndicattor.origDataQA = result1;
+                    AmdApp.qualityIndicattor.origDataQA = result1;
                     // console.log(result1);
                    Meteor.defer(function(){
                         GenerateQualityIndictorChart("yearlyQualityIndicator", reTreatedPatientData.chartsData);
@@ -1099,7 +1099,7 @@ function renderMultipleTherapyChart(dataObj) {
 
 
 let appendPatientCount = (data) => {
-    let count = ~~Pinscriptive.qualityIndicattor.origData.totalUniquePatientsMedications;
+    let count = ~~AmdApp.qualityIndicattor.origData.totalUniquePatientsMedications;
     $('#qi-nonFdaCombosDistribution_N').html(getHTMLTextN(data.nonfdaApprovedCombos.patientCount,count));
     $('#inappropriateRegimentsDistribution-N').html(getHTMLTextN(data.regimenData.patientCount,count));
     $('#qi-therapyNonFdaGenotypes_N').html(getHTMLTextN(data.therapyDuration.patientCount,count));
@@ -1257,19 +1257,19 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getQualityIndicatorTabData', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.qualityIndicattor.compData = null;            
+            AmdApp.qualityIndicattor.compData = null;            
         } else {
             result = LZString.decompress(result);
             result = JSON.parse(result);
-            Pinscriptive.qualityIndicattor.compData = result;
+            AmdApp.qualityIndicattor.compData = result;
             params.showPreactingAntivirals = false;
             Meteor.call('getQATabData', params, function(error1, result1) {
                 if (error1) {
-                    Pinscriptive.qualityIndicattor.compDataQA = null;
+                    AmdApp.qualityIndicattor.compDataQA = null;
                 } else {
                     result1 = LZString.decompress(result1);
                     result1 = JSON.parse(result1);
-                    Pinscriptive.qualityIndicattor.compDataQA = result1;
+                    AmdApp.qualityIndicattor.compDataQA = result1;
                     $('.togglechart').show();
                 }
             });
@@ -1278,8 +1278,8 @@ let fetchSecondaryDataset = (params) => {
 }
 
 let addPatientCount = () =>{
-    let count = Pinscriptive.qualityIndicattor.origData.totalUniquePatients;
-    let countM = Pinscriptive.qualityIndicattor.origData.totalUniquePatientsMedications;
+    let count = AmdApp.qualityIndicattor.origData.totalUniquePatients;
+    let countM = AmdApp.qualityIndicattor.origData.totalUniquePatientsMedications;
     $('#RNA-Initiating-N').html(commaSeperatedNumber(count));
     $('#qi-hepb').html(commaSeperatedNumber(count));
     $('#qi-hepac').html(commaSeperatedNumber(count));

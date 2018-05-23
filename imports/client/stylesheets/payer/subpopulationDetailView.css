@@ -172,7 +172,7 @@
     padding: 25px 24px;
     font-size: 14px;
     background-position: 24%;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 30px;
     width: 36px !important;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@
 
 .drugComparisonIcon {
     background-position: 59%;
-    background-image: url('pinscriptive_v5-ICONS.png');
+    background-image: url('AmdApp_v5-ICONS.png');
     height: 29px;
     width: 35px;
     padding-left: 0px;
@@ -506,7 +506,7 @@
 
 .spTableArrowRight {
     background-position: 70%;
-    background-image: url('/pinscriptive_v5-ICONS.png');
+    background-image: url('/AmdApp_v5-ICONS.png');
     height: 18px;
     width: 40px;
     background-repeat: no-repeat;
@@ -600,7 +600,7 @@
 
 .lr-hr-moreInfoIcon {
     background-position: 14%;
-    background-image: url('/pinscriptive_v5-ICONS.png');
+    background-image: url('/AmdApp_v5-ICONS.png');
     height: 18px;
     width: 24px;
     background-repeat: no-repeat;
@@ -676,7 +676,7 @@
 .SPList-totalPatients {
     color: #132533;
     background-position: 24%;
-    background-image: url('/pinscriptive_v5-ICONS.png');
+    background-image: url('/AmdApp_v5-ICONS.png');
     width: 70px;
     background-repeat: no-repeat;
     text-align: center;
@@ -1281,7 +1281,7 @@
     font-size: 14px;
     position: relative !important;
     background-position: 100%;
-    background-image: url(/pinscriptive_v5-ICONS.png);
+    background-image: url(/AmdApp_v5-ICONS.png);
     height: 20px;
     width: 47px;
     background-repeat: no-repeat;
@@ -1295,7 +1295,7 @@
     font-size: 13px;
     /*position: relative !important;*/
     background-position: 38%;
-    background-image: url(/pinscriptive_v4_icons.png);
+    background-image: url(/AmdApp_v4_icons.png);
     height: 20px;
     width: 47px;
     background-repeat: no-repeat;

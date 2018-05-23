@@ -50,7 +50,7 @@ Meteor.methods({
         //actual email sending method
         Email.send({
             to: mailFields.to,
-            from: 'accounts@pinscriptive.com',
+            from: 'accounts@AmdApp.com',
             subject: mailFields.subject,
             html: html
         });

@@ -5,7 +5,7 @@ import * as mlSubTabsUtil from '../modelUtils.js';
 
 
 let coinfectionData = [];
-Pinscriptive.coInfection = {};
+AmdApp.coInfection = {};
 Template.CoinfectionsTab.onCreated(function() {
     let self = this;
     this.loading = new ReactiveVar(true);
@@ -75,8 +75,8 @@ Template.CoinfectionsTab.events({
         let desc = $(event.currentTarget).attr('diff');
         let primaryData = [];
         let secondaryData = [];
-        let baseRealData = Pinscriptive.coInfection.realData;
-        let baseCompData = Pinscriptive.coInfection.compData;
+        let baseRealData = AmdApp.coInfection.realData;
+        let baseCompData = AmdApp.coInfection.compData;
 
         if (value == 'coinfectpatient') {
             primaryData = baseRealData;
@@ -944,13 +944,13 @@ let executeCoinfectionRender = (params, templateObj) => {
     Meteor.call('getCoinfectionTabData', params, (error, result) => {
         if (error) {
             templateObj.loading.set(false);
-            Pinscriptive.coInfection.realData = null;
+            AmdApp.coInfection.realData = null;
         } else {
             templateObj.loading.set(false);
             result = JSON.parse(result);
             //set the coinfection data
             coinfectionData = result;
-            Pinscriptive.coInfection.realData = prepareBaseDataForCharts(coinfectionData);
+            AmdApp.coInfection.realData = prepareBaseDataForCharts(coinfectionData);
             setTimeout(() => {
                 invokeChartsPreparation(coinfectionData);
                 //Praveen 05/19/2017 commmon cohort
@@ -972,11 +972,11 @@ let fetchSecondaryDataset = (params) => {
     Meteor.call('getCoinfectionTabData', params, function(error, result) {
         //console.log('First call fethed');
         if (error) {
-            Pinscriptive.coInfection.compData = null;
+            AmdApp.coInfection.compData = null;
         } else {
             let fetcheddata = JSON.parse(result);
             setTimeout(() => {
-                Pinscriptive.coInfection.compData = prepareBaseDataForCharts(fetcheddata);
+                AmdApp.coInfection.compData = prepareBaseDataForCharts(fetcheddata);
                 $('.togglechart').show();
             }, 100);
         }

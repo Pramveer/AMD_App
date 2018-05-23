@@ -146,7 +146,7 @@ Template.AdminDashboard.helpers({
         if (user.role === 1) {
             return `<select name="ddlProvider" id="ddlProvider" class="tg-txtfld">
                         <option value="0">Select Organization</option>
-                        <option value="1">Pinscriptive Inc</option>
+                        <option value="1">AmdApp Inc</option>
                         <option value="2">PHS</option>
                     </select>`;
         } else {
@@ -300,7 +300,7 @@ Template.AdminDashboard.events({
                     // console.log(userbody);
                     let mailFields = {
                         to: pData.email,
-                        subject: 'Pinscriptive : Reset Password',
+                        subject: 'AmdApp : Reset Password',
                         type: 3, // For Reset pwd/New user template
                         username: pData.username,
                         password: pData.password
@@ -447,7 +447,7 @@ function AddOrUpdateUser(opMode) {
 
                                 let mailFields = {
                                     to: pData.Email,
-                                    subject: 'Pinscriptive : User Account',
+                                    subject: 'AmdApp : User Account',
                                     type: 4, // For New user template
                                     firstname: pData.FName,
                                     lastname: pData.LName,

@@ -489,7 +489,7 @@ let fetchSecondaryDataset = (params) => {
                                 // DEcompression form Viral Score Analysis Data
                             var decompressed_object_result = LZString.decompress(result);
                             var resulting_object_result = JSON.parse(decompressed_object_result);
-                            // Pinscriptive.viralScoreAnalysis.compData =resulting_object_result.pharmaAnalysisData;
+                            // AmdApp.viralScoreAnalysis.compData =resulting_object_result.pharmaAnalysisData;
                             // Store secondary dataset value for Relapsed and Remiited chart
                             CostBurdenObj.Secondary.ViralScoreAnalysisData = resulting_object_result.pharmaAnalysisData;
                             $('.togglechart').show();
@@ -791,7 +791,7 @@ let CreateCostTable = () => {
     // console.log(Session.get('CostType'));
     // console.log(Session.get('CostDrillDown'));
     params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters();
     }
     GenoType = Session.get('GenoType');

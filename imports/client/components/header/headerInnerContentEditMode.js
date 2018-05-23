@@ -12,11 +12,11 @@ let stateDDL;
 // Apply default configuration once header loaded for edit mode
 Template.HeaderInnerContentEditMode.rendered = function() {
     //console.log("Header Data Rendered");
-    //console.log(Pinscriptive['Filters']);
+    //console.log(AmdApp['Filters']);
     let Stab = this.data || {};
     console.log("selectd tab = " + Stab);
-    if (Pinscriptive['Filters'] != null) {
-        // setFilterHeader(Pinscriptive['Filters']);
+    if (AmdApp['Filters'] != null) {
+        // setFilterHeader(AmdApp['Filters']);
         // setMedicationInfoInCohort();
         //Arvind, 13-Feb-2017,single Cohort function for all tab
         //console.log("selectd tab = " + Stab);

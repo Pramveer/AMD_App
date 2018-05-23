@@ -27,7 +27,7 @@ Template.TreatmentEfficacyCompareEngine.events({
 let executePatientsJourneyRender = () =>{
 
     params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         showChartLoading();
         params = pharmaLib.getCurrentPopulationFilters();
         // We dont want to be dependent on the selected medication.

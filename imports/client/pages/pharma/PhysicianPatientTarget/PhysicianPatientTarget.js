@@ -28,7 +28,7 @@ var pieColors = [{
 
 Template.PhysicianPatientTarget.onCreated(function() {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); //pharmaLib.getCurrentPopulationFilters();
     }
     params['fdaCompliant'] = "yes";
@@ -74,7 +74,7 @@ Template.PhysicianPatientTarget.events({
         /*
                if (tabData == "withFDACompliant") {
                    let params = {};
-                   if (Pinscriptive.Filters) {
+                   if (AmdApp.Filters) {
                        params = pharmaLib.getCurrentPopulationFilters();
                    }
                    params['fdaCompliant'] = "yes";
@@ -84,7 +84,7 @@ Template.PhysicianPatientTarget.events({
 
                } else if (tabData == "withoutFDACompliant") {
                    let params = {};
-                   if (Pinscriptive.Filters) {
+                   if (AmdApp.Filters) {
                        params = pharmaLib.getCurrentPopulationFilters();
                    }
                    params['fdaCompliant'] = "no";
@@ -96,7 +96,7 @@ Template.PhysicianPatientTarget.events({
                    //console.log("Render All Drugs Data.");
 
                    let params = {};
-                   if (Pinscriptive.Filters) {
+                   if (AmdApp.Filters) {
                        params = pharmaLib.getCurrentPopulationFilters();
                    }
                    params['fdaCompliant'] = "all";
@@ -116,7 +116,7 @@ Template.PhysicianPatientTarget.events({
 function GetTabWiseData(tabData) {
     if (tabData == "withFDACompliant") {
         let params = {};
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
         }
         params['fdaCompliant'] = "yes";
@@ -126,7 +126,7 @@ function GetTabWiseData(tabData) {
 
     } else if (tabData == "withoutFDACompliant") {
         let params = {};
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
         }
         params['fdaCompliant'] = "no";
@@ -138,7 +138,7 @@ function GetTabWiseData(tabData) {
         //console.log("Render All Drugs Data.");
 
         let params = {};
-        if (Pinscriptive.Filters) {
+        if (AmdApp.Filters) {
             params = getCurrentPopulationFilters(); //pharmaLib.getCurrentPopulationFilters();
         }
         params['fdaCompliant'] = "all";
@@ -639,7 +639,7 @@ function getlength(number) {
 
 Template.PhysicianPatientTarget.fetchAndRenderData = () => {
     let params = {};
-    if (Pinscriptive.Filters) {
+    if (AmdApp.Filters) {
         params = getCurrentPopulationFilters(); // pharmaLib.getCurrentPopulationFilters();
     }
     params['tabname'] = 'physicianpatientarget';
@@ -652,7 +652,7 @@ Template.PhysicianPatientTarget.fetchAndRenderData = () => {
 //get utilization data render 
 let executeUtilizationRender = (params) => {
 
-    // if (Pinscriptive.Filters) {
+    // if (AmdApp.Filters) {
     //     params = pharmaLib.getCurrentPopulationFilters();
     // }
     // params['fdaCompliant'] = "yes";
@@ -671,7 +671,7 @@ let executeUtilizationRender = (params) => {
             let decompressed_object = LZString.decompress(result);
             let resulting_object = JSON.parse(decompressed_object);
 
-            Pinscriptive['DrugByGenotype'] = resulting_object.getDrugByGenotype;
+            AmdApp['DrugByGenotype'] = resulting_object.getDrugByGenotype;
             pharmaanalyticsLib.analyticsUtilizationPatientsData(resulting_object.patientDataUtilization);
             setTimeout(function() {
                 GenerateUtilizationBarBubbleMixedChart(resulting_object.drugsData, resulting_object.totalPatients);

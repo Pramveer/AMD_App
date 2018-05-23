@@ -38,7 +38,7 @@ Template.mainNavigation.events({
             $('.analyticssubmenu_Btn').hide();
             $('.switch').show();
 
-            let filters = Pinscriptive.Filters;
+            let filters = AmdApp.Filters;
             if (tabName == 'payer') {
                 //$('#headerSingleSearch').empty();
                 $('.advancedSearchChange').html('Search');
@@ -85,7 +85,7 @@ Template.mainNavigation.events({
 
                 $('.advancedSearchChange').html('Search');
                 Session.set('headerTab', 'analytics');
-                if (Pinscriptive.Filters)
+                if (AmdApp.Filters)
                     $('.analyticssubmenu_Btn').show();
                 //$('.pharmaMedicationAdvanced').hide();
             } else if (tabName == 'pharma') {
