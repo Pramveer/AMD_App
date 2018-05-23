@@ -1,1 +1,0 @@
-import './mainFooter.html';

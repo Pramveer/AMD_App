@@ -1,3 +1,4 @@
+// Client entry point, imports all client code
+
 import '/imports/startup/client';
-import '/imports/client';
-//import '/imports/ui/components/header';
+import '/imports/startup/both';

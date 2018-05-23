@@ -1,7 +1,4 @@
-// This defines all the collections, publications and methods that the application provides
-// as an API to the client.
-import './db-connection.js';
-import './commonUtility.js';
-import './smtp.js';
-import './sendEmail.js';
+// Import server startup through a single index entry point
+
+import './fixtures.js';
 import './register-api.js';

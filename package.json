@@ -1,18 +1,15 @@
 {
-  "name": "AmdAppApp",
-  "version": "1.0.0",
-  "description": "An app for drug pescription.",
+  "name": "amdapp",
+  "private": true,
   "scripts": {
-    "meteor:dev": "meteor --settings settings-development.json --port 4000",
-    "meteor:prod": "meteor --production --port 300  --settings settings-production.json"
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha"
   },
   "dependencies": {
-    "decision-tree": "^0.3.1",
-    "imports": "^1.0.0",
-    "jquery": "^3.1.1",
-    "lodash": "^4.17.2",
-    "meteor-node-stubs": "^0.2.3",
-    "ml-kmeans": "^3.0.0",
-    "moment": "^2.17.1"
+    "@babel/runtime": "^7.0.0-beta.42",
+    "meteor-node-stubs": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
   }
 }
