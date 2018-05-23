@@ -1,3 +1,1221 @@
 <template name="Dashboard">
-    <h3> AMD Dashboard template </h3>
+  <div class="container-fluid">
+
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Sidebar</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p>Patients</p>
+        <li class="active">
+          <a href="#homeSubmenu">Diagnosis/Evaluation</a>
+        </li>
+        <li>
+          <a href="#">Past HCV Treatment</a>
+        </li>
+        <li>
+          <a href="#">Latis</a>
+        </li>
+        <li>
+          <a href="#">Medication History</a>
+        </li>
+        <li>
+          <a href="#">Imaging</a>
+        </li>
+        <li>
+          <a href="#">Herbal Medication History</a>
+        </li>
+        <li>
+          <a href="#">Social History</a>
+        </li>
+        <li>
+          <a href="#">Clinical Calculators</a>
+        </li>
+      </ul>
+
+      <ul class="list-unstyled device">
+        <li>
+          <img src="./Product-Image.png" alt="LOGO">
+        </li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div class="row main-header">
+        <div class="col-md-3 col-sm-3 col-xs-12 mh-left">
+          <a class="navbar-brand logo" href="#">
+            <img src="./logo.jpg" alt="LOGO">
+          </a>
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-12 mh-right">
+          <div class="col-md-12 header-top">
+            <div class="row">
+              <div class="col-md-4 col-sm-2 header-top-leftside">
+                <nav class="navbar navbar-default">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" id="sidebarCollapse" data-toggle="collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+
+                  </div>
+                </nav>
+                <ul class="list-inline">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="main-menu">
+                        <div class="main-menu-item item-1 ">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Epidemiology</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-2 ">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Patients</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-3 ">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Provider</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-4 ">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Payer</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-5 ">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Primary Care</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-6">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Pharma</span>
+                          </a>
+                        </div>
+                        <div class="main-menu-item item-6">
+                          <a href="#" class="menu-item-wrapper">
+                            <span class="item-icon">
+                              <span class="glyphicon glyphicon-cog"></span>
+                            </span>
+                            <span class="item-name">Analytics</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown search-dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                    <ul class="dropdown-menu" id="search-dropdow">
+                      <li>
+                        <div class="navbar-content search-dropdown-menu">
+                          <!-- @author Rajat duvedi -->
+                          <ul class="nav nav-tabs">
+                            <li class="active">
+                              <a data-toggle="tab" href="#basic-search">Basic search</a>
+                            </li>
+                            <li>
+                              <a data-toggle="tab" href="#advance-search">Advance search</a>
+                            </li>
+                          </ul>
+                          <div class="tab-content">
+                            <div id="basic-search" class="tab-pane fade in active">
+                              <div class="search-content">
+                                <div class="row">
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown">
+                                        <span class="search-criteria">Geno Type</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Treatment</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Cirrhosis</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="row">
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Medication</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Preacting</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Antivirals</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Time Filter</span>
+                                        <b class="glyphicon glyphicon-th"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="search-action">
+                                    <div class="col-sm-4">
+                                      <button type="button" class="btn btn-default btn-sm">Apply</button>
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <button type="button" class="btn btn-default btn-sm">Reset</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="advance-search" class="tab-pane fade">
+                              <div class="search-content">
+                                <div class="row">
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown">
+                                        <span class="search-criteria">Geno Type</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Treatment</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Cirrhosis</span>
+                                        <b class="caret"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="row">
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Medication</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Preacting</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                          <span class="search-criteria">Antivirals</span>
+                                          <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <div class="navbar-content">
+                                              <span>JS Krishna</span>
+                                              <p class="text-muted small">
+                                                me@jskrishna.com
+                                              </p>
+                                              <div class="divider">
+                                              </div>
+                                              <a href="#" class="view btn-sm active">View Profile</a>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-4">
+                                    <div class="dropdown">
+                                      <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
+                                        <span class="search-criteria">Time filter</span>
+                                        <b class="glyphicon glyphicon-th"></b>
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li>
+                                          <div class="navbar-content">
+                                            <span>JS Krishna</span>
+                                            <p class="text-muted small">
+                                              me@jskrishna.com
+                                            </p>
+                                            <div class="divider">
+                                            </div>
+                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                </div>
+                                <div class="search-action">
+                                  <button type="button" class="btn btn-default btn-sm">Apply</button>
+                                  <button type="button" class="btn btn-default btn-sm">Reset</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="col-md-8 col-sm-10 header-top-rightside">
+                <div>
+                  <ul class="list-inline ">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle user" data-toggle="dropdown">
+                        <img src="./user/profile.jpg" alt="user">
+                        <span class="user-name">Jennie Thompson</span>
+                        <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <div class="navbar-content">
+                            <span>JS Krishna</span>
+                            <p class="text-muted small">
+                              me@jskrishna.com
+                            </p>
+                            <div class="divider">
+                            </div>
+                            <a href="#" class="view btn-sm active">View Profile</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="seeting-btn">
+                      <a href="#">
+                        <span class="glyphicon glyphicon-cog"></span>
+                        <span class="setting-lbl">Setting</span>
+                      </a>
+                    </li>
+                    <li class="logout-btn">
+                      <a href="#">
+                        <span class="glyphicon glyphicon-off"></span>
+                        <span class="logout-lbl">Logout</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-12 header-bottom">
+            <h4>Epidemiology</h4>
+            <label class="switch">
+              <input type="checkbox" checked="">
+              <span class="slider round"></span>
+            </label>
+            <div class="vr"></div>
+            <div class="date-range">
+              <span class="date-icon">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+              </span>
+              <span class="date">
+                <span class="frm">01/01/2013</span>
+                <sapn>-</sapn>
+                <span class="to">05/16/2018</span>
+              </span>
+              <span class="go-btn">
+                <span>GO</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart js code added by Payal -->
+              <div id="us-map" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart js code added by Payal -->
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body ">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="containerchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+
+          </div>
+        </div>
+        <!-- row2 -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="multilinechart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row 3-->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="container-stackedchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="market" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row5-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="bubble" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Medication</th>
+                    <th>Prescription Count</th>
+                    <th>Ingredient Cost</th>
+                    <th>Cost Per Rx</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+                  <tr>
+                    <td>HARVONI</td>
+                    <td>3,072</td>
+                    <td>$303 M</td>
+                    <td>$98,644</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row6-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="drill-chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="drill-chart1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row7-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="barchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="barchart1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row8-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="Genotype" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="genotypebar" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row9-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="payerchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="payerbarchart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <!-- row 10-->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="chart-body">
+              <div class="top-bar">
+                <h4>Chart Tittle</h4>
+                <div class="btn-group selectBox">
+                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select-Box
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li>
+                      <a href="#">Action </a>
+                    </li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">Action</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default btn-sm">Compare</button>
+              </div>
+              <!--Highchart Id added by Payal -->
+              <div id="Fibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--Highchart Id added by Payal -->
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="row">
+            <!-- <div class="col-md-4"><img src="./Product-Image.png" alt="LOGO"></div> -->
+            <div class="col-md-12">
+              <p>
+                ForeseeHome is a registered trademark, and the ForeseeHome AMD Monitoring Program and logo and the Notal Vision logo are trademarks of Notal Vision. <br>© 2018 Notal Vision, Inc. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+  </div>
 </template>

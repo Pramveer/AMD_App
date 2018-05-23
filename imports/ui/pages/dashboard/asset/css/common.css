@@ -1,0 +1,62 @@
+.main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .chart-body {
+    -webkit-box-shadow: 0 0 0 1px rgba(61, 70, 79, .05), 0 1px 3px 0 rgba(61, 70, 79, .15);
+    box-shadow: 0 0 0 1px rgba(61, 70, 79, .05), 0 1px 3px 0 rgba(61, 70, 79, .15);
+    background: white;
+    min-height: 320px;
+    border-radius: 3px;
+    margin: 15px 0;
+  }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+.top-bar h4 {
+    margin-right: auto;
+    color: #4b646f;
+    font-size: 16px;
+}
+.btn-group.selectBox {
+    margin-right: 14px;
+}
+
+.chart-body .top-bar button {
+    color: #78909c;
+    border-color: #dadee1;
+}
+
+.navbar-content.search-dropdown-menu{
+    width: 500px
+  }
+  .search-content a {
+    border-bottom: 1px solid;
+    padding: 10px;
+  }
+  .search-content .dropdown {
+    padding: 20px;
+     /* width:30% */
+    min-width: 32%;
+    display: inline-block;
+  }
+  .search-action {
+    float: right;
+    padding: 16px
+  }
+  .search-action button {
+      background: #00678f;
+      border: none;
+      color: white;
+  }
+  rect.highcharts-background {
+    display: none;
+}
+footer div p {
+  background: #006a92;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 3px;
+}

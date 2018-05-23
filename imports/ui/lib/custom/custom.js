@@ -1,22 +1,5 @@
-import './dashboard.html';
 
-Template.Dashboard.onCreated(function() {
-
-});
-
-Template.Dashboard.rendered = () => {
-
-  renderCharts();
-
-};
-
-
-Template.Dashboard.helpers({
-
-});
-
-let renderCharts = () => {
-  var data=[{name: 'Anti-HCV Therapy',data: [{mydataxyz: 'Anti1', y: 100},{mydataxyz: 'Anti3', y: 0},{mydataxyz: 'Anti4', y: 4},{mydataxyz: 'Anti5', y: 5}]}, {name: 'HCV-RNA',data: [{mydataxyz:'anti6',y:5}, {mydataxyz:'anti6',y:5}, {mydataxyz:'anti6',y:4},{mydataxyz:'anti6',y:3}]}]
+var data=[{name: 'Anti-HCV Therapy',data: [{mydataxyz: 'Anti1', y: 100},{mydataxyz: 'Anti3', y: 0},{mydataxyz: 'Anti4', y: 4},{mydataxyz: 'Anti5', y: 5}]}, {name: 'HCV-RNA',data: [{mydataxyz:'anti6',y:5}, {mydataxyz:'anti6',y:5}, {mydataxyz:'anti6',y:4},{mydataxyz:'anti6',y:3}]}]
 var data1=[{name: 'Anti-HCV Therapy',data: [{mydataxyz: 'Anti1', y: 15},{mydataxyz: 'Anti1', y: 0},{mydataxyz: 'Anti1', y: 5},{mydataxyz: 'Anti1', y: 4}]}]
 var data3 = [{name: 'Hep C',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
 var data4 = [{
@@ -104,130 +87,97 @@ var payerdata =[{
         }]
     }]
 var dataFibrosis = [{name: 'Anti-HCV Therapy',data: [{mydata: 'Anti1', y: 45},{mydata: 'Anti1', y: 0},{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4}]}]
-
-
-  renderHCVPrevelenceChart(container1,data);
-  renderMapChart();
-  renderhepetitiesChart(containerchart,data1);
-  renderHCVmultilinechart(multilinechart,data3);
-  renderMarketChart(market,data4);
-  renderBubbleChart(bubble,data5);
-  renderBarChart(barchart,payerdata);
-  renderBarChart1(barchart1,payerdata);
-  renderPayerchart(payerchart);
-  rendergenotypebarchart(genotypebar,payerdata);
-  renderpayerbarchart(payerbarchart,payerdata);
-  renderFibrosischart(Fibrosis,dataFibrosis);
-  renderdummyChart();
+//var data=[{name: 'Anti-HCV Therapy',data: [100, 0, 4,5]}, {name: 'HCV-RNA',data: [5, 7, 3,5]}]
+//var data=[{mydata: 'Anti-HCV Therapy',y:'5'},{mydata: 'Anti-HCV Therapy',y:'5'},{mydata: 'Anti-HCV Therapy',y:'5'}]
+//var data1=[{name: 'Anti-HCV Therapy',data: [5, 0, 4,5]}]
+renderchart();
+function renderchart(){
+renderHCVPrevelenceChart(container1,data)
+renderhepetitiesChart(containerchart,data1)
+renderHCVmultilinechart(multilinechart,data3)
+renderMarketChart(market,data4)
+renderBubbleChart(bubble,data5)
+renderBarChart(barchart,payerdata)
+renderBarChart1(barchart1,payerdata)
+renderPayerchart(payerchart)
+rendergenotypebarchart(genotypebar,payerdata)
+renderpayerbarchart(payerbarchart,payerdata)
+renderFibrosischart(Fibrosis,dataFibrosis)
 }
-
-
-
-let renderMapChart =() => {
+<!--Highchart js code added by Payal -->
 
 $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/us-population-density.json', function (data) {
 
-  // Make codes uppercase to match the map data
-  $.each(data, function () {
-      this.code = this.code.toUpperCase();
-  });
+    // Make codes uppercase to match the map data
+    $.each(data, function () {
+        this.code = this.code.toUpperCase();
+    });
 
-  // Instantiate the map
-  Highcharts.mapChart('us-map', {
-
-      chart: {
-          map: 'countries/us/us-all',
-          borderWidth: 1
-      },
-
-      title: {
-          text: 'US population density (/km²)'
-      },
-
-      exporting: {
-          sourceWidth: 600,
-          sourceHeight: 500
-      },
-
-      legend: {
-          layout: 'horizontal',
-          borderWidth: 0,
-          backgroundColor: 'rgba(255,255,255,0.85)',
-          floating: true,
-          verticalAlign: 'top',
-          y: 25
-      },
-
-      mapNavigation: {
-          enabled: true
-      },
-
-      colorAxis: {
-          min: 1,
-          type: 'logarithmic',
-          minColor: '#EEEEFF',
-          maxColor: '#000022',
-          stops: [
-              [0, '#EFEFFF'],
-              [0.67, '#4444FF'],
-              [1, '#000022']
-          ]
-      },
-
-      series: [{
-          animation: {
-              duration: 1000
-          },
-          data: data,
-          joinBy: ['postal-code', 'code'],
-          dataLabels: {
-              enabled: true,
-              color: '#FFFFFF',
-              format: '{point.code}'
-          },
-          name: 'Population density',
-          tooltip: {
-              pointFormat: '{point.code}: {point.value}/km²'
-          }
-      }]
-  });
-});
-
-}
-
-
-let renderHCVPrevelenceChart = (container,data) => {
-Highcharts.chart(container, {
+    // Instantiate the map
+    Highcharts.mapChart('us-map', {
 
         chart: {
-            type: 'column'
+            map: 'countries/us/us-all',
+            borderWidth: 1
         },
+
         title: {
-            text: 'Estimated Person Infected with HCV'
+            text: 'US population density (/km²)'
         },
-        xAxis: {
-            categories: ['2013', '2014', '2015','2016']
-        },
-        yAxis: {
-            title: {
-                text: 'Estimated Person Infected with HCV'
-            }
-        },
-		plotOptions: {
-            column: {
 
-                dataLabels: {
-                    enabled: true
-                },
-                enableMouseTracking: true
-            }
-		},
-        series: data
+        exporting: {
+            sourceWidth: 600,
+            sourceHeight: 500
+        },
 
+        legend: {
+            layout: 'horizontal',
+            borderWidth: 0,
+            backgroundColor: 'rgba(255,255,255,0.85)',
+            floating: true,
+            verticalAlign: 'top',
+            y: 25
+        },
+
+        mapNavigation: {
+            enabled: true
+        },
+
+        colorAxis: {
+            min: 1,
+            type: 'logarithmic',
+            minColor: '#EEEEFF',
+            maxColor: '#000022',
+            stops: [
+                [0, '#EFEFFF'],
+                [0.67, '#4444FF'],
+                [1, '#000022']
+            ]
+        },
+
+        series: [{
+            animation: {
+                duration: 1000
+            },
+            data: data,
+            joinBy: ['postal-code', 'code'],
+            dataLabels: {
+                enabled: true,
+                color: '#FFFFFF',
+                format: '{point.code}'
+            },
+            name: 'Population density',
+            tooltip: {
+                pointFormat: '{point.code}: {point.value}/km²'
+            }
+        }]
+    });
 });
-}
 
-let  renderhepetitiesChart = (container,data1) => {
+<!--Highchart js code Ended by Payal -->
+
+<!--Highchart js code added by Payal -->
+function renderhepetitiesChart(container,data1){
  Highcharts.chart(container, {
         chart: {
             type: 'line'
@@ -263,9 +213,45 @@ let  renderhepetitiesChart = (container,data1) => {
         series:data1
     });
 }
+<!--Highchart js code Ended by Payal -->
 
-let renderHCVmultilinechart = (container,data3) => {
-  Highcharts.chart(container, {
+
+<!--Highchart js code added by Payal -->
+function renderHCVPrevelenceChart(container,data){
+Highcharts.chart(container, {
+
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Estimated Person Infected with HCV'
+        },
+        xAxis: {
+            categories: ['2013', '2014', '2015','2016']
+        },
+        yAxis: {
+            title: {
+                text: 'Estimated Person Infected with HCV'
+            }
+        },
+		plotOptions: {
+            column: {
+
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: true
+            }
+		},
+        series: data
+
+});
+}
+<!--Highchart js code Ended by Payal -->
+
+<!--Highchart js code added by Payal -->
+function renderHCVmultilinechart(container,data3){
+Highcharts.chart(container, {
         chart: {
             type: 'line'
         },
@@ -298,8 +284,74 @@ let renderHCVmultilinechart = (container,data3) => {
         series:data3
     });
 }
+<!--Highchart js code Ended by Payal -->
 
-let renderMarketChart = (container,data4) => {
+<!--Highchart js code added by Payal -->
+
+
+       $(document).ready(function() {
+
+
+
+            var chart = {
+               type: 'column'
+            };
+            var title = {
+               text: 'Stacked column chart'
+            };
+            var xAxis = {
+               categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+            };
+            var yAxis = {
+               min: 0,
+               title: {
+                  text: 'Total fruit consumption'
+               }
+            };
+            var tooltip = {
+               pointFormat: '<span style = "color:{series.color}">{series.name}</span> : <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+               shared: true
+            };
+            var plotOptions = {
+               column: {
+                  stacking: 'percent'
+               }
+            };
+            var credits = {
+               enabled: false
+            };
+            var series = [
+               {
+                  name: 'John',
+                  data: [5, 3, 4, 7, 2]
+               },
+               {
+                  name: 'Jane',
+                  data: [2, 2, 3, 2, 1]
+               },
+               {
+                  name: 'Joe',
+                  data: [3, 4, 4, 2, 5]
+               }
+            ];
+
+            var json = {};
+            json.chart = chart;
+            json.title = title;
+            json.xAxis = xAxis;
+            json.yAxis = yAxis;
+            json.tooltip = tooltip;
+            json.plotOptions = plotOptions;
+            json.credits = credits;
+            json.series = series;
+            $('#container-stackedchart').highcharts(json);
+         });
+  <!--Highchart js code Ended by Payal -->
+
+
+
+<!--Highchart js code added by Payal -->
+function renderMarketChart(container,data4){
     Highcharts.chart(container, {
     chart: {
         zoomType: 'xy'
@@ -376,8 +428,10 @@ let renderMarketChart = (container,data4) => {
     series:data4
 });
 }
+	<!--Highchart js code Ended by Payal -->
 
-let renderBubbleChart = (container,data5) => {
+	<!--Highchart js code added by Payal -->
+	function renderBubbleChart(container,data5){
 Highcharts.chart(container, {
 
     chart: {
@@ -473,463 +527,10 @@ Highcharts.chart(container, {
     series: data5
 
 });
-}
-
-let renderBarChart1 = (container,payerdata) => {
-Highcharts.chart(container, {
-  chart: {
-      plotBackgroundColor: null,
-      plotBorderWidth: null,
-      plotShadow: false,
-      type: 'pie'
-  },
-  title: {
-      text: 'Browser market shares in January, 2018'
-  },
-  tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-  },
-  plotOptions: {
-      pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-              enabled: true,
-              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-              style: {
-                  color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-              }
-          }
-      }
-  },
-  series:payerdata
-});
-}
-
-let rendergenotypebarchart = (container,payerdata) => {
-Highcharts.chart(container, {
-  chart: {
-      plotBackgroundColor: null,
-      plotBorderWidth: null,
-      plotShadow: false,
-      type: 'pie'
-  },
-  title: {
-      text: 'Browser market shares in January, 2018'
-  },
-  tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-  },
-  plotOptions: {
-      pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-              enabled: true,
-              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-              style: {
-                  color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-              }
-          }
-      }
-  },
-  series: payerdata
-});
-}
-
-let renderPayerchart = (container) => {
+	}
+<!--Highchart js code Ended by Payal -->
+<!--Highchart js code added by Payal -->
 // Create the chart
-Highcharts.chart(container, {
-    chart: {
-        type: 'column'
-    },
-    title: {
-        text: 'Browser market shares. January, 2018'
-    },
-    subtitle: {
-        text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
-    },
-    xAxis: {
-        type: 'category'
-    },
-    yAxis: {
-        title: {
-            text: 'Total percent market share'
-        }
-
-    },
-    legend: {
-        enabled: false
-    },
-    plotOptions: {
-        series: {
-            borderWidth: 0,
-            dataLabels: {
-                enabled: true,
-                format: '{point.y:.1f}%'
-            }
-        }
-    },
-
-    tooltip: {
-        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
-    },
-
-    "series": [
-        {
-            "name": "Browsers",
-            "colorByPoint": true,
-            "data": [
-                {
-                    "name": "Chrome",
-                    "y": 62.74,
-                    "drilldown": "Chrome"
-                },
-                {
-                    "name": "Firefox",
-                    "y": 10.57,
-                    "drilldown": "Firefox"
-                },
-                {
-                    "name": "Internet Explorer",
-                    "y": 7.23,
-                    "drilldown": "Internet Explorer"
-                },
-                {
-                    "name": "Safari",
-                    "y": 5.58,
-                    "drilldown": "Safari"
-                },
-                {
-                    "name": "Edge",
-                    "y": 4.02,
-                    "drilldown": "Edge"
-                },
-                {
-                    "name": "Opera",
-                    "y": 1.92,
-                    "drilldown": "Opera"
-                },
-                {
-                    "name": "Other",
-                    "y": 7.62,
-                    "drilldown": null
-                }
-            ]
-        }
-    ],
-    "drilldown": {
-        "series": [
-            {
-                "name": "Chrome",
-                "id": "Chrome",
-                "data": [
-                    [
-                        "v65.0",
-                        0.1
-                    ],
-                    [
-                        "v64.0",
-                        1.3
-                    ],
-                    [
-                        "v63.0",
-                        53.02
-                    ],
-                    [
-                        "v62.0",
-                        1.4
-                    ],
-                    [
-                        "v61.0",
-                        0.88
-                    ],
-                    [
-                        "v60.0",
-                        0.56
-                    ],
-                    [
-                        "v59.0",
-                        0.45
-                    ],
-                    [
-                        "v58.0",
-                        0.49
-                    ],
-                    [
-                        "v57.0",
-                        0.32
-                    ],
-                    [
-                        "v56.0",
-                        0.29
-                    ],
-                    [
-                        "v55.0",
-                        0.79
-                    ],
-                    [
-                        "v54.0",
-                        0.18
-                    ],
-                    [
-                        "v51.0",
-                        0.13
-                    ],
-                    [
-                        "v49.0",
-                        2.16
-                    ],
-                    [
-                        "v48.0",
-                        0.13
-                    ],
-                    [
-                        "v47.0",
-                        0.11
-                    ],
-                    [
-                        "v43.0",
-                        0.17
-                    ],
-                    [
-                        "v29.0",
-                        0.26
-                    ]
-                ]
-            },
-            {
-                "name": "Firefox",
-                "id": "Firefox",
-                "data": [
-                    [
-                        "v58.0",
-                        1.02
-                    ],
-                    [
-                        "v57.0",
-                        7.36
-                    ],
-                    [
-                        "v56.0",
-                        0.35
-                    ],
-                    [
-                        "v55.0",
-                        0.11
-                    ],
-                    [
-                        "v54.0",
-                        0.1
-                    ],
-                    [
-                        "v52.0",
-                        0.95
-                    ],
-                    [
-                        "v51.0",
-                        0.15
-                    ],
-                    [
-                        "v50.0",
-                        0.1
-                    ],
-                    [
-                        "v48.0",
-                        0.31
-                    ],
-                    [
-                        "v47.0",
-                        0.12
-                    ]
-                ]
-            },
-            {
-                "name": "Internet Explorer",
-                "id": "Internet Explorer",
-                "data": [
-                    [
-                        "v11.0",
-                        6.2
-                    ],
-                    [
-                        "v10.0",
-                        0.29
-                    ],
-                    [
-                        "v9.0",
-                        0.27
-                    ],
-                    [
-                        "v8.0",
-                        0.47
-                    ]
-                ]
-            },
-            {
-                "name": "Safari",
-                "id": "Safari",
-                "data": [
-                    [
-                        "v11.0",
-                        3.39
-                    ],
-                    [
-                        "v10.1",
-                        0.96
-                    ],
-                    [
-                        "v10.0",
-                        0.36
-                    ],
-                    [
-                        "v9.1",
-                        0.54
-                    ],
-                    [
-                        "v9.0",
-                        0.13
-                    ],
-                    [
-                        "v5.1",
-                        0.2
-                    ]
-                ]
-            },
-            {
-                "name": "Edge",
-                "id": "Edge",
-                "data": [
-                    [
-                        "v16",
-                        2.6
-                    ],
-                    [
-                        "v15",
-                        0.92
-                    ],
-                    [
-                        "v14",
-                        0.4
-                    ],
-                    [
-                        "v13",
-                        0.1
-                    ]
-                ]
-            },
-            {
-                "name": "Opera",
-                "id": "Opera",
-                "data": [
-                    [
-                        "v50.0",
-                        0.96
-                    ],
-                    [
-                        "v49.0",
-                        0.82
-                    ],
-                    [
-                        "v12.1",
-                        0.14
-                    ]
-                ]
-            }
-        ]
-    }
-});
-}
-let renderpayerbarchart = (container,payerdata) => {
-Highcharts.chart(container, {
-  chart: {
-      plotBackgroundColor: null,
-      plotBorderWidth: null,
-      plotShadow: false,
-      type: 'pie'
-  },
-  title: {
-      text: 'Browser market shares in January, 2017'
-  },
-  tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-  },
-  plotOptions: {
-      pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-              enabled: true,
-              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-              style: {
-                  color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-              }
-          }
-      }
-  },
-  series: payerdata
-});
-}
-let renderFibrosischart = (container,dataFibrosis) => {
-Highcharts.chart(container, {
-      chart: {
-          type: 'column',
-
-      },
-      title: {
-          text: ''
-      },
-      xAxis: {
-
-          title: {
-              text: 'Fibrosis'
-          },
-      },
-      yAxis: {
-          min: 0,
-          title: {
-              text: 'Patient Count'
-          },
-          stackLabels: {
-              enabled: true,
-              style: {
-                  fontWeight: 'bold',
-                  color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
-              }
-          }
-      },
-      legend: {
-          align: 'right',
-          x: 10,
-          verticalAlign: 'top',
-          layout: 'vertical',
-          y: 25,
-          backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
-          shadow: false
-      },
-      tooltip: {
-          //headerFormat: lkey+':{point.x}<br/>',
-          pointFormat: 'Medication:{series.name}<br/>Patient Count:{point.y:,0.0f}<br/>'
-      },
-      credits: {
-          enabled: false
-      },
-      plotOptions: {
-          column: {
-              stacking: 'normal',
-              dataLabels: {
-                  enabled: false,
-                  color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
-              },
-              cursor: 'pointer',
-
-          },
-      },
-      series: dataFibrosis
-  });
-}
- let renderdummyChart = () => {
 Highcharts.chart('drill-chart', {
     chart: {
         type: 'column'
@@ -1231,6 +832,9 @@ Highcharts.chart('drill-chart', {
         ]
     }
 });
+	<!--Highchart js code Ended by Payal -->
+
+	<!--Highchart js code added by Payal -->
 
 // Create the chart
 Highcharts.chart('drill-chart1', {
@@ -1534,4 +1138,801 @@ Highcharts.chart('drill-chart1', {
         ]
     }
 });
+	<!--Highchart js code Ended by Payal -->
+	<!--Highchart js code Added by Payal -->
+	function renderBarChart(container,payerdata){
+	Highcharts.chart(container, {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series:payerdata
+});
+	}
+	<!--Highchart js code Ended by Payal -->
+	function renderBarChart1(container,payerdata){
+	Highcharts.chart(container, {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series:payerdata
+});
+	}
+<!--Highchart js code added by Payal -->
+
+// Create the chart
+Highcharts.chart('Genotype', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Browser market shares. January, 2018'
+    },
+    subtitle: {
+        text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
+    },
+    xAxis: {
+        type: 'category'
+    },
+    yAxis: {
+        title: {
+            text: 'Total percent market share'
+        }
+
+    },
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}%'
+            }
+        }
+    },
+
+    tooltip: {
+        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+    },
+
+    "series": [
+        {
+            "name": "Browsers",
+            "colorByPoint": true,
+            "data": [
+                {
+                    "name": "Chrome",
+                    "y": 62.74,
+                    "drilldown": "Chrome"
+                },
+                {
+                    "name": "Firefox",
+                    "y": 10.57,
+                    "drilldown": "Firefox"
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 7.23,
+                    "drilldown": "Internet Explorer"
+                },
+                {
+                    "name": "Safari",
+                    "y": 5.58,
+                    "drilldown": "Safari"
+                },
+                {
+                    "name": "Edge",
+                    "y": 4.02,
+                    "drilldown": "Edge"
+                },
+                {
+                    "name": "Opera",
+                    "y": 1.92,
+                    "drilldown": "Opera"
+                },
+                {
+                    "name": "Other",
+                    "y": 7.62,
+                    "drilldown": null
+                }
+            ]
+        }
+    ],
+    "drilldown": {
+        "series": [
+            {
+                "name": "Chrome",
+                "id": "Chrome",
+                "data": [
+                    [
+                        "v65.0",
+                        0.1
+                    ],
+                    [
+                        "v64.0",
+                        1.3
+                    ],
+                    [
+                        "v63.0",
+                        53.02
+                    ],
+                    [
+                        "v62.0",
+                        1.4
+                    ],
+                    [
+                        "v61.0",
+                        0.88
+                    ],
+                    [
+                        "v60.0",
+                        0.56
+                    ],
+                    [
+                        "v59.0",
+                        0.45
+                    ],
+                    [
+                        "v58.0",
+                        0.49
+                    ],
+                    [
+                        "v57.0",
+                        0.32
+                    ],
+                    [
+                        "v56.0",
+                        0.29
+                    ],
+                    [
+                        "v55.0",
+                        0.79
+                    ],
+                    [
+                        "v54.0",
+                        0.18
+                    ],
+                    [
+                        "v51.0",
+                        0.13
+                    ],
+                    [
+                        "v49.0",
+                        2.16
+                    ],
+                    [
+                        "v48.0",
+                        0.13
+                    ],
+                    [
+                        "v47.0",
+                        0.11
+                    ],
+                    [
+                        "v43.0",
+                        0.17
+                    ],
+                    [
+                        "v29.0",
+                        0.26
+                    ]
+                ]
+            },
+            {
+                "name": "Firefox",
+                "id": "Firefox",
+                "data": [
+                    [
+                        "v58.0",
+                        1.02
+                    ],
+                    [
+                        "v57.0",
+                        7.36
+                    ],
+                    [
+                        "v56.0",
+                        0.35
+                    ],
+                    [
+                        "v55.0",
+                        0.11
+                    ],
+                    [
+                        "v54.0",
+                        0.1
+                    ],
+                    [
+                        "v52.0",
+                        0.95
+                    ],
+                    [
+                        "v51.0",
+                        0.15
+                    ],
+                    [
+                        "v50.0",
+                        0.1
+                    ],
+                    [
+                        "v48.0",
+                        0.31
+                    ],
+                    [
+                        "v47.0",
+                        0.12
+                    ]
+                ]
+            },
+            {
+                "name": "Internet Explorer",
+                "id": "Internet Explorer",
+                "data": [
+                    [
+                        "v11.0",
+                        6.2
+                    ],
+                    [
+                        "v10.0",
+                        0.29
+                    ],
+                    [
+                        "v9.0",
+                        0.27
+                    ],
+                    [
+                        "v8.0",
+                        0.47
+                    ]
+                ]
+            },
+            {
+                "name": "Safari",
+                "id": "Safari",
+                "data": [
+                    [
+                        "v11.0",
+                        3.39
+                    ],
+                    [
+                        "v10.1",
+                        0.96
+                    ],
+                    [
+                        "v10.0",
+                        0.36
+                    ],
+                    [
+                        "v9.1",
+                        0.54
+                    ],
+                    [
+                        "v9.0",
+                        0.13
+                    ],
+                    [
+                        "v5.1",
+                        0.2
+                    ]
+                ]
+            },
+            {
+                "name": "Edge",
+                "id": "Edge",
+                "data": [
+                    [
+                        "v16",
+                        2.6
+                    ],
+                    [
+                        "v15",
+                        0.92
+                    ],
+                    [
+                        "v14",
+                        0.4
+                    ],
+                    [
+                        "v13",
+                        0.1
+                    ]
+                ]
+            },
+            {
+                "name": "Opera",
+                "id": "Opera",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            }
+        ]
+    }
+});
+	<!--Highchart js code Ended by Payal -->
+	<!--Highchart js code Added by Payal -->
+	function rendergenotypebarchart(container,payerdata){
+	Highcharts.chart(container, {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2018'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: payerdata
+});
+	}
+	<!--Highchart js code Ended by Payal -->
+	<!--Highchart js code added by Payal -->
+function renderPayerchart(container){
+// Create the chart
+Highcharts.chart(container, {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Browser market shares. January, 2018'
+    },
+    subtitle: {
+        text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
+    },
+    xAxis: {
+        type: 'category'
+    },
+    yAxis: {
+        title: {
+            text: 'Total percent market share'
+        }
+
+    },
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}%'
+            }
+        }
+    },
+
+    tooltip: {
+        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+    },
+
+    "series": [
+        {
+            "name": "Browsers",
+            "colorByPoint": true,
+            "data": [
+                {
+                    "name": "Chrome",
+                    "y": 62.74,
+                    "drilldown": "Chrome"
+                },
+                {
+                    "name": "Firefox",
+                    "y": 10.57,
+                    "drilldown": "Firefox"
+                },
+                {
+                    "name": "Internet Explorer",
+                    "y": 7.23,
+                    "drilldown": "Internet Explorer"
+                },
+                {
+                    "name": "Safari",
+                    "y": 5.58,
+                    "drilldown": "Safari"
+                },
+                {
+                    "name": "Edge",
+                    "y": 4.02,
+                    "drilldown": "Edge"
+                },
+                {
+                    "name": "Opera",
+                    "y": 1.92,
+                    "drilldown": "Opera"
+                },
+                {
+                    "name": "Other",
+                    "y": 7.62,
+                    "drilldown": null
+                }
+            ]
+        }
+    ],
+    "drilldown": {
+        "series": [
+            {
+                "name": "Chrome",
+                "id": "Chrome",
+                "data": [
+                    [
+                        "v65.0",
+                        0.1
+                    ],
+                    [
+                        "v64.0",
+                        1.3
+                    ],
+                    [
+                        "v63.0",
+                        53.02
+                    ],
+                    [
+                        "v62.0",
+                        1.4
+                    ],
+                    [
+                        "v61.0",
+                        0.88
+                    ],
+                    [
+                        "v60.0",
+                        0.56
+                    ],
+                    [
+                        "v59.0",
+                        0.45
+                    ],
+                    [
+                        "v58.0",
+                        0.49
+                    ],
+                    [
+                        "v57.0",
+                        0.32
+                    ],
+                    [
+                        "v56.0",
+                        0.29
+                    ],
+                    [
+                        "v55.0",
+                        0.79
+                    ],
+                    [
+                        "v54.0",
+                        0.18
+                    ],
+                    [
+                        "v51.0",
+                        0.13
+                    ],
+                    [
+                        "v49.0",
+                        2.16
+                    ],
+                    [
+                        "v48.0",
+                        0.13
+                    ],
+                    [
+                        "v47.0",
+                        0.11
+                    ],
+                    [
+                        "v43.0",
+                        0.17
+                    ],
+                    [
+                        "v29.0",
+                        0.26
+                    ]
+                ]
+            },
+            {
+                "name": "Firefox",
+                "id": "Firefox",
+                "data": [
+                    [
+                        "v58.0",
+                        1.02
+                    ],
+                    [
+                        "v57.0",
+                        7.36
+                    ],
+                    [
+                        "v56.0",
+                        0.35
+                    ],
+                    [
+                        "v55.0",
+                        0.11
+                    ],
+                    [
+                        "v54.0",
+                        0.1
+                    ],
+                    [
+                        "v52.0",
+                        0.95
+                    ],
+                    [
+                        "v51.0",
+                        0.15
+                    ],
+                    [
+                        "v50.0",
+                        0.1
+                    ],
+                    [
+                        "v48.0",
+                        0.31
+                    ],
+                    [
+                        "v47.0",
+                        0.12
+                    ]
+                ]
+            },
+            {
+                "name": "Internet Explorer",
+                "id": "Internet Explorer",
+                "data": [
+                    [
+                        "v11.0",
+                        6.2
+                    ],
+                    [
+                        "v10.0",
+                        0.29
+                    ],
+                    [
+                        "v9.0",
+                        0.27
+                    ],
+                    [
+                        "v8.0",
+                        0.47
+                    ]
+                ]
+            },
+            {
+                "name": "Safari",
+                "id": "Safari",
+                "data": [
+                    [
+                        "v11.0",
+                        3.39
+                    ],
+                    [
+                        "v10.1",
+                        0.96
+                    ],
+                    [
+                        "v10.0",
+                        0.36
+                    ],
+                    [
+                        "v9.1",
+                        0.54
+                    ],
+                    [
+                        "v9.0",
+                        0.13
+                    ],
+                    [
+                        "v5.1",
+                        0.2
+                    ]
+                ]
+            },
+            {
+                "name": "Edge",
+                "id": "Edge",
+                "data": [
+                    [
+                        "v16",
+                        2.6
+                    ],
+                    [
+                        "v15",
+                        0.92
+                    ],
+                    [
+                        "v14",
+                        0.4
+                    ],
+                    [
+                        "v13",
+                        0.1
+                    ]
+                ]
+            },
+            {
+                "name": "Opera",
+                "id": "Opera",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            }
+        ]
+    }
+});
 }
+	<!--Highchart js code Ended by Payal -->
+	<!--Highchart js code Added by Payal -->
+	function renderpayerbarchart(container,payerdata){
+	Highcharts.chart(container, {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Browser market shares in January, 2017'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: payerdata
+});
+	}
+	<!--Highchart js code Ended by Payal -->
+	function renderFibrosischart(container,dataFibrosis){
+	Highcharts.chart(container, {
+        chart: {
+            type: 'column',
+
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+
+            title: {
+                text: 'Fibrosis'
+            },
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Patient Count'
+            },
+            stackLabels: {
+                enabled: true,
+                style: {
+                    fontWeight: 'bold',
+                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                }
+            }
+        },
+        legend: {
+            align: 'right',
+            x: 10,
+            verticalAlign: 'top',
+            layout: 'vertical',
+            y: 25,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+            shadow: false
+        },
+        tooltip: {
+            //headerFormat: lkey+':{point.x}<br/>',
+            pointFormat: 'Medication:{series.name}<br/>Patient Count:{point.y:,0.0f}<br/>'
+        },
+        credits: {
+            enabled: false
+        },
+        plotOptions: {
+            column: {
+                stacking: 'normal',
+                dataLabels: {
+                    enabled: false,
+                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
+                },
+                cursor: 'pointer',
+
+            },
+        },
+        series: dataFibrosis
+    });
+	}
+
+	<!--Highchart js code Ended by Payal -->
