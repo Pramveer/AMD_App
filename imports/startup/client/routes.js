@@ -329,13 +329,15 @@ Router.route('/dashboard', {
 
 
 var forceLogin = function() {
-    if (!Meteor.userId()) {
+/*if (!Meteor.userId()) {
         // If user is not logged in render login template
         Router.go('/login');
     } else {
         //if user is logged in render requested template
         this.next();
-    }
+    }*/
+    this.next();
+
 }
 
 

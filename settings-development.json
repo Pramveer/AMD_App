@@ -4,12 +4,12 @@
     },
     "private": {
         "DevDb": {
-            "host": "analytics-poc.rds.notalvision.com",
+            "host": "52.32.132.162",
             "port": 3306,
-            "user": "dbadmin",
-            "password": "AyZ6CYuS923v",
-            "serverId": 3485,
-            "database": "RWE_AMD_PATIENTS"
+            "user": "root",
+            "password": "BigData23",
+            "serverId": 34852,
+            "database": "NIDDIK_PATIENTS"
         }
     }
 }

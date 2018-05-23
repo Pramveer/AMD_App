@@ -1,1 +1,0 @@
-import './labs.html';
