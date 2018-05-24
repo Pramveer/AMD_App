@@ -47,7 +47,7 @@ let renderCharts = () => {
     multilineChartParameters.subtitle= 'Subtitle';
     multilineChartParameters.xAxisText= 'x-axis';
     multilineChartParameters.yAxisText= 'Y-Axis Text';
-    multilineChartData= [{name: 'Hep C',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
+    multilineChartData= [{name: 'Hepitities C',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
     // Building Data for Stacked Chart
     let payermixChartData = {};
     payermixChartParameters = {};
