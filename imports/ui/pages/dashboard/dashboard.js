@@ -38,7 +38,7 @@ let renderCharts = () => {
     columnChartParameters.subtitle= 'Subtitle';
     columnChartParameters.categories= ['2013', '2014', '2015','2016'];
     columnChartParameters.yAxisText= 'Y-Axis Text';
-    columnChartData = [{name: 'Hepitities C',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}];
+    columnChartData = [{name: 'Vitamin A',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}];
     // Building Data for MultiLine Chart
     let  multilineChartData = {};
     multilineChartParameters = {};
@@ -47,7 +47,7 @@ let renderCharts = () => {
     multilineChartParameters.subtitle= 'Subtitle';
     multilineChartParameters.xAxisText= 'x-axis';
     multilineChartParameters.yAxisText= 'Y-Axis Text';
-    multilineChartData= [{name: 'Hepitities C',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
+    multilineChartData= [{name: 'Vitamin A',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
     // Building Data for Stacked Chart
     let payermixChartData = {};
     payermixChartParameters = {};
