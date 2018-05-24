@@ -141,7 +141,17 @@ let renderCharts = () => {
     countChartParameters.xAxisText= 'Year';
     countChartParameters.categories=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     countChartParameters.yAxisText= 'Y-Axis Text';
-    countChartData =[{name: 'John', data: [5, 3, 4, 7, 2]}, {name: 'Jane',data: [2, 2, 3, 2, 1]}, {name: 'Joe',data: [3, 4, 4, 2, 5]}]
+    countChartData =[{name: 'Brands',colorByPoint: true,data: [{name: 'Chrome',y: 61.41,sliced: true,selected: true}, {name: 'Internet Explorer',y: 11.84}, {
+        name: 'Firefox',
+        y: 10.85
+    },    {
+        name: 'QQ',
+        y: 1.2
+    }, {
+        name: 'Other',
+        y: 2.61
+    }]
+}];
     // Building Data for fibrosis Chart
     let fibrosisChartData = {};
     fibrosisChartParameters = {};
@@ -151,8 +161,17 @@ let renderCharts = () => {
     fibrosisChartParameters.xAxisText= 'Year';
     fibrosisChartParameters.categories=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     fibrosisChartParameters.yAxisText= 'Y-Axis Text';
-    fibrosisChartData =[{name: 'John', data: [5, 3, 4, 7, 2]}, {name: 'Jane',data: [2, 2, 3, 2, 1]}, {name: 'Joe',data: [3, 4, 4, 2, 5]}]
-    // Building Data for Genotype Chart
+    fibrosisChartData =[{name: 'Brands',colorByPoint: true,data: [{name: 'Chrome',y: 61.41,sliced: true,selected: true}, {name: 'Internet Explorer',y: 11.84}, {
+        name: 'Firefox',
+        y: 10.85
+    },    {
+        name: 'QQ',
+        y: 1.2
+    }, {
+        name: 'Other',
+        y: 2.61
+    }]
+}];    // Building Data for Genotype Chart
     let genotypeChartData = {};
     genotypeChartParameters = {};
     genotypeChartParameters.container= 'tPatientbygenotype';
@@ -183,7 +202,17 @@ let renderCharts = () => {
     ingredientcontainerChartParameters.xAxisText= 'Year';
     ingredientcontainerChartParameters.categories=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     ingredientcontainerChartParameters.yAxisText= 'Y-Axis Text';
-    ingredientcontainerChartData =[{name: 'John', data: [5, 3, 4, 7, 2]}, {name: 'Jane',data: [2, 2, 3, 2, 1]}, {name: 'Joe',data: [3, 4, 4, 2, 5]}]
+    ingredientcontainerChartData =[{name: 'Brands',colorByPoint: true,data: [{name: 'Chrome',y: 61.41,sliced: true,selected: true}, {name: 'Internet Explorer',y: 11.84}, {
+        name: 'Firefox',
+        y: 10.85
+    },    {
+        name: 'QQ',
+        y: 1.2
+    }, {
+        name: 'Other',
+        y: 2.61
+    }]
+}];
     // Building Data for prescribe Chart
     let prescribeChartData = {};
     prescribeChartParameters = {};
@@ -215,7 +244,17 @@ let renderCharts = () => {
     patientsTreatmentcontainerChartParameters.xAxisText= 'Year';
     patientsTreatmentcontainerChartParameters.categories=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     patientsTreatmentcontainerChartParameters.yAxisText= 'Y-Axis Text';
-    patientsTreatmentcontainerChartData =[{name: 'John', data: [5, 3, 4, 7, 2]}, {name: 'Jane',data: [2, 2, 3, 2, 1]}, {name: 'Joe',data: [3, 4, 4, 2, 5]}]
+    patientsTreatmentcontainerChartData =[{name: 'Brands',colorByPoint: true,data: [{name: 'Chrome',y: 61.41,sliced: true,selected: true}, {name: 'Internet Explorer',y: 11.84}, {
+            name: 'Firefox',
+            y: 10.85
+        },    {
+            name: 'QQ',
+            y: 1.2
+        }, {
+            name: 'Other',
+            y: 2.61
+        }]
+    }];
     // Building Data for drugFibrosis Chart
     let  drugFibrosiChartData = {};
     drugFibrosiChartParameters = {};
@@ -272,7 +311,9 @@ $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb2
           sourceWidth: 600,
           sourceHeight: 500
       },
-
+      credits: {
+        enabled: false
+    },
       legend: {
           layout: 'horizontal',
           borderWidth: 0,
@@ -330,6 +371,9 @@ let  renderhepetitiesChart = (parameters,LineChartData) => {
         subtitle: {
             text:parameters.subtitle
         },
+        credits: {
+            enabled: false
+        },
         xAxis: {
             title: {
                 text:parameters.xAxisText
@@ -368,6 +412,9 @@ let renderHCVPrevelenceChart = (parameters,columnChartData) => {
         xAxis: {
             categories:parameters.categories 
         },
+        credits: {
+            enabled: false
+        },
         yAxis: {
             title: {
                 text:parameters.yAxisText
@@ -399,6 +446,9 @@ let renderhcvPrevelenceChart = (parameters,multilineChartData) => {
         },
         subtitle: {
             text:parameters.subtitle
+        },
+        credits: {
+            enabled: false
         },
         xAxis: {
             title: {
@@ -437,6 +487,9 @@ let renderpayermixchart = (parameters,StackedChartData)=>{
         },
         xAxis: {
           categories:parameters.categories 
+        },
+        credits: {
+            enabled: false
         },
         yAxis: {
           min: 0,
@@ -486,6 +539,9 @@ let markerShareOverMonthsChart = (parameters,MarketChartData) => {
     },
     title: {
         text: parameters.title
+    },
+    credits: {
+        enabled: false
     },
     subtitle: {
         text: parameters.subtitle
@@ -568,6 +624,9 @@ Highcharts.chart(parameters.container, {
     legend: {
         enabled: false
     },
+    credits: {
+        enabled: false
+    },
 
     title: {
         text: parameters.title
@@ -580,7 +639,7 @@ Highcharts.chart(parameters.container, {
     xAxis: {
         gridLineWidth: 1,
         title: {
-            text: 'Daily fat intake'
+            text: 'x-axis'
         },
         labels: {
             format: '{value} gr'
@@ -606,7 +665,7 @@ Highcharts.chart(parameters.container, {
         startOnTick: false,
         endOnTick: false,
         title: {
-            text: 'Daily sugar intake'
+            text: 'y-axis'
         },
         labels: {
             format: '{value} gr'
@@ -673,6 +732,9 @@ let renderIngredientCostChart = (parameters,ingredientChartData) => {
             }
     
         },
+        credits: {
+            enabled: false
+        },
         legend: {
             enabled: false
         },
@@ -704,6 +766,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
         },
         title: {
             text: parameters.title
+        },
+        credits: {
+            enabled: false
         },
         subtitle: {
             text: parameters.subtitle
@@ -750,6 +815,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
           title: {
               text:parameters.title
           },
+          credits: {
+            enabled: false
+        },
           tooltip: {
               pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
           },
@@ -781,6 +849,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
               title: {
                   text:parameters.title
               },
+              credits: {
+                enabled: false
+            },
               tooltip: {
                   pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
               },
@@ -811,6 +882,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                 },
                 subtitle: {
                     text: ''
+                },
+                credits: {
+                    enabled: false
                 },
                 xAxis: {
                     type: 'category'
@@ -846,6 +920,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
               title: {
                   text:parameters.title
               },
+              credits: {
+                enabled: false
+            },
               tooltip: {
                   pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
               },
@@ -872,6 +949,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                     },
                     title: {
                         text: ''
+                    },
+                    credits: {
+                        enabled: false
                     },
                     subtitle: {
                         text: ''
@@ -909,6 +989,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                   title: {
                       text:parameters.title
                   },
+                  credits: {
+                    enabled: false
+                },
                   tooltip: {
                       pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
                   },
@@ -936,6 +1019,9 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                         },
                         title: {
                             text: ''
+                        },
+                        credits: {
+                            enabled: false
                         },
                         subtitle: {
                             text: ''
