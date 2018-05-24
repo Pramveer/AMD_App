@@ -19,5 +19,9 @@ Template.Header.events({
         $('#sidebar, #content').toggleClass('active');
         $('.collapse.in').toggleClass('in');
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        setTimeout(function(){ 
+		    // renderhepetitiesChart(containerchart,data1);
+			Template.Dashboard.ReRenderCharts();
+		    },50);
     }
 });
