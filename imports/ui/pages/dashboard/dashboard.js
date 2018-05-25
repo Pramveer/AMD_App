@@ -9,6 +9,12 @@ Template.Dashboard.rendered = () => {
 
   renderCharts();
 
+  Meteor.call('getDashboardData', null, (err, res) => {
+      console.log('****** RESEPONSE ****');
+      console.log(err);
+      console.log(res);
+  });
+
 };
 
 Template.Dashboard.ReRenderCharts = () => {

@@ -25,3 +25,7 @@ meteortesting:mocha               # A package for writing and running your meteo
 johanbrook:publication-collector  # Test a Meteor publication by collecting its output
 iron:router
 twbs:bootstrap
+numtel:mysql                      # For Database connectivity with MySQL db
+momentjs:moment                   # Datetime utility plugin
+fortawesome:fontawesome # For scalable vector icons, customizable via CSS, Retina friendly
+usefulio:sync-methods   # Return response callback for server method call
