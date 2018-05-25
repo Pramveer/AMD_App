@@ -60,3 +60,102 @@ footer div p {
   padding: 20px;
   border-radius: 3px;
 }
+/* @author rajat duvedi user info */
+.user-control-div {
+  top: -21px;
+  left: -85px;
+  width: 300px;
+  float: left;
+  /* position: absolute; */
+  padding: 20px 10px;
+}
+
+.ucd-user-img-name {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.hed-user-icon {
+  width: 46px;
+  height: 46px;
+  background: #ef4823;
+  float: left;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.ucd-details {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+
+.ucd-labelbox {
+  width: 100%;
+  float: left;
+  color: #adaeb0;
+  font-size: 15px;
+}
+
+.ucd-detailbox {
+  width: 100%;
+  float: left;
+  color: #5e686a;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.change-password {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #e2e2e2;
+  margin-bottom: 20px;
+  padding: 10px 5px 0;
+}
+
+.change-password input[type="text"], .change-password input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #f04823;
+  padding: 15px 0 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+  font-size: 15px;
+}
+
+.ucd-save-close-btn {
+  width: calc(100% - 30px);
+  float: left;
+  padding: 0px 15px 0;
+  margin-bottom: 10px;
+}
+
+.ucd-save-btn {
+  width: calc(48% - 2px);
+  margin-right: 2%;
+  font-size: 14px;
+  background: #ef4823;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #ef4823;
+  display: block;
+  float: left;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.ucd-close-btn {
+  width: calc(48% - 2px);
+  margin-left: 2%;
+  font-size: 14px;
+  background: #fff;
+  color: #ef4823;
+  text-transform: uppercase;
+  border: 1px solid #ef4823;
+  display: block;
+  float: left;
+  padding: 8px 0;
+  text-align: center;
+}

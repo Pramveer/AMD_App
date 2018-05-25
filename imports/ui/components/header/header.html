@@ -93,7 +93,7 @@
                       <li>
                         <div class="navbar-content search-dropdown-menu">
                           <!-- @author Rajat duvedi -->
-                          <ul class="nav nav-tabs">
+                          <ul class="nav nav-tabs subSearchTab">
                             <li class="active">
                               <a data-toggle="tab" href="#basic-search">Basic search</a>
                             </li>
@@ -106,7 +106,7 @@
                               <div class="search-content">
                                 <div class="row">
                                   <div class="col-sm-4">
-                                    <div class="dropdown">
+                                    <div class="dropdown subSearchDropdown">
                                       <a href="#" class="dropdown-toggle" aria-haspopup="true" data-toggle="dropdown">
                                         <span class="search-criteria">Geno Type</span>
                                         <b class="caret"></b>
@@ -127,7 +127,7 @@
                                     </div>
                                   </div>
                                   <div class="col-sm-4">
-                                    <div class="dropdown">
+                                    <div class="dropdown subSearchDropdown">
                                       <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                         <span class="search-criteria">Treatment</span>
                                         <b class="caret"></b>
@@ -148,7 +148,7 @@
                                     </div>
                                   </div>
                                   <div class="col-sm-4">
-                                    <div class="dropdown">
+                                    <div class="dropdown subSearchDropdown">
                                       <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                         <span class="search-criteria">Cirrhosis</span>
                                         <b class="caret"></b>
@@ -172,7 +172,7 @@
                                 <div class="row">
                                   <div class="row">
                                     <div class="col-sm-4">
-                                      <div class="dropdown">
+                                      <div class="dropdown subSearchDropdown">
                                         <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                           <span class="search-criteria">Medication</span>
                                           <b class="caret"></b>
@@ -193,7 +193,7 @@
                                       </div>
                                     </div>
                                     <div class="col-sm-4">
-                                      <div class="dropdown">
+                                      <div class="dropdown subSearchDropdown">
                                         <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                           <span class="search-criteria">Preacting</span>
                                           <b class="caret"></b>
@@ -214,7 +214,7 @@
                                       </div>
                                     </div>
                                     <div class="col-sm-4">
-                                      <div class="dropdown">
+                                      <div class="dropdown subSearchDropdown">
                                         <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                           <span class="search-criteria">Antivirals</span>
                                           <b class="caret"></b>
@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="row">
                                   <div class="col-sm-4">
-                                    <div class="dropdown">
+                                    <div class="dropdown subSearchDropdown">
                                       <a href="#" class="dropdown-toggle search" data-toggle="dropdown">
                                         <span class="search-criteria">Time Filter</span>
                                         <b class="glyphicon glyphicon-th"></b>
@@ -246,13 +246,7 @@
                                       <ul class="dropdown-menu">
                                         <li>
                                           <div class="navbar-content">
-                                            <span>JS Krishna</span>
-                                            <p class="text-muted small">
-                                              me@jskrishna.com
-                                            </p>
-                                            <div class="divider">
-                                            </div>
-                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                            <input type="text" class="dashboard-applyDateFilters js-dashboard-applyDateFilters"  id="timeFilterDistSelect" name="timeFilterDistSelect" style="width:168px;" value="01/01/2015 - 01/31/2015">
                                           </div>
                                         </li>
                                       </ul>
@@ -415,13 +409,7 @@
                                       <ul class="dropdown-menu">
                                         <li>
                                           <div class="navbar-content">
-                                            <span>JS Krishna</span>
-                                            <p class="text-muted small">
-                                              me@jskrishna.com
-                                            </p>
-                                            <div class="divider">
-                                            </div>
-                                            <a href="#" class="view btn-sm active">View Profile</a>
+                                            <!-- <input type="text" class="search-checkbox-btn"  id="timeFilterDistSelect" name="timeFilterDistSelect" style="width:168px;" value="01/01/2015 - 01/31/2015"> -->
                                           </div>
                                         </li>
                                       </ul>
@@ -456,13 +444,7 @@
                       <ul class="dropdown-menu">
                         <li>
                           <div class="navbar-content">
-                            <span>JS Krishna</span>
-                            <p class="text-muted small">
-                              me@jskrishna.com
-                            </p>
-                            <div class="divider">
-                            </div>
-                            <a href="#" class="view btn-sm active">View Profile</a>
+                              {{> UserInfoModal}}
                           </div>
                         </li>
                       </ul>
