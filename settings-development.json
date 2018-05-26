@@ -4,12 +4,12 @@
     },
     "private": {
         "DevDb": {
-            "host": "52.32.132.162",
+            "host": "172.30.1.62",
             "port": 3306,
             "user": "root",
-            "password": "BigData23",
-            "serverId": 33821,
-            "database": "NIDDIK_PATIENTS"
+            "password": "AyZ6CYuS923v",
+            "serverId": 3584,
+            "database": "RWE_AMD_PATIENTS"
         }
     }
 }
