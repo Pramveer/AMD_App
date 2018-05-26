@@ -1,666 +1,661 @@
 <template name="Dashboard">
-  <div class="container-fluid">
 
-     {{> PatientSideBar}}
+    {{> PatientSideBar}}
 
-    <div id="content">
-      {{> Header}}
-      <div class="main-content">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body">
+    <div class="main-content">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body">
 
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
               </div>
-              
-              <div id="us-map" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-              
-
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body ">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="hepetitiesChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-             
-            </div>
+            
+            <div id="us-map" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
 
           </div>
         </div>
-        <!-- row2 -->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body ">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
               </div>
-             
-              <div id="HCVPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-             
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
+            
+            <div id="hepetitiesChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="hcvPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-             
-            </div>
-          </div>
         </div>
-        <!-- row 3-->
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="payermix" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-             
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="markerShareOverMonthsChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-             
-            </div>
-          </div>
-        </div>
-        <!-- row5-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="prescriptionCount-rxCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-             
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Medication</th>
-                    <th>Prescription Count</th>
-                    <th>Ingredient Cost</th>
-                    <th>Cost Per Rx</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Eylea</td>
-                    <td>3,072</td>
-                    <td>$303 M</td>
-                    <td>$98,644</td>
-                  </tr>
-                  <tr>
-                    <td>Lucentis</td>
-                    <td>1072</td>
-                    <td>$102 M</td>
-                    <td>$12,644</td>
-                  </tr>
-                  <tr>
-                    <td>Macugen</td>
-                    <td>2,072</td>
-                    <td>$101 M</td>
-                    <td>$10,644</td>
-                  </tr>
-                  <tr>
-                    <td>Eylea(50g)</td>
-                    <td>4,072</td>
-                    <td>$320 M</td>
-                    <td>$11,644</td>
-                  </tr>
-                  <tr>
-                    <td>Lucentis(100g)</td>
-                    <td>35,072</td>
-                    <td>$603 M</td>
-                    <td>$48,644</td>
-                  </tr>
-                  <tr>
-                    <td>Eylea(100g)</td>
-                    <td>7,072</td>
-                    <td>$803 M</td>
-                    <td>$90,644</td>
-                  </tr>
-                  <tr>
-                    <td>Macugen(50g)</td>
-                    <td>1,072</td>
-                    <td>$503 M</td>
-                    <td>$93,644</td>
-                  </tr>
-                  <tr>
-                    <td>Lucentis(150g)</td>
-                    <td>7,072</td>
-                    <td>$803 M</td>
-                    <td>$18,644</td>
-                  </tr>
-                  <tr>
-                    <td>Eylea(150g)</td>
-                    <td>6,072</td>
-                    <td>$703 M</td>
-                    <td>$38,644</td>
-                  </tr>
-
-                </tbody>
-              </table>
-
-             
-            </div>
-          </div>
-        </div>
-        <!-- row6-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="notalCount-IngredientCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="treamentAvgCostSelection" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-        </div>
-        <!-- row7-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="Count-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="tPatientsbyFibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-        </div>
-        <!-- row8-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="tPatientbygenotype" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="IngredientCost-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-        </div>
-        <!-- row9-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="patients-prescribed" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-             
-              <div id="tPatientsBytreatment" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-             
-            </div>
-          </div>
-        </div>
-        <!-- row 10-->
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  >
-            <div class="chart-body">
-              <div class="top-bar">
-                <h4>Chart Tittle</h4>
-                <div class="btn-group selectBox">
-                  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select-Box
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Action </a>
-                    </li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li role="separator" class="divider"></li>
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-default btn-sm">Compare</button>
-              </div>
-              
-              <div id="fibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-              
-            </div>
-          </div>
-        </div>
-
-        {{> Footer}}
-
       </div>
+      <!-- row2 -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="HCVPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="hcvPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row 3-->
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="payermix" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="markerShareOverMonthsChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- row5-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="prescriptionCount-rxCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Medication</th>
+                  <th>Prescription Count</th>
+                  <th>Ingredient Cost</th>
+                  <th>Cost Per Rx</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Eylea</td>
+                  <td>3,072</td>
+                  <td>$303 M</td>
+                  <td>$98,644</td>
+                </tr>
+                <tr>
+                  <td>Lucentis</td>
+                  <td>1072</td>
+                  <td>$102 M</td>
+                  <td>$12,644</td>
+                </tr>
+                <tr>
+                  <td>Macugen</td>
+                  <td>2,072</td>
+                  <td>$101 M</td>
+                  <td>$10,644</td>
+                </tr>
+                <tr>
+                  <td>Eylea(50g)</td>
+                  <td>4,072</td>
+                  <td>$320 M</td>
+                  <td>$11,644</td>
+                </tr>
+                <tr>
+                  <td>Lucentis(100g)</td>
+                  <td>35,072</td>
+                  <td>$603 M</td>
+                  <td>$48,644</td>
+                </tr>
+                <tr>
+                  <td>Eylea(100g)</td>
+                  <td>7,072</td>
+                  <td>$803 M</td>
+                  <td>$90,644</td>
+                </tr>
+                <tr>
+                  <td>Macugen(50g)</td>
+                  <td>1,072</td>
+                  <td>$503 M</td>
+                  <td>$93,644</td>
+                </tr>
+                <tr>
+                  <td>Lucentis(150g)</td>
+                  <td>7,072</td>
+                  <td>$803 M</td>
+                  <td>$18,644</td>
+                </tr>
+                <tr>
+                  <td>Eylea(150g)</td>
+                  <td>6,072</td>
+                  <td>$703 M</td>
+                  <td>$38,644</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row6-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="notalCount-IngredientCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="treamentAvgCostSelection" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row7-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="Count-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="tPatientsbyFibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row8-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="tPatientbygenotype" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="IngredientCost-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row9-->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="patients-prescribed" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="tPatientsBytreatment" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- row 10-->
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  >
+          <div class="chart-body">
+            <div class="top-bar">
+              <h4>Chart Tittle</h4>
+              <div class="btn-group selectBox">
+                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select-Box
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action </a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default btn-sm">Compare</button>
+            </div>
+            
+            <div id="fibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            
+          </div>
+        </div>
+      </div>
+
+      {{> Footer}}
+
     </div>
-  </div>
 </template>

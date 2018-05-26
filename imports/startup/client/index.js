@@ -4,3 +4,4 @@ import './routes.js';
 
 import '../../ui/stylesheets';
 import '../../ui/lib';
+import '../../ui/layouts';
