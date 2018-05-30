@@ -39,7 +39,7 @@ Template.Header.events({
         $('#sidebar, #content').toggleClass('active');
         $('.collapse.in').toggleClass('in');
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-        setTimeout(function(){ 
+        setTimeout(function(){
 		    // renderhepetitiesChart(containerchart,data1);
 			Template.Dashboard.ReRenderCharts();
 		    },50);
@@ -54,7 +54,7 @@ Template.Header.events({
         } else {
             $('.subSearchDropdown a').not(e.target).next('ul').hide();
             $(e.target).next('ul').toggle();
-        }    
+        }
         e.stopPropagation();
         e.preventDefault();
     },
@@ -68,7 +68,7 @@ Template.Header.events({
     },
 
     'click .js-dashboard-applyDateFilters': (event, template) => {
-        
+
         let start = new Date('01/01/2013');
         let end = new Date();
         $('#timeFilterDistSelect').daterangepicker({
@@ -86,5 +86,13 @@ Template.Header.events({
         });
         event.stopPropagation();
         // event.preventDefault();
+    },
+
+    'click .logout-btn': (e) => {
+      alert('log out')
+      localStorage.removeItem('user');
+      let user = JSON.parse(localStorage.getItem('user'));
+      console.log(user)
+      Router.go('/login')
     }
 });

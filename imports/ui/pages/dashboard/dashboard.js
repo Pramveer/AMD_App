@@ -1,19 +1,25 @@
 import './dashboard.html';
 import '../../components/sidebars/patientsidebar.js';
 
+let dummyData = {}
+
 Template.Dashboard.onCreated(function() {
 
 });
 
 Template.Dashboard.rendered = () => {
 
-  renderCharts();
+
 
   Meteor.call('getDashboardData', null, (err, res) => {
       console.log('****** RESEPONSE ****');
       console.log(err);
       console.log(res);
+      dummyData = res;
+    //   console.log(dummyData)
+    renderCharts();
   });
+
 
 };
 
@@ -26,34 +32,38 @@ Template.Dashboard.helpers({
 });
 
 let renderCharts = () => {
+    console.log(dummyData)
     let colors = ['#2e7e97', '#67BC42', '#3399CC', '#F0E68C', '#BC36FE', '#000'];
     // Building Data for Line Chart
     let  LineChartData = {};
     LineChartParameters = {};
     LineChartParameters.container= 'hepetitiesChart';
-    LineChartParameters.title= 'Title';
-    LineChartParameters.subtitle= 'Subtitle';
+    // LineChartParameters.title= 'Title';
+    // LineChartParameters.subtitle= 'Subtitle';
     LineChartParameters.xAxisText= 'x-axis';
+    LineChartParameters.categories= dummyData.lineChart.x;
     LineChartParameters.yAxisText= 'Y-Axis Text';
-    LineChartData = [{name: 'Anti-HCV Therapy',data: [{mydata: '2013', y: 15},{mydata: '2014', y: 0},{mydata: '2015', y: 5},{mydata: '2016', y: 4}]}]
+    LineChartData = [{name: 'Vitamin A',data: dummyData.lineChart.data}]
+    // {year: 1992, ST_CD: 1},{year: 1995, ST_CD: 12},{year: 1950, ST_CD: 13},{year: 1949, ST_CD: 31}
     // Building Data for Column Chart
     let columnChartData = {};
     columnChartParameters = {};
     columnChartParameters.container= 'HCVPrevelenceChart';
-    columnChartParameters.title= 'Title';
-    columnChartParameters.subtitle= 'Subtitle';
-    columnChartParameters.categories= ['2013', '2014', '2015','2016'];
+    // columnChartParameters.title= 'Title';
+    // columnChartParameters.subtitle= 'Subtitle';
+    columnChartParameters.categories= dummyData.columnChart.categories;
     columnChartParameters.yAxisText= 'Y-Axis Text';
-    columnChartData = [{name: 'Vitamin A',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}];
+    columnChartData = dummyData.columnChart.series;
     // Building Data for MultiLine Chart
     let  multilineChartData = {};
     multilineChartParameters = {};
     multilineChartParameters.container= 'hcvPrevelenceChart';
-    multilineChartParameters.title= 'Title';
-    multilineChartParameters.subtitle= 'Subtitle';
+    // multilineChartParameters.title= 'Title';
+    // multilineChartParameters.subtitle= 'Subtitle';
+	 multilineChartParameters.categories=dummyData.prevelenceChart.categories;
     multilineChartParameters.xAxisText= 'x-axis';
     multilineChartParameters.yAxisText= 'Y-Axis Text';
-    multilineChartData= [{name: 'Vitamin A',data: [{mydata: 'Anti1', y: 5},{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]},{name: 'Vitamin C',data: [{mydata: 'Anti1', y: 4},{mydata: 'Anti1', y: 3},{mydata: 'Anti1', y: 2}]}]
+    multilineChartData= dummyData.prevelenceChart.data;
     // Building Data for Stacked Chart
     let payermixChartData = {};
     payermixChartParameters = {};
@@ -272,7 +282,7 @@ let renderCharts = () => {
     drugFibrosiChartParameters.yAxisText= 'Y-Axis Text';
     drugFibrosiChartData =[{name: 'John', data: [5, 3, 4, 7, 2]}, {name: 'Jane',data: [2, 2, 3, 2, 1]}, {name: 'Joe',data: [3, 4, 4, 2, 5]}]
     //charts function call
-    renderMapChart();
+     renderMapChart();
     renderhepetitiesChart(LineChartParameters,LineChartData);
     renderHCVPrevelenceChart(columnChartParameters,columnChartData);
     renderhcvPrevelenceChart(multilineChartParameters,multilineChartData);
@@ -290,17 +300,31 @@ let renderCharts = () => {
     renderdrugfibrosisChart(drugFibrosiChartParameters,drugFibrosiChartData);
 }
 
+let chartModal =(data)=>{
 
+	let  LineChartModalData = {};
+    LineChartModalParameters = {};
+    LineChartModalParameters.container= 'chartModalContainer';
+    LineChartModalParameters.title= 'Incidence in US';
+    // LineChartModalParameters.subtitle= 'Subtitle';
+    LineChartModalParameters.xAxisText= 'x-axis';
+    LineChartModalParameters.categories= [data.point.category];
+    LineChartModalParameters.yAxisText= 'Y-Axis Text';
+    LineChartModalData = [{name: 'Vitamin A',data:[data.point.options]}]
+	renderhepetitiesModalChart(LineChartModalParameters,LineChartModalData)
+}
 
 let renderMapChart =() => {
 
-$.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/us-population-density.json', function (data) {
-
+// $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/us-population-density.json', function (data) {
+let data = dummyData.mapChart.data
   // Make codes uppercase to match the map data
-  $.each(data, function () {
+  /*$.each(data, function () {
+      this.mydata = this.mydata.toUpperCase();
+  });*/
+$.each(data, function () {
       this.code = this.code.toUpperCase();
   });
-
   // Instantiate the map
   Highcharts.mapChart('us-map', {
 
@@ -310,7 +334,7 @@ $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb2
       },
 
       title: {
-          text: 'US population density (/km²)'
+          text: 'US Population'
       },
 
       exporting: {
@@ -350,19 +374,21 @@ $.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb2
               duration: 1000
           },
           data: data,
-          joinBy: ['postal-code', 'code'],
+          //joinBy: ['postal-code', 'mydata'],
+		  joinBy: ['postal-code', 'code'],
           dataLabels: {
               enabled: true,
               color: '#FFFFFF',
-              format: '{point.code}'
+              format: '{point.value}'
           },
           name: 'Population density',
           tooltip: {
-              pointFormat: '{point.code}: {point.value}/km²'
+			  pointFormat: 'Patient Count({point.code}): {point.value:,0.0f}<br/>'
+
           }
       }]
   });
-});
+//});
 
 }
 
@@ -381,6 +407,7 @@ let  renderhepetitiesChart = (parameters,LineChartData) => {
             enabled: false
         },
         xAxis: {
+            categories:parameters.categories ,
             title: {
                 text:parameters.xAxisText
             }
@@ -390,6 +417,7 @@ let  renderhepetitiesChart = (parameters,LineChartData) => {
                 text:parameters.yAxisText
             }
         },
+
         plotOptions: {
             line: {
                 dataLabels: {
@@ -397,7 +425,27 @@ let  renderhepetitiesChart = (parameters,LineChartData) => {
                 },
                 enableMouseTracking: true
             },
-            
+			 series: {
+            cursor: 'pointer',
+            events: {
+                click: function (d) {
+                   var modal = document.getElementById('myModal');
+                   var span = document.getElementsByClassName("close")[0];
+                   span.onclick = function() {
+                       modal.style.display = "none";
+                   }
+                  // // When the user clicks anywhere outside of the modal, close it
+                   window.onclick = function(event) {
+                       if (event.target == modal) {
+                          modal.style.display = "none";
+                      }
+                   }
+                   modal.style.display = "block";
+		               chartModal(d);
+                }
+            }
+        }
+
 			 },
         legend: {
             enabled: false
@@ -408,7 +456,7 @@ let  renderhepetitiesChart = (parameters,LineChartData) => {
 
 let renderHCVPrevelenceChart = (parameters,columnChartData) => {
     Highcharts.chart(parameters.container, {
-   
+
         chart: {
             type: 'column'
         },
@@ -416,7 +464,7 @@ let renderHCVPrevelenceChart = (parameters,columnChartData) => {
             text:parameters.title
         },
         xAxis: {
-            categories:parameters.categories 
+            categories:parameters.categories
         },
         credits: {
             enabled: false
@@ -428,7 +476,7 @@ let renderHCVPrevelenceChart = (parameters,columnChartData) => {
         },
 		plotOptions: {
             column: {
-               
+
                 dataLabels: {
                     enabled: true
                 },
@@ -436,7 +484,7 @@ let renderHCVPrevelenceChart = (parameters,columnChartData) => {
             }
 		},
         series: columnChartData
-		
+
 });
 }
 
@@ -457,6 +505,7 @@ let renderhcvPrevelenceChart = (parameters,multilineChartData) => {
             enabled: false
         },
         xAxis: {
+			 categories:parameters.categories ,
             title: {
                 text:parameters.xAxisText
             }
@@ -466,6 +515,10 @@ let renderhcvPrevelenceChart = (parameters,multilineChartData) => {
                 text:parameters.yAxisText
             }
         },
+		tooltip: {
+			  pointFormat: '{point.cat}: {point.y}',
+               //valueSuffix: '\xB0C'
+            },
         plotOptions: {
             line: {
                 dataLabels: {
@@ -473,7 +526,7 @@ let renderhcvPrevelenceChart = (parameters,multilineChartData) => {
                 },
                 enableMouseTracking: true
             },
-            
+
 			 },
         legend: {
             enabled: false
@@ -492,7 +545,7 @@ let renderpayermixchart = (parameters,StackedChartData)=>{
           text: parameters.title
         },
         xAxis: {
-          categories:parameters.categories 
+          categories:parameters.categories
         },
         credits: {
             enabled: false
@@ -736,7 +789,7 @@ let renderIngredientCostChart = (parameters,ingredientChartData) => {
             title: {
                 text: 'Total percent market share'
             }
-    
+
         },
         credits: {
             enabled: false
@@ -753,16 +806,16 @@ let renderIngredientCostChart = (parameters,ingredientChartData) => {
                 }
             }
         },
-    
+
         tooltip: {
             headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
             pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
         },
-    
+
         series: ingredientChartData
-        
+
     });
-} 
+}
 
 let rendercostselectionchart = (parameters,avgcostChartData) => {
     // Create the chart
@@ -786,7 +839,7 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
             title: {
                 text: 'Total percent market share'
             }
-    
+
         },
         legend: {
             enabled: false
@@ -800,13 +853,13 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                 }
             }
         },
-    
+
         tooltip: {
             headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
             pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
         },
-    
-        series:avgcostChartData 
+
+        series:avgcostChartData
     });
     }
 
@@ -877,11 +930,11 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
               series:fibrosisChartData
             });
             }
-           
+
             let rendertPatientbygenotype = (parameters,genotypeChartData) => {
             Highcharts.chart(parameters.container, {
                 chart: {
-                    type: 'column'              
+                    type: 'column'
                 },
                 title: {
                     text: ''
@@ -907,11 +960,11 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                     series: {
                         borderWidth: 0,
                         dataLabels: {
-                            enabled: false                       
+                            enabled: false
                         }
                     }
-                },        
-        series:genotypeChartData 
+                },
+        series:genotypeChartData
             });
         }
 
@@ -951,7 +1004,7 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
             let rendertprescribeChart = (parameters,prescribeChartData) => {
                 Highcharts.chart(parameters.container, {
                     chart: {
-                        type: 'column'              
+                        type: 'column'
                     },
                     title: {
                         text: ''
@@ -977,11 +1030,11 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                         series: {
                             borderWidth: 0,
                             dataLabels: {
-                                enabled: false                       
+                                enabled: false
                             }
                         }
-                    },        
-            series:prescribeChartData 
+                    },
+            series:prescribeChartData
                 });
             }
             let renderpatientsTreatmentcontainer = (parameters,patientsTreatmentcontainerChartData) => {
@@ -1021,7 +1074,7 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                 let renderdrugfibrosisChart = (parameters,drugFibrosiChartData) => {
                     Highcharts.chart(parameters.container, {
                         chart: {
-                            type: 'column'              
+                            type: 'column'
                         },
                         title: {
                             text: ''
@@ -1047,14 +1100,74 @@ let rendercostselectionchart = (parameters,avgcostChartData) => {
                             series: {
                                 borderWidth: 0,
                                 dataLabels: {
-                                    enabled: false                       
+                                    enabled: false
                                 }
                             }
-                        },        
-                series:drugFibrosiChartData 
+                        },
+                series:drugFibrosiChartData
                     });
                 }
 
-                
-    
-           
+
+				let  renderhepetitiesModalChart = (parameters,LineChartModalData) => {
+    Highcharts.chart(parameters.container, {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text:parameters.title
+        },
+        subtitle: {
+            text:parameters.subtitle
+        },
+        credits: {
+            enabled: false
+        },
+        xAxis: {
+            categories:parameters.categories ,
+            title: {
+                text:parameters.xAxisText
+            }
+        },
+        yAxis: {
+            title: {
+                text:parameters.yAxisText
+            }
+        },
+
+        plotOptions: {
+           /* line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: true
+            },*/
+			 series: {
+            cursor: 'pointer',
+            events: {
+                click: function () {
+					 /*console.log(this)
+                           var modal = document.getElementById('myModal');
+                           var span = document.getElementsByClassName("close")[0];
+                           span.onclick = function() {
+                               modal.style.display = "none";
+                           }
+                          // // When the user clicks anywhere outside of the modal, close it
+                           window.onclick = function(event) {
+                               if (event.target == modal) {
+                                  modal.style.display = "none";
+                              }
+                           }
+                             modal.style.display = "block";
+                             //document.getElementById('chartModalContainer');*/
+                }
+            }
+        }
+
+			 },
+        legend: {
+            enabled: false
+        },
+        series:LineChartModalData
+    });
+   }

@@ -3,12 +3,19 @@
     <!-- {{> PatientSideBar}} -->
 
     <div class="main-content">
+	  <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="chartModalContainer" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        </div>
+
+      </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="chart-body">
 
             <div class="top-bar">
-              <h4>Chart Tittle</h4>
+              <h4> Patients Distribution by State</h4>
               <div class="btn-group selectBox">
                 <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Select-Box
@@ -32,16 +39,16 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="us-map" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
 
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="chart-body ">
             <div class="top-bar">
-              <h4>Chart Tittle</h4>
+              <h4> Incidence in US</h4>
               <div class="btn-group selectBox">
                 <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Select-Box
@@ -65,9 +72,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="hepetitiesChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
 
         </div>
@@ -101,9 +108,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="HCVPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -133,10 +140,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="hcvPrevelenceChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
       </div>
@@ -169,9 +176,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="payermix" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
         </div>
       </div>
@@ -203,9 +210,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="markerShareOverMonthsChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
         </div>
       </div>
@@ -238,9 +245,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="prescriptionCount-rxCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -270,7 +277,7 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <table class="table table-bordered">
               <thead>
                 <tr>
@@ -339,7 +346,7 @@
               </tbody>
             </table>
 
-            
+
           </div>
         </div>
       </div>
@@ -372,10 +379,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="notalCount-IngredientCost" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
@@ -405,10 +412,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="treamentAvgCostSelection" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
       </div>
@@ -441,10 +448,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="Count-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
@@ -474,10 +481,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="tPatientsbyFibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
       </div>
@@ -510,10 +517,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="tPatientbygenotype" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
@@ -543,10 +550,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="IngredientCost-ContainerDashboard" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
       </div>
@@ -579,10 +586,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="patients-prescribed" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
@@ -612,10 +619,10 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="tPatientsBytreatment" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
-            
+
           </div>
         </div>
       </div>
@@ -648,9 +655,9 @@
               </div>
               <button type="button" class="btn btn-default btn-sm">Compare</button>
             </div>
-            
+
             <div id="fibrosis" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-            
+
           </div>
         </div>
       </div>

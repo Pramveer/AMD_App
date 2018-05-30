@@ -1,0 +1,39 @@
+body {
+  /* background-color:#fff; */
+}
+.login-Div {
+  background-color: #fff;
+  height: 100vh;
+  box-shadow: 2px 0px 17px #7b7575;
+  padding: 0;
+  z-index: 1;
+}
+.pat-img{
+  padding:0px;
+}
+.login-productLogo img {
+  height: 150px;
+  margin: 50px auto;
+  padding-left: 65px;
+}
+
+.footer-logo img{
+  height: 60px;
+  margin: 40px auto;
+  padding-left: 50px;
+}
+
+.patient-img
+	{
+    position: relative;
+
+    width: 100%;
+	}
+	.macula-img
+	{
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    left: 30%;
+
+	}

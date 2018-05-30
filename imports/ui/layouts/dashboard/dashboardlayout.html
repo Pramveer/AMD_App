@@ -1,7 +1,11 @@
 <template name="DashboardLayout">
     <div class="container-fluid">
         <div id="content" class="active">
-            {{> Header}}
+            {{#if currentuser}}
+            <div class="ps-header">
+              {{> Header}}
+            </div>
+            {{/if}}
             {{> yield}}
         </div>
     </div>
