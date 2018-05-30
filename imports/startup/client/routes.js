@@ -22,12 +22,7 @@ Router.route('/#', {
       if (JSON.parse(localStorage.getItem('user'))) {
           // isModelChanged();
       } else {
-          // highLightTab('Dashboard');
           this.layout('dashboardLayout');
-
-          // you need this because otherwise the router
-          // will not render your templates
-          // this.render();
           this.next();
       }
 

@@ -30,6 +30,11 @@ Template.Header.helpers({
                 'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
             }
         });
+    },
+    username : () => {
+      let user = JSON.parse(localStorage.getItem('user'));
+      console.log(user)
+      return user.username || 'notal';
     }
 
 });
