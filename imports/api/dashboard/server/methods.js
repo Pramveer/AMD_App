@@ -89,7 +89,6 @@ let lineChart = (result) => {
 	
  
     let year = _.groupBy(result, "FIRST_ENCT_DATE")
-     //console.log(year)
     var x = 0;
     chartData = [];
     yearData = [];
@@ -102,8 +101,8 @@ let lineChart = (result) => {
     }
 
     let lineChart = {
-        x: yearData.splice(1,4),
-        data: chartData.splice(1,4)
+        x: yearData,
+        data: chartData
     }
     return lineChart
 }
@@ -113,7 +112,7 @@ let estimatedInfectionChart = (result) =>{
 	 let chartData={}
 	 let antiHcvData=[]
 	 let hcvRnaData=[]
-    let year = _.groupBy(result, "BRTH_YR_NBR")
+    let year = _.groupBy(result, "FIRST_ENCT_DATE")
 	//filteredData = _.groupBy(result,'GENDER_CD')
 	//console.log(filteredData)
 	for (let keys in year) {
@@ -142,13 +141,13 @@ let estimatedInfectionChart = (result) =>{
     chartData = {
 		series: [{
 			name: 'Male',
-			data: antiHcvData.slice(0,4)
+			data: antiHcvData
 
 		}, {
 			name: 'Female',
-			data: hcvRnaData.slice(0,4)
+			data: hcvRnaData
 		}],
-		categories:yearData.slice(0,4)
+		categories:yearData
 	}
 
    //chartData.categories=yearData

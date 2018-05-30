@@ -37,9 +37,9 @@ let renderCharts = () => {
     LineChartParameters = {};
     LineChartParameters.container= 'hepetitiesChart';
     
-    LineChartParameters.xAxisText= 'x-axis';
+    LineChartParameters.xAxisText= 'Year';
     LineChartParameters.categories= dummyData.lineChart.x;
-    LineChartParameters.yAxisText= 'Y-Axis Text';
+    LineChartParameters.yAxisText= 'Patient Count';
     LineChartData = [{name: 'Vitamin A',data: dummyData.lineChart.data}]
     // {year: 1992, ST_CD: 1},{year: 1995, ST_CD: 12},{year: 1950, ST_CD: 13},{year: 1949, ST_CD: 31}
     // Building Data for Column Chart
@@ -49,7 +49,7 @@ let renderCharts = () => {
     // columnChartParameters.title= 'Title';
     // columnChartParameters.subtitle= 'Subtitle';
     columnChartParameters.categories= dummyData.columnChart.categories;
-    columnChartParameters.yAxisText= 'Y-Axis Text';
+    columnChartParameters.yAxisText= 'Patient Count';
     columnChartData = dummyData.columnChart.series;
     // Building Data for MultiLine Chart
     let  multilineChartData = {};
