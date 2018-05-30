@@ -9,8 +9,6 @@ Template.Dashboard.onCreated(function() {
 
 Template.Dashboard.rendered = () => {
 
-
-
   Meteor.call('getDashboardData', null, (err, res) => {
       console.log('****** RESEPONSE ****');
       console.log(err);
@@ -38,8 +36,7 @@ let renderCharts = () => {
     let  LineChartData = {};
     LineChartParameters = {};
     LineChartParameters.container= 'hepetitiesChart';
-    // LineChartParameters.title= 'Title';
-    // LineChartParameters.subtitle= 'Subtitle';
+    
     LineChartParameters.xAxisText= 'x-axis';
     LineChartParameters.categories= dummyData.lineChart.x;
     LineChartParameters.yAxisText= 'Y-Axis Text';
@@ -334,7 +331,7 @@ $.each(data, function () {
       },
 
       title: {
-          text: 'US Population'
+          text: ''
       },
 
       exporting: {
@@ -350,7 +347,8 @@ $.each(data, function () {
           backgroundColor: 'rgba(255,255,255,0.85)',
           floating: true,
           verticalAlign: 'top',
-          y: 25
+          y: 25,
+          enabled: false
       },
 
       mapNavigation: {
